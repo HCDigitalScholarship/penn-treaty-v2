@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>William Allinson Diary, Volume 1: Electronic Version</title>
+                <editor>Haverford College Quaker Collection</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>FHL staff</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Journal transcribed by</resp>
+                    <name>Crowd-sourced</name>
+
+
+                </respStmt>
+
+            </titleStmt>
+            <extent>ca. 237 KB</extent>
+            <publicationStmt>
+                <publisher>Haverford College</publisher>
+                <address>
+                    <street/>
+                    <addrLine>Haverford, Pennsylvania</addrLine>
+                    <postCode/>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of Haverford College Special COlleciotn. It may be
+                        copied freely by individuals for personal use, research, and teaching
+                        (including distribution to classes) as long as this statement of
+                        availability is included in the text. It may be linked to freely in Internet
+                        editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Haverford College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so only with the permission of
+                        Haverford College. This is the case whether the new publication will be made
+                        available at a cost or free of charge.</p>
+                </availability>
+                <date when="2016">2016</date>
+                <idno type="local">hv_allinsonw_diary_1809_v1</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Haverford College Quaker &amp; Special Collections</institution>
+                        <collection>Allinson family papers</collection>
+                        <idno>MC 968, Box 11, Folder 4</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>46 pp. (1 volume)</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The William Allinson Diary manuscript is housed at the Haverford College Quaker
+                   &amp; Special Collections</p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases. </p>
+                <p>The author of the original journal does not include page numbers on his
+                    manuscript; the page numbers have been interpolated by the transcribers to
+                    correspond with the manuscript sheets.</p>
+            </editorialDecl>
+
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in <date when="1809">1809</date></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Society of Friends</item>
+
+
+                    </list>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2016"/></item>
+
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            
+            <div type="undetermined">
+                <pb n="1" facs="hv_allinsonw_diary_1809_v1_001"/>
+                <pb n="2" facs="hv_allinsonw_diary_1809_v1_002"/>
+            </div>
+            
+            <div type="entry">
+                <pb n="3" facs="hv_allinsonw_diary_1809_v1_003"/>
+                <dateline><date when="1809-09-04">1809 9 mo &amp; 2 of the week </date><placeName
+                        key="burli"/></dateline>
+                <p>In Compliance with<lb/> an appointment of the Yearly Meeting<lb/> cont. having
+                    the care of Indian affairs<lb/> I left <placeName key="burli"
+                        >Burlington</placeName> this afternoon to pay a<lb/> visit to the
+                    settlements of Friends among<lb/> the natives called <placeName key="tunes"
+                        >Tunassassa</placeName> and <persName key="catta1"
+                        >Cat<lb/>tensgas</persName>. Lodgd at <persName key="hyarn1">Hannah
+                        Yarnalls</persName><lb/> &amp; altho both herself &amp; <persName
+                        key="jyarn1">James</persName> were fr<lb/>om home the Evening was passd
+                    very<lb/> pleasantly with the younger <unclear>John</unclear>
+                    <lb/>the Family who entertained me with<lb/> true Hospitality. My Mind has<lb/>
+                    for some Days past under considera<lb/>ble weight in the near approach of<lb/>
+                    our visitation in this Important<lb/> Embassy &amp; this Day our bidding my<lb/>
+                    Friends farewell they were brought<lb/> very near to me and a precious
+                    <gap/><lb/> Evidence accompanied that we<lb/> loved one another--a
+                    recollection<lb/> whereof I trust will be as seals to<lb/> be recived to with
+                    encouragement <lb/><pb n="4" facs="hv_allinsonw_diary_1809_v1_004"/> at a future seasons - <persName key="gdill1">Geo
+                        Dillwyn</persName><lb/> told me that when our Committee<lb/> were all got
+                    together I might deliver<lb/> them his love &amp; say that his Heart<lb/> was
+                    with the willing in Israel<lb/> &amp; last eveng in a Family sitting with<lb/>
+                    in he had something very comfortable<lb/> they shall not go forth in haste,
+                    nor<lb/> go by Flight, but the Lord shall<lb/> be upon the Head of them, and
+                    the<lb/> God of Israel shall be their Re<lb/>ward in this encouraging passage
+                    res<lb/>pecting the Chosen People he said<lb/> had been brot afresh to his
+                    remem<lb/>brance &amp; he applied it to our present<lb/> expected undertaking is
+                    Happy for<lb/> us will it be if we are so attentive<lb/> to Israels Shepherd as
+                    to know Him<lb/> to be our Leader - and our Keeper.</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-05"> 5th 3d Day Morng </date><placeName key="norrist"
+                    /></dateline>
+                <p><persName key="jbrow1">John Brown</persName> another of<lb/>
+                    our Comt met me here after Breakfast with<lb/> his son <persName key="mbrow1"
+                        >Moses</persName> who desired to accompany <lb/>
+                    <pb n="5" facs="hv_allinsonw_diary_1809_v1_005"/> us with a View to take a look at new<lb/> Lands--we left here about
+                    10 oclock<lb/> stopd a little while at <persName key="gwill1">Geo
+                        William</persName>'s<lb/>
+                    <placeName key="abing">abington</placeName> (about 10 Miles) where we met<lb/>
+                    with <persName key="twist1">Thomas Wistar</persName> &amp; <persName
+                        key="jshoe1">Jno</persName> &amp; <persName key="cshoe1">Chas</persName>
+                    Shoe<lb/>maker who a hearty fellow Labouring in the work wishd to bid us
+                    farewell<lb/> &amp; good speed on our intended journey --<lb/> leavg here we
+                    reachd <persName key="slind">Saml Lindzley</persName>
+                    <lb/> &amp; near <placeName key="plymo">Plymouth meeting House</placeName><lb/>
+                    (ab. 10 miles ) &amp; Dind on a Dish of Cof<lb/>fee at 3 oCloc-- here we
+                    were<lb/> joind by <persName key="tstew1">Tho Stewardson</persName>--a
+                    Third<lb/> member of our Com. &amp; after Din.<lb/> proceeded via <placeName
+                        key="norrist">Norris Town</placeName> (the Cap<lb/>ital of <placeName
+                        key="montg">Montgom. County</placeName>)--&amp; crosing<lb/>
+                    <placeName key="perki">Perkiomining</placeName> at Vanderslices had<lb/> got to
+                        <persName key="jjaco1">John Jacob</persName>'s about sun<lb/> set--our ride
+                    was very plea<lb/>sant being on on the Banks of the<lb/>
+                    <placeName key="schri">Schoolkill</placeName> which sometimes<lb/> opend to our
+                    View to the south<lb/>ward &amp; the prospects of the oppo<lb/>site Hills &amp;
+                    intervening Vales<lb/> were very agreeable, more exp <lb/><pb n="6" facs="hv_allinsonw_diary_1809_v1_006"/> especially
+                    to a young Traveller<lb/> unaccustomed to scenery so extensive<lb/> &amp;
+                    Diversified--a kink reception &amp; a<lb/> good supper were en<lb/>joyed at the
+                    place I believe<lb/> by us all &amp; on my part I can say<lb/> were crownd with
+                    a peaceful Mind.<lb/>
+                    <persName key="jjaco1">Jn. Jacobs</persName> is about 48 years of age--has been a<lb/>
+                    <unclear>Down</unclear> many years--is a very agreeable sen<lb/>sible Friend but
+                    in declining Health. this<lb/> is about 12 Miles from <orgName key="meetprov"
+                        >Providence Meeting House</orgName></p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-06"> Day the 6. </date><placeName key="checkPlace"
+                    /></dateline>
+                <p>All Well this morng--<lb/> after Breakfast--left <persName key="jjcao1">Jn
+                        Jacobs</persName> House &amp;<lb/> himself accompanying us ab. 8 miles
+                    out<lb/> our Way. We forded the <placeName key="schri"
+                    >schuylkell</placeName><lb/> &amp; taking the <placeName key="readi"
+                        >Reading</placeName> Road crossg<lb/>
+                    <placeName key="french">French Creek</placeName> &amp; fording <placeName
+                        key="schri">Schuylkill</placeName><lb/> again, reachd <placeName key="pottt"
+                        >Potts Town</placeName> (13 miles)<lb/> where we fed at Shiveleys
+                    Tavern--<lb/> then crossing the <placeName key="mana">Monnatawny Toll
+                        Bridge</placeName> &amp; continuing on the <placeName key="readi"
+                        >Reading</placeName> Road &amp;<lb/> up the <placeName key="schri"
+                        >schuylkill</placeName> about 8 miles--in <lb/>view of &amp; riding among
+                    the <placeName key="manam">Monnatony <lb/> Mountainsy</placeName> reachd
+                        <persName key="bwrig1">Benjamin Wrights</persName><lb/> about 1/2 part One
+                    with a good appatite<lb/>
+                    <pb n="7" facs="hv_allinsonw_diary_1809_v1_007"/> for Dinner. This is a fine Country-- ma<lb/>ny of the apple Trees
+                    are richly laden<lb/> with fruit--but we have yet seen Pea<lb/>ches in one place
+                    only &amp; there few.<lb/> The Weather has hitherto been very plea<lb/>sant. The
+                    housing is Chiefly <unclear>[?]</unclear> &amp;<lb/> many of the Roofs of the
+                    Old old buil<lb/>dings are coverd with Tiles . After 4 oclock<lb/> left
+                        <unclear>B</unclear> &amp; in about 3 Miles got into <persName key="alea1"
+                        >Amos Lea</persName>s who lives on another Branch of <placeName key="mana"
+                        >Monnotawny Creek</placeName> havg rode about 26 or 27 miles this Day.</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-07"> 7th &amp; 5th Day of the week. </date><placeName
+                        key="sunb"/></dateline>
+                <p>Left <persName key="alea1">Amos Leas</persName> after<lb/> Breakfast &amp;
+                    Crossing <placeName key="oleyh">Oley Hill</placeName> which commands<lb/> a fine
+                    view of the <placeName key="maxa">Maxatawny</placeName> Farms in about<lb/> 10
+                    miles riding got to <persName key="tligh1">Thomas Lightfoots</persName><lb/>
+                    where we Dind &amp; I finished a Letter begun<lb/> yesterday at <persName
+                        key="bwrig1">B Wrights</persName> Directed to mother &amp; left<lb/> it with
+                        <persName key="tligh1">Tho Lightfoot</persName> to put into <placeName
+                        key="readi">Reading</placeName> Post<lb/> Office on 7th Day. <orgName
+                        key="maidem">Maiden Creek Meetg House</orgName><lb/> is about a Qr. of a
+                    mile from <persName key="tligh1">Tho</persName>'s &amp; the<lb/> Creek (a fine
+                    stream) is but little further<lb/> about one oclock we left here &amp; traveld
+                    on<lb/> the <placeName key="sunb">Sunberry</placeName> Road about 13 miles &amp;
+                    then took<lb/> the <placeName key="catta">Cattarsessey</placeName>--we had the
+                        <placeName key="bluem">Blue Ridge<lb/></placeName> of mountains in view
+                    <gap/> ascending <placeName key="oleyh">Oley Hill</placeName> &amp;<lb/> at the
+                    foot of the Mountain we passd <lb/>
+                    <pb n="8" facs="hv_allinsonw_diary_1809_v1_008"/> thro' <placeName key="hambu">Hamburg</placeName>--sometimes calld
+                        <unclear>Carchers</unclear><lb/> Town--&amp; then went thro the
+                    mountain<lb/> at the Gap which may be calld the<lb/>
+                    <placeName key="schri">Schuylkill</placeName> Gap as this River not only<lb/>
+                    pushes thro it but also forks near the Cen<lb/>tre of the Mountain. Our Road lay
+                    up<lb/> the Little <placeName key="schri">Schuylkill</placeName> sometimes
+                    calld<lb/> the Tamogwaca. Our Road was a<lb/> pretty good dug Road &amp; in many
+                    places<lb/> perhaps 100 feet from the Water<lb/> they are at work at formg a
+                    Turnpike<lb/> from <placeName key="readi">Reading</placeName> to <placeName
+                        key="sunb">Sunbury</placeName>--we passd <lb/>thro many valuable Farms in
+                    this af<lb/>ternoons Ride when about the Centre of<lb/> the mountain the sun was
+                    set to us at<lb/> 10 minutes after 4 oclock--about 1/2 past<lb/> 5 we reachd
+                        <placeName key="benst">Bensingers Tavern</placeName> be<lb/>ing Calld 17
+                    Miles from <persName key="tligh1">T Lightfoots</persName></p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-08"> 8th. </date><placeName key="muncy"/></dateline>
+                <p>Rested indiferently last night--this morng<lb/> started soon after Day Break
+                    &amp; rode 7 miles<lb/> to Breakfast at <persName key="egilb2"
+                        >Gilbert</persName>s Tavern--in<lb/> comg here we passd the sicond blue<lb/>
+                    Mountains at the place calld Hollers Gap<lb/>
+                    <pb n="9" facs="hv_allinsonw_diary_1809_v1_009"/> where they have a fine saw mill sup<lb/>plied by a lively stream
+                    calld tumbling<lb/> Run--there is a good deal of Hemlock<lb/> in this Gap and
+                    the Mountain sides are<lb/> also timberd tho a Continued Pile of [Rocks?]<lb/>
+                    &amp; very steep--we found riding this morn<lb/> unpleasantly cold &amp; their
+                    Beans and<lb/> tender vegetables are quite killd with<lb/> Frost of which they
+                    have had there.<lb/> Breakfasted at <persName key="egilb2">Gilberts</persName>
+                    Tavern 7 miles &amp;<lb/> there crossd the <placeName key="tusca">Tuscarora
+                        Mountain</placeName> &amp; at its foot<lb/> the <placeName key="schri"
+                        >Schulkill</placeName>--then the <placeName key="locum">Locust
+                        Mountain</placeName><lb/> &amp; at the bottom two Branches <lb/>of
+                        <placeName key="lschr">Little Schulkill</placeName> or Temogua--next<lb/>
+                    went over the <placeName key="broam">Broad Mountain</placeName> &amp; then the<lb/>
+                    <placeName key="mahac">Mochanoy</placeName>--the largest of all the
+                    forego<lb/>ing--they &amp; the intervening vales are<lb/> covered with Chesnut W
+                    Oak White &amp; Yel Pines<lb/> Hemlock &amp; Locusts and in some places<lb/>
+                    Timberd very finely--corn, Buckwheat,<lb/> &amp;c. killd with Frost--at the
+                    Bottom of<lb/>
+                    <placeName key="mahan">Mockanoy Mountain</placeName> runs <placeName key="catta"
+                        >Cattowessey</placeName><lb/> Creek &amp; along its Edge for a great
+                    distance<lb/> was a Dug Road which though far from <lb/>
+                    <pb n="10" facs="hv_allinsonw_diary_1809_v1_010"/> the Mountain's Top in a great heighth from<lb/> the bottom of the
+                    Vale--it is calld 20<lb/> Miles from <persName key="egilb2">Gilberts</persName>,
+                    where we break<lb/>fasted, to Drexlers where we arrivd ab.<lb/> 1/2 past 12
+                    &amp; dind on our own pro<lb/>vision--Drexler furnished oats for our
+                    Hor<lb/>ses--when they done feedg we<lb/> ascended the <placeName key="lmoun"
+                        >little Mountain</placeName> (so calld)<lb/> but we all thought much the
+                    highest<lb/> &amp; steepest we had traveld over--it was<lb/> extremely Rocky yet
+                    Adornd with an<lb/> abundance of Flowers Huckelberrys &amp;c<lb/> we soon crossd
+                    the head Waters of <placeName key="catta">Cat<lb/>tawessa</placeName> Creek
+                    &amp;<lb/> a few miles from there <orgName key="meetroar">Roaring Creek
+                        &amp;<lb/> meetg House</orgName>--in 5 or 6 miles fur<lb/>ther after crossg
+                        <placeName key="catta">Cattawessy Mountain</placeName><lb/> we reached
+                        <placeName key="catta">Cattawessa</placeName>. over<lb/> the Waters of which
+                    they have<lb/> lately Built a New Bridge, coverd<lb/> in from the Weather. The
+                    Peach<lb/>es in the neighbourhood look<lb/> very healthy but the Peaches<lb/>
+                    <pb n="11" facs="hv_allinsonw_diary_1809_v1_011"/> are not yet ripe--the soil is<lb/> pretty good but very
+                    rough--we<lb/> reachd here before sunset being<lb/> about 14 miles from
+                    Drexlers<lb/> which makes 41 rode today--<lb/> we separated in this Village<lb/>
+                    <persName key="tstew1">T Stew.</persName> &amp; myself have taken<lb/> our
+                    Quarters at <persName key="bshar1">Benj. Sharplesss</persName><lb/> who mar. a
+                    sister of <persName key="ibons1">Issac Bon<lb/>sall</persName>--<placeName
+                        key="catta">Cattawessa</placeName> is a small village situ<lb/>ated at the
+                    foot of the mountain &amp; on the<lb/>
+                    <placeName key="susqu">Susquehanna River</placeName>, which we crossd in<lb/> a
+                    Boat after Breakfast being about<lb/> 1/2 a mile wide--it is often for<lb/>dable
+                    but now high--<placeName key="fishi">Fishing Creek</placeName><lb/> put into it
+                    just above &amp; it appeard in<lb/> our view in several places as we rode
+                    on<lb/> our way--then crossing the <placeName key="chill"
+                        >Chillisqua<lb/>qua</placeName> Hills--coverd principally with Pine<lb/>
+                    Chestnut &amp; Ground Oaks &amp; W oaks we got<lb/> to <placeName key="jtown2"
+                        >Jersey Town</placeName> before noon ab. 12 miles<lb/>
+                    <pb n="12" facs="hv_allinsonw_diary_1809_v1_012"/>&amp; dind on our own Provisions--Peach Trees here<lb/> look healthy
+                    &amp; are pretty full--no<lb/> marks of frost here--rode to <placeName
+                        key="muncy">Muncy</placeName><lb/> 17 miles in the afternoon--on our
+                    way<lb/> crossd the <placeName key="munmo">Muncy Mountain</placeName> at
+                    least<lb/> 3 miles across the top &amp; the <placeName key="muncr">Muncy<lb/>
+                        Creek</placeName> which is a fine stream--<lb/> lodgd at <persName
+                        key="melli2">Mercy Elliss</persName>--the Widow<lb/> of <persName
+                        key="welli1">William</persName>--our ride to day is calld<lb/> 30 Miles.</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-10"> 1st Day 10th. </date><placeName key="willi2"
+                    /></dateline>
+                <p>Attended <orgName key="muncym">Muncy Meetg</orgName><lb/> about a long Mile from
+                        <persName key="melli2">Mercy Ellis's</persName>, where<lb/> we went back to
+                    Dine havg left our<lb/> Horses to rest--<persName key="alea1">Amos
+                        Lea</persName>, an Old Woman<lb/> &amp; <persName key="jhain1">Jesse
+                        Haines</persName> appeard acceptably in<lb/> the Ministry--after Dinner went
+                    to a<lb/> little Town calld <placeName key="newbe1">Newberry</placeName> where
+                    we<lb/> lodgd at <persName key="jsloa2">Sloanes</persName> Tavern--calld 15
+                    miles<lb/> from <placeName key="muncy">Muncy</placeName>--on our way forded the
+                    Loy<lb/>al sock &amp; <placeName key="lycom3">Lycoming Creeks</placeName>,
+                    both<lb/> beautiful streams, very Clear &amp; fine<lb/> gravelly Bottoms--about
+                    3 miles back<lb/> we also passd thro <placeName key="willi2"
+                        >Williamsport</placeName> which<lb/> is the County Town their Court<lb/>
+                    <pb n="13" facs="hv_allinsonw_diary_1809_v1_013"/>House is a handsome Building--<lb/> the West Branch of the
+                        <placeName key="susqu">Susque<lb/>hanna River</placeName> lays to our left
+                    much<lb/> of our way this afternoon &amp; the loy<lb/>alsock enters into it
+                    about 1/2 a<lb/> Mile below our Fording--this Eveng<lb/> we had a little treat
+                    of Red Plumbs<lb/> very fine but not quite ripe--the<lb/> Road to Day has been
+                    very good but<lb/> the Weather Warm--Course ab. S.West</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-11"/><placeName key="checkPlace"/></dateline>
+                <p> Set off ab. 7 in the morng havg Just got<lb/> a very good Breakfast--our Course
+                    was ab.<lb/> N.West over several spurs of the <placeName key="allmo"
+                        >Allegeny<lb/> Mountains</placeName>--the last of which calld the<lb/> bald
+                    Mountain was ab. 8 Miles across<lb/> &amp; much the most steep &amp; difficult
+                    of as<lb/>cent of any before passd by us--I think <lb/>1/4 of a mile we rode on
+                    the Rocks &amp; loose Stone<lb/> that our Horses needed rest when we had<lb/>
+                    reachd the Top--those Mountains are Timberd<lb/> with Chesnut White Pine, White
+                    Oaks &amp; other<lb/> fine Timber but in places over a large Extent <lb/>they
+                    were layd Prostrate by a Hurriccane--about<lb/> 12 oClock we crossd <placeName
+                        key="larcr">Larry's Creek</placeName> &amp; stopd at a Vacant House
+                    built<lb/> by <persName key="bmorr1">Benj. Morris</persName> on Lands belongg to
+                    himself &amp; Co.<lb/> but now deserted &amp; going to ruin &amp; the
+                    Fields<lb/><pb n="14" facs="hv_allinsonw_diary_1809_v1_014"/>which were cleard at an Expense of 20 Doll.<lb/> for
+                    Acres growing up again--here we fed our<lb/> Horses with Oats bro. from
+                        <persName key="jsloa2">Sloanes</persName> &amp; let them<lb/> regale
+                    themselves with Grass which grows here<lb/> very fine--in great abundance,
+                    without en<lb/>closure a little Bread &amp; Cheese servd us<lb/> for our Dinner
+                    &amp; a Drink from <placeName key="larcr">Larrys Creek</placeName><lb/> diluted
+                    our repast--just before getting to<lb/> this House we passd thro a Swamp of
+                    White<lb/> Pine exceeding anything I had ever before<lb/> seen. <persName
+                        key="tstew1">TS</persName> told us that <persName key="jwils1">Ja.
+                        WIlson</persName> once<lb/> askd him as they were passing it whether<lb/> he
+                    thought if the Timber was all cut<lb/> into Cord Wood it could be Corded on
+                    the<lb/> Ground at the usual Cord heighth--several<lb/> of us thought in some
+                    places it would not be<lb/> done--some of the Trees I believe were<lb/> at least
+                    16 feet in circumference &amp; we sup<lb/>posed 75 to 11 feet clear of the
+                    Limbs--<lb/> this place is calld 17 Miles from <persName key="jsloa2"
+                        >Sloanes</persName><lb/> when we had finishd eatg we saddled up &amp;<lb/>
+                    proceeded 13 Miles further to <persName key="rmoor1">Rich. Moores</persName><lb/>
+                    <pb n="15" facs="hv_allinsonw_diary_1809_v1_015"/>Mill or Delmarr Post Office which is also Seated on a part of
+                    the<lb/> Lands of <placeName key="bmorr1">B. Morris</placeName> &amp; Co. as do
+                    all the Lands<lb/> we have rode over this Afternoon--being<lb/> a fine rich red
+                    mold heavily Timberd with<lb/> White Pine, Sugar Maple, Beach, Button<lb/>wood,
+                    Birch &amp; other Timbers &amp; much under<lb/> Brush. One kind calld the Trip
+                    up which<lb/> produces a Berry now red, but when ripe<lb/> nearly black--the
+                    Reds are very fond of<lb/> them &amp; we eat some--within a few miles <lb/>of
+                        <persName key="rmoor1">Rich. Moores</persName> we came to a branch of
+                        <placeName key="pinec">Pine Creek</placeName><lb/> &amp; forded it I believe
+                    at least a Dozen times<lb/> we found the Road a little muddy this after<lb/>noon
+                    but better than we expected &amp; soon<lb/> after getting in it began to rain.<lb/>
+                    <persName key="bmorr1">Benjamin Mooress</persName> Track of Land<lb/> extends
+                    about 6 miles further being ab. 19 or<lb/> 20 miles in length &amp; from 2 to 4
+                    in width<lb/>
+                    <placeName key="wells">Wellsborough</placeName> Benjamin Town is about 17 Miles
+                    from<lb/> this place, where they <unclear>[?]</unclear> Co. have<lb/> also a
+                    considerable Track of Land.<lb/> We supd with a relish on Trout, Veinoson
+                    &amp;<lb/> a Dish of Coffee &amp;c. &amp; after had a good nights Rest.</p>
+                <pb n="16" facs="hv_allinsonw_diary_1809_v1_016"/>
+                <p>I wrote home from<lb/> here directed to Sister Mary.</p>
+
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-12"> 12th. </date><placeName key="checkPlace"
+                    /></dateline>
+                <p>left <persName key="rmoor1">Rich. Moores</persName> after Breakfast<lb/> our
+                    Course nearly South East. Crossd another<lb/> spur of the <placeName key="allmo"
+                        >Allegany Mountains</placeName> descending wh<lb/> a stony muddy road is
+                    calld a mile &amp; I think<lb/> it was, so--Our Road this forenoon was very<lb/>
+                    bad with Roots &amp; mud--in ab. 14 miles riding<lb/> we put in at <persName
+                        key="jdix1">Ja. Dixons</persName>--who mar. a Daugh<lb/>ter of Ja.
+                        <unclear>J</unclear>--our intention was to feed<lb/> only but <persName
+                        key="welli1">Wm. Ellis</persName> havg given them inform.<lb/> of our comg
+                    along they had prepard a Dinner<lb/> of Venison, Ham, Cabbage, &amp; I think the
+                    best<lb/> Potatoes I ever eat--there were two Farms<lb/> adjoining &amp; two
+                    Houses <gap/> had<lb/> lived about 4 years in one of them--it<lb/> is now
+                    converted into a Barn--after <lb/>Dining we proceeded thro Road the worst
+                    <lb/>we had yet found &amp; in about 5 miles des<lb/>cended another Hill about a
+                    Mile down<lb/> in parts very steep &amp; muddy--the Timber<lb/> is principally
+                    Hemlock &amp; Sug. Maple<lb/> the soil a rich black mold or mixd<lb/> on a Clay
+                    Bottom. Our Course has <lb/>
+                    <pb n="17" facs="hv_allinsonw_diary_1809_v1_017"/> been very Crooked--first about East<lb/> then N.West &amp; toward
+                    Evening West--we<lb/> crossd the Branches of <placeName key="pinec">Pine
+                        Creek</placeName> a<lb/> great many times--&amp; <placeName key="pinec">Pine
+                        Creek</placeName> four<lb/> Times--rode about Eleven miles since<lb/> Dinner
+                    (25th Day) &amp; put in before<lb/> night at <persName key="alurm1">Aaron
+                        Lurman</persName>s small<lb/> House on the Banks of <placeName key="pinec"
+                        >Pine Creek</placeName><lb/> where they have Employd<lb/> much Labour in
+                    planting a <gap/><lb/><gap/> by makg a Stone Wall or bank<lb/> across the Creek
+                    in form of a V.<lb/>
+                    <placeName key="pinec">Pine Creek</placeName> is here a Princely Stream<lb/>
+                    quite equal I think to the <placeName key="schri">Schuyl<lb/>kill</placeName>.
+                    Our Road to Day was the most<lb/> likely to have misled us of any Day
+                    before<lb/> but at <persName key="rmoor1">Rich. Moores</persName> we met with
+                        <persName key="jnorr1">Jn. Norris</persName><lb/> who accomp. us till some
+                    miles after<lb/> Dinner--<placeName key="lycom3">Lycoming Creek</placeName> is
+                    in <placeName key="lycom1">Lycomg County</placeName><lb/> We had Trout Both for
+                    Supper &amp; Break<lb/>fast, and altho our Lodging was in Beds<lb/> of Straw our
+                    Sleep was Sweet &amp;<lb/>
+                    <pb n="18" facs="hv_allinsonw_diary_1809_v1_018"/>entertainment very pleasant. the Woman<lb/> of this house is an
+                    agreeable, obliging, tidy<lb/> Person &amp; made us heartily welcome. In<lb/>
+                    the morng we went with a young man to the<lb/> Fish Basket were we took out I
+                    believe<lb/> 4 or 5 Doz. Chiefly Trout, we went in a Canoe<lb/> ab. 40 feet in
+                    length--the first I had been in--</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-13"> 13th. </date><placeName key="pottc"/></dateline>
+                <p>Took our Course this Morng on Kings Road &amp; up <placeName key="pinec"
+                        >Pine<lb/> Creek</placeName> fording it a great many (perhaps 30)<lb/> times
+                    in about 22 miles where it heads<lb/> in the <placeName key="allem">Alleghany
+                        Mountain</placeName>, which<lb/> we here crossd over as this Mountain<lb/>
+                    is doubtless very high as we have been<lb/> now more than two Days riding up
+                    the<lb/> Waters of <placeName key="pinec">Pine Creek</placeName> which are
+                    rapid<lb/> in their Descent yet heads here. <placeName key="tstew1">Tho.<lb/>
+                        Stewardson</placeName> also told us that not only<lb/>
+                    <placeName key="pinec">Pine Creek</placeName>, but the <placeName key="sinnc"
+                        >Sinnemahoning creek</placeName> [?] with <placeName key="pinec">Pine
+                        Creek</placeName> empty up the <placeName key="susqu"
+                        >Susquehanna</placeName>
+                    <placeName key="genes2">Gennesee</placeName><lb/> &amp; <placeName key="alleg"
+                        >Allegany</placeName> Rivers all head within a little<lb/> Distance of our
+                    place of crossing (perhaps a circle of 4 Miles)--that<lb/> it is calld the
+                    highest Land in Pennsylvania<lb/> and this Mountain the Back Bone of
+                    <lb/>America--we found it muddy &amp; Stony <lb/>
+                    <pb n="19" facs="hv_allinsonw_diary_1809_v1_019"/> in our ascent but much better in<lb/> going down. it is well
+                    Timberd &amp;<lb/> a large space of land pretty level &amp; good<lb/> on the
+                    top--Our Course to day has been<lb/> mainly West--our Road Muddy &amp;
+                    rough<lb/> the worst on the whole that we<lb/> have had--the Timber in places
+                    good<lb/> but not generally so heavy as<lb/> yesterday--at <persName
+                        key="alurm1">Lurmans</persName> we put a<lb/> cake of Break in our pockets
+                    &amp; 2 Qts<lb/> of oats each in our Bags for our Horses <lb/>(being all they
+                    had threshd)--this frugal<lb/> fare was soon dispatchd about noon<lb/> at an
+                    Indian Encampment by the side of the Pine Waters,<lb/> where we stopd in the
+                    Woods there being<lb/> no House between here &amp; <persName key="alurm1"
+                        >Lurmans</persName>,<lb/> nor shall we find any they tell us<lb/> before we
+                    reach Kings set<lb/>tlement (calld <placeName key="ceres">Ceres</placeName>
+                    Town). We have<lb/> been last riding thro <placeName key="tioga">Tioga
+                        County</placeName><lb/> but are now in <placeName key="pottc">Potter
+                        County</placeName>, this<lb/> is written at William Dyres's--25<lb/> Miles
+                    from <persName key="alurm1">Lurmans</persName> which we left <lb/>
+                    <pb n="20" facs="hv_allinsonw_diary_1809_v1_020"/> this Morng - &amp; reach'd here about two Hours<lb/> before Night -
+                    They are now Clear<lb/> &amp; a New Route Rode from the head of<lb/> Delaware to
+                        <placeName key="presq">Presque Isle</placeName> which<lb/> passes by where
+                    we now are</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-14"> 14th </date><placeName key="checkPlace"
+                    /></dateline>
+                <p>a heavy Frost this morning here after <persName key="wayre1">Wm Ayres</persName>
+                    parting at <persName key="wayre1">Wm Ayres</persName> &amp; set<lb/> out &amp;
+                    passing down the <placeName key="alleg">Allegany</placeName> Hollow<lb/> with
+                    the Mountains on either hand<lb/> crossd the Head of the <placeName key="alleg"
+                        >Allegany River</placeName> another part of the <placeName key="allam"
+                        >Allegany<lb/> Mountain</placeName>, several miles in breadth<lb/> then
+                    descending into a Vale fed our<lb/> horses &amp; eat a little bread and cheese
+                    near the head Waters of the<lb/>
+                    <placeName key="osway">Oswaya Creek</placeName> which valley we con<lb/>tinued
+                    in &amp; up the <placeName key="osway">Oswaya</placeName> about<lb/> 14 miles,
+                    several times fording it<lb/> till we got to <gap/> Kings Settlement,<lb/> calld
+                        <placeName key="ceres">Ceres</placeName> Town which is situ-<lb/> ate on
+                    this Stream -- on a rich spot<lb/> of Bottom Land -- about 9 Miles<lb/> from
+                    here we saw a black Wolf<lb/> in the Road before us which gallopd <lb/>
+                    <pb n="21" facs="hv_allinsonw_diary_1809_v1_021"/> Leisurely into the woods looks back<lb/> before he turnd out, to
+                    see also way com<lb/>ing - We have seen this afternoon some of the lon<lb/>gest
+                    + tallest Pines that we have be<lb/>fore seen - the Travelling to Day not<lb/>
+                    so stony in for <unclear>grave</unclear> Jayn hurt<lb/> nor quite so. muddy but
+                    very Rooty<lb/> of, except the mountain, The Land.<lb/> more level - The
+                        <placeName key="osweg2">Oiwaga</placeName> is a fine<lb/> stream but the
+                    fall being very<lb/> gradual it moves Slowly &amp; en<lb/>ters into the
+                        <placeName key="alleg">Allegainey</placeName> about 6<lb/> miles from here -
+                    this is McKean<lb/> Country - we are 29 miles from our<lb/> last nights Lodging-
+                    I have passed but<lb/> two Habitations in which are within<lb/> about 5 miles of
+                    where we now are.<lb/> in this neighbourhood as also at <placeName key="pitts"
+                        >Pitts -.<lb/> burg</placeName> + on the <placeName key="monong"
+                        >Monongahala</placeName> The in<lb/>habitants are subject to a dwelling
+                    of<lb/> the Seek which sometimes extends <lb/>
+                    <pb n="22" facs="hv_allinsonw_diary_1809_v1_022"/> further out than the <unclear>Chain</unclear> -- it is of<lb/>ten
+                    attended with considerable Incon<lb/>venience &amp; sometimes proves Mortal,
+                    the<lb/> swelling &amp; spreading over the Body ge<lb/>nerally. The Line which
+                    Divides the<lb/> States of Pennsylvania &amp; N. York <lb/>seems so near that
+                        <persName key="fking1">Francis King</persName> told<lb/> us we might see the
+                    Timber grow<lb/>ing in the Latter &amp; that after mount<lb/>ing our Horses as
+                    we should go pretty<lb/> directly into it -- about 3/4 of a Mile - after
+                    Breakfast<lb/> &amp; tea feeling an impression to have a religious oppy in the
+                    family, they<lb/> were assembled &amp; we had a pretty <lb/>satis<lb/>factory
+                    time -- by an examination of <persName key="jadlum1">Adlums</persName><lb/> Map
+                    if appears that our <unclear>Coursmam</unclear><lb/> course from Phil. here is
+                    about North<lb/> West &amp; by West - from here to <placeName key="tunes"
+                        >Tunessasaah</placeName><lb/> West &amp; by now their round about Course by the<lb/>
+                    <placeName key="alleg">Allegany</placeName> - the <unclear>uce</unclear> to
+                        <placeName key="catta1">Catterogas</placeName> nearly North <lb/>
+                    <persName key="fking1">Francis King</persName> is a Widower his 4 Sons &amp;
+                    4<lb/> Daughters -- One Son named John &amp; 3 Daughters grown up <lb/>
+                    <pb n="23" facs="hv_allinsonw_diary_1809_v1_023"/> appear to be sensible &amp; well informed, he is<lb/> an
+                    Englishman.</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-15"/><placeName key="checkPlace"/></dateline>
+                <p>after Dining at <placeName key="fking1">F. Kings</placeName> (he
+                    accompanying<lb/> us as Pilot) we pursued our Journey, - about 1 1/2 or<lb/> 2
+                    miles of which seemd the Cap' Sheaf- Hilly<lb/> sideling- stumpy, rooty, Muddy,
+                    Loggy - rough<lb/> &amp; really dangerous so that I had several times<lb/> like
+                    to have been unhorsd. in about 5<lb/> Miles the <placeName key="alleg"
+                        >Alleghany</placeName> appeard on our<lb/> Left hand a Noble lookg Stream
+                    &amp; navi<lb/>gable with Raft &amp; Canoes - in a small<lb/> Distance further
+                    we forded the Oswaya<lb/> just before the<lb/> junction of the two Streams-<lb/>
+                    Our Road was by the side of the<lb/>
+                    <placeName key="alleg">Allegany</placeName> &amp; often on its Banks till<lb/>
+                    we got to Major <persName key="ahoop1">Adam Hoops</persName>'s about<lb/> 10 1/2
+                    Miles from <persName key="fking1">F King</persName> &amp; is in <placeName
+                        key="catta1">Cattaraugus<lb/> County</placeName>. New York State- Adams is a
+                    Bache<lb/> lor &amp; once resided in the City of <placeName key="phila"
+                        >Phil</placeName><lb/> his Brother <persName key="rhoop1">Robert</persName>
+                    lives with him &amp; was<lb/> once a Member of Congress from N. Jersey but <lb/>
+                    <pb n="24" facs="hv_allinsonw_diary_1809_v1_024"/> but is now reduced. <persName key="fking1">Francis King</persName>
+                    told us that<lb/> it was 60 Miles by Water from where<lb/> we first forded the
+                        <placeName key="alleg">Allegany</placeName> Waters to the<lb/> place we
+                    first saw it this Afternoon &amp;<lb/> that <persName key="tdutt1">Thomas
+                        Dutton</persName> &amp; Family embarkd<lb/> from this Place on a Raft for
+                        <placeName key="tunes">Tunas<lb/>sasa</placeName>- we supd &amp; Lodgd here
+                    &amp;</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-16"> 16th </date><placeName key="tunes"/></dateline>
+                <p>after Breakfasting took our Course<lb/> down the Banks of the <placeName
+                        key="alleg">Allegany</placeName> for<lb/> some Miles crossing several fine
+                    <lb/>Mill Streams, <unclear>[Oliens, Tumguya, Nsgu &amp;
+                        Teusguyowaughtee</unclear><lb/> which empty into it - about 8 miles our road
+                    was pretty<lb/> good &amp; about 15 more bad enough-<lb/> I think we passed some
+                    of the<lb/> Deepest <unclear>&amp; Coughs</unclear> that we have<lb/> had to
+                    wade thro' &amp; being only a<lb/> foot way, much overhang with<lb/> Bushes -
+                    very crooked &amp; uneven<lb/> &amp; many fallen Logs, made it ex<lb/>tremely
+                    Difficult &amp; Dangerous - the<lb/> Steeps were so great that we could <lb/>
+                    <pb n="25" facs="hv_allinsonw_diary_1809_v1_025"/> with difficulty keep our Horses in<lb/> ascending &amp; Descending
+                    - several times<lb/> we have forded the <placeName key="alleg"
+                        >Allegany</placeName>- the Sand<lb/> for the most part level &amp; little or
+                    no store<lb/> &amp; generally good but the edge of one<lb/> Mountain which we
+                    passd over<lb/> was strong. The Timber, white Pine,<lb/> White Oak &amp; Sugar
+                    Maple principally-<lb/> about Noon we put on at Peter Snyder<lb/> &amp; obtaind
+                    some Corn for our Horses of<lb/> an Indian Woman who livd Close by- some<lb/>
+                    Crackers &amp; Cheese brot by <persName key="alea1">Amos Lea</persName>
+                    servd<lb/> for our repast which being over we<lb/> mounted our Horses &amp;
+                    being now on better ground on the<lb/> Indian reservation &amp; among the
+                    settlers<lb/> the Path was more Cleard &amp; good trave<lb/>lling. we had an Old
+                    White man for<lb/> our Guide whom we met with at <persName key="ahoop1"
+                        >Adam<lb/> Hoops</persName>'s &amp; am Old Indian who had waited<lb/> at
+                        <persName key="fking1">Francis Kings</persName>, [beasing?] that we
+                    were<lb/> expected, - his name, Joshua - after<lb/> twice more fording the
+                        <placeName key="alleg">Allegany</placeName> &amp; <lb/>passing thro <lb/>
+                    <pb n="26" facs="hv_allinsonw_diary_1809_v1_026"/> the Indians Town, calld Cold Spring- we<lb/> reachd the Settlement
+                    of our Friends at Tunassassa<lb/> about 1/2 past 5 oClock, I believe<lb/> under
+                    a grateful sense that we had<lb/> been mercifully cared for &amp; helped -<lb/>
+                    along- found our Friends here well<lb/> to Wit <persName key="tdutt">Thomas
+                        Dutton </persName>&amp; Sarah his Wife<lb/> with 3 of their Children- (3
+                    more being <lb/>left behind in Pennsylvania)-<lb/>
+                    <persName key="acadw2">Agness Cadwalader</persName> - <persName key="jswai1"
+                        >Joel Swain</persName> &amp; <persName key="jthom2">Jon<lb/>athan
+                        Thomas</persName> - There are about 30<lb/> Houses in the Indian Settlement
+                    some<lb/> of them well built &amp; their Corn, beens<lb/> &amp; truck look well-
+                    they have had<lb/> no port on this River, but when we<lb/> came to where our
+                    Friends are settld<lb/> which is half a Mile from the River<lb/> the Corn &amp;
+                    Vines were killd- Cold<lb/> Spring is about 2 1/2 or 3 Miles from here-<lb/> as
+                    we rode Thro'- the Indians who saw<lb/> us lookd very pleasantly, but the<lb/>
+                    greater part of them were from home<lb/> some gone to &amp; Council at
+                        <placeName key="buffa">Buffalo</placeName> &amp;<lb/> others out a Hunting
+                    to procure Ven<lb/><pb n="27" facs="hv_allinsonw_diary_1809_v1_027"/> nison against their Brothers return, when
+                    <lb/>they are to have a Dance or religious Festi<lb/>val- </p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-17"> 17th First Day- </date><placeName key="tunes"
+                    /></dateline>
+                <p>all well this Morning<lb/> except <persName key="alea1">A Lea</persName> a little
+                    complaining- It seeming<lb/> probable that we should be detaind here lon<lb/>ger
+                    than agreeable in consequence of the<lb/> Indians absence it was thought best
+                    that a<lb/> Messenger should be dispatchd this morning<lb/> to harken their
+                    return <persName key="tstew1">T Stew<lb/>ardson</persName> therefore wrote a few
+                    lanes &amp; <persName key="jthom2">Jonathan<lb/> Thomas</persName> took Set over
+                    to <placeName key="colds">Cold Spring</placeName> agreed<lb/> with an Indian to
+                    Take it to our Friends at <lb/><placeName key="catta1">Cattaraugus</placeName>
+                    for $1.50 - being about 40 Miles<lb/> on <persName key="jthom2"
+                        >Jonathans</persName> return we set with the Fam<lb/>ily in a religious way
+                    &amp; the Meeting was satisfac<lb/>tory- after Dinner. they told us that
+                    within<lb/> a few Months two Indian Women had been<lb/> killd by the Indians for
+                    being guilty as they<lb/> adjudgd of Witchcraft- One of them I think<lb/> among
+                    the <orgName key="tuscarora">Tuscarora</orgName> Indians, they first knockd<lb/>
+                    her in the Head &amp; then threw her in the Fire<lb/> the other was an <orgName
+                        key="onondaga">Onandago</orgName> Indian who<lb/> was send (accompanied by
+                    her Husband &amp; a few of her near<lb/> Relatives to Cold Spring for trial - it
+                    was<lb/> a very small Council but on looking into her hands she was
+                    pronoun<lb/>ced Guilty of the Charge by <persName key="conud1"
+                        >Conudiu</persName> who is<lb/> calld the Old Prophet (Cornplanters
+                    Brother)- <lb/>
+                    <pb n="28" facs="hv_allinsonw_diary_1809_v1_028"/> and on considering what should be done with<lb/> her <persName
+                        key="olatt1">Old Fatty</persName> (whom we saw &amp; shook hands<lb/> with
+                    at <persName key="ssnyd1">Snyder</persName>'s Yesterday) said if he was a<lb/>
+                    younger Man &amp; able for war as he once was<lb/> he would put an End to her-
+                    on which <persName key="sunfi1">Sun<lb/> Fish</persName> immedeately caught up
+                    an axe &amp;<lb/> knockd her in the Head &amp; among them they<lb/> compleated
+                    the Massacre - Friends were<lb/> Sonorant of their procedeing till this
+                    per<lb/>petration of the act, but the Indians ap<lb/>pear dissatisfied &amp; do
+                    not like to<lb/> talk about it- The Relatives of the wo<lb/>man threaten revenge
+                    (Blood for Blood) if<lb/> ever they Catch <persName key="sunfi1"
+                        >Sunfish</persName> - to this affecting<lb/> account Joel related a pleasing
+                    counter<lb/> part. A white Trader about 5 Months<lb/> back had brought a Load of
+                    Goods up<lb/> the River &amp; among the rest some Cyder &amp;<lb/> Cyder Royal -
+                    stopping at <placeName key="colds">Cold Spring</placeName> he of<lb/>ferd them
+                    for sale &amp; the Indians not aware<lb/> of the effect of Cyder royal many of
+                    them<lb/> purchased &amp; Drank, particularly a few of their Chiefs<lb/> who
+                    collecting in their Council House<lb/> made a polic of it &amp; became
+                    Intoxicated-<lb/> this very much alarmd many of the Sober<lb/> Indians who
+                    threatned to starve his Casks <lb/>
+                    <pb n="29" facs="hv_allinsonw_diary_1809_v1_029"/> &amp; let out the Liqur &amp; if he did not go away.<lb/> they
+                    however thought it but first to come<lb/> &amp; advise with Friends &amp; with
+                    this View<lb/> several of their warriors came down<lb/> to <placeName
+                        key="tunes">Tunahasa</placeName>. on their Representation <lb/><persName
+                        key="jswai1">Joel Swain</persName> &amp; <persName key="jtayl1">Jacob
+                        Taylor</persName><lb/> went with them to their Town but the<lb/> Trader
+                    probably alarmd with the<lb/> threats of the Indians had removd his<lb/> canoe
+                    further up the Rivers, where<lb/> it is expected he disposd of his Liquors<lb/>
+                    among the White People- <persName key="jswai1">Joel</persName> said<lb/> he
+                    believd the Indians were taken<lb/> in by the Cyder ryal at
+                        <unclear>[unawares?]</unclear><lb/> not being acquainted with its
+                    strength<lb/> this afternoon 5 of the Young Indian<lb/> Women &amp; Girls come
+                    here to spin Tow<lb/> &amp; some of them his Grain to be ground at the Mill<lb/>
+                    which being done they gatherd wood &amp; pre<lb/>pared a repast - This is their
+                    common prac<lb/>tice- the first Day of the Week is no Day<lb/> of Distinction to
+                    them but their Work<lb/> Hunting or amusements are every Day<lb/> alike pursued-
+                    how far it may be rights<lb/> for our Friends to indulge or, so far, coun <lb/>
+                    <pb n="30" facs="hv_allinsonw_diary_1809_v1_030"/> countenance this disregard of the first Day<lb/> as to Grind for
+                    them &amp; to instruct them<lb/>in spinning just as on the other Days<lb/> of
+                    the Week is a query deserving con<lb/>sideration- The Flax Tow &amp; Wool<lb/>
+                    which the Indians spin here belong to<lb/> Friends as also the sping wheels-
+                    all<lb/> the Indian Girls &amp; Women who incline to<lb/> [lam?] are at liberty
+                    to come while there<lb/> are materials to work upon. their thread<lb/> &amp;
+                    yarn is tyed up separately with their<lb/> several named on each Parcel &amp;
+                    when<lb/> they have done <persName key="jthom2">Jonathan Thomas</persName>
+                    <lb/>Weaves it &amp; gives them each free<lb/> of charge as mush Cloth as
+                    their<lb/> yarn has made, which he deter<lb/>mines by the number of Cuts in<lb/>
+                    each parcel- Joel further told us<lb/> that when the Great Eclipse of the<lb/>
+                    Sun took place in 1806 they were<lb/> that Day, raising their Barn &amp;
+                    several<lb/> Indians helping them- he had told<lb/> them in the morng that at a
+                    Certain <lb/>
+                    <pb n="31" facs="hv_allinsonw_diary_1809_v1_031"/> time of the Day the sun would become Dark<lb/> this they would not
+                    believe &amp; one of them gave<lb/> him to understand that he believed he told
+                    a<lb/> Lie- when <persName key="jswai1">Joel</persName> believed it to be just
+                    coming<lb/> on he went to the House &amp; brought to the<lb/> Barn a piece of
+                    smoked Glass &amp; desired the<lb/> Indians, who disbelieved to look thro' it-
+                    he acknowledged he<lb/> saw something which he could not under<lb/>stand- when
+                    it was about half on they<lb/> lookd at it again &amp; then began to be
+                    con<lb/>vinced that it would be as Joel had represen<lb/>ted- he then told them
+                    they might see that<lb/> while People knew more than Indians &amp;<lb/> that
+                    they could tell these thing for years<lb/> before they happened- This Eclipse
+                    here<lb/> was total &amp; <persName key="jswai1">Joel</persName> said it was as
+                    Dark as it is<lb/> in a clear star light night when there is no<lb/> Moon- the
+                    Stars were then Vissible &amp; the<lb/> Darkness such as to make it Dangerous
+                    be<lb/>ing aloft in the Building- the air had the<lb/> feeling &amp; dampness of
+                    the Evening- <persName key="jthom2">Jonathan</persName><lb/> related a
+                    circumstance a little similar<lb/> of an Indian Man since he has been with<lb/>
+                    them at the time of an Eclipse of the<lb/> moon. the Indian would not believe
+                    him<lb/> till seaming obliged conviction, when wrap<lb/>ping himself in his
+                    Blanket &amp; lying down<lb/> he said he was a Poor Indian &amp; that while <lb/>
+                    <pb n="32" facs="hv_allinsonw_diary_1809_v1_032"/> Folks knew every thing- As we were<lb/> going to Bed <persName
+                        key="tstew1">T Stewardson</persName> told me that we<lb/> must return about
+                    10 miles by the same<lb/> road when we go to <placeName key="catta1"
+                        >Cattaraugus</placeName>- after<lb/> getting to Sleep I dreamd that we were
+                    on<lb/> our Way &amp; had some rugged steeps to Contend<lb/> with but my Dear
+                    Father I thought was in<lb/> Company &amp; my Companion - I then thought I had
+                    got to<lb/> Burlington &amp; met with many of my Friends there. <lb/>shook hands
+                    with James Sterling &amp; crossd<lb/> the Street desiring to go into my own
+                    Hab<lb/>itation but the Buildings seemd changed-<lb/> I then found myself
+                    setting in Unkle<lb/>
+                    <persName key="rsmit1">Robert Smith</persName>s Entry where many of my<lb/>
+                    Connections &amp; Friends came in &amp; we had<lb/> an affectionate meeting
+                    &amp; felt near to each<lb/> other but I could not reconcile being there<lb/> to
+                    my own mind- sometimes I concluded<lb/> it must be a Dream, but it continued
+                    so<lb/> long &amp; seemd so like a reality that I began<lb/> to question whether
+                    I was in my right mind<lb/> I at lenghth concluded it could not be real<lb/> I
+                    told Mother that altho mentally I was<lb/> thus with them my Body was far<lb/>
+                    distant &amp; I must return - I was begin<lb/>ning to relate my persuasion that
+                    this <lb/>
+                    <pb n="33" facs="hv_allinsonw_diary_1809_v1_033"/> was the Care to <persName key="rsmit1">Robert Smith</persName>
+                    Jun<lb/> who I also thought was there &amp; felt very<lb/> near to me, when I
+                    awoke with a sweet<lb/> Impression that though widely separa<lb/>ted in Body
+                    from my Dear Friend we<lb/> were near in the Bond of that Fellow<lb/>ship which
+                    Time nor distance cannot<lb/> prevent- the affectionate Impressions un<lb/>der
+                    which I awoke I continued for some<lb/> time to enjoy, &amp; now while writing
+                    they<lb/> revive-</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-18"> 18th </date><placeName key="tunes"/></dateline>
+                <p>several of us employd part of this<lb/> forenoon fishing in <placeName
+                        key="tunec">Tunassasa Creek</placeName> &amp;<lb/> caught between six and
+                    seven Dozen Fish which<lb/> were cookd for us in the Evening &amp; next
+                    morning.<lb/> after Dinner we took a Walk to look at a<lb/> large stone about 30
+                    feet in circumference<lb/> on the surface where of about 15 or<lb/> 18 Inches
+                    asunder were hollow spaces<lb/> a little larger than trenchers which bore<lb/>
+                    the appearance of having been done<lb/> by design yet for what purpose we<lb/>
+                    could with no Certainty Conjecture<lb/> but perhaps to pound their Corn, as <lb/>
+                    <pb n="34" facs="hv_allinsonw_diary_1809_v1_034"/> each space (except one near the middle)<lb/> was so situate to
+                    allow a very conveni<lb/>ent seat by the side of it on the stone.<lb/>
+                    <persName key="jthom2">Jonathan</persName> also entertained me by some
+                    Infor<lb/>mation of several things of which I was not<lb/> before acquainted- he
+                    says that the<lb/> Indians Reservation of Sand on the <placeName key="alleg"
+                        >Alle<lb/>gany</placeName> River is 3 1/2 Miles in length, in<lb/>cluding
+                    the stream &amp; in places more<lb/> than a mile in breadth containing<lb/>
+                    about 26,880 Acres- The <placeName key="catta1">Caterau<lb/>gus</placeName>
+                    Reservation on the <placeName key="catta1">Cateraugus</placeName> River<lb/>
+                    contains the same quantity. The<lb/>
+                    <placeName key="buffa">Buffelo</placeName> Reservation on <placeName
+                        key="buffc1">Buffelo Creek</placeName><lb/> contains 100 square Miles or
+                    64,000-<lb/> Acres- The <placeName key="tonne">Tonowonto
+                        Reserva<lb/>tion</placeName> has the same content &amp; is situ<lb/>ate on
+                        <placeName key="toncr">Tonowonto Creek</placeName>- The<lb/> Connegaugus
+                    Res.<lb/> 2 Square miles, or 1280 Acres- The<lb/> Garda 2,500 Acres. Bigtree
+                    half <lb/>
+                    <pb n="35" facs="hv_allinsonw_diary_1809_v1_035"/>
+                    <persName key="litbea1">Little beard</persName>s Town- the same &amp; <placeName
+                        key="squaw">Squaka Hill</placeName> the same, <lb/>as much very 1280 Acres
+                    and Caneadeeo 12,800 Acres<lb/> these Six last Reservations are all on<lb/> the
+                    Circumference or branches of the <placeName key="genes2">Genneseeo
+                        River</placeName> &amp;<lb/> the whole nine are reservd<lb/> by the <orgName
+                        key="seneca">Seneca</orgName> Nation of Indians-<lb/> the number of whom at
+                    their last<lb/> return, 4 years ago, was about 1800.<lb/> about 600 of which
+                    number are now<lb/> on the <placeName key="alleg">Allegany River.</placeName>
+                    The Senecas<lb/> have also a reserve of 640 Acres on<lb/> the Issue (or Issues)
+                    or <placeName key="olean">Olean</placeName> Creek<lb/> whereon is an Oil Spring
+                    from which<lb/> the <orgName key="seneca">Seneca</orgName> Oil flows in
+                    abundances<lb/> it rises on the top of the Water &amp; <lb/>is collected by
+                    Flannel Cloths in<lb/> which it is absorbd. the Indians then<lb/> boil it to
+                    separate the Water &amp;<lb/> other matter, when it is fit for Sale.<lb/> he
+                    also told of a Spring on the <placeName key="catta1">Cat<lb/>eraugus</placeName>
+                    River from whence arises a <lb/>
+                    <pb n="36" facs="hv_allinsonw_diary_1809_v1_036"/> sulpherous air which on the Appli<lb/>cation of a candle or Coal of
+                    Fire bla<lb/>zes to the heighth of about two feet<lb/> &amp; about 20 miles
+                    in<lb/> Diameter- On the Bank of the<lb/> same River about 150 feet in
+                    height<lb/> from the shore is an Antient forti<lb/>fication covering about three
+                    quar<lb/>ters of an Acre- behind which is<lb/> an Entrenchment about 10
+                    feet<lb/> in Depth having neat the middle<lb/> a level Gateway of perhaps
+                    10<lb/> feet &amp; with <unclear>[intis?]</unclear> also level- this<lb/> is
+                    supposed to have been entrench<lb/>ed by Civilized Inhabitants per<lb/>haps 2000
+                    year ago, as none<lb/> of the Indians can give any<lb/> account of it- There are
+                    two<lb/> similar fortifications on the <placeName key="alleg">Alle<lb/>gany
+                        River</placeName>, one of them on the <lb/>
+                    <pb n="37" facs="hv_allinsonw_diary_1809_v1_037"/> Indians Reserve (but they are not<lb/> quite so large) and several
+                    Mounds<lb/> containing a Chalkey substance<lb/> supposed too be Bones of
+                    Dead<lb/> Men- all bearing the same<lb/> marks of Antiquity.</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-09-19"> 19th </date><placeName key="tunes"/></dateline>
+                <p>Took an Excuition among the In<lb/>dians to Day. we set out after Break<lb/>fast
+                    accompanied by <persName key="jswai1">Joel Swain</persName> &amp; <persName
+                        key="tdutt1">Thomas<lb/> Dutton</persName> &amp; James Pinebrush am Indian
+                    assorted us with<lb/> his Canoe which we got into at the land<lb/>ing place 1/2
+                    mile from <placeName key="tunes">Tunassasa</placeName>- about<lb/> two Miles up
+                    the River went ashore at <persName key="jpine1">Ja<lb/> Pinebrushs</persName>'s
+                    House to render him some assis<lb/>tance among his Cattle- walkd from here<lb/>
+                    to Cold Spring where we helpd <persName key="nsilv1">Nicholas
+                        Sil<lb/>verheels</persName> to raise one End of his House it was<lb/> a Two
+                    Story log building very comfortably<lb/> finished with Glass Windows &amp;c.
+                    but<lb/> being on Descending Ground had setted<lb/> at the lower End, not having
+                    been proper<lb/>ly undermined- Paid a visit to <persName key="nsilv1">Nicholas
+                        Sil<lb/>verheels</persName> &amp; bought several pair of Mock<lb/>assins to
+                    take home with us- then <lb/>
+                    <pb n="38" facs="hv_allinsonw_diary_1809_v1_038"/> lookd about the Settlement &amp; went<lb/> to see <persName
+                        key="habee1">Henry Obeal</persName>, <persName key="cornp2"
+                        >Cornplanters</persName> Son, <lb/>Henry after shewing us his Potatoes<lb/>
+                    Beens &amp;c went over the River with<lb/> us to shew their Corn Field. we
+                    then<lb/> went further up the Stream &amp; lan<lb/>ded on the opposite shore to
+                    eat some<lb/> Provission brought with us it being<lb/> near Dinner time. then
+                    pushd up<lb/> to the House of the Minister, which<lb/> is painted Red &amp;
+                    white with white<lb/> Paling &amp; at a Distance looks very<lb/> smart. did not
+                    find him at home<lb/> &amp; the House was shut up. this is<lb/> about 7 Miles up
+                    the <placeName key="alleg">Allegany</placeName> from where<lb/> we first took
+                    boat &amp; we should likely<lb/> have gone further &amp; stopd at several
+                    other<lb/> places but heard that the Indians were<lb/> from home. therefore
+                    returnd &amp; made<lb/> another stop at the Town. The Indian Boys<lb/> here
+                    shewd us their Dexterity with Bows &amp;<lb/> arrows &amp; Blow Guns &amp;
+                    arrows. shoating <lb/>
+                    <pb n="39" facs="hv_allinsonw_diary_1809_v1_039"/> down several Birds calld Cross Bills in<lb/> presence of our
+                    Company- As we went up<lb/> the <placeName key="alleg">Allegany</placeName> we
+                    saw a number of Allega<lb/>tors lying at the bottom of the River, two<lb/> of
+                    which <persName key="jpine1">James Pinebrush</persName> struck with his<lb/>
+                    setting Pole &amp; bro. them to the top of the<lb/> water for us to look at, but
+                    said they were<lb/> too ugly to put into the Canoe- they were <lb/>about 15
+                    Inches in length had 2 feet &amp;<lb/> at first view bore some semblance to
+                    a<lb/> Dirty Mud Catfish- they are rather stupid<lb/> &amp; inactive. the
+                    Indians Corn &amp; other Truck<lb/> look pretty well but tis said not quite
+                    so<lb/> good as usual &amp; more weedy owing to the<lb/> Coldness &amp; Wetness
+                    of the season- they use<lb/> the Hoe principally in preparing for &amp;
+                    tend<lb/>ing their Crops. it is said they have im<lb/>provd in Cleanliness in
+                    their Habitations<lb/> but they are still Dirty- as also in their<lb/> Persons.
+                    Beside the Reservations of Land mentiond<lb/> in the foregoing notes. <persName
+                        key="cornp2">Cornplanter</persName> &amp; some<lb/> other of the Chiefs have
+                    several Grants <lb/>
+                    <pb n="40" facs="hv_allinsonw_diary_1809_v1_040"/> in Fee. These Reservations were made<lb/> to the <orgName
+                        key="seneca">senecas</orgName> when they sold the Residue<lb/> of their
+                    Lands to <persName key="rmorr1">Rob. Morris</persName>--apart of the<lb/>
+                    purchase money for which was paid &amp;<lb/> the residue vested in Bank Stock
+                    which<lb/> now produces an Annuity to them of<lb/> Six Thousand Dollars &amp;
+                    when divided<lb/> is about four Dollars pr head. Of this<lb/> they all recieve
+                    equally, an Infant draw<lb/>ing as much as its Parents, or as a Chief.<lb/>
+                    Except the Private Grants to the Chiefs<lb/> &amp; some specific Annuities to
+                    six of them which an<lb/>nuities are to cease when the Die. They<lb/> have no
+                    pecuniary advantage above<lb/> other Indians neither have they any<lb/> other
+                    Power of authority that their<lb/> Weight &amp; Influence gives them.<lb/> this
+                    is acquired by their Wisdom<lb/> in Council or Exploits in War, &amp;<lb/>
+                    sometimes both &amp; while they Contin<lb/>ue to hold the good opinion &amp;
+                    Respect <lb/>of their Nation they are advised with &amp;<lb/> lookd up to in all
+                    Cares of Difficulty <lb/>
+                    <pb n="41" facs="hv_allinsonw_diary_1809_v1_041"/> but when this good opinion Ceases they are<lb/> discarded from
+                    their Councils--they are app<lb/>ointed by the other Chiefs &amp; Indians when
+                    assembled by Council.<lb/> The <orgName key="seneca">Senecas</orgName>, <orgName
+                        key="mohawk">Mohawks</orgName>, <orgName key="cayuga">Cayugas</orgName>,<lb/>
+                    <orgName key="onondaga">Onandago</orgName>'s, <orgName key="tuscarora"
+                        >Tuscarora</orgName>'s, and <orgName key="oneida">Oneida</orgName>'s<lb/>
+                    are calld the <orgName key="sxntns">Six Nations</orgName> &amp; are all<lb/>
+                    principally in the state of New York<lb/> except the <orgName key="mohawk"
+                        >Mohawks</orgName> who mostly<lb/> reside on <placeName key="grand">Grand
+                        River</placeName> in upper<lb/> Canada. Most of there Nations are<lb/>
+                    Diminished but particularly the <orgName key="seneca">Sen<lb/>ecas</orgName> who
+                    were once very powerful--<lb/> these several Nations are divided into<lb/>
+                    Tribes. The Tribes of the <orgName key="seneca">Senecas</orgName> &amp;
+                    their<lb/> Chiefs are as follow--vis the<lb/> Wolf Tribe which has for Chiefs
+                        <persName key="cornp2">Cornplanter</persName>, <persName key="conud1"
+                        >Con<lb/>nudiu</persName>, Tickyando and Strong--the<lb/> Bear Tribe,
+                        <persName key="jpier1">John Pierce</persName>, <persName key="crow1"
+                        >Crow</persName> &amp; <persName key="halft1">Halftown</persName><lb/> Deer
+                    Tribe--Josiah, <placeName key="olatt1">Old Fatty</placeName>, &amp; Snipe<lb/>
+                    Snipe Tribe--Te us se was sy, <placeName key="ylatt1">young Fatty</placeName>,<lb/>
+                    <persName key="hobea1">Henry Obeal</persName> &amp; <persName key="cobea2"
+                        >Charles Obeal</persName>,<lb/> Turtle Tribe--<persName key="bleye1">Blue
+                        Eyes</persName> &amp; Much,<lb/> Crane Tribe--<persName key="jsilv1">Johnson
+                        Silverheels</persName><lb/> Beaver Tribe--<persName key="jtall1">Tall
+                        John</persName>, &amp; the<lb/> Hawk Tribe--<persName key="jsnow3">Jacob
+                        Snow</persName>
+                </p>
+
+            </div>
+            <div type="entry">
+                <pb n="42" facs="hv_allinsonw_diary_1809_v1_042"/>
+                <dateline><date when="1809-10-03">3</date><placeName key="tunes"/></dateline>
+                <p>The Indians of the Settlements generally<lb/> abstain from the use of Spiritious
+                    Li<lb/>quors so that it has become very rare<lb/> to see one of them
+                    Intoxicated. Since which<lb/> they seldom quarrel or fight among<lb/> themselves
+                    but live in Harmony toge<lb/>ther--this Disposition they endeavour<lb/> to
+                    Cultivate among the Children &amp;<lb/> hence they rarely differ as is very<lb/>
+                    common with Boys. Their Dress<lb/> is yet for the most part in the Indian<lb/>
+                    Stile but an Immitation of the mode<lb/> of Dress used among the Whites is
+                    in<lb/>creasing among them--they are natu<lb/>rally avaricious &amp; saving
+                    &amp; not being so<lb/> liable to Imposition as when they drank<lb/> Spirits,
+                    some of them are growing rich--<lb/> but other expend their earnings in
+                    Trin<lb/>kets &amp; Finery--the desire for Trinkets<lb/> seems however abating.
+                    Altho mostly<lb/> Ingenious quick of apprehension &amp; keen<lb/> in penetration
+                    they are many of them very<lb/> Ignorant &amp; helpless, inclinable to Indolence
+                    &amp;<lb/> cannot readily reconcile themselves to <lb/>
+                    <pb n="43" facs="hv_allinsonw_diary_1809_v1_043"/> Labour. this however is not the case<lb/> with all &amp; their
+                    prejudices have some share<lb/> in continuing this disinclination to Labour<lb/>
+                    among the Men--as it was formerly accounted<lb/> Disreputable &amp; degrading
+                    for them to do what<lb/> was considered the Womens Business. The<lb/> Men Built
+                    the House &amp; Hunted to procure<lb/> Meat &amp; Skins--the Women Hoed the
+                    Ground<lb/> planted, tended &amp; gathered the Corn, then poun<lb/>ded &amp;
+                    cookd it--cut the Wood &amp; brought it<lb/> home--carried home the Deer Elk
+                    &amp;c which<lb/> their Husbands had killd in hunting--brought<lb/> him Water,
+                    in short did the laborious bu<lb/>siness principally--these prejudices are<lb/>
+                    wearing off since the settlement of Friends<lb/> among them--the men both Old
+                    &amp; young<lb/> now turn out in the spring of the Year &amp;<lb/> fall Timber
+                    &amp; split Rails--make the Fen<lb/>ces &amp; assist in preparing the Ground
+                    for<lb/> Planting. for this purpose the Plow is some<lb/> times used but more
+                    commonly the Hoe,<lb/> some of the men assist also in tending<lb/> the corn
+                    throughout the season &amp; do not<lb/> so much as formerly require the
+                    Wo<lb/>men to wait on them as perform every<lb/> trivial service. I saw one of
+                    their<lb/> Boys hawling stone with a sled &amp; oxen <lb/>
+                    <pb n="44" facs="hv_allinsonw_diary_1809_v1_044"/> which he drove with Considerable judg<lb/>ment &amp; appeard pleasd
+                    with his per<lb/>formance this he would have once been<lb/> hooted at for &amp;
+                    perhaps his Bow &amp; arrow<lb/> taken from him- formerly if a man took<lb/>
+                    hold of a Hoe to use it the Women would set down<lb/> his Gun by way of derision
+                    &amp; put the<lb/> Hoe in its place would laugh &amp; say<lb/> such a Warrior is
+                    turnd is turned Woman&amp;<lb/> When a Young Man inclines to marry<lb/> &amp;
+                    makes Choice of a Young Woman, he<lb/> acquaints his Mother or eldest Sister
+                    of<lb/> his Wish- one of them goes to the Mother<lb/> or eldest Sister of the
+                    Young Woman with<lb/> his proposal of marriage &amp; they commu<lb/>nicate it to
+                    her- about this Period of the<lb/> Courtship the Young Man presents the<lb/>
+                    Young Woman or her Father with a pre<lb/>sent of Broaches, Ear bobs or other
+                    Trinkets<lb/> to the value of about 6 to 10 Dollars<lb/> if his offer or
+                    proposal of marriage is<lb/> not accepted the present is returnd<lb/> to him but
+                    if after considering it for<lb/> some Days, it is satisfactory to her,<lb/> her
+                    Mother or Sister accompany her <lb/>
+                    <pb n="45" facs="hv_allinsonw_diary_1809_v1_045"/> to the Young Mans House &amp; present<lb/> her to him- the Mother
+                    or Sister then<lb/> withdraw &amp; she stays with her proposed<lb/> Husband- As
+                    the seasons for Planting<lb/> hoeing gathering Corn, procuring Fire<lb/> wood
+                    &amp; other Business come on, the fe<lb/>male connections of the Young
+                    Woman<lb/> assist her in the different opperations<lb/> during the first year at
+                    the End of<lb/> which without any other Ceremony<lb/> the Marriage is<lb/>
+                    considerd valid &amp; Honorable. they some<lb/> times however take a shorter
+                    way<lb/> for it &amp; too commonly part again<lb/> on small disagreements, both
+                    parties<lb/> afterward taking other companions<lb/> there are now many among
+                    them in<lb/> this circumstances</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-10-05">5</date><placeName key="tunes"/></dateline>
+                <p>Their antient opinion respecting<lb/> Thunder was that a Being whom they
+                    calld<lb/> Eno went <unclear>[some was?]</unclear> Great Spirit Inhabiting the
+                    Southern Mountains<lb/> &amp; having a Short Gun was in the practice<lb/> of
+                    discharging it at his pleasure some<lb/> times striking the Trees &amp;
+                    Splitting them <lb/>
+                    <pb n="46" facs="hv_allinsonw_diary_1809_v1_046"/> to shew his great strength &amp; Power.<lb/> He lived on large
+                    Snakes &amp; Wild Beasts<lb/> &amp; was always a Friend to the Indians<lb/> tho'
+                    he sometimes killd white People-<lb/> this notion now obtains very little credit
+                    with them</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1809-10-06">6</date><placeName key="tunes"/></dateline>
+                <p>They sometimes hunt near home &amp; some<lb/> times go to the Distance of many
+                    Days Journey<lb/> in which case the Wife &amp; Family have been accustom<lb/>ed
+                    to go with their Husband. He builds them a Cabin<lb/> &amp; then takes his
+                    Course generally or Down up some<lb/> making a Kind of Bath by breaking down the
+                        <unclear>[Reapers?]</unclear><lb/> Stream of Water- if he kills a Deer or
+                    other<lb/> Arrival, he hangs it in a Tree &amp; then makes<lb/> his way to his
+                    Path along the Water <lb/>course break the bushes down from<lb/> the Deer till
+                    he reaches it- he then<lb/> scrapes with his feet in the Leaves or<lb/> Snow
+                    &amp; there are his marks for his<lb/> Wife to find their Game- he then
+                    pur<lb/>sues by <unclear>[bremting?]</unclear> &amp; if he kills 3 or 4<lb/> or
+                    half a Dozen Deer marks his path<lb/> from them in the same way- in the<lb/>
+                    Evening he returns to his Cabin tird<lb/> with his Days Toil &amp; his Wife gets <lb/>
+                    <pb n="47" facs="hv_allinsonw_diary_1809_v1_047"/> him his Supper if she has any thing to<lb/> prepare he then tells
+                    her how many<lb/> Deer he has Killd &amp; where to find them<lb/> &amp; off she
+                    goes next morning directed by his marks &amp;<lb/> broken topd Bushes &amp;
+                    brings them home<lb/> on her back often from a great distance<lb/> &amp; with
+                    [meak?] Labour-/> If the man is<lb/> benighted at too great a Distance to<lb/>
+                    get to his Cabin &amp; has killd a Deer it<lb/> is not uncommon to strike up a
+                    Fire<lb/> &amp; making a Spit of a Sharp Stick roast<lb/> a [Hasp?] of his Deer
+                    which he be<lb/>gins to eat as soon as one side is done<lb/> &amp; so continues
+                    eating as his Vension<lb/> cooks sometimes till the whole Ham con<lb/>sumed Joel
+                    told me that some of<lb/> the Indians when very hungry would<lb/> eat a Ham of
+                    Venison without<lb/> Difficulty- this practice of Hunting still Continues
+                    ex<lb/>cept tat the further of bringing home the Deer<lb/> is not so commonly
+                    put upon the Wife.<lb/> Indians sometimes eating so much at one<lb/> time is
+                    accounted for from their often fasting<lb/> a long time, sometimes several Days,
+                    &amp; when<lb/> they get Venison it is often eaten alone <lb/>
+                    <pb n="48" facs="hv_allinsonw_diary_1809_v1_048"/> without Salt, Bread or Vegetables, till<lb/> they quite loathe it-
+                    when they go on an<lb/> Expedition either for Hunting or War, they<lb/>
+                    frequently take with their only a little par<lb/>ched corn pounded with some
+                    sugar this is<lb/> light of Carriage &amp; nourishing &amp; on such<lb/> a Diet
+                    they will sustain great hardships<lb/> for many Days. H told us that when<lb/>
+                    he was once in this Country, several years<lb/> back, an Indian was going with
+                    them<lb/> a Journey of Two Days (Perhaps for a Guide)<lb/> on enquiry they found
+                    he had brought no<lb/> Provision &amp; asking why he came without,<lb/> he
+                    replied- Hoh! I eat enough before<lb/> leaving home to last two Days- I am
+                    no<lb/> Child- I am a Man ~ When at home<lb/> they are in the general moderate
+                    in their<lb/> Eating-<lb/> The Indians generally meany Young-the<lb/> Male, not
+                    unfrequently between fourteen<lb/> &amp; Eighteen and the Females from
+                    twelve<lb/> to sixteen- it is also common for many of the<lb/> Children to die
+                    before they are 4 years Old-<lb/> but of those who survive that age in a
+                    gener<lb/>al way it is supposed they exceed us in <lb/>longevity </p>
+            </div>
+            
+            <div type="undetermined">
+                <pb n="49" facs="hv_allinsonw_diary_1809_v1_049"/>
+                <pb n="50" facs="hv_allinsonw_diary_1809_v1_050"/>
+                <pb n="51" facs="hv_allinsonw_diary_1809_v1_051"/>
+                <pb n="52" facs="hv_allinsonw_diary_1809_v1_052"/>       
+            </div>
+            
+        </body>
+
+
+    </text>
+</TEI>

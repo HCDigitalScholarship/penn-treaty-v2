@@ -1,0 +1,2062 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>The Bank of Faith and Works United: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Emma Remsberg</name>
+                </respStmt>
+
+
+            </titleStmt>
+            <extent>ca. 182 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2015">2015</date>
+                <idno type="local">SW_Ripley</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct type="book">
+
+                    <monogr>
+                        <author>Dorothy Ripley</author>
+                        <title>The Bank of Faith and Works United</title>
+
+                        <idno>Bx7795.R58A3</idno>
+                        <imprint>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <publisher>J.H. Cunningham</publisher>
+                            <date when="1819">1819</date>
+
+                        </imprint>
+
+                    </monogr>
+                </biblStruct>
+
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <projectDesc>
+                <p>Native Americans and Quakers: An Electronic Collection </p>
+            </projectDesc>
+            <editorialDecl>
+                <p>This electronic editon of The Bank of Faith and Works United is only the section,
+                    pages 74-129, having to do with Ripley's travels among Native American groups in
+                    upstate New York.</p>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of her book, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="lcsh">
+                    <list>
+
+
+
+
+                        <item>Indian reservations</item>
+                        <item>Indians of North America--Missions</item>
+                        <item>New York (State)--Description and travel</item>
+                        <item>Pennsylvania--Description and travel</item>
+
+
+
+                        <item>Seneca Indians</item>
+                        <item>Society of Friends--Missions</item>
+                        <item>Voyages and Travels</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2015"/>POD edit</item>
+
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+
+        <body>
+            <div type="entry">
+
+                <pb n="74" facs="Ripley074"/>
+                <p>Three of my own sex gave me fifteen dollars, and I<lb/>set off for <placeName
+                        key="utica">Utica</placeName>, ninety-six miles, which was a long
+                    ride<lb/>for the first day. After I had gone into the Inn, a poor<lb/> woman and
+                    three children, came to ask a drink of water.<lb/>They told her to go the bar
+                    for it, but she returned back,<lb/>saying, <said>No one is there.</said> My
+                    Merciful Jesus bid me<lb/>rise and carry this woman a glass of water, which I
+                    did<lb/>immediately: and while I stood by her, a solemn awe<lb/>clothed my mind,
+                    which when I sat down, affected my<lb/> heart so much, that it seemed like a
+                    dagger run into me.<lb/>I enquired of my Master Jesus what ailed her, and
+                    He<lb/>replied, that <said>She has no money, and thou must go and<lb/>see in the
+                        yard for her.</said> I went directly, and saw her<lb/>wringing her hands in
+                    the yard, crying out, <said>Whatever<lb/> shall I do? whatever shall I
+                        do?</said><said who="dripl1">What is the matter<lb/> with thee?</said> said
+                    I, to which she answered, <said>I am here a<lb/> stranger, and know not any
+                        person, and I have not one<lb/><pb n="75" facs="Ripley075"/> shilling in the world, and have
+                        one hundrend miles to go,<lb/>to my husband, who is at a new plantation. I
+                        have come<lb/>one hundred miles, where we have moved from, and
+                        yes-<lb/>terday I had my pocket book, with my money; but have<lb/>lost it,
+                        and yet I know not how or where!</said> I went into<lb/>supper, being sent
+                    for, with a pitiful tale, to the company<lb/> who eat with me, which consisted
+                    of eight merchants, and<lb/>one female; but no impression could be made on
+                    any<lb/>heart, by my arguments of wo, to alleviate the wretched<lb/>situation of
+                    this poor woman, and her three children!<lb/> therefore, my Gracious God moved
+                    my soul to go and give<lb/>her a part of my money, with this message, <said
+                        who="dripl1">I can but<lb/>tell thee of one Friend, and that is God; take
+                        this money,<lb/>and He who has provided this for thee to-day, will
+                        pro-<lb/>vide for thee to-morrow: trust in Him.</said> I suppose
+                    this<lb/>person was as much astonished as she could be; for she<lb/> had got
+                    into the waggon to set off, the sun being gone<lb/>down. What a compassionate
+                    Friend is our Heavenly<lb/>Father! and how mindful is He of all His creatures,
+                    who<lb/>are scattered up and down over the earth! having always<lb/>servants at
+                    hand, to do His Work for Him; unless He in-<lb/>tends to honour any of His
+                    children, with His extraordina-<lb/>ry Love, as He did when He led through the
+                    Red Sea six<lb/>hundred thousand men, besides women and children, for<lb/>whom
+                    the waves divided at the Presence of Jehovah, who<lb/>appointed them at the
+                    first their secret bars.</p>
+                <p>The <date when="1805-07-26">26th</date> I got to <placeName key="verno"
+                        >Vernon</placeName>, and was introduced to <persName key="cyoun1"
+                        >Cal-<lb/>vin Young</persName>, who was Innkeeper there. The stranger
+                    that<lb/>requested <persName key="cyoun1">Calvin Young</persName> to be a father
+                    to me, came pas-<lb/>senger from <placeName key="utica">Utica</placeName>, and
+                    was like a brother to me, reward-<lb/>ing the mercy I manifested the day before.
+                    How many<lb/>times we lose the blessing of God, for want of searching<lb/>out
+                    the miseries of mankind, and supplying them out of<lb/>our little stock, which
+                    is the Lord’s, to do his Will!</p>
+                <p>The <date when="1805-07-27">27th of 7th mo. 1805</date>, <persName key="cyoun1"
+                        >Calvin Young</persName> said he would<lb/>go with me to <placeName
+                        key="oneic">Oneida Castle</placeName>, to see the Indians of the
+                    Six<lb/>Nations, and particularly <persName key="jsken1">Skanando</persName>,
+                    the oldest Chief, who<lb/>was a great favourite of his, from his sobriety.
+                    Before I <lb/><pb n="76" facs="Ripley076"/>went, I enquired of <persName key="cyoun1">Calvin
+                        Young</persName>, what I was in debt to<lb/>him, having had lodgings and
+                    three meals: but his answer<lb/>was, <said who="cyoun1">I am paid.</said>
+                    <said who="drip1">Who has paid thee?</said> said I; my friend<lb/>replied, <said
+                        who="cyoun1">All I have is lent, and so long as you can be of<lb/>service to
+                        the Indians, you are welcome to stay at my<lb/>house as a daughter; and I
+                        will be to you as a father.</said><lb/>This so astonished me, that I could
+                    not say more than<lb/>this at the time, <said who="dripl1">I am glad thou dost
+                        consider all though<lb/>hast as lent;</said> he then assured me, that I
+                        <said who="cyoun1">Was welcome<lb/>to a horse, or a chaise, and that I
+                        should have the compa-<lb/>ny of him, or his wife, or daughters, any time
+                        when I<lb/>wanted to ride out;</said> so that I was humbled to the
+                    dust,<lb/>and saw the fulfilment of the promise of the Lord imme-<lb/>diately;
+                    for this man was no professor of religion, but<lb/>stumbling thereat; because
+                    the ministers who were in<lb/>this part, he said, <said who="cyoun1">Were no
+                        better than others, and if he<lb/>ever were converted it should be by a
+                        woman’s preaching,</said><lb/>which gave me to believe the Lord had sent me
+                    to his<lb/>house to seek after his precious soul, being a
+                    merciful<lb/>kind-hearted man. We had a pleasant ride to the Chief’s<lb/>house,
+                    which was a good framed building of wood, paint-<lb/>ed red, two stories high,
+                    and two rooms on a floor.<persName key="jsken1">Ska-<lb/>nando</persName>, the
+                    Chief, was pleased to see me and shewed me<lb/>his wife, introduced his
+                    children, grand-children, and<lb/>great-grand-children with joy and happiness,
+                    such I pre-<lb/>sume, as we do not expect, when we look at their
+                    condi-<lb/>tion, as the heathen. <persName key="jsken1">Skanando</persName>
+                    tried to number is pos-<lb/>terity by counting his fingers many times over, and
+                    then<lb/>laughed heartily, and cried out, <said who="jsken1">I cannot
+                        tell:</said> for I made<lb/>this enquiry, <said who="dripl1">How many
+                        children, and grand-children<lb/>hast though?</said> My soul was so highly
+                    gratified, that I gave<lb/><persName key="jsken1">Skanando</persName> a pair of
+                    red stone silver buttons, which was<lb/>the only thing I had belonging to my
+                    honored mother,<lb/>who was dead: for the Chief had a shirt on, with
+                    his<lb/>sleeves hanging loose, and was without any coat at this<lb/>time. He was
+                    ninety five, or six years old, and put his<lb/>hands together, desiring to live
+                    to be one hundred; lifting<lb/>up his eyes to Heaven, with a blessed smile. My
+                    friend <lb/><pb n="77" facs="Ripley077"/>/><persName key="cyoun1">C. Young</persName> told me that
+                        <persName key="jsken1">Skanando</persName> was never once intoxi-<lb/>cated,
+                    and was looked unto with great respect as king of<lb/>those Six Nations. The
+                    wife of this Chief went into the<lb/>garden and plucked me seven ears of corn
+                    just ripe,<lb/>saying, <said>Seven is a goodly number, must have
+                    seven:</said><lb/>being pleased with some spoons and coffee, with a
+                    tin<lb/>boiler, which I had given her. I told my friend <persName key="cyoun1"
+                        >Calvin<lb/>Young</persName> to leave me till the evening, among them,
+                    and<lb/>I would go from hut to hut: so he did, and I went to one<lb/>house which
+                    was very neat, with a curtain bed, whose<lb/>husband was a Frenchman, and she
+                    was handsome, and<lb/>had some beautiful children: but was very dirty
+                    for<lb/>want of washing herself, which I made a move for her to<lb/>do. I was
+                    happy to see my friend, when he came for me;<lb/>having not to eat any thing all
+                    the day; and rejoiced much<lb/>in my heart, that my eyes have seen this people,
+                    which had<lb/>many times been shown me in a vision by the Lord, who<lb/>has
+                    brought me here to see a part of the workmanship of<lb/>His Hand; whom our Lord
+                    Jesus Christ died for, when<lb/>He yielded up His Soul an Offering for sin: but
+                    I was<lb/>much distressed with seeing number of drunken In-<lb/>dins, who came
+                    this night and lay in the ditch: I thought<lb/>the devil sent them; for they
+                    came and lay down close<lb/>by the Inn where I was. I counted six who were
+                    yelling<lb/>like wild beasts; and had it not been for the goodness of<lb/>my
+                    God, who sent a number of young neat squaws, well<lb/>dressed on horse back, I
+                    think my mind would not have<lb/>been able to support under the wretchedness of
+                    those<lb/>miserable Indians, who were leveled with the beasts by<lb/>their
+                    shameful conduct.</p>
+                <p>One woman, of the name of <persName key="tally1">Tally</persName>, was among
+                    the<lb/>squaws, who came early this morning, and she told me,<lb/>that <said
+                        who="tally1">She had been to see a <persName key="conud1">new prophet</persName>, which has risen<lb/>up from
+                        among an Indian tribe two hundred miles off.<lb/><persName key="tally1"
+                            >Tally</persName> said that this prophet told her, He was
+                        formerly<lb/>very wicked and much given to strong drink; but being<lb/>sick
+                        for three years, he became sober, and one day as he<lb/>sat by the bed side,
+                        one knocked at the for, which the <lb/><pb n="78" facs="Ripley078"/>prophet opened, and saw a
+                        person standing, who enquired<lb/>if he loved God? to which the prophet
+                        answered, <said>Yes I<lb/>do,</said> then said the stranger, <said>You must
+                            go with me,</said> to<lb/>which the prophet agreed and went out, and saw
+                        other two,<lb/>like the person who rapped at the door, who joined<lb/>them,
+                        which he believes to be three angels. The old In-<lb/>dian prophet said,
+                        that after they led him some distance<lb/>from his habitation, they
+                        commanded him to look down,<lb/>where was presented to his view Jesus
+                        crucified, which he<lb/>gazed at some time.</said>
+                    <persName key="tally1">Tally</persName> the stopped, and hung down<lb/>her head
+                    with eyes full of teas, that she prevented with<lb/>her fingers, until the
+                    fountains flowed, over, which affect-<lb/>ed me so much, that I gave her my
+                    handkerchief to wipe<lb/>the tears away, saying, <said who="dripl1"><persName
+                            key="tally1">Tally</persName>, keep it for my sake:</said>
+                    be-<lb/>lieving she was sensible of the Love of a Dying Jesus.<lb/>We both sat
+                    silent, weeping very much, and I felt my<lb/>soul drawn out in fervent
+                    supplication that this young<lb/>Indian woman might feel the virtue of his
+                    Death. What<lb/>undescribable peace did I feel, while hearing of the
+                    con-<lb/>version of this pagan? how was my soul overcome with<lb/>love also to
+                        <persName key="tally1">Tally</persName>, whom I requested to proceed
+                    when<lb/>the torrent had got vent from her eyes? I never felt be-<lb/>fore as at
+                    this time, when we wept in solemn silence, re-<lb/>specting the Crucifixion of
+                    the Blessed Jesus. At last<lb/><persName key="tally1">Tally</persName> broke the
+                    silence, lifting up her head, and open-<lb/>ing her eyes, <said who="tally1">The
+                        angels, said <persName key="tally1">Tally</persName>, led the
+                        prophet<lb/>further, and shewed him a large pit, which was called
+                        hell,<lb/>where he saw the wicked fight, and quarrel, while
+                        they<lb/>appeared drinking and in wickedness, as on earth. After<lb/>this he
+                        was conducted to a place of happiness, called<lb/>Heaven, where he saw God
+                        the Father, and Jesus Christ,<lb/>sitting at His Right Hand of Glory in
+                        perfect bliss, among<lb/>the angels.</said>. <persName key="tally1"
+                        >Tally</persName> intimated, that the prophet did not<lb/>continue long in
+                    this blessed state, but was conveyed<lb/>back again by the angels, to his own
+                    house, where they left<lb/>him, commanding him to <said>Refrain from sin, and go
+                        and<lb/>preach to his brethren the Indians.</said> I asked <persName
+                        key="tally1">Tally</persName> how<lb/>long she was at this prophet’s house?
+                    and she answered, <lb/><pb n="79" facs="Ripley079"/><said who="tally1">Three days</said> and had
+                    this advice from him, her husband<lb/>being present, <said who="tally1">We were
+                        not to drink, lie, cheat, nor<lb/>steal, to correct our children, but not to
+                        whip them too<lb/>much; and when any of our Nation was sick, we
+                        must<lb/>visit, and be kind to them.</said> It was last summer that
+                        <persName key="tally1">Tal-<lb/>ly</persName> was there with her husband.
+                    She also added, <said who="tally1">When<lb/>the <persName key="conud1">old prophet</persName> goes out to preach,
+                        he has thirty Indians<lb/>to protect him from the rage of such as may oppose
+                        him.</said></p>
+                <p>I have long believed in the ministration of angels, and<lb/>this is as great a
+                    proof as any I have heard of in my travels<lb/>among the heathen: for those only
+                    believe in God, as a<lb/>Great Spirit. <persName key="tally1">Tally</persName>,
+                    the Indian squaw, is a respectable<lb/>woman, ad can speak English well; for she
+                    was several<lb/>years with a Quaker’s family, who took great pains
+                    with<lb/>her.</p>
+                <p><date when="1805-07-28">28th 7th mo. 1805</date>. This morning at break of day,
+                    I<lb/>found my soul drawn out to pray for the Pagan Indians,<lb/>who never
+                    worship God but once a year, believing only in<lb/>the Great Spirit. <persName
+                        key="cyoun1">Calvin Young</persName>, and his daughter <persName
+                        key="pyoun1">Peggy</persName>,<lb/>with several more went with me; I suppose
+                    there were<lb/>ten horses went through the woods, for the purpose of<lb/>going
+                    to what is called the <placeName key="oneidss">South Settlement</placeName> ,
+                    where the<lb/>Chief, <persName key="jblac2">Blacksmith</persName>, nigh an
+                    hundred years old, and many<lb/>more gathered to meet me, for morning worship.
+                    The<lb/>Pagan chief was glad to see me, because he thought it was<lb/>a true
+                    mark of friendship coming there, as they did not<lb/>assemble to worship with
+                    those in <placeName key="oneic">Oneida Castle</placeName>, where<lb/>there is a
+                    good house built for the purpose of gathering to-<lb/>gether every Sabbath. I
+                    never was more affected that I<lb/>know in my life: for this old chief, no
+                    doubt, was a real<lb/>Pagan within, as well as outwardly so, and was
+                    the<lb/>strangest figure I ever beheld. Black darkness, I thought,<lb/>covered
+                    his mind; and he appeared as a beast of the earth:<lb/>yet he conducted himself
+                    respectfully to me, smoking his<lb/>pipe all the time of our being together,
+                    accompanied with<lb/>several younger Chiefs and night forty Indian men,
+                    and<lb/>aged women. Before our worship commenced, he got hold<lb/>of my hand,
+                    having it for some time as fast as possible <lb/><pb n="80" facs="Ripley080"/>while he stamped
+                    earnestly with his feet at the white<lb/>preachers, whom he said, are <said
+                        who="jblac2">Friendly to us, till they get<lb/>our trees, and lands, and
+                        then they are no more our friends;<lb/>but the Quakers are good people, and
+                        do not serve us so;<lb/>I love the Quakers,</said> nipping my hands almost
+                    together,<lb/>until I was actually afraid of him, his visage was so
+                    hor-<lb/>rible, while he stamped on the ground at the white preach-<lb/>ers,
+                    whom he would not let come near him. I kneeled<lb/>down in the midst of them in
+                    fervent supplication, while<lb/>they sat on seats all round in the place where
+                    they offer<lb/>their yearly sacrifice. A large pole was standing up,<lb/>on
+                    which they fix a white dog, night the top, and then<lb/>dance round it,
+                    imploring the Good Spirit to give them a<lb/>plentiful crop of corn, from that
+                    which is just before put<lb/>into the ground; rendering Him their thanks for His
+                    bless-<lb/>ing upon the past crop the preceding summer. They have<lb/>another
+                    white dog which they roast, and eat at the same<lb/>time, of their sacrifice,
+                    that are instead of lambs. The<lb/>ardour of my soul was great for them, that
+                    they might<lb/>worship the Eternal Spirit, through the medium of His<lb/>Only
+                    Begotten Son. The text I spoke from was, <quote type="biblical">Alas,<lb/>my
+                        brother!</quote> which was opened to me, by the Revealing<lb/>Light, so far,
+                    as to enable me to testify to them, that I be-<lb/>lieved they were of
+                    Jeroboam’s house, who were Israel’s<lb/>seed, that were carried away captives by
+                    Shalmaneser,<lb/>king of Assyria, and so were come thither to keep
+                    their<lb/>sacrifices, which were to typify Jesus the Son of God, who<lb/>was
+                    offered up for them, and would call them back again<lb/>into their own land,
+                    that should flow with milk and honey,<lb/>and they should all be taught of God,
+                    who would be a<lb/>Righteous King unto them, and join them to Judah,
+                    from<lb/>whom they were separated for rebellion. I also signified,<lb/>that
+                    their forefathers were carried away by Shalmaneser<lb/>captives, because they
+                    worshipped two <quote type="biblical">Golden calves,</quote><lb/>which my
+                    Interpreter said was made of “Yellow money,”<lb/>that they might understand the
+                    better: for he was a good<lb/>Indian, who was a religious man, and of the
+                        <orgName key="tuscarora">Tuskerow<lb/>nation</orgName>, and spoke English
+                    well, as also Indian: but there <lb/><pb n="81" facs="Ripley081"/>wanted animation in his
+                    delivery, which was a great dis-<lb/>advantage; nevertheless they were very
+                    attentive, and<lb/>fully satisfied by <persName key="dpete1">Doctor
+                        Peter’s</persName> Energetic Speech, that<lb/>indicated, <said who="dpete1"
+                        >They were thankful that the Good Spirit<lb/>had sent me over the Great
+                        Water to visit them; and they<lb/>hoped the Great Spirit would take care of
+                        me; and con-<lb/>duct me safe back again to my own native place,
+                        request-<lb/>ing another visit from me next Sabbath morning if I
+                        would<lb/>indulge them with my company.</said>
+                    <persName key="dpete1">Doctor Peter</persName> was a<lb/>Chief, as well as their
+                    Speaker, and delivered their speech<lb/>of gratitude with great punctuality,
+                    which I lament on<lb/>account of not having it translated. <persName
+                        key="jblac2">Blacksmith</persName>, the old<lb/>Pagan Chief, was highly
+                    pleased with my prayer, and<lb/>sermon, and desired the favour of my <said
+                        who="jblac2">Coming again,</said><lb/>when I bid him adieu. His ears were
+                    slit, and hanging<lb/>down, and his forehead, nose, cheeks, and chin were
+                    paint-<lb/>ed red: he had a hairy cap on, with a red tail half a yard<lb/>long,
+                    with a yellow striped ruffled dress, that came down<lb/>to his feet, and the
+                    sleeves thereof to his fingers, bowed<lb/>together with age, having on his brest
+                    a large ornament<lb/>life a half moon of silver. In this part, they who
+                    knew<lb/>him, said that he thought the white people devils, because<lb/>they
+                    never were infested with rats, or crows, till they<lb/>settled round them. To my
+                    eye, he appeared a complete<lb/>savage: and I venture to say, the remembrance of
+                    him in<lb/>time will never wear off, I was filled with such dread awe<lb/>while
+                    he described the white preachers to me, and I hope<lb/>his situation will arouse
+                    me to pray for the completion of<lb/>those promises respecting Jesus Christ,
+                        <quote type="biblical">He shall take<lb/>the heathen for His Heritage, and
+                        the uttermost part of<lb/>the earth for His Possession.</quote>
+                    <quote type="biblical">And all shall know the<lb/>Lord, from the least to the
+                        greatest.</quote></p>
+                <p>In the afternoons, I went two miles to the other settle-<lb/>ment of Indians, on
+                    the <orgName key="oneida">Oneida</orgName>ground, where numbers<lb/>collected
+                    together with the Indians, and my Interpreter<lb/>went for the purpose of
+                    relieving my anxiety, which was<lb/>great, from a desire to benefit those whom
+                    the Lord my<lb/>God had caused me to sow in tears for ever since I was a
+                    <lb/><pb n="82" facs="Ripley082"/>child; leading me in spirit, to contemplate the awful
+                    con-<lb/>dition both of the house of Judah and Israel, who are trod-<lb/>den
+                    under foot until the fulness of the Gentiles. The<lb/>subject I was led to swell
+                    on, was these words of Jesus,<lb/><quote type="biblical">And He shall set the
+                        sheep on His right Hand, but the<lb/>goats on His left.</quote> I could not
+                    forbear remarking, what<lb/>a solemn aspect the Indians wore, and especially
+                    the<lb/>women, who sat pensively weeping, paying great attention<lb/>to the
+                    sentences, as they flowed from my lips. I never<lb/>had an Interpreter before
+                    this day, and was astonished<lb/>how the words stopped as soon as the sentence
+                    was finish-<lb/>ed, which confirmed me that Jesus Christ lived in me,
+                    and<lb/>spake through my mouth. I have marveled at the assist-<lb/>ance of my
+                    Gracious Master, this day more than any<lb/>other: because He stopped the
+                    stream, and caused it to<lb/>flow just as was necessary for them to receive,
+                    through<lb/>the interpretation of the <orgName key="tuscarora"
+                        >Tuskarow</orgName> Indian. After I had<lb/>given a suitable portion to my
+                    Indian brethren and sisters,<lb/>I then addressed the white people present, and
+                    had great<lb/>liberty to pray with each; believing the Lord would an-<lb/>swer
+                    my ardent supplication in behalf of such as desired<lb/>to be instructed.</p>
+                <p>In the evening I held the third meeting at <placeName key="verno"
+                        >Vernon</placeName>, in<lb/>a new large barn, belonging to my kind friend
+                        <persName key="cyoun1">Calvin<lb/>Young</persName>, which contorted his
+                    spirit among the rest who<lb/>were deeply affected under the Power of that God,
+                    who<lb/>sends by whom He will and uses the most feeble instru-<lb/>ments to
+                    glorify His Name, which is had in remembrance<lb/>by all who revere His Majestic
+                    Person, for His Mercy,<lb/>Love and Justice. This was large gathering, and
+                    my<lb/>heart was filled with thankfulness that the Lord had fur-<lb/>nished me
+                    with strength to go from one part to another<lb/>this day, and at the close to
+                    enable me, in His Fear, to<lb/>testify, <quote type="biblical">Her ways are ways
+                        of pleasantness, and all Her<lb/>paths peace,</quote> thus Wisdom was
+                    honoured with the Lord<lb/>my God, who has prepared my way, and given me an
+                    in-<lb/>crease of Faith in Him for this people, whom my lot is<lb/>cast among. </p>
+                <pb n="83" facs="Ripley083"/>
+                <p>My friends followed me this day from the <placeName key="oneidss">South
+                        Settle-<lb/>ment</placeName> of Pagans, to the <orgName key="oneida"
+                        >Oneida</orgName> Indians, and from thence<lb/>back again to the Barn, which
+                    is the first I ever preached<lb/>in; an din this small village we had at least
+                    three hundred<lb/>people assembled, of whom were many deeply humbled at<lb/>the
+                    goodness of my Master, that was mouth and Wisdom<lb/>to me at each different
+                    place. I feel myself much obliged<lb/>to all who have accompanied me, being a
+                    lonely stranger,<lb/>but more especially to those who prepared my way,
+                    and<lb/>found me a horse to ride through the woods. May the<lb/>God of Jacob
+                    return it back again upon their posterity;<lb/>and keep in remembrance my desire
+                    to please Him, and<lb/>profit every individual who has sat under the sound
+                    of<lb/>His Gospel, which was sanctioned by His Adorable Pre-<lb/>sense. </p>
+                <closer><dateline>[<placeName key="verno">Vernon</placeName>, <placeName
+                            key="oneida">Oneida County</placeName>, <date when="1805-07-20">20th 7th
+                            mo. 1805.</date>]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>I went out to the other end of the village to have a<lb/>meeting in a
+                    school-house, where many assembled to wor-<lb/>ship God, and hear a stranger.
+                    May the blessing of the<lb/>Highest attend my feeble efforts, for without this,
+                    in vain<lb/>will my labour prove: yet, I am of opinion, that my work<lb/>will
+                    have its reward in that day, when every secret thing<lb/>shall be made public to
+                    all Nations, and this my love, for<lb/>the salvation of precious souls. I can
+                    appeal to Thee, my<lb/>God, who art the Searcher of all hearts, that the
+                    Kingdom<lb/>of Jesus Christ is my glory, yea, my chiefest joy,that ab-<lb/>sorbs
+                    all my powers of soul and body. When I came<lb/>from <placeName key="nycit">New
+                        York</placeName>, it was to suffer Thy Will; trusting for<lb/>mercy from Thy
+                    Endless Liberality, that has thus far pre-<lb/>pared the hears of the people to
+                    receive my labour, and<lb/>entertain me as a messenger sent out from God, the
+                    Father<lb/>of our Lord Jesus, and the whole family of Heaven and<lb/>earth.</p>
+                <p>Any one who depends upon God, doing His Special<lb/>Work, will acknowledge that
+                    He is with me to provide my<lb/>daily bread, as occasion requires, which is
+                    according to<lb/>His ancient promise, “They that Fear the Lord shall<lb/>lack no
+                    good thing.” The Love of God to His children is<lb/>great; how am I made
+                    sensible of His Fatherly Care at <lb/><pb n="84" facs="Ripley084"/>this time! when I am as in a
+                    wilderness, far from my na-<lb/>tive land, and all who were once dear to me by
+                    the ties of<lb/>friendship, and my honoured father’s house. The Lord<lb/>assured
+                    me He would come along with me, to prepare my<lb/>way, and prosper my goings:
+                    and I can say, thus far His<lb/>Promises are fulfilled to the joy of my
+                    heart.</p>
+                <p>Yesterday I went to the <placeName key="oneic">Indian Castle</placeName> alone,
+                    and walked<lb/>from one cottage to another, till I had a number of women<lb/>to
+                    join in supplication with me, and feeling great sorrow<lb/>of heart on their
+                    account, I besought the Benign Parent<lb/>of us each, to open their blind eyes,
+                    that they might see<lb/>Jesus, the Saviour of His people; and believe in
+                    Him,<lb/>who is the Light of the world. I felt great refreshment<lb/>in my
+                    spirit thereby, and a hope that He who is merciful<lb/>will meet those after
+                    their own way, and according to<lb/>His unbounded Love and Goodness, which is
+                    manifested<lb/>in and through His Son Jesus. They were very solemn,<lb/>and sat
+                    as still as possible during the time of prayer,<lb/>while the tears trickled
+                    down their cheeks. When I arose<lb/>they each lifted up their eyes to Heaven,
+                    and then looking<lb/>earnestly at me, lay their hands on their breasts or
+                    hearts,<lb/>still melted in tenderness in my presence, and gave me
+                    to<lb/>understand that they knew something of the God whom I<lb/>approached, and
+                    felt what was said, though it was not in<lb/>their language, and they knew not
+                    mine. We parted in<lb/>much affection, and I returned home to my friend
+                        <persName key="cyoun1">Young’s</persName>,<lb/>and was thankful that I could
+                    go and refresh my body<lb/>with the comforts of life, having fasted from morning
+                    to night.</p>
+                <p>I am no ways calculated to live as the Indian squaws;<lb/>yet believe the Lord
+                    can enable me to endure great hard-<lb/>ship if He sees meet to call me to work
+                    in that part of<lb/>His vineyard, or soften my sorrows, and assuage my
+                    grief,<lb/>by supplying me bountifully, as at this time by His
+                    extra-<lb/>ordinary kindness, sending me help from a quarter that I<lb/>might
+                    the least expect. I conclude the day with holy<lb/>aspirations to the Giver of
+                    all my Mercies, for His Spirit<lb/>to whisper peace, and free salvation unto all
+                    this people,<lb/>who appear in a forlorn condition. </p>
+                <pb n="85" facs="Ripley085"/>
+                <p>The number of Indians here a bouts are seven or eight<lb/>hundred; but those
+                    tribes have been greatly diminished,<lb/>through the wicked white people
+                    introducing strong drink<lb/>among them, to defraud and take every advantage of
+                    their<lb/>weakness and gross ignorance. Was not the Merciful<lb/>God to provide
+                    a little food for them, as He does for the<lb/>birds of the air, they must
+                    utterly perish from off the face<lb/>of the earth, being almost strangers to
+                    economy and in-<lb/>dustry; which two things, enrich the most miserable
+                    na-<lb/>tions, when the <quote type="biblical">Blessing of Heaven is upon their
+                        basket<lb/>and store.</quote></p>
+                <closer><dateline>[<date when="1805-08-01">1st 8th mo.
+                    1805.</date>]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>Every day brings me nearer my mansion of bliss, that<lb/> is prepared for me to
+                    dwell in at God's Right Hand. In<lb/> all my conflicts betwixt flesh and spirit,
+                    the world<lb/> and satan, my prospect is sure: for a determination is in my
+                    <lb/> soul, through Christ's strengthening me, to abide faithful.<lb/>Fiery
+                    baptisms are my lot here; but they all tend to make<lb/> me more complete in
+                    holiness; more like the Image of my <lb/>Lord and Master. Earthly joys cannot
+                    delight me; no,<lb/>it is the salvation of the lost sons and daughters of
+                    Adam,<lb/>that I am comforted with: therefore, O my god! give me<lb/> seals to
+                    my ministry, that I may rejoice therein, and be a<lb/>useful instrument in my
+                    day and generation. Thou art<lb/>growing up in me, and I shall be perfect by Thy
+                    Spirit's<lb/> Covering, by Thy Robe of Righteousness put around me.<lb/>How
+                    beautiful will the King's Duaghter be then! How<lb/> comely to the eye! How
+                    precious in His Sight! no cross,<lb/>no suffering shall I decline; moving by His
+                    direction, and<lb/>submitting to His justice, when His holy fire burns up
+                    the<lb/>dross of sin, that remains from the contaminating influ-<lb/>ence of
+                    satan, whose dark influence is poured forth all<lb/>around this world, while he
+                    walks up and down, to and<lb/>fro, seeking whom he may overturn or devour. </p>
+                <p><persName key="cyoun!">Calvin Young</persName> lent me his chaise this morning,
+                    to go<lb/>to see the Christian Chief <persName key="jsken1">Skanando</persName>,
+                    who was very glad<lb/>to see me again, and told me he was formerly a
+                    warrior,<lb/>and shewed me how his ears were cut in the midst, and<lb/>his neck
+                    with powder marked to distinguish him thereby, <lb/><pb n="86" facs="Ripley086"/>which he said
+                    made him shriek aloud. Such things as I<lb/>could spare, I took and divided
+                    among them, trusting in<lb/>the Lord for a future supply, knowing all fulness is
+                    in<lb/>Him. The women were well pleased to accept of my<lb/>linen shifts, which
+                    I spun in England, and told me they<lb/>would make gowns of them, as they do
+                    without under gar-<lb/>ments, and almost every necessary of apparel, we
+                    conceive<lb/>that we want. Some Christian professing sisters, who<lb/>abound in
+                    garments and gold and silver, charged me thus,<lb/>as I was coming along,
+                        <said>You must take care of your trunks<lb/>and clothes; for the Indians are
+                        great thieves, they will<lb/>steal what you have.</said> I answered, <said
+                        who="dripl1">I mean to save them<lb/>the trouble of stealing my clothes, for
+                        I shall give them,</said><lb/>and so have taken the first opportunity to
+                    disperse abroad<lb/>whatever I have, believing it my duty to try to gain
+                    their<lb/>affection by shewing disinterestedness unto them, while I<lb/>am here.
+                    The women opened their boxes and shewed<lb/>me all they had, which surprised
+                    some of the white people<lb/>so much, that they said, <said>We have seen more of
+                        the In-<lb/>dians since you came than we have for years, while we<lb/>have
+                        lived in their neighbourhood: for they do not put con-<lb/>fidence in us, as
+                        they do in you.</said> I anwered, I do not<lb/>wonder they can trust me, as
+                    I have prayed for them<lb/>many years; and have shed thousands of tears for
+                    their<lb/>miserable situation. Marks of their gratitude, in being<lb/>thankful
+                    for the smallest favours, cheered my heart, and<lb/>revived my spirits for a few
+                    moments; but on comparing<lb/>my line of inheritance with theirs, I was ready to
+                    sink<lb/>into despair, and was overwhelmed in the midst of them:<lb/>however, I
+                    again bowed in the Presence of Him, who is<lb/>our Wise Creator, and besought
+                    His Divine Favour, and<lb/>the Light of His Reconciling Countenance to shine
+                    upon<lb/>their dark minds. My heart was truly affected while<lb/>praying with
+                    them, lamenting the disadvantage they la-<lb/>boured under for want of
+                    cultivation, both in spiritual and<lb/>natural things: but I was sharply
+                    reproved by the Lord<lb/>with this language, <quote type="biblical">The
+                        foolishness of God is wiser than<lb/>the wisdom of men.</quote> I learnt by
+                    His Spirit, that He had <lb/><pb n="87" facs="Ripley087"/>placed them so remote in the earth,
+                    that they might evi-<lb/>dence <quote type="biblical">The foolishness of
+                        God,</quote> that should display<lb/>itself in His time <quote
+                        type="biblical">Wiser than the wisdom of men.</quote><lb/>Thus did I return
+                    home weeping, with perfect acquiescence<lb/>to His hidden mystery, while I
+                    remained silent, and full<lb/>of sorrow, having my mind awed through the rebuke
+                    of<lb/>the King of Saints, and was afterwards abundantly filled<lb/>with praise
+                    and love, to my Creator, for His Distinguish-<lb/>ing Mercies, that I have
+                    partook of all my life long to the<lb/>present: and I desire every breath to
+                    utter forth thanks,<lb/>which are due to His Great Name: and to tell of
+                    His<lb/>Loving Kindness in chastening my foolish heart, that<lb/>would dispute,
+                    and judge His Marvellous Providence, who<lb/>has required of my hands diligence,
+                    obedience, and a<lb/>faithful reliance on His Promises; that I may perform
+                    His<lb/>Sovereign Will, and answer His Divine Purpose, as a child<lb/>of His
+                    Widom, who shall be justified at the last in the<lb/>sight of all Nations,
+                    having suffered his Will, and done<lb/>all which the Lord my God appointed,
+                    while among mu-<lb/>table creatures; born to give account at the last
+                    for<lb/>every thought, word, and action in time. </p>
+                <closer><dateline>[<date when="1805-08-03">3d 8th mo. 1805</date>,<lb/><placeName
+                            key="verno">Vernon</placeName>, <placeName key="oneida"
+                            >Oneida</placeName> County.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>This morning, my friend <persName key="eyoun2">Eve Young</persName>, went with me
+                        to<lb/><persName key="jdean2">Judge Dean’s</persName>, to ask if he would
+                    interpret for me, as he<lb/>knew the Indian language, being among them much
+                    when<lb/>a child; he said, <said who="jdean2">Few know an Indian’s heart, but I
+                        do;<lb/>and I think, they are not of the same species which we
+                    are.</said><lb/>I smiled with contempt at his opinion, believing the
+                    Lord<lb/>will visit them with gracious outpouring of His Spirit;<lb/>then shall
+                    it be evidenced, their genius, or mental powers,<lb/>are bright as ours: and
+                    that their hearts are as suscepti-<lb/>ble of divine impressions: for my part, I
+                    believe many of<lb/>them are wrought upon by the Light, but heir dwelling
+                    in<lb/>the woods obscurely, have made them appear in the eyes<lb/>of men, almost
+                    like the brute creation. The white peo-<lb/>ple, who are of a bad principle,
+                    receive their clothes, and<lb/>small necessaries for rum, or money to procure
+                    it, which<lb/>I think should be severely punished. There is a fine for <lb/><pb
+                        n="88" facs="Ripley088"/>taking advantage over them by selling rum to them, but<lb/>it is so
+                    trifling, that it is not regarded by the wicked pro-<lb/>fessors of
+                    Christianity. One poor Indian came into one of<lb/>those professing Christian’s
+                    house, with a brass candlestick,<lb/>that was worth four shillings sterling, and
+                    begged two shil-<lb/>ling loaves of bread for it, but the inhuman woman
+                    only<lb/>gave him one loaf, which I was ashamed at, and am sorry<lb/>that she is
+                    the mother of children; knowing this is not<lb/>the way to secure bread here for
+                    them, neither lay up<lb/>riches in Eternity, which will not wax old. I was
+                    invit-<lb/>ed to stay there, and was told by this person, that the<lb/>man where
+                    I stayed was a deist: but I answered, He<lb/>acts like a Christian to me, being
+                    merciful. What a<lb/>strange view must the Indians have of the Christian
+                    reli-<lb/>gion; no wonder they do refuse to practise it, and dare<lb/>not place
+                    confidence in the fruitless professors: for it<lb/>must be acknowledged, that
+                    they have made many of the<lb/>Indians two fold more the children of the devil,
+                    by bring-<lb/>ing strong drink unto them, and setting an example
+                    of<lb/>wickedness before their eyes, which a Holy God will<lb/>punish them
+                    severely for, as they were taught to believe<lb/>Jesus Christ has Died to take
+                    away sin: and can avail<lb/>themselves with the privilege of reading the
+                    inspired writ-<lb/>ings of Moses and the Prophets, and the Miracles of
+                    our<lb/>Lord and Saviour, who crowned His life with Mercy, Love,<lb/>and
+                    Righteousness, and His followers must obey Him if<lb/>they worship His Sceptre
+                    of holiness, that rules in the<lb/>heart of every believer who submits to the
+                    Government<lb/>of King Immanuel, the Prince of Peace.</p>
+                <p>I was not sorry that <persName key="jdean2">Judge Dean</persName> gave me a
+                    refusal:<lb/>for as soon as I saw him, it passed through my mind, that<lb/>he
+                    was not a suitable person to administer spiritual com-<lb/>fort; he might do to
+                    make treaties, and receive of their<lb/>lands a reward, if they were disposed to
+                    trust him so far.<lb/>Our riding eighteen miles, will not lose its reward of
+                    the<lb/>Lord my God, who has heard the sentiments of this wise<lb/>man,
+                    respecting his poor Indian brethren: and I have no<lb/>doubt, when all Nations
+                    are at the Bar of the Eternal <lb/><pb n="89" facs="Ripley089"/>Judge, that he will see those
+                    stand with him there, although<lb/>he thinks they are not of the same species
+                    with us. God<lb/>grant that none of them may rise up to condemn him in<lb/>the
+                    awful day of Judgment, when all shall receive ac-<lb/>cording to the mercy they
+                    manifest in this world.</p>
+                <closer><dateline>[<date when="1805-08-04">4th 8th<lb/>mo. 1805</date>, <placeName
+                            key="verno">Vernon</placeName>, <placeName key="oneida">Oneida County,
+                            New York State.</placeName>] </dateline></closer>
+            </div>
+            <div type="entry">
+                <p>As I continued in this part, I went among the Pagans<lb/>again, and sat in
+                    silence with them sometime at the pale<lb/>where I held the last meeting. All
+                    the week I had tra-<lb/>vailled in my spirit for <persName key="jblac2"
+                        >Blacksmith</persName>, the Chief, who was<lb/>nigh an hundred years old,
+                    and in a state of gross dark-<lb/>ness, which has bowed down my mind in awful
+                    silence<lb/>before God, during the last night, that I might be a <quote
+                        type="biblical">Sa-<lb/>vour of life unto him, and a sweet smelling Savour
+                        to the<lb/>Lord my God,</quote> who has crowned my life with His
+                    Loving<lb/>Kindness, and Rich Mercy, from the consequence of being<lb/>offered
+                    unto Him before I was born, by a man of faith, to<lb/>succeed him in his Gospel
+                    Labour; for, before he expired,<lb/>he cried out, <said>When you are doing well,
+                        if it be possible,<lb/>I will look down from Heaven, and smile on
+                        you,</said> which<lb/>has come into my mind at this present moment,
+                    expecting<lb/>this little service of mine will give additional pleasure
+                    to<lb/>him, from whose loins I proceeded, to glorify his God<lb/>and mine, in
+                    the regions of blessedness, when time is swal-<lb/>lowed up in Eternity.</p>
+                <p>The Old Chief received me with cordiality; but my<lb/>Interpreter was gone a long
+                    journey, and I had to apply<lb/>to the Spirit to make them understand, as He did
+                    by the<lb/>same Spirit in the day of Pentecost, when they all had
+                    the<lb/>revelation of Jesus Christ made manifest in their hearts<lb/>through the
+                    outpouring of the Spirit, while they were as-<lb/>sembled together. As I was
+                    praying, my desire was<lb/>very great for the Salvation of their precious souls;
+                    and I<lb/>saw the heart of <persName key="jblac2">Blacksmith</persName>
+                    exceeding hard and dark,<lb/>like a beast’s heart, such as King Nebuchadnezzar’s
+                    when<lb/>in his state of degradation in the field grazing: but con-<lb/>tinuing
+                    in supplication with great ardency of sprite, the<lb/>Lord shewed me, through
+                    His Revealing Power, that He <lb/><pb n="90" facs="Ripley090"/>would give him a new heart, or
+                    change his nature to grace,<lb/>and clothe him with His own Spirit, which I have
+                    no<lb/>doubt concerning, as the Lord is more ready to shew<lb/>mercy than we are
+                    to accept it. I have faith to believe<lb/>God will convert this man, and my
+                    desire is, that I may<lb/>never forget his situation, till he is a changed,
+                    renewed<lb/>creature, to glorify King Jesus, who shall reign over
+                    the<lb/>Heritage of the heathen, and Rule them with His Righte-<lb/>ous Sceptre
+                    to endless Ages. I took my leave of this part<lb/>of the Indians, called the
+                        <orgName key="pagan">Pagan party</orgName>: and had the plea-<lb/>sure of
+                    seeing them well satisfied with my labour of love,<lb/>which I am thankful for;
+                    knowing my God will give<lb/>His Blessing thereunto, as well as cause them to
+                    hear<lb/>with the utmost attention, all paying respect unto my<lb/>ministration,
+                    by their act of friendship, in smoking their<lb/>pipes till I had finished,
+                    which as it is their distinguish-<lb/>able mark of approbation to testify their
+                    love, I can, in as<lb/>much charity receive it, as any other custom or
+                    form<lb/>among the professing Christians; whereby they manifest<lb/>their
+                    sincerity or gratitude: for I am fully convinced<lb/>that our God looks beyond
+                    all forms, customs, and appear-<lb/>ances outwardly; and regardeth the motives
+                    which in-<lb/>fluence man, whether they are good or bad; therefore
+                    the<lb/>heathens, He will judge as such, and the Christians after<lb/>their
+                    profession; yet, know, O man! no act of mercy,<lb/>love, or obedience to His
+                    Spirit, which is in every one ac-<lb/>cording to their mental ability, shall go
+                    unnoticed by the<lb/>Father of all Nations, whose prerogative alone it is
+                    to<lb/>weigh all thoughts, words, or actions; seeing all hearts,<lb/>and knowing
+                    all things from Eternity to Eternity.</p>
+                <p>After I went to my lodgings, I set off three miles, to<lb/>attend an appointment,
+                    which I had engaged for five this<lb/>evening; and I am thankful I can say, my
+                    Great Master<lb/>that He was made a Mock King for our sakes, although<lb/>Heaven
+                    was His Throne, and Earth His Footstool. His<lb/>submitting to have His Back
+                    scourged by Pilate, who made<lb/>long furrows thereon, affected me so much, that
+                    I could <lb/><pb n="91" facs="Ripley091"/>have spent my last breath testifying of His Dying
+                    Love<lb/>to all people, created by His Inimitable Widom, who<lb/>formed all
+                    flesh for His own pleasure, and man for His<lb/>special Glory, so that it is no
+                    wonder that He should lay<lb/>down His own Life to influence them to serve,
+                    love, and<lb/>adore Him, as their Lord and God forever, having not on-<lb/>ly
+                    Power to take up His own Life again on the third day,<lb/>according to the
+                    prophecy, or sign of Jonah the prophet,<lb/>but also is the Resurrection, or
+                    Life, of all who are in the<lb/>tomb, waiting for His Voice to call them forth,
+                    when the<lb/>Mystery of Righteousness is fulfilled, and the Kingdom<lb/>of our
+                    Lord Jesus Christ completed, so that there requireth<lb/>no longer an High
+                    Priest to atone for sin: but He shall<lb/>be adored as God over all, by the seed
+                    whom He has re-<lb/>deemed through the Spilling of His Most Precious
+                    Blood,<lb/>an eternal sign to them of His Merit and Soverign Love,<lb/>which
+                    undertook the cause of all, to reinstate them<lb/>in paradisiacal happiness,
+                    which was lost when satan beguil-<lb/>ed our first parents, when the milk of
+                    human kindness<lb/>flowed from each heart, to one another; and innocence<lb/>was
+                    sealed on their forehead, as a mark of divine favour,<lb/>which they lost the
+                    moment they both transgressed, and<lb/>found they were naked, having bereaved
+                    themselves of<lb/>inherent Righteousness, that might be compared to
+                    Life<lb/>Eternal, which is found only in Jesus Christ, the Second<lb/>Adam,
+                    whose Life is diffused into every true believer on<lb/>His Name, who calls
+                    Himself the Resurrection and Life.</p>
+                <closer><dateline>[<date when="1805-08-06">6th 8th mo. 1805.</date>
+                        <placeName key="verno">Vernon</placeName>, <placeName key="oneida"
+                            >Oneida.</placeName>]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>Yesterday <persName key="pyoun1">Peggy Young</persName>, daughter of <persName
+                        key="cyoun1">Calvin</persName> and <persName key="eyoun2"
+                        >Eve<lb/>Young</persName>, rode with me nine miles further to the West,
+                    to<lb/>have a meeting with a Presbyterian congregation. As<lb/>we were going the
+                    horse stopped al on a sudden, and<lb/>would not go one step, but as I expected
+                    we both should<lb/>be thrown out, as we ere on the midst of a hill,
+                    which<lb/>scared my dear companion so much that I was obliged to<lb/>force her
+                    to jump out of the chaise, to prevent her fainting<lb/>away, which she did, as
+                    she reached her father’s residence,<lb/>running thither for some one to make the
+                    horse move. <lb/><pb n="92" facs="Ripley092"/>When my dear young friend was going, I feel a
+                    weeping,<lb/>thinking my case very hard: but as my tears were flow-<lb/>ing from
+                    a heart, which desired to know the Will of God,<lb/>it immediately passed
+                    through my mind that <quote type="biblical">Balaam’s<lb/>Ass,</quote> would not
+                    go once because an angel stood before it<lb/>with a drawn sword; I therefore
+                    besought the Lord to<lb/>reveal His Will to me, that I might know why the
+                    horse<lb/>would stand still there; and the answer was, <said>I do not<lb/>want
+                        thee to go further West than <placeName key="oneida">Oneida</placeName>,
+                        where the<lb/>Indians are.</said> Astonished at this salute, I recollected,
+                    that<lb/>the week before, I had a meeting appointed at the same<lb/>house for
+                    worship, and such a heavy rain came, that no<lb/>person could go with me, and I
+                    knew not the road, so put<lb/>it by saying, <said>I would go next week,</said>
+                    but I suppose, did<lb/>not either add <said>If God permit,</said> or else forgot
+                    to enquire<lb/>of the Lord whether I should accept this offer, yea, or<lb/>nay,
+                    begin solicited to go fifty miles further, to appoint<lb/>meetings all round the
+                    neighbourhood. With dread awe,<lb/>I ventured to request the Lord to permit me
+                    to go and<lb/>fulfil my engagement, in pity to the people, acknowledg-<lb/>ing
+                    my folly, in hastily complying to go any where un-<lb/>sent of Him; also
+                    acquiescing with His Providential<lb/>Will, who had limited me to answer His own
+                    purpose,<lb/>which I should find was right when I saw it fulfiled; and<lb/>in
+                    order to shew my willingness to comply with His Di-<lb/>vine command, I agreed
+                    to eat no bread there, if He re-<lb/>quires me to return back the nine miles in
+                    the evening;<lb/>to which was answered, <said>Thou mayest go if thou wilt
+                        ap-<lb/>point no more meetings there,</said> and immediately my<lb/>horse
+                    started without my speaking; and I went back for<lb/>the dear young woman, who
+                    had been in a fainting fit all<lb/>the time that the direction of God was given
+                    me. She<lb/>was so alarmed, that I expected I should be obliged to
+                    go<lb/>without her, but as I assured her no further harm would<lb/>befall us,
+                    and I would not stay there all night, once more<lb/>she resumed her office, and
+                    was a very pleasant companion<lb/>to me although not <said>Born again,</said>
+                    the second time. Very<lb/>short notice collected the people, who were
+                    disappointed <lb/><pb n="93" facs="Ripley093"/>the last week: but while I sat with them in
+                    silence, they<lb/>kept whispering all the time, which made me bow
+                    in<lb/>reverential awe before God, and afterwards in the name<lb/>of the Lord
+                    commanded all thus, <quote type="biblical">Watch therefore, for<lb/>ye know
+                        neither the day, nor the hour wherein the Son<lb/>of man cometh.</quote> The
+                    foolish virgins were awfully set<lb/>before me, and it appeared that individuals
+                    there would<lb/>be in the situation at the last; and I should
+                    witness<lb/>against them, having exhorted them to a preparation by<lb/>inforcing
+                    the necessity of furnishing their vessels with<lb/>spiritual oil; that is, get
+                    grace in their hearts, that their<lb/>lamps of profession may burn bright;
+                    testifying to them,<lb/>that some present, and a lamp of profession, but no
+                    oil<lb/>in their vessels, and therefore their light did not
+                    shine,<lb/>signifying now was their day of visitation; now the best<lb/>time to
+                    apply for spiritual oil in their soul and body. As<lb/>the minister was present,
+                    I observed to him, how impro-<lb/>per it was for the people to whisper while
+                    were were silent-<lb/>ly waiting on the Lord: but he made a very
+                    handsome<lb/>apology for them, by saying, <said>They are not accustom-<lb/>ed to
+                        this manner of worship, and thought the meeting<lb/>did not begin, till the
+                        minister begun.</said> I begged him to<lb/>reprove them, as I was not at
+                    liberty to make any re-<lb/>mark on their conduct, having to exhort them to the
+                    pur-<lb/>suit of righteousness, by an ample supply of grace, which<lb/>was free
+                    for all, who sought the Lord while He may be<lb/>found.</p>
+                <p>We got safe home, and I feel thankful that the God<lb/>of Jacob preserved our
+                    lives; and I am fully satisfied with<lb/>my journey, and can assign a sufficient
+                    reason at the close<lb/>of this day, why I was stopped on the road, which I
+                    have<lb/>learnt from an Indian, who has come to inquire, <said>Why I<lb/>did not
+                        go to <placeName key="stockbridge">Stockbridge</placeName>, four miles off,
+                        yesterday?</said> as<lb/>the hunters, and the fishing Indians stayed at
+                    home, hav-<lb/>ing being informed, that I intended going there; which was<lb/>a
+                    mistake from some who took a wrong message. In all<lb/>my ways may I acknowledge
+                    the Hand of Jehovah, which<lb/>guards my naked head.</p>
+                <pb n="94" facs="Ripley094"/>
+                <p>In peace I shall lay down this night, with a conscience<lb/>void of offence
+                    towards God and man; desiring to walk<lb/>humbly all the days of my pilgrimage,
+                    while a resident of<lb/>time.</p>
+                <p>I went to-day to take my leave of the Indians settled<lb/>on the <placeName
+                        key="oneida">Oneida</placeName> ground. which is a beautiful tract of
+                    land,<lb/>and I could not but notice how love to them unites my<lb/>heart to the
+                    Lord more abundantly; for, He delights in<lb/>His creatures shewing mercy one to
+                    another. An Indian<lb/>woman lent me her horse to ride on, from one hut to
+                    the<lb/>other, till I paid many visits: but, not being accustomed<lb/>to ride on
+                    horseback without saddle or pillion, the horse<lb/>was going to throw me off,
+                    which perceiving, I took the<lb/>advantage of the creature, and jumped several
+                    yards, and<lb/>it was out of sight before I recovered from the surprise<lb/>and
+                    stun that I received by falling heavy on the ground<lb/>after I alighted: but
+                    even in this instance, I have to say,<lb/>the Delivering Hand of god was ready
+                    to assist in this<lb/>solitary place, when only a little Indian boy was with
+                    me;<lb/>for, on looking behind me I saw a chaise, with two men,<lb/>advancing
+                    forward as fast as possible; having seen me fly,<lb/>and the horse take its
+                    departure, who cried out to me,<lb/>while I sat on the ground, <said>Don’t go
+                        after the horse; we<lb/>will go after it,</said> and the youngest lifted me
+                    into the<lb/>chaise and then enquired where I was going, and set me<lb/>safe at
+                    the cottage, with the politeness of Christians or mer-<lb/>ciful men, which I
+                    praise God on the account; and that<lb/>my bones were not broken by His not
+                    suffering me to dash<lb/>myself against a stone, believing death, and ten
+                    thousand<lb/>dangers at all times, surrounded all mortals.</p>
+                <p>I was greatly led into sympathy with my Indian sisters,<lb/>and their little
+                    helpless infants, whom with pleasure I could<lb/>aid, was the Lord to give
+                    ability to heart filled with<lb/>generous sentiments to all His offspring. The
+                    women<lb/>brought me some Indian corn bread, with large beans stuck<lb/>all over
+                    it, which I thought were raisins: but, found my<lb/>mistakes as soon as I took
+                    one: and it being very sad, and<lb/>boiled, I chose to fast all day till night,
+                    rather than eat it; <lb/><pb n="95" facs="Ripley095"/>which suited one of my poor sisters very
+                    well: for, observ-<lb/>ing my uncommon delicacy, she looked at me, and
+                    made<lb/>me understand that she was hungry, and could it fast<lb/>enough; so I
+                    gave it to her, and she wrapped it up as the<lb/>richest dainty with
+                    thankfulness, which was a lesson I<lb/>mean ever to to remember, while I sojourn
+                    below.</p>
+                <p>In returning home alone I saw a number of Indians<lb/>lying all their length on
+                    the ground, with a small fire in<lb/>the midst, smoking their pipes; and as I
+                    looked up to Hea-<lb/>ven, for a blessing to come upon them through an
+                    outpour-<lb/>ing of His Spirit, they all cried, <said><foreign xml:lang="iro"
+                            >Sago, sago,</foreign></said> which I<lb/>accepted as a salutation of
+                    their love. I might, and should<lb/>have been alarmed at this sight of miserable
+                    looking men,<lb/>had not my mind recollected, that I felt love, and good
+                    will<lb/>to all; neither would I injure a worm, could I pass by it<lb/>I had no
+                    other companion that day; for I thought I would<lb/>try and go alone, which I
+                    did several other times, unno-<lb/>ticed here; and I feel thankful, that I can
+                    say some of bad<lb/>disposition said, <said>No Indian hurt you, need not fear
+                        them:</said><lb/>which, I answered, that I believe; for I love, and pray
+                    for<lb/>them all.</p>
+                <closer><dateline>[<date when="1805-08-07">7th 8th mo. 1805</date>, <placeName
+                            key="verno">Vernon</placeName>, <placeName key="oneida">Oneida
+                            County</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>A solitary ride of twelve miles has been my lot to-day,<lb/>being scarcely able
+                    to sit up all the time: and as I was go-<lb/>ing I heard a terrible howling,
+                    which threw a damp on my<lb/>spirit; but pursuing further my journey a drunken
+                    Indian<lb/>of the <orgName key="pagan">Pagan party</orgName>, advanced me,
+                    crying out like one al-<lb/>most scared to death, stung with remorse and the
+                    rebuke<lb/>of the Spirit. I stopped the chaise, and hearkened to what<lb/>he had
+                    to say, which was, <said>Lord! Lord! you madam, you<lb/>madam,</said> and then
+                    he remained silent; for he was quite asham-<lb/>ed of his conduct, having a few
+                    days before made me believe<lb/>that he felt very good when I was preaching
+                    among the<lb/>Pagans, telling me where, by laying his hands on his<lb/>breast;
+                    bemoaning at the same time, that he had no one to<lb/>boil his pot; for his wife
+                    was killed by one of the wicked<lb/>Indians, who pretended she was a witch; he
+                    told me they<lb/>came and took him a great distance; and then went into <lb/><pb
+                        n="96" facs="Ripley096"/>his log house and knocked her down with an axe: but be-<lb/>ing a
+                    strong woman, she got up again, and endeavoured<lb/>to make her escape from
+                    those instruments of cruelty, who<lb/>cut her throat from ear to ear, and then
+                    buried her, and<lb/>laying earth several inches deep over her, made a fire
+                    on<lb/>the earth to burn out the spirit of witchcraft that they said<lb/>was in
+                    her. Two women were served thus by this wick-<lb/>ed Indian, who pretended to be
+                    wiser than his brethren.<lb/>This circumstance happened two years ago. I passed
+                    by<lb/>his house, that was desolate: for he was hated by the rest<lb/>of his
+                    brethren, and obliged to leave the place. A third<lb/>woman was condemned to die
+                    for witchcraft, but being<lb/>innocent, and willing to die, she desired that
+                    they would<lb/>let her dress herself, that she might die decently: so
+                    they<lb/>let her put on a white gown, which after she had done, she<lb/>then
+                    said, <said>I am willing to die, but my blood will be upon<lb/>you; for I die
+                        innocent.</said> This so affected some of the<lb/>feeling Indians, that they
+                    let her depart in peace to her<lb/>own home. While I stood by the poor man, who
+                    had lost<lb/>his wife thus barbarously, I though I would say some-<lb/>thing to
+                    him for yelling in this manner, throwing his arms<lb/>about as he came along:
+                    but my Merciful Jesus made me<lb/>stand as one dumb, for the space of five
+                    minutes, and then<lb/>we parted, which seemed to confound the Indian
+                    more<lb/>than ten thousand words would have done.</p>
+                <p>There was a youth with me in the chaise, who was<lb/>much surprised that I was
+                    not afraid; he said, <said>There is<lb/>not a woman in this neighbourhood, who
+                        durst have gone<lb/>by that Indian,</said> but I fear the Lord, who has made
+                    the<lb/>wildest beast of the field, and therefore, I trust He will<lb/>have
+                    compassion on me and preserve me from every harm:<lb/>but His Will be done.</p>
+                <p>I have held this day, a meeting in a large barn, where<lb/>many assembled
+                    together. The attention of the people<lb/>was fixed upon me, which I labored to
+                    draw to that Gra-<lb/>cious God, who restored David’s soul, and led him
+                        in<lb/><quote type="biblical">The paths of righteousness for His Name’s
+                        sake.</quote> I told<lb/>my hearers they must pass through a death unto sin,
+                    if <lb/><pb n="97" facs="Ripley097"/>ever they walked in the paths of righteousness, or
+                    wit-<lb/>nessed a table spread for them in the midst of their ene-<lb/>mies,
+                    which by faith the Lord’s people partake of, eating<lb/>His Body, and drinking
+                    His Blood mystically.</p>
+                <p>I think, without God had aided me in my soul and<lb/>body, it would have been
+                    impossible for me to support<lb/>under what I felt for the people this day, as
+                    they were<lb/>many of them in total darkness. Few are the number
+                    of<lb/>Christians in this part; but may they be increased by the<lb/>faithful
+                    labourers, exercising their graces upon the Merits<lb/>and Mercy of a Redeemer:
+                    for He it is who restoreth<lb/>from the fall, and maketh true Christians. I am
+                    anxious<lb/>for the kingdoms of this world, to become the Kingdom<lb/>of our
+                    Lord Jesus Christ. </p>
+                <closer><dateline>[<placeName key="peter">Petersburg</placeName>, <date
+                            when="1805-08-08">8th 8th mo. 1805.</date>]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>From <placeName key="peter">Petersburg</placeName>, I returned back to <placeName
+                        key="verno">Vernon</placeName> this morn-<lb/>ing, and am rejoiced that I
+                    have got nearer Eternity, that<lb/>pleasant sound, the Saint’s delight. There I
+                    shall not<lb/>pass through one spiritual baptism for sinners, neither<lb/>feel
+                    the fatigue one moment that I go through now, be-<lb/>cause the children of men
+                    are so unlike their Maker, and<lb/>are swallowed up with trifles of meanest
+                    fort. In this<lb/>world the Kingdom of Grace is my glory: How much<lb/>more will
+                    it be in Eternity? There I shall never weep<lb/>for the would of men; nor feel
+                    pain, or weariness of flesh<lb/>or spirit, occasioned by moving to and fro, and
+                    refusing to<lb/>be comforted, knowing Israel’s seed is sifted over the<lb/>earth
+                    and fast bound in the captive chains of the devil;<lb/>but that happy day is
+                    hastening, when satan shall be<lb/>bound, and his power lost for a thousand
+                    years; then the<lb/>Lord my God will comfort His saints, and great shall
+                    be<lb/>their peace, who have laboured to build up Jesus Christ’s<lb/>Kingdom, by
+                    precept and example; doing and suffering<lb/>His Will from one year to another.
+                    May the purity of<lb/>my soul, qualify me to enjoy complete happiness in
+                    Christ,<lb/>in God, my only Friend, my sure support, when the mount<lb/>gains
+                    melt as wax before the fire, and all the proud shall<lb/>stand aghast,
+                    confounded by His Might. I tremble for<lb/>the unwise, when I contemplate their
+                    awful situation, <lb/><pb n="98" facs="Ripley098"/>when the Mediatorial Office of the Great High
+                    Priest will<lb/>be finished, Jesus no longer being appointed as
+                    Interces-<lb/>sir to plead with God for rebellious man. No: His Office<lb/>must
+                    be changed from an High Priest, to a Judge who<lb/>must pass sentence upon all
+                    the proud monarchs, all the<lb/>unrighteous nobles, judges, and the wicked of
+                    every de-<lb/>scription, who have despised His Clemency, and refused<lb/>the
+                    visitation of His Dying Love and Sovereign Mercy,<lb/>which have at last ceased,
+                    unto all the impenitent sons<lb/>and daughters, who choose death, darkness,
+                    horror, des-<lb/>pair, banishment from God and the holy angels, to
+                    become<lb/>servants of sin, and slaves to their own lusts forever,<lb/>being
+                    companions to the dragon, whose <quote type="biblical">Tail drew a
+                        third<lb/>part of the stars,</quote> or angels of God after it, when he was
+                    cast<lb/>out of Heaven, in enmity to Jesus Christ, Heir of all<lb/>things, in
+                    Heaven and earth.</p>
+                <closer><dateline>[<date when="1805-08-09">9th 8th mo. 1805</date>, <placeName
+                            key="verno">Vernon</placeName>,<lb/><placeName key="oneida">Oneida
+                            County</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>As I was desiring the Lord to enlarge my coast, a<lb/>person came for me with a
+                    horse, to hold a meeting five<lb/>miles from this, so I immediately went, and
+                    found already<lb/>a people gathered in a barn. After sitting a little
+                    in<lb/>silence, I arose with the words of King David, <quote type="biblical">The
+                        Lord<lb/>is my Shepherd, I shall not want.</quote> I felt renewed
+                    life<lb/>and power to rise in me, which covered the place; and<lb/>others bore
+                    testimony, that it was good for them to be<lb/>there. Having no where to lodge
+                    this night, a woman of<lb/>the name of Webster asked me home with her when
+                    the<lb/>congregation separated. The house was a small log one,<lb/>made with two
+                    places for light to come in, but no glass to<lb/>keep the air out; and it being
+                    a damp night, the cold<lb/>seized me, and my body was brought into affliction,
+                    which<lb/>made me groan under the weigh of a corruptible house,<lb/>that I shall
+                    be as glad to part with, as the log one. How<lb/>many times when I am
+                    comfortable, am I made restless<lb/>by the Spirit of the Living God, who moves
+                    me to stir up<lb/>the gift of faith in my heart, and thereby seek the
+                    lost,<lb/>that have wandered from the Sheepfold of Jesus Christ, my<lb/>Merciful
+                    Master, who ever excites His servants to suffer <lb/><pb n="99" facs="Ripley099"/>His Will, as
+                    well as delight to do it. My trials are many<lb/>and complicated, yet Though,
+                    Lord, deliverest my soul at all<lb/>seasons, out of the hand of the adversary,
+                    who seeketh<lb/>my life by various means, and has tried every new
+                    tempta-<lb/>tion to beguile and entangle my soul; knowing my delight<lb/>and
+                    glory is the overthrow of his kingdom of darkness,<lb/>in the hearts of poor
+                    sinners, whom I feel much for on<lb/>account of being misled by his base
+                    machinations, where-<lb/>with millions are undone, choosing to yield the
+                    members<lb/>of their bodies servants to sin, and their souls an
+                    habituation<lb/>myself called upon also, to exalt the Redeemer of the<lb/>world,
+                    as a Gracious, Long suffering God, full of pity to<lb/>the children of men,
+                    whose clemency is so great to all,<lb/>that each must be his own accuser at His
+                    Righteous Bar,<lb/>condemned by their reiterated sins, which have ben
+                    vio-<lb/>patins of His Just, and Holy Law, made to model the life<lb/>of man by,
+                    or that whereby his actions shall be examined:<lb/>for the Law is fixed in the
+                    heart of man, and therefore<lb/>many are a Law to themselves who never saw the
+                    Tables<lb/>of Stone, or read the Outward Letter. <quote type="biblical">The
+                        Grace of our<lb/>Lord Jesus Christ hath appeared unto all men,
+                        teaching<lb/>them to deny themselves of all ungodliness, and
+                        wordily<lb/>lusts,</quote> that they may live soberly, righteously, and
+                    bodily<lb/>in this present evil world.</p>
+                <closer><dateline>[<date when="1805-08-11">11th 8th mo.
+                    1805.</date>]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>Having rode five miles in the burning sun this morning,<lb/>I feel like Jonah,
+                    and mourned for a shade, as he did for<lb/>his pleasant Gourd, which withered
+                    away for his instruc-<lb/>tion. The person who went with me, left me in
+                        <placeName key="stockbridge">Stock-<lb/>bridge,</placeName> at the house of
+                        <persName key="aserjea1">Abraham Serjeant</persName>, who has been
+                    a<lb/>missionary to the Tribe of Indians nineteen years suc-<lb/>cessively, and
+                    since he first visited the Indians, he told<lb/>me <said who="aserjea1">It was
+                        thirty.</said> Feeling much distressed by a violent<lb/>pain in my head,
+                    first with cold, and then with heat, I<lb/>could not take the satisfaction I
+                    would, in case I had been<lb/>of the Indian women, whom I felt dear to me.
+                    Kneeling<lb/>in the midst, my prayer was offered in faith for them and <lb/><pb
+                        n="100" facs="Ripley100"/>their children, that they might feel renewed by the Power<lb/>of
+                    the Holy Ghost, and live the true life of Faith. These<lb/>women could all
+                    understand English; and several of<lb/>them professed to be Born again. Eve, the
+                    oldest squaw,<lb/>said <said>I have been Christian thirty years,</said> being
+                    four-<lb/>score years old; yet walked one day to hear me perch four<lb/>miles,
+                    which my Master bid me reward her for it double.<lb/>I was sorry that it was not
+                    in my power to clothe them<lb/>with necessary things; for I had but four gowns,
+                    and I<lb/>gave them three of my little number, and from one dozen<lb/>pieces of
+                    new linen, I left but one change: so the God of<lb/>Heaven and Earth, put it
+                    into the hearts of my rich Chris-<lb/>tian sisters to supply my returning wants,
+                    when I go<lb/>among them; and above all, clothe my poor Red sisters<lb/>with the
+                    saint’s pure white linen, that I may meet them<lb/>in the Kingdom of our Lord
+                    Jesus Christ.</p>
+                <p>I saw a white woman among the rest of the females,<lb/>who was from the State of
+                    New jersey, she was smoking,<lb/>and had two children named, being married to an
+                    Indian.<lb/>I was told that she had a third child, an infant; but
+                    last<lb/>winter it perished for want of clothes: poor babe! its<lb/>sorrows are
+                    at an end, and it is shining with the robe of<lb/>Jesu’s Righteousness! I told
+                    her, <said who="dripl1">She ought to be a pat-<lb/>tern to the Indian
+                        women;</said> and to induce her, I gave her<lb/>a long morning gown, to make
+                    her helpless children each<lb/>one, requesting <persName key="aserjea1">Abraham
+                        Serjeant</persName> to let his daughter<lb/>make them: but he said <said
+                        who="aserjea1">It is too good.</said>
+                    <said who="dripl1">It will last<lb/>the better I replied, for being fine and
+                        good.</said> Afterwards<lb/>I had the pleasure to see this white woman at a
+                    meeting:<lb/>for she with many others came a long way, and I had
+                    an<lb/>opportunity to preach repentance and Faith in Jesus<lb/>Christ, and was
+                    blessed in my own soul abundantly, for<lb/>feeling the miseries of my
+                    fellow-creatures in every direc-<lb/>tion, attending to the Spirit of God in me </p>
+                <closer><dateline>[<date when="1805-08-12">12th 8th mo.<lb/>1805</date>, <placeName
+                            key="stockbridge">Stockbridge</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>Much concern I feel for the Indians here, as well<lb/>as for those I have
+                    mentioned: but those have better<lb/>houses, and have a school for their
+                    children, and many <lb/><pb n="101" facs="Ripley101"/>can speak English so as to be understood. I
+                    went to<lb/>their church, which is distinguished by a steeple, that<lb/>you can
+                    see some distance off. It is a neat, clean, wood<lb/>building, with glass
+                    windows, and a handsome entrance,<lb/>having a gallery all round excepting where
+                    the minister<lb/>sits. The minster took his seat in the pulpit, desiring<lb/>me
+                    to sit in a pew underneath, where three of his daugh-<lb/>ter sat along side of
+                    me, dressed as fashionable as any<lb/>women in middle rank, although there were
+                    but few to see<lb/>them, except the Indians, who all came with a
+                    blanket<lb/>round them, unless it were the young men and women,<lb/>who were
+                    foolishly hung with features, and head tires of<lb/>bright tin mettle. The
+                    Indians fantastically dressed,<lb/>sung a psalm feelingly, which moved my
+                    passion of love,<lb/>so that I wept all the time tears of joy. After this
+                        <persName key="aserjea1">Abra-<lb/>ham Serjeant</persName> prayed in Indian,
+                    and then in English, and<lb/>gave out a second psalm, which was sung as the
+                    other ad-<lb/>mirably. The minister then read part of the fourteenth<lb/>chapter
+                    of Mark, which <persName key="haupa1">Captain Hendrick</persName>, a Chief,
+                    read<lb/>also in Indian; and I was at liberty to preach to them,<lb/>and had
+                        <persName key="haupa1">Captain Hendrick</persName> to interpret for me as
+                    long as I<lb/>thought proper, or in other words, while my Master furnish-<lb/>ed
+                    me with matter for the occasion, having desired Him<lb/>to be both Mouth and
+                    Wisdom to me, and also to lead me<lb/>to the passage which would be the most
+                    enlightening to<lb/>them: for I much delighted to be a messenger of
+                    peace<lb/>individually to them. My subject I took from Isaiah<lb/>who
+                    prophetically said, <quote type="biblical">He was wounded for our
+                        trans-<lb/>gressions: He was bruised for our iniquities; the
+                        chas-<lb/>tisement of our peace was upon Him, and with His Stripes<lb/>we
+                        are healed.</quote> I felt alive in the Truth, therefore deliver-<lb/>ed
+                    each sentence with energetic love and streaming eyes,<lb/>shewing in what manner
+                    the Blessed Jesus was wounded<lb/>and bruised for us! I do not remember a time
+                    that I<lb/>could more freely excite to believe on Him by Faith,<lb/>which I told
+                    them was His Gift, and He would dispense<lb/>it to them if they would seek it by
+                    prayer, and avoiding<lb/>all sin that offended Him who was without sin: for He
+                    <lb/><pb n="102" facs="Ripley102"/>was an obedient Son, and never transgressed: yet
+                    the<lb/>Father laid upon Him the iniquity of us all. The ar-<lb/>dency of mind
+                    which I felt was great, and I am thankful<lb/>the spirit of prayer was imported
+                    to me, that I might in-<lb/>tercede thereby for the application of his Virtuous
+                    Blood,<lb/>which poured forth from His Wounds, when He hung a<lb/>Spectacle in
+                    the air, Dying for all Nations, who were<lb/>Made by Him. I gave <persName
+                        key="haupa1">Captain Hendrick</persName> my pocket book,<lb/>as I had not a
+                    crown to reward him with, for interpreta-<lb/>tion. When I came out, many of the
+                    Indians gladly took<lb/>me by the hand, which affectionately I saluted after
+                    the<lb/>same manner, knowing, One God was our Father, Re-<lb/>deemer, and
+                    Sanctifier of all, who are made whole with<lb/>His Stripes.</p>
+                <p>I went a few miles, and held a second meeting in a<lb/>barn: for the people, in
+                    many places, have to assemble<lb/>thus, being not able to accommodate themselves
+                    better.<lb/>My text was, <quote type="biblical">Master which is the first and
+                        great co-<lb/>mandment?</quote> The fervency of my spirit made me bold
+                    as<lb/>a lion, and I thought I could finish my life in exciting<lb/>them to love
+                    the Lord their God with all their heart,<lb/>soul, mind, and strength. This is
+                    my experience, said I,<lb/>and O that it was each of your’s! Several times I
+                    stood<lb/>silent, being powerfully prevented by weeping; no won-<lb/>der if some
+                    from this evening, love God with all their<lb/>heart, and keep me in
+                    remembrance, for the exercise of<lb/>my faith and prayer. The day was finished
+                    by riding five<lb/>miles alone, contemplating the Love of God in Christ
+                    to<lb/>me.</p>
+                <closer><dateline>[<date when="1805-08-13">13th 8th mo. 1805</date>, <placeName
+                            key="verno">Vernon</placeName>, <placeName key="oneida">Oneida
+                            County</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>Appointments are made for me in five places, one for<lb/>each day; so my work
+                    follows me, though I feared being<lb/>kept idle. The insatiate thirst for souls
+                    which I feel,<lb/>is a thousand times more than for my daily bread, or
+                    ne-<lb/>cessary raiment, therefore I am continually brought
+                    into<lb/>perplexities and doubts for the different situations of my<lb/>hearers.
+                    In many corners here, I find some desiring to<lb/>know what they shall do to
+                    obtain Life Eternal; which I<lb/>am baptized for, as I pass along from one place
+                    to another, <lb/><pb n="103" facs="Ripley103"/>Surely, no one’s sorrows are equal to mine;
+                    because my<lb/>heart seems to share in the bitterness of everyone one whom<lb/>I
+                    mix with.</p>
+                <p>I am going to the Centre, six miles from this, and my<lb/>feeble fabric can
+                    scarcely support itself; but obedience is<lb/>required if I faint by the way.
+                    This is consequence<lb/>of leaving some of my morning’s work to do at
+                    noon.<lb/>Take warning, O reader! and do the work of thy life sea-<lb/>sonably,
+                    then thou wilt be at liberty to rest in pain, and<lb/>thy vigorous hours will
+                    honour Him, who finished His<lb/>work at noon, by thirty-three, being Obedient
+                    all His Days.<lb/>Had I gone forth at the first call of my Heavenly
+                    Father,<lb/>my flesh and bones would now have rested in hope, and<lb/>my spirit
+                    entered the pearly gate of the City of the New<lb/>Jerusalem, which is free, and
+                    the Mother of us all, who<lb/>are sealed to the Day of Redemption, when our
+                    bodies shall<lb/>be raised from the dust and formed a celestial temple,
+                    for<lb/>the glorified soul and Spirit of the Living God to swell in<lb/>forever.
+                        <quote type="biblical">It is sown a natural body, it is raised a
+                        spi-<lb/>ritual body. There is a natural body, and there is a<lb/>spiritiual
+                        body: and so it is written, The first a Adam<lb/>was made a living soul, the
+                        last Adam was made a quick-<lb/>ending spirit.</quote>
+                    <quote type="biblical">And as we have borne the image of the<lb/>earthy, we
+                        shall also bear the image of the Heavenly:</quote><lb/><quote
+                        type="biblical">For the trumpet shall sound; and the dead shall
+                        be<lb/>raised incorruptible, and we shall be changed.</quote></p>
+                <closer><dateline>[<date when="1805-08-14">14th 8th<lb/>mo. 1805</date>, <placeName
+                            key="verno">Vernon</placeName>, <placeName key="oneida">Oneida
+                            County</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p><persName key="skirk1">Samuel Kirkland</persName>, a Presbyterian missionary to
+                        the<lb/><orgName key="oneida">Oneida Indians</orgName>, called upon me this
+                    day to give me an<lb/>invitation to his residence. I felt unwilling for the
+                    pre-<lb/>sent to comply with his request; but my aged friend ap<lb/>peared
+                    determined to have me home with him. He said,<lb/><said><persName key="jsken1"
+                            >Skanando</persName>, the Old <orgName key="oneida">Oneida</orgName>
+                        Chief, had come thirteen miles<lb/>after him, to bring me again, for my last
+                        Interpreter had<lb/>not done me justice, when I took my leave of them:
+                        be-<lb/>sides, he could not trust any so well as his old
+                            friend<lb/><persName key="skirk1">Kirkland</persName>, who administered
+                        the bread and wine unto him;<lb/>being the only man, and Chief, who joined
+                        the Indians <lb/><pb n="104" facs="Ripley104"/>squaws in that holy ordinance: for the women
+                        are much<lb/>better than men, and have a greater knowledge of<lb/>God before
+                        their eyes, which preserves them from intoxi-<lb/>cation, and other evils,
+                        that the men are liable to be over-<lb/>taken with, when they are deprived
+                        of their reason by<lb/>strong drink.</said> I told my friend <persName
+                        key="skirk1">Kirkland</persName> that <said who="dripl1">I had<lb/>taken my
+                        leave of the <orgName key="oneida">Oneida Indians</orgName>, but was willing
+                        to<lb/>go again in case they might be benefited.</said> We parted,<lb/>and I
+                    rode with a sick head-ache to the Centre, six miles<lb/>off, and the first
+                    salutation I received was, that <said>Many<lb/>were determined to hinder me of
+                        preaching, declaring a<lb/>woman had no right to preach.</said> I was very
+                    still, and kept<lb/>silence till the way opened of itself, without my
+                    making<lb/>one effort to promote it; for the Lord stirred up a
+                    goodly<lb/>number, who positively said, <said>I should preach, and if
+                        I<lb/>could not be accommodated with the Presbyterian church,<lb/>I should
+                        have the schoolhouse, as it was free for all.</said> I<lb/>had no companion,
+                    and knew not one soul among all this<lb/>confusion: therefore I relied on the
+                    Arm of Jehovah, my<lb/>strong defence, and saw satan once more defeated by
+                    the<lb/>God of Jacob; for I had patiently waited for the Lord to<lb/>put him to
+                    flight who had rose up an host against me, to<lb/>cause me to be confounded
+                    before my opposers.</p>
+                <p>As I had made the best of it that I could, strength<lb/>was given to me to
+                    evidence to all present that I feared none<lb/>but the Living God, saying in the
+                    midst of my subject,<lb/><quote type="biblical">Wo! be to me if I preach not the
+                        gospel,</quote> feeling as my<lb/>day of suffering was, my inward peace and
+                    power abound-<lb/>ed, which was a fresh manifestation of the Father’s
+                    Love<lb/>unto me, and confirmation that I still moved in the line of<lb/>my
+                    duty.</p>
+                <p>When the meeting closed, six persons came unto me,<lb/>to request I would go with
+                    them, each having a horse; but<lb/>I was as much at a stand to know how I should
+                    dispose of<lb/>myself after meeting! as to comprehend how I should<lb/>obtain
+                    admission among them! One cried out, <said>You must<lb/>go with me,</said>
+                    another, <said>She shall go with me,</said> and my<lb/>friend <persName
+                        key="skirk1">Samuel Kirkland</persName>, missionary to the <orgName
+                            key="oneida">Oneida Indians</orgName>, <lb/><pb n="105" facs="Ripley105"/>said, <said
+                        who="skirk1">I have come six miles for her, and will not be ex-<lb/>cused
+                        from taking her to my house: therefore she must<lb/>come with me; for I have
+                        promised to take her to <orgName key="oneida">Oneida</orgName><lb/>next
+                        Sabbath, as <persName key="jsken1">Skanando</persName>, the old Chief, will
+                        not be<lb/>satisfied without it.</said></p>
+                <p>The contest was finished, and I thought I was richly<lb/>rewarded for my
+                    faithfulness, having exhorted them to be<lb/>ready for the approach of the
+                    Bridgegroom, who would<lb/>come in such an hour as they thought not of. As I
+                    went<lb/>home with <persName key="skirk1">S. K.</persName> we had a very solemn
+                    die, and our tears<lb/>flowed reciprocally: for the Lord our God, had been
+                    with<lb/>us in ten thousand dangers, where death threatened us in<lb/>the most
+                    poignant manner. He told me that he has been<lb/>minister forty years, and
+                    twenty of that time he adopted<lb/>an Indian’s life, living among them for their
+                    benefit. When<lb/>his lot was first cast there, he was fixed with the best
+                    man<lb/>they had, who died a few days after; which they attri-<lb/>buted to him,
+                    and were determined to have revenge, life<lb/>for life. He said, <said
+                        who="skirk1">I was commanded to fall asleep, and<lb/>a fire was prepared;
+                        but while they were all around me,<lb/>I kept singing hymns, trusting in God
+                        to deliver me, yet<lb/>they often said to me, <said>Go to sleep, why do you
+                            sing?</said><lb/>at last one of the Chiefs was wright on, and made
+                        an<lb/>affecting speech, signifying, that <said>This brother had
+                            fallen<lb/>down few steps short a few paces, were they to kill a
+                            white<lb/>brother for it,</said> saying, <said>It will bring innocent
+                            blood upon<lb/>our Nation if we kill him:</said> therefore they
+                        hearkened unto<lb/>this Chief, and I was marvelously delivered from the
+                        jaws<lb/>of death. Another wonderful escape I had through the<lb/>goodness
+                        of God: I had taught a number of the young In-<lb/>dins to sing psalms, and
+                        they used to come and sing<lb/>with me, and I prayed, so that many of them
+                        were become<lb/>civilized, and did not like to go out among the
+                        warriors,<lb/>which enraged the men of war much, so that they agreed<lb/>to
+                        take my life from me, saying, <said>I wanted to teach them<lb/>to milk, and
+                            hoe, and make women of them.</said> The night<lb/>they fixed for putting
+                        me to death, I was fast asleep, and <lb/><pb n="106" facs="Ripley106"/>an old woman came and
+                        tried to wake me, knowing their<lb/>intention, crying, <said>Up; up;
+                            up;</said> many times, and then<lb/>left me; but being very sound, I did
+                        not regard what was<lb/>said unto me, and therefore lay still, till she came
+                        and<lb/>shook me by the shoulders, and said <said>Up; up; flee; flee<lb/>for
+                            life;</said> giving me a blanket to hide me; I run among<lb/>some thick
+                        bushes, and covered myself all over, laying<lb/>down under them, which I had
+                        no sooner done, but I<lb/>heard them march along, sounding through the
+                        woods,<lb/>singing their warlike songs and passed by me, to go to<lb/>the
+                        hut where I came from, and sought me with great<lb/>fury, threatening the
+                        aged woman that they would kill<lb/>her unless she would tell where I was,
+                        but she said I <said>Was<lb/>not there,</said> and then cried out pitiably,
+                            <said>What! kill an<lb/>old granny! kill an old granny!</said> so they
+                        went away, and<lb/>I remained to hide myself several days, until their
+                        rage<lb/>was pacified against me.</said></p>
+                <p>I was pleased to hear the deliverance that God wrought<lb/>out for my friend, and
+                    remarked, that if he had been more<lb/>faithful, the Lord then would have
+                    blessed his labours<lb/>more abundantly, which he with tears acknowledged
+                    he<lb/>believed; yet said, <said who="skirk1">I have seen fruit of my labour:
+                        for<lb/>there are thirteen women brought to believe on our Lord<lb/>Jesus,
+                        and <persName key="jsken1">Skanando</persName>, the old Chief, is a
+                        Christian,</said> weep-<lb/>ing all the way. Let the time past suffice, I
+                    cried, but if<lb/>thou hadst only taken thought for the Indians, God
+                    would<lb/>have cared for thee and they children; and I am fully sensi-<lb/>ble
+                    that no one will ever profit the Indians unless they<lb/>can lay aside their own
+                    interest, and I am thankful that<lb/>thou hast done the good thou hast: but I
+                    wish though<lb/>wouldst let the time past suffice, and what they hand
+                    find-<lb/>set to do, do it with all they might. My aged brother, with<lb/>tears
+                    said he <said who="skirk1">Would take my advice: for what I had<lb/>advanced was
+                        the truth;</said> and I found great peace in de-<lb/>claring what I did, and
+                    hope that useful lesson, which the<lb/>Lord my God taught me by His Spirit to
+                    give him, will<lb/>be put in practice by myself, in every point of view,
+                    as<lb/>touching my spiritual labour in His Vineyard; for unless <lb/><pb n="107" facs="Ripley107"/>the heart is centred in Him, and weaned from all worldly<lb/>attainments, or
+                    earthly possessions, it is not possible that<lb/>He will honour us with
+                    spiritual riches, and qualify us to<lb/>bring home many souls to Him, as
+                    instruments in His own<lb/>Hands, to bring about that wonderful event, when the
+                    out-<lb/>pouring of His Spirit causeth All to know the Lord, from<lb/>the least
+                    unto the greatest.</p>
+                <closer><dateline>[<date when="1805-08-15">15th 8th mo. 1805.</date>
+                        <placeName key="paris">Paris</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p><persName key="ekirk1">Eliza Kirkland</persName>, an amiable young woman,
+                    daughter<lb/>of <persName key="skirk1">S. K.</persName> took me in a chaise to a
+                    Quaker’s house, four<lb/>miles off, where I had a solemn meeting, which was
+                    in<lb/>a barn, and warned the scoffers there whom I felt for, lest<lb/>they
+                    should be of the number of such who would inward-<lb/>ly groan, saying, <quote
+                        type="biblical">We fools thought their lives madness,<lb/>and their end to
+                        be without honour.</quote> It was a satisfacto-<lb/>ry time, notwithstanding
+                    some scorners being there. The<lb/>Quaker took me home to his house, where I
+                    abode that<lb/>night in great sorrow of mind for some of the family
+                    not<lb/>fearing God.</p>
+                <p>The <date when="1805-08-16">16th</date> I went to <placeName key="broth"
+                        >Brothertown</placeName>, to collect the Indians<lb/>there together, in the
+                    school-house. My advice to them<lb/>was, <quote type="biblical">Seek ye first
+                        the Kingdom of God and His Right-<lb/>eousness, and all these things shall
+                        be added unto you.</quote><lb/>Which things I explained, were the
+                    necessaries of life, that<lb/>the Christians are entitled to, by the special
+                    promises and<lb/>care of our Heavenly Father, who watches over His
+                    chil-<lb/>dren from day to day. Those Indians were Baptists, di-<lb/>vided from
+                    two classes, one part believed in election, and<lb/>the other in free salvation.
+                    Where I was, they had re-<lb/>fused their minister, because they said <said>They
+                        would not<lb/>worship such a cruel God as he served, as He only
+                        took<lb/>care of a part of his creatures,</said> and drew this
+                    comparison,<lb/>by asking a question concerning their women: <said>Would<lb/>not
+                        she be a cruel mother, who having two children,<lb/>took the one and nurse
+                        it; and left the other to perish?<lb/>so we will worship a God who takes
+                        care of all His chil-<lb/>dren;</said> which I think was an excellent
+                    conclusion, and a<lb/>sound argument was advanced to shew how far an
+                    Indian<lb/>is capable of believing in the Living and True God, who <lb/><pb
+                        n="108" facs="Ripley108"/>is no Respecter of persons, further than they disregard
+                    his<lb/>Righteous Commandments and slight His offered mercy.</p>
+                <p>After meeting, I rode eight miles, and slept very little<lb/> in the night, by
+                    reason of poor accommodations, for we<lb/>all lodged in one room, where I could
+                    see the firmament<lb/>from a breach which had been made by fire. They sky
+                    at-<lb/>tracted my notice, and prevented my sleeping, as I had<lb/>not before
+                    met with such poor lodgings, yet I had the best<lb/>this miserable log house
+                    afforded, being welcome there.</p>
+                <p>A large number assembled on the <date when="1805-08-17">17th</date> for
+                    worship,<lb/>who had come, from two miles to ten round this neigh-<lb/>bourhood;
+                    but having no other place better than a school-<lb/>house, when it was full, the
+                    people came and requested<lb/>me to <said>Go out into the open air, to
+                        accommodate them<lb/>who had come so far.</said> I therefore got into a car,
+                    and<lb/>lift up my voice with authority, and said in the words of<lb/>my Lord
+                    and Master, <quote type="biblical">Let your light so shine before<lb/>men that
+                        they may see your good works, and glorify your<lb/>father which is in
+                        Heaven.</quote> I was much favoured with<lb/>the Presence of God; for this
+                    opportunity required great<lb/>fortitude, as I never was before called to stand
+                    out i nthe<lb/>air, exposed to the burning sun, though I screened my-<lb/>self
+                    as well as I could. There is great courage also ne-<lb/>cessary for such a
+                    calling as this, which females are not<lb/>in general possessed of; because a
+                    false delicacy prevails<lb/>over the mind that is termed refinement, which
+                    shudders<lb/>at the very idea of standing a gazing stock to men of
+                    the<lb/>basset passions; unless they have been betrayed, and de-<lb/>sire to
+                    insnare their fellow-mortals, which is now become<lb/>so common, that a prudent
+                    woman must be very guarded<lb/>to sun the censure of the vulgar, if she wish to
+                    maintain<lb/>her character, as a virtuous woman, among mankind.</p>
+                <p>When I had opened the passage, and stood a consider-<lb/>able time, I gave over,
+                    and was succeeded by one of my<lb/>sisters, who appeared astonished at me, and
+                    longed for a<lb/>vacant moment to testify, that, <said>The spirit of
+                        prophecy<lb/>was not to continue always within the narrow limits of<lb/>our
+                        brotherhood, as male and female, are one in our Lord <lb/><pb n="109" facs="Ripley109"/>Jesus, when they become members of One Mystical Body,<lb/>even the
+                        Spiritual Body, or Bride of Christ, whom He<lb/>will remain Head of, or
+                        Bridgeroom to, forever, by law-<lb/>ful inheritance,</said> having <quote
+                        type="biblical">Swallowed up death in victory.</quote><lb/>As soon as she
+                    had finished, I made way for another, by<lb/>sanctioning what was already
+                    advanced; and then, the<lb/>third time, I resumed my office, almost like a
+                    mother in<lb/>Israel, although but a babe, comparatively speaking. It<lb/>was a
+                    time whig will be remembered, I verily believe,<lb/>because no other person
+                    spoke, or prayed, but us three<lb/>women, who never had seen each other’s face
+                    before.<lb/>We witnessed according to this declaration, <quote type="biblical"
+                        >Where<lb/>the Spirit is, there is Liberty,</quote> and I am of opinion, if
+                    we<lb/>never see one another again in the flesh, we shall be ad-<lb/>kitted into
+                    that Mansion, where there is joy and pace,<lb/>and everlasting pleasure, to
+                    reward every soul, who have<lb/>denied themselves of all ungodliness, and worldy
+                    lusts,<lb/>and taken up the Cross of our Lord Jesus Christ.</p>
+                <p>A person asked me home with her, two miles off,<lb/>whose name was Sloan, who was
+                    a tender hearted woman,<lb/>a Baptist by profession: thus I mix among all,
+                    regarding<lb/>no name, if only the image of Jesus Christ is there. I<lb/>had to
+                    lodge again in the same room where the whole fa-<lb/>mily were, it being a log
+                    house, with poor accomoda-<lb/>tions.</p>
+                <p>One the <date when="1805-08-17">17th</date>, <persName key="wsloa1">William
+                        Sloan</persName> went with me from <placeName key="augus"
+                        >Au-<lb/>gusta</placeName> to <placeName key="stockbridge"
+                        >Stockbridge</placeName>; and this merciful man having but<lb/>one horse,
+                    walked four long miles through the woods and<lb/>mud, to let me ride on his
+                    valuable creature. This person<lb/>was a Scotchman, who fought for the
+                    Americans, and in<lb/>the war received a ball that passed under his left
+                    should<lb/>blade to his back bone, where it has been twenty-eight<lb/>years. I
+                    offered him out of my little stock of money,<lb/>half a dollar, but he would
+                    only take two shillings.</p>
+                <p>A meeting was held again in <placeName key="stockbridge">Stockbridge</placeName>,
+                    for the in-<lb/>struction of the poor Natives, who are dear to me. There<lb/>are
+                    some of the Jersey Indians among this tribe, and the<lb/>whole number here, are
+                    rising three hundred, which infor-<lb/><pb n="110" facs="Ripley110"/>mation I got from <persName
+                        key="aserjea1">A. S.</persName> their minister. This day two of<lb/>the
+                    missionaries, and young clergyman were present,<lb/>while my soul was earnestly
+                    engaged for the good of the<lb/>Indians: but I verily believe by their
+                    proceedings, it was<lb/>their opinion that a woman ought not to preach: for
+                    one<lb/>of them said afterwards, had I <said>Come to teach them to<lb/>knit and
+                        sew, it would be very well.</said> From two until six,<lb/>I abode, and told
+                    them I hoped to see them among Christ’s<lb/>sheep at His Right Hand. The women
+                    presented me an<lb/>address, written by <persName key="haupa1">Capt.
+                        Hendrick</persName>, an Indian Chief, who<lb/>was my interpreter. This
+                    address was to shew their affec-<lb/>tion and gratitude, for crossing the Great
+                    Ocean, to call<lb/>them to the Fold of Jesus, which some already are in,
+                    be-<lb/>ing Lambs of His Care, and Sheep of His Pasture. I felt<lb/>sorry to be
+                    obliged to trouble <persName key="aserjea1">A. S.</persName> for a horse, but if
+                    it be<lb/>ever in my power, I will reward him; and I am equally<lb/>obliged to
+                    him for his kindness, in setting me four miles<lb/>to <placeName key="verno"
+                        >Vernon</placeName>, to the residence of my kind father Young.</p>
+                <closer><dateline>[<date when="1805-08-19">19th 8th mo. 1805</date>, <placeName
+                            key="verno">Vernon</placeName>, <placeName key="oneida">Oneida
+                            County.</placeName>]</dateline></closer>
+            </div>
+            <div type="entry">
+                <floatingText type="letter">
+                    <body>
+                        <opener>AN ADDRESS<lb/>From the Women of the <orgName key="stockbridge">Muhheconnuk
+                                nation</orgName> of Indians,<lb/>written on their behalf, in their
+                            native language, and<lb/>translated into English by <persName
+                                key="haupa1">Captain Hendrick</persName>, one of the<lb/>Indian
+                            chiefs, and presented to Dorothy Ripley, on her<lb/>departure from
+                            amongst them. <salute>DEAR SISTER,</salute></opener>
+                        <p>WE, the poor women of the <orgName key="stockbridge">Muhheconnuk
+                            nation</orgName>,<lb/>wish to speak few words to you, to inform you,
+                            that while<lb/>our forefathers were sitting by the side of their
+                            ancient<lb/>fire-place, about eighty years ago, our father, <persName
+                                key="aserjea1">Rev. Mr.<lb/>Sergeant</persName>’s father, came
+                            amongst them with the message<lb/>of the Great and Good Spirit, which he
+                            then began to de-<lb/>liver to them. He was the first minister of the
+                            gospel<lb/>that ever preached to our fathers, and the Great and
+                            Good<lb/>Spirit blessed his labours, by which means many of our<lb/>poor
+                            natives were turned from darkness to light.</p>
+                        <p>Our ancestors loved their minister, whom they looked <pb n="111"
+                            facs="Ripley111"/><lb/>upon as father, because he was willing to live and die
+                            with<lb/>them.</p>
+                        <p>Sister, We will also inform you, that since our father,<lb/><persName
+                                key="aserjea1">Mr. Sergeant</persName>’s father died, he began to
+                            manifest a com-<lb/>passionate feeling towards our dismal situation; he
+                            in the<lb/>first place began to teach us to read and write, this he
+                            did<lb/>several years; after this he then began to deliver the
+                            word<lb/>of the Good Spirit, and his labours have been blessed,
+                            by<lb/>which means we who are commonly called by the white<lb/>people
+                            Squaws, are enquiring the way to Zion.</p>
+                        <p>Sister, While we were sitting by the side of our fire-<lb/>place here, we
+                            saw you coming, and when you opened<lb/>your mouth we believed you was
+                            sent by the Great and<lb/>Good Spirit to visit us (poor natives of this
+                            Island.) We<lb/>feel thankful to Him that He has put such a love in
+                            your<lb/>heart, that you was willing to undertake such a long
+                            and<lb/>tedious journey on the purpose to deliver His message to
+                            us.<lb/>We thank the Great Good Spirit that He has protected<lb/>you on
+                            the way, that you arrived here safely.</p>
+                        <p>Sister, In behalf of the rest of our woman, we now<lb/>heartily thank you
+                            for your kindness and for the pains you<lb/>have taken to visit us.</p>
+                        <p>We hope by the help of the Great Good Spirit, we shall<lb/>ever remember
+                            you, and the good words which you deli-<lb/>vered to us. Although we do
+                            not expect ever to see you<lb/>again, yet we believe that the Lord Jesus
+                            is able to help<lb/>us that we may hold out unto the end, that we may
+                            see you<lb/>among His Sheep on His Right, where we shall never
+                            be<lb/>parted again.</p>
+                        <p>May the Good Spirit protect you on your way, that<lb/>you may have
+                            pleasant journey unto the end, farewell.</p>
+                        <closer><signed>
+                                <persName key="lhend1">Lydia Suhquauwkhuh, or Hendrick</persName>.<lb/>
+                                <persName key="cquaw1">Catharine Quauquwchon</persName>.<lb/>
+                                <persName key="emauk1">Eliz. Maukhtoaquauwusquch, or
+                                    Jersey.</persName><lb/>
+                                <persName key="kquin1">Catharine Quinney</persName>.<lb/>
+                                <persName key="eknoh1">Eve Knohtcaunmeu</persName>. In behalf of the
+                                rest. </signed>
+                            <dateline><placeName key="newst">New Stockbridge</placeName>. <date
+                                    when="1805-08-19">19th August, 1805</date>.<lb/>In the State of
+                                <placeName key="nycit">New York</placeName>.</dateline></closer>
+                    </body>
+                </floatingText>
+                <pb n="112" facs="Ripley112"/>
+
+                <p><persName key="skirk1">Samuel Kirkland</persName> took me to have my
+                    appointment<lb/>fulfilled, which he engaged me to perform agreeable to
+                    the<lb/>request of <persName key="jsken1">Skanando</persName>, the old Chief,
+                    king of the <orgName key="oneida">Oneida nation</orgName><lb/>: but when I got
+                    there, the Presbyterian minis-<lb/>ter came, who said <said>She had better teach
+                        them to knit<lb/>and sew, as preach to them,</said> enquiring <said>What
+                        apology<lb/>he should make to them for my preaching, as they did
+                        not<lb/>teach the Indians, that women had any right to preach?</said><lb/>I
+                    told him candidly, to <said who="dripl1">Save himself trouble; for no<lb/>one
+                        had any business to interfere respecting this, since I<lb/>was accountable
+                        to no one but God, who had brought me<lb/>hither, neither was any answerable
+                        for what I did.</said> I<lb/>was sitting in silence a little, with a large
+                    collection of<lb/>Indians, when this missionary walked in with a pompous<lb/>air
+                    into the pulpit, unlike a humble preacher of the<lb/>Righteousness of our Meek
+                    and Lowly Jesus: however, I<lb/>thought it best to set him an example of love,
+                    so permitted<lb/>him to partake of the opportunity, which had been
+                    merci-<lb/>fully prepared for me, by the Providential Mercy of God.<lb/><quote
+                        type="biblical">Woman why weepest though? whom seekest thou?</quote>
+                    was<lb/>my text, therefore I confined myself to my Indian sisters;<lb/>and told
+                    the men, as there were two preachers there, I<lb/>left them to the instruction
+                    of those missionaries; testi-<lb/>fying boldly, <said who="dripl1">That if the
+                        disciplines had watched with the<lb/>same assiduousness, as Mary did at the
+                        Sepulchre, they<lb/>would have had the joyful tidings to preach, “That
+                        Jesus<lb/>Christ the Lord was Risen from the Dead;”</said> this
+                    chagrined<lb/>the missionaries so much, who oppossed me among the<lb/>Indians,
+                    that I believe the next woman whom the Lord<lb/>sendeth, he will not dare to
+                    insult: for the Indian women<lb/>resented it with great indignation, having
+                    proved me their<lb/>sympathizing sister, who felt for their bodies and souls,
+                    and<lb/>desired no reward, further than their present peace.</p>
+                <p><persName key="skirk1">Samuel Kirkland</persName>, their stationed minister and
+                    father,<lb/>who had been with them forty years, acted as a kind bro-<lb/>ther to
+                    me, interpreting for me, as the Lord my God gave<lb/>ability to us each.
+                    Although satan was seeking an occa-<lb/>sion to sow tares, or make discord among
+                    us, I trust He <lb/><pb n="113" facs="Ripley113"/>would give this people to see where their help
+                    must come<lb/>from, as it appeared my duty to impress their minds with<lb/>the
+                    great obligation they owed to the Lord Jesus, who<lb/>waited to bring them into
+                    His Fold of Love, that He might<lb/>be their Merciful Shepherd, and Guide them
+                    as His Flock,<lb/>being <quote type="biblical">The True Light, which eightieth
+                        every man that<lb/>cometh into the world.</quote></p>
+                <p>After we separated, I went to <persName key="jsken1">Skanando’s</persName>, the
+                    oldest<lb/>Chief’s house, where the good women all followed me,<lb/>that we
+                    might have another opportunity; for we had been<lb/>interrupted by the uncivil
+                    minister, who followed me with<lb/>my friend <persName key="skirk1"
+                        >Kirkland</persName>; but I was determined that there<lb/>should be none
+                    present, who wanted the true mark of<lb/>Christ’s Disciples, even Love:
+                    therefore told him to <said>Go<lb/>away, and attend to his own preaching
+                        elsewhere,</said> which<lb/>he did, when he found I was resolute and saw the
+                    displea-<lb/>sure which he had raised in the breasts of the women
+                    uni-<lb/>versally. <persName key="skirk1">S. K.</persName> rejoiced the heart of
+                        <persName key="jsken1">Skanando</persName> and the<lb/>women by telling
+                    them, <said who="skirk1">If I were spared, I intended to<lb/>return back again
+                        to see them;</said> and we had a favoured<lb/>time, with God’s parting
+                    blessing.</p>
+                <p>Returning to <placeName key="verno">Vernon</placeName>, <persName key="cyoun1"
+                        >Calvin Young</persName> signified that I<lb/><said who="cyoun1">Could go no
+                        where, that they were more wicked than<lb/>there,</said> and requested me to
+                    stay a month longer, to have<lb/>meetings up and down, in the neighbourhood;
+                    and, as an<lb/>inducement, he proposed taking me to <placeName key="alban"
+                        >Albany</placeName> in his car-<lb/>riage, with his wife, which was above
+                    one hundred miles<lb/>off, at the end of that period, having to go there: but
+                    en-<lb/>quiring of my Master Jesus, I was commanded to return<lb/>back, as my
+                    work was done there, and I was wanted else-<lb/>where. Knowing I had not money
+                    sufficient to pay my<lb/>expenses, I desired the Lord to incline the heart of
+                    my<lb/>generous friend to give me one dollar, which I thought<lb/>would be
+                    enough, with economy, to take me to <placeName key="alban"
+                    >Albany</placeName>,<lb/>where the Lord had richly supplied me with money to
+                    come<lb/>thither. I was astonished immediately, when I acquaint-<lb/>ed my
+                    friend that I could not stay another day, that he<lb/>answered the desire of my
+                    heart so cheerfully, by taking <lb/><pb n="114" facs="Ripley114"/>a silver dollar out of his
+                    pocket, saying, <said who="cyoun1">Well, if you<lb/>will stay no longer, take
+                        this piece of money,</said> which made<lb/>me burst into a flood of tears,
+                    and acknowledge, that <said who="dripl1">No<lb/>sum of gold could ever reward
+                        him for his disinterested<lb/>love, and fatherly care over me, in a strange
+                        land, where<lb/>I knew no mortal when I came here; begging the Lord<lb/>to
+                        return his mercy upon his children;</said> having three<lb/>amiable women,
+                    whom I loved as sisters, who were a cre-<lb/>dit to him, and his beloved wife,
+                    who with himself, will<lb/>ever be gratefully remembered, as friends raised up
+                    by<lb/>God, to answer His own Purpose by me; and I trust when<lb/>all the
+                    children of God will be received into the King-<lb/>dom, I shall see them, and
+                    hear it say unto them, among<lb/>His sheep, <quote type="biblical">Verily I say
+                        unto you, in as much as ye have<lb/>done it unto one of the least of these
+                        my brethren, ye<lb/>have done it unto me.</quote> We parted with much
+                    affection,<lb/>and my friends gave me this letter to keep in remem-<lb/>brance
+                    their names.</p>
+                <closer><dateline>[<date when="1805-08-20">20th 8th mo. 1805</date>, <placeName
+                            key="paris">Paris</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <floatingText type="letter">
+                    <body>
+                        <opener>A testimonial received from <persName key="cyoun1">Calvin
+                                Young</persName>, who introduc-<lb/>ed <persName key="dripl1"
+                                >Dorothy Ripley</persName> to the <orgName key="oneida">Oneida
+                                Tribe</orgName>, or <orgName key="pagan">Pagan<lb/>Party.</orgName>
+                            <dateline><placeName key="verno">Vernon</placeName>, <date
+                                    when="1805-07-26">July 26, 1805.</date></dateline></opener>
+                        <p>A LADY from England, by the name of <persName key="dripl1">Dorothy
+                                Rip-<lb/>ley</persName>, was introduced to me by a gentleman who
+                            came pas-<lb/>senger with her in the mail stage, for the purpose
+                            of<lb/>preaching to the <orgName key="oneida">Oneida</orgName> and the
+                            neighbouring Indians.<lb/>On Sunday, the <date when="1805-08-28"
+                                >28th</date>, I had the pleasure of introducing her<lb/>to a part of
+                            the <orgName key="oneida">Oneida Tribe</orgName>, called the <orgName
+                                key="pagan">Pagan party</orgName>,<lb/>who believe not in the
+                            Christian Religion, but in worship-<lb/>ing the Great Spirit, by
+                            sacrificing and dancing. I in-<lb/>formed the Great Chief that she had
+                            come a great way to<lb/>preach to them. This Chief is called the
+                            <persName key="jblac2">Blacksmith</persName>, and<lb/>is a
+                            complete savage in every respect, and very envious<lb/>to the white
+                            people; but in this instance seemed to be<lb/>well pleased with her
+                            visit, and expressed himself in this<lb/>manner, <said who="jblac2"
+                                >That the white people generally came to them<lb/>under a pretence
+                                of friendship, that after they had obtained <lb/><pb n="115" facs="Ripley115"/>their
+                                object they were no more friends, but treated them<lb/>unkindly and
+                                destroy their property, but said he liked<lb/>the people called
+                                Quakers, that they were good people and<lb/>would do them no
+                                harm.</said> After the meeting was over,<lb/>they generally
+                            expressed a wish that she would pay them<lb/>another visit. This is the
+                            only instance that I ever knew<lb/>this Chief to be pleased with white
+                            people coming amongst<lb/>them, or paying any attention to the preaching
+                            of the<lb/>Gospel.</p>
+                        <closer><signed>
+                                <persName key="cyoun1">CALVIN YOUNG</persName>,<lb/>
+                                <persName key="eyoun2">EVE YOUNG</persName>. </signed></closer>
+                    </body>
+                </floatingText>
+
+                <p>My friends set me to <placeName type="augus">Augusta</placeName>, where I had a
+                    favoured<lb/>meeting, but was obliged to go into the woods, for the<lb/>house
+                    would not hold the people collected from various<lb/>motives. I sat in silence
+                    for some minutes, and then<lb/>stood upon the stump of a tree, and looking
+                    steadfastly at<lb/>a well dressed man, I pronounced those words, <quote
+                        type="biblical">If they<lb/>hear not Moses, and the prophets, neither will
+                        they be<lb/>persuaded though one rose from the dead.</quote> I
+                    signified<lb/>there are such present, who neither believed in Moses,<lb/>nor the
+                    prophets; and although my soul was risen from<lb/>the dead spiritually, they
+                    would not give credit to it unless<lb/>they believed in the outward Record,
+                    which testified of<lb/>Him who was the Resurrection of soul, as well as
+                    body,<lb/>and who was beheld by the children of Israel, when Moses<lb/>lifted up
+                    the brazen serpent on a pole, for those stung by<lb/>serpents to behold, as
+                    though they beheld the Son of Man,<lb/>the Son of God lifted up, who should Cure
+                    the deadly<lb/>wound of the old serpent, even satan, who brought a
+                    spi-<lb/>ritual death into the souls of all, since the day that Adam<lb/>fell by
+                    disobeying the Righteous Commandment of the<lb/>Living God. I labored until I
+                    had no more strength,<lb/>either to pray or preach, as I thought, and therefore
+                    gave<lb/>over; and the man whom I particularly addressed, when<lb/>he could no
+                    longer stand the Truth, slipped off out of my<lb/>sight. i was told, <said>He
+                        had been educated a Quaker; but<lb/>had not been at a meeting for religious
+                        worship for twenty <lb/><pb n="116" facs="Ripley116"/>years, being a professed Deist in this
+                        part, and made this<lb/>excuse for coming to day, “As it is a woman who is
+                        going<lb/>to preach, I will go and hear what she has to say:”</said>
+                    there-<lb/>fore it was no wonder that the Merciful Jesus should find<lb/>him out
+                    among the multitude. Had I known the man<lb/>was a Deist, and despised the sect
+                    of religious professors,<lb/>I could not have reached him with a more suitable
+                    testi-<lb/>mony; but I am better pleased, that the Spirit, who<lb/>searcheth all
+                    things, directed my heart and eyes to him:<lb/>for he must think it strange, as
+                    I was not known by any<lb/>there.</p>
+                <p>Coming out of the woods, many <said>Besought me to return<lb/>back, as they had
+                        come unseasonably, four and six miles<lb/>distance; and did not know that
+                        the meeting was so early.</said><lb/>Standing to know the Will of my
+                    Gracious Master, I was<lb/>surprised with the Spirit of prayer, which came on me
+                    in<lb/>the twilling of an eye, and I supplicated Heaven for a<lb/>parting
+                    blessing upon this people, who had come to hear<lb/>a stranger, who had left all
+                    to follow Jesus, the Friend of<lb/>sinners; that I might be an instrument in His
+                    Hands to<lb/>seek out the lost sheep of the house of Israel.</p>
+                <p><persName key="iwobb1">Isaac Wobby</persName> came for me, and we rode together
+                    six<lb/>miles, from <placeName key="augus">Augusta</placeName> to <placeName
+                        key="paris">Paris</placeName>. This man was an Indian<lb/>from <placeName
+                        key="longi">Long-Island</placeName>, who lives in <placeName key="broth"
+                        >Brothertown</placeName>, and teaches<lb/>some of that Tribe, as God giveth
+                    him ability. He told<lb/>me he was converted fourteen years ago, and fell
+                    away,<lb/>and was very wicked; but since that, he was restored to<lb/>Divine
+                    Favour, and now enjoys the Love of Jesus Christ.<lb/>I rode on one of his
+                    horses, for the white people did not<lb/>lend me one, which I think was a great
+                    neglect, as I was<lb/>willing to spend my strength, and last breath in
+                    promo-<lb/>ting the Gospel of our Lord and Saviour, any where that<lb/>His
+                    Spirit leads me to suffer, or do His Will.</p>
+                <p>Though I have in this part had many kind friends, yet<lb/>various have been my
+                    sorrows, which have come from un-<lb/>expected quarters, and from such who
+                    should heal, and<lb/>not try to wound. My friend <persName key="skirk1">Samuel
+                        Kirkland’s</persName> daugh-<lb/>ter <persName key="ekirk1"
+                    >Eliza</persName>, has treated me as a sister, and conducted me to <lb/><pb
+                        n="117" facs="Ripley117"/><placeName key="broth">Brothertown</placeName>, where we had a very
+                    good meeting, at <persName key="iwobb1">Isaac<lb/>Wobby’s</persName> place for
+                    worship, among the Close Communi-<lb/>cants, who are separated from the rest of
+                    their Baptist<lb/>brethren, called the Open Communicants, if I am
+                    rightly<lb/>informed. I had a meeting with the others before. The<lb/>Indians
+                    here strive to imitate the white people, and there<lb/>is no need of an
+                    interpreter, as they speak English. My<lb/>young friend took me back in her
+                    father’s chaise, which he<lb/>lent us, after meeting; as I have been much
+                    fatigued<lb/>with having to go beyond my strength: but to lay on a<lb/>good bed,
+                    in a comfortable clean house, revived my spirits,<lb/>knowing I was welcome
+                    there, and invited to tarry to rest<lb/>myself, and bring up my journal. The
+                    friendship of this<lb/>family, I desire to record to the honour of <persName
+                        key="skirk1">Samuel Kirk-<lb/>land</persName> and his wife <persName
+                        key="mkirk2">Mary</persName>; who sympathized with me in my<lb/>solitude,
+                    and administered a little comfit to my tribula-<lb/>ted spirit, which I offer my
+                    thanks unto the Lord my God,<lb/>who alone Has all Power, to open and shut the
+                    hearts He<lb/>Has made.</p>
+                <p><persName key="cquaw1">Catharine Quachemut</persName>, an Indian sister, being
+                    much<lb/>grieved at the incivility of the missionary who opposed<lb/>women’s
+                    preaching, wrote me the following letter; and<lb/>then walked eight miles to
+                    bring it.</p>
+                <floatingText type="letter">
+                    <body>
+                        <opener>A Letter from an Indian Squaw (woman,) addressed to<lb/><persName
+                                key="dripl1">Dorothy Ripley</persName>, and received when in
+                            America. <salute>DEAR SISTER IN THE LORD,</salute></opener>
+                        <p>I BELIEVE that there is but One, the Only, the Living<lb/>and True God,
+                            and that he is the Maker and Preserver of<lb/>our lives, and upholder of
+                            all things here below, and that<lb/>he sent his Only Begotten Son into
+                            this world to be the<lb/>Saviour of mankind, and that all those who
+                            believe and<lb/>confess the Lord Jesus with their mouth, and believe
+                            in<lb/>their hearts, that God the Father of our Lord Jesus did<lb/>raise
+                            him up from the dead, shall he healed by His stripes,<lb/>as thou hast
+                            very well observed to us; and I hope and<lb/>pray God, that thou mayest
+                            be the means of stirring up<lb/>our stony hearts to turn unto Him, the
+                            Living and the <lb/><pb n="118" facs="Ripley118"/>True God, and that the words which thou
+                            has dropped<lb/>among us may take deep impression upon our
+                            hearts.<lb/>Dear Sister, be pleased to pray for us, that we may
+                            be<lb/>enabled through divine assistance to worship God in
+                            spirit<lb/>and in truth. I fully believe that thou art sent by
+                            the<lb/>Great and Good Spirit into this part of the world to do<lb/>good
+                            to thy fellow creatures, to preach the gospel unto<lb/>every kind of
+                            people; and although many people are led<lb/>to believe that it is not
+                            the duty of women to preach,<lb/>still I pray to God that thou mayest
+                            not be discouraged,<lb/>there being many infallible proofs in the
+                            scriptures of<lb/>women labouring in the gospel; one greatest
+                            encouragement<lb/>is, our Lord Jesus appeared to a woman first after
+                            His<lb/>Resurrection. I hope therefore my dear sister, thou may-<lb/>est
+                            keep on thy gospel labour, and may that Great and<lb/>Good Spirit who is
+                            able to protect thee by His Almighty<lb/>Power through all the changing
+                            scenes of this life, guide<lb/>thee by His Wisdom, and bless all they
+                            endeavors, and<lb/>crown them with success wheresoever He in His
+                            Wisdom<lb/>may cast thy lot.</p>
+                        <p>My dear sister, although we are uncertain whether<lb/>ever we shall see
+                            each other’s faces again, and though the<lb/>billows and the wide ocean
+                            may roll between us, still I<lb/>hope our hearts will be united together
+                            in love, and one<lb/>voice in glorifying God, and in celebrating His
+                            praises for<lb/>His unbounded Love for such vile creatures as we
+                            are.<lb/>And now my dear sister, as I a about to bid thee
+                            farewell,<lb/>I must beg of thee to remember me in thy prayers; as
+                            for<lb/>my part I shall never forget thee, but shall ever pray
+                            that<lb/>thou mayest be preserved through all they trials on
+                            this<lb/>earth, and be preserved by the Almighty’s protection
+                            to<lb/>arrive safely on thy native shore, and finally that we
+                            may<lb/>meet when our day’s work is done here, at the right hand<lb/>of
+                            God the Father, amongst the lambs of His fold, and<lb/>never to part
+                            again, which is the sincere prayer of thy<lb/>sister in the Lord, who
+                            wishes thy welfare both here and<lb/>hereafter.</p>
+                        <closer><signed><persName key="cquaw1">CATHARINE
+                                QUACHEMUT</persName></signed>
+                            <salute><foreign xml:lang="iro">Neyuh
+                                    Dinnaukomuh</foreign></salute><dateline><placeName key="newst"
+                                    >New Stockbridge</placeName>, <date when="1805-08-19">8th mo.
+                                    19th, 1805.</date></dateline></closer>
+
+                    </body>
+                </floatingText>
+                <pb n="119" facs="Ripley119"/>
+                <p>This woman, who is a Christian, went three hundred<lb/>miles to <orgName key="pym"
+                        >Philadelphia Yearly Meeting</orgName> in <date when="1802">1802</date>,
+                    when I was<lb/>there, the last time I was in the country.</p>
+                <closer><dateline>[<placeName key="utica">Utica</placeName>, <date when="1805-08-21"
+                            >21st<lb/>8th mo. 1805.</date>]</dateline></closer>
+            </div>
+            <div type="emtry">
+                <p>This day I took my leave of <persName key="skirk1">Samuel Kirkland’s</persName>
+                    family,<lb/>whom I hope to meet in the Kingdom of our Lord Jesus<lb/>Christ, if
+                    I see them no more in time. <persName key="ekirk1">Eliza</persName> was a
+                    very<lb/>pleasant companion, and assuaged my grief, in bringing<lb/>me hither in
+                    her father’s chaise, being almost spent: for I<lb/>have preached, prayed, and
+                    inwardly groaned so mud,<lb/>hungering and thirsting after Righteousness for the
+                    Indians<lb/>of the <placeName key="oneidss">South Settlement</placeName>,
+                        <placeName key="oneida">Oneida</placeName>, <placeName key="stockbridge"
+                        >Stockbridge</placeName>, and <placeName key="broth"
+                        >Brother-<lb/>town</placeName>, that they may know the Love of Jesus, and
+                    witness<lb/>the Power of God. I bid all those different Tribes
+                    adieu,<lb/>believing my seed sown among them, shall be watered by<lb/>Him who
+                    has richly provided for me, amidst so many<lb/>scenes of wo and poverty that my
+                    eyes have beheld.</p>
+                <p>The white people, whom I have mixed among, are<lb/>principally dead in trespasses
+                    and sins; and have a worse<lb/>chance at salvation than their neighbouring
+                    brethren,<lb/>whom they despise; because they conceive themselves a<lb/>little
+                    better off than those; being able to contrive better<lb/>than they, who have
+                    laboured under so many disadvanta-<lb/>ges from the want of the peculiar Smile
+                    of an Indulgent<lb/>Parent, who will Justify all His Proceedings at the
+                    last,<lb/>and require of us all according to what knowledge he im-<lb/>parts. My
+                    friend <persName key="ekirk1">Eliza Kirkland</persName> copied me this
+                    Address<lb/>at my request: for, I thought it proved the Indians are<lb/>capable
+                    of improvement when their day of knowledge ap-<lb/>proaches by the Special
+                    Providence of God, who setteth<lb/>up one and putteth down another, that it may
+                    be seen by<lb/>all, He Ruleth on earth as well as in Heaven, being the<lb/>Only
+                    Potentate, who seethe all things.</p>
+                <closer><dateline>[<date when="1805-08-22">22d 8th mo. 1805</date>,<lb/><placeName
+                            key="lfall">Little Falls</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <floatingText type="speech">
+                    <body>
+                        <head>Speech of <persName key="peter1">Peter</persName>, the <orgName
+                                key="pagan">Pagan</orgName>, alias Sategealithea.</head>
+                        <p>A YOUNG Indian of the <orgName key="pagan">Pagan party</orgName>, in a
+                            fit of in-<lb/>toxication, had attempted to stab with a tomahawk, a
+                            white <lb/><pb n="120" facs="Ripley120"/>man who had uniformly been friendly to Indians;
+                            he im-<lb/>mediately demanded redress, consequently a number of<lb/>the
+                            young man’s friends waited on the offended person,<lb/>and one of them
+                            made the following speech: it loses<lb/>much of its native beauty in the
+                            translation, owing to the wide<lb/>difference between the idioms of the
+                            two languages.</p>
+                        <said who="undetermined"><p>Brothers of the <orgName key="oneida">Oneida
+                                    Nation</orgName> here convened; open<lb/>your ears and
+                                listen—you likewise, our brother the white<lb/>man, attend.</p>
+                            <p>Brothers, the preservation of our lives, to the bright<lb/>shining of
+                                the sun this morning, must be ascribed to God<lb/>our Maker, who
+                                resides in the Heavens, but extends the<lb/>Arm of His Power to all
+                                his creatures.</p>
+                            <p>Brothers, let us all be thankful and duly acknowledge<lb/>the Mercy
+                                of God our Creator.</p>
+                            <p>Brothers, the occasion of the present meeting reminds<lb/>us of the
+                                uncertainty of human life, and the instability of<lb/>man’s
+                                resolutions. Our brother, the white man, thinks he<lb/>narrowly
+                                escaped being killed by one of our men, so lately<lb/>as yesterday
+                                morning, this young Indian man but a<lb/>little while ago, made a
+                                solemn promise to refrain for<lb/>ever from the intoxicating
+                                draught, which disarms the man<lb/>of his right mind. Alas! how
+                                uncertain our enjoyments,<lb/>both as to life and its peace and
+                                quiet! had blood been<lb/>spilled, this day would have been darkness
+                                to us! and we<lb/>all buried in a flood of tears and grief! Let us
+                                all again<lb/>thank God, that no vein has been opened to
+                                endanger<lb/>human life; the wound of friendship can easily be hear
+                                led.<lb/>It is truly a grief to us, that the abuse was given to a
+                                man<lb/>who has always been friendly to us Indians, and
+                                never<lb/>did them an injury since the time he first came by
+                                their<lb/>fire-side. But other white-skins have whipped and
+                                beaten<lb/>some of us poor Indians, because of our frailties and
+                                fol-<lb/>lies; and chased them from their houses, with such
+                                whips<lb/>as they use upon refractory horses. Alas! how are
+                                the<lb/>times changed; in the days of the glory of our
+                                forefathers<lb/>it was not so, the language then was <said>Brother
+                                    walk in,<lb/>sit down, rest yourself, here is a dish, refresh
+                                    yourself, <lb/><pb n="121" facs="Ripley121"/>and sleep by my fire-side.</said>
+                                Brother White Man, be not<lb/>angry at what I say: though you
+                                individually may wash<lb/>your hands in innocence, the white skin
+                                race, as a body,<lb/>are become proud, and some of you too proud:
+                                you glory<lb/>in your riches, your great and commodious houses,
+                                your<lb/>large fields and your plenty; you wear a white shift,
+                                and<lb/>sometimes ruffled; and you despise us Indians, for
+                                our<lb/>poverty, our low huts, our scanty allowance, and our
+                                dirty<lb/>shirts: but brother white skin, do your people think
+                                that<lb/>God our Maker, who is in the Heavens, will make such
+                                a<lb/>discrimination in the end? Will the White man, with
+                                his<lb/>riches, his fine house, and his white clean shirt, fare
+                                so<lb/>much better than the poor Indian in his mean
+                                cottage,<lb/>with his dirty shirt, and tattered jacket? He looks
+                                not<lb/>only on the outside, but carefully examines what is
+                                within.<lb/>A foul spirit may be concealed in a body of
+                                gorgeously<lb/>clothed; and a pure heart may reside unseen in a
+                                body<lb/>covered only with a dirty, tattered garment. God
+                                our<lb/>Maker will judge right, in respect to the worth of
+                                souls,<lb/>whatever complexion the bodies wear. But Brother,
+                                be<lb/>not angry, I have rather stepped aside from the
+                                direct<lb/>object of our present meeting, and have been
+                                addressing<lb/>you as in the place of the white skin race at large.
+                                But<lb/>I am an Indian, and have lively feelings for my
+                                nation,<lb/>especially when I see them abused. I don’t think it
+                                is<lb/>right for the White people to give so much rum to
+                                the<lb/>Indians, when they know the weakness of Indians;
+                                and<lb/>that they are not blessed with that capacity and
+                                resolution<lb/>which some white people possess, who can make use
+                                of<lb/>strong drink, without inquiry to themselves, or
+                                disturbing<lb/>the peace of society. But I must remark, lest you
+                                should<lb/>be too much lifted up, that there are to be found
+                                among<lb/>white skinned people, some, or now and then one, who
+                                has<lb/>brought himself quite on a level with Indians. And if<lb/>we
+                                Indians must bear this reproach of loving rum, the<lb/>white man
+                                certainly loves money; which will deserve the<lb/>heaviest
+                                punishment, I presume not to determine.</p>
+                            <p>I consider myself as in the presence of God our Maker, <lb/><pb
+                                n="122" facs="Ripley122"/>who resides in the Heavens. Our father (<persName
+                                    key="skirk1">Mr. Kirkland</persName>)<lb/>the Minister, sees and
+                                hears me. I can say, I believe he<lb/>is full of thoughts, and many
+                                anxious ones have revolved<lb/>in his mind, since this council was
+                                called.</p>
+                            <p>Brother, enough has been said; what is your wish?<lb/>tell us
+                                plainly! Do you want money to repair the breach<lb/>and heal the
+                                wound made in your heart? or do you prefer<lb/>a confession from the
+                                young man, who thus insulted you,<lb/>and a request for your
+                                forgiveness, promising before all<lb/>the Chiefs, that he will never
+                                do the like again? and can<lb/>you on these conditions, freely, and
+                                from the heart, forgive<lb/>him? if so, the Chiefs will be
+                                responsible for the young<lb/>man.”</p></said>
+                        <p>The latter proposition was accepted; a noble and<lb/>generous confession
+                            was made by the young Indian, and<lb/>he received the full pardon of the
+                            White Man, to the great<lb/>joy of all present.</p>
+                        <closer><signed><persName key="ekirk1">ELIZA KIRKLAND</persName><lb/>[Copied
+                                for her friend <persName key="dripl1">DOROTHY
+                                RIPLEY</persName>.]</signed><dateline><date when="1805"
+                            /></dateline></closer>
+                    </body>
+                </floatingText>
+                <p>I feel very languid with riding 22 miles in the stage,<lb/>yet have appointed a
+                    meeting in the Presbyterian church,<lb/>which I held to great satisfaction, many
+                    people attending<lb/>from curiosity, which I hope will be profited, and my
+                    soul<lb/>free from their blood. As I was on my journey I knew<lb/>not how to get
+                    the day over, but comforted myself with<lb/>this prospect, Eternity is my
+                    resting place, where all my<lb/>joys will commence.</p>
+                <p>A person of the name <persName key="alexa1">Alexander</persName>, who keeps
+                    store<lb/>here, invited me to sup and lodge; thus the Lord still<lb/>follows me
+                    with earthly mercies, which makes me pass<lb/>over many insults; and I had
+                    rather ten thousand pierced<lb/>me by vile reports, as myself be found once in
+                    the practice<lb/>of evil. To-morrow I purpose leaving here, though <persName
+                        key="wcarr1">Wm.<lb/>Carr</persName>, Inn keeper, has told me if I tarry
+                    with them over<lb/>first day, to have a meeting, it shall be no expense to
+                    me.<lb/>My money I hope will hold out, that I may not want in<lb/>this quarter,
+                    where it seems so scarce; for I am more<lb/><pb n="123" facs="Ripley123"/>ready to give to the
+                    necessitous than receive from such<lb/>who offer it.</p>
+                <p>A kind Quaker, who heard me in <placeName key="augus">Augusta</placeName>, gave
+                    me<lb/>one dollar, which is the second I have received during five<lb/>weeks,
+                    and I have relieved three or four with it. This<lb/>friend attended a meeting
+                    before, and spoke admirably,<lb/>from the <quote type="biblical">Dry bones in
+                        Ezekiel,</quote> which after he had done,<lb/>I arose and sanctioned it, as
+                    life and power were in the<lb/>testimony. When I sat down, he got up, and told
+                    that<lb/>people, his concern of this day had impressed his mind<lb/>twenty
+                    years, which he had believed it his duty to come<lb/>and pay them a visit: but
+                    the way never opened until that<lb/>time, which had relieved his spirit much. he
+                    again sat<lb/>down, and I resumed my place, feeling great love and<lb/>faith,
+                    with an ardent solicitude to benefit all present:<lb/>which stirred up the Gift
+                    of my aged brother, whom the<lb/>Lord sent after me to help in His vineyard:
+                    therefore,<lb/>our meeting continued long, and the people were favoured<lb/>to
+                    hear the sound of his voice the third time, which quick-<lb/>ened the fire of
+                    Celestial Love in my heart, so that I was<lb/>induced to supplicate the Throne
+                    of Mercy for preserva-<lb/>tion, and an increase of faith and love for each,
+                    when he<lb/>had closed his message, and then endeavoured to conclude<lb/>the
+                    meeting: but, a Methodist preacher requested I would<lb/>permit him to say
+                    something to the people, which I was<lb/>free to do, and he with tears told all
+                    present, to <said>Trea-<lb/>sure up what they had heard; for Jesus Christ male
+                        and<lb/>female were one. When you go home, don’t you say as I<lb/>said last
+                        week, <said>It is only a woman.</said> My brethren and<lb/>sisters, I went
+                        to hear this woman in a barn, and the Word<lb/>reached me powerfully, and
+                        followed me home, and has<lb/>brought me miles to-day, to testify this among
+                        you; for<lb/>before this, I did not think a woman ought to preach:
+                        but<lb/>now I am convinced God has sent her to preach Jesus<lb/>Christ’s
+                        Gospel.</said> This person sat down, and an Indian<lb/>sister rose
+                    immediately, and testified thus, <said>If I was to<lb/>hold my tongue, and not
+                        tell that it is thirty-three years<lb/>since I became a Christian, those
+                        beams would speak <lb/><pb n="124" facs="Ripley124"/>against me: and I believe I may call
+                        this my sister: for<lb/>I think it is in the scriptures, that strangers
+                        shall be our<lb/>sisters, and I feel united to her.</said> Much more was
+                    said<lb/>by this man and woman, which proved our gathering to-<lb/>gather was of
+                    the Lord, and we at last parted as children<lb/>of one Heavenly Father, who made
+                    us to love one another.</p>
+                <closer><dateline>[<date when="1805-08-25">25th 8th mo. 1805</date>, <placeName
+                            key="alban">Albany</placeName>.]</dateline></closer>
+            </div>
+            <div type="entry">
+                <p>Yesterday I had a long tiresome ride, which wearied<lb/>me exceedingly, and
+                    caused my spirits to feel great de-<lb/>pression, so that I knew not how to
+                    endure under the<lb/>pressure of morality, having felt great darkness
+                    covered<lb/>the minds of the people, as I passed along the road,
+                    from<lb/>village to village, in the stage!</p>
+                <p>As I had but three shillings left, I thought I would go<lb/>and ask <persName>J.
+                        Taylor</persName> to give me lodgings: and he calmly re-<lb/>plied, <said>I
+                        feel free, tell your wants to my wife and daugh-<lb/>ters: for it is my
+                        desire they should be kind to you.</said> I<lb/>thought this a particular
+                    mark of the Love of God to me,<lb/>whom I have unbounded favours from. I suppose
+                    if my<lb/>money had not been spent, it would have been my inclina-<lb/>tion to
+                    abide at an Inn.</p>
+                <p>When I sat down, two letters were given me from<lb/>my precious friend <persName
+                    key="aeame1">Abigail Eames</persName>, in <placeName key="nycit">New
+                        York</placeName>, wherein<lb/>was testified great love and sympathy to a
+                    little one, and<lb/>a fresh supply of money from her and <persName>J——
+                        E———</persName>, who<lb/>had sent me a letter from <placeName key="nycit">N.
+                        Y.</placeName> requesting me to call<lb/>upon an acquaintance of his in
+                        <placeName key="alban">Albany</placeName> for the sum of six<lb/>dollars,
+                    fearing my necessity would be great among the<lb/>Natives; but I could not feel
+                    free to take it of another in<lb/>his name, lest a bad use should be made of it:
+                    so he gave<lb/>it to a dear friend here, to hand me on my return, which<lb/>I am
+                    unfeignedly thankful for, unto my God, He being the<lb/>moving cause of this
+                    benevolence, and all other mercies<lb/>that I am blessed with.</p>
+                <p>I could not sleep last night, for the Love of God to<lb/>me in those fresh
+                    instances of His care, in continuing me<lb/>the favour of my old friends, whom I
+                    esteem far above<lb/>rubies or fine gold. <persName key="aeame1">Abigail
+                        Eames</persName> is entitled to a daugh-<lb/><pb n="125" facs="Ripley125"/>ter’s affection
+                    from me, because in sickness she forsook<lb/>me not: but performed a mother’s
+                    part to me, a stranger<lb/>in a strange land, when many passed by, and noticed
+                    not<lb/>the sorrows that came on me, to qualify me to seek the<lb/>salvation of
+                    mankind in general.</p>
+                <p><placeName key="alban">Albany, New York State</placeName>, <date
+                        when="1805-08-26">26th 8th mo. 1805.</date></p>
+                <floatingText type="letter">
+                    <body>
+                        <opener>
+                            <salute> MY ENDEARED FRIEND <persName key="aeame1">A.
+                                E.</persName>,</salute></opener>
+                        <p>LAST evening I returned from my visit to the Indians<lb/>of <placeName
+                                key="oneida">Oneida</placeName>, <placeName key="oneidss">South
+                                Settlement</placeName>, <placeName key="stockbridge"
+                                >Stockbridge</placeName>, and <placeName key="broth"
+                                >Brother-<lb/>town</placeName>, and I was presented with two letters
+                            from thee,<lb/>whom I am united to by the strongest ties of
+                            Christian<lb/>friendship, that will no doubt end in the full felicity
+                            of<lb/>our spirits, when they enter into the City of our God.<lb/>Here
+                            our joys are mixed with pain; our love with anxious<lb/>desire, that
+                            causes bitterness of spirit, through a separa-<lb/>tion: but in Heaven,
+                            one Object will attract our notice,<lb/>even the Spiritual Bridegroom,
+                            who is now the Head of<lb/>the Invisible Church, as well as the Visible
+                            One, which<lb/>we are members of. Since we were parted, many
+                            have<lb/>been the baptisms my soul hath endured for the children<lb/>of
+                            men, while I have travelled five hundred miles, and<lb/>have had above
+                            thirty appointments, which were held in<lb/>the Court-house,
+                            Steeple-houses, School-rooms, Barns,<lb/>Fields, or Woods; yet there has
+                            been sufficient time for<lb/>me to think of my precious <persName
+                                key="aeame1">A. E.</persName> although I assure thee, I<lb/>watch
+                            with a godly jealousy over my natural affections,<lb/>lest I give to
+                            thee, or any other sincere acquaintance,<lb/>more than is due to mutable
+                            creatures. Thou must ac-<lb/>knowledge God, the Father of us each, is
+                            entitled to our<lb/>ardency of soul, and continual thoughts; and I
+                            believe, as<lb/>we are more weaned from terrestrial objects (in whom
+                            we<lb/>should place no confidence) we shall have our minds
+                            sub-<lb/>jected, and lay passively in His Hand, doing His Will,
+                            and<lb/>suffering patiently for His sake, while employing the<lb/>whole
+                            of our time, which I imagine though dost call
+                                <said>One<lb/>business.</said> If I were to indulge myself in
+                            expression at<lb/>this time, I should use strong tender words to thee:
+                            but I <lb/><pb n="126" facs="Ripley126"/>must forbear, or else the past uneasiness will
+                            return,<lb/>which Grace has conquered by her attractive charms,<lb/>when
+                            solitary saying, I hope my precious friend hath not<lb/>forgot me.</p>
+                        <p>When I came hither, a little money was acceptable<lb/>from such who were
+                            disposed to watch my necessity, so<lb/>far distant as <placeName
+                                key="nycit">New York.</placeName> Please to present my love
+                            and<lb/>thanks to <persName>J. E.</persName> for his care in supplying
+                            my present ne-<lb/>cessity; tell him I had not quite an half dollar, and
+                            I<lb/>hope this will be returned when he is on an errand of love<lb/>for
+                            my Master Jesus. I have been much tried with <persName>J.
+                            T</persName>.<lb/>this evening. He told me scornfully, I might do to
+                            in-<lb/>struct the Indians, or Blacks; but said, <said>As for
+                                white<lb/>people, they have good preachers, and enough of
+                                preach-<lb/>ing from them.</said> My answer was, I had rather teach
+                            the<lb/>Indians and Africans, than white people: for their
+                            souls<lb/>were more precious to me, having suffered much for
+                            them.<lb/>He then told me thus, <said>You are on the Pinnacle, and as
+                                for<lb/>your talents they are very small, though you think
+                                much<lb/>of yourself.</said> Why he spoke after this manner was,
+                            be-<lb/>cause I faithfully let him know, he was but half a
+                            Chris-<lb/>tian, although he had been a Methodist almost
+                            twenty<lb/>years. I made him no further answer, but went to
+                            my<lb/>trunk, and prepared for leaving them to-morrow, while
+                            he<lb/>continued talking all the time, which I suppose was
+                            to<lb/>provoke me; and then he finished the day, with family<lb/>prayer.
+                            I thought his place was, to lay his had on his<lb/>mouth, not daring to
+                            utter words before God, whom I am<lb/>certain will repove him for this
+                            conduct; but I pray the<lb/>Long suffering Father, not to lay this sin
+                            to his charge, for<lb/>the sake of Him, who became a Sin Offering in our
+                            stead,<lb/>that the folly of man might be passed over. I am
+                            bound<lb/>under new obligations to the Lord, to serve Him with
+                            my<lb/>reaming strength, while a probationer in time; for
+                            His<lb/>Delivering Goodness, and Mercy, that is magnified in
+                            my<lb/>preservation thus far: knowing that by my own ability,<lb/>it was
+                            not possible to pass through such complicated ex-<lb/>ercises as have
+                            fallen to my lot, during this year, which <lb/><pb n="127" facs="Ripley127"/>the annuals
+                            of Eternity will shew forth, when my day’s<lb/>work is finished to the
+                            Glory of King Jesus, my Everlast-<lb/>ing Spouse, whom I adore in the
+                            temple of my soul. I<lb/>would rehearse to thee, many of the blessings
+                            of my life,<lb/>since our separation; but hope thou wilt be spared, to
+                            read<lb/>the dealings of my God in my journal; which I have
+                            re-<lb/>corded to honour Him forever: as, He by His Spirit
+                            di-<lb/>rected thereunto, when on the brink of the grave, raised<lb/>up
+                            for the Special Purpose of shewing forth His Love,<lb/>Mercy, Power, and
+                            Goodness, to the children of men.</p>
+                        <closer><salute>With much affection I conclude, and remain thy sin-<lb/>cere
+                                sister in the Lord Jesus Christ.</salute>
+                            <signed><persName key="dripl1">DOROTHY RIPLEY</persName>.</signed>
+                            <dateline><date when="1805-08-29">29th 8th mo. 1805</date>, <placeName
+                                    key="checkPlace"/></dateline> on board of Sloop<lb/>William, to
+                            <placeName key="nycit">New York</placeName>.</closer>
+                    </body>
+                </floatingText>
+                <p>I have been two nights in this sloop, which <persName key="lhack1">Captain<lb/>L.
+                        Hackstaff</persName> commands. We have three passengers be-<lb/>sides
+                    myself, and one is a complete Deist. Openly he<lb/>said, <said>I have been a
+                        Methodist, Presbyterian, Univer-<lb/>salist, and now am a Deist.</said> I
+                    told him I believed he<lb/>would make another change before he died yet:
+                        <said>What<lb/>is that?</said> he cried, <said who="dripl1">A
+                        Christian,</said> my answer was; for I<lb/>had felt uncommonly distressed
+                    about him, before he so<lb/>daringly said he was thus changeable; and I have a
+                    hope<lb/>that satan will be disappointed of this bold servant of his<lb/> whom
+                    he employs to lay waste the Religion of the Re-<lb/>deemer of the World. I shall
+                    say right, if add, I never<lb/>saw one so profane before, yet have faith in
+                    Jesus Christ<lb/>to believe for him, knowing all things are possible to
+                    him<lb/>that believeth; and it may be, that the Lord will deliver<lb/>his soul
+                    out of the gin, which he blindly has been insnar-<lb/>ed with; being in gross
+                    darkness, and under the power<lb/>of temptation. It is probable that we shall
+                    get into <placeName key="nycit">New<lb/>York</placeName> in a few hours, and
+                    then his language will not cause<lb/>my soul to be exceeding sorrowful! no; I
+                    shall be with<lb/>some of the righteous, where we shall recount the
+                    Lord's<lb/>tender Mercies since our separation. How dismal is my<lb/> situation,
+                    when I am but one day with the ungodly!<lb/><pb n="128" facs="Ripley128"/>What then would
+                    Eternity be, if it were to spend with<lb/>them? O for a pure spirit! that I may
+                    behold my God<lb/>forever! O for an holy soul and body! that I may
+                    adore<lb/>Him, who by His Wisdom, strengthened me, to <quote type="biblical"
+                        >Choose<lb/>the good, and refuse the evil.</quote> This is a beautiful
+                    river<lb/>we are going down: but my heart is in Heaven, and all<lb/>earthly
+                    things are too mean to divert me (this moment)<lb/>from my inheritance, which
+                    fadeth not away. My rest<lb/>draws near, and sorrow will soon take its flight,
+                    and joys<lb/>rapay the tedious days I mourn for sinners.</p>
+                <p>In all my ways, I long to speak good of the Name of<lb/>my God, who leads me by
+                    His Spirit, and protects me from<lb/>the rage of the dragon, who insults me
+                    often by his agents,<lb/>when I am obliged to reprove them for sin, and
+                    exhort<lb/>them to repentance, and believe on the <quote type="biblical">Lamb of
+                        God<lb/>which taketh away the sin of the world.</quote> I am under<lb/>a
+                    necessity of paying my vow unto the Lord; of render-<lb/> ing Him my grateful
+                    thanks for the preservation of my<lb/>life;and although my stock of raiment is
+                    reduced much,<lb/> by contributing to the wants of my Indian sisters; yet
+                    I<lb/>am blessed with this consideration, that my heart was<lb/> open to relieve
+                    them with such as the Lord made me a<lb/>steward over: therefore, I may expect
+                    the <quote type="biblical">True Riches<lb/>of His Kingdom</quote> in return, as
+                    no one hitherto hath been<lb/>kind enough to give me the last piece of raiment,
+                    in tra-<lb/>velling six hundrend and sixty miles. Array me with<lb/>the royal
+                    vestment of innocence, that I may worship with<lb/>the angels, Thee, whom my
+                    soul loveth intensely: so that<lb/>at Thy request, I can follow Thee every
+                    where, strength-<lb/>ened by Thee, to complete that which Thou dost
+                    design<lb/>me to do, for Thy poor dying mortals like myself, who<lb/>live, to
+                    ripen for Eternity; or, as fewel, will be cast into<lb/>the fiery furnace, where
+                    there is wailing and gnashing of<lb/>teeth.</p>
+                <p>In seven weeks, I have finished this arduous journey,<lb/>setting off alone, in
+                    the Name of Abraham's God, who<lb/>took care of him, when he went forth at the
+                    Voice of His<lb/>Command, to view the land, which afterwards he gave him
+                    <lb/><pb n="129" facs="Ripley129"/> by promise to reward his faith, and crown his hope;
+                    his<lb/>children were inheriting it, from generation to generation,
+                    until<lb/>they were driven out of it, for the lack of wisdom, and<lb/>rebellion.
+                    O my soul! praise God for the Gift of Faith,<lb/>and obedience to live in His
+                    Fear, so shalt thou possess<lb/>the Land of Light, Life, and Peace, which
+                    Abraham's obe-<lb/>dience entitled him to forever, which was typified by
+                    the<lb/>outward Canaan, that his seed did inherit, by the special<lb/>Promise of
+                    Jehovah, who conversed with him from Hea-<lb/>ven. I am surrounded with angelic
+                    spirits, who seem to<lb/>encourage me to be faithful a little longer, then
+                    Abraham<lb/>the father of the faithful, will see one, who went out at
+                    the<lb/>Command of God, not knowing whither she went, but as<lb/>the Spirit
+                    directed her feet in righteousness, to seek the<lb/> lost sheep of the house of
+                    Israel.</p>
+                <closer><dateline>[<placeName key="nycit">New York,</placeName>
+                        <date when="1805-08-31">31st 8th<lb/>mo. 1805.</date>]</dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

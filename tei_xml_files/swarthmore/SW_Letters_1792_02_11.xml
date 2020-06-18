@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Tobias Lear to Quakers: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Mary Olesnavich</name>
+                </respStmt>
+            </titleStmt>
+            <extent>ca.7 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2015</date>
+                <idno type="local">SW_Letters_1792_02_11</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Miscellaneous Manuscripts</collection>
+                        <idno>Misc Mss 1792_02_11</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>1 p.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This letter is part of a collection of miscellaneous correspondence and is housed
+                    at Friends Historical Library, on the campus of Swarthmore College. </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in 1792<date/></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Lear, Tobias, 1762-1816</item>
+                        <item>Society of Friends -- Missions</item>
+                        <item>Indians of North America -- Missions</item>
+                        <item>Cherokee Indians</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>PCO edits<date>2015</date></item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+                <pb n="1" facs="SW_Letters_1792_02_11_Page_1"/>
+                <opener><dateline><placeName key="phila"> Philadelphia, </placeName>
+                        <date when="1792-02-11"> February 11th: 1792.</date></dateline></opener>
+                <p> The President of the United States commands <lb/>
+                    <persName key="tlear1">T. Lear</persName> to return the enclosed paper, which
+                    was <lb/> submitted to the consideration of the <persName key="gwash1"
+                        >President</persName> last <lb/> evening, containing the sentiments
+                        proposed to be <lb/> delivered, in writing, by the
+                    Quakers to the deputation <lb/> from the <orgName key="cherokee"> Cherokee
+                    </orgName> nation of Indians now in this <lb/> City and to inform, that the
+                    President, upon <lb/> a due consideration of the subject; does not see any <lb/>
+                    impropriety in the enclosed speech being delivered <lb/> to the Cherokees, as it
+                    contains the same friendly <lb/> sentiments with which he has himself
+                    endeavoured <lb/> to impress these people and doesn't appear to be <lb/> a
+                    matter that can be drawn into precedent on any <lb/> future occasion. Neither
+                    has the President any <lb/> objection to those Indians being furnished by the
+                    <lb/> Quakers with such small presents as were men- <lb/> tioned to him last evening. </p>
+                <closer>
+                    <signed>
+                        <persName key="tlear1">Tobias Lear <lb/>Secretary to the President
+                                    <lb/> of the United States</persName></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

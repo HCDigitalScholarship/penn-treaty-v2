@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>The Committee Appointed to Confer With the Friends who Attended the Indian Treaty: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Constance Hawley</name>
+                </respStmt>
+
+                <sponsor>Tri-Co Digital Humanities Initiative</sponsor>
+                <funder>Andrew W. Mellon Foundation</funder>
+            </titleStmt>
+            <extent>ca. SIZE KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2015</date>
+                <idno type="local">SW_Letters_179-_MM_DD</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Miscellaneous Manuscripts</collection>
+                        <idno>Mss_004_179-</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>2 pp.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This collection of miscellaneous correspondence is housed at Friends Historical
+                    Library, on the campus of Swarthmore College. In the fall semester of 2010,
+                    Swarthmore students enrolled in English 50A (“Reading Red, White, and In-Between
+                    in Early American Literature”) transcribed these manuscripts as part of a larger
+                    project to make the library’s rich store of Quaker Indian mission writings more
+                    accessible. The project was designed by Christopher Densmore, Curator of Friends
+                    Historical Library, and Keat Murray, Visiting Assistant Professor of English.
+                    Transcriptions were compiled and edited in the present form by Professor Murray.
+                </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases. </p>
+
+            </editorialDecl>
+
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in 179-<date/></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Society of Friends - New York (State)</item>
+                        <item>Society of Friends -- Missions</item>
+                        <item>Indians of North America -- Missions</item>
+                        <item>Quaker women -- Pennsylvania -- Correspondence</item>
+                        <item>Seneca Indians</item>
+                        <item>Philadelphia Yearly Meeting of the Relgious Society of Friends</item>
+
+                    </list>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+
+    </teiHeader>
+    <text>
+        <body>
+
+            <div type="report">
+
+
+               
+                <pb n="1" facs="SW_Letters_179-_MM_DD_Page_1"/>
+                <p>The Committee appointed to confer with<lb/>the Friends who attended the Indian
+                    Treaty in the<lb/>preceding Autumn on the Matters contained in<lb/>their Report
+                    &amp; the Observations &amp; Occurrencies by them<lb/>otherwise noted, having in
+                    the course of attending<lb/>thereto, considered divers particulars of
+                    interesting<lb/>import as relative to the cultivation of Amity and<lb/>promotion
+                    of solid Peace wth the Indians of whom<lb/>a certain <del/>
+                    Nation called <orgName key="tuscarora">Tuscaroras</orgName> assert a
+                    Claim<lb/>as original Owners of Lands held by Friends at<lb/><placeName
+                        key="hopw">Hopewell</placeName> in Virginia, for wch they have not
+                    receiv'd<lb/>satisfactory Compensation; another description of<lb/>those People
+                        appear<del/> dissatisfied, pleading that no
+                    conci-<lb/>liatory means have been used by the Government of<lb/>Penslyvania to
+                    attone for, or (in their own expressive<lb/> Language) to wipe away the Blood of
+                    their Relatives<lb/>inhumanely spilt at <placeName key="cones2"
+                        >Conestoga</placeName> &amp; <placeName key="lanca">Lancaster</placeName> in
+                    the latter end of the year<lb/><date when="1763">1763</date>; these People in
+                    common with other Indians<lb/>expressing great Confidence in, &amp; Reliance on
+                    the<lb/>Friendship &amp; good Offices of our religious Society, &amp;<lb/>some
+                    of them manifesting a desire to endeavour<lb/>after a more civilized mode of
+                    living, intimate a<lb/>hope of being encouraged &amp; aided therein by
+                    Friends,<lb/>in the way of promoting the tuition of their Children,<lb/>and
+                    affording some assistance &amp; Instruction in the practical<lb/>Knowledge of
+                    Agriculture &amp; the social Oeconomy of a<lb/>peaceful &amp; inoffencive Life:
+                    These Objects wch appearing<lb/>to claim religious Attention, and another Treaty
+                    for a<lb/>more general Pacification being proposed to be held<lb/>in the 6th.
+                    mo. next, the Committee apprehend it expedient<lb/>&amp; proper <del
+                        rend="crossout"/>to request the Members of the Meeting for<lb/>Sufferings
+                    who reside in the City to meet &amp; consider whe-<lb/>ther it will not be
+                    right, and agreeable to the Concern of<lb/>our <orgName key="pym">Yearly
+                        Meeting</orgName>, to give Notice to the large Committee<lb/> appointed in
+                    the the year <date when="1792">1792</date> to unite with the Meeting
+                    for<lb/>Sufferings in the exercise of christian endeavours for the<lb/>Promotion
+                    of Peace with the Indians, that their Attendance<lb/>on the Occasion is desired
+                    at the stated time of our<lb/>Meeting next mo.</p>
+                <pb n="2" facs="SW_Letters_179-_MM_DD_Page_2"/>
+
+                <p><orgName key="pym">Yearly Meeting</orgName>'s Committee appd. in <date
+                        when="1792">1792</date> to unite<lb/>with the Meetg for Suff. in the Concern
+                    occasioned by the<lb/>War wth the Indians</p>
+                        <list type="simple">
+                            <item><persName key="ccress1">Caleb Cresson</persName></item>
+                            <item><persName key="obidd1">Owen Biddle</persName></item>
+                            <item><persName key="tligh1">Tho. Lightfoot (Exet.)</persName></item>
+                            <item><persName key="tgeor1">Thomas George</persName></item>
+                            <item><persName key="pyarn1">Peter Yarnall</persName></item>
+                            <item><persName key="nclea1">Nathan Cleaver</persName></item>
+                            <item><persName key="riden1">Randall Iden</persName></item>
+                            <item><persName key="sgumm1">Samuel Gummery</persName></item>
+                            <item><persName key="jkirk1">Jonat. Kirkbride</persName></item>
+                            <item><persName key="jsimp1">John Simpson</persName></item>
+                            <item><persName key="jgill1">John Gillingham</persName></item>
+                            <item><persName key="rkirk1">Rob. Kirkbride</persName></item>
+                            <item><persName key="smend1">Stephen Mendenhall</persName></item>
+                            <item><persName key="jpier1">John Pearce</persName></item>
+                            <item><persName key="jemle1">James Emlen</persName></item>
+                            <item><persName key="smere1">Simon Meredith</persName></item>
+                            <item><persName key="bmaso1">Benj. Mason</persName></item>
+                            <item><persName key="gchur1">Geo. Churchman</persName></item>
+                            <item><persName key="jjack2">James Jackson</persName></item>
+                            <item><persName key="aharv1">Amos Harvey</persName></item>
+                            <item><persName key="wmiff1">Warner Mifflin</persName></item>
+                            <item><persName key="rholl1">Rob. Holliday</persName></item>
+                            <item><persName key="jboon1">John Boon</persName></item>
+                            <item><persName key="icox1">Issac Cox</persName></item>
+                            <item><persName key="jcox1">John Cox</persName></item>
+                            <item><persName key="bclar1">Benj. Clark</persName></item>
+                            <item><persName key="gdill1">Geo. Dillwyn</persName></item>
+                            <item><persName key="jpowe2">Joseph Powell</persName></item>
+                            <item><persName key="jwist1">John Wistar</persName></item>
+                            <item><persName key="eevan1">Enoch Evans</persName></item>
+                            <item><persName key="jreev1">John Reeve</persName></item>
+                            <item><persName key="bswet1">Benj. Swett</persName></item>
+                            <item><persName key="rlawr2">Rich. Lawrence</persName></item>
+                            <item><persName key="jshot1">Joseph Shottwell</persName></item>
+                            <item><persName key="whart">Wm. Hartshorne</persName></item>
+                            <item><persName key="hclift1">Henry Cliffton</persName></item>
+                        </list>
+                   
+                    <note resp="author">Rep'tives from Salem <list>
+                            <item><persName key="jreev1">Jn. Reeve</persName></item>
+                            <item><persName key="mmill2">Mark Miller</persName></item>
+                            <item><persName key="jwist1">John Wistar</persName></item>
+                            <item><persName key="jwhit3">Ja. Whitall jun.</persName></item>
+                        </list>
+                    </note>
+            
+            </div>
+
+
+        </body>
+
+    </text>
+</TEI>

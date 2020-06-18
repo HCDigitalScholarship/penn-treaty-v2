@@ -1,0 +1,500 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model hkey="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model hkey="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" hkey="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" hkey="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" hkey="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Copy of a manuscript respecting the American Indians (A): Electronic
+                    Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Shane Loeffler</name>
+                </respStmt>
+                <sponsor>Tri-Co Digital Humanities Initiative</sponsor>
+                <funder>Andrew W. Mellon Foundation</funder>
+            </titleStmt>
+            <extent>ca. 37 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for-profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non-profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so only with the permission of
+                        Swarthmore College. This is the case whether the new publication will be
+                        made available at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2014</date>
+                <idno type="local">SW_Letters_1801_10</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Miscellaneous Manuscripts (selection)</collection>
+                        <idno>Mss_004_1801_10mo</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>11 pages</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This collection of miscellaneous correspondence is housed at Friends Historical
+                    Library, on the campus of Swarthmore College. In the fall semester of 2010,
+                    Swarthmore students enrolled in English 50A (“Reading Red, White, and In-Between
+                    in Early American Literature”) transcribed these manuscripts as part of a larger
+                    project to make the library’s rich store of Quaker Indian mission writings more
+                    accessible. The project was designed by Christopher Densmore, Curator of Friends
+                    Historical Library, and Keat Murray, Visiting Assistant Professor of English.
+                    Transcriptions were compiled and edited in the present form by Professor Murray.
+                </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in <date>1801</date></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Society of Friends - New York (State)</item>
+                        <item>Society of Friends -- Missions</item>
+                        <item>Indians of North America -- Missions</item>
+                        <item>Quakers -- Pennsylvania -- Correspondence</item>
+                        <item>Seneca Indians</item>
+                        <item>Philadelphia Yearly Meeting of the Religious Society of Friends</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="narrative"><pb n="1" facs="SW_Letters_1801_10a_Page_01"/>
+
+                <head>The penetration and judgement of the Indians in matters <lb/> of Religion in
+                    this authentic narative is very evident which <lb/> is as follows. 1st</head>
+                <p>Two <orgName key="presby">Presbyterian</orgName> Ministers under the patronage of
+                        <orgName key="prince">Prince <lb/>ton Colledge of New Jersey</orgName> who
+                    were chosen by the Missiona <lb/>ry Society to go and propagate the Gospel among
+                    the <orgName key="creek">Creek <lb/> Indians</orgName> -- And in order to give
+                    weight to this embassy <unclear>seven</unclear>
+                    <lb/> members of <orgName key="uscong">Congress</orgName> accompanied these
+                    ministers unto their <lb/> Respective Nation, who took with them a number of
+                    Bi<lb/>bles for the use of this People -- When those Ministers with<lb/> their
+                    retinue and Bibles arrived a Conference was held with <lb/> some of their
+                    Chiefs, where it was agreed that the Indians <lb/> should call a council; when
+                    met they were informed <lb/>they had brought two Ministers of the Gospel; to
+                    preach <lb/>the Gospel of Salvation unto them, and a number of <lb/> Books which
+                    would learn them the way to Heaven. <lb/> The Indians after a pause said they
+                    would consider of it;<lb/> which took fourteen days -- The Ministers
+                    proposed<lb/> preaching: but the Indians signified they must first<lb/> consider
+                    of it -- When the time of council was over, they<lb/> inquired of the members of
+                    the Congress if they had any<lb/> dark people among <emph rend="underline"
+                        >them</emph>, whether they preached the Gospel<lb/> of Salvation unto <emph
+                        rend="underline">them</emph>, whether they gave those good Books<lb/> which
+                    would learn them their way to Heaven? Whether<lb/> they treated them as
+                    Brothers, or as Slaves? Being answe<lb/>-red in the negative, the Indians
+                    reply’d -- Go home and <lb/> preach the Gospel of Salvation to them. give them
+                    those <lb/> good Books which will learn them the way To Heaven. <lb/> treat them
+                    as Brethren and not as Slaves. and then come and <lb/> preach unto us -- In
+                    consequence this unexpected advice <pb n="2" facs="SW_Letters_1801_10a_Page_02"/>they returned -- And one of the Members
+                    of this Embassy having<lb/> 14 slaves gave them all their liberty.</p>
+                <p>P.S. This occurrence took place among the Creek Indians.<lb/> The Person who set
+                    his Slaves at liberty was E.B. a well<lb/> known family in East <placeName
+                        key="nerje">New Jersey</placeName></p>
+            </div>
+            <div type="letter">
+                <head>2nd</head>
+                <opener><dateline><date when="1801-10"/></dateline>From <persName key="jclar1"
+                        >Joseph Clark</persName> to the Indians on his return with their<lb/> young
+                    women --</opener>
+                <p>Brothers, The love I always felt for you and your chil<lb/>dren, has induced me
+                    to leave all that is near and dear, my<lb/> children, my Friends, my property,
+                    and my business to<lb/> come and see you -- It is neither interest nor ease,
+                    that has<lb/> brought me from my habitation; but that your Children<lb/> whom
+                    you delivered into my care, in the year <date when="1797">1797</date>
+                    should<lb/> be safely returned unto you, with their qualifications and<lb/>
+                    improvements; and as the Good and Great Spirit has pre-<lb/>served them in
+                    innocency &amp; sobriety, and Industry, in<lb/> this state I hope they will
+                    continue, and that you may<lb/> write with us, to encourage them in every good
+                    word, and<lb/> work -- That thereby the Chain of Friendship may grow<lb/>
+                    stronger and brighter, which is the sincere desire of thy</p>
+                <closer><salute>Brother, </salute><signed><persName key="jclar1">Joseph
+                            Clark</persName></signed></closer>
+            </div>
+            <div type="letter">
+                <head>Reply of the Indians </head>
+                <opener>
+                    <dateline><placeName key="stock">New Stockbridge</placeName>
+                        <date when="1801-10-22"> 10th Mo. 22 1801</date></dateline>
+                    <salute>Brother attend, </salute></opener>
+                <p>We wish to speak a few words to you -- we feel<lb/> thankful to the great good
+                    Spirit, that he put a concern in your<lb/> heart for us, The poor Indians, so
+                    that you was willing to leave<lb/> all your friends, to take a long journey, and
+                    that you have<lb/> kindly and safely conducted our young women, whom we<lb/> put
+                    under your care some years ago -- We rejoice that the Great<lb/> Good Spirit has
+                    protected and preserved you all this way, while you walk in the long path
+                    so that you are safely arrived by the side <pb n="3" facs="SW_Letters_1801_10a_Page_03"/> of our fireplace in good health,
+                    and that we are allowed to see<lb/> each others’ faces this day -- Friend we are
+                    sensible that all the<lb/> kindness you have done, you do purely out of love to
+                    us, for<lb/> which we with our Women heartily thank you -- We hope we<lb/> shall
+                    never forget your Kindness -- Respecting the Kind talk<lb/> which you brought us
+                    from our friends, we wish to send a few<lb/> words to them in writing. therefore
+                    we desire you to stay with<lb/> us all the day, and to night, that we may have
+                    time to write<lb/> to our friends, and that you may take a little more rest</p>
+                <closer><signed><persName key="jshau1">Joseph
+                    Shawquithquirt</persName></signed></closer>
+            </div>
+            <div type="letter">
+                <head>3rd</head>
+                <opener><dateline>
+                        <placeName key="stock">New Stockbridge</placeName><date when="1801-10-14">
+                            10 mo. 14, 1801</date>
+                    </dateline>
+                    <salute>Brothers attend</salute></opener>
+                <p>Our friend and brother <persName key="jclar1">J. Clark</persName> safely
+                    arri-<lb/> ved here by the side of our fire place on the <date when="1801-10-13"
+                        >13th of the 10 Month</date><lb/> with our 3 young women, who have been
+                    under your benevo-<lb/> lent care for a considerable time, whom he conducted
+                    through<lb/> along journey, and delivered you Kind talk the next day</p>
+                <p> Brothers Our satisfaction is very great in finding that the<lb/> Friends have
+                    taken great pains to instruct these Girls in sober<lb/> and steady conduct, and
+                    in these good Customs and useful Me<lb/> thods, which are necessary for living
+                    happily and comfortably<lb/> and that they have been taught to read and write
+                    and read<lb/> the English Language, for which kindness we heartily thank<lb/>
+                    you -- We hope that the advantage they had will be a be-<lb/> nefit to them as
+                    well as to us, we will endeavorer to encou-<lb/> rage them to improve their
+                    acquirements<lb/> Brothers We are sensible that it is out of love and pity
+                    you<lb/> have exercised many kindnesses towards us, ever since friend<lb/> ship
+                    has been established between you and us, -- not only in<lb/> good words, but we
+                    have experienced your properties, that<lb/> we poor Indians might Know how to
+                    help ourselves, that by<pb n="4" facs="SW_Letters_1801_10a_Page_04"/> Industry, Care, and Prudence we might live happy
+                    and com-<lb/> fortable -- And may the Great Good Spirit ever countenance<lb/>
+                    the Chain of Friendship, that it may remain bright in the la<lb/> test
+                    generation is the wish of your Brothers.</p>
+                <closer><salute>farewell</salute> To<lb/>
+                    <persName key="dbaco1">David Bacon</persName><lb/>
+                    <persName key="hdrin1">Henry Drinker</persName><lb/>
+                    <persName key="eyarn1">Ellis Yarnal</persName><lb/><persName key="twist1">Thos
+                        Wister</persName>
+                    <signed><list>
+                            <item><persName key="jshau1">Joseph Shasquithquirt</persName></item>
+                            <item><persName key="iwran1">Isaac Wranpey</persName></item>
+                            <item><persName key="mwrai1">Moses Wrainkoinhurst</persName></item>
+                            <item><persName key="jconc1">Jacob Concapus</persName></item>
+                            <item><persName key="squai1">Solomon Quaikenut</persName></item>
+                            <item><persName key="haupa1">Hendricks Aupaumat</persName></item>
+                            <item>
+                                <persName key="jquin1">Jos. Quinney</persName></item>
+                        </list>
+                    </signed></closer>
+            </div>
+            <div type="letter">
+                <head>4th</head>
+                <opener> From the <orgName key="oneida">Oneida</orgName> Indians to <lb/><persName
+                        key="dbaco1"> David Bacon</persName><lb/><persName key="jparr1">Jno
+                        Parish</persName><lb/><persName key="hdrin1">Hen<sic>?</sic>
+                        Drinker</persName><lb/><persName key="eyarn1">Ellis
+                        Yarnal</persName><lb/><persName key="nharp1">Nat.
+                        Harper</persName><lb/><persName key="jbidd1">Jno
+                        Biddle</persName><lb/><persName key="twist1">Thos
+                        Wistar</persName><lb/><persName key="pbark1">Peter
+                        Barker</persName><lb/><persName key="tfish1">Thos
+                        Fisher</persName><lb/><persName key="jcoop1">James
+                        Cooper</persName><lb/><persName key="jelli1">Jno
+                        Elliot</persName><lb/><persName key="wsave1">Wm
+                        Savery</persName><lb/><persName key="jlind1">Jacob
+                        Lindley</persName><lb/><persName key="opaxt1">Oliver
+                        Paxton</persName><lb/><persName key="tstew1">Thos Stewardson</persName>
+                    <dateline><placeName key="oneid">Oneida</placeName>
+                        <date when="1801-10-15">15th 10 mo.
+                        1801</date></dateline><salute>Brothers</salute></opener>
+                <p> We have received your Counsel and Advice at this<lb/> time, as well as at many
+                    other times, and are made thankful<lb/> that the great good Spirit continues to
+                    put you in remembrance<lb/> of us, to give us this counsel and advice. some of
+                    us have<lb/> agreed together to endeavour to follow it, and improve our<lb/>
+                    land, raise more cattle, grain &amp; Flax, and learn our<lb/> young women to
+                    Spin, and other useful employments<lb/> in the House we have improved in
+                    building Houses &amp;<lb/> Barns, and find great good from it</p>
+                <p>Brothers, we wish to listen to your counsel and advice<lb/> not to offend, or
+                    hurt one another, nor to go to War. We last<lb/> summer had a general counsel
+                    with many of the Western<lb/> tribes of Indians, at <placeName key="buffc"
+                        >Buffalow Creek</placeName>, where we all agreed<lb/> to live in peace and
+                    renewed the Chain of Friendship and wish<lb/> to attend to the Good Spirit, it
+                    will teach us to refrain from all<lb/> evil practices</p>
+                <p> Brothers, We are sensible that the great good Spirit governs<lb/> all the
+                    seasons, and some of us wish to live more and more in his<pb n="5" facs="SW_Letters_1801_10a_Page_05"/> favour, that we
+                    should more and more be worthy of his bles<lb/>sings. Notwithstanding some
+                    through unwatchfulness<lb/> are taken captive by the great and mighty <emph
+                        rend="strikethrough">as were many</emph><del>adversary</del> destroyer</p>
+                <p> Brother <persName key="jclar1">Joseph Clark</persName> We also thank you for
+                    your good counsel<lb/> we believe the Great &amp; Good Spirit has sent you
+                    amongst us. We<lb/> will treasure it up in our hearts from day to day and
+                    we<lb/> will teach it to our Children. We wish always, we wish all<lb/>-ways, to
+                    keep bright the Chain of Friendships and remain</p>
+                <closer><salute>your Brothers</salute>
+                    <signed>
+                        <list>
+                            <item><persName key="cotis1">Cornelius Otisleda</persName></item>
+                            <item><persName key="ponau1">Peter Onauga</persName></item>
+                            <item><persName key="jschu1">John Schunnuds</persName></item>
+                            <item><persName key="lconn1">Lus Connis</persName></item>
+                            <item><persName key="cscho1">Christian Schonadab</persName></item>
+                            <item><persName key="piaul1">Peter Iaulotis</persName></item>
+                            <item><persName key="ccawn1">Cornelius Cawnawoc</persName></item>
+                            <item><persName key="hfaun1">Hendrick Faunchaw</persName></item>
+                            <item><persName key="jwhis1">John Whisksheak</persName></item>
+                        </list>
+                    </signed>
+                </closer>
+            </div>
+            <div type="letter">
+                <head>5th<lb/> From a Tuscarora Indian</head>
+                <opener><salute>Dear Friends</salute></opener>
+                <p>We are all well and glad to see the 3<lb/> girls, and our friend <persName
+                        key="jclar1">J. Clark</persName>. we often think of the kindess<lb/> you
+                    shewed us -- Our nation now plough their land, and<lb/> raise some flax, and we
+                    spin a little, and we hope by the<lb/> assistance of the Great Good Spirit we
+                    grow in his favour<lb/> so as to have plenty of Corn, Cattle, and Flax -- and
+                    becom<lb/> his children, and rest in his Kingdom -- I feel much<lb/> love in my
+                    heart, but am not able to express myself</p>
+                <closer>
+                    <signed>
+                        <persName key="pokas1">Peter Okasantguo</persName></signed></closer>
+            </div>
+            <div type="letter">
+                <head>From a Young Indian Woman to <persName key="etown1">Eliz. Townsend</persName>
+                    (daughter<lb/> of <persName key="jclar1">Joseph Clark</persName>)</head>
+                <opener>
+                    <salute>Dear friend.</salute></opener>
+                <p>No doubt but thee will ex-<lb/>cuse a letter from me, who wishes thee, and all
+                    they society<lb/> well. tho unknown to each other as to our Bodily
+                    Per-<lb/>sons, yet I sincerely hope that we <del>sincerely</del> frequently<lb/>
+                    converse with the same Spirit. My dear Friend, I thank<lb/> thy Father and
+                    likewise thee for your kind care towards<lb/>us the Natives of America, for I
+                    believe that you will have <pb n="6" facs="SW_Letters_1801_10a_Page_06"/> have your reward, for God will reward you. I
+                    give my<lb/> kind love to all thy friends, and tell them that the great &amp;
+                    good<lb/> Spirit is on its way to the dark corners of the Earth -- When<lb/> my
+                    dear Friend? When will that happy day appear?<lb/> When the Nations will learn
+                    War no more; for then Lion<lb/> will arise and travel, and bring forth, She will
+                    bring<lb/> forth. </p>
+                <closer><salute>So farewell from thy unknown friend</salute>
+                    <signed><persName key="gcros1">Gracy Crosby</persName></signed></closer>
+            </div>
+            <div type="speech">
+
+                <head>6th<lb/>An address from <persName key="jclar1">Joseph Clark</persName> to
+                    Indians</head>
+                <p> When the great and good Spirit made the first Man and<lb/> Woman, He placed them
+                    in the Garden of Eden and com-<lb/>manded them to dress it -- Thus we learn that
+                    the Great and<lb/> Wise Author of all good, intended Man should labour<lb/> from
+                    the beginning of the Creation; and we are further ins<lb/>-tructed from the
+                    scriptures of Truth, that the Lord’s cho<lb/>sen Servants in every age were
+                    those that laboured<lb/> For Moses was in a particular manner called of the<lb/>
+                    Most High, while he was engaged keeping his Father in<lb/> Law’s sheep, as was
+                    also Elizher the Prophet, when he was<lb/> ploughing with twelve yoke of Oxen,
+                    and Paul, that emi<lb/>nent Apostle informs us that he laboured with his
+                    hands<lb/> that he might support himself. But above all these test-<lb/>imonies
+                    my Brothers <unclear>liken</unclear> be obedient to the Command<lb/> and imitate
+                    the example of Christ, the Great Good Spirit, who<lb/> had all power in Heaven
+                    and Earth; and once in a miracu-<lb/>lous manner fed five thousand Men besides
+                    Women and<lb/> Children, with only two loaves, and five fish -- and not
+                    with<lb/>standing afterwards gave this special Command to gather<lb/> fragments
+                    that nothing should be lost - How clearly and<lb/> fully this shews poor frail
+                    Man the constant necessity<lb/> of being careful of the good and things that an
+                    all wise Providence<pb n="7" facs="SW_Letters_1801_10a_Page_07"/> places in his power -- And in order to make the man of
+                    God<lb/> more perfect, He further informed him, that it was more<lb/> blessed to
+                    give than to receive -- I conclude in a degree of that<lb/> love which we wishes
+                    well unto all the families of the Earth</p>
+                <closer>from<lb/> your Brother - <persName key="jclar1">Joseph Clark</persName>
+                    <dateline><placeName key="phila">Philadelphia</placeName>
+                        <date when="1801-12-14">12 mo. 14- 1801</date></dateline>
+                </closer>
+                <postscript>
+                    <p>N.B. My desire is that my Brother <persName key="dfowl1">David
+                            Fowler</persName> would<lb/> read this at the conclusion of the time of
+                        Worship, unto the Bro<lb/>thertown Indians, and also unto the Oneida
+                        Indians, as<lb/> in such a manner as thou may judge best.</p>
+                </postscript>
+            </div>
+            <div>
+                <head>7th</head>
+                <div type="narrative">
+                    <p>Observations on the <orgName key="brotherton">Brother-town</orgName>
+                        Indians</p>
+                    <p>who have within these last 3 years, built 9 Log Houses, 3<lb/> log Barns, and
+                        4 frame Barns, also will been closed this<lb/> fall 2 frame Houses -- They
+                        have about 8 yoke of<lb/> Oxen added to their former number (a considerable
+                        num<lb/>-ber not easily ascertained) They have lately purchased<lb/> 270
+                        sheep likewise as Colts. In the year <date when="1799">1799</date> they
+                        wove<lb/> about 100 yards of Linnen. In the year 1801 they wove<lb/> upwards
+                        of 600 Yards. In <date when="1799">1799</date>-- seven families raised<lb/>
+                        a little wheat. In <date when="1801">1801</date>-- 56 families raised wheat,
+                        Corn<lb/> and Flax in proportion. They have 7 Weavers, and a black<lb/>smith
+                        all Indians -- They have a neat place of Worship<lb/> steadily attended, and
+                        a School, and exemplary teacher --<lb/> several sober Indian families have
+                        been added unto them<lb/> from remote parts -- They have also a grist and
+                        saw<lb/> mill, likewise several Ovens - and now raise more<lb/> Geese</p>
+
+                    <p>Observations on the <orgName key="stockbridge">Stockbridge</orgName>
+                        Indians,</p>
+                    <p>who it is said are increasing 20 Women and two men are<lb/> in full church
+                        membership; To which may be added, two<lb/> Tuscarora Indians -- They have
+                        built 100 new houses<lb/> these last 4 years -- 105 children fit to attend
+                        School –- Also<pb n="8" facs="SW_Letters_1801_10a_Page_08"/>Also about 30 yoke of Oxen, some sheep are possessed
+                        by<lb/> them -- Almost every family has a cow, some 3 or 4 -- <lb/> One of
+                        these Indians is burning good Bricks -- They have<lb/> a handsome place of
+                        worship, which is constantly attended<lb/> twice a week likewise they have a
+                        saw and grist mill<lb/> and a School house.</p>
+
+                    <p>Observations on the <orgName key="tuscarora">Tuscarora</orgName> Indians</p>
+                    <p><unclear>(not perfect)</unclear><lb/> but we learn they plough more land, and
+                        receive more cattle<lb/> than formerly -- They have built several new houses
+                        within<lb/> three or four years, raise more flax, and spin a little<lb/> and
+                        say their nation increaseth</p>
+
+                    <p>Observations on the <orgName key="oneida">Oneida</orgName> Indians.</p>
+                    <p>they have 58<lb/> head of horned Cattle. 7 of which are oxen, 5 good
+                        frame<lb/> Houses, and 5 frame Barns, one building this summer<lb/> This
+                        also said they are raising Wheat -- This generally<lb/> allowed they do not
+                            <unclear>paint</unclear> so much as they did 5 or 6 year<lb/> ago, and
+                        from my Observations among them I discovered<lb/> only two -- They have a
+                        Missionary Minister and School<lb/> Master among them -- they have also a
+                        Grist and Saw<lb/> Mill. </p>
+                </div>
+            </div>
+            <div type="letter">
+                <head>[J. Clark to Catharine Solomon]<lb/>8th</head>
+                <opener><dateline><placeName key="stock">New Stockbridge</placeName>
+                        <date when="1801-10-15">10 Month 15, 1801</date></dateline><lb/>
+                    <salute>Friend and Sister</salute>
+                </opener>
+                <p>This is to let you know I am much<lb/> rejoiced to see friend <persName
+                        key="jclar1">J Clark</persName> come by the side of our fire<lb/> place and
+                    bring our girls home I cannot but<lb/> bless the great good spirit for his great
+                    goodness in<lb/> preserving our long absented girls from various<lb/> dangers
+                    and that they have found favor in<lb/> the sight of such good friends, as to
+                    take them<lb/> under their benevolent care, and instruct them in<lb/> good
+                    things and ways. I acknowledge that you have<lb/><pb n="9" facs="SW_Letters_1801_10a_Page_09"/>10<emph
+                        rend="superscript">th</emph><lb/> done a great deal for us, out of Love to
+                    the great good<lb/> spirit and your fellow creatures--that we poor natives<lb/>
+                    might as it were rise up and walk and follow the good path<lb/> which you
+                    follow, by which I always feel thankful and<lb/> hope you will not lose your
+                    reward in heaven. I feel<lb/> our obligations are increased as our advantages
+                    are increa<lb/>sed to serve God in sincerity and in truth. The Religion<lb/> is
+                    somewhat low amongst us but Christians seem<lb/> to keep on still. there has
+                    been but a few careless ones stirred<lb/> up for soul concern since your young
+                    men left us who<lb/> at Oneida-- but others seem still to remain in the
+                    bondage<lb/> of spiritual Pharaoh. But God is able to turn their hearts<lb/> and
+                    make them willing to walk towards Concern--<lb/> I have no time to express as I
+                    feel, but to conclude with<lb/> your prayers that the great good Spirit may pour
+                    down<lb/> his blessing upon us--that religion may again revive<lb/> among us.
+                </p><closer><signed> Catharine Solomon</signed></closer>
+            </div>
+            <div type="letter">
+                <head>To <persName key="etown1">Elizabeth Townsend</persName><lb/>Daughter of
+                        <persName key="jclar1">J Clark</persName><lb/>9th</head>
+                <p><placeName key="stock">New Stockbridge</placeName>
+                    <date when="1801-10-14">14 10 Month. 1801</date>.<lb/> Dear Sister I take this
+                    opportunity to inform you that<lb/> we have received your kind letter which
+                    gladden our<lb/> hearts. We are all well - and the great good spirit has<lb/>
+                    blessed the labours of our Lands the summer past with<lb/> good crops of grain
+                    -We are happy to see our good<lb/> friend <persName key="jclar1">Jos.
+                        Clark</persName>, also our young women who were<lb/> put under the care of
+                    our friends -I often thought of you<lb/> since you left our Country -I wish all
+                    the women<lb/> in the world as well as men become such as you<lb/> are,
+                    followers of the Great good Spirit _ then it would<lb/><pb n="10" facs="SW_Letters_1801_10a_Page_10"/> be all
+                    Brothers and Sisters – How beautiful this would<lb/> be _But humble submission
+                    to the great good spirit is<lb/> our duty -I hope by the help of the good spirit
+                    we and you<lb/> shall never forget that we are dependant creatures<lb/> as you
+                    said can do nothing spiritually good may<lb/> the good Spirit bless you
+                    farewell</p>
+                <closer>To <persName key="sgreg1">Susanna Gregory</persName>
+                    <persName key="lhend1">Lydia Hendricks</persName>
+                </closer>
+                <postscript>
+                    <p>P.S. Give my love to thy Husband -give my love to<lb/> our kind Sister
+                            <persName key="hjack2">Hannah Jackson</persName> -am sorry that<lb/> we
+                        cannot at present send letters to all our kind sisters<lb/> at <placeName
+                            key="phila">Philadelphia</placeName></p>
+                </postscript>
+            </div>
+            <div type="letter">
+                <head>10th<lb/> Copy of <persName key="jclar1">Joseph Clark’s</persName>
+                    Certificate</head>
+                <opener>Dear Friend. </opener>
+                <p>Our esteemed Friend <persName key="jclar1">J Clark</persName> called<lb/> at my
+                    House of the 16 of 11mo. and staid with me over<lb/> first Day - On the 12th, I
+                    set out with him to <placeName key="stock">Stock<lb/>bridge</placeName> where we
+                    set before night, and returned the<lb/> 3 young women under his care. Next day
+                    the<lb/> Chiefs met, and some of their principal Women<lb/> where he informed
+                    them in very affecting language<lb/> how that he had left all that was near and
+                    dear<lb/> to him, to accompany their children home<lb/> and I can truly say, his
+                    life and conversation<lb/> has been to me edifying and exemplary</p>
+                <p>With Desires for his safe return to his family<lb/> and Friends from good
+                        friend<lb/><persName key="jdean1">John Dean</persName></p>
+                <closer> 10th<pb n="11" facs="SW_Letters_1801_10a_Page_11"/><lb/> To the yearly Meetings Committee on Indian affairs, <signed><list>
+                            <item><persName key="dbaco1">David Bacon</persName></item>
+                            <item><persName key="wsave1">William Savery</persName></item>
+                            <item><persName key="jcoop1">James Cooper</persName></item>
+
+                            <item><persName key="jparr1">John Parish</persName></item>
+                            <item><persName key="twist1">Thomas Wistar</persName></item>
+                            <item><persName key="tfish1">Thos Fisher</persName></item>
+
+                            <item><persName key="eyarn1">Ellis Yarnall</persName></item>
+                            <item><persName key="opaxt1">Oliver Paxton</persName></item>
+                            <item><persName key="pbark1">Peter Barker</persName></item>
+
+                            <item><persName key="hdrin1">Henry Drinker</persName></item>
+                            <item><persName key="tstew1">Thos Stewardson</persName></item>
+                            <item><persName key="jwhit1">Joseph Whitall</persName></item>
+                        </list></signed>
+                    <dateline><placeName key="broth">Brothertown</placeName>
+                        with state of <placeName key="newyo">New York</placeName><lb/> The <date
+                            when="1801-10-19">19th of the 10th Month, 1801</date></dateline>
+                </closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>
