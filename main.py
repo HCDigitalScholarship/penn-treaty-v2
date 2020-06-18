@@ -9,6 +9,8 @@ from fastapi.templating import Jinja2Templates
 templates = Jinja2Templates(directory="templates")
 
 import os
+import csv
+import pandas as pd
 
 app = FastAPI()
 
@@ -60,3 +62,58 @@ def get_sw_manuscript(request: Request, number: int):
     infile = open(source, "r")
     text = infile.read()
     return templates.TemplateResponse('base.html', {'request': request, 'text': text, 'title': title})
+
+
+# displays data on a person based on their records from the TEI csv data
+@app.get("/people/{unique_key}")
+def person_info(request: Request, unique_key: str):
+    csv_file = csv.reader(open('TEI CSV Files/TEI people, places, orgs - People.csv', "r"), delimiter=",")
+
+    # getting the headers
+    data = pd.read_csv('TEI CSV Files/TEI people, places, orgs - People.csv',nrows=1)
+    headers = list(data.columns)
+
+    for row in csv_file:
+        if row[1] == unique_key:
+            dict = {}
+            for i in range(len(headers)):
+                dict[headers[i]] = row[i]
+    list_of_dict = [dict] # TODO add exception?
+    return templates.TemplateResponse('person.html', {'request': request, 'list_of_dict': list_of_dict})
+
+# displays data on a place based on their records from the TEI csv data
+@app.get("/places/{unique_key}")
+def place_info(request: Request, unique_key: str):
+    csv_file = csv.reader(open('TEI CSV Files/TEI people, places, orgs - Places.csv', "r"), delimiter=",")
+
+    # getting the headers
+    data = pd.read_csv('TEI CSV Files/TEI people, places, orgs - Places.csv',nrows=1)
+    headers = list(data.columns)
+
+    for row in csv_file:
+        if row[0] == unique_key:
+            dict = {}
+            for i in range(len(headers)-3):
+                dict[headers[i]] = row[i]
+    list_of_dict = [dict] # TODO add exception?
+    return templates.TemplateResponse('place.html', {'request': request, 'list_of_dict': list_of_dict})
+
+# displays data on a organization based on their records from the TEI csv data
+@app.get("/organizations/{unique_key}")
+def organization_info(request: Request, unique_key: str):
+    csv_file = csv.reader(open('TEI CSV Files/TEI people, places, orgs - Organizations.csv', "r"), delimiter=",")
+
+    # getting the headers
+    data = pd.read_csv('TEI CSV Files/TEI people, places, orgs - Organizations.csv', nrows=1)
+    headers = list(data.columns)
+
+    for row in csv_file:
+        if row[1] == unique_key:
+            dict = {}
+            for i in range(len(headers)):
+                dict[headers[i]] = row[i]
+    list_of_dict = [dict]  # TODO add exception?
+    return templates.TemplateResponse('organization.html', {'request': request, 'list_of_dict': list_of_dict})
+
+
+

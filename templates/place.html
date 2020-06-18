@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+{% for dict_item in list_of_dict %}
+   {% for key, value in dict_item.items() %}
+      <h1>Key: {{key}}</h1>
+      <h2>Value: {{value}}</h2>
+   {% endfor %}
+{% endfor %}
+<p>test</p>
+
+</body>
+</html>
