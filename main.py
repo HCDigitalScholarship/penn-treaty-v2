@@ -12,7 +12,10 @@ import os
 
 app = FastAPI()
 
+# run using: uvicorn main:app --reload
 
+# creates the main page of the app, which shows a list of all the manuscripts
+# links are by a for loop in the homepage.html template
 @app.get("/")
 async def root(request: Request):
     hc_manuscript_list = []
@@ -25,23 +28,10 @@ async def root(request: Request):
     for filename in os.listdir('Text Files/Swarthmore Text Files'):
         sw_manuscript_list.append(filename)
 
-
     return templates.TemplateResponse('homepage.html',{"request": request, "hc_manuscript_list": hc_manuscript_list, "sw_manuscript_list": sw_manuscript_list})
 
 
-# displays the raw tei XML documents
-@app.get("/xml_test")
-def xml_to_html(request: Request):
-    return templates.TemplateResponse('hv_allinsonw_diary_1809_v1.xml',{"request": request})
-
-@app.get("/txt_test")
-def txt_to_html(request: Request):
-    #source = 'Haverford Text Files/A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom: Electronic Version'
-    source = 'Swarthmore Text Files/A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives: Electronic Version'
-    infile = open(source, "r")
-    text = infile.read()
-    return templates.TemplateResponse('base.html',{'request': request, 'text': text})
-
+# displays the text file of a Haverford manuscript
 @app.get("/hc_manuscript/{number}")
 def get_hc_manuscript(request: Request, number: int):
     hc_manuscript_list = []
@@ -49,13 +39,14 @@ def get_hc_manuscript(request: Request, number: int):
     for filename in os.listdir('Text Files/Haverford Text Files'):
         path = 'Text Files/Haverford Text Files/' + filename
         hc_manuscript_list.append(path)
-    print(hc_manuscript_list)
     source = hc_manuscript_list[number]
     title = source.split('/')[1]
     infile = open(source, "r")
     text = infile.read()
     return templates.TemplateResponse('base.html', {'request': request, 'text': text, 'title': title})
 
+
+# displays the text file of a Swarthmore manuscript
 @app.get("/sw_manuscript/{number}")
 def get_sw_manuscript(request: Request, number: int):
     sw_manuscript_list = []
