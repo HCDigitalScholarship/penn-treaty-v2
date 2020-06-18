@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Penn's Treaty</title>
+</head>
+<body>
+    <h4>Haverford Manuscripts</h4>
+    <ul>
+        {% for filename in hc_manuscript_list %}
+        <li><a href="http://127.0.0.1:8000/hc_manuscript/{{loop.index0}}">{{filename}} </a> </li>
+        {% endfor %}
+    </ul>
+
+    <h4>Swarthmore Manuscripts</h4>
+    <ul>
+        {% for filename in sw_manuscript_list %}
+        <li><a href="http://127.0.0.1:8000/sw_manuscript/{{loop.index0}}">{{filename}} </a> </li>
+        {% endfor %}
+    </ul>
+
+
+
+</body>
+</html>
