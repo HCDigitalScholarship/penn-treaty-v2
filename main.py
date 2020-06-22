@@ -116,4 +116,11 @@ def organization_info(request: Request, unique_key: str):
     return templates.TemplateResponse('organization.html', {'request': request, 'list_of_dict': list_of_dict})
 
 
+# displays the raw tei XML documents
+@app.get("/xml_test")
+def xml_to_html(request: Request):
+    # return templates.TemplateResponse('hv_allinsonw_diary_1809_v1.xml',{"request": request})
+    return templates.TemplateResponse('test.xml',{"request": request})
+
+
 
