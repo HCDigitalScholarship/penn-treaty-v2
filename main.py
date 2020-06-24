@@ -80,6 +80,7 @@ def person_info(request: Request, unique_key: str):
                 dict[headers[i]] = row[i]
     list_of_dict = [dict] # TODO add exception?
     return templates.TemplateResponse('person.html', {'request': request, 'list_of_dict': list_of_dict})
+# TODO jpeir1 results in internal server error, seen in tei_xml_files/swarthmore/SW_JC1796.xml, probably misspelled jpier1?
 
 # displays data on a place based on their records from the TEI csv data
 @app.get("/places/{unique_key}")
@@ -122,5 +123,46 @@ def xml_to_html(request: Request):
     # return templates.TemplateResponse('hv_allinsonw_diary_1809_v1.xml',{"request": request})
     return templates.TemplateResponse('test.xml',{"request": request})
 
+@app.get('/linked_test')
+def linked_test(request: Request):
+    return templates.TemplateResponse('linked_SW_SH1799.html', {'request': request})
 
 
+@app.get('/linked_manuscripts_test')
+def linked_manuscripts_test(request: Request):
+    hc_manuscript_list = []
+
+    for filename in os.listdir('Text Files/Haverford Text Files'):
+        hc_manuscript_list.append(filename)
+
+    sw_manuscript_list = []
+
+    for filename in os.listdir('Text Files/Swarthmore Text Files'):
+        sw_manuscript_list.append(filename)
+
+    return templates.TemplateResponse('linked_homepage.html',{"request": request, "hc_manuscript_list": hc_manuscript_list, "sw_manuscript_list": sw_manuscript_list})
+
+
+# displays the text file of a linked Haverford manuscript
+@app.get("/linked_hc_manuscript/{number}")
+def get_hc_manuscript(request: Request, number: int):
+    hc_manuscript_list = []
+
+    for filename in os.listdir('templates/Linked HTML Files/Haverford'):
+        path = 'Linked HTML Files/Haverford/' + filename
+        hc_manuscript_list.append(path)
+    source = hc_manuscript_list[number]
+    title = source.split('/')[1]
+    return templates.TemplateResponse(path, {'request': request})
+
+# displays the text file of a linked Swarthmore manuscript
+@app.get("/linked_sw_manuscript/{number}")
+def get_sw_manuscript(request: Request, number: int):
+    sw_manuscript_list = []
+
+    for filename in os.listdir('templates/Linked HTML Files/Swarthmore'):
+        path = 'Linked HTML Files/Swarthmore/' + filename
+        sw_manuscript_list.append(path)
+    source = sw_manuscript_list[number]
+    title = source.split('/')[1]
+    return templates.TemplateResponse(path, {'request': request})
