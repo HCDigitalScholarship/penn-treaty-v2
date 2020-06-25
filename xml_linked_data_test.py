@@ -39,17 +39,20 @@ def create_linked_xml(source):
                 tag.wrap(a)
                 tag.string = ''
             elif tag.name == 'placename':
-                key = tag.get('key')
-                old_contents = tag.contents
-                if len(old_contents) > 1:
-                    s = old_contents[0] + old_contents[2]
+                if tag.string == 'checkPlace':
+                    tag.string = ''
                 else:
-                    s = old_contents[0]
-                url = 'http://127.0.0.1:8000/places/' + key
-                a = soup.new_tag("a", href=url)
-                a.string = s
-                tag.wrap(a)
-                tag.string = ''
+                    key = tag.get('key')
+                    old_contents = tag.contents
+                    if len(old_contents) > 1:
+                        s = old_contents[0] + old_contents[2]
+                    else:
+                        s = old_contents[0]
+                    url = 'http://127.0.0.1:8000/places/' + key
+                    a = soup.new_tag("a", href=url)
+                    a.string = s
+                    tag.wrap(a)
+                    tag.string = ''
             elif tag.name == 'orgname':
                 key = tag.get('key')
                 old_contents = tag.contents
@@ -74,12 +77,11 @@ def create_linked_xml(source):
 
     directory = '''/Users/simon/PycharmProjects/DigitalScholarship/Penn's Treaty/penn-treaty-v2/templates/Linked HTML Files/Swarthmore/''' + title
 
-
     with open(directory, "w") as file:
         file.write(str(soup))
 
 
-#create_linked_xml('tei_xml_files/swarthmore/SW_SH1799.xml')
+#create_linked_xml('tei_xml_files/swarthmore/SW_JC1797.xml')
 
 for filename in os.listdir('tei_xml_files/swarthmore'):
     path = 'tei_xml_files/swarthmore/' + filename
