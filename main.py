@@ -8,11 +8,15 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 templates = Jinja2Templates(directory="templates")
 
+
 import os
 import csv
 import pandas as pd
+import slugify
 
 app = FastAPI()
+
+app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # run using: uvicorn main:app --reload
 
@@ -22,12 +26,12 @@ app = FastAPI()
 async def root(request: Request):
     hc_manuscript_list = []
 
-    for filename in os.listdir('Text Files/Haverford Text Files'):
+    for filename in os.listdir('Text_Files/Haverford_Text_Files'):
         hc_manuscript_list.append(filename)
 
     sw_manuscript_list = []
 
-    for filename in os.listdir('Text Files/Swarthmore Text Files'):
+    for filename in os.listdir('Text_Files/Swarthmore_Text_Files'):
         sw_manuscript_list.append(filename)
 
     return templates.TemplateResponse('homepage.html',{"request": request, "hc_manuscript_list": hc_manuscript_list, "sw_manuscript_list": sw_manuscript_list})
@@ -38,14 +42,15 @@ async def root(request: Request):
 def get_hc_manuscript(request: Request, number: int):
     hc_manuscript_list = []
 
-    for filename in os.listdir('Text Files/Haverford Text Files'):
-        path = 'Text Files/Haverford Text Files/' + filename
+    for filename in os.listdir('Text_Files/Haverford_Text_Files'):
+        path = 'Text_Files/Haverford_Text_Files/' + filename
         hc_manuscript_list.append(path)
     source = hc_manuscript_list[number]
-    title = source.split('/')[1]
+    title = source.split('/')[2]
+    slugified_title = 'Haverford/' + slugify.slugify(title)
     infile = open(source, "r")
     text = infile.read()
-    return templates.TemplateResponse('base.html', {'request': request, 'text': text, 'title': title})
+    return templates.TemplateResponse('base.html', {'request': request, 'text': text, 'title': title, 'slugified_title': slugified_title})
 
 
 # displays the text file of a Swarthmore manuscript
@@ -53,15 +58,16 @@ def get_hc_manuscript(request: Request, number: int):
 def get_sw_manuscript(request: Request, number: int):
     sw_manuscript_list = []
 
-    for filename in os.listdir('Text Files/Swarthmore Text Files'):
-        path = 'Text Files/Swarthmore Text Files/' + filename
+    for filename in os.listdir('Text_Files/Swarthmore_Text_Files'):
+        path = 'Text_Files/Swarthmore_Text_Files/' + filename
         sw_manuscript_list.append(path)
 
     source = sw_manuscript_list[number]
-    title = source.split('/')[1]
+    title = source.split('/')[2]
+    slugified_title = 'Swarthmore/' + slugify.slugify(title)
     infile = open(source, "r")
     text = infile.read()
-    return templates.TemplateResponse('base.html', {'request': request, 'text': text, 'title': title})
+    return templates.TemplateResponse('base.html', {'request': request, 'text': text, 'title': title, 'slugified_title': slugified_title})
 
 
 # displays data on a person based on their records from the TEI csv data

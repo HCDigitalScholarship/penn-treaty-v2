@@ -15,7 +15,6 @@ import os
 #     persName.string = ''
 
 
-# TODO FIXED "checkPlace" error
 def create_linked_xml(source):
     infile = open(source, "r")
     contents = infile.read()
