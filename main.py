@@ -138,12 +138,12 @@ def linked_test(request: Request):
 def linked_manuscripts_test(request: Request):
     hc_manuscript_list = []
 
-    for filename in os.listdir('Text Files/Haverford Text Files'):
+    for filename in os.listdir('Text_Files/Haverford_Text_Files'):
         hc_manuscript_list.append(filename)
 
     sw_manuscript_list = []
 
-    for filename in os.listdir('Text Files/Swarthmore Text Files'):
+    for filename in os.listdir('Text_Files/Swarthmore_Text_Files'):
         sw_manuscript_list.append(filename)
 
     return templates.TemplateResponse('linked_homepage.html',{"request": request, "hc_manuscript_list": hc_manuscript_list, "sw_manuscript_list": sw_manuscript_list})
@@ -172,3 +172,11 @@ def get_sw_manuscript(request: Request, number: int):
     source = sw_manuscript_list[number]
     title = source.split('/')[1]
     return templates.TemplateResponse(path, {'request': request})
+
+
+# @app.get(URL)
+# find: text that matches with 'SW_SH1799_Page_01'
+# return the image 'SW_SH1799_Page_01'
+# fill in html template with text and image
+#
+# list of each page name/ image file name
