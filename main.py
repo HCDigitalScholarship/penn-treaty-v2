@@ -14,6 +14,11 @@ import csv
 import pandas as pd
 import slugify
 
+from bs4 import BeautifulSoup
+import re
+
+import json
+
 app = FastAPI()
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
@@ -180,3 +185,78 @@ def get_sw_manuscript(request: Request, number: int):
 # fill in html template with text and image
 #
 # list of each page name/ image file name
+@app.get('/text_and_image_test_home/')
+def text_and_image_test_home(request: Request):
+
+    soup = BeautifulSoup(open('Random/SW_JC1797_TEST.xml'), 'lxml')
+    #soup = BeautifulSoup(open('Random/linked_hv_allinsonw_diary_1809_v1.xml'), 'lxml')
+
+    for tag in soup.find_all():
+        if tag.name == 'persname':
+            tag.unwrap()
+        elif tag.name == 'placename':
+            if tag.string == 'checkPlace':
+                tag.decompose()
+            else:
+                tag.unwrap()
+        elif tag.name == 'orgName':
+            tag.unwrap()
+            # if id != None:
+            #     tag.contents.append('{' + id + '}')
+            # TODO add id's for links
+
+    s = ''
+
+    # add breaks
+    for tag in soup.find_all('pb'):
+        page_name = tag.get('facs')
+        print(page_name)
+        tag.string = '{BREAK}' + page_name + '{TEXT}:'
+
+    document = soup.find('text')
+
+    pages_list = (str(document)).split('{BREAK}')
+
+    x = str(document)
+
+    x = x.replace('<lb></lb>', '\n')
+    x = x.replace('&amp', '&')
+
+    clean = re.sub('<[^>]+>', '', x)
+
+    z = (clean.split('{BREAK}'))
+
+    for i in range(len(z)):
+        formatted_page = re.sub("\s+", ' ', z[i])
+        z[i] = formatted_page
+
+    pages_dict = {}
+    for i in range(len(z)):
+        try:
+            list_to_dict = (z[i].split('{TEXT}:'))
+            pages_dict[list_to_dict[0]] = list_to_dict[1]
+        except:
+            print(z[i])
+
+
+    data = []
+    page_names_list = []
+
+    for i in pages_dict:
+        page_names_list.append(i)
+        data.append(pages_dict[i])
+
+
+    print(page_names_list)
+
+
+
+    return templates.TemplateResponse('text_and_image_home_test.html',{'request': request, 'data': data, 'page_names_list': page_names_list})
+
+# test function for handling a paginated manuscript with static files for text and images
+@app.get('/full_manuscript/{manuscript_name}')
+def full_manuscript(request: Request, manuscript_name: str):
+    #need to generate list of page names
+
+
+    return templates.TemplateResponse('text_and_image_pageview_test.html',{'request': request})
