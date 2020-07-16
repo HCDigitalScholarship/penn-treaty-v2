@@ -2,40 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
-    <style>
-        /* Pagination links */
-        .pagination a {
-            color: black;
-            float: left;
-            padding: 8px 16px;
-            text-decoration: none;
-            transition: background-color .3s;
-        }
+    <title>{{title}}</title>
+    <script>
 
-        /* Style the active/current link */
-            .pagination a.active {
-            background-color: dodgerblue;
-            color: white;
-        }
+<!--        check max? get max from last item in fastapi list of pages?-->
 
-        /* Add a grey background color on mouse-over */
-        .pagination a:hover:not(.active) {background-color: #ddd;}
-    </style>
+
+
+<!--NEED TO CHECK IF ITS A 00 DOC OR 000 DOC-->
+var num_page_digits;
+num_page_digits = parseInt("{{num_page_digits}}");
+
+var currentPage = new String();
+var currentPage = "{{page_name}}";
+new_id_base = currentPage.slice(0,-1*num_page_digits);
+
+<!--NEEDS TO BE UPDATED FOR 00 OR 000-->
+s = currentPage.slice(-1*num_page_digits,);
+
+
+a_prev = parseInt(s) - 1
+a_next = parseInt(s) + 1
+
+var zeros_prev = new String();
+
+b_prev = (num_page_digits - a_prev.toString().length);
+
+var zeros_next = new String();
+b_next = (num_page_digits - a_next.toString().length);
+
+var i;
+for (i = 0; i < b_prev; i++) {
+  zeros_prev += '0'
+}
+
+var j;
+for (j = 0; j < b_next; j++) {
+  zeros_next += '0'
+}
+
+new_prev_url = zeros_prev+a_prev;
+new_next_url = zeros_next+a_next;
+console.log('PREV:' + zeros_prev+a_prev);
+console.log('NEXT:' + zeros_next+a_next);
+
+var new_prev_end;
+var new_next_end;
+new_prev_end = zeros_prev+a_prev;
+new_next_end = zeros_next+a_next;
+
+new_prev_url = 'http://127.0.0.1:8000/full_manuscript/';
+new_prev_url = new_prev_url + new_id_base + new_prev_end;
+console.log("NEW " + new_prev_url);
+
+new_next_url = 'http://127.0.0.1:8000/full_manuscript/';
+new_next_url = new_next_url + new_id_base + new_next_end;
+console.log("NEW " + new_next_url);
+
+<!--NEED TO FIX EDGE CASES FOR NEW URLS-->
+<!--NEED TO DELETE OLD FUNCTIONS-->
+<!--NEED TO CLEAN UP CODE-->
+
+
+var zeros_to_check = new String();
+
+var k;
+for (k = 0; k < num_page_digits; k++) {
+  zeros_to_check += '0'
+}
+
+if (new_prev_url.slice(-1*num_page_digits,) == zeros_to_check) {
+    new_prev_url = window.location.href;
+}
+
+var final_page = new String();
+final_page = "{{final_page}}";
+
+console.log("FINAL:" + final_page);
+console.log(new_next_url.split("/")[4])
+console.log(new_next_url.slice(-1*num_page_digits,))
+if (new_next_url.slice(-1*num_page_digits,) > final_page.slice(-1*num_page_digits,)) {
+    new_next_url = window.location.href;
+}
+
+
+
+
+
+    </script>
 </head>
 <body>
-<p>Test</p>
+<h4>{{page_name}}</h4>
+<p>{{text}}</p>
 
-<div class="pagination">
-  <a href="#">&laquo;</a>
-  <a href="#">1</a>
-  <a class="active" href="#">2</a>
-  <a href="#">3</a>
-  <a href="#">4</a>
-  <a href="#">5</a>
-  <a href="#">6</a>
-  <a href="#">&raquo;</a>
-</div>
+
+<!--<button id="previous" onclick="getPrevious(currentItemIndex, myItemObjectArray)">Previous</button>-->
+<!--<button id="next" onclick="getNext(currentItemIndex, myItemObjectArray)">Next</button>-->
+
+<input type="button" onclick="location.href=prev_url;" value="Previous" />
+<input type="button" onclick="location.href=next_url;" value="Next" />
+
+<input type="button" onclick="location.href=new_prev_url;" value="NEW Previous" />
+<input type="button" onclick="location.href=new_next_url;" value="NEW Next" />
+
+
 
 </body>
 </html>

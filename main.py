@@ -220,6 +220,7 @@ def text_and_image_test_home(request: Request):
     x = str(document)
 
     x = x.replace('<lb></lb>', '\n')
+    #TODO try <br>
     x = x.replace('&amp', '&')
 
     clean = re.sub('<[^>]+>', '', x)
@@ -254,9 +255,109 @@ def text_and_image_test_home(request: Request):
     return templates.TemplateResponse('text_and_image_home_test.html',{'request': request, 'data': data, 'page_names_list': page_names_list})
 
 # test function for handling a paginated manuscript with static files for text and images
-@app.get('/full_manuscript/{manuscript_name}')
-def full_manuscript(request: Request, manuscript_name: str):
-    #need to generate list of page names
+# @app.get('/full_manuscript/{page_name}')
+# def full_manuscript(request: Request, page_name: str):
+#     #need to generate list of page names
+#
+#     path = 'Pages Test/' + page_name
+#     title = page_name
+#     f = open('templates/'+path, "r")
+#     text = f.read()
+#
+#    return templates.TemplateResponse('text_and_image_pageview_test.html',{'request': request, 'text': text, 'title': title, 'page_name': page_name})
+
+@app.get('/paginated_manuscripts')
+def paginated_manuscripts(request: Request):
 
 
-    return templates.TemplateResponse('text_and_image_pageview_test.html',{'request': request})
+
+# same as above function but doesn't use templates, generates the text for each URL
+@app.get('/full_manuscript/{page_name_input}')
+def full_manuscript(request: Request, page_name_input: str):
+
+    # 01 page format tests
+    #soup = BeautifulSoup(open('Random/SW_JC1797_TEST.xml'), 'lxml')
+    #soup = BeautifulSoup(open('templates/Linked XML Files/Swarthmore/linked_SW_Letters_1801_10a.xml'), 'lxml')
+
+    # 001 page format tests
+    #soup = BeautifulSoup(open('templates/Linked XML Files/Swarthmore/linked_SW_1791_06_02.xml'), 'lxml')
+
+    #soup = BeautifulSoup(open('templates/Linked XML Files/Swarthmore/linked_SW_JG_1808.xml'), 'lxml')
+
+    # TODO FIX NEXT/PREV JS FOR 100+ PAGE DOCS
+    soup = BeautifulSoup(open('templates/Linked XML Files/Swarthmore/linked_SW_JP1796.xml'), 'lxml')
+            # KEY ERROR: KeyError: 'SW_JP1796_162'
+
+    for tag in soup.find_all():
+        if tag.name == 'persname':
+            tag.unwrap()
+        elif tag.name == 'placename':
+            if tag.string == 'checkPlace':
+                tag.decompose()
+            else:
+                tag.unwrap()
+        elif tag.name == 'orgName':
+            tag.unwrap()
+            # if id != None:
+            #     tag.contents.append('{' + id + '}')
+            # TODO add id's for links
+
+    s = ''
+
+    # add breaks
+    for tag in soup.find_all('pb'):
+        try:
+            page_name = tag.get('facs')
+            tag.string = '{BREAK}' + page_name + '{TEXT}:'
+        except:
+            pass
+
+    document = soup.find('text')
+
+    pages_list = (str(document)).split('{BREAK}')
+
+    x = str(document)
+
+    x = x.replace('<lb></lb>', '\n')
+    #TODO try <br>
+    x = x.replace('&amp', '&')
+
+    clean = re.sub('<[^>]+>', '', x)
+
+    z = (clean.split('{BREAK}'))
+
+    for i in range(len(z)):
+        formatted_page = re.sub("\s+", ' ', z[i])
+        z[i] = formatted_page
+
+    pages_dict = {}
+    for i in range(len(z)):
+        try:
+            list_to_dict = (z[i].split('{TEXT}:'))
+            pages_dict[list_to_dict[0]] = list_to_dict[1]
+        except:
+            print(z[i])
+
+
+    data = []
+    page_names_list = []
+    for i in pages_dict:
+        page_names_list.append(i)
+        data.append(pages_dict[i])
+
+    final_page = page_names_list[-1]
+    try:
+        text = (pages_dict[page_name_input])
+    except:
+        return 'Page not found' #TODO IMPROVE THIS maybe wrap the whole thing in try/except block?
+
+    title = page_name_input
+
+    digits = final_page.split('_')[-1]
+
+    num_page_digits = len(digits)
+
+
+
+    return templates.TemplateResponse('text_and_image_pageview_test.html',{'request': request, 'text': text, 'title': title,
+                                                                           'page_name': page_name_input, 'final_page': final_page, 'num_page_digits': num_page_digits})
