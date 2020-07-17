@@ -51,11 +51,11 @@ var new_next_end;
 new_prev_end = zeros_prev+a_prev;
 new_next_end = zeros_next+a_next;
 
-new_prev_url = 'http://127.0.0.1:8000/full_manuscript/';
+new_prev_url = 'http://127.0.0.1:8000/full_manuscript/{{manuscript_name}}/';
 new_prev_url = new_prev_url + new_id_base + new_prev_end;
 console.log("NEW " + new_prev_url);
 
-new_next_url = 'http://127.0.0.1:8000/full_manuscript/';
+new_next_url = 'http://127.0.0.1:8000/full_manuscript/{{manuscript_name}}/';
 new_next_url = new_next_url + new_id_base + new_next_end;
 console.log("NEW " + new_next_url);
 
@@ -99,11 +99,9 @@ if (new_next_url.slice(-1*num_page_digits,) > final_page.slice(-1*num_page_digit
 <!--<button id="previous" onclick="getPrevious(currentItemIndex, myItemObjectArray)">Previous</button>-->
 <!--<button id="next" onclick="getNext(currentItemIndex, myItemObjectArray)">Next</button>-->
 
-<input type="button" onclick="location.href=prev_url;" value="Previous" />
-<input type="button" onclick="location.href=next_url;" value="Next" />
 
-<input type="button" onclick="location.href=new_prev_url;" value="NEW Previous" />
-<input type="button" onclick="location.href=new_next_url;" value="NEW Next" />
+<input type="button" onclick="location.href=new_prev_url;" value="Previous" />
+<input type="button" onclick="location.href=new_next_url;" value="Next" />
 
 
 
