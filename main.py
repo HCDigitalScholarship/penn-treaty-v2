@@ -269,62 +269,59 @@ def text_and_image_test_home(request: Request):
 # generates a list of all paginated manuscripts
 @app.get('/paginated_manuscripts')
 def paginated_manuscripts(request: Request):
-    first_page_dict = {'Haverford/linked_hv_sansomj_letters_1796.xml': 'hv_sansomj_letters_1796_001',
-     'Haverford/linked_hv_swaynej_diary_1798.xml': 'hv_swaynej_diary_1798_001',
-     'Haverford/linked_hv_allinsonw_diary_1809_v1.xml': 'hv_allinsonw_diary_1809_v1_001',
-     'Haverford/linked_hv_allinsonw_diary_1809_v2.xml': 'hv_allinsonw_diary_1809_v2_001',
-     'Haverford/linked_hv_allinsonw_diary_1809_v3.xml': 'hv_allinsonw_diary_1809_v3_001',
-     'Haverford/linked_hv_bacond_account_1794.xml': 'hv_bacond_account_1794_001',
-     'Haverford/linked_hv_coatesi_account_1798.xml': 'hv_coatesi_account_1798_001',
-     'Swarthmore/linked_SW_HJ1800.xml': 'SW_HJ1800_001',
-     'Swarthmore/linked_SW_Letters_179-_MM_DD.xml': 'SW_Letters_179-_MM_DD_Page_1',
-     'Swarthmore/linked_SW_BYM1806.xml': 'SW_BYM1806_001', 'Swarthmore/linked_SW_JL1793.xml': 'SW_JL1793_Page_049',
-     'Swarthmore/linked_SW_JT1798.xml': 'SW_JT1798_001',
-     'Swarthmore/linked_SW_Letters_1794_12_20.xml': 'SW_Letters_1794_12_20_Page_1',
-     'Swarthmore/linked_SW_NYYM_Subscriptions.xml': 'SW_NYYMsubscriptions_Page_001',
-     'Swarthmore/linked_SW_HJ1806.xml': 'SW_HJ1806_Page_001',
-     'Swarthmore/linked_SW_Letters_1792_02_19.xml': 'SW_Letters_1792_02_19_Page_1',
-     'Swarthmore/linked_SW_JP1796.xml': 'SW_JP1796_001', 'Swarthmore/linked_SW_NYYM_Man.xml': 'SW_NYYM_Man_Page_001',
-     'Swarthmore/linked_SW_Letters_1791_02_10.xml': 'SW_Letters_1791_02_10_Page_1',
-     'Swarthmore/linked_SW_Letters_1793_08_26.xml': 'SW_Letters_1793_08_26_001',
-     'Swarthmore/linked_SW_BYM_minutes.xml': 'BYM_Page_001',
-     'Swarthmore/linked_SW_Letters_1793_08_24.xml': 'SW_Letters_1793_08_24_Page_1',
-     'Swarthmore/linked_SW_NYYM_reports.xml': 'SW_NYYM_reports_Page_001',
-     'Swarthmore/linked_SW_Letters_1793_04_19.xml': 'SW_Letters_1793_04_19_Page_1',
-     'Swarthmore/linked_SW_JG_1808.xml': 'SW_JG_1808_001', 'Swarthmore/linked_SW_1796_12_15.xml': 'SW_1796_12_15_001',
-     'Swarthmore/linked_SW_SH1799.xml': 'SW_SH1799_Page_01', 'Swarthmore/linked_SW_WH1793.xml': 'SW_WH1793_Page_01',
-     'Swarthmore/linked_SW_Sutcliff.xml': 'SW_Sutcliff_Page_iii',
-     'Swarthmore/linked_SW_1805_00_00.xml': 'SW_1805_00_00_Page_1',
-     'Swarthmore/linked_SW_Letters_1801_10a.xml': 'SW_Letters_1801_10a_Page_01',
-     'Swarthmore/linked_SW_1791_06_02.xml': 'SW_1791_06_02_001',
-     'Swarthmore/linked_SW_RC1805b.xml': 'SW_RC1805b_Page_01', 'Swarthmore/linked_SW_JS1797.xml': 'SW_JS1797_Page_01',
-     'Swarthmore/linked_SW_Letters_1793_07_17.xml': 'SW_Letters_1793_07_17_Page_1',
-     'Swarthmore/linked_SW_RC1805a.xml': 'SW_RC1805a_Page_01', 'Swarthmore/linked_SW_JC1796.xml': 'SW_JC1796_001',
-     'Swarthmore/linked_SW_Letters_1795_05_25.xml': 'SW_Letters_1795_05_25_Page_1',
-     'Swarthmore/linked_SW_JC1797.xml': 'SW_JC1797_Page_01', 'Swarthmore/linked_SW_JS1798.xml': 'SW_JS1798_001',
-     'Swarthmore/linked_SW_GH1804.xml': 'SW_GH1804_001',
-     'Swarthmore/linked_SW_Letters_1795_05_22.xml': 'SW_Letters_1795_05_22_Page_1',
-     'Swarthmore/linked_SW_Letters_1795_05_23.xml': 'SW_Letters_1795_05_23_Page_1',
-     'Swarthmore/linked_SW_JC1801.xml': 'SW_JC1801_Page_1',
-     'Swarthmore/linked_SW_Letters_1801_10_15.xml': 'SW_Letters_1801_10_15_Page_01',
-     'Swarthmore/linked_SW_Letters_1794_00_00.xml': 'Misc_mss_1794_00_00001',
-     'Swarthmore/linked_SW_Letters_1793_03_20.xml': 'SW_Letters_1793_03_20_Page_1',
-     'Swarthmore/linked_SW_HJ1798.xml': 'SW_HJ1798_001',
-     'Swarthmore/linked_SW_NYYM_scrapbook.xml': 'NYYM_scrapbook_003',
-     'Swarthmore/linked_SW_1798_06_15.xml': 'SW_1798_06_15_Page_1',
-     'Swarthmore/linked_SW_RC1805.xml': 'SW_RC1805_Page_05',
-     'Swarthmore/linked_SW_NYYM_minutes.xml': 'NYYM_minutes_Page_001',
-     'Swarthmore/linked_SW_NYYM_Skenando.xml': 'SW_NYYM_Skenando_Page_001',
-     'Swarthmore/linked_SW_IC1799.xml': 'SW_IC1799_Page_01',
-     'Swarthmore/linked_SW_Letters_1795_05_25invoice.xml': 'SW_Letters_1795_05_25invoice_001',
-     'Swarthmore/linked_SW_Letters_1792_02_11.xml': 'SW_Letters_1792_02_11_Page_1',
-     'Swarthmore/linked_SW_HJ1830.xml': 'SW_HJ1830_001',
-     'Swarthmore/linked_SW_Letters_1794_09_09.xml': 'SW_Letters_1794_09_09_001',
-     'Swarthmore/linked_SW_JE1796E.xml': 'SW_JE1796E_Page_01', 'Swarthmore/linked_SW_Ripley.xml': 'Ripley074'}
+
+    first_page_dict = {'haverford/hv_sansomj_letters_1796.xml': 'hv_sansomj_letters_1796_001',
+     'haverford/hv_swaynej_diary_1798.xml': 'hv_swaynej_diary_1798_001',
+     'haverford/hv_allinsonw_diary_1809_v1.xml': 'hv_allinsonw_diary_1809_v1_001',
+     'haverford/hv_allinsonw_diary_1809_v2.xml': 'hv_allinsonw_diary_1809_v2_001',
+     'haverford/hv_allinsonw_diary_1809_v3.xml': 'hv_allinsonw_diary_1809_v3_001',
+     'haverford/hv_bacond_account_1794.xml': 'hv_bacond_account_1794_001',
+     'haverford/hv_coatesi_account_1798.xml': 'hv_coatesi_account_1798_001',
+     'swarthmore/SW_HJ1800.xml': 'SW_HJ1800_001',
+     'swarthmore/SW_Letters_179-_MM_DD.xml': 'SW_Letters_179-_MM_DD_Page_1',
+     'swarthmore/SW_BYM1806.xml': 'SW_BYM1806_001', 'swarthmore/SW_JL1793.xml': 'SW_JL1793_Page_049',
+     'swarthmore/SW_JT1798.xml': 'SW_JT1798_001',
+     'swarthmore/SW_Letters_1794_12_20.xml': 'SW_Letters_1794_12_20_Page_1',
+     'swarthmore/SW_NYYM_Subscriptions.xml': 'SW_NYYMsubscriptions_Page_001',
+     'swarthmore/SW_HJ1806.xml': 'SW_HJ1806_Page_001',
+     'swarthmore/SW_Letters_1792_02_19.xml': 'SW_Letters_1792_02_19_Page_1',
+     'swarthmore/SW_JP1796.xml': 'SW_JP1796_001', 'swarthmore/SW_NYYM_Man.xml': 'SW_NYYM_Man_Page_001',
+     'swarthmore/SW_Letters_1791_02_10.xml': 'SW_Letters_1791_02_10_Page_1',
+     'swarthmore/SW_Letters_1793_08_26.xml': 'SW_Letters_1793_08_26_001',
+     'swarthmore/SW_BYM_minutes.xml': 'BYM_Page_001',
+     'swarthmore/SW_Letters_1793_08_24.xml': 'SW_Letters_1793_08_24_Page_1',
+     'swarthmore/SW_NYYM_reports.xml': 'SW_NYYM_reports_Page_001',
+     'swarthmore/SW_Letters_1793_04_19.xml': 'SW_Letters_1793_04_19_Page_1',
+     'swarthmore/SW_JG_1808.xml': 'SW_JG_1808_001', 'swarthmore/SW_1796_12_15.xml': 'SW_1796_12_15_001',
+     'swarthmore/SW_SH1799.xml': 'SW_SH1799_Page_01', 'swarthmore/SW_WH1793.xml': 'SW_WH1793_Page_01',
+     'swarthmore/SW_Sutcliff.xml': 'SW_Sutcliff_Page_iii', 'swarthmore/SW_1805_00_00.xml': 'SW_1805_00_00_Page_1',
+     'swarthmore/SW_Letters_1801_10a.xml': 'SW_Letters_1801_10a_Page_01',
+     'swarthmore/SW_1791_06_02.xml': 'SW_1791_06_02_001', 'swarthmore/SW_RC1805b.xml': 'SW_RC1805b_Page_01',
+     'swarthmore/SW_JS1797.xml': 'SW_JS1797_Page_01',
+     'swarthmore/SW_Letters_1793_07_17.xml': 'SW_Letters_1793_07_17_Page_1',
+     'swarthmore/SW_RC1805a.xml': 'SW_RC1805a_Page_01', 'swarthmore/SW_JC1796.xml': 'SW_JC1796_001',
+     'swarthmore/SW_Letters_1795_05_25.xml': 'SW_Letters_1795_05_25_Page_1',
+     'swarthmore/SW_JC1797.xml': 'SW_JC1797_Page_01', 'swarthmore/SW_JS1798.xml': 'SW_JS1798_001',
+     'swarthmore/SW_GH1804.xml': 'SW_GH1804_001',
+     'swarthmore/SW_Letters_1795_05_22.xml': 'SW_Letters_1795_05_22_Page_1',
+     'swarthmore/SW_Letters_1795_05_23.xml': 'SW_Letters_1795_05_23_Page_1',
+     'swarthmore/SW_JC1801.xml': 'SW_JC1801_Page_1',
+     'swarthmore/SW_Letters_1801_10_15.xml': 'SW_Letters_1801_10_15_Page_01',
+     'swarthmore/SW_Letters_1794_00_00.xml': 'Misc_mss_1794_00_00001',
+     'swarthmore/SW_Letters_1793_03_20.xml': 'SW_Letters_1793_03_20_Page_1',
+     'swarthmore/SW_HJ1798.xml': 'SW_HJ1798_001', 'swarthmore/SW_NYYM_scrapbook.xml': 'NYYM_scrapbook_003',
+     'swarthmore/SW_1798_06_15.xml': 'SW_1798_06_15_Page_1', 'swarthmore/SW_RC1805.xml': 'SW_RC1805_Page_05',
+     'swarthmore/SW_NYYM_minutes.xml': 'NYYM_minutes_Page_001',
+     'swarthmore/SW_NYYM_Skenando.xml': 'SW_NYYM_Skenando_Page_001', 'swarthmore/SW_IC1799.xml': 'SW_IC1799_Page_01',
+     'swarthmore/SW_Letters_1795_05_25invoice.xml': 'SW_Letters_1795_05_25invoice_001',
+     'swarthmore/SW_Letters_1792_02_11.xml': 'SW_Letters_1792_02_11_Page_1',
+     'swarthmore/SW_HJ1830.xml': 'SW_HJ1830_001', 'swarthmore/SW_Letters_1794_09_09.xml': 'SW_Letters_1794_09_09_001',
+     'swarthmore/SW_JE1796E.xml': 'SW_JE1796E_Page_01', 'swarthmore/SW_Ripley.xml': 'Ripley074'}
 
     return templates.TemplateResponse('paginated_manuscripts_home.html',{'request': request, 'first_page_dict': first_page_dict})
 
 # same as above function but doesn't use templates, generates the text for each URL
+# creates paginated manuscrips with linked data
 @app.get('/full_manuscript/{hc_or_swat}/{manuscript_name}/{page_name_input}')
 def full_manuscript(request: Request, manuscript_name: str, page_name_input: str, hc_or_swat: str):
 
@@ -342,32 +339,125 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
 
     # TODO SWITCH BETWEEN HC AND SWAT
     manuscript_name = hc_or_swat +'/' + manuscript_name
-    path = f'templates/Linked XML Files/{manuscript_name}'
+    path = f'templates/tei_xml_files/{manuscript_name}'
     soup = BeautifulSoup(open(path), 'lxml')
+
+    # for tag in soup.find_all():
+    #     if tag.name == 'persname':
+    #         tag.unwrap()
+    #     elif tag.name == 'placename':
+    #         if tag.string == 'checkPlace':
+    #             tag.decompose()
+    #         else:
+    #             tag.unwrap()
+    #     elif tag.name == 'orgName':
+    #         tag.unwrap()
+    #         # if id != None:
+    #         #     tag.contents.append('{' + id + '}')
+    #         # TODO add id's for links
+    #
+    # s = ''
+    #
+    # # add breaks
+    # for tag in soup.find_all('pb'):
+    #     try:
+    #         page_name = tag.get('facs')
+    #         tag.string = '{BREAK}' + page_name + '{TEXT}:'
+    #     except:
+    #         pass
+    #
+    # document = soup.find('text')
+    #
+    # pages_list = (str(document)).split('{BREAK}')
+    #
+    # x = str(document)
+    #
+    # x = x.replace('<lb></lb>', '\n')
+    # #TODO try <br>
+    # x = x.replace('&amp', '&')
+    #
+    # clean = re.sub('<[^>]+>', '', x)
+    #
+    # z = (clean.split('{BREAK}'))
+    #
+    # for i in range(len(z)):
+    #     formatted_page = re.sub("\s+", ' ', z[i])
+    #     z[i] = formatted_page
+    #
+    # pages_dict = {}
+    # for i in range(len(z)):
+    #     try:
+    #         list_to_dict = (z[i].split('{TEXT}:'))
+    #         pages_dict[list_to_dict[0]] = list_to_dict[1]
+    #     except:
+    #         print(z[i])
+
+    # TODO get rid of line breaks?
+    for tag in soup.find_all('lb'):
+        tag.decompose()
 
     for tag in soup.find_all():
         if tag.name == 'persname':
-            tag.unwrap()
+            print(tag.get('key'))
+            id = tag.get('key')
+            try:
+                if id is not None:
+                    # tag.contents.append("ID: " + id)
+                    temp_tag_contents = tag.string
+                    if temp_tag_contents == None:
+                        print("NONE TAG")
+                        print(tag)
+                        print(tag.contents)
+                        tag.string = tag.contents.join('')
+                    tag.string = f'<a href="http://127.0.0.1:8000/people/{id}">{temp_tag_contents}</a>'
+                tag.unwrap()
+            except:
+                print(tag)
         elif tag.name == 'placename':
+            print(tag.get('key'))
             if tag.string == 'checkPlace':
                 tag.decompose()
             else:
-                tag.unwrap()
+                print(tag.get('key'))
+                id = tag.get('key')
+                try:
+                    if id is not None:
+                        # tag.contents.append("ID: " + id)
+                        temp_tag_contents = tag.string
+                        if temp_tag_contents == None:
+                            print("NONE TAG")
+                            print(tag)
+                            print(tag.contents)
+                            tag.string = tag.contents.join('')
+                        tag.string = f'<a href="http://127.0.0.1:8000/places/{id}">{temp_tag_contents}</a>'
+                    tag.unwrap()
+                except:
+                    print(tag)
         elif tag.name == 'orgName':
-            tag.unwrap()
-            # if id != None:
-            #     tag.contents.append('{' + id + '}')
+            print(tag.get('key'))
+            id = tag.get('key')
+            try:
+                if id is not None:
+                    # tag.contents.append("ID: " + id)
+                    temp_tag_contents = tag.string
+                    if temp_tag_contents == None:
+                        print("NONE TAG")
+                        print(tag)
+                        print(tag.contents)
+                        tag.string = tag.contents.join('')
+                    tag.string = f'<a href="http://127.0.0.1:8000/organizations/{id}">{temp_tag_contents}</a>'
+                tag.unwrap()
+            except:
+                print(tag)
             # TODO add id's for links
 
     s = ''
 
     # add breaks
     for tag in soup.find_all('pb'):
-        try:
-            page_name = tag.get('facs')
-            tag.string = '{BREAK}' + page_name + '{TEXT}:'
-        except:
-            pass
+        page_name = tag.get('facs')
+        print(page_name)
+        tag.string = '{BREAK}' + page_name + '{TEXT}:'
 
     document = soup.find('text')
 
@@ -376,10 +466,12 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
     x = str(document)
 
     x = x.replace('<lb></lb>', '\n')
-    #TODO try <br>
     x = x.replace('&amp', '&')
 
     clean = re.sub('<[^>]+>', '', x)
+
+    clean = clean.replace('&lt;', '<')
+    clean = clean.replace('&gt;', '>')
 
     z = (clean.split('{BREAK}'))
 
@@ -428,6 +520,7 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
                                                                            'manuscript_name': manuscript_name})
 
 
+# old test
 @app.get('/linked_and_paginated_test')
 def linked_and_paginated_test(request: Request):
     soup = BeautifulSoup(open('''/Users/simon/PycharmProjects/DigitalScholarship/Penn's Treaty/penn-treaty-v2/tei_xml_files/swarthmore/SW_JC1797.xml'''), 'lxml')
@@ -527,7 +620,7 @@ def linked_and_paginated_test(request: Request):
         except:
             print(z[i])
 
-    text = pages_dict['SW_JC1797_Page_04']
+    text = pages_dict['SW_JC1797_Page_06']
 
     text = '<p>' + text
     text = text + '</p>'
@@ -535,3 +628,7 @@ def linked_and_paginated_test(request: Request):
 
 
     return templates.TemplateResponse('linked_and_paginated_test.html', {'request': request, 'text': text})
+
+# fix dict in 'paginated manuscripts'
+# remove '_linked'
+# add in new scraper/xml to pages function

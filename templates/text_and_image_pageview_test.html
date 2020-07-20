@@ -5,8 +5,6 @@
     <title>{{title}}</title>
     <script>
 
-<!--        check max? get max from last item in fastapi list of pages?-->
-
 
 
 <!--NEED TO CHECK IF ITS A 00 DOC OR 000 DOC-->
@@ -93,7 +91,7 @@ if (new_next_url.slice(-1*num_page_digits,) > final_page.slice(-1*num_page_digit
 </head>
 <body>
 <h4>{{page_name}}</h4>
-<p>{{text}}</p>
+<p>{{text|safe}}</p>
 
 
 <!--<button id="previous" onclick="getPrevious(currentItemIndex, myItemObjectArray)">Previous</button>-->
