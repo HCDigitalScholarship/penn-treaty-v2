@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model hkey="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model hkey="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" hkey="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" hkey="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" hkey="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Halliday Jackson's Journal, 1806: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Emma Remsberg</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Journal transcribed by</resp>
+                    <name>Emma Remsberg</name>
+
+                </respStmt>
+                <sponsor>Tri-Co Digital Humanities Initiative</sponsor>
+                <funder>Andrew W. Mellon Foundation</funder>
+            </titleStmt>
+            <extent>ca. 136 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2014</date>
+                <idno type="local">SW_HJ1806</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Miscellaneous Manuscripts</collection>
+                        <idno>Mss003/43</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>72 pp. (1 volume)</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The 1806 journal of Halliday Jackson is in the collections of Friends Historical
+                    Library of Swarthmore College. It was transcribed and encoded as part of a
+                    larger project to make available a number of Quaker journals which document
+                    contact between Friends and Native Americans between 1790 and 1810.</p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases. </p>
+                <p>The author of the original journal does not include page numbers on his
+                    manuscript; the page numbers have been interpolated by the transcribers to
+                    correspond with the manuscript sheets.</p>
+            </editorialDecl>
+
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in <date when="1806">1806</date></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Quakers--Pennsylvania</item>
+                        <item>Alleghany River Valley (Pa. and N.Y.)—History</item>
+                        <item>Church and state--Ohio</item>
+                        <item>Cornplanter, Seneca chief, 1732?-1836</item>
+                        <item>Indian reservations</item>
+                        <item>Indians of North America--Missions</item>
+                        <item>New York (State)--Description and travel</item>
+                        <item>Pennsylvania--Description and travel</item>
+
+                        <item>Philadelphia Yearly Meeting of the Religious Society of Friends</item>
+                        <item>Quakers--Pennsylvania--Diaries</item>
+                        <item>Quakers--Political activity</item>
+                        <item>Seneca Indians</item>
+                        <item>Society of Friends--Missions</item>
+                        <item>Voyages and Travels</item>
+
+                    </list>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+    </teiHeader>
+    <text>
+
+        <body>
+            <div type="narrative">
+                <pb n="1" facs="SW_HJ1806_Page_001"/>
+                <head>Some Account of a Visit <unclear>pa<damage/></unclear><lb/> to the Friends at
+                        <placeName key="tunes">Tunesassa</placeName> &amp;
+                    <unclear>the</unclear><lb/> Indians liveing on <geogName key="alleg"
+                        >Allegany</geogName> &amp; <geogName key="catta1"
+                        ><unclear>Cata-</unclear><lb/> raugus</geogName> Rivers, agreably to an
+                        <unclear>appoint-</unclear><lb/> ment of the Committee on Indian<lb/>
+                    Affairs in the <date when="1806-08">8th Month 1806</date>--</head>
+
+                <p> I left home on Seconday the <date when="1806-09-01">first of the <lb/> ninth
+                        month</date>, &amp; pursuant to agreement<lb/> met with <persName
+                        key="jphil1">John Philips</persName>, &amp; <persName key="ibons1">Isaac
+                        Bonsal</persName><lb/> who were to be my Companions on the inten-<lb/> ded
+                    embassy, &amp; <persName key="nwaln1">Nicholas Waln Jr</persName> also
+                        <unclear>pro</unclear>-<lb/> pos'd accompanying us for the benefit of<lb/>
+                    his health. -- On the <date when="1806-09-02">2nd</date> we set out<lb/> from
+                        <persName key="ibons1">Isaac Bonsals</persName> and traveling by way of<lb/>
+                    <geogName key="maide">Maidencreek</geogName>, <placeName key="catta"
+                        >Catawessy</placeName>, <placeName key="muncy">Muncy</placeName>, <placeName
+                        key="wport">Williams-<lb/> port</placeName>
+                    <unclear>and</unclear>
+                    <placeName key="tmorr1">Morris's Settlement</placeName> on <geogName key="pinec"
+                        >pine Creek</geogName><lb/> we <unclear>reached</unclear>
+                    <persName key="fking1">Francis Kings</persName> on the
+                    <unclear>Oswega</unclear><lb/> in <unclear>the after</unclear>noon of the <date
+                        when="1806-09-10">10th</date> all in good<lb/>
+                    <unclear>health, having</unclear> had pleasant weather for<lb/>
+                    <unclear>traveling</unclear> the night previ<unclear>ous</unclear><lb/>
+                    <damage/><unclear>lay on our Blankets</unclear>
+                    <lb/>
+                    <pb n="2" facs="SW_HJ1806_Page_002"/>
+                    <unclear>in</unclear> the woods near one of the head springs<lb/>
+                    <unclear>of the</unclear>
+                    <geogName key="alleg">Alligany River</geogName> --</p>
+                <p><gap/> This Morning was very Cool for the Time<lb/>
+                    <unclear>of y</unclear>ear and a large white frost which nearly<lb/>
+                    <unclear>de</unclear>stroy'd the Buckwheat in that settlement<lb/> and injur'd
+                    the Corn very much--Agreably<lb/> to an appointment of <persName key="ibons1"
+                        >Isaac Bonsals</persName>, today <lb/> at ten Oclock a Meeting was held with
+                    the<lb/> few Settlers in this place. <persName key="mbell1">Mary
+                    Bell</persName>, with<lb/> her Children attended and several others to<lb/> the
+                    amount of near twenty in number, &amp;<lb/>
+                    <persName key="ibons1">I.B.</persName> had good Counsel to communicate--</p>
+                <p> After dineing with <persName key="fking1">F.K.</persName> we rode to Major<lb/>
+                    Hoopes's settlement at the mouth of <unclear>Issue</unclear> on<lb/>
+                    <geogName key="alleg">Allegany River</geogName>, 12 Miles. and was
+                    entertain'd<lb/> in a friendly and hospitable manner--<lb/> This evening two
+                    Indians with whom I<lb/> was acquainted arived here from th<unclear>ier
+                        set</unclear>tle-<lb/> ment at <placeName key="tunes"
+                    >Tunessassa</placeName>, on their way <unclear>to <placeName key="genes"
+                            >Gen</placeName></unclear><placeName key="genes">esee</placeName><lb/>
+                    They also know me, seem'd <unclear>glad to see us,</unclear><lb/> said our
+                    friends at <placeName key="tunes">Tunesas</placeName><unclear><placeName
+                            key="tunes">sa</placeName> were well</unclear> and <lb/> would look for
+                    us in a day <damage/><lb/> This morning was <gap/>
+                    <lb/>
+                    <pb n="3" facs="SW_HJ1806_Page_003"/> early and rideing down the <geogName
+                        key="alleg">Allegany River</geogName><lb/> arivd at the upper Settlements of
+                    Indians<lb/> near the Mouth of the Little Valley about<lb/> one Oclock. We stopt
+                    at <persName key="psnyd1">Peter Sniders</persName> to<lb/> feed our horses and
+                    take some refreshment<lb/> ourselves &amp; a number of Indians collected<lb/>
+                    about us, most of them knew one &amp; seem'd<lb/> much pleas'd with our
+                    comeing--</p>
+                <p> This was about 12 Miles Above <placeName key="tunes">Tunesassa</placeName>,<lb/>
+                    and as we past down the <geogName key="alleg">River</geogName> we found<lb/> a
+                    good road open'd by the Indians most of the <lb/> way saw a large number of
+                    Cornfields,<lb/> many new Settlements made, and several<lb/> small villages
+                    built since <del><gap/></del> I left<lb/> them six years before-- Many of the
+                    Indians<lb/> came to shake hands with us as we rode along<lb/> expressing their
+                    Joy to see us, in their usual way<lb/> of exultation-- We ariv'd at <placeName
+                        key="tunes">Tunesassa</placeName><lb/> a little before sunset, found our
+                    friends <persName key="jtayl1">Jacob<lb/> Taylor</persName>, <persName
+                        key="jswai1">Joel Swayne</persName>, <persName key="bcoop1">Benjamin
+                        Cope</persName> his wife<lb/>
+                    <persName key="rcoop1">Rachel</persName>, &amp; <persName key="hjack2">Hannah
+                        Jackson</persName> all well, much<lb/> pleas'd to see us and gratifyed with
+                    hearing<lb/> from their Relations and friends and receiving <lb/>
+                    <pb n="4" facs="SW_HJ1806_Page_004"/>
+                    <gap/> a large number of acceptable letters---<lb/> according to computation I
+                    made the distance<lb/> in all my Route thus far about 308 Miles -<lb/> and after
+                    a long Wilderness Journey over many<lb/> rough Mountains, Bad roads, and in
+                    some<lb/> places but poor accommodations, the compa-<lb/> ny of our friends this
+                    evening in a comfortable<lb/> house was Mutually satisfactory ---</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1806-09-13">13th</date> - <placeName key="tunes"/></dateline>
+                <p> Last night a very heavy rain fell with<lb/> much lightening and heavy
+                    thunder--this<lb/> enabled our friends to get a good deal of Grind-<lb/> ing
+                    done, as the water had been very low for<lb/> some time past, by reason of a
+                    great drouth<lb/> they have had in those parts the latter part<lb/> of Summer --
+                    We spent the forenoon in<lb/> viewing the Farm, Mills and other im-<lb/>
+                    provements and friends have made at this<lb/> place - It appears they have got
+                    about<lb/> 54 Acres of Land Clear'd well enclos'd and in<lb/> good Order - the
+                    Buildings thereon are very<lb/> good - the dwelling House 22 by 36 feet is<lb/>
+                    situated on a beautiful eminence command-<lb/> ing a view of the whole farm and
+                    Mills - it<lb/> is two stories high containing four rooms <lb/>
+                    <pb n="5" facs="SW_HJ1806_Page_005"/> on each floor besides Closets Pantry
+                    &amp;c<lb/> and a good Cellar under a part of it--a little<lb/> distance from
+                    this they have erected a house<lb/> 18 by 22 feet for the purpose of
+                    instructing<lb/> the Indian Women in, also a convenient<lb/> Barn built this
+                    Summer 29 by 50 feet --</p>
+                <p> The Mills look well and are Capable<lb/> of doing considerable business -- The
+                    Grist<lb/> Mill upon a full head will grind 120 bushels<lb/> of Grain pr. day
+                    reckoning from daylight<lb/> till evening &amp; the sawmill will cut near<lb/>
+                    two thousand feet of boards in the same time</p>
+                <p> Altho the water has been low for several<lb/> weeks past they have mostly been
+                    able to<lb/> grind all the Grain the Indians brought to<lb/> the mill, and for
+                    the most part this is a very<lb/> forcible stream, and with a little labour<lb/>
+                    may be made Navigable from the Mill<lb/> to the <geogName key="alleg"
+                        >River</geogName> -- Our friends had about<lb/> 400 Dozens of winter Grain
+                    the late harvest mostly<lb/> wheat, besides a quantity of Oates &amp;c.
+                    Their<lb/> potatoes Turnips Garden &amp;c looks well --<lb/> They have about 8
+                    Acres of Good bottom <lb/>
+                    <pb n="6" facs="SW_HJ1806_Page_006"/> in Grass, &amp; about 21 Acres of new
+                    Ground<lb/> clear'd this Summer to put in with winter<lb/> Grain which they are
+                    now preparing to sow.</p>
+                <p> A White Man with a family lives in ano-<lb/> ther house on the farm, who works
+                    the saw<lb/> Mill to the shares and all the logs the<lb/> Indians bring to the
+                    Mill are saw'd to the<lb/> halves, and Boards are sold to such of them<lb/> as
+                    want to buy at half the present Market<lb/> price -- A survey of the farm is
+                    not<lb/> yet made, and must necessarily include<lb/> a part of two mountains to
+                    secure the ad-<lb/> vantage of the water, but will also include<lb/> a large
+                    proportion of two Valleys of<lb/> exelent land Cover'd with a great
+                    quantity<lb/> of good pine timber, also some Whiteoak<lb/> hemlock, Sugar Maple
+                    &amp;c. In our walks at<lb/> the foot of a Mountain 50 or 60 perches from<lb/>
+                    the house we went to view a large stone<lb/> which we thought something of a
+                    curiosity<lb/> it was about 24 feet in circumference<lb/> about 18 inches
+                    elevated above ground, the<lb/> top of it nearly horizontal and twelve <lb/>
+                    <pb n="7" facs="SW_HJ1806_Page_007"/> hollows work'd out thereon about the<lb/>
+                    size of a large disk, which appear'd to have<lb/> been done by the Indians in
+                    antient times<lb/> and probably they have often made use<lb/> of them for eating
+                    their victuals on --</p>
+                <p> We also visited <persName key="halft1">Levi Halftown</persName>, who is
+                    setled<lb/> adjoining our friends farm, and works at<lb/> the Smiths business -
+                    He was at work in<lb/> his Smithshop makeing an Oxchain, &amp;<lb/> we
+                    understand the other Smith who is setled<lb/> up the <geogName key="alleg"
+                        >River</geogName>, is a very ingenius Man &amp;<lb/> industrious at his
+                    trade. ----</p>
+                <p> In the afternoon we all walk'd down the<lb/>
+                    <geogName key="alleg">River</geogName> in company with <persName key="jtayl1"
+                        >Jacob Taylor</persName> &amp;<lb/>
+                    <persName key="jswai1">Joel Swayne</persName> to view the Old farm at<lb/>
+                    <persName key="genes1">Genesinguhta</persName> &amp; visit the few families<lb/>
+                    that remain there -- The place look'd<lb/> very natural to me &amp; the Indians
+                    my<lb/> Old neighbours, much pleas'd with my<lb/> comeing again to see them --
+                    The house<lb/> I had assisted in building &amp; liv'd in while<lb/> there is now
+                    occupie'd by an Indian Chief<lb/> the name of <persName key="mush1"
+                        >Mush</persName>, but the high fresh <lb/>
+                    <pb n="8" facs="SW_HJ1806_Page_008"/> in the <geogName key="alleg"
+                        >River</geogName> last Spring was a year had<lb/> wash'd away a good deal of
+                    the soil, &amp; injur'd the<lb/> improvements very much so that most of<lb/> the
+                    Indians has mov'd and setled higher up<lb/> the <geogName key="alleg"
+                        >River</geogName> -- While we were here <placeName key="connu1"
+                        >Connudia</placeName><lb/> came to see us in order to agree upon a time<lb/>
+                    for holding a counsel, &amp; altho we desired a little<lb/> time to go about,
+                    &amp; view their improvements<lb/> previous to meeting them in Counsel, yet
+                    as<lb/> we understood they were going off in a few days<lb/> to meet a General
+                    Counsel of the six Nations<lb/> at <geogName key="buffc1">Buffalo
+                        Creek</geogName> we thought most expedient<lb/> to fix upon Seconday next,
+                    &amp; <persName key="connu1">Connudia</persName> agreed<lb/> to inform the
+                    Indians accordingly ---</p>
+                <p> After returning to <placeName key="tunes">Tunesassa</placeName> and haveing<lb/>
+                    some conferrence with our friends we under-<lb/> stood some little uneasiness
+                    had got into a<lb/> few of the Indians minds with respect to our<lb/> friends
+                    not lending them tools and working<lb/> for them as much as they formerly did -
+                    we<lb/> also understood that one or two of their<lb/> young Chiefs had
+                    introduc'd some Liquor in<lb/> a Clandestine manner in order to sell to<lb/> the
+                    white people, but that the Indians in <lb/>
+                    <pb n="9" facs="SW_HJ1806_Page_009"/> general was much oppos'd to such conduct
+                    --<lb/> it also appear'd there was some little divisions<lb/> among the Indians
+                    with respect to their<lb/> Chiefs that several young men had rose<lb/> up of
+                    Considerable influence, and <persName key="cornp2">Cornplan-<lb/>
+                        -ter</persName> was not esteem'd among them as a<lb/> principal Chief &amp;
+                    that they had very late-<lb/> -ly been holding a general counsel among<lb/>
+                    themselves about these matters -- After<lb/> deliberating on these subjects and
+                    several others<lb/> that came under consideration it appear'd<lb/> necessary to
+                    form an address in writeing to<lb/> lay before them at the ensuing Counsel<lb/>
+                    and accordingly some essay was made for<lb/> that purpose --</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1806-09-14">14th</date>
+                    <placeName key="tunes"/></dateline>
+                <p> This being Firstday we sat with our<lb/> friends in their oppertunity of
+                    religeous<lb/> retirement - <persName key="jbell1">John Bell</persName> attended
+                    &amp; two<lb/> Men our friends have employ'd in their<lb/> service - It was a
+                    comfortable season &amp;<lb/> a renewed evidence felt that friends in<lb/> their
+                    secluded situation was in their<lb/> proper alottment, and at times comforted <lb/>
+                    <pb n="10" facs="SW_HJ1806_Page_010"/> with a prospect that their Labours<lb/>
+                    among this people was under the direction<lb/> of best wisdom and the concern
+                    own'd by him<lb/> who hath called them to the work ----</p>
+                <p> Just before dinner <persName key="cornp2">Cornplanter</persName> came<lb/> to
+                    see us and said he was glad to hear of<lb/> our Arival. He knew me and
+                    enquir'd<lb/> after my family - I gave several friends<lb/> love to him who had
+                    sent it by me, among<lb/> the rest <persName key="jparr1">John
+                        Parrish</persName> who he was wellpleas'd<lb/> to hear from and enquir'd
+                    particularly whe-<lb/> ther the Old Man was yet able to ride about -<lb/> he
+                    din'd with us had a good deal of conversa-<lb/> tion &amp; said he would meet us
+                    in counsel<lb/> tomorrow...</p>
+                <p> In the afternoon most of our Company<lb/> took a walk thro' part of the
+                    Adjacent<lb/> woods intended to be included in the survey<lb/> of this farm, and
+                    ascended a mountain<lb/> on the South side of the Farm (call'd<lb/> the
+                        <geogName key="soutm">South Mountain</geogName>) nearly to the top<lb/> with
+                    considerable difficulty, climbing<lb/> over abundance of logs <del>then</del>
+                    overgrown<lb/> with Briars and Bushes -- from the <lb/>
+                    <pb n="11" facs="SW_HJ1806_Page_011"/> north side of the Mountain we had<lb/> a
+                    fair view of the farm and improvements<lb/> thereon, also an extensive view of
+                    surrou-<lb/> nding hills and interveneing valleys - after<lb/> gratifying
+                    ourselves with such prospects<lb/> as then open'd to our view we descended<lb/>
+                    the Mountain rather more hastily than<lb/> we went up, &amp; found our Women
+                    friends<lb/> had a delicious repast prepar'd for us of<lb/> Nutmeg Cantilopes,
+                    and Watermellons -- </p>
+            </div>
+            <div type="entry">
+                <p>
+                    <date when="1806-09-15">15th</date> About 8 Oclock we walkt up the <geogName
+                        key="alleg">River</geogName><lb/> to the new Town at the <placeName
+                        key="colds">Cold Spring</placeName> where<lb/> the Counsel was propos'd to
+                    be held - After<lb/> sounding the Trumpet several times<lb/> the Indians
+                    Collected and about twelve Oclock<lb/> we were invited into the Counsel
+                    room<lb/> which is a long building prepard for that<lb/> purpose - After being
+                    seated <persName key="connu1">Connudia</persName><lb/> Arose and using their
+                    Usual Ceremony<lb/> said he was thankful to the Great Spirit<lb/> for our
+                    preservation on our long Journey<lb/> and that we had arived safe and found<lb/>
+                    the Indians all well &amp; our friends who live<lb/> among them and that they
+                    had all liv'd in <lb/>
+                    <pb n="12" facs="SW_HJ1806_Page_012"/> in peace and friendship with them -
+                    he<lb/> also said they were very Glad to see us<lb/> and was now ready to hear
+                    us speak -- </p>
+                <p> After returning them a little Ceremony<lb/> of the same kind the address from
+                    the<lb/> Committee on Indian affairs was read<lb/> &amp; interpreted by
+                        <persName key="habee1">Henry Abeal</persName> being as follows</p>
+                <floatingText type="speech">
+                    <body>
+                        <opener>
+                            <gap/> To the Chiefs and others of the<lb/>
+                            <orgName key="seneca">Seneca Nation</orgName> setled on and near the<lb/>
+                            <geogName key="alleg">Allegany River</geogName> --</opener>
+                        <p> Brothers,<lb/> Your friends the Quakers continue<lb/> frequently to meet
+                            in counsel to think of you.</p>
+                        <p>Brothers,<lb/> Our minds have been made glad<lb/> to hear from time to
+                            time of your good<lb/> resolutions to live soberly and to refrain<lb/>
+                            from strong drink as likewise that you<lb/> improve in industry and in
+                            the ma-<lb/> nagement of your Land - we hope the<lb/> good Spirit will
+                            enable you to keep<lb/> your minds strong in these good resolutions</p>
+                        <p> Brothers,<lb/> Let your ears be open and may<lb/> your hearts be
+                            prepar'd to understand - <lb/>
+                            <pb n="13" facs="SW_HJ1806_Page_013"/> You have own'd that the Counsel
+                                <del>of</del><lb/>
+                            <del><gap/></del> we have for several years given you<lb/> and that the
+                            assistance of our young men<lb/> in learning you how to cultivate
+                            your<lb/> Land &amp; to live comfortably, has been good<lb/> for
+                            yourselves, your wives, and your children.</p>
+                        <p> Brothers,<lb/> We now feel desirous to say some-<lb/> thing to you on a
+                            subject of great importance<lb/> which we wish you would seriously
+                            attend<lb/> to and consider --</p>
+                        <p> Brothers,<lb/> You know that the people<lb/> called Quakers are a
+                            peaceable people<lb/> they can have no concern in wars and<lb/>
+                            fightings, and the destruction of their fellow<lb/> men, they desire
+                            that al men should<lb/> live in peace and feel love for each other.</p>
+                        <p> Brothers,<lb/> There are two great command-<lb/> ments which all ranks
+                            of Christians thro-<lb/> -out the world profess a belief in and
+                            that<lb/> it is their duty to observe and obey them<lb/> They are first
+                            - that we should love the<lb/> Lord our God with all our hearts and
+                            with<lb/> all our souls and with all our strength --</p>
+
+                        <pb n="14" facs="SW_HJ1806_Page_014"/>
+
+                        <p> Second, and to love our neighbours as ourselves<lb/> of these
+                            commandments had these proper effect<lb/> in the hearts of men and the
+                            did in sincerity<lb/> and truth love worship and adore the<lb/> Great
+                            and good Spirit from whom all <gap/><lb/> blessings come it would be a
+                            happy state<lb/> and preserve from war and Bloodshed --</p>
+                        <p> Brothers,<lb/> We desire not to fill your ears<lb/> with words, but
+                            rather to recommend<lb/> you to retire and gather your mind,<lb/> into
+                            Quiet and Settlement, and thus as you<lb/> humbly wait and have prayers
+                            and desires<lb/> raised in your minds to be rightly instructed<lb/> and
+                            continue inwardly attendtive you will<lb/> be in the way of receiveing
+                            light knowledge<lb/> and Counsel superior to any we can import,<lb/> for
+                            there is a divine principal of light<lb/> and grace in every heart, by
+                            it our forefa-<lb/> -thers were taught and we their descendants<lb/>
+                            have been taught to love all men as<lb/> Brethren, and have been
+                            restraind from<lb/> revengeing injuries or rendering evil for<lb/> evil,
+                            and this has been the profession<lb/> of your friends the Quakers for
+                            more<lb/> than one hundred and fifty years --</p>
+
+                        <pb n="15" facs="SW_HJ1806_Page_015"/>
+
+                        <p> Brothers,<lb/> Influenced by desires for the wel-<lb/> fare of you our
+                            Indian Brothers three<lb/> of our friends have agreed to visit you<lb/>
+                            this fall - Their names are <persName key="ibons1">Isaac
+                                Bonsal</persName><lb/>
+                            <persName key="jphil1">John Philips</persName> &amp; <persName
+                                key="hjack1">Halliday Jackson</persName> ----</p>
+                        <p>Brothers,<lb/> Attend these friends are<lb/> beloved by us, and as their
+                            desires for<lb/> your welfare are strong we hope you<lb/> will keep your
+                            ears open to what advice<lb/> they may give you and let it sink
+                            deep<lb/> in your hearts. </p>
+                        <closer><dateline><placeName key="phila">Philadelphia</placeName><date
+                                    when="1806-08-12">8 Mo. 12th 1806</date></dateline>Sign'd <signed><list>
+                                    <item><persName key="jparr1">John Parrish</persName></item>
+                                    <item><persName key="nwaln1">Nicholas Waln</persName></item>
+                                    <item><persName key="hdrin1">Henery Drinker</persName></item>
+                                    <item><persName key="opaxt1">Oliver Paxson</persName></item>
+                                    <item><persName key="jelli1">John Elliott</persName></item>
+                                    <item><persName key="tstew1">Thomas Howardson</persName></item>
+                                    <item><persName key="twist1">Thomas Wistor</persName></item>
+                                </list></signed><lb/>and a number of others</closer>
+
+                    </body>
+                </floatingText>
+                <pb n="16" facs="SW_HJ1806_Page_016"/>
+                <p>After a little pause our speech which we<lb/> had committeed to writing was then
+                    read &amp;<lb/> Interpreted being as follows ---</p>
+                <floatingText type="speech">
+                    <body>
+                        <opener>To the Chiefs and Indians in general<lb/> residing on the <geogName
+                                key="alleg">Allegany River</geogName>-- </opener>
+                        <p>Brothers Attend<lb/> You have now heard<lb/> the speech your Brothers the
+                            Quakers<lb/> have sent with us from <placeName key="phila"
+                                >Philadelphia</placeName> and<lb/> we hope the advice they have
+                            given you will<lb/> sink deep in your hears, and if any<lb/> part of it
+                            does not feel easy that you will tell us Brothers,<lb/> We have come a
+                            great ways to<lb/> see you and our friends who live beside<lb/> you, and
+                            are thankful to the great Spirit to<lb/> find them and you well, and
+                            that love<lb/> and friendship still continues between<lb/> you and them
+                            -- Brothers,<lb/> We have often heard that<lb/> you were growing more
+                            industrious<lb/> &amp; since comeing among you it has afforded<lb/> us
+                            much satisfaction to see the improve-<lb/> ments you have made, that you
+                            have<lb/> built comfortable house, fenced in many <lb/>
+                            <pb n="17" facs="SW_HJ1806_Page_017"/>
+                            <lb/> Farms, and have such good Corn and<lb/> other things growing,
+                            where the Land was<lb/> so lately cover'd with trees and Bushes.<lb/> We
+                            hope you will not be discouraged at<lb/> the labour it takes to Clear
+                            your land<lb/> for your land we believe is very good<lb/> and if you
+                            farm it well, it will produce<lb/> a great deal of Grain and Grass,
+                            which will<lb/> enable you to keep your stocks of Cattle<lb/> much
+                            better than you now do, and you<lb/> will live more comfortably
+                            yourselves --</p>
+                        <p> Brothers<lb/> We see you have a great many<lb/> Children and we want you
+                            to learn<lb/> them to work while they are young<lb/> for when Children
+                            grow up in Idleness<lb/> they dont like to go to work afterwards<lb/>
+                            and so get into Lazy habits --</p>
+                        <p> Brothers,<lb/> As we are very desirous to<lb/> promote your welfare we
+                            have some<lb/> things to propose for your consideration.<lb/> We think
+                            if you would place two of<lb/> your boys under the care of our
+                            friends<lb/> at <placeName key="tunes">Tunesassa</placeName> to be
+                            instructed in the<lb/> farming business or learn to manage <lb/>
+                            <pb n="18" facs="SW_HJ1806_Page_018"/> the Mills, they might be of great
+                            use<lb/> among your people - These Boys should<lb/> be of Sober conduct
+                            and such as our friends<lb/> would think suitable ot take - They
+                            might<lb/> stay six months or longer if necessary<lb/> and when they
+                            were instructed others<lb/> might come in their places and by<lb/> this
+                            means some of your Boys might be<lb/> learn'd to carry on business as
+                            our friends<lb/> do.</p>
+                        <p> Brothers,<lb/> Two of our Women have been<lb/> sometime at <placeName
+                                key="tunes">Tunesassa</placeName> with a desire<lb/> to instruct
+                            your Women in things that<lb/> will make your lives more
+                            comfortable<lb/> We hope you have received some<lb/> benefit from some
+                            of your women<lb/> learning how to make soap, which<lb/> enables
+                                <del>you</del> them to keep your houses more<lb/> Clean -- This is
+                            very good -- but we think<lb/> if some of your girls would go to
+                            our<lb/> women and learn how to spin flax and<lb/> Wool it would be of
+                            great advantage to<lb/> you and our friends will assist you in<lb/>
+                            getting it made into Cloth -- Wool we<lb/> dont expect you can get a
+                            great deal of<lb/> yet, but we saw some flax of your own<lb/> raising
+                            and our friends have a little <lb/>
+                            <pb n="19" facs="SW_HJ1806_Page_019"/> wool and a little flax which
+                            they<lb/> will be willing to give you to begin with<lb/> and next year
+                            you can raise more<lb/> flax - A house is built for such of your<lb/>
+                            girls to work in as incline to be instruc-<lb/> ted and some Wheels
+                            provided ---</p>
+                        <p> Brothers,<lb/> We are glad to observe you have<lb/> made such good roads
+                            in many places<lb/> along this River - this makes it com-<lb/> frotable
+                            traveling and opens a way for you<lb/> to get your Grain to the Mill --
+                            We are<lb/> satisfied with the proposals our friends<lb/> have made to
+                            you with respect to grind-<lb/> ing your grain and sawing your<lb/>
+                            boards but we think it will be necessary<lb/> for them to take toll
+                            after the time<lb/> they propos'd to you, and it would be a<lb/>
+                            satisfaction both to our friends and us<lb/> if you would not bring your
+                            Grain<lb/> to the Mill on the first day of the<lb/> week as your friends
+                            the Quakers do not<lb/> wish to be interrupted in the time of<lb/> their
+                            Meeting or work on that day</p>
+
+                        <pb n="20" facs="SW_HJ1806_Page_020"/>
+
+                        <p>Brothers,<lb/> If you wish us to send on any<lb/> more tools for our
+                            friends to sell to you<lb/> we hope you will tell us your minds as
+                            you<lb/> knew we told you before we would send<lb/> on a few
+                                <del>tools</del> Sythes, Sickels, Augurs and<lb/> some such tools
+                            for our friends to sell to<lb/> such of you as might want to buy,<lb/>
+                            but that they should leave off lending --<lb/> and we hope your
+                            blacksmiths will<lb/> be industrious and make you what<lb/> tools they
+                            can ---</p>
+                        <p>Brothers<lb/> We have said much to you<lb/> but we wish to add a little
+                            more - <lb/> Our friends in their speech have told<lb/> you their desire
+                            "that all men should<lb/> live in <del>harmony and</del> peace and
+                            love<lb/> one another," and we know it is pleas-<lb/> -ing to the Great
+                            Spirit for mankind to<lb/> love one another and try to do good<lb/> to
+                            each other -- we therefore desire<lb/> you may all live in harmony
+                            and<lb/> be like the family of one man --<lb/> united together in good
+                            works and <lb/>
+                            <pb n="21" facs="SW_HJ1806_Page_021"/> then you will be strong, then
+                            when<lb/> one of you fall another will help<lb/> him up, and the Great
+                            Spirit will<lb/> prosper you, and bless the work of your<lb/> hands -
+                            Your Chiefs will then unite<lb/> together in leading you on to do
+                            right.</p>
+                        <p> Brothers, we have often heard of your<lb/> good resolutions against
+                            drinking whisky<lb/> and other strong drink, and it has<lb/> made our
+                            hearts glad to find you have<lb/> kept these good resolutions, for you
+                            as<lb/> well as us, are very sensible that long<lb/> ago it was your
+                            greatest enemy, and<lb/> that your quiting the use of it, has been<lb/>
+                            a great blessing to you -- We wish you<lb/> to keep your eyes open, and
+                            your<lb/> minds strong, that you may not let<lb/> this enemy rise again
+                            - and we desire<lb/> that you will not buy or sell it any<lb/> more for
+                            fear of offending the Great Spirit.</p>
+                        <p>Brothers<lb/> There are other things which <lb/>
+                            <pb n="22" facs="SW_HJ1806_Page_022"/> does much harm, such as playing
+                            Cards<lb/> Gameing and other idle practices - We<lb/> hope you will keep
+                            out of these things<lb/> as the hinder the good work we desire<lb/> to
+                            promote among you ---</p>
+                        <p> Brothers Attend,<lb/> You must not think<lb/> our friends who live at
+                                <placeName key="tunes">Tunesassa</placeName> have come<lb/> there
+                            for the sake of pay to spend so much<lb/> time among you, but felt their
+                            hearts<lb/> so warmd with love to our Indian Bro-<lb/> thers that they
+                            were made willing to<lb/> leave their comfortable dwellings<lb/> and
+                            near and dear friends in order to<lb/> promote your welfare, and we
+                            believe<lb/> their endeavours to do you good has<lb/> been pleasing to
+                            the great Spirit which<lb/> has made their minds easy in staying<lb/> so
+                            long from their relations and friend<lb/> we hope you will attend to the
+                            good<lb/> advice they may give you, and as you<lb/> continue to
+                            persevere in industry<lb/> and sobriety, your friends will still<lb/> be
+                            happy to see your improvement, <lb/>
+                            <pb n="23" facs="SW_HJ1806_Page_023"/> but if at any time you fall
+                            into<lb/> your former habits of drinking, and<lb/> other bad practices,
+                            it will discourage<lb/> your friends the Quakers from assisting<lb/> you </p>
+                        <p> Brothers<lb/> As our friends at <placeName key="tunes"
+                                >Tunesassa</placeName><lb/> have the Mills and farm to attend
+                            to<lb/> themselves you cannot expect them<lb/> to do a great deal of
+                            work for you<lb/> but if at any time you want instruction<lb/> about
+                            fenceing, you farms, building <lb/> your houses, Laying out roads
+                            &amp;c<lb/> apply to them and they will be al-<lb/> ways willing to give
+                            you such coun-<lb/> -sel as they may think best ---</p>
+                        <p> Brothers<lb/> We have now spoken our minds<lb/> plainly and we wish you
+                            to speak plainly<lb/> to us, that if there is any thing that<lb/> is not
+                            understood between us, or between<lb/> our friends and you, we may have
+                            the difficul-<lb/> ty remov'd out of the way -- We intend<lb/> to spend
+                            a few days more among<lb/> you and go and view some more of your<lb/>
+                            improvements that we may be enabled <lb/>
+                            <pb n="24" facs="SW_HJ1806_Page_024"/> to carry back a true account to
+                            our<lb/> friends in their counsel at <placeName key="phila"
+                                >Philadelphia</placeName> --<lb/>
+                        </p>
+                        <closer><dateline><date when="1806-09-15">9 Mo. 15th 1806</date></dateline><signed><list>
+                                    <item><persName key="ibons1">Isaac Bonsal</persName></item>
+                                    <item><persName key="jphil1">John Philips</persName></item>
+                                    <item><persName key="hjack1">Halliday Jackson</persName></item>
+                                </list></signed></closer>
+                    </body>
+                </floatingText>
+
+
+                <p> After the foregoing was read and ex-<lb/> -plain'd to them some verbal
+                    observations<lb/> were made encourageing them to live in<lb/> peace and harmony
+                    with their wives &amp;<lb/> not to let trifling matters part them<lb/> but
+                    consider them companions for life<lb/> for it was pleasing to the Great Spirit
+                    for<lb/> man and Woman to live together in har-<lb/> mony - also some remarks
+                    directing<lb/> them to the inward principal of Light<lb/> in the heart, which
+                    would make their<lb/> minds uneasy when they did wrong, and<lb/> afford them
+                    peace and tranquility when<lb/> they did, that which was pleasing to the<lb/>
+                    great Spirit -- They were also encoura-<lb/> ged to live in harmony and
+                    friendship<lb/> among themselves, that this would<lb/> enable them to make a
+                    progress in the<lb/> good work we were endeavouring to pro-<lb/> mote among
+                    them, but if they split <lb/>
+                    <pb n="25" facs="SW_HJ1806_Page_025"/> and divided it would weaken them,<lb/>
+                    and either part would be easy broken<lb/> like a stick split into many pieces -- </p>
+                <p> After being inform'd <del><gap/></del> we had<lb/> done speaking, they confer'd
+                    a while<lb/> together and one of the Chiefs inform'd<lb/> us it would take some
+                    time to consider<lb/> of a reply, and that they would meet<lb/> us in counsel
+                    tomorrow about noon &amp;<lb/> answer our Speeches --</p>
+                <p>
+                    <persName key="cornp2">Cornplanter</persName> (tho' not esteemd as a<lb/> chief
+                    at this time) made a short speech<lb/> to the Indians directing their
+                    attention<lb/> to what we had said to them and told<lb/> them it was all right
+                    and true - he<lb/> being then on his way to <placeName key="buffa"
+                        >Buffalo</placeName> took<lb/> leave of us for the present -- We sent
+                    infor-<lb/> -mation by him to the Chiefs of <placeName key="catta1"
+                        >Catarau-<lb/> gus village</placeName> that we expected to be there<lb/> in
+                    a few days and would wish to<lb/> see them --</p>
+                <p> This was the largest Counsel I had<lb/> ever been at among them, A number<lb/>
+                    of their principal Women attended<lb/> and the Indians in general appear'd <lb/>
+                    <pb n="26" facs="SW_HJ1806_Page_026"/> more steady in their Conduct &amp;
+                    more<lb/> Clean and decent in their dress than I<lb/> had ever saw them before
+                    -- their<lb/> houses are also kept much cleaner<lb/> than formerly, and one
+                    thing I several<lb/> times observ'd which I thought something<lb/> of a novelty
+                    among Indians &amp; a ple[as]in[g]<lb/> indication that they were beginning to
+                    be<lb/> asham'd of their dirty way of liveing<lb/> that when the women saw us
+                    aproa-<lb/> -ching their Doors they immediately<lb/> began to sweep their houses
+                </p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1806-09-16">16th</date>
+                    <placeName key="colds"/></dateline>
+                <p> This Morning about nine Oclock we<lb/> rode up the <geogName key="alleg"
+                        >River</geogName> to <placeName key="genes2">Genesinguhta
+                    flats</placeName><lb/> above the <placeName key="colds">Cold Spring</placeName>
+                    to view what<lb/> improvements the Indians had made<lb/> there -- we found a
+                    considerable num-<lb/> -ber of Cornfields extended along the Creek<lb/> between
+                    two and three miles from the<lb/>
+                    <geogName key="alleg">River</geogName>, enclos'd under good fence, and<lb/> the
+                    Corn look'd well in the General<lb/> being on land of a superior quality -</p>
+                <p> We sat a while in <persName key="bluee1">Blue Eyes</persName> house<lb/> eat
+                    some Indian Squashes, and on our<lb/> way back, stopt to view <persName
+                        key="habee1">Henery Abeals</persName>
+                    <lb/>
+                    <pb n="27" facs="SW_HJ1806_Page_027"/> farm -- He is setled some distance
+                    from<lb/> the <geogName key="alleg">River</geogName> in the woods by himself
+                    --<lb/> and hath a neat little house built<lb/> with a Pannel Door and Jack
+                    windows<lb/> on a stately eminence at the head of<lb/> a rich flat, and hath
+                    made a beginning<lb/> to Clear land -- We return'd to the<lb/>
+                    <placeName key="colds">cold Spring</placeName> about twelve Oclock and<lb/>
+                    found the Indians in Counsel --In about<lb/> an hour after they called us into
+                    the<lb/> Counsel room, and after being seated<lb/> one of the Chiefs call'd
+                        <persName key="mush1">Mush</persName> stood<lb/> up and spoke to us nearly
+                    as follows,</p>
+                <floatingText type="speech">
+                    <body>
+                        <dateline><date when="1806-09-16"/><placeName key="colds"/></dateline>
+                        <p> Brothers<lb/> When your young men came<lb/> first to live amongst us
+                            they saw we<lb/> were poor, they took pity upon us,<lb/> and they told
+                            us they came to assist<lb/> us -- At first we did not fully under-<lb/>
+                            -stand what your intentions were, but<lb/> after consulting among
+                            ourselves we<lb/> thought it was, a great thing that you<lb/> should
+                            come to live amongst us, to<lb/> instruct us, being more than white<lb/>
+                            people had ever done before. and we<lb/> concluded to try you one, or
+                            five years <lb/>
+                            <pb n="28" facs="SW_HJ1806_Page_028"/> we said nothing more about it for
+                            three<lb/> years, to see whether you were our friends<lb/> or not -- You
+                            also brought tools on<lb/> for us to work with in which we found<lb/> a
+                            great advantage -- we then began to<lb/> improve and do much better than
+                            before.<lb/> You then wish'd to instruct our chil-<lb/> dren to read and
+                            write - this we could<lb/> not agree too because our people were<lb/>
+                            then so fond of hunting &amp; they would<lb/> take their wives &amp;
+                            children into the<lb/> woods with them you must not think<lb/> hard of
+                            this -- In our counsels with<lb/> you at that time <persName
+                                key="cornp2">Cornplanter</persName> answer'd<lb/> your speeches
+                            without consulting us,<lb/> but it is not so now, we are all<lb/> agreed
+                            to what we say ---</p>
+
+                    </body>
+                </floatingText>
+                <p>
+                    <persName key="tekia1">Te,ki,an,da</persName>, generally called
+                        <emph rend="underline">Blacksnake</emph><lb/> then arose and made reply to
+                    the address<lb/> the Committee had sent with us,<lb/> nearly as follows --</p>
+                <floatingText type="speech">
+                    <body>
+                        <dateline><date when="1806-09-16"/><placeName key="colds"/></dateline>
+                        <p> Brothers the Quakers,<lb/> We expect it is the<lb/> mind of the Great
+                            Spirit that we have<lb/> met together in Counsel to day, and <lb/>
+                            <pb n="29" facs="SW_HJ1806_Page_029"/> we thank the Great Spirit that
+                            we<lb/> are all well, and that he has given us<lb/> a fine clear day to
+                            meet together --</p>
+                        <p> Brothers,<lb/> Yesterday you told us all<lb/> the Speech you brought
+                            from the<lb/> counsel at <placeName key="phila"
+                            >Philadelphia</placeName>, and we thank<lb/> our friends for it,
+                            especially our Old<lb/> friend <persName key="jparr1">John
+                                Parrish</persName>, as it was like<del>ing</del><lb/> shakeing hands
+                            together with both<lb/> men and Women -- You told us<lb/> to Open our
+                            ears and listen to all you<lb/> say -- now we hope you will make<lb/>
+                            your minds easy, as we have but a few<lb/> words to say -- You say you
+                            have<lb/> often heard how we on <geogName key="alleg"
+                                >Alligany</geogName><lb/> are increasing in industry, and<lb/> that
+                            you also heard our continued<lb/> resolutions against the use of
+                            spirit<lb/> -ous Liquors, and you hope we would<lb/> not let it rise
+                            again, you wish your<lb/> words might sink deep in our hearts.</p>
+                        <p> Brothers<lb/> We are now all together <lb/>
+                            <pb n="30" facs="SW_HJ1806_Page_030"/> we suppose you feel
+                            yourselves<lb/> happy and we also feel ourselves happy<lb/> All the
+                            Indians and the white People know<lb/> that the Great Spirit talks with
+                            our<lb/> Prophet, it is now seven years since he<lb/> first began to
+                            talk with him - &amp; he told<lb/> the Indians they must leave of
+                            drink-<lb/> ing Whisky, and they have declin'd<lb/> the use of it --</p>
+                        <p> Brothers - <lb/> you must tell your friends<lb/> when you go home to
+                            make their<lb/> minds quite easy, for we are determined<lb/> never to
+                            let the whisky rise again, and<lb/> also to pursue habits of industry,
+                            and never<lb/> them -- Your young men and us are<lb/> like one - when we
+                            want any thing<lb/> done we consult them and they assist<lb/> us, and
+                            our Prophet tells us what to<lb/> do and so we get instruction from
+                            both.</p>
+                    </body>
+                </floatingText>
+                <p><persName key="jsilv1">Johnson Silverheels</persName> (a young Chief -<lb/>
+                    rather disaffected) then made a speech<lb/>
+                    <emph rend="underline">to us</emph> nearly as follows ---</p>
+                <floatingText type="speech">
+                    <body>
+                        <dateline><date when="1806-09-16"/><placeName key="colds"/></dateline>
+                        <p>Brothers<lb/> You have told us you wished<lb/> two of our Boys to go and
+                            live with<lb/> your friends at <placeName key="tunes"
+                                >Tunesassa</placeName> to learn their Business and you <lb/><pb
+                                n="31" facs="SW_HJ1806_Page_031"/> to have the care of them
+                            yourselves,<lb/> &amp; we have concluded to comply with<lb/> your
+                            wishes, &amp; let you have the choice of<lb/> two, but we want you to
+                            tell us how<lb/> they are going to live there, and<lb/> what they are
+                            going to get by staying</p>
+                        <p>You also think best for some of our<lb/> Girls to go to your women and
+                            learn<lb/> how to work, but we want to know<lb/> what them girls are
+                            going to get by<lb/> working there -- You also wished<lb/> to know if we
+                            wanted any more<lb/> tools brought on to sell <del>to sell</del> to
+                            us,<lb/> and we have agreed that if you can<lb/> send on tools to sell
+                            cheaper than those<lb/> you sent before, you may send them<lb/> but if
+                            you cannot sell them cheaper<lb/> we dont wish you to bring any as<lb/>
+                            we can buy them cheaper elswhere</p>
+                        <p>Brothers you told us to speak our<lb/> minds plainly and if there was
+                            any<lb/> thing we did not like to let it be known<lb/> We will now tell
+                            you of some things that<lb/> is not quite agreable to us -- We all know<lb/>
+                            <pb n="32" facs="SW_HJ1806_Page_032"/> there is but one God, who made us
+                            all<lb/> and directs us all to do alike -- but we cannot<lb/> all agree
+                            as there is so many Sinners,<lb/> the reason is because we dont do as
+                            well<lb/><lb/> as we know how -- The Great Spirit orders<lb/> us all to
+                            do right ---</p>
+                        <p>We suppose you thought when you came<lb/> to live among the Indians, the
+                            Great Spirit<lb/> would be pleased with you -- The Great<lb/> Spirit was
+                            not blind but could see every<lb/> thing, and was pleasd with your
+                            liveing<lb/> amongst us - as you have had no sickness<lb/> among you
+                            since you first came --</p>
+                        <p>It was but a short time you assisted<lb/> us - for three years past you
+                            have<lb/> not lent us any tools, and when you<lb/> quit lending us tools
+                            we were like a<lb/> man <del>sleep</del> just wakeing out of a
+                            sleep<lb/> reach out his hands for help and you<lb/> withdrew the
+                            necessary assistance --<lb/> we still expected to get tools to Borrow
+                            after<lb/> you brought tools to sell to us - and<lb/> since we have
+                            found out the mind<lb/> of the Great Spirit, we think he is best<lb/>
+                            pleas'd when People use one another well, <lb/>
+                            <pb n="33" facs="SW_HJ1806_Page_033"/> and he is pleas'd when people
+                            give<lb/> one another victuals when they go to their<lb/> houses whether
+                            they are hungry or not<lb/> we think when our people go to the
+                            Mill,<lb/> and get hungry, your friends ought to<lb/> feed them, or when
+                            Indians come from<lb/> other Towns they ought also to feed them<lb/>
+                            this would be pleasing to us, as this is<lb/> the custom among ourselves
+                            --</p>
+                        <p>We have now told you our minds<lb/> plainly because you told us so
+                            many<lb/> good things since you came to see us --</p>
+                    </body>
+                </floatingText>
+                <p>
+                    <persName key="jpier1">John Pierce</persName> then arose and made<lb/> the
+                    following speech</p>
+                <floatingText type="speech">
+                    <body>
+                        <dateline><date when="1806-09-16"/><placeName key="colds"/></dateline>
+                        <p> Brothers<lb/>
+                            <gap/><gap/><gap/><gap/> I have a few words to say --<lb/> what I am
+                            going to say is about the<lb/> great Spirit, as you told us a great<lb/>
+                            deal about it yesterday, and it has sunk<lb/> deep in my mind -- We are
+                            poor<lb/> and ought to be pitied - I us'd to have ma-<lb/> ny bad tricks
+                            but have concluded to quit<lb/> them and try to instruct others -- I
+                            know<lb/> what Ideas the Quakers have, they are always <lb/>
+                            <pb n="34" facs="SW_HJ1806_Page_034"/> always thinking abou the Great
+                            spirit<lb/> and the have no crook in their mind, nor<lb/> dont follow
+                            bad ways -- One thing you told<lb/> us struck me very deep -- You said
+                            if we<lb/> done well here and pleas'd the Good Spirit<lb/> we should
+                            meet again in a better world --<lb/> I want you, when you go home, to tell<lb/>
+                            <persName key="jthom2">Jonathan Thomas</persName> of the resolution I
+                            have<lb/> taken to do well, because he often told me<lb/> about these
+                            things, &amp; advis'd me to do better --<lb/> Two of us have now agree'd
+                            to assist the<lb/> Chiefs and instruct the other Indians<lb/> &amp; I
+                            hope we will try more and more to do<lb/> better for we know we dont all
+                            do right<lb/> about our Wives but we mean to try to do<lb/> better, and
+                            if the Chiefs dont do right we<lb/> will try to help them, &amp; if one
+                            falls another<lb/> will help him up ----</p>
+                    </body>
+                </floatingText>
+                <p>
+                    <persName key="connu1">Con,nu,di,a</persName> (their Prophet so
+                    call'd)<lb/> then arose and spoke to the following<lb/> effect --</p>
+                <floatingText type="speech">
+                    <body>
+                        <dateline><date when="1806-09-16"/><placeName key="colds"/></dateline>
+                        <p> Brothers,<lb/> We have now told you all we<lb/> agreed to say, except a
+                            few words I will<lb/> ad - I thank our friends in <placeName key="phila"
+                                >Philadelphia</placeName><lb/> &amp; I have it on my mind to do as
+                            you <lb/>
+                            <pb n="35" facs="SW_HJ1806_Page_035"/> told us not to let those bad
+                            things<lb/> rise again -- It is me that talks about<lb/> what the Great
+                            Spirit wishes us to do, &amp;<lb/> I always try to instruct the Chiefs
+                            and<lb/> others to do right &amp; to be of one mind as<lb/> it is the
+                            will of the Great Spirit that all<lb/> people should be of one mind, but
+                            some of them<lb/> will not listen to what I say -- In six days<lb/> I
+                            expect to go to <geogName key="buffc1">buffalo Creek</geogName>, and six
+                            men<lb/> with me <del>and</del> there I expect to meet a<lb/> great many
+                            Indians from <placeName key="oneid">Onieda</placeName> and<lb/> other
+                            places &amp; there I will speake these<lb/> things you have told us to
+                            them, as if I was<lb/> at home --</p>
+                        <p> Brothers, the Great Spirit hears all<lb/> we now say, and is glad to see
+                            us all well<lb/> together -- I hope he will preserve you<lb/> safe home
+                            &amp; that you may find your fami-<lb/> lys all well and this is the
+                            wish of all the<lb/> Indians ---</p>
+                        <p> Brothers this is <emph rend="underline">all we got to say --</emph></p>
+                    </body>
+                </floatingText>
+                <p> After a little conferrence among ourselves<lb/> we replied to them nearly
+                    as<lb/> follows ---</p>
+                <pb n="36" facs="SW_HJ1806_Page_036"/>
+                <floatingText type="speech">
+                    <body>
+                        <dateline><date when="1806-09-16"/><placeName key="colds"/></dateline>
+                        <p> Brothers<lb/> We are glad to meet you again<lb/> in counsel &amp; to
+                            find that you and us<lb/> are so much of one mind, about most<lb/> of
+                            the things we have been speaking to<lb/> you about. But we think there
+                            are<lb/> a few things which you have not quite<lb/> understood, &amp; we
+                            will now explain to<lb/> you -- You mention that you wish to<lb/> know
+                            what we will give those Boys we<lb/> propose takeing to instruct -- You
+                            may<lb/> understand that our friends will find<lb/> them in victuals
+                            which with the instruc<lb/> -tion they give them we think will be<lb/> a
+                            sufficient compensation for all the<lb/> benefit they will receive from
+                            them -</p>
+                        <p> You also enquire what we will<lb/> give those Girls that go to our
+                            Women<lb/> to learn to work -- These Girls are to<lb/> find their own
+                            provisions, &amp; our friends<lb/> will find them some wool and
+                            some<lb/> flax &amp; instruct them how to spin<lb/> it, &amp; assist
+                            them getting it made into<lb/> cloth, &amp; that Cloth will be yours -- <lb/>
+                            <pb n="37" facs="SW_HJ1806_Page_037"/> And as you think you can buy<lb/>
+                            tools Cheaper than our friends sell to<lb/> you -- we think it will be
+                            best not to<lb/> send on any more tools, The tools that<lb/> was sent,
+                            has been sold to you at the<lb/> same price the cost us, and we can
+                            not<lb/> afford them at a lower Price -</p>
+                        <p> You may remember that the first par-<lb/> cel of tools we brought among
+                            you, was<lb/> all given up three years ago, and you<lb/> were desir'd to
+                            chose some of your Chiefs<lb/> to take care of them -- You were
+                            then<lb/> told our young men, must quit lend-<lb/> ing you tools &amp;
+                            this account was car-<lb/> ried back to the Counsel at <placeName
+                                key="phila">Philadelphia</placeName><lb/> and our friends was
+                            satisfied with it.<lb/> But you now complain that we assisted<lb/> you
+                            but a short time - that for three<lb/> years past you could get no
+                            tools<lb/> to Borrow, and say when we quit lending<lb/> you tools, you
+                            were just like a man -<lb/> wakeing out of a sleep, reaching out his
+                            <lb/> hands for help and the necessary assistence was <lb/>
+                            <pb n="38" facs="SW_HJ1806_Page_038"/> withdrawn from him -- We
+                            answer<lb/> that when we first came among the Indians,<lb/> we
+                            considered them as Children begining<lb/> to learn to walk, and then we
+                            thought<lb/> necessary to assist them, but after they<lb/> had made some
+                            progress, and learn'd to<lb/> do many things: it was not so necessary
+                            --<lb/> that now we did not expect to work much<lb/> for the Indians,
+                            but to teach them to work for<lb/> themselves - And that Children when
+                            they<lb/> were learning to walk must be taken by the<lb/> hand and helpt
+                            along, but when they got<lb/> able to go alone, they learn'd the
+                            faster<lb/> by that assistance being withdrawn from<lb/> them --</p>
+                        <p> You also complain that our friends<lb/> at <placeName key="tunes"
+                                >Tunesassa</placeName> will not give you victuals<lb/> when you go
+                            to the mill or when you are <lb/> there about your own business -- We
+                            now want<lb/> you to understand plainly, that our<lb/> friends at
+                                <placeName key="tunes">Tunesassa</placeName> are not come there<lb/>
+                            to feed you -- there is a great many of<lb/> you, and but one family of
+                            them and<lb/> if they always entertained you, when you<lb/> went to the
+                            Mill, or when you were <lb/>
+                            <pb n="39" facs="SW_HJ1806_Page_039"/> there upon other occasions,
+                            and<lb/> wanted victuals, it would take our women<lb/> most of their
+                            time, that they would<lb/> have no time to instruct the Indians<lb/> in
+                            useful things -- You also know there<lb/> are some of your people, does
+                            not like<lb/> work very well - these might go &amp; stay<lb/> several
+                            days liveing on our friends, &amp;<lb/> and this would be unreasonable
+                            --</p>
+                        <p> You say it is a common thing for you<lb/> to entertain one another -
+                            this is very<lb/> good - you may also understand it is a<lb/> common
+                            thing among your friends<lb/> the Quakers to entertain one another<lb/>
+                            when ever the go to see each other, and<lb/> stand in need of victuals,
+                            and if any<lb/> of you will visit us in our settlements<lb/> we will
+                            entertain you freely - but we<lb/> dont wish you to give our friends at<lb/>
+                            <placeName key="tunes">Tunesassa</placeName> any trouble about giveing
+                            you<lb/> victuals - for if the fed all the Indians that<lb/> wanted
+                            victuals from them they would<lb/> not be able to raise a supply, and by
+                            that<lb/> means might be forc'd to break up the settlement</p>
+                    </body>
+                </floatingText>
+                <pb n="40" facs="SW_HJ1806_Page_040"/>
+
+
+                <p> Some reply was also given to the speech<lb/>
+                    <persName key="jpier1">John Pierce</persName> made importing that we hope'd<lb/>
+                    he would keep strong in these good resolutions<lb/> &amp; that the Chiefs would
+                    unite together in<lb/> trying to do good, for they might be asured<lb/> that
+                    when they were endeavouring to pro-<lb/> -mote one anothers good they were doing
+                    right<lb/> &amp; this conduct would be pleasing to the Great<lb/> Spirit - but
+                    when they try'd to hurt one another<lb/> they offended the Great Spirit -- that
+                    while<lb/> they were united together in good works<lb/> they were like a cord
+                    made of many strings<lb/> not easily broken - but when they differ'd<lb/> and
+                    disagreed among themselves they were<lb/> like the strings which composed that
+                    cord<lb/> being seperated from each other might<lb/> by this means be the more
+                    easily Broken.<lb/> and we were also glad they intended to<lb/> do better with
+                    respect to their wives, and<lb/> hoped they would remain in this mind as<lb/>
+                    the Great Spirit would be better pleasd with<lb/> them if they did so --</p>
+                <p>
+                    <persName key="habee1">Henery Abeal</persName> then made a speech<lb/> to us,
+                    which was interpreted by <persName key="psnyd1">Peter Snider</persName><lb/>
+                    from which the following is an extract --</p>
+                <floatingText type="speech">
+                    <body>
+                        <dateline><date when="1806-09-16"/><placeName key="colds"/></dateline>
+                        <p> Brothers the Quakers<lb/> I have often acted<lb/> as interpreter between
+                            you and the Indi-<lb/> ans, and some times when you are gone <lb/>
+                            <pb n="41" facs="SW_HJ1806_Page_041"/> they complain and say I did not
+                            tell<lb/> them the truth, and perhaps now after<lb/> you go away they
+                            will tell me and <persName key="psnyd1">Peter<lb/> Snider</persName> we
+                            are both Liars, &amp; therefore I am<lb/> determined to speak right out
+                            plainly --</p>
+                        <p> Brothers,<lb/> The Indians have understood<lb/> there was a large sum of
+                            Money raisd by<lb/> the Quakers to assist them, &amp; they want to<lb/>
+                            know how this money was laid out, and<lb/> whether these Mills was paid
+                            for out of that<lb/> Money, for you have built them Mills &amp;<lb/> the
+                            Indians buy Boards from you, and<lb/> sometimes they can't tell whether
+                            you<lb/> are helping them, or they helping you."</p>
+                    </body>
+                </floatingText>
+                <p> He also made some observations on their<lb/> improvement since we first came
+                    amongst<lb/> them, contrasting their present situation<lb/> with what it then
+                    was, &amp; acknowledged<lb/> their present conditition was much better<lb/> and
+                    refer'd to me, to witness the same --</p>
+                <p>This was replie'd to nearly as follows: <lb/> that when we first <del>came</del>
+                    undertook to<lb/> assist the Indians a large sum of Money<lb/> was rais'd, &amp;
+                    the first settlement was made<lb/> among their Brethren the <orgName
+                        key="oneida">Onieda Indians</orgName><lb/> which continued near four years
+                    and<lb/> a great deal of money was spent there -- <lb/>
+                    <pb n="42" facs="SW_HJ1806_Page_042"/>
+                    <lb/> that we had made several presents to some<lb/> of the Indians of different
+                    Nations to the<lb/> westward - that we had furnished the <placeName key="catta1"
+                        >Catarau-<lb/> gus</placeName>
+                    <placeName key="buffa">Buffalo</placeName> and <placeName key="tonne"
+                        >Tonewanta</placeName> Indians with<lb/> divers articles - and when the
+                    Settlement<lb/> was first made at <placeName key="alleg1">Allegany</placeName>
+                    it was a great<lb/> expense, &amp; buying this land and building<lb/> these
+                    Mills cost a great deal of Money,<lb/> but that if ever they should be sold
+                    to<lb/> other People, the money would be apli'd<lb/> to the use of the Indians
+                    some where<lb/> in some way or other -- that now they<lb/> might plainly see how
+                    a great deal<lb/> of money had been expended, &amp; we still<lb/> wish'd to keep
+                    a little in Bank to assist<lb/> them more, but that none of the<lb/> maoney
+                    rais'd for the benefit of the<lb/> Indians would ever be appli'd to any<lb/>
+                    other purpose ----</p>
+                <p> Some further remarks were made on<lb/> both sides - &amp; the Indians inform'd
+                    us they<lb/> were satisfied about the Boys and Girls<lb/> we propos'd takeing to
+                    instruct &amp; left<lb/> it to their friends at <placeName key="tunes"
+                        >Tunesassa</placeName> to make<lb/> the Choice --</p>
+
+                <pb n="43" facs="SW_HJ1806_Page_043"/>
+
+                <p> We told them we had done speaking and<lb/> hop'd we fully understood each other,
+                    that<lb/> all things were now strait and smoother<lb/> and would bid them
+                    farewell in love<lb/> and friendship -- which we did most of the<lb/> Indians
+                    shakeing hands with us in a friend-<lb/> -ly Manner --</p>
+                <p> The Counsel lasted about four hours --<lb/> Several of their principal Women
+                    being<lb/> present - &amp; notwithstanding some little<lb/> matters occur'd
+                    rather unusual,and<lb/> a little disagreable (but we believd occa-<lb/> sioned
+                    by one or two of their young assume<lb/> ing Chiefs without due considerations,
+                    who<lb/> are more dispos'd to find fault from a<lb/> disposition of Covetousness
+                    than to return<lb/> gratitude for the many benefits they<lb/> have receiv'd from
+                    the kindness our friends<lb/> have shown them) yet we left them pretty<lb/> much
+                    to our satisfaction, &amp; our friends<lb/> at <placeName key="tunes"
+                        >Tunesassa</placeName> were of the opinion our<lb/> Communications to the
+                    Indians would<lb/> have a good effect at the present time --</p>
+                <p> Their speeches to us were all interpreted<lb/> by <persName key="psnyd1">Peter
+                        Snider</persName> and not being well qualifi- ed <lb/>
+                    <pb n="44" facs="SW_HJ1806_Page_044"/> for the service a considerable loss was
+                    sus-<lb/> taind -- and a very evident loss among the<lb/> Indians for want of a
+                    Chief qualified to<lb/> deliver their Speeches with ease and cor-<lb/> rectness,
+                    notwithstanding they had previ-<lb/> ously agreed upon the subjects of their
+                    com<lb/> munications --</p>
+            </div>
+
+
+
+            <div type="entry">
+                <dateline><date when="1806-09-17">17th</date>
+                    <placeName key="tunes"/></dateline>
+                <p> The most of this day employ'd in write-<lb/> ing &amp;c. In the afternoon
+                        <persName key="cornp2">Cornplanters</persName><lb/> Sister (who is a
+                    principal woman and was pre-<lb/> -sent at the Counsel) came to see us and<lb/>
+                    told us she did not feel satisfied with<lb/> the Speech <persName key="jsilv1"
+                        >Silverheels</persName> made to us yeas-<lb/> terday - that it was a very
+                    bad speech,<lb/> &amp; she hoped we would not make our<lb/> minds uneasy about
+                    it. She said she<lb/> was glad to see us &amp; the Indians were<lb/> generally
+                    satisfied with us - and she<lb/> hoped we would be encouraged, for she<lb/> knew
+                    the Women wished the Girls to learn<lb/> &amp; many of the Girls also wish'd to
+                    be in-<lb/> structed, &amp; said our Women were fully<lb/> capable of
+                    instructing them -- Several<lb/> Girls came in the afternon and spun<lb/> and
+                    knit a little ---- </p>
+            </div>
+            <div type="entry">
+                <pb n="45" facs="SW_HJ1806_Page_045"/>
+                <dateline><date when="1806-09-18">18th</date><placeName key="tunes"/></dateline>
+                <p>Some preparations makeing towards<lb/> leaveing our friends tomorrow --</p>
+                <p> With respect to the Indians improve<lb/> ment in the general, it appears
+                    from<lb/> our obsevation and the account of our<lb/> friends here that they
+                    continue to perseve-re<lb/> in habits of industry - near 100 new<lb/> houses
+                    have been built since the commit-<lb/> -tee visited them three years ago most
+                    of<lb/> them well put up with hewn Logs -<lb/> very neatly notcht in at the
+                    Corners --<lb/> many of them cover'd with shingles<lb/> &amp; have pannel Doors
+                    and Glass Windows<lb/> and the houses kept much cleaner than<lb/> formerly so
+                    that an evident Change in<lb/> this respect has taken place since our<lb/> women
+                    came among them --</p>
+                <p> Their farms are enclos'd under good<lb/> fence from 8 to 10 rails high, and
+                    more<lb/> detatch'd from each other than formerly --<lb/> a much greater
+                    proportion of Corn plan-<lb/> ted this season then has been known<lb/> before
+                    which generally looks well --</p>
+                <p> Many of them have rais'd Wheat &amp; Oats --<lb/> Several have raisd flax and we
+                    saw some<lb/> buckwheat growing, besides Potatoes, Turnips <lb/>0<pb n="46"
+                        facs="SW_HJ1806_Page_046"/> &amp;c in abundance -- We also saw some<lb/>
+                    lots sow'd with Timothy -- They appear'd to<lb/> be clearing more land in many
+                    places some of<lb/> which is intended to be put in, with Wheat<lb/> this fall --
+                    They have a good stock of Cattle<lb/> and abundance of Swine -- They have
+                    several<lb/> horses among them, but the greater part<lb/> of their farming
+                        <del>is done</del> Drawing Logs<lb/> &amp;c is done with Oxen -- Their
+                    improve-<lb/> ment in divers respects since I left them, has<lb/> rather
+                    exceeded my expectation &amp; quite<lb/> equal to any improvement I have
+                    observ'd<lb/> in any of the new settlements made by<lb/> Whites in the same
+                    length oftime, &amp; their<lb/> houses better put up, &amp; fences in a general
+                    way<lb/> far superior to those made by White set-<lb/> lers in the Back parts of
+                        <placeName key="penns">Pensylvania</placeName> &amp;<lb/>
+                    <placeName key="newyo">York</placeName> States. Their continued resolutions<lb/>
+                    against the use of Spiritous Liquors af-<lb/> -fords an encourageing prospect,
+                    that friends<lb/> Labour among them has been peculiarly blest.<lb/> Several Old
+                    Men whom I well knew had former<lb/> been very much addicted to drinking
+                    and<lb/> generally intoxicated when they could<lb/> obtain Liquor, is now become
+                    sober &amp;<lb/> industrious, &amp; very few Instances of intoxication - <lb/>
+                    <pb n="47" facs="SW_HJ1806_Page_047"/> have occur'd among the
+                    <orgName key="allegany">Allegany<lb/> Indians</orgName> for two or three years past -
+                    towards<lb/> the Close of our last interview I observ'd<lb/> to them "the
+                    satisfaction I felt in seeing<lb/> the happy change had taken place among<lb/>
+                    them in this respect, that when I and<lb/> my companions first came among
+                    them<lb/> &amp; setled at <placeName key="genes1">Genesinguhta</placeName> it
+                    was disagre<lb/> able being <del><gap/></del> in their Towns<lb/> on account of
+                    the Liquor -- that now I<lb/> could see them at work on their farms,<lb/>
+                    Building houses, &amp; clearing Land but then it<lb/> was common to see them in
+                    their Towns<lb/> several of their old people in a huddle<lb/> together, trying
+                    to prop one another from<lb/> falling" -- One of the Old Women<lb/> who was
+                    present - cry'd out in the Coun-<lb/> sel &amp; said "<emph rend="underline"
+                        >that was the truth</emph>" ---</p>
+                <p> In the Course of this day an Indian chief call'd<lb/>
+                    <persName key="jsnow1">Jacob Snow</persName> (with <persName key="cbone1"
+                        >Captain Bone</persName> &amp; several<lb/> others) came to see us &amp;
+                    said he was not satis<lb/> fied with the Speech <persName key="jsilv1"
+                        >Silverheels</persName> made to<lb/> us at the Counsel, &amp; that the
+                    Indians in<lb/> general was much displeas'd with it<lb/> that most of them was
+                    well satisfied with <lb/>
+                    <pb n="48" facs="SW_HJ1806_Page_048"/> Our proceedings &amp; hope'd we
+                    would<lb/> not think of leaveing them to themselves<lb/> for that would make his
+                    mind very uneasy<lb/> &amp; he hop'd we would not tell the speech of that<lb/>
+                    young Chief to the Counsel at <placeName key="phila"
+                    >Philadelphia</placeName><lb/> for altho. he had got liberty from the Other<lb/>
+                    Chiefs to make such a speech, it was by<lb/> importunity, and was very
+                    contrary<lb/> to their wishes -- but if we did speak of<lb/> it to our friends
+                    at <placeName key="phila">Philadelphia</placeName> we must<lb/> also tell them
+                    what <emph rend="underline">he</emph> had now told us -</p>
+                <p> He also told us he was very desirous to<lb/> have one of his children educated
+                    with<lb/> our friends, and taught the same<lb/> ways and some thoughts of the
+                    Quakers --<lb/> &amp; wish'd us to give him a grant that it<lb/> should be so
+                    educated when it was old<lb/> enough it being now but two years<lb/> old -- This
+                    request we could not com<lb/> ply with, as we told him it was uncer-tain<lb/>
+                    whether any friends would remain at<lb/>
+                    <placeName key="tunes">Tunesassa</placeName> so long a time --- He appeard<lb/>
+                    to be a sober sensible Man, said he<lb/> was very desirous to become a good<lb/>
+                    farmer, we understand has a good deal<lb/> of money, and shew'd us several
+                    deeds,<lb/> he had forlots of Ground he had purcha-<lb/> sed from the White
+                    people in some <lb/>
+                    <pb n="49" facs="SW_HJ1806_Page_049"/> of the villages down the <geogName
+                        key="alleg">River</geogName> ---</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1806-09-19">19th</date>
+                    <placeName key="checkPlace"/></dateline>
+                <p> The Morning fair about seven Oclock we<lb/> took leave of our friends at
+                        <placeName key="tunes">Tunesassa</placeName> and set<lb/> out for <placeName
+                        key="catta1">Cataraugus</placeName>
+                    <persName key="jtayl1">Jacob Taylor</persName> accompanying<lb/> us -- We rode
+                    up the river to <unclear>Tusquirewuhty</unclear><lb/> valley near to the upper
+                    settlement of Indians<lb/> &amp; as we past along a number of them came<lb/> out
+                    to bid us farewell - &amp; many of them<lb/> were at work in the woods mauling
+                    rails<lb/> Clearing Land &amp;c -- We also saw a number<lb/> of large Cornfields
+                    we had not observ'd on<lb/> our way down the <geogName key="alleg"
+                        >River</geogName> -- &amp; several houses<lb/> Building -- <persName
+                        key="jpier2">John Peirce</persName> (whose Indian<lb/> name is Tus,sky) is
+                    building a house<lb/> at the <placeName key="colds">Cold Spring</placeName> of
+                    an elegant construction<lb/> being two stories high - weather boarded on<lb/>
+                    the outside &amp; intended to be seald within --<lb/>
+                    <persName key="jbell1">John Bell</persName> is employ'd in doing the
+                    Carpen-<lb/> ter work for him &amp; in his speech to us at the<lb/> Counsel the
+                    16th instant he told us "that he<lb/> had a job of work in hands now with
+                    which<lb/> he thought the great Spirit would be<lb/> well pleas'd" -- Leaveing
+                    the <geogName key="alleg">Allegany<lb/> River</geogName> we rode up this valley
+                    on a new<lb/> road cut by the <orgName>holland Company</orgName>
+                    <lb/>
+                    <pb n="50" facs="SW_HJ1806_Page_050"/> leading from the west Branch of<lb/>
+                    <geogName key="susqu">Susquehannah</geogName> to <geogName key="lakee">Lake
+                        Erie</geogName> a little<lb/> south of the Mouth of <geogName key="catri"
+                        >Cateraugus River</geogName> -<lb/> pasing by the navigable waters of the<lb/>
+                    <geogName key="concr">Conewango</geogName> north of <geogName key="chaut"
+                        >Chatoughqua Lake</geogName> --</p>
+                <p> This road was possible for horses &amp; not<lb/> much more can be said in its
+                    favour altho<lb/> the ground will admit of a Good road being<lb/> made -- We
+                    traveld on it about 14 Miles<lb/> takeing a circuitous route to escape a<lb/>
+                    very bad piece of road in the Old Indian <del><gap/></del><lb/> path -- On our
+                    way traveling an Indian<lb/> path this afternoon, I discover'd a log I lay<lb/>
+                    under one night, without fire &amp; snow<lb/> on the Ground, when traveling the
+                    same<lb/> path alone near eight years before --</p>
+                <p> This evening we enampt on a branch of the<lb/>
+                    <geogName key="catri">Cataraugus River</geogName> at the foot of the broad<lb/>
+                    Mountain, haveing roade about 35 Miles Mostly<lb/> thro <del>fertile</del> land
+                    of a good quality -- Supt on<lb/> Chocolate &amp; the weather being
+                    pleasant<lb/> had Comfortable lodgeing beside the fire on<lb/> our
+                    Blankets--</p>
+            </div>
+            <div type="entry">
+
+                <pb n="51" facs="SW_HJ1806_Page_051"/>
+                <dateline><date when="1806-09-20">20th</date>
+                    <placeName key="checkPlace"/></dateline>
+                <p> Breakfasted at our Lodgeing (which<lb/> we nam'd Bonsals Camp) and cross'd the<lb/>
+                    <geogName key="broam">broad Mountain</geogName> about 12 miles over to<lb/>
+                    <geogName key="catri">Catauraugus River</geogName> -- on our way crossing<lb/>
+                    this mountain we overtook a company<lb/> of <orgName key="munseeind">Munsy
+                        Indians</orgName> who had been out hunting<lb/> they left the road to let us
+                    past but kept very<lb/> close to our heels - one Woman was in their<lb/> company
+                    mounted on horseback carrying<lb/> several great packs of Skins and a young<lb/>
+                    Child in her arms. In descending this<lb/> mountain we had a remarkable
+                    steep<lb/> narrow ridge to go down for several hundred<lb/> feet and only just
+                    wide enough for one horse to<lb/> travel on, with any degree of safety, and
+                    we<lb/> thought dangerous to sit on horseback, but<lb/> the Indian Woman rode
+                    down with as much<lb/> ease &amp; unconcernedness as one of our Women<lb/> would
+                    ride a Square in <placeName key="phila">Philadelphia</placeName> --</p>
+                <p> After Crossing the <geogName key="catri">River</geogName> we stop &amp; fed
+                    our<lb/> horses eat some ourselves and spent a little time<lb/> in viewing a
+                    very rich flat at the head<lb/> of the Indians reservasion being land of<lb/>
+                    the first quality cover'd in many places <lb/>
+                    <pb n="52" facs="SW_HJ1806_Page_052"/>
+                    <del>cover'd</del> with Large black Walnut &amp; on<lb/> the South side of the
+                        <geogName key="catri">River</geogName>
+                    <del>a</del> fine Stream<lb/> of Water flowing thro' it forming a good<lb/>
+                    Millseat -- Rode down the <geogName key="catri">River</geogName> about<lb/> 12
+                    miles further to the <orgName key="seneca">Seneca</orgName> village, pasing<lb/>
+                    thro. the Village of <orgName key="munseeind">Muncy</orgName> or <orgName
+                        key="delaware">Deleware<lb/> Indians</orgName> who live near them -- We
+                    arivd<lb/> about three Oclock found the Indians<lb/> Generally at home and glad
+                    to see us --<lb/> Took our quarters at <persName key="waund1"
+                        >Waundeguhtas</persName><lb/> the Chief Warriors house made ourselves<lb/>
+                    some chocolate and his wife was very kind<lb/> in helping us to such provisions
+                    as they had --<lb/> This evening we proposed to the Chief<lb/> Warrior meeting
+                    them in Counsel to mor-<lb/> row, to which he readily assented &amp; ten<lb/>
+                    Oclock was the hour appointed for that<lb/> purpose ---</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1806-09-21">21st</date>
+                    <placeName key="checkPlace"/></dateline>
+                <p> Last Night a little rain fell<lb/> with a good deal of thunder and
+                    Lightening<lb/> The Indians told us there had been no rain<lb/> there before for
+                    near 20 days -- We lodg'd<lb/> in a new house the Chief warrior had<lb/> built -
+                    the lower story of which was oc-<lb/> cupied as a Barn, haveing some Wheat <lb/>
+                    <pb n="53" facs="SW_HJ1806_Page_053"/> and Corn laying in it &amp; altho we<lb/>
+                    were in the Second Story some of <lb/> our company complain'd hard of of
+                    disagre-<lb/> -able bedfellows and about midnight<lb/> were somewhat alarm'd by
+                    the Yeling of<lb/> the Indians one of our company enquire<lb/> ing whether it
+                    was wolves -- We understood<lb/> they were performing some kind of Ceremony<lb/>
+                    round a sick Child ----</p>
+                <p> This morning we committed a<lb/> sort speech to writeing which we thought<lb/>
+                    necessary to communicate to them at the<lb/> Counsel &amp; a little after 10 O
+                    clock about<lb/> 19 of their Chiefs &amp; principle men<lb/> assembled in the
+                    Camber we lodg'd in,<lb/> &amp; the Chief Warriors Wife with them --</p>
+                <p> Soon after being sealed the Chief<lb/> Warior Arose, and said "that four
+                    days<lb/> ago he had a message by <persName key="cornp2">Cornplanter</persName>
+                    that<lb/> some of the Quakers was comeing to see them<lb/> We suppose (said he)
+                    you are the people<lb/> we heard of, and are glad and thankful <lb/>
+                    <pb n="54" facs="SW_HJ1806_Page_054"/> to the Great Spirit for preserveing<lb/>
+                    you on your Long Journey, so that you<lb/> have arived here in safety and no
+                    accident<lb/> has befallen you on the way" -- and after<lb/> some further
+                    remarks relative to our<lb/> Comeing said they were now ready<lb/> to hear us
+                    speak --</p>
+
+
+                <p> Our Speech was then read, and<lb/> Interpreted by <persName key="hyork1">Henry
+                        York</persName> being as<lb/> follows ---</p>
+                <floatingText type="speech">
+                    <body>
+                        <opener><salute>To the Chiefs and others of the<lb/>
+                                <orgName key="seneca">Seneca Nation</orgName> of Indians at
+                                    <placeName key="catta1">Catarau-<lb/> gus</placeName>
+                                ----</salute></opener>
+
+                        <p> Brothers<lb/> As We have been seeing<lb/> your Brethren at <orgName key="allegany">Allegany</orgName> we felt<lb/> such strong desires for
+                            your welfare as<lb/> to induce us to come this way and take<lb/> you by
+                            the hand, that we might talk<lb/> with you, and know what progress<lb/>
+                            you are makeing in farming and<lb/> other good works ----</p>
+                        <p> Brothers<lb/> We feel happy in once more <lb/>
+                            <pb n="55" facs="SW_HJ1806_Page_055"/> being among you, and believe
+                            you<lb/> have made some advancement since our<lb/> friends visited you
+                            three years ago - We now<lb/> want to encourage you to industry in
+                            the<lb/> Cultivation of your Land, for your Land we<lb/> see is very
+                            good and easy Clear'd, and will<lb/> produce a great deal of wheat as
+                            well as Corn<lb/> if you are industrious and farm it well ---</p>
+                        <p> Brothers<lb/> We wish you to learn your Boys to<lb/> work while they are
+                            young and by this<lb/> means they will get to love work and be<lb/> able
+                            to assist you when they grow older --<lb/> and as you become industrious
+                            and raise<lb/> plenty of grain it will afford you a<lb/> much better
+                            Liveing &amp; more certain than<lb/> depending on huntery ----</p>
+                        <p> Brothers<lb/> We see you have a good stock<lb/> of Cattle &amp; we hope
+                            you are careful to<lb/> provide plenty of fodder for them in the<lb/>
+                            winter -- We think if you would sow some<lb/> of your rich Bottoms on
+                            the <geogName key="catri">River</geogName> with<lb/> Timothy it would
+                            afford you a great deal <lb/>
+                            <pb n="56" facs="SW_HJ1806_Page_056"/> of hay and be an easy way of
+                            keeping<lb/> your Cattle --</p>
+                        <p> Brothers<lb/> As we have furnish'd you with<lb/> a set of smith tools,
+                            we hope your young<lb/> men will be industrious in trying to<lb/> learn
+                            that business, that they may be<lb/> able to make and mend your tools
+                            --</p>
+                        <p> Brothers<lb/> We understand that many of<lb/> your people have left of
+                            drinking Whisky<lb/> and we want to encourage you all<lb/> to quit this
+                            practice, and to keep your<lb/> minds strong against it, for we
+                            know<lb/> it has been the ruin of a great many<lb/> White people, &amp;
+                            you know it has been<lb/> a great hurt to the Indians and helpt<lb/> to
+                            keep them poor -- but we hope many<lb/> of you have got your eyes open
+                            to see that<lb/> Whisky and other strong drinks has been<lb/> your great
+                            enemy, and we now want<lb/> you to unite together in keeping this<lb/>
+                            enemy from riseing up again, and<lb/> this we believe will be pleasing
+                            to the Great Spirit.</p>
+
+                        <pb n="57" facs="SW_HJ1806_Page_057"/>
+
+                        <p> Brothers,<lb/> we dont wish to say a great deal<lb/> to you at this
+                            time, but rather to encourage<lb/> you to listen to the voice of the
+                            good Spirit<lb/> in your own hearts which will teach you<lb/> what is
+                            right, and as you obey its dictates<lb/> will make you feel happy in
+                            your selves<lb/> and live in love and friendship with one<lb/> another,
+                            and with Mankind generally.</p>
+                        <p> Brothers if you do what the good<lb/> Spirit tells you is right it will
+                            strength<lb/> -en your desires to do good &amp; will make<lb/> you
+                            strong in all your good resolutions<lb/> will bless you in this world
+                            and make<lb/> you happy when you die ---</p>
+                        <closer><dateline><placeName key="catta1">Cataraugus</placeName>
+                                <date when="1806-09-21">9 Mo 21st 1806</date></dateline><signed><list>
+                                    <item><persName key="ibons1">Isaac Bonsal</persName></item>
+                                    <item><persName key="jphil1">John Philips</persName></item>
+                                    <item><persName key="hjack1">Halliday Jackson</persName></item>
+                                </list></signed></closer>
+
+                    </body>
+                </floatingText>
+                <p> The Indians confer'd a few minutes<lb/> together, &amp; the Chief Warrior
+                    presently<lb/> stood up and made reply to each particular<lb/> part of our
+                    Speech in substence nearly<lb/> as follows --- </p>
+
+                <pb n="58" facs="SW_HJ1806_Page_058"/>
+
+                <p> That they were very glad to hear our<lb/> Speech and thankful to the Great
+                    Spirit<lb/> for the advice we had given them - that our<lb/> advice heretofore
+                    had been very useful and<lb/> encourageing to them to pursue industrious<lb/>
+                    habits and they had already got their<lb/> eyes open and were determined to go
+                    on<lb/> in the Cultivation of their Land, for they<lb/> knew their Land was very
+                    good and they<lb/> suppos'd it was the mind of the Great<lb/> Spirit that they
+                    were setled here in this<lb/> good Land -- that they were determined<lb/> to
+                    take our advice in learning their<lb/> Children to work while they were
+                    young<lb/> &amp; they had for several years past been<lb/> in the practice of
+                    learning them -- that<lb/> ten years ago they had little or no cattle<lb/> or
+                    stock of any kind, but now they<lb/> were geting plenty and our advice was<lb/>
+                    very good respecting their provideing<lb/> fodder, &amp; that some of them had
+                    already<lb/> made a beginning to sow Timothy seed-<lb/> for they had sometimes
+                    found it diffi-cult <lb/>
+                    <pb n="59" facs="SW_HJ1806_Page_059"/> to bring their cattle thro' the Winter
+                    --</p>
+                <p> He also said they were very thankful<lb/> for the Smiths Tools we had sent
+                    them<lb/> and that two of their young men was<lb/> active at the smiths business
+                    - that some<lb/> years ago if they broke a hoe or an ax they<lb/> must go thirty
+                    miles to get it mended --<lb/> which took a great deal of time besides<lb/>
+                    paying for it, but now their smiths<lb/> were capable of doing such things for
+                    them<lb/> and they only last an hour or two ----</p>
+                <p> He further said, we might rely upon<lb/> it they had taken up strong resolutions
+                    against<lb/> the use of Whisky and other strong drink --<lb/> and that all that
+                    was then present were Chiefs<lb/> and each of them kept a daily watch over<lb/>
+                    the rest of the Indians to caution them<lb/> against drinking Whisky playing
+                    Ba<gap/><lb/> and other bad practices which they believ'd<lb/> was not
+                    pleasing to the Great Spirit --<lb/> but were of the mind the Great Spirit<lb/>
+                    was better pleased with them when they<lb/> took hold of the hoe and the Ax and
+                    went<lb/> to work -- that since they had got <lb/>
+                    <pb n="60" facs="SW_HJ1806_Page_060"/> their Eyes open to see, they were<lb/>
+                    sensible that strong drink had done them<lb/> a great deal of mischief and kept
+                    them<lb/> poor, but now they had got master of it<lb/> &amp; was determined
+                    never to let it rise again<lb/> &amp; were in hopes all the Indians of the
+                    six<lb/> nations would in time become master of it.</p>
+                <p> He also said they were very thankful<lb/> we had given them our speech upon<lb/>
+                    paper &amp; deliver'd it to them &amp; said they<lb/> would not only advise
+                    their young peo-<lb/> ple themselves but would have our speech<lb/> to apply to
+                        <del><gap/></del> strengthen their minds -<lb/> &amp; since they had taken
+                    up these good<lb/> resolutions they had daily conferrences<lb/> on these
+                    Subjects &amp; were continually<lb/> trying to encourage one another in<lb/>
+                    good works --</p>
+                <p> He then made some remarks<lb/> about their saw Mill which he said<lb/> they were
+                    very anxious to have repair'd<lb/> this fall, &amp; <persName key="jtayl1">Jacob
+                        Taylor</persName> inform'd them<lb/> he was then on his way to <placeName
+                        key="buffa">Buffalo</placeName><lb/> to procure a Millright to do it
+                    for<lb/> them -- for which they returnd many thanks</p>
+
+                <pb n="61" facs="SW_HJ1806_Page_061"/>
+
+                <p> After he had done speaking each<lb/> of our company had some further<lb/>
+                    remarks to make tending to strengthen<lb/> them in their Good resolutions,
+                    and<lb/> encourage them to persevere in habits<lb/> of industry and Sobriety, to
+                    all which<lb/> the Chiefs Warrier particularly replied --<lb/> addressing each
+                    of us,&amp; first rehearsing what<lb/> we had said nearly verbatim,
+                        <del>&amp;</del> concluded<lb/> with saying, "he hop'd the Great Spirit<lb/>
+                    would preserve us in as good health as<lb/> we now were, till we got home to
+                    our<lb/> wives &amp; Children, &amp; that on our arival<lb/> we might find them
+                    all well and all<lb/> the Great men at our Counsel in <placeName key="phila"
+                        >Phila</placeName>.</p>
+                <p> We then shook hands with them &amp;<lb/> ended the Counsel which was the<lb/>
+                    most satisfactory one we have had<lb/> among the Indians, the most of them<lb/>
+                    being sober solid looking Men, and<lb/> the Chief Warrior a man of grave<lb/>
+                    deportment retentive memory &amp;<lb/> sound Judgement fully capable of<lb/>
+                    retaining every thing we had communicated</p>
+
+                <pb n="62" facs="SW_HJ1806_Page_062"/>
+
+                <p> Presently after the Counsel, the chiefs<lb/> wife brought us up some dinner of
+                    her<lb/> own prepareing, of which some of us eat<lb/> hearty, but some others
+                    partook but<lb/> spareingly of her bounty ---</p>
+                <p> The Indians of this Village, have<lb/> a large extent of ground under good<lb/>
+                    fence in one enclosure stretching<lb/> along the <geogName key="catri"
+                        >River</geogName> for near three miles<lb/> on a very rich bottom -- a great
+                    deal<lb/> of which is planted with Corn and looks<lb/> well some of it they are
+                    now pulling<lb/> nearly all these improvements<lb/> have been made within three
+                    years.<lb/> They have a pretty large stock of Cattle<lb/> and Swine &amp; the
+                    extensive natural<lb/> Meadows that lay contiguous to them<lb/> affords them a
+                    great outlet to feed in<lb/> &amp; the most elegible place for raising
+                    Cattle<lb/> of any I have ever seen on Indians Grounds.<lb/> But altho their
+                    situation is so very<lb/> favourable for Agriculture they have<lb/> by no means
+                    made such a progress<lb/> therein as the <orgName key="allegany">Allegany</orgName> Indians, <lb/>
+                    <pb n="63" facs="SW_HJ1806_Page_063"/> neither are their houses &amp;
+                    Clothes<lb/> kept so clean and neat which is a strong<lb/> evidence that friends
+                    Labour and exam-<lb/> ple at <orgName key="allegany">Allegany</orgName> has
+                    had a powerful<lb/> effect in these respects ----</p>
+                <p> Being now near the extent of our<lb/> Journey - <persName key="jphil1">John
+                        Philips</persName> &amp; myself propos'd<lb/> takeing our route homewards by
+                    way of<lb/>
+                    <placeName key="buffa">Buffalo</placeName> &amp; <placeName key="genes"
+                        >Genesee</placeName> - <persName key="ibons1">Isaac Bonsal</persName> &amp;
+                        <persName key="nwaln1">Nicho-<lb/> -las Waln</persName> being bound for the
+                    state of<lb/> Ohio by way of <placeName key="presq">Pressqu Isle</placeName> --
+                    we concluded<lb/> to go down to the <geogName key="lakee">Lake</geogName> near
+                    the Mouth<lb/> of <geogName key="catri">Cataraugus River</geogName> and Lodge
+                    this night<lb/> together -- Accordingly between four and<lb/> five oclock we set
+                    off (most of the Indians<lb/> in the village comeing to to bid us fare-<lb/>
+                    well) and rode down the <geogName key="catri">River</geogName> through<lb/> some
+                    fine natural meadows coverd<lb/> with much Grass and herbage &amp; rich
+                    wal-<lb/> nut flats five Miles to Captain Sidness<lb/><lb/> Tavern - and we
+                    ferry'd over the River<lb/> near the <geogName key="lakee">Lake</geogName> in a
+                    flat -- We also saw<lb/> a number haystacks on the way which<lb/> was cut and
+                    put up by the Indians --</p>
+
+                <pb n="64" facs="SW_HJ1806_Page_064"/>
+
+                <p> As we apprehended some advantage<lb/> might arise from takeing some notice<lb/>
+                    of the <orgName key="munseeind">Muncy Indians</orgName> who live near<lb/> the
+                        <orgName key="seneca">Senecas</orgName> &amp; no oppertunity likely to<lb/>
+                    offer to meet them in Counsel we conclu-<lb/> ded to write a short address and
+                    leave<lb/> with <persName key="jtayl1">Jacob Taylor</persName> to read and
+                    explain to<lb/> them on his return, accordingly this<lb/> evening the following
+                    was agreed upon<lb/> for that purpose ----</p>
+                <floatingText type="speech">
+                    <body>
+                        <opener>To the Chiefs and others of the Mun-<lb/> cy Village of <orgName
+                                key="munseeind">Indians</orgName> setled near the <geogName
+                                key="catri">Catarau<lb/> -gus River</geogName><lb/><salute>Friends
+                                and Brothers</salute></opener>
+                        <p> </p>
+
+                        <p> As we have<lb/> been on a visit to the Indians at <geogName key="alleg"
+                                >Alegany</geogName><lb/> and also to see your near neighbours the<lb/>
+                            <orgName key="seneca">Senecas</orgName> at <placeName key="catta1"
+                                >Cataraugus</placeName>, we feel such strong<lb/> desires for your
+                            welfare that we want<lb/> to say a few words to you tho we cannot<lb/>
+                            at this time meet you in Counsel --</p>
+                        <p> Brothers<lb/> It is now several years since<lb/> we first began to
+                            encourage the <orgName key="seneca">Seneca</orgName><lb/> Nation of
+                            Indians to Cultivate their<lb/> land - and some of them have
+                            hearken<lb/> ed to our advice, and tell us they are <lb/>
+                            <pb n="65" facs="SW_HJ1806_Page_065"/> in a much better condition
+                            than<lb/> they were before they began to be so<lb/> Industrious --</p>
+                        <p> Brothers<lb/> As we passed along thro' your<lb/> Town we were very
+                            thoughtful about<lb/> you, and we want you should open your<lb/> ears
+                            and listen to our talk --</p>
+                        <p> We don't want any thing from you, but we<lb/> wish to encourage you to
+                            take up work, &amp;<lb/> to pursue those good ways we will point<lb/>
+                            out to you which will make your lives<lb/> more comfortable ---</p>
+                        <p> Brothers<lb/> You know that Game is Getting<lb/> scarce and sometimes in
+                            the year you<lb/> have no certainty of procureing a liveing<lb/> by
+                            hunting - how necessary then is it<lb/> for you to learn to work and
+                            raise plenty<lb/> of Corn and other good things that will<lb/> grow out
+                            of the Ground -- you may<lb/> also raise plenty of Cattle &amp;
+                            Swine<lb/> which will be much more certain than<lb/> the Deer and the
+                            Bear ---</p>
+
+                        <pb n="66" facs="SW_HJ1806_Page_066"/>
+
+                        <p> Brothers<lb/> As our desires for the wel-<lb/> fare of all our Indian
+                            Brothers are<lb/> Strong, we want to speak a few words<lb/> more in your
+                            Ears -- We have seen<lb/> that many of the Indian Tribes have<lb/> been
+                            much hurt by the use of Whisky<lb/> and Other Strong drink, &amp; we
+                            wish<lb/> to encourage you to take up strong<lb/> resolutions to quit
+                            the practice of<lb/> drinking it as some of your brethren<lb/> the
+                                <orgName key="seneca">Senecas</orgName> have done - By drinking<lb/>
+                            much Whisky you spend your Money<lb/> your Skins and many other
+                            things<lb/> which you might buy tools to go to<lb/> farming with &amp;
+                            also supply yourselves<lb/> with Cattle and Other useful Animals -</p>
+                        <p> Brothers<lb/> While you continue to drink<lb/> Whisky &amp; other strong
+                            drink, you can not<lb/> expect to improve your land, or to live<lb/>
+                            comfortable but if you leave of this<lb/> practice, you will then be
+                            able to pro-<lb/> vide yourselves a more comfortable<lb/> Liveing &amp;
+                            being Sober &amp; industrious<lb/> The Great Spirit will be pleased
+                            with<lb/> you &amp; do you good ---</p>
+
+                        <pb n="67" facs="SW_HJ1806_Page_067"/>
+
+                        <p> You know that by drinking <gap/><lb/> Whisky you distress your own
+                                m<unclear>ind</unclear><lb/> &amp; bring trouble on your selves
+                            &amp; th<unclear>is</unclear><lb/> is displeasing to the Great Spirit
+                            --</p>
+                        <p> Brothers<lb/> We send this by our friend<lb/>
+                            <persName key="jtayl1">Jacob Taylor</persName>, who is also a friend
+                            to<lb/> the Indians, &amp; who will have this speech<lb/> read &amp;
+                            explaind to you ---</p>
+
+                        <closer><salute>We are your friends and
+                                    Brothers</salute><lb/><dateline><placeName key="catta1"
+                                    >Cataraugus</placeName>
+                                <date when="1806-09-21">9 Mo 21st</date></dateline><signed><list>
+                                    <item><persName key="jphil1">John Philips</persName></item>
+                                    <item><persName key="ibons1">Isaac Bonsal</persName></item>
+                                    <item><persName key="hjack1">Halliday Jackson</persName></item>
+                                </list></signed></closer>
+                    </body>
+                </floatingText>
+            </div>
+
+            <div type="entry">
+                <dateline><date when="1806-09-22">22nd</date>
+                    <placeName key="catta1"/></dateline>
+                <p> Breakfasted at our Lodgeing and about<lb/> 8 Oclock took leave of our Companions
+                        <persName key="ibons1">I.B.</persName> &amp;<lb/>
+                    <persName key="nwaln1">N. Waln Jr.</persName> &amp; <persName key="jtayl1">Jacob
+                        Taylor</persName> accompanying<lb/> us - we had a pleasant Journey along
+                    the<lb/> beautiful Margin of <geogName key="lakee">Lake Erie</geogName> 36 Miles to<lb/>
+                    <placeName key="buffa">New Amsterdam</placeName> at <geogName key="buffc1"
+                        >Buffalo Creek</geogName> -- several<lb/> new Settlements were forming
+                    along<lb/> the side of the <geogName key="lakee">Lake</geogName> in this days
+                    Journey<lb/> on Land of an exelent Quatity</p>
+                <p> We arivd about 5 Oclock and took Quarters<lb/> at <persName key="jcrow1">J
+                        Crows</persName> Tavern where <persName key="egran1">Erastus
+                        Granger</persName>
+                    <lb/>
+                    <pb n="68" facs="SW_HJ1806_Page_068"/>
+                    <gap/> tendant of Indian Affairs<lb/>
+                    <gap/> his home, Who appears to be a<lb/>
+                    <gap/> ty Man &amp; much disposd to promote<lb/> the Indians welfare - He
+                    invited us<lb/> into his room, to spend the evening &amp;<lb/> entertaind us
+                    Cheerfully converseing<lb/> about Indian affairs, tho in a very<lb/> weak state
+                    of health --</p>
+                <p> He gave us a satisfactory account of the<lb/> Tonewanta Indians, that they were
+                    progress-<lb/> ing in Agriculture, and last season most<lb/> of them had rais'd
+                    wheat; also said the<lb/> Indians at <placeName key="buffc">Buffalo
+                        Creek</placeName> were becoming<lb/> more Sober and some of them more<lb/>
+                    Industrious -- He also spoke of the satis-<lb/> faction he had in visiting the
+                    Indians<lb/> at <orgName key="allegany">Allegany</orgName> in the Course of
+                    the last<lb/> Summer &amp; seeing the improvements<lb/> they had made; &amp;
+                    said he thought it<lb/> had a stimulating influence on the <orgName key="seneca"
+                        >Seneca<lb/> Nation</orgName> generally to become more acquain-<lb/> ted
+                    with Agriculture -- that he had<lb/> endeavoured to animate the Indians<lb/> at
+                        <placeName key="buffa">Buffalo</placeName> by telling them their Brothers <lb/>
+                    <pb n="69" facs="SW_HJ1806_Page_069"/>
+                    <gap/> was taking the <gap/><lb/> a <gap/> as as tho' his views were <gap/><lb/>
+                    coincident with <del>with</del> the prospects of our<lb/> society in promoteing
+                    the welfare of the<lb/> Indians -- In a counsel he had with the Indians<lb/> at
+                    <orgName key="allegany">Allegany</orgName> (we understand by our friends
+                    that<lb/> were present) he applauded them much <lb/> for their attention to
+                    farming and raising<lb/> cattle &amp; recommended them in future to build<lb/>
+                    their houses and lay out their farms more<lb/> detatch'd from each other which
+                    would afford<lb/> them a better oppertunity of pursuing the<lb/> desirable
+                    object of farming and raising<lb/> cattle -- "If you pass thro' the Country
+                    among<lb/> the White people (<emph rend="underline">said he</emph>) you will
+                    find each<lb/> man on his farm attending to his grain Cattle<lb/> hogs &amp;c
+                    but if you go into their Towns there<lb/> you will find the Doctors, the
+                    Lawyers, Mini-<lb/> -sters &amp; Merchants, which is a class of people<lb/> I
+                    wish may never come among you</p>
+                <p> He further Observ'd that he had been infor-<lb/> -m'd of a man who intended to
+                    come and reside<lb/> among them in order to make bobs &amp; Brotches<lb/> &amp;
+                    such like useless ornaments. "now (said h<unclear>e)</unclear><lb/> I would
+                    advise you not to suffer this <gap/>
+                    <lb/>
+                    <pb n="70" facs="SW_HJ1806_Page_070"/>
+                    <gap/>te on your Land by <gap/><lb/>
+                    <gap/> you do he will pick up a gre<gap/><lb/>
+                    <gap/>nay, and you will be none the <gap/><lb/> If you keep your money you can
+                    buy Oxen<lb/> or other useful property from the White<lb/> People but if you
+                    carry a white man a<lb/> Basket full of those Bobs and brotches he will<lb/> not
+                    Look at them -- Towards the close of<lb/> his speech he said he had not visited
+                    them<lb/> as often as he intended, but if they stood in<lb/> need of any advice
+                    they had friends who were<lb/> always dispos'd to assist them "for the
+                    Quakers<lb/> (said he) have done more for the Indians,<lb/> than any other
+                    society of people in the<lb/> world --</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1806-09-23">23rd</date>
+                    <placeName key="checkPlace"/></dateline>
+                <p> Breakfasted at our Lodgeing &amp; got good<lb/> entertainment, tho' at a high
+                    rate, especially<lb/> for our horses, pay 4 <unclear>s</unclear> pr night each
+                    york Mon-<lb/> =ney - &amp; wheat <unclear>9</unclear>d pr quart haveing no
+                    other<lb/> grain for horses, by reason of a great drouth<lb/> they have had in
+                    these parts this Summer.<lb/> &amp; the frost the <date when="1806-09-11"
+                        >11th</date> instant has injured<lb/> the corn in many places here a
+                    way.</p>
+                <p> This Morning the <persName key="egran1">Superintendant</persName> took<lb/> us
+                    to see a stone of perhaps 100 weight which<lb/> was full of small pores a little
+                    similar to<lb/> honey Comb &amp; strongly impregnated<lb/> with Seneca Oil which
+                    was easily <lb/>
+                    <pb n="71" facs="SW_HJ1806_Page_071"/>
+                    <gap/> ed by the warmth of the <gap/><lb/>
+                    <gap/>nter of these stones have been fo<gap/><lb/>
+                    <gap/>ut <geogName key="buffc1">Buffalo Creek</geogName>, &amp; probably in some
+                    <gap/><lb/> the bowels of the Earth contains a mass of<lb/> Rocks of the same
+                    medical qualitys from which the<lb/> Seneca Oil Issues ----</p>
+                <p> We left <placeName key="buffa">Amsterdam</placeName> about eight Oclock and<lb/>
+                    rode to <placeName key="batav">Batavia</placeName> 40 Miles - Some part of
+                    the<lb/> way thro' Open plains of limestone land<lb/> &amp; a great scarcity of
+                    Water and other parts<lb/> cover'd with heavy timber of several kinds<lb/> such
+                    as Bass Beech, Sugar Maple, hemloc &amp; <gap/><lb/> pine, the land of an
+                    exelent quality &amp; <gap/><lb/> fort -- <placeName key="batav"
+                        >Batavia</placeName> is situated at the Great P<gap/><lb/> of the Tonewanta
+                    - a very fine Mill, Court<gap/><lb/> two Taverns - &amp; several good dweling
+                    p<gap/><lb/> compose the Village which with s<gap/><lb/> improv'd farms
+                    adjoining, have <gap/><lb/> built &amp; Made within five years <gap/><lb/>
+                    evening a number of Indians fro<gap/><lb/> ariv'd here on their way to the
+                    Grea<gap/><lb/> at <placeName key="buffc">Buffalo Creek</placeName> -- they had
+                    one <gap/><lb/> with them dress'd neatly in an engl<gap/><lb/> for which we gave
+                    her some credit -- <gap/><lb/> all behav'd sober &amp; civilly without
+                    <gap/><lb/> a drop of Liquor to our knowledge, <gap/><lb/> be noted with
+                    satisfaction that i<gap/>
+                    <lb/>
+                    <pb n="72" facs="SW_HJ1806_Page_072"/>
+                    <gap/> our journey many al<gap/><lb/>
+                    <gap/> settlements we have passed thr<gap/><lb/>
+                    <gap/> have not saw one Indian the Last<lb/>
+                    <gap/> intoxicated with Liquor --</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1806-09-24">24th</date>
+                    <placeName key="checkPlace"/></dateline>
+                <p> Breakfasted by invitation with <persName key="jelic1"
+                        >Jos<unclear>eph</unclear><lb/> Ellicott</persName> who promis'd to send on
+                    a Surveyor<lb/> in a few days to run of the Farm at <placeName key="tunes"
+                        >Tunesassa</placeName>.</p>
+                <p> He took us up stairs to see a curious Clock<lb/> of his Fathers invention -
+                    which stood in the<lb/> Center of a room - had 4 faces made several<lb/> kinds
+                    of Music &amp; represented the Sun, Moon,<lb/>
+                    <gap/> Earth with several Planets performing<lb/> their Annual &amp; Diannal
+                    revolutions at<lb/>
+                    <gap/> act periods as the move in the heavens -<lb/>
+                    <gap/>bout 8 Oclock we left <placeName key="batav">Batavia</placeName> takeing<lb/>
+                    <gap/>
+                    <persName key="jtayl1">Jacob Taylor</persName> who had accompanied us<lb/>
+                    <gap/> traveling by way of <placeName key="genes">Genesee</placeName>
+                    <placeName key="cones">Conesteo</placeName><lb/>
+                    <gap/> house, <placeName key="newbe">Newberry</placeName> - <placeName
+                        key="muncy">Muncy</placeName><lb/>
+                    <gap/>
+                    <placeName key="harri">Harrisburgh</placeName> &amp; <placeName key="lanca"
+                        >Lancaster</placeName> 2<lb/>
+                    <gap/>ne on the fourth of the 10th<lb/>
+                    <gap/> about <gap/> noon haveing<lb/>
+                    <gap/>way 34 days and traveld<lb/>
+                    <gap/> putation about <emph rend="underline">820 Miles</emph></p>
+            </div>
+        </body>
+
+    </text>
+</TEI>

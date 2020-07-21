@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Letter to the Quarterly Meeting of Friends at Hopewell: Electronic
+                    Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Constance Hawley</name>
+                </respStmt>
+
+                <sponsor>Tri-Co Digital Humanities Initiative</sponsor>
+                <funder>Andrew W. Mellon Foundation</funder>
+            </titleStmt>
+            <extent>ca.5 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2015</date>
+                <idno type="local">SW_Letters_1794_00_00</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Miscellaneous Manuscripts</collection>
+                        <idno>Mss_004_1794_00_00</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>2 pp.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This collection of miscellaneous correspondence is housed at Friends Historical
+                    Library, on the campus of Swarthmore College. In the fall semester of 2010,
+                    Swarthmore students enrolled in English 50A (“Reading Red, White, and In-Between
+                    in Early American Literature”) transcribed these manuscripts as part of a larger
+                    project to make the library’s rich store of Quaker Indian mission writings more
+                    accessible. The project was designed by Christopher Densmore, Curator of Friends
+                    Historical Library, and Keat Murray, Visiting Assistant Professor of English.
+                    Transcriptions were compiled and edited in the present form by Professor Murray.
+                </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases. </p>
+
+            </editorialDecl>
+
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in 1794<date/></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Society of Friends - New York (State)</item>
+                        <item>Society of Friends -- Missions</item>
+                        <item>Indians of North America -- Missions</item>
+                        <item>Quaker women -- Pennsylvania -- Correspondence</item>
+                        <item>Seneca Indians</item>
+                        <item>Philadelphia Yearly Meeting of the Relgious Society of Friends</item>
+
+                    </list>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item><date/></item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+
+            <div type="letter">
+
+
+                <pb n="1" facs="Misc_mss_1794_00_00001"/>
+                <opener>
+                    <dateline>
+                        <date when="1794" type="unattested"/><placeName key="phila" type="unattested"/>
+                    </dateline>
+                    <salute>To the Quarty Meeting of Frds at <placeName key="hopw"
+                            >Hopewell</placeName><lb/>Dear Friends</salute>
+                </opener>
+                <p>Having been lately <del>religiously</del> engaged in the exercise of relgious Endeavours to
+                    promote a <del/>Business of vey interest-<lb/>ing &amp; extensive import both to
+                    our Society &amp; the Inhabitants of this Continent at large;<lb/>in the Course
+                    of our Attention where to divers particular Matter have presented<lb/>&amp;
+                    weightily impressed our Minds as Objects claiming the close &amp; deep Attention
+                    of Friends<lb/>agreeable to the equitable &amp; peaceable Testimonies we profess
+                    to maintain &amp; adhere to;<lb/>and among others one material Concern
+                    peculiarly affecting our christian Community<lb/>throughout the United States we
+                    apprehend maybe especially worthy of your<lb/>very serious &amp; important
+                    Consideration, which we are free &amp; desirous, under a sense of Duty &amp;
+                    the<lb/>Influence of an affectionate brotherly Freedom to communicate.</p>
+                <p>We believe it proper to premise that our <orgName key="pym">yearly
+                        Meeting</orgName> in <date when="1792">1792</date>, sensibly<lb/>affected
+                    with the Calamities of War prevailing on the western Frontiers of
+                    these<lb/>States, appointed a large Committee to deliberate on &amp; pursue such
+                    means as<lb/>under best direction might be instrumental to promote Peace &amp;
+                    prevent the<lb/>further Effusion of human Blood; in Consequence whereof an
+                    Address was<lb/>prepared &amp; presented to the President, Senate &amp; House of
+                    Representatives of the<lb/>United States, setting forth that, <floatingText
+                        type="speech">
+                        <body>
+                            <p>as it is consistent with our religious Principles,<lb/>so it has
+                                been our uniforn Care to admonish &amp; caution our Members
+                                against<lb/>settling on Lands which have not been fairly purchased
+                                of the original Owners;<lb/>and as far as our Influence extends we
+                                mean to maintain this our ansient<lb/>Testimony inviolate, which
+                                from Experince has been found effectual to<lb/>to the Preservation
+                                of Peace with the Natives, who with great Hospitality
+                                cherished<lb/>&amp; assisted our fore Fathers in their early
+                                Settlement of this Country.</p>
+                        
+                            <p>being<lb/>interested in the Welfare of this Country, &amp; convinced
+                                of the Expediency of further<lb/>Endeavours being used to encourage
+                                the Indians to come forward with a full<lb/>Representation &amp;
+                                Statement of their Grievances, and that every just Cause
+                                of<lb/>Uneasiness in their Minds may be fully investigated &amp;
+                                removed, we apprehend<lb/>it our Duty again to address you on this
+                                affecting &amp; important Occasion; under<lb/>a Belief that nothing
+                                short of stict Jusitce will ever be a Basis of solid and<lb/>lasting
+                                Peace.</p>
+                        </body>
+                    </floatingText> This Address, of which the foregoing is an Extract was duly
+                    presented,<lb/>after which, Confederacy being had with divers Indian Chiefs from
+                    different parts of<lb/>the Continent, it appeared the People they represented
+                    were solicous that some Frds<lb/>might attend the Treaty intended to be held in
+                    the year <date when="1793">1793</date>; the Concern of our <orgName key="pym"
+                        >yearly<lb/>Meeting</orgName> for the exercise of christian Care in a matter
+                    so interesting as improving<lb/>all Opportunities of cultivating Friendship with
+                    &amp; promoting a disposition for Peace<lb/>in &amp; towards the Indians,
+                    claiming the attentive Consideration of Friends both collect-<lb/>ively &amp;
+                    individually, six Friends in the <date when="1793-04">4th:mo:1793</date> gave up
+                    their Names as resigned to<lb/>the arduous Service of visiting the Natives in
+                    their own Country at the Time &amp; Place of holding<lb/>the aforesaid Treaty,
+                    which, whith the Approbation of the President, they performed; and<lb/>another
+                    Treaty being agreed to be held in the last <del>Summer</del> Autumn, Friends were informed that<lb/>some of our Members Attendance
+                    would be acceptable both to Government &amp; the Indians,<lb/>and we the
+                    Subscribers two of us being of the number at <gap/> and impressed with a degree
+                    of the weight of the Concern, giving up<lb/>thereto attended accordingly; and
+                    frequent Interviews &amp; Conferences with the Sachems and Chiefs<lb/>or the
+                        <orgName key="sxntns">Six Nations</orgName>, of whom upwards of 1600 were
+                    collected, in which great Confidence was<lb/>by them expressed, in Friends as a
+                    People religiously bound to the exercise of Justice &amp;<lb/>promotion of
+                    Peace, declaring that <said who="undetermined">if we deceived them they could no
+                        more place Con-<lb/>fidence in Mankind</said> -- and now Dear Friends, we
+                    affectionately request your<lb/>impartial Attention to the peculiar Occasion
+                    &amp; Design of this Communication, which we wish<lb/> you to consider as
+                    proceeding from a sincere brotherly Regard &amp; a Desire to be found in
+                    an<lb/>upright discharge of Duty--Soon after the Indians were collected some of
+                    their principal<lb/>Chiefs visited us &amp; revived the Subject of Enquiry in
+                    Time past made respecting the original<lb/>Owner of the Lands about <placeName
+                        key="hopw">Hopewell</placeName> in Virginia, expressing their Gladness that
+                    Friends <pb n="2" facs="Misc_mss_1794_00_00002"/> <lb/> were willing to do Justice; divers Conferences were held amongst
+                    themselves &amp; with us<lb/> relative to that Business, the Issue of which was
+                    that we were all of Opinion the <orgName key="tusc"
+                    >Tuscaroras</orgName><lb/>were the People who formerly owned that Country; they
+                    are now the sixth Nation in the<lb/><orgName key="sxntns">Confederacy</orgName>,
+                    and some of their Chief <gap/> Men appeared so confident of the Rectitude of
+                    their <lb/>Claim as to have entertained an Expectation that we came prepared to
+                    make them<lb/> <emph rend="underline">full</emph> Compensation for their land <emph
+                        rend="underline">in the Premises</emph>.<persName key="ichap2">General Chapin
+                        Superintendant</persName> of the six<lb/><orgName key="sxntns"
+                        >Nation</orgName> gave us his Judgement in writing in Confirmation of the
+                    Right of the<lb/><orgName key="tuscarora">Tuscaroras</orgName>, <emph
+                        rend="underline">which with the Account of that People given by <persName
+                            key="tjeff2">T. Jefferson</persName> leaves<lb/>apprehended, no Room to
+                        doubt of the reality of the Matter</emph> a copy of which is<lb/>herewith
+                    Sent.</p>
+
+            </div>
+            <div type="postscript">
+                <p><del>And now frnds having laid ye Subject before you not as Dictators <lb/>but as
+                        brethren Concerned in the Same Common Couse of Pro- <lb/>moting Truth &amp;
+                        Righteousness, we trust you will take it into <lb/>Serious &amp; Solid
+                        Consideration &amp; if anything appears to remain Due from you <lb/>to these
+                        greatly Injured people (which no doubt Some of you <lb/>once thought) we
+                        hope you will chearfully Unite with us in <lb/>Contributing a <emph
+                            rend="underline">Small</emph> part of your Substance for their Relief
+                        <lb/> &amp; Comfort. </del>The <orgName key="sxntns">Nation</orgName> who
+                    Now asserts their Right to the<lb/>Lands which you have been a Long time in
+                    Possessing of<lb/>in a peculiar manner Claims our Sympathy being the
+                    most<lb/>Destitute of all the <orgName key="sxntns">Six Nations</orgName>, and
+                    only Live &amp; hunt on the Lands<lb/>of the <orgName key="seneca"
+                        >Senecas</orgName>
+                    <del>Nation</del> by their Indulgence; but are not considerd<lb/>as having any Rights in the
+                    Soil, &amp; we believe the Testimony<lb/> of truth will suffer if
+                    <del>some</del>Compensation is not made<lb/>them <del>from our Religious Society</del>, </p>
+                <closer>With Desires that Bro-<lb/>therly Love may Continue &amp; abound among us we
+                    re-<lb/>main your Affectionate frds<salute/>
+                   
+                </closer>
+            </div>
+        </body>
+
+    </text>
+</TEI>
