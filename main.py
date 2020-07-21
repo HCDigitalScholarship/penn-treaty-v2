@@ -74,6 +74,8 @@ def get_sw_manuscript(request: Request, number: int):
     text = infile.read()
     return templates.TemplateResponse('base.html', {'request': request, 'text': text, 'title': title, 'slugified_title': slugified_title})
 
+#TODO NEED TRY/EXCEPT FOR PEOPLE/PLACES/ORGS for when item isn't found
+# pyindian is not found in orgs dict (seen in hv_coatesi_account_1798)
 
 # displays data on a person based on their records from the TEI csv data
 @app.get("/people/{unique_key}")
@@ -337,148 +339,96 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
     #soup = BeautifulSoup(open('templates/Linked XML Files/Swarthmore/linked_SW_JP1796.xml'), 'lxml')
             # KEY ERROR: KeyError: 'SW_JP1796_162'
 
-    # TODO SWITCH BETWEEN HC AND SWAT
+    # creates the path to the manuscript file
     manuscript_name = hc_or_swat +'/' + manuscript_name
     path = f'templates/tei_xml_files/{manuscript_name}'
+
+    # uses beautifulsoup to parse the raw xml file
     soup = BeautifulSoup(open(path), 'lxml')
 
-    # for tag in soup.find_all():
-    #     if tag.name == 'persname':
-    #         tag.unwrap()
-    #     elif tag.name == 'placename':
-    #         if tag.string == 'checkPlace':
-    #             tag.decompose()
-    #         else:
-    #             tag.unwrap()
-    #     elif tag.name == 'orgName':
-    #         tag.unwrap()
-    #         # if id != None:
-    #         #     tag.contents.append('{' + id + '}')
-    #         # TODO add id's for links
-    #
-    # s = ''
-    #
-    # # add breaks
-    # for tag in soup.find_all('pb'):
-    #     try:
-    #         page_name = tag.get('facs')
-    #         tag.string = '{BREAK}' + page_name + '{TEXT}:'
-    #     except:
-    #         pass
-    #
-    # document = soup.find('text')
-    #
-    # pages_list = (str(document)).split('{BREAK}')
-    #
-    # x = str(document)
-    #
-    # x = x.replace('<lb></lb>', '\n')
-    # #TODO try <br>
-    # x = x.replace('&amp', '&')
-    #
-    # clean = re.sub('<[^>]+>', '', x)
-    #
-    # z = (clean.split('{BREAK}'))
-    #
-    # for i in range(len(z)):
-    #     formatted_page = re.sub("\s+", ' ', z[i])
-    #     z[i] = formatted_page
-    #
-    # pages_dict = {}
-    # for i in range(len(z)):
-    #     try:
-    #         list_to_dict = (z[i].split('{TEXT}:'))
-    #         pages_dict[list_to_dict[0]] = list_to_dict[1]
-    #     except:
-    #         print(z[i])
+    print(soup)
 
-    # TODO get rid of line breaks?
+    # removes all the xml line break tags to make parsing easier
     for tag in soup.find_all('lb'):
         tag.decompose()
 
+    # loop through all tags and replace persname, placename, and orgname with links to the data they represent
     for tag in soup.find_all():
         if tag.name == 'persname':
-            print(tag.get('key'))
+            # gets the unique id for the person
             id = tag.get('key')
             try:
                 if id is not None:
-                    # tag.contents.append("ID: " + id)
+                    # saves the contents of the tag temporarily, then replaces the tag contents with an html link element
                     temp_tag_contents = tag.string
                     if temp_tag_contents == None:
-                        print("NONE TAG")
-                        print(tag)
-                        print(tag.contents)
                         tag.string = tag.contents.join('')
                     tag.string = f'<a href="http://127.0.0.1:8000/people/{id}">{temp_tag_contents}</a>'
                 tag.unwrap()
             except:
                 print(tag)
         elif tag.name == 'placename':
-            print(tag.get('key'))
+            # gets rid of checkPlace tags, which do not have a key in the xml
             if tag.string == 'checkPlace':
                 tag.decompose()
             else:
-                print(tag.get('key'))
+                # gets the unique id for the place
                 id = tag.get('key')
                 try:
                     if id is not None:
-                        # tag.contents.append("ID: " + id)
+                        # saves the contents of the tag temporarily, then replaces the tag contents with an html link element
                         temp_tag_contents = tag.string
                         if temp_tag_contents == None:
-                            print("NONE TAG")
-                            print(tag)
-                            print(tag.contents)
                             tag.string = tag.contents.join('')
                         tag.string = f'<a href="http://127.0.0.1:8000/places/{id}">{temp_tag_contents}</a>'
                     tag.unwrap()
                 except:
                     print(tag)
-        elif tag.name == 'orgName':
-            print(tag.get('key'))
+        elif tag.name == 'orgname':
+            # gets the unique id for the organization
             id = tag.get('key')
             try:
+                # saves the contents of the tag temporarily, then replaces the tag contents with an html link element
                 if id is not None:
-                    # tag.contents.append("ID: " + id)
                     temp_tag_contents = tag.string
                     if temp_tag_contents == None:
-                        print("NONE TAG")
-                        print(tag)
-                        print(tag.contents)
                         tag.string = tag.contents.join('')
                     tag.string = f'<a href="http://127.0.0.1:8000/organizations/{id}">{temp_tag_contents}</a>'
                 tag.unwrap()
             except:
                 print(tag)
-            # TODO add id's for links
 
-    s = ''
-
-    # add breaks
+    # inserts a string at each page break xml tag to be used to split up the xml file by page later
+    # also adds the page name
+    # page names are later used as keys in the dictionary of all the pages as strings
     for tag in soup.find_all('pb'):
         page_name = tag.get('facs')
-        print(page_name)
         tag.string = '{BREAK}' + page_name + '{TEXT}:'
 
+    # grabs the text section of the xml file
     document = soup.find('text')
 
-    pages_list = (str(document)).split('{BREAK}')
-
+    # casts the xml tree to a string
+    # cleans up the string created from the xml
     x = str(document)
-
     x = x.replace('<lb></lb>', '\n')
     x = x.replace('&amp', '&')
 
+    # cleans up encoding problems and gets rid of anything between < and >
     clean = re.sub('<[^>]+>', '', x)
-
     clean = clean.replace('&lt;', '<')
     clean = clean.replace('&gt;', '>')
 
+    # splits the string by page into a list of strings
+    # each string in the list represents a page of the original document
     z = (clean.split('{BREAK}'))
 
+    # removes extra whitespace at the beginning of each page
     for i in range(len(z)):
         formatted_page = re.sub("\s+", ' ', z[i])
         z[i] = formatted_page
 
+    # adds each page to pages_dict with the page name as the key
     pages_dict = {}
     for i in range(len(z)):
         try:
@@ -487,31 +437,26 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
         except:
             print(z[i])
 
-
+    # turns the dictionary into a list
     data = []
     page_names_list = []
     for i in pages_dict:
         page_names_list.append(i)
         data.append(pages_dict[i])
 
+    # gets the final page of the manuscript, used to keep users from clicking to a page that doesn't exist when using the next button on the page
     final_page = page_names_list[-1]
     try:
         text = (pages_dict[page_name_input])
     except:
-        return 'Page not found' #TODO IMPROVE THIS maybe wrap the whole thing in try/except block?
+        return 'Page not found' #TODO IMPROVE THIS
 
+    # gets the title of the page
     title = page_name_input
 
+    # determines if the pages are labelled using 2 or 3 digits, ex: Page_01 or Page_001
     digits = final_page.split('_')[-1]
-
     num_page_digits = len(digits)
-
-    print(manuscript_name)
-    print(hc_or_swat)
-
-    manuscript_name_short = hc_or_swat + '/linked_'
-
-
 
     return templates.TemplateResponse('page_new.html',{'request': request, 'text': text, 'title': title,
                                                                            'page_name': page_name_input,
@@ -523,8 +468,8 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
 # old test
 @app.get('/linked_and_paginated_test')
 def linked_and_paginated_test(request: Request):
-    soup = BeautifulSoup(open('''/Users/simon/PycharmProjects/DigitalScholarship/Penn's Treaty/penn-treaty-v2/tei_xml_files/swarthmore/SW_JC1797.xml'''), 'lxml')
-
+    #soup = BeautifulSoup(open('''/Users/simon/PycharmProjects/DigitalScholarship/Penn's Treaty/penn-treaty-v2/tei_xml_files/swarthmore/SW_JC1797.xml'''), 'lxml')
+    soup = BeautifulSoup(open('''/Users/simon/PycharmProjects/DigitalScholarship/Penn's Treaty/penn-treaty-v2/tei_xml_files/haverford/hv_swaynej_diary_1798.xml'''),'lxml')
     # TODO get rid of line breaks?
     for tag in soup.find_all('lb'):
         tag.decompose()
@@ -538,9 +483,6 @@ def linked_and_paginated_test(request: Request):
                     # tag.contents.append("ID: " + id)
                     temp_tag_contents = tag.string
                     if temp_tag_contents == None:
-                        print("NONE TAG")
-                        print(tag)
-                        print(tag.contents)
                         tag.string = tag.contents.join('')
                     tag.string = f'<a href="http://127.0.0.1:8000/people/{id}">{temp_tag_contents}</a>'
                 tag.unwrap()
@@ -551,32 +493,24 @@ def linked_and_paginated_test(request: Request):
             if tag.string == 'checkPlace':
                 tag.decompose()
             else:
-                print(tag.get('key'))
                 id = tag.get('key')
                 try:
                     if id is not None:
                         # tag.contents.append("ID: " + id)
                         temp_tag_contents = tag.string
                         if temp_tag_contents == None:
-                            print("NONE TAG")
-                            print(tag)
-                            print(tag.contents)
                             tag.string = tag.contents.join('')
                         tag.string = f'<a href="http://127.0.0.1:8000/places/{id}">{temp_tag_contents}</a>'
                     tag.unwrap()
                 except:
                     print(tag)
         elif tag.name == 'orgName':
-            print(tag.get('key'))
             id = tag.get('key')
             try:
                 if id is not None:
                     # tag.contents.append("ID: " + id)
                     temp_tag_contents = tag.string
                     if temp_tag_contents == None:
-                        print("NONE TAG")
-                        print(tag)
-                        print(tag.contents)
                         tag.string = tag.contents.join('')
                     tag.string = f'<a href="http://127.0.0.1:8000/organizations/{id}">{temp_tag_contents}</a>'
                 tag.unwrap()
@@ -589,7 +523,6 @@ def linked_and_paginated_test(request: Request):
     # add breaks
     for tag in soup.find_all('pb'):
         page_name = tag.get('facs')
-        print(page_name)
         tag.string = '{BREAK}' + page_name + '{TEXT}:'
 
     document = soup.find('text')
@@ -620,11 +553,10 @@ def linked_and_paginated_test(request: Request):
         except:
             print(z[i])
 
-    text = pages_dict['SW_JC1797_Page_06']
+    text = pages_dict['hv_swaynej_diary_1798_013']
 
     text = '<p>' + text
     text = text + '</p>'
-    print(text)
 
 
     return templates.TemplateResponse('linked_and_paginated_test.html', {'request': request, 'text': text})
