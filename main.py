@@ -513,7 +513,7 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
 
 
 
-    return templates.TemplateResponse('text_and_image_pageview_test.html',{'request': request, 'text': text, 'title': title,
+    return templates.TemplateResponse('page_new.html',{'request': request, 'text': text, 'title': title,
                                                                            'page_name': page_name_input,
                                                                            'final_page': final_page,
                                                                            'num_page_digits': num_page_digits,

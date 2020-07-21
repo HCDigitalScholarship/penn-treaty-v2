@@ -1,0 +1,1722 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?><?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?><?xml-stylesheet type="text/css" href="global.css"?><html><body><tei xmlns="http://www.tei-c.org/ns/1.0">
+<teiheader>
+<filedesc>
+<titlestmt>
+<title>Some Account of our Journey to Cannandaigue: An Electronic Collection</title>
+<editor>Friends Historical Library of Swarthmore College</editor>
+<respstmt>
+<resp>TEI Markup done by</resp>
+<name>Julian Turner</name>
+</respstmt>
+</titlestmt>
+<extent>ca.141 KB</extent>
+<publicationstmt>
+<publisher>Friends Historical Library of Swarthmore College</publisher>
+<address>
+<street>500 College Avenue</street>
+<addrline>Swarthmore, Pennsylvania</addrline>
+<postcode>19081</postcode>
+<country>United States of America</country>
+</address>
+<availability status="free">
+<p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+<p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+<p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+</availability>
+<date when="2014">2016</date>
+<idno type="local">hv_bacond_account_1794</idno>
+</publicationstmt>
+<seriesstmt>
+<title level="s" type="project">Native Americans and Quakers</title>
+</seriesstmt>
+<sourcedesc>
+<msdesc>
+<msidentifier>
+<institution>Special Collections, Haverford College</institution>
+<collection></collection>
+<idno>MC.975.01.003</idno>
+</msidentifier>
+<physdesc>
+<p>pp.</p>
+</physdesc>
+</msdesc>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<projectdesc>
+<p>This manuscript is housed in Special Collections, Haverford College. </p>
+</projectdesc>
+<editorialdecl>
+<p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases.
+                </p>
+</editorialdecl>
+</encodingdesc>
+<profiledesc>
+<creation>Original written in 1794<date></date></creation>
+<langusage>
+<language ident="en">English</language>
+</langusage>
+<textclass>
+<keywords scheme="#lcsh">
+<list>
+<item>Six Nations -- History</item>
+<item>Society of Friends -- New York (State)</item>
+<item>Society of Friends -- Missions</item>
+<item>Indians of North America -- Missions</item>
+</list>
+</keywords>
+</textclass>
+</profiledesc>
+</teiheader>
+<text>
+<div type="undetermined">
+<pb facs="hv_bacond_account_1794_001" n="1"></pb>
+<pb facs="hv_bacond_account_1794_002" n="2"></pb>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_003" n="3"></pb>
+                Some account of our journey to Cannandaigue
+
+                <dateline><date when="1794-07-15">15 of the 7 month 1794</date><placename key="checkPlace"></placename></dateline>
+<p> Believing it Right to Attend a Treaty to be Held with <lb></lb>the <a href="http://127.0.0.1:8000/organizations/sxntns">Six Nation Indians<orgname key="sxntns"></orgname></a>, <a href="http://127.0.0.1:8000/people/cpic">Timothy
+                        Pickerin<persname key="cpic"></persname></a> Being Commisoner <lb></lb><a href="http://127.0.0.1:8000/people/jparr1">John
+                        Parrish<persname key="jparr1"></persname></a>
+<a href="http://127.0.0.1:8000/people/wsave1">William Savery<persname key="wsave1"></persname></a>
+<a href="http://127.0.0.1:8000/people/jemle1">James Emlen<persname key="jemle1"></persname></a> and myself <lb></lb> set of on our
+                    journey the 15 of the 7 month 1794<lb></lb> we staid at <a href="http://127.0.0.1:8000/people/chain1">Casper Hainses<persname key="chain1"></persname></a>. <a href="http://127.0.0.1:8000/places/germa">Germantown<placename key="germa"></placename></a>
+                    Refreshed our selves<lb></lb> the weather Being very warm then rode 14 m to
+                        <a href="http://127.0.0.1:8000/people/jpott2">Joseph Pottses<persname key="jpott2"></persname></a><lb></lb>. Dined there, from
+                    were we Rode to <a href="http://127.0.0.1:8000/people/trutt1">Thomas Rutters<persname key="trutt1"></persname></a> 16 miles</p>
+<lb></lb>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-16">the 16</date><placename key="readi"></placename></dateline>
+<p> Lodged there the 16 we Left <a href="http://127.0.0.1:8000/people/trutt1">T:R<persname key="trutt1"></persname></a> Rode to
+                        <a href="http://127.0.0.1:8000/places/readi">Reding<placename key="readi"></placename></a> 19 miles<lb></lb> staid there all
+                    night - at <a href="http://127.0.0.1:8000/people/sjack1">Samuel Jackson<persname key="sjack1"></persname></a>'s </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-17">17</date><placename key="checkPlace"></placename></dateline>
+<p> we Rode to <a href="http://127.0.0.1:8000/people/mlee1">Mordica Lee<persname key="mlee1"></persname></a> 10 miles, got Breakfast
+                    Rode to <a href="http://127.0.0.1:8000/places/carte">Carters Town<placename key="carte"></placename></a><lb></lb> 9 miles, dined then
+                    to <a href="http://127.0.0.1:8000/people/rstev1">Stevenses<persname key="rstev1"></persname></a> 8 miles from thence to the
+                        <a href="http://127.0.0.1:8000/people/widdho">Widdow Hollow<persname key="widdho"></persname></a>,<lb></lb> 9 miles lodges there
+                    were well entertained. </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-18">18th</date><placename key="catta"></placename></dateline>
+<p> we set out early <lb></lb>rode 6 miles to <unclear>Devout Thrathes</unclear> got our
+                    breakfast of venson.<lb></lb> Rode a 11 miles to <a href="http://127.0.0.1:8000/places/laden">Ladenburg<placename key="laden"></placename></a> as got dinner on fryed poork.<lb></lb> Then to <a href="http://127.0.0.1:8000/places/catta">Catewising<placename key="catta"></placename></a> 13 miles. Lodged at <a href="http://127.0.0.1:8000/people/jmyer1">John Myers<persname key="jmyer1"></persname></a>
+</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-19">19</date><placename key="mcalv"></placename></dateline>
+<p> we crossed <a href="http://127.0.0.1:8000/places/susqueh">Susquehanna<placename key="susqueh"></placename></a> Rode 11 miles to
+                        <a href="http://127.0.0.1:8000/people/hwats1">Hugh Watson<persname key="hwats1"></persname></a>s, dined on bread and
+                    butter then rode 9 miles to Mc <lb></lb>Calvery, got some fryed Mutton the to
+                        <a href="http://127.0.0.1:8000/people/welli1">William Ellis<persname key="welli1"></persname></a>es, 5 miles.<lb></lb> stayed with
+                    his wife and children all night he being in <a href="http://127.0.0.1:8000/places/phila">Philad<placename key="phila"></placename></a>. </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-20">20</date><placename key="allun"></placename></dateline>
+<p> went to <a href="http://127.0.0.1:8000/people/swall1">Samuel Wallise<persname key="swall1"></persname></a>, at <a href="http://127.0.0.1:8000/places/muncy">Muncy<placename key="muncy"></placename></a> from thence to <a href="http://127.0.0.1:8000/people/wharr1">Mary
+                        Harris<persname key="wharr1"></persname></a>'s<lb></lb> 9 miles with <a href="http://127.0.0.1:8000/people/wsave1">savery<persname key="wsave1"></persname></a> being poorly we stayed there all night </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-21">21</date><placename key="block"></placename></dateline>
+<p> we left there Rhode to <a href="http://127.0.0.1:8000/people/jkyle1">Kiyles<persname key="jkyle1"></persname></a> 16 miles got
+                    dinner then to <lb></lb> the <a href="http://127.0.0.1:8000/places/block">Block House<placename key="block"></placename></a> 22 miles
+                    moved a bad rode which occasioned<lb></lb> us to be within night. Before we got
+                    there, we crossed <lb></lb><a href="http://127.0.0.1:8000/places/lycom3">Moccomming<placename key="lycom3"></placename></a> 9 Time
+                    &amp; Trout Run 32, in the way <lb></lb>there <lb></lb><pb facs="hv_bacond_account_1794_004" n="4"></pb> the hearing a dog
+                    bark was the most pleasing I had ever known.<lb></lb> Before when we got there
+                        <unclear>J.</unclear> inquired of the woman of the house<lb></lb> what she had
+                    to eat. She informed us they had no bread nor<lb></lb> meat milk nor butter nor
+                    sugar but she had some meal &amp; Elks<lb></lb> fat of which she made some cakes,
+                    which with some<lb></lb> weak coffee we maid a good supper Tyed our horses to<lb></lb>
+                    the trough, for there was no Stable nor Hay, Laid down on the floor.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-22">22</date><placename key="checkPlace"></placename></dateline>
+<p> Got up before day fed our horses with oats set off as soon as<lb></lb> we could see
+                    to travel through a very bad rode with mud homes<lb></lb> &amp; roots for all miles
+                    arrived at <a href="http://127.0.0.1:8000/places/tioga">Tyoage<placename key="tioga"></placename></a> a pretty wide stream.<lb></lb>
+                    Stopt &amp; Tied our horses Eat some Breakfast then rode; 12 miles<lb></lb> to
+                        <a href="http://127.0.0.1:8000/people/wcart1">William Carter<persname key="wcart1"></persname></a>s that being the First House
+                    since we left<lb></lb> the <a href="http://127.0.0.1:8000/places/block">Block House<placename key="block"></placename></a>. Dineed
+                    there, then to <a href="http://127.0.0.1:8000/people/probe2">Peter Robertses<persname key="probe2"></persname></a>'s 8 miles<lb></lb>
+                    lodged there all night had nothing for supper but some of my Elk<lb></lb> cake which
+                    I got at the <a href="http://127.0.0.1:8000/places/block">Block House<placename key="block"></placename></a> &amp; Milk.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-23">23</date><placename key="bath"></placename></dateline>
+<p>we left there early<lb></lb> rode 14 miles to <a href="http://127.0.0.1:8000/people/dcook1">David
+                        Cook<persname key="dcook1"></persname></a>, <a href="http://127.0.0.1:8000/people/ncook2">Nan Cook's<persname key="ncook2"></persname></a> nephew got
+                    dinner<lb></lb> then to the <a href="http://127.0.0.1:8000/places/ppost">painted post<placename key="ppost"></placename></a> 8 miles
+                    then to <a href="http://127.0.0.1:8000/places/bath">Bath<placename key="bath"></placename></a> 17 miles lodged<lb></lb> there at
+                        <a href="http://127.0.0.1:8000/people/dunn1">Dunn<persname key="dunn1"></persname></a>'s.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-24">24</date><placename key="canla"></placename></dateline>
+<p>Setout in the morning had 23 miles to the first<lb></lb> house, where we got dinner,
+                    the man's name as I remember<lb></lb> is <a href="http://127.0.0.1:8000/people/wbeve1">Wm Beven<persname key="wbeve1"></persname></a>.
+                    From there we rode 6 miles to <a href="http://127.0.0.1:8000/people/jmadc1">Matcalf<persname key="jmadc1"></persname></a>s,
+                    the<lb></lb> head of <a href="http://127.0.0.1:8000/places/canla">Cannandaigue Lake<placename key="canla"></placename></a> Lodged
+                    there was well entertained.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-25">25</date><placename key="canan"></placename></dateline>
+<p> Left there in the morning rose to <a href="http://127.0.0.1:8000/people/egilb2">Elias
+                        Gilberts<persname key="egilb2"></persname></a> 12 miles Dineed<lb></lb> there then rode to <a href="http://127.0.0.1:8000/places/canan">Cannandaigue<placename key="canan"></placename></a> 10 miles, we rode up the<lb></lb> town met
+                    with Genl <a href="http://127.0.0.1:8000/people/ichap2">Israel Chapins<persname key="ichap2"></persname></a> &amp; he informed
+                    us<lb></lb> had provided lodgings for us which we found was <lb></lb> a great Servis to
+                    us the man and his wife were kind &amp; entertained<lb></lb> us well for that county
+                    his name was <a href="http://127.0.0.1:8000/people/jfris1">James D Fish<persname key="jfris1"></persname></a>
+<gap></gap></p>
+<pb facs="hv_bacond_account_1794_005" n="5"></pb>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-26">26</date><placename key="canan"></placename></dateline>
+<p>Ive spent the day with <a href="http://127.0.0.1:8000/people/cpic">Coll Pickrin<persname key="cpic"></persname></a> &amp; in
+                    conversation with<lb></lb> the <a href="http://127.0.0.1:8000/organizations/oneida">onida Indians<orgname key="oneida"></orgname></a>= that
+                    tribe haveing got there, the other tribes<lb></lb></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-27">27</date><placename key="canan"></placename></dateline>
+<p> not come we were informed that 2 runners we arived who Brought<lb></lb> word that
+                    the Other Tribese of Indians were Expected in 5 or 6<lb></lb> Days which looked a
+                    long time to weight, the morning being<lb></lb> Raney we spent the most of the day
+                    at our lodging were informed <lb></lb>there was abought 160 of the <a href="http://127.0.0.1:8000/organizations/oneida">onida<orgname key="oneida"></orgname></a> tribe there </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-28">28</date><placename key="canan"></placename></dateline>
+<p> Being first day we had 2 Meetings with the inhabitance which<lb></lb> we solled the
+                    people behaved in a very becomeing Manner<lb></lb> &amp; the Meetings were larger
+                    than we Expected being abought<lb></lb> 100 People there. </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-29">29</date><placename key="canan"></placename></dateline>
+<p> we Visited the indians in there camps &amp; spent the remainder<lb></lb> of the Day
+                    at our Lodgings</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-07-30">30</date><placename key="canan"></placename></dateline>
+<p> we went to see <a href="http://127.0.0.1:8000/people/alaph1">Abraham Laphams<persname key="alaph1"></persname></a> &amp; his
+                    family who lives<lb></lb> 5 miles from <a href="http://127.0.0.1:8000/places/canan">Candorgue<placename key="canan"></placename></a>
+                    whose wife and children are Members<lb></lb> of <a href="http://127.0.0.1:8000/organizations/meethoosi">Husick
+                        Monthly Meeting<orgname key="meethoosi"></orgname></a> abought 220 miles from hence<lb></lb> hath 7 children.
+                    Both <a href="http://127.0.0.1:8000/people/alaph1">Abraham<persname key="alaph1"></persname></a> &amp; his wife were sober &amp;
+                    kind<lb></lb> were glad to see us we had a meeting in the evening with<lb></lb>the
+                    family and the neighbours being abought 20 present they were<lb></lb> pleased with
+                    the opportunity we were informed <a href="http://127.0.0.1:8000/people/alaph1">abraham<persname key="alaph1"></persname></a> was
+                    disowned<lb></lb> for removing their on which account he appeared Concerned
+                    <lb></lb></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-01">10 o/m 1</date><placename key="canan"></placename></dateline>
+<p> went to See <a href="http://127.0.0.1:8000/people/ncoms1">Nathan Comstock<persname key="ncoms1"></persname></a> &amp; wife 2 miles
+                    from <a href="http://127.0.0.1:8000/people/alaph1">Abrahams Nathan<persname key="alaph1"></persname></a> &amp; wife &amp;
+                    several children are members of the same <lb></lb> meeting as <a href="http://127.0.0.1:8000/people/alaph1">Abrahams<persname key="alaph1"></persname></a>, is a sober &amp; kind friend we spent some<lb></lb> time
+                    with them then returned to our lodging the Land we<lb></lb> rode over was very good
+                    but wanted streams of water</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-02">2</date><placename key="canan"></placename></dateline>
+<p> visited <a href="http://127.0.0.1:8000/people/wingl1">william Engles<persname key="wingl1"></persname></a> &amp; family 2 miles
+                    from <a href="http://127.0.0.1:8000/places/canan">Candoigue<placename key="canan"></placename></a><lb></lb> His wife &amp; children
+                    we understand belongs to <a href="http://127.0.0.1:8000/organizations/meethorsh">Horsham<orgname key="meethorsh"></orgname></a><lb></lb> Mly
+                    meeting She is <a href="http://127.0.0.1:8000/people/ethom1">Evan Thomas<persname key="ethom1"></persname></a>es Brothers Daughter
+                    &amp;<lb></lb> we drank tea with them. Returned to <a href="http://127.0.0.1:8000/places/canan">Cannadoique<placename key="canan"></placename></a>
+</p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_006" n="6"></pb>
+<dateline><date when="1794-10-03">3</date><placename key="canan"></placename></dateline>
+<p> Went a Fishing in the morning caught but Few Fish<lb></lb> Visited <a href="http://127.0.0.1:8000/people/ichap2">General Chapin<persname key="ichap2"></persname></a> then went to the <a href="http://127.0.0.1:8000/people/tmorr1">Morris<persname key="tmorr1"></persname></a> es to see<lb></lb>
+<a href="http://127.0.0.1:8000/people/cpic">Coll Pickering<persname key="cpic"></persname></a> drank tea with them, spent the
+                    evening there. </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-04">4</date><placename key="canan"></placename></dateline>
+<p> Snowed this morning until near noon <a href="http://127.0.0.1:8000/people/rtaft1">Rubin Taft<persname key="rtaft1"></persname></a>
+                    who<lb></lb> when at home lives at Unbridg in New England 400 miles<lb></lb> from this
+                    place. Set of for his home with <a href="http://127.0.0.1:8000/people/charf1">Charles
+                        Harford<persname key="charf1"></persname></a><lb></lb> Purposed to go as far as <a href="http://127.0.0.1:8000/places/genev">Genave<placename key="genev"></placename></a> 15 miles <a href="http://127.0.0.1:8000/people/charf1">Charles <persname key="charf1"></persname></a> is
+                    an English<lb></lb> man lately from <a href="http://127.0.0.1:8000/places/liver">Liverpool<placename key="liver"></placename></a>
+<a href="http://127.0.0.1:8000/people/rtaft1">Rubin<persname key="rtaft1"></persname></a> our Landladys father &amp;<lb></lb> appeared
+                    very friendly invited us kindly to his house if we<lb></lb> should come near him Ive
+                    dined at the <a href="http://127.0.0.1:8000/people/tmorr1">Morris<persname key="tmorr1"></persname></a>es with <a href="http://127.0.0.1:8000/people/cpic">Coll  Pickering<persname key="cpic"></persname></a>
+<a href="http://127.0.0.1:8000/people/ichap2">Gentl Chapin<persname key="ichap2"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/haupa1">Capt
+                        Hendricks<persname key="haupa1"></persname></a> an Indian spent<lb></lb> the afternoon there, the 1 of the
+                    week the Grown in many places</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-05">5</date><placename key="canan"></placename></dateline>
+<p> covered with snow which made it appear Heavey to be<lb></lb> detained the Indians
+                    not like to be here for 5 or 6 Days<lb></lb> was some tryal of Patience, we had a
+                    Meeting to which<lb></lb> several Friends from the Country came &amp; some people of
+                    <lb></lb> the the Town which was a Setisfactory Meeting.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-06">6</date><placename key="canan"></placename></dateline>
+<p> i spent this day mostly at my lodging my companions<lb></lb> went to see a family
+                    who lived 2 miles from town <lb></lb>whose name was <a href="http://127.0.0.1:8000/people/whitec1">Whitecar<persname key="whitec1"></persname></a> descended from Friends</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-07">7</date><placename key="canan"></placename></dateline>
+<p> set out this morning for <a href="http://127.0.0.1:8000/people/jwilk1">Jemimah Wilkinson<persname key="jwilk1"></persname></a>
+                    Settlement<lb></lb> 23 miles from our Lodging. Rode to <a href="http://127.0.0.1:8000/people/egilb2">Elias
+                        Gilbert<persname key="egilb2"></persname></a>s 10 miles.<lb></lb> Dined ther then rode to <a href="http://127.0.0.1:8000/people/wpott1">William Potter<persname key="wpott1"></persname></a>s 10 miles lodged <lb></lb> there was very
+                    kindly entertained by him &amp; his children</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-08">8</date><placename key="canan"></placename></dateline>
+<p> Stayed for brakefast then rode to <a href="http://127.0.0.1:8000/people/jwilk1">Jeminmas<persname key="jwilk1"></persname></a>
+                    Stayed abought<lb></lb> 2 hours, had Some conversation with her &amp; <a href="http://127.0.0.1:8000/people/rmell1">Rachel Mellon<persname key="rmell1"></persname></a><lb></lb>to But Little Satisfaction.
+                    Returned to our kind Friend<lb></lb>
+<a href="http://127.0.0.1:8000/people/wpott1">Potter<persname key="wpott1"></persname></a>s got dinner then returned to our lodgings.<lb></lb>
+<a href="http://127.0.0.1:8000/people/wpott1">Potter<persname key="wpott1"></persname></a> hath Separated from <a href="http://127.0.0.1:8000/people/jwilk1">Jemima<persname key="jwilk1"></persname></a> thinks her Scheam was<lb></lb> that of Interest
+                    She appears to Loose Credit with the People. </p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_007" n="7"></pb>
+<dateline><date when="1794-10-09">9</date><placename key="canan"></placename></dateline>
+<p><del>I Stayed Mostly at my Lodgings my Companions Rode out <lb></lb>2 miles to See a
+                        Family of the Name of Whitecur who Descended <lb></lb>from Friends</del></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-09">9</date><placename key="canan"></placename></dateline>
+<p>
+<a href="http://127.0.0.1:8000/people/jparr1">John Parish<persname key="jparr1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/jemle1">James
+                        Emlen<persname key="jemle1"></persname></a> rode out to meet the Indians who are<lb></lb> thought to Be
+                    Near &amp; <a href="http://127.0.0.1:8000/people/wsave1">william Savery<persname key="wsave1"></persname></a> &amp; my self stayed
+                    at our<lb></lb> Lodging now near night &amp; no Indians com nor our Companions.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-10">10</date><placename key="canan"></placename></dateline>
+<p> Rained last night &amp; this morning our Companions not come<lb></lb> nor the
+                    Indians the Thoughts of being so far from home and <lb></lb>the Rodes groing worse
+                    the days Shorter made it feel very<lb></lb> heavy &amp; called for an inetees of
+                    Patience which I hope we<lb></lb> were Favoured with. we went to see <a href="http://127.0.0.1:8000/people/cpic">Coll Pickerin<persname key="cpic"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/tmorr1">Thos
+                        Morris<persname key="tmorr1"></persname></a> in the afternoon &amp; <a href="http://127.0.0.1:8000/people/jwags1">James
+                        Wagstaff<persname key="jwags1"></persname></a>, who lives in this <lb></lb>Town appears to be much like his
+                    father of an unsettled<lb></lb> disposition. Returned to our lodging no Indians nor
+                    our Friends.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-11">11</date><placename key="canan"></placename></dateline>
+<p> The <a href="http://127.0.0.1:8000/people/cpic">Coll<persname key="cpic"></persname></a> Calld on <a href="http://127.0.0.1:8000/people/wsave1">Wm
+                        Savery<persname key="wsave1"></persname></a> &amp; my self to go with him to a<lb></lb> conference with the
+                        <a href="http://127.0.0.1:8000/organizations/oneida">onida Indians<orgname key="oneida"></orgname></a>. Respecting some<lb></lb>
+                    uneaseness amongst themselves &amp; when they were<lb></lb> met together he
+                    Requested they would inform him <lb></lb>How the Dispute arose Expressing a hope he
+                    Could<lb></lb> Be helpfull in restoring Tranquilty amongst them.<lb></lb>
+<a href="http://127.0.0.1:8000/people/haupa1">Capt John<persname key="haupa1"></persname></a> after they had Consulted together
+                    Delivered<lb></lb> a very Intelagible speech after him. <a href="http://127.0.0.1:8000/people/poney1">Peter<persname key="poney1"></persname></a> a Waryer<lb></lb> spake, it appeared by them. Both they had
+                    been by <lb></lb>under influence prevailed upon by <a href="http://127.0.0.1:8000/people/psmit1">Peter
+                        Smith<persname key="psmit1"></persname></a><lb></lb> to leece him a large percel of land for a very<lb></lb>
+                    Small consideration I think 4 miles one way &amp;<lb></lb> 24 mile an other for 200
+                    dollars the year for 21 years<lb></lb> &amp; th land very good we were informed the
+                    whole<lb></lb> of there land is worth 4 dollars the acer it appeared<lb></lb> they had
+                    deffered abought this leece some being<lb></lb> for &amp; some against it which had
+                    like to<lb></lb> have brought them to Blose </p>
+<pb facs="hv_bacond_account_1794_008" n="8"></pb>
+<p>the <a href="http://127.0.0.1:8000/people/cpic">Collo<persname key="cpic"></persname></a> Took what they had to say into
+                    consideration<lb></lb> &amp; proposed to speak to them in 2 Days. we Returned to our
+                    Lodgings<lb></lb> I was Pleased with the <a href="http://127.0.0.1:8000/people/cpic">Coll.<persname key="cpic"></persname></a>
+                    advice to them Reminding them<lb></lb> that the Good Spirit who Made &amp; Placed us
+                    here, it was in<lb></lb> order that we Should Be Happy &amp; Live in Love one
+                    with<lb></lb> another which was the way to obtain it &amp;c.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-12">12</date><placename key="canan"></placename></dateline>
+<p> the week we were Informed late in the Morning that<lb></lb> the Schoolhous which we
+                    had to hold our Meeting in the<lb></lb> 2 firsts Days Before was taken up By a
+                        <a href="http://127.0.0.1:8000/organizations/presby">Prisbyteren<orgname key="presby"></orgname></a> Preacher<lb></lb> who some Times
+                    Visets that Place we Agreed if our<lb></lb> Landlord was willing we would set Down
+                    togather in his<lb></lb> House which he Readily agreed to &amp; We informed as
+                    Many<lb></lb> as we well could of the Meeting &amp; we had the Company<lb></lb> of
+                    aBought 50 &amp; it was a good Meeting &amp; I &amp; <a href="http://127.0.0.1:8000/people/wsave1">Wm.
+                        Savery<persname key="wsave1"></persname></a><lb></lb> Both Spoke, the People Behaved Soberly we informed the<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/oneida">Onida Indians<orgname key="oneida"></orgname></a> Several Being at the Meeting that
+                    we Intended<lb></lb> to go in after noon to there Camp &amp; Set with them if
+                    they<lb></lb> would inform there People which they Did &amp; we Sat<lb></lb> Down on
+                    Some Logs togather with I Believe 50 White<lb></lb> People who had got By Some Means
+                    to Know of the Meetig<lb></lb> after a Short Silence the Indians By there
+                    Interpreter Desird<lb></lb> to Sing an Hymn which we did not forbid thinking it
+                    best<lb></lb> to leave them at Liberty then abought 12 of Began &amp; Sang<lb></lb> in
+                    there own Language which I thought Exceeded any<lb></lb> thing of the Sort I had
+                    Ever Heard Before Both on account<lb></lb> of there Superior Voice &amp; the
+                    Solidity of the Manner of<lb></lb> there Doing it after they had Done <a href="http://127.0.0.1:8000/people/wsave1">Wm S<persname key="wsave1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/jparr1">J P<persname key="jparr1"></persname></a>
+                    Spake<lb></lb> in which Labor I thought they were Favoured<lb></lb> the People Behaved
+                    Very Soberly we parted from our<lb></lb> Indian Brethethren in Love &amp; Returned
+                    to our lodgings.<lb></lb> the Indians Sung an other hymn before we Parted with like
+                    Solidity </p>
+<pb facs="hv_bacond_account_1794_009" n="9"></pb>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-13">13</date><placename key="canan"></placename></dateline>
+<p> the Comissinor calld on us to go again to the <a href="http://127.0.0.1:8000/organizations/oneida">onidas
+                    <orgname key="oneida"></orgname></a> with him<lb></lb> when they were assembled he gave them some good
+                    advice<lb></lb> pointing out to them how they should conduct in the sale of
+                    there<lb></lb> Land &amp;. <a href="http://127.0.0.1:8000/people/psmit1">Peter Smith<persname key="psmit1"></persname></a>s Leace was
+                    not according to the general<lb></lb> government law, &amp; would have them Dissonul
+                    it after he had spoken to<lb></lb> them they requested we would withdraw with we did
+                    and<lb></lb> in a short time we were called; they haveing consulted amongst
+                    them<lb></lb> selves the answer to make, they mentioned several matters<lb></lb> of
+                    Dificulty wherein they Desired his assistance particularly in<lb></lb> Getting there
+                    Land again which he agreed to Do, we Returned, home<lb></lb> to our Lodging went to
+                    see <a href="http://127.0.0.1:8000/people/ichap2">general Chapin<persname key="ichap2"></persname></a> Drank tea with him<lb></lb> the
+                    Indians not yet come in only the <a href="http://127.0.0.1:8000/organizations/oneida">onidas<orgname key="oneida"></orgname></a> &amp; a
+                    few scattering ones</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-14">14</date><placename key="canan"></placename></dateline>
+<p> this Morning <a href="http://127.0.0.1:8000/people/jparr1">J.P.<persname key="jparr1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/jemele1">J.E.<persname key="jemele1"></persname></a> set out to meet the Indians who we
+                    expectd<lb></lb> were near in the after noon the <a href="http://127.0.0.1:8000/places/farme1">Farmers
+                        Brother<placename key="farme1"></placename></a> &amp; his company<lb></lb> marched in to the Town Being in
+                    all 470 men women &amp; children<lb></lb> they came in great order <a href="http://127.0.0.1:8000/people/cbran1">Capt Brant<persname key="cbran1"></persname></a> Rode in to give information<lb></lb> &amp;
+                    Rode Back to meet them he appeard to think him self as important<lb></lb> as a
+                    general at the head of a great army they Drew up at <a href="http://127.0.0.1:8000/people/ichap2">general Chapin<persname key="ichap2"></persname></a>s Dore &amp; soluted the Comissinors &amp;
+                    Genal with 3 Rounds of fire,<lb></lb> with there guns which they were well Acquipt
+                    with<lb></lb> the <a href="http://127.0.0.1:8000/people/farme1">Farmers Brother<persname key="farme1"></persname></a> made an apology
+                    for not coming sooner, to<lb></lb> which the Comnd made answer he was glad to see
+                    them safe arived<lb></lb> I would have them make there minds Easey &amp; when they
+                    were<lb></lb> Redady he should be willing to proceed to buiseness &amp; that
+                    Every<lb></lb> thing Necessary should be Provided for there accomidations: <a href="http://127.0.0.1:8000/people/cornp2">obeal<persname key="cornp2"></persname></a><lb></lb> not yet come in</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-15">15</date><placename key="canan"></placename></dateline>
+<p> Stayed mostly at our lodgings was visited by <a href="http://127.0.0.1:8000/people/richa2">John
+                        Richardson<persname key="richa2"></persname></a><lb></lb> who lives abought 40 miles from here &amp; one
+                    grant from <a href="http://127.0.0.1:8000/places/north1">Northumberland<placename key="north1"></placename></a><lb></lb> who gave us
+                    an acc.t that if yallow Fever had taken of several<lb></lb> in <a href="http://127.0.0.1:8000/places/phila">Philad.<placename key="phila"></placename></a> &amp; more in <a href="http://127.0.0.1:8000/places/charl2">Charles Town<placename key="charl2"></placename></a> &amp; <a href="http://127.0.0.1:8000/places/balti">Baltimore<placename key="balti"></placename></a>, <a href="http://127.0.0.1:8000/people/cornp2">obeal<persname key="cornp2"></persname></a> not come </p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_010" n="10"></pb>
+<dateline><date when="1794-10-16">16.</date><placename key="canan"></placename></dateline>
+<p><a href="http://127.0.0.1:8000/people/jfish2">Josiah Fish<persname key="jfish2"></persname></a> set out for his own home near
+                        <a href="http://127.0.0.1:8000/places/boston">Boston<placename key="boston"></placename></a> he hath Been<lb></lb> with us for
+                    several Days &amp; was very friendly appears to be a man<lb></lb> of understanding
+                    &amp; information is calld colonal he hath Bought land<lb></lb> abought 20 miles
+                    from this place, <a href="http://127.0.0.1:8000/people/cornp2">obeal<persname key="cornp2"></persname></a> &amp; his company came
+                    in met<lb></lb> the comissoner with the same marks of respect firing 3 round
+                    with<lb></lb> there guns after which they welcomed Each other to the council
+                    Fire<lb></lb> which I fear will not Burn so Bright as I could wish. we rote
+                    home<lb></lb> by <persname key="mshep2"><unclear>Maget Shepherd</unclear></persname>
+                    who is going to <a href="http://127.0.0.1:8000/places/phila">Philad.<placename key="phila"></placename></a>
+<a href="http://127.0.0.1:8000/people/smars1">Silas Marsh<persname key="smars1"></persname></a> a young <lb></lb>Lawyer from
+                        <a href="http://127.0.0.1:8000/places/pough">Pokipsey<placename key="pough"></placename></a> on the <a href="http://127.0.0.1:8000/places/nrive">North River<placename key="nrive"></placename></a> spent some time with us<lb></lb> hath thoughts of
+                    settleing her as we spent the afternoon in Rideing over<lb></lb> to <a href="http://127.0.0.1:8000/people/wingl1">Wm Engles<persname key="wingl1"></persname></a>es he nor his wife not being at home we
+                    spent some<lb></lb> time there in Eating Nuts of which there is great plenty Returnd
+                    to<lb></lb> our lodgings, <a href="http://127.0.0.1:8000/people/jpott1">Wm Potter<persname key="jpott1"></persname></a> &amp; 2 of his
+                    sons came to us in the evening the<lb></lb> Father stayed with us all Night More
+                    Indians Came in today no<lb></lb> Buiseness Done yet Very Trying as its likely the
+                    Trety will not End<lb></lb> this several wekks &amp; we near or Quight 320 miles
+                    from home and<lb></lb> a Very Bad Rode the Days growing shorter &amp; the water
+                    likely to Rise<lb></lb> of which there is a great many &amp; some wide &amp; deep to
+                    foard </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-17">17.</date><placename key="canan"></placename></dateline>
+<p> Honaiyowns or the <a href="http://127.0.0.1:8000/people/farme1">Farmers Brother<persname key="farme1"></persname></a> with
+                        <a href="http://127.0.0.1:8000/people/cornp2">obeal<persname key="cornp2"></persname></a> or Corn Planter and<lb></lb> Several
+                    others as <a href="http://127.0.0.1:8000/people/redja1">Red Jacket<persname key="redja1"></persname></a>
+<a href="http://127.0.0.1:8000/people/lbeard1">Little Beard<persname key="lbeard1"></persname></a> &amp;c. called to see us
+                    with<lb></lb> whome we had conversation Respecting the <a href="http://127.0.0.1:8000/places/hopw">Hopewell<placename key="hopw"></placename></a> Lands which business was <gap></gap></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-18">18.</date><placename key="canan"></placename></dateline>
+<p> the Indians Meet of the Deferent Tribes &amp; condoled Each other<lb></lb> agreable
+                    to there custom on account of the logs of some of there<lb></lb> chiefs on both
+                    sides that is the <a href="http://127.0.0.1:8000/organizations/seneca">Senecas<orgname key="seneca"></orgname></a> &amp; <a href="http://127.0.0.1:8000/organizations/oneida">Onidas<orgname key="oneida"></orgname></a> they liveing far from<lb></lb> Each other, &amp;
+                    had Lost several of note of Both Nations</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-19">19.</date><placename key="canan"></placename></dateline>
+<p> we Rode out to <a href="http://127.0.0.1:8000/people/alaph1">Abraham Laphams<persname key="alaph1"></persname></a> 5 miles we
+                    haveing appointed<lb></lb> a Meeting a <a href="http://127.0.0.1:8000/people/jsmit3">Jonathan
+                        Smith<persname key="jsmit3"></persname></a> 2 1/2 miles from <a href="http://127.0.0.1:8000/places/alaph1">Abrahams<placename key="alaph1"></placename></a> to Be that<lb></lb> Day which we had accordingly there was
+                    I Believe 50 or more <lb></lb>
+<pb facs="hv_bacond_account_1794_011" n="11"></pb> People there &amp; Behaved soberly &amp; the Meeting was to good
+                    satisfaction,<lb></lb> we Returned to <a href="http://127.0.0.1:8000/people/alaph1">Abrm Laphams<persname key="alaph1"></persname></a>
+                    stayed there all Night was Entertained with<lb></lb> Marks of Gladnys by those
+                        <unclear>(P?)</unclear> who are scattered here in the wildernys<lb></lb> we were
+                    informed there is 28 members of our society here mostly.<lb></lb> women &amp;
+                    childre, the first that came was I understand 3 years since<lb></lb> or near it they
+                    had never But one Meeting I Believe before we<lb></lb> were there &amp; that was
+                    with <a href="http://127.0.0.1:8000/people/hbarn1">Hannah Barnet<persname key="hbarn1"></persname></a> from <a href="http://127.0.0.1:8000/places/huds">Hudson<placename key="huds"></placename></a> on the<lb></lb>
+<a href="http://127.0.0.1:8000/places/nrive">North River<placename key="nrive"></placename></a>. there was a suitable Number of
+                    frds. there to hold<lb></lb> a Meeting <del>there</del> I could have But Little
+                    objection to there coming<lb></lb> the land Being so very Good &amp; likely in a
+                    short time to have Many inhabitants</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-20">20.</date><placename key="canan"></placename></dateline>
+<p> Returned to <placename key="canan"></placename>Cannandouque <a href="http://127.0.0.1:8000/people/alaph1">A
+                        Lapham<persname key="alaph1"></persname></a> with us we had a Conferince<lb></lb> in the afternoon with the
+                    Indians the Commnd Performed the<lb></lb> Seremony of Burying an Indian who had Been
+                    Killed a bought<lb></lb> a year Since by a white man; covering the grave with
+                    leaves<lb></lb> so as Never to be Seen More Placeing a String of wampum<lb></lb> with
+                    the Ralitives in his Room.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-21">21.</date><placename key="canan"></placename></dateline>
+<p> This was a Pleasent Morning But the wind geting Northwest<lb></lb> grew cold &amp;
+                    snowed fast good part of the Day there was aother<lb></lb> conference with the
+                    Indians they Exprest there satisfaction<lb></lb> with what the Commnd said to them
+                    yesterday &amp; covered all the<lb></lb> Blood &amp; opened the Road to the council
+                    fire so that we<lb></lb> May Do some Busenys we had our Epistle Read &amp;
+                    Interprated<lb></lb> to the Indians which they appeared Pleased with after that
+                        <lb></lb><a href="http://127.0.0.1:8000/people/jwilk1">Jemima Wilksonson<persname key="jwilk1"></persname></a> Made a Prety long
+                    Prayer <persname key="dwagn1"></persname>David Wagnor<lb></lb>
+<a href="http://127.0.0.1:8000/people/rmell1">Rachel Mellon<persname key="rmell1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/emell1">Enoch Mellon<persname key="emell1"></persname></a> Being there all kneeled with<lb></lb> her the
+                    Purformance was very Disagreable to me I left<lb></lb> the Place but she had
+                    something to say By way of Advice<lb></lb> to the Indians which did not prove
+                    agreable to <a href="http://127.0.0.1:8000/people/cpic">coll Pickrin<persname key="cpic"></persname></a><lb></lb> Nor the Indians I
+                    Believe. </p>
+<pb facs="hv_bacond_account_1794_012" n="12"></pb>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-22">22.</date><placename key="canan"></placename></dateline>
+<p> we had a visset by <a href="http://127.0.0.1:8000/people/jwilk1">Jemima Wilksonson<persname key="jwilk1"></persname></a>
+<a href="http://127.0.0.1:8000/people/dwagn1">David Wagnor<persname key="dwagn1"></persname></a><lb></lb>
+<a href="http://127.0.0.1:8000/people/rmell1">Rachel Mellon<persname key="rmell1"></persname></a> Elijah &amp; <a href="http://127.0.0.1:8000/people/emell1">Enoch Mellon<persname key="emell1"></persname></a>
+<a href="http://127.0.0.1:8000/people/wsave1">Wm Savery<persname key="wsave1"></persname></a> adresed <a href="http://127.0.0.1:8000/people/jwilk1">Jemma<persname key="jwilk1"></persname></a><lb></lb> By here Name which appead to strike her &amp; her
+                    Followers with<lb></lb> concern however we Entered into some close conversation
+                    with<lb></lb> them Respecting her wild Notions &amp; Conduct which she<lb></lb>
+                    indeavoured to ward of by her artful way of Evations<lb></lb> But we were very Plain
+                    with them all which went Down heavily<lb></lb> Especily with <a href="http://127.0.0.1:8000/people/rmell1">Rachel Mellon<persname key="rmell1"></persname></a> I was glad of the opportunity<lb></lb> to cleare my
+                    Selfe of them Letting them know I Believed they were<lb></lb> under Delutions
+                    &amp;c. we parted friendly to apperence our Landlord<lb></lb> who was Present
+                    exprest that he was more convinced she was<lb></lb> Rong than Ever tho he had But a
+                    Light opinion of he Before<lb></lb> no Publick Meeting with the Indians to Day the
+                        <a href="http://127.0.0.1:8000/people/cpic">Commr<persname key="cpic"></persname></a> had a Privit<lb></lb> Conferrence with the
+                    Chiefs the Purport of which we have not yet <lb></lb>Learnt </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-23">23</date><placename key="canan"></placename></dateline>
+<p> In a conferrence with <a href="http://127.0.0.1:8000/people/cjohn1">Capt John<persname key="cjohn1"></persname></a> one of the
+                        <a href="http://127.0.0.1:8000/organizations/oneida">Onidas<orgname key="oneida"></orgname></a> he said<lb></lb> the white People in
+                    Buying land of them took the advantage<lb></lb> which maid there Mind very much
+                    Troubled &amp; if they complaned<lb></lb> they the white people smoothed it over
+                    with Fair words &amp; a present<lb></lb> which Did not make there minds Easey </p>
+<p>we were at a conferrence with the <a href="http://127.0.0.1:8000/people/cpic">Comm.d<persname key="cpic"></persname></a> &amp;
+                    Indians Chiefs at<lb></lb>
+<a href="http://127.0.0.1:8000/people/tmorr">Thos Morrises<persname key="tmorr"></persname></a> House the <a href="http://127.0.0.1:8000/people/farme1">Farmers Brother<persname key="farme1"></persname></a> observed to &amp; <a href="http://127.0.0.1:8000/people/cpic">Comm.d<persname key="cpic"></persname></a><lb></lb> as he had a woman at the Council when they last
+                    met<lb></lb> meaning <a href="http://127.0.0.1:8000/people/jwilk1">Jemima<persname key="jwilk1"></persname></a>, he Requested there
+                    women might say<lb></lb> something Before they went upon Buisenys which was<lb></lb>
+                    agreed to after some time 3 women came in &amp; <a href="http://127.0.0.1:8000/people/redja1">Red
+                        Jacket<persname key="redja1"></persname></a> spoke for them to this import that as the<lb></lb> woman
+                    advised us to Repent we now Advise you <lb></lb><pb facs="hv_bacond_account_1794_013" n="13"></pb> to Repent for the White
+                    People were in the Fault for they<lb></lb> took away there Land by which they took
+                    them by the<lb></lb> Heart &amp; squeased them together that the waryers &amp;
+                    Chief<lb></lb> had told us where the Chain had gathered Rust and <lb></lb> they joyned
+                    with them in what they said and if the <a href="http://127.0.0.1:8000/people/cpic">Commd<persname key="cpic"></persname></a><lb></lb> or Presedent would do what they Desired it would
+                    Releave<lb></lb> them, and they thought they had a Right to Speake as<lb></lb> they Made
+                    the Men Both Sachims &amp; warriers.<lb></lb>
+<a href="http://127.0.0.1:8000/people/cpic">Pickring<persname key="cpic"></persname></a> informed them he had not asked the
+                    woman to<lb></lb> the Council not Did he approve of what She Said and <lb></lb>that She
+                    was not one of the People Calld Quakers the women<lb></lb> Withdrew after Takeing a
+                    Glays of Wine in a Becomeing manner<lb></lb> after the Long Conferrence Respecting
+                    the Boundaryes of there lands<lb></lb> &amp; Telling the Indians he thought the
+                    Chain was not so<lb></lb> Rusty as they apprehended howevr they must Put on
+                    some<lb></lb> Oyl &amp; Rub it of by goyning together 5 o Clock when the<lb></lb>
+                    Conferrence Ended <a href="http://127.0.0.1:8000/people/jparr1">JP<persname key="jparr1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/wsave1">WS<persname key="wsave1"></persname></a> stayd &amp; Dineed with the <a href="http://127.0.0.1:8000/people/cpic">Comr<persname key="cpic"></persname></a>
+<a href="http://127.0.0.1:8000/people/jemle1">JE<persname key="jemle1"></persname></a><lb></lb> &amp; my self Returned to our lodgings
+                    Being near Dark </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-24">24</date><placename key="canan"></placename></dateline>
+<p>Snowed near all Day lay 4 Inches or more Deep on the ground<lb></lb> Made it Look
+                    Trying to Be more than 300 miles from<lb></lb> Home &amp; know not when we should Be
+                    at liberty to go<lb></lb> no Buiseness Done to Day 2 <a href="http://127.0.0.1:8000/organizations/oneida">Oneida<orgname key="oneida"></orgname></a> Chiefs to be Buryed<lb></lb> we Stayed Mostly at our lodging
+                    with a good Degree of Patience<lb></lb> Believeing we were in the way of our Duty
+                    tho we Could<lb></lb> See But little fruits of our Labour</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-25">25</date><placename key="canan"></placename></dateline>
+<p>the Snow 7 or 8 inches Deep this Morning<lb></lb> the <a href="http://127.0.0.1:8000/people/cpic">Commi<persname key="cpic"></persname></a> Informed us last Evening that an Interpreter<lb></lb> had Come
+                    here from the British by the Desire of the Indian<lb></lb> which Much Displeased him
+                    Desired we would Be with<lb></lb> him to Day we accordingly attended with him
+                    where<lb></lb> he gave the Indians his Reasons for not <unclear>ac</unclear><lb></lb><pb facs="hv_bacond_account_1794_014" n="14"></pb> Which Were Many &amp; Such as I Believe Both Displeased and<lb></lb>
+                    Frighten the Poor Fellow Some of which were that the British<lb></lb> had prevented
+                    there Treating with them had keep the Posts on<lb></lb> the Lake &amp; Taken our
+                    Vessels Had Treated the People at Great<lb></lb> Sodas who were abought to settle
+                    there very Ill &amp; had also<lb></lb> Behaved to the Comisone las year in like
+                    manner when they<lb></lb> went to treat with Them &amp;c &amp;c &amp;c that if the
+                    United States<lb></lb> should send a Spye amongst them like this Fellow they<lb></lb>
+                    would Kick him out of Dores &amp; as the Presedent had ordered<lb></lb> him not to
+                    Treat with them if any British agent was<lb></lb> there, therefore left it to them
+                    Either to open the Council fire<lb></lb> without him or Cover it up, then we
+                    withdrew for them<lb></lb> to Consult what to Do, we were in Little time Calld
+                    in<lb></lb> &amp; <a href="http://127.0.0.1:8000/people/cornp2">Corn Plant<persname key="cornp2"></persname></a> Rose up &amp; Said he
+                    was Sorrey they had Been<lb></lb> Deceived that they were Told at <a href="http://127.0.0.1:8000/places/fstan">Fort Stanwix<placename key="fstan"></placename></a> that the<lb></lb> Americans &amp; British
+                    had Kindlied a Council Fire &amp; made<lb></lb> a Lasting Peace in the Presents of
+                    the Great Spirit &amp; that<lb></lb> he approved of it, &amp; that in time to Come
+                    they might all<lb></lb> Sett togather in Council, But he found it was a Lie,
+                    and<lb></lb> he Thanked the Comm for letting them know it &amp; that it<lb></lb> was the
+                    White Peoples Fault that the Interpreter was there<lb></lb> that they had agreed to
+                    Push him a way &amp; go on with the<lb></lb> Treaty &amp; Desired they would Give
+                    the man Some Vittles to take<lb></lb> home </p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_015" n="15"></pb>
+<dateline><date when="1794-10-26">26 &amp; 1 of the week </date><placename key="canan"></placename></dateline>
+<p>no Meeting for Worship nor But little Buisenys<lb></lb> Done as to the Treaty, only
+                    explaineing a letter the Indians got<lb></lb> Rote to <a href="http://127.0.0.1:8000/people/cbran1">Capt
+                        Brant<persname key="cbran1"></persname></a> in answer to a message he had sent them<lb></lb> By the man who
+                    Came as an Interpreter But Said the man<lb></lb> Could inform Brant of what was Done
+                    as they thought he<lb></lb> had his stomack full<lb></lb> this man Brought a message
+                    from the Westeren Indians, To<lb></lb> the <a href="http://127.0.0.1:8000/organizations/sxntns">Six
+                        nations<orgname key="sxntns"></orgname></a> wherein they mentioned they had a Great Deal<lb></lb> of
+                    Trouble of Late &amp; that the British Stoodby &amp; Did not help them<lb></lb>
+                    meaning as I Suppose the battle they had with <a href="http://127.0.0.1:8000/people/gwayne1">Gen
+                        Wayn<persname key="gwayne1"></persname></a> and wishd<lb></lb> they had Taken there Advice last year But it
+                    was not ther<lb></lb> fault that Did not, I Suppose they Blamed the British, &amp;
+                    that if<lb></lb> the United States would agree to the line made last year<lb></lb> when
+                    they were together there would be Peace &amp; wished them<lb></lb> to Return as Soon
+                    as they Could &amp; that they Proposed to hold a<lb></lb> Treaty next Spring </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-27">27</date><placename key="canan"></placename></dateline>
+<p>
+<a href="http://127.0.0.1:8000/people/sacca1">Sagorecy<persname key="sacca1"></persname></a> a <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscarora<orgname key="tuscarora"></orgname></a> Chief Calld to See us at our Lodgings<lb></lb> &amp; in
+                    Conversation mentioned as other Indians Did that the White<lb></lb> People wanted to
+                    Push them Quight of the Land I Gave him<lb></lb> a Knife which which he appeard much
+                    pleasd <a href="http://127.0.0.1:8000/people/tgree1">Thomas Green<persname key="tgree1"></persname></a><lb></lb> a white man who hath
+                    an Indian wife &amp; lives amongst them<lb></lb> Interpreted for us</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-28">28</date><placename key="canan"></placename></dateline>
+<p>had a Publick Council in which the Commisinor Informed<lb></lb> the Indians the
+                    Conditions the Chain of Friendship is to be<lb></lb> Brightened. which is that the
+                    line Between the United<lb></lb> States &amp; the <a href="http://127.0.0.1:8000/organizations/seneca">Seneca
+                        Indians<orgname key="seneca"></orgname></a> Shall be Extended as far as<lb></lb> the State of Pennsylvania
+                    Westword &amp; Southward <gap></gap><lb></lb> which we understood would Take in 800000
+                    acres <lb></lb><pb facs="hv_bacond_account_1794_016" n="16"></pb> Land which had Been at a former Treaty Seeded to
+                    the<lb></lb> United States &amp; Give them Yearly forever whilst they<lb></lb> were
+                    friends to the United States 45000 Dollars &amp; that he<lb></lb> Had Ten Thousand
+                    Dollers worth of Good, he would give<lb></lb> them to Cloath there wifes &amp;
+                    Children</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-29">29</date><placename key="canan"></placename></dateline>
+<p>no Buiseness we Dined with <a href="http://127.0.0.1:8000/people/cpic">Call Pickring<persname key="cpic"></persname></a>
+<a href="http://127.0.0.1:8000/people/smars1">Silas Marsh<persname key="smars1"></persname></a> a young Lawyer Lives on the
+                        <a href="http://127.0.0.1:8000/places/nrive">North River<placename key="nrive"></placename></a> at <a href="http://127.0.0.1:8000/places/pough">Pokipsey<placename key="pough"></placename></a><lb></lb> who lodged with us was with us at Dinner talks of
+                    Comeing<lb></lb> here to live</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-30">30</date><placename key="canan"></placename></dateline>
+<p> no Buisenss the Indians are Deliberating on the <a href="http://127.0.0.1:8000/people/cpic">Coll<persname key="cpic"></persname></a> Proposals<lb></lb> we went to See the Indian Camp it is
+                    Admirable to See how<lb></lb> soon those People can Build a Toun so as for them to
+                    live in<lb></lb> Comfortably in there way I Believe in one Day and a half<lb></lb> or 2
+                    Day they had near 300 of there houses Built, &amp; we found<lb></lb> the women at
+                    worke at Several Branches of Buiseniss Some<lb></lb> Makeing Mogasons others Betts
+                    &amp; Shifts &amp; Baskets &amp; Coocking<lb></lb> Venson Plenty the men mostly gone
+                    to Council, Deerskins stretched to Dry</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-31">31</date><placename key="canan"></placename></dateline>
+<p> no Publick Council, <a href="http://127.0.0.1:8000/people/redja1">Red Jacket<persname key="redja1"></persname></a>, <a href="http://127.0.0.1:8000/places/sacca1">Sagorecy<placename key="sacca1"></placename></a>
+<a href="http://127.0.0.1:8000/people/clear1">Clear Sky<persname key="clear1"></persname></a> &amp; one more<lb></lb> whose name not
+                    none Calld on us for some Advice after<lb></lb> Makeing Some appoligy for theres not
+                    Paying more<lb></lb> attention to us Sooner are let them know we would take<lb></lb>
+                    into Consideration whawt they had said to us &amp; give them<lb></lb> an answer,
+                    they Introduced what they had to say by<lb></lb>
+<unclear>ag</unclear>reeing we were in the Presents of the Great Spirit &amp; that<lb></lb>
+<unclear>b</unclear>elieved we were honest men &amp; there friends <lb></lb><pb facs="hv_bacond_account_1794_017" n="17"></pb> &amp; if they were now Deceived they Should never More Put<lb></lb>
+                    Confidence in men &amp; wished what they had to Say might be<lb></lb> Kept Secret.
+                        <a href="http://127.0.0.1:8000/people/hjame1">Horatis Jones<persname key="hjame1"></persname></a> was our Interpreter</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-01">11m 1th</date><placename key="canan"></placename></dateline>
+<p>the above named Indians Calld on us for our answer<lb></lb> which we gave them as
+                    hereafter mentioned</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-02">2 of 11 m</date><placename key="canan"></placename></dateline>
+<p>1 of the week had Meeting for Worship in the Schoolhouse<lb></lb> after which was a
+                    Council with the Indians they informed the<lb></lb> Comissoner they Desired to have
+                    the land from <a href="http://127.0.0.1:8000/places/joland">Johnsons Landing<placename key="joland"></placename></a> to
+                        <lb></lb><a href="http://127.0.0.1:8000/places/buffc1">Buffelo Crick<placename key="buffc1"></placename></a> Being abought 4 miles
+                    wide and 22 miles in length<lb></lb> a long <a href="http://127.0.0.1:8000/places/lakee">lake Ery
+                    <placename key="lakee"></placename></a>the Com Expressed a Desire to Retain that Piece<lb></lb> of land to
+                    Build Houses on &amp; for Vessels <unclear>&amp;</unclear> But they Informed
+                    him<lb></lb> they could not Do well without it as there fishing was there<lb></lb> so
+                    the matter was left for that Day &amp; the Indians were to Consider of it</p>
+<lb></lb>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-03">3</date><placename key="canan"></placename></dateline>
+<p>Rained this morning we Stayd at home untill noon <a href="http://127.0.0.1:8000/people/redja1">Red
+                        Jacket<persname key="redja1"></persname></a>
+<a href="http://127.0.0.1:8000/people/cjohn1">Capt John<persname key="cjohn1"></persname></a> &amp; Some more were to See us
+                    Beged for Run which we Refused them<lb></lb> Several Sober <a href="http://127.0.0.1:8000/organizations/oneida">Onides<orgname key="oneida"></orgname></a> we to see us also<lb></lb> abought half Past one O Clock there
+                    there Rose avery heavy Cloud <lb></lb>&amp; Blew &amp; Rained very heavily after
+                    which we went to <a href="http://127.0.0.1:8000/people/tmorr1">Thomas Morris<persname key="tmorr1"></persname></a>es &amp;
+                    Dined no Buisiness Done to Day the Indians Being Drunk<lb></lb> which was Trying we
+                    Being very Desirous to be Returning homewards<lb></lb> But the only Remedy was
+                    Patience or leave the Treaty unfinished<lb></lb> which we were not free &amp; Easey
+                    to do</p>
+<lb></lb>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-04">4</date><placename key="canan"></placename></dateline>
+<p>the Council was Opened &amp; <a href="http://127.0.0.1:8000/people/redja1">Red Jacke<persname key="redja1"></persname></a> Spoke to
+                    the Buiseness<lb></lb> left under there Consideration on the 2 Inst insisting to
+                    Retain<lb></lb> the land from <a href="http://127.0.0.1:8000/places/buffc1">Buffelow Creek<placename key="buffc1"></placename></a> to
+                        &gt;<a href="http://127.0.0.1:8000/places/joland">Johnsons Landing<placename key="joland"></placename></a> which after<lb></lb> some
+                    Debate the Comm agreed to I think was to have Privelidg<lb></lb> of a Rode through
+                    it so the Treaty was agreed to on Both<lb></lb> Sides as we thought Escept Some
+                    littele matters Relative to the goods, <lb></lb><gap></gap>. </p>
+<lb></lb>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_018" n="18"></pb>
+<dateline><date when="1794-11-05">5</date><placename key="canan"></placename></dateline>
+<p> no Council Several Indians Calld to See us <a href="http://127.0.0.1:8000/people/jsken1">Seanidoe<persname key="jsken1"></persname></a> &amp; others<lb></lb> in the afternoon we Rode out to
+                        <a href="http://127.0.0.1:8000/people/cornp2">Cornplants<persname key="cornp2"></persname></a> Camp where we Saw<lb></lb>
+<a href="http://127.0.0.1:8000/people/gwagu1">Graney Wagus<persname key="gwagu1"></persname></a> an old Indian woman it was Said
+                    She is above<lb></lb> one Hundred years old lives 100 miles from here which She
+                    Traveld<lb></lb> I Believe on foot, <a href="http://127.0.0.1:8000/people/jsken1">Skenidors<persname key="jsken1"></persname></a>
+                    Daughter was to See us with a Child<lb></lb> 2 years old which Sucks we were
+                    informed by the old man that<lb></lb> they sucked there Children Some times untill
+                    they are 4 years of age<lb></lb> this man saith he is 80 years old is very active
+                    &amp; healthy our<lb></lb> landlord informed us he keeps a good Tavern in the
+                        <a href="http://127.0.0.1:8000/organizations/oneida">Onida<orgname key="oneida"></orgname></a> Settlement<lb></lb> Can furnish Travelers
+                    with a good Dish of Tea &amp; other wist But Can<lb></lb> Speake hardly any
+                    English</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-06">6</date><placename key="canan"></placename></dateline>
+<p>the <a href="http://127.0.0.1:8000/people/cpic">Comm<persname key="cpic"></persname></a> &amp; Indians in Dispute a bought a
+                    matter we thought had<lb></lb> Been settled which Makes the Time appear long as we
+                    hoped<lb></lb> to Set homewards tomorrow But now we may be Detained Several<lb></lb>
+                    Days, which makes it more Trying the weather Being very good to<lb></lb> Loose the
+                    time</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-07">7</date><placename key="canan"></placename></dateline>
+<p>to Day Spent Doing no Buiseness the Indians Chief Being too Drunk<lb></lb> the
+                        <a href="http://127.0.0.1:8000/people/cpic">Comm<persname key="cpic"></persname></a> Calld to See us this After noon Drank
+                    Tea with us<lb></lb> we had Conversation with him Respecting there Dispute it<lb></lb>
+                    appeard they were not willing to Conferm all there former Sails<lb></lb> of Lands to
+                    the westward of the lands now Ceceted Back to<lb></lb> them which we thought they
+                    had Done on 4 Day last</p>
+<lb></lb>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-08">8</date><placename key="canan"></placename></dateline>
+<p>Rained the Comm &amp; Indians in Council Trying to Settle the<lb></lb> Articles of
+                    the Treaty &amp; we waiting with anctious Desires to Set<lb></lb> of home the Rodes
+                    Being very Bad when we Came &amp; Expect<lb></lb> them worse when we Return But it
+                    appears Best to Stay untill<lb></lb> the Buiseness is finished </p>
+<pb facs="hv_bacond_account_1794_019" n="19"></pb>
+<p> we were informed they had killed 160 Cattle for the Indians<lb></lb> on an average
+                    wayed 700lb Ea</p>
+<p> this afternoon we had a Conference with the Chiefs of the several<lb></lb> Nations
+                    when it was agreed the <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscororas<orgname key="tuscarora"></orgname></a> were the
+                    original<lb></lb> owners of the land abought <a href="http://127.0.0.1:8000/places/hopw">Hopewell<placename key="hopw"></placename></a> they are a Tribe of abought<lb></lb> 300 poses no Land are
+                    Mixed with the <a href="http://127.0.0.1:8000/organizations/seneca">Senicas<orgname key="seneca"></orgname></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-09">9</date><placename key="canan"></placename></dateline>
+<p>1st of the week had a Meeting in the Schoolhouse with several friendly<lb></lb>
+                    People &amp; many Indians to good satisfactions in the after noon had<lb></lb> a
+                    Council in order to finally finnish the Treaty &amp; have the Articles<lb></lb>
+                    signed, But, <a href="http://127.0.0.1:8000/people/cornp2">Cornplant<persname key="cornp2"></persname></a> rose up &amp; said that
+                    the United States had<lb></lb> Deceived the warers if they should deceive the
+                    Sachims it would be<lb></lb> Bad for the United States had Told them at <a href="http://127.0.0.1:8000/places/fstan">Fort Stanwix<placename key="fstan"></placename></a> at New<lb></lb> York that all the Indians
+                    land was forfitied to them which had<lb></lb> ocationed much Blood to be Spilt,
+                    &amp; now the <a href="http://127.0.0.1:8000/people/cpic">Comm.<persname key="cpic"></persname></a> had told<lb></lb> them that it
+                    was not the United States &amp; wished they had known<lb></lb> it sooner which would
+                    have prevented the sheding of Blood.<lb></lb> &amp; Concluded the Warriors would not
+                    sign the Trety But the Sachims<lb></lb> might &amp; they would abide by it as long
+                    as the sachims Did<lb></lb> Right the Comm. let the Indians know he could not agree
+                    to such<lb></lb> a pertial Settlement that he would have the warers &amp;
+                    Sachims<lb></lb> sign the Articles of leave matters as they were Before this<lb></lb>
+                    was heavy work however so it was the Indians left to consider<lb></lb> of the
+                    matter</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-10">10</date><placename key="canan"></placename></dateline>
+<p>no Buiseness, <a href="http://127.0.0.1:8000/people/sacca1">Sagorsey<persname key="sacca1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/cpran1">Capt Drankup<persname key="cpran1"></persname></a> Call on us to know whether<lb></lb> they
+                    should Receive any thing for there land at <a href="http://127.0.0.1:8000/places/hopw">hopewell<placename key="hopw"></placename></a> as they thought<lb></lb> it now appeard they were the
+                    original oners we let the know<lb></lb> we would do what we could for them in the
+                    Buiseness<lb></lb> the <a href="http://127.0.0.1:8000/people/farme1">Farmers Brother<persname key="farme1"></persname></a> &amp;
+                        <a href="http://127.0.0.1:8000/people/redja1">Red Jacket<persname key="redja1"></persname></a> calld to see us<lb></lb> But
+                    Several of the Chiefs Drunk <lb></lb><pb facs="hv_bacond_account_1794_020" n="20"></pb>very Trying indeed to be Detained
+                    here by there sloathfull &amp; slow <lb></lb> way of Doing Buiseness &amp; Being so
+                    often Drunk But they are not to be<lb></lb> Hurryed</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-11">11</date><placename key="canan"></placename></dateline>
+<p>the Council Meet and agreed on the Articles &amp; they were signed<lb></lb> by the
+                    Indians Both Sachims &amp; waryers <a href="http://127.0.0.1:8000/people/cornp2">Cornplant<persname key="cornp2"></persname></a>
+                    amongst the Rest of them<lb></lb> after which we Invited the Chiefs to our Lodgings
+                    and where we had<lb></lb> a Seasonable oppertunity with them &amp; Deliverd the
+                    goods we took for<lb></lb> them and Proposed to Call in the Morning &amp; Speak to
+                    us again</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-12">12</date><placename key="canan"></placename></dateline>
+<p> which was accordingly Done &amp; they Deliverd a Speech as Incerted<lb></lb>
+                    hereafter<lb></lb> we the Prepared for home &amp; set forward abought 2 oClock
+                    pm<lb></lb> Rode 10 m to <a href="http://127.0.0.1:8000/people/egilb2">Ellis Gilberts<persname key="egilb2"></persname></a> stayed all
+                    night there</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-13">13</date><placename key="checkPlace"></placename></dateline>
+<p> left <a href="http://127.0.0.1:8000/people/egilb2">Gilberts<persname key="egilb2"></persname></a> at 5 oClock the weather Cold
+                    &amp; the ground frose got to<lb></lb>
+<a href="http://127.0.0.1:8000/people/jmadc1">Matcalfs<persname key="jmadc1"></persname></a> to Brakefast 13 miles, from thence we
+                    Rose to <a href="http://127.0.0.1:8000/people/jbeve1">Joseph Bevens<persname key="jbeve1"></persname></a><lb></lb> 6 or 7 miles
+                    arrived there near one oClock got our Dinners &amp; it Being<lb></lb> 23 miles to
+                    the next house &amp; the Rode Bad we were afraid to<lb></lb> set our that Evening so
+                    staid all night there <a href="http://127.0.0.1:8000/people/jparr1">John Parrish<persname key="jparr1"></persname></a> &amp;
+                    my<lb></lb> Self Lodged at <a href="http://127.0.0.1:8000/people/rhook1">Richard Hookere<persname key="rhook1"></persname></a> being
+                    Close by <a href="http://127.0.0.1:8000/people/jbeve1">Bevins<persname key="jbeve1"></persname></a> fared<lb></lb> Pretty well tho our
+                    Companions had But Poor Lodgings </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-14">14</date><placename key="bath"></placename></dateline>
+<p> Set of Early Rode 10 miles to a Brush Cabbin Got our Brakefast<lb></lb> &amp; fed
+                    our horses in the woods it Began to snow &amp; some already<lb></lb> on the ground
+                    we set of for <a href="http://127.0.0.1:8000/places/bath">Bath<placename key="bath"></placename></a> Being 13 or 14 miles
+                    there<lb></lb> to which Place we Got a bought 3 oClock it Continued Snowing<lb></lb> we
+                    Concluded to Stay there all night &amp; <a href="http://127.0.0.1:8000/people/cwill1">Capt
+                        Williamson<persname key="cwill1"></persname></a><lb></lb> Invited us to Lodg with him which kind offer we
+                    Imbraced</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-15">15</date><placename key="checkPlace"></placename></dateline>
+<p> Set of Early the Snow 8 inches Deep Rode to <a href="http://127.0.0.1:8000/people/corbi">Corbits<persname key="corbi"></persname></a> 6 miles<lb></lb> got Brakefast Continued Snowing Set out for
+                    the <a href="http://127.0.0.1:8000/places/ppost">Painted Post<placename key="ppost"></placename></a>,<lb></lb> 11 miles the horses
+                    Balded very Badly which made it Bad Rideing<lb></lb> Hoped there &amp; Baited our
+                    horses </p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_021" n="21"></pb>
+<dateline><date when="1794-10-31">31st 10 mo 1794</date><placename key="canan"></placename></dateline>
+<p>Four of the Sachems viz. <a href="http://127.0.0.1:8000/people/clear1">ClearSky<persname key="clear1"></persname></a>, <a href="http://127.0.0.1:8000/people/redja1">Red Jacket<persname key="redja1"></persname></a><a href="http://127.0.0.1:8000/people/sagua1">Saguaresy<persname key="sagua1"></persname></a> &amp;<lb></lb> another (whose name we were not acquainted
+                    with being a<lb></lb> deputation from the general Council of Indians who for
+                    several<lb></lb> Days past have been deliberating on the proposals made to<lb></lb> them
+                    by <a href="http://127.0.0.1:8000/people/cpic">Col. Pickering<persname key="cpic"></persname></a>, waiting on us at our Lodgings
+                    with <lb></lb>
+<a href="http://127.0.0.1:8000/people/hjone1">Horatio Jones<persname key="hjone1"></persname></a> Interpreter. they desired that
+                    as they had some<lb></lb> thing of a secret nature to communicate we would retire
+                    with<lb></lb> them to some private place, which being complyd with <a href="http://127.0.0.1:8000/people/redja1">Red  Jacket<persname key="redja1"></persname></a> addressed us nearly as follows</p>
+<floatingtext type="entry" xml:id="redja1">
+<dateline><date when="1794-10-31"></date><placename key="canan"></placename></dateline>
+<p>Brothers You see here four of use of the <a href="http://127.0.0.1:8000/organizations/sxntns">six
+                                Nations<orgname key="sxntns"></orgname></a>; who are assem-<lb></lb>bled at this place in the will
+                            of the great Spirit to transact<lb></lb> the business of the treaty, you
+                            have been waiting here a long<lb></lb> time and visited by our chiefs and as
+                            yet no marks of respect have<lb></lb> been shewn you. We understand you told
+                                <a href="http://127.0.0.1:8000/people/sagua1">Saguaresy<persname key="sagua1"></persname></a> that<lb></lb> you should not
+                            have come but at our request &amp; that you stand<lb></lb> ready to afford
+                            us any assistance which lay in your power. --</p>
+<p>Brothers we hope you will make your minds easy, as we who<lb></lb> are now
+                            here are but Children, the Anscients being diceased;<lb></lb> we know that
+                            you &amp; our forefathers transacted business together <lb></lb><pb facs="hv_bacond_account_1794_022" n="22"></pb>
+                            that you look to the great Spirit for his directions &amp; assistance
+                            &amp;<lb></lb> take no part in war. -- </p>
+<p>Brothers you all know the proposals<lb></lb> made by us to <a href="http://127.0.0.1:8000/people/cpic">Col. Pickering<persname key="cpic"></persname></a> as well as the offers made by
+                            him to us<lb></lb> we are now all in the presence of the great spirit and we
+                            place more<lb></lb> confidence in you than heretofore, as you escpressed
+                            your desire for<lb></lb> peace we now desire youre help &amp; assistance we
+                            hope you will<lb></lb> not deceive us. if you should do so, we shall no more
+                            place any <lb></lb> confidence in makind; we wish that if you know the<lb></lb>
+                            will of Congress or the extent of the commissioner's power<lb></lb> that you
+                            will candidly inform us. </p>
+<p>Brothers, We<lb></lb> Wish that what we are now communicating may be
+                            kept<lb></lb> secret. We are will to give up the four mile path from
+                                <a href="http://127.0.0.1:8000/places/joland">Johnsons Landsling<placename key="joland"></placename></a> place to
+                                <a href="http://127.0.0.1:8000/places/cayuc">Caynga Creek<placename key="cayuc"></placename></a>, the other part of
+                            it from<lb></lb> thence to <a href="http://127.0.0.1:8000/places/buffc1">Buffaloe
+                                Creek<placename key="buffc1"></placename></a> we with to reserve on account of<lb></lb> of the
+                            fisheries &amp; which would correspond with the treaty<lb></lb> held with
+                            Sir <a href="http://127.0.0.1:8000/people/wjohn3">Wm. Johnson<persname key="wjohn3"></persname></a>. We desire to know if
+                            you<lb></lb> can inform us why the triangle on <a href="http://127.0.0.1:8000/places/lakee">lake
+                                Erie<placename key="lakee"></placename></a> can not be<lb></lb> given up -- <a href="http://127.0.0.1:8000/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/cbran1">Capt.
+                                Brant<persname key="cbran1"></persname></a> who where only<lb></lb> Warrior Chiefs were the persons
+                            who attended the treaty<lb></lb> at <a href="http://127.0.0.1:8000/places/fstan">Fort
+                                Stanwix<placename key="fstan"></placename></a> &amp; they were to have sent forward the
+                            proposals<lb></lb> for our more general consideration at that time <a href="http://127.0.0.1:8000/people/oldsmo1">old smoke<persname key="oldsmo1"></persname></a><lb></lb> was alive who was a Man of
+                            great Understanding; but they<lb></lb> were threatened into a compliance in
+                            consequence of which<lb></lb>
+<a href="http://127.0.0.1:8000/people/cbran1">Capt. Wm. Brant<persname key="cbran1"></persname></a> went to <a href="http://127.0.0.1:8000/places/canad">Canada<placename key="canad"></placename></a> disireing <a href="http://127.0.0.1:8000/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> to do <lb></lb>the best he could.</p>
+</floatingtext>
+<p>They then presented seven strings of wampum &amp; with<lb></lb> drew &amp; agreed to
+                    return to hear our answer at the 3rd hour this afternoon <lb></lb><pb facs="hv_bacond_account_1794_023" n="23"></pb> The
+                    time allowed to Consider &amp; digest an answer being too Short<lb></lb> and the
+                    Indians returning rather earlier than the time appointed<lb></lb> they cheerfully
+                    proposed to leave it under our consideration<lb></lb> till tomorrow earnestly
+                    desireing we should be serious in delibera-<lb></lb>ting on it. </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-01">1st 11Mo 1794</date><placename key="canan"></placename></dateline>
+<p> This morning the same Chiefs with the Interpreter attended<lb></lb> according to our
+                    agreement of Yesterday, the following answer<lb></lb> as agreed on was communicated
+                    to them</p>
+<floatingtext type="speech">
+<dateline><date when="1794-11-01"></date><placename key="canan"></placename></dateline>
+<p> Brothers. </p>
+<p>We have considered what you said to us yesterday and<lb></lb> shall answer
+                            you in a few words. We are thankful to the the<lb></lb> great Spirit that he
+                            has preserved us in health to see each<lb></lb> others faces at this council
+                            fire; we and our Brethren at home<lb></lb> have the same good will towards
+                            you as our forefathers had<lb></lb> and are desirous to afford you any
+                            service in our power, &amp;<lb></lb> that you may cherish peace with one
+                            another and with all<lb></lb> men believing this will greatly contribute to
+                            your happiness<lb></lb> we sympathize with you in your sufferings &amp;
+                            distress, &amp; wish<lb></lb> strict Justice to be done you respecting your
+                            Lands, you<lb></lb> have been informed we can take no part in war, which
+                            is<lb></lb> one great reason why we cannot be active in civil
+                            Govern-<lb></lb>ment and therefore are not capable of Judging all of
+                            your<lb></lb> grievences, especially as the transactions at Indian Treaties
+                            of<lb></lb> late years have not fully come to our knowledge; you have<lb></lb>
+                            spoken to us respecting the piece of Land between <a href="http://127.0.0.1:8000/places/cayug1">Caynga<placename key="cayug1"></placename></a> &amp;<lb></lb>
+<a href="http://127.0.0.1:8000/places/buffc1">Buffaloe Creeks<placename key="buffc1"></placename></a>, as we are
+                            unacquainted with the Comissi-<lb></lb>oners power we can give you no
+                            satisfactory answer on that<lb></lb> subject. if it appears to be a matter
+                            of great importance to you<lb></lb> it would be proper to lay it before him;
+                            the Land you mentioned <lb></lb><pb facs="hv_bacond_account_1794_024" n="24"></pb> along <a href="http://127.0.0.1:8000/places/lakee">Lake Erie<placename key="lakee"></placename></a> you have been already acquainted that
+                            Congress<lb></lb> has sold it to Pennsylvania &amp; we do not suppose the
+                            Commisioner's<lb></lb> has power to relinquish it; it is true that the
+                            President and his<lb></lb> Counsellors have impowered a Commissioner to
+                            treat with you<lb></lb> but we thing the Government had no design to compel
+                            you,<lb></lb> you have Men amongst you of Good Understanding &amp;<lb></lb>
+                            sufficient penetration to discover what you Just rights<lb></lb> are &amp;
+                            if you minds are not easy with the proposals<lb></lb> that have been made,
+                            we make no doubt but the Ears<lb></lb> of the president &amp; the great
+                            Counsil of the united states<lb></lb> will be open to hear you &amp; to them
+                            we conceive you have<lb></lb> a right to appeal. We desire wisdom may
+                            conduce<lb></lb> your Councils that whatever is done may tend to
+                            promote<lb></lb> harmony &amp; peace. </p>
+</floatingtext>
+<p> We then returned the strings of Wampum. </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-12">11 Mo 12th 1794</date><placename key="canan"></placename></dateline>
+<p> According to the agreements of last evening about 30 or 40 of the<lb></lb> Sachems
+                    &amp; Chief warriors met at our Lodgings &amp; delivered<lb></lb> the following
+                    speech by <a href="http://127.0.0.1:8000/people/farme1">Farmers Brother<persname key="farme1"></persname></a> the chief Sachem </p>
+<floatingtext type="entry">
+<dateline><date when="1794-11-12"></date><placename key="canan"></placename></dateline>
+<p>Brothers the people called Quakers. <lb></lb>I wish you would attend
+                                    to what we who<lb></lb> are now present are about to say we speak as
+                                    one. ---</p>
+<p>Yesterday after receiving your invitation to come and<lb></lb>
+                                    partake of your presents, we agreed to meet here this
+                                    morning<lb></lb> to communicate a few words which we will now do.
+                                    --</p>
+<p>Brothers I am glad you have lengthened our your patience<lb></lb> to
+                                    see the end of the business which is now brought to a close<lb></lb>
+                                    &amp; thank the Great spirit that he preserved you in
+                                    health<lb></lb> from the time you left you seat till you arrived
+                                    here, &amp; has<lb></lb> Continued so to preserve you to this time;
+                                    we put you under<lb></lb> the protection of the same Great Spirit on
+                                    your return, <lb></lb><pb facs="hv_bacond_account_1794_025" n="25"></pb> hoping he may conduct you home in
+                                    safety &amp; that you may<lb></lb> find your friends &amp; families
+                                    well. on your return we<lb></lb> should be very happy to have that
+                                    you got safe home<lb></lb> &amp; it would be very acceptable to the
+                                    chief Now present to<lb></lb> be informed of it by letter. <lb></lb> We
+                                    give hearty thanks to the desendance of <a href="http://127.0.0.1:8000/people/wpenn1">Onas<persname key="wpenn1"></persname></a> that<lb></lb> you so willingly arose from your
+                                    seats to attend this<lb></lb> Counsil fire according to our request.
+                                    Here are the<lb></lb> articles of the Treaty for you to look over in
+                                    order to<lb></lb> impress you minds that you may tell them to
+                                    your<lb></lb> Brethren who are sitting on their seats at home.
+                                    ---</p>
+<p>Brothers You have attended this treaty a long time the<lb></lb>
+                                    articles which we have now signed. I hope you fully
+                                    under<lb></lb>stand now as we have shewn them to you we would
+                                    wish<lb></lb> to know you opinion whether we have made a good
+                                    Peace<lb></lb> or not as we cannot read. we are liable to be
+                                    deceived, as<lb></lb> you have no doubt considered them we wish to
+                                    know your<lb></lb> minds whether their be any flaw or catch in
+                                    them<lb></lb> which might hereafter occation uneasiness <lb></lb> If you
+                                    think that peace is now established on a good<lb></lb> foundation,
+                                    we wish you would come forward &amp; sign<lb></lb> the articles, as
+                                    you are a people who are desirous of<lb></lb> promoting peace &amp;
+                                    these writings are for that purpose<lb></lb> we hope you will have
+                                    no objection but all come forward &amp; put your names to them
+                                    &amp; this would be a great<lb></lb> Satisfaction.</p>
+</floatingtext>
+<pb facs="hv_bacond_account_1794_026" n="26"></pb>
+<p>from the <a href="http://127.0.0.1:8000/places/ppost">Painted Post<placename key="ppost"></placename></a> we Rode to <a href="http://127.0.0.1:8000/people/wlind1">Mary Lindley<persname key="wlind1"></persname></a>, a widdow 13 mile <lb></lb> woman who
+                    Entertained us all night very kindly as Did her<lb></lb> son our Horses, we
+                    Brakefasted with her</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-16">16</date><placename key="checkPlace"></placename></dateline>
+<p> set our Rode to <a href="http://127.0.0.1:8000/people/rdani1">Richard Daniels<persname key="rdani1"></persname></a> 5 m Baited our
+                    horses &amp; Rode<lb></lb> to <a href="http://127.0.0.1:8000/people/probe2">Peter Roberts<persname key="probe2"></persname></a> 5 m
+                    then to <a href="http://127.0.0.1:8000/people/wcart1">William Carters<persname key="wcart1"></persname></a> 6 m Lodged there<lb></lb>
+                    our next Days Ride was Trying it Being a Bought 25 miles to<lb></lb> the <a href="http://127.0.0.1:8000/places/block">Block house<placename key="block"></placename></a> which was the next the Rodes very Bad
+                    &amp; the<lb></lb> Snow 7 or 8 in Deep Boalded the horses very much no Remedy
+                    But<lb></lb> to go forward &amp; Do worse</p>
+<p> I Spread by Blanket on a Bark flore lay Down slept untill<lb></lb> near 12 oClock
+                    then got up Smoaked my Pipe lay Down a short<lb></lb> time Slept but little more
+                    that night Rose a bought 2 Prepaired<lb></lb> 7 for going forward</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-17"></date><placename key="block"></placename></dateline>
+<p>started of half past 3 Snow 7 in on the ground &amp; Cold<lb></lb> got we arived at
+                        <a href="http://127.0.0.1:8000/places/tioga">Tyoage<placename key="tioga"></placename></a> near 9 Being 13 miles or more Cold
+                    &amp;<lb></lb> hungry we Struck fire warmed our Selves Eat some Breakfast<lb></lb> fed
+                    our horses &amp; set out for the <a href="http://127.0.0.1:8000/places/block">Block house<placename key="block"></placename></a>
+                    10 or 12 miles the<lb></lb> worst Rode that Ever I Saw Being to the horses knees in
+                    mud<lb></lb> &amp; Some Places Deeper Roots &amp; Stones however we arived Safe<lb></lb>
+                    there a bought 10 oClock when I was very much worn Down<lb></lb> my Companions were
+                    for Trying to get to the next house that<lb></lb> evening But I was too Tyreed to
+                    Venture it being 20 miles at<lb></lb> Least &amp; the Rose for 5 or 6 m very Bad for
+                    we Concluded to Stay<lb></lb> all night there a Dismal Place indeed the house if it
+                    may be<lb></lb> called one open on the Top for yards of weather Cold &amp; one
+                    might<lb></lb> Put there arm Between the logs no Stable for our Tyred horses<lb></lb>
+                    nor Hay no milks Butter or Sugar we got some fryed Vanson<lb></lb> &amp; Fowl Boyld
+                    &amp; fryed in Elks fat Eat our Supers </p>
+</div>
+<pb facs="hv_bacond_account_1794_027" n="27"></pb>
+<div type="entry">
+<dateline><date when="1794-11-22">22</date><placename key="checkPlace"></placename></dateline>
+<p> Set out for <a href="http://127.0.0.1:8000/places/north1">Northumberland<placename key="north1"></placename></a>
+<a href="http://127.0.0.1:8000/people/swall1">Samuel Wallis<persname key="swall1"></persname></a> &amp; his son John with us<lb></lb>
+                    got there a bought Dark after some Deficulty Pasing the over the waters<lb></lb>
+                    Staying all night at a Tavern 30 miles there</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-23">23</date><placename key="checkPlace"></placename></dateline>
+<p>Left there &amp; Crsed the west Branch of <a href="http://127.0.0.1:8000/places/susqueh">Sucohannah<placename key="susqueh"></placename></a> to <a href="http://127.0.0.1:8000/places/sunb">Sunbury<placename key="sunb"></placename></a>
+                    Stopt<lb></lb> at <a href="http://127.0.0.1:8000/people/jwall1">Joseph Walles<persname key="jwall1"></persname></a>es got Brakefast
+                    there then Rode to <a href="http://127.0.0.1:8000/people/jyarn2">Jesse Yarnalls<persname key="jyarn2"></persname></a><lb></lb> stayed
+                    all night it Being 27 miles from <a href="http://127.0.0.1:8000/places/sunb">Sunbury<placename key="sunb"></placename></a> 17
+                    People lodged there</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-24">24</date><placename key="carte"></placename></dateline>
+<p>Set of Early Crosed <a href="http://127.0.0.1:8000/places/shamo">Shemokin<placename key="shamo"></placename></a> a Rapid Stream
+                    Rode to <a href="http://127.0.0.1:8000/places/carte">Carters town<placename key="carte"></placename></a><lb></lb> it Being 33 miles
+                    where we loded</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-25">25</date><placename key="exete"></placename></dateline>
+<p> left there Early to <a href="http://127.0.0.1:8000/people/mlee1">Mordecai Lees<persname key="mlee1"></persname></a> got Brakefast
+                    9 miles<lb></lb> from there to <a href="http://127.0.0.1:8000/places/readi">Redding<placename key="readi"></placename></a> 9 miles
+                    got our Dinner at <a href="http://127.0.0.1:8000/places/sjack1">Samuel Jackson<placename key="sjack1"></placename></a><lb></lb> the
+                    went to <a href="http://127.0.0.1:8000/people/shugh1">Samuel Hews<persname key="shugh1"></persname></a>es 8 miles Stayd with him
+                    all night</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-26">26</date><placename key="checkPlace"></placename></dateline>
+<p> left there &amp; Rose to <a href="http://127.0.0.1:8000/people/trutt1">Thomas Rutters<persname key="trutt1"></persname></a>
+                    Refreshed our Selves &amp; Set<lb></lb> out Rode to <a href="http://127.0.0.1:8000/people/jpott2">Joseph
+                        Potters<persname key="jpott2"></persname></a> Being a bought 34 miles Stayd there<lb></lb> all night</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-27">27</date><placename key="phila"></placename></dateline>
+<p> we arived Safe home to <a href="http://127.0.0.1:8000/places/phila">Phila<placename key="phila"></placename></a> with Glad harts
+                    &amp; I hope<lb></lb> Thankfull for the favours of healthy Preservation<lb></lb> Through
+                    a Trying &amp; long journey </p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_028" n="28"></pb>
+<p> Layd Down on the flores we had Something the Calld a Bed <lb></lb> where I had the
+                    Satisfaction of Seeing the Stars which was<lb></lb> Pleasing as we had snow for 3 or
+                    4 Days Past Since we left <a href="http://127.0.0.1:8000/places/canan">Cannandoque<placename key="canan"></placename></a><lb></lb> I
+                    Slept very well &amp; was Much Refreshed</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-18">18</date><placename key="checkPlace"></placename></dateline>
+<p> we willingly left the <a href="http://127.0.0.1:8000/places/block">Block house<placename key="block"></placename></a> &amp; Rode
+                    10 miles in of woods saw<lb></lb> one Bare which I Came Close to Before he saw me we
+                    then fed our<lb></lb> Horses &amp; Eat Something our Selves from thence we Rode to
+                        <a href="http://127.0.0.1:8000/people/jkyle1">James Kiles<persname key="jkyle1"></persname></a>es 10 miles<lb></lb> or more, in
+                    which from the <a href="http://127.0.0.1:8000/places/block">Block house<placename key="block"></placename></a> we had Crosed
+                        <a href="http://127.0.0.1:8000/places/trout">Trout Run<placename key="trout"></placename></a> 32 times &amp;<lb></lb>
+<a href="http://127.0.0.1:8000/places/lycom3">Laycomin<placename key="lycom3"></placename></a> 9 times our Road mended after we
+                    left the <a href="http://127.0.0.1:8000/places/allem">Allegany Mountain<placename key="allem"></placename></a> &amp; But
+                    little Snow &amp; it appeared like an other world when<lb></lb> we got to the widdow
+                        <a href="http://127.0.0.1:8000/people/wharr1">Mary Harris<persname key="wharr1"></persname></a>es where we arrived that
+                    Evening<lb></lb> Being 15 miles from <a href="http://127.0.0.1:8000/people/jkyle1">Kiles<persname key="jkyle1"></persname></a>es &amp;
+                    were Kindly Entertained with a Bountyfull<lb></lb> Table &amp; a warm house where we
+                    Stayed all night</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-19">19th</date><placename key="checkPlace"></placename></dateline>
+<p> This Morning we went to <a href="http://127.0.0.1:8000/people/swall1">Samuel Wallis<persname key="swall1"></persname></a>es 6 m
+                    Stayed there that Day<lb></lb> to Rest our Selves &amp; horses here <a href="http://127.0.0.1:8000/people/jparr1">John Parrish<persname key="jparr1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/jemle2">James
+                        Emler<persname key="jemle2"></persname></a> left<lb></lb>
+<a href="http://127.0.0.1:8000/people/wsave1">Wm. Savery<persname key="wsave1"></persname></a> &amp; my self they Purposeing to go
+                    by <a href="http://127.0.0.1:8000/places/catta">Caterwising<placename key="catta"></placename></a> &amp; we by<lb></lb>
+<a href="http://127.0.0.1:8000/places/sunb">Sunberry<placename key="sunb"></placename></a> &amp; <a href="http://127.0.0.1:8000/places/north1">Northumberland<placename key="north1"></placename></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-20">20</date><placename key="muncy"></placename></dateline>
+<p>this Day was very Rainey we stayed &amp; went to <a href="http://127.0.0.1:8000/organizations/muncym">Muncy
+                        Meeting<orgname key="muncym"></orgname></a> which was Sotted &amp; a Good one we Returned to <a href="http://127.0.0.1:8000/people/swall1">Samuel Wallis<persname key="swall1"></persname></a>es Continued Raining very fast
+                    stayd all night</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-21">21</date><placename key="checkPlace"></placename></dateline>
+<p> This morning found <a href="http://127.0.0.1:8000/people/swall1">Samuels<persname key="swall1"></persname></a> Mill dam washed
+                    away and<lb></lb> the <a href="http://127.0.0.1:8000/places/susqu">Suquahanna River<placename key="susqu"></placename></a> it was
+                    said Rose 10 feet &amp; we were<lb></lb> informed we Could not Cross the waters
+                    which was Trying<lb></lb> But Patience was necessary we Endeavoured after it &amp;
+                    Stayd<lb></lb> another night here thinking it a Favour we had got to such<lb></lb> good
+                    quarters &amp; kind frds </p>
+</div>
+<back>
+<div type="entry">
+<dateline><date when="1794-10-27">27</date></dateline>
+<pb facs="hv_bacond_account_1794_029" n="29"></pb>
+<p> for us, he is a white man tho he saith his Mother was<lb></lb> Half Indian I gave
+                    him a knife which he was much pleased<lb></lb> with <unclear>Viz</unclear> the
+                    Indian Chief</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-28"></date>28</dateline>
+<p> had a Council in Publick the <a href="http://127.0.0.1:8000/people/cpic">Coll.<persname key="cpic"></persname></a> Informed
+                    the<lb></lb> Indians the Condition on which the Chaine is to be<lb></lb> Brightened
+                    which is that the line Between the<lb></lb> United States &amp; the <a href="http://127.0.0.1:8000/organizations/sxntns">Six nations<orgname key="sxntns"></orgname></a> shall Be Extended<lb></lb> to the
+                    Pennsylvania Line west<lb></lb> as there Chiefs knew that all there lands had
+                    been<lb></lb> sold at Different times to the United States and<lb></lb> the State of
+                    Pensylvania so far westward to the<lb></lb> satisfaction of Both sides as <a href="http://127.0.0.1:8000/people/muski">Muskinggam<persname key="muski"></persname></a><lb></lb> from the upperend of <a href="http://127.0.0.1:8000/places/lakee">Lake Erey<placename key="lakee"></placename></a> Runing due South<lb></lb> to the Pennsylvania
+                    Line runing East to West<lb></lb> But would give Back all the land to them which
+                    Lies<lb></lb> Between the Line Last discribed &amp; west line of Penn.<lb></lb>
+                    containing abought or near 800000 Acres &amp; a Privelidg<lb></lb> to hunt on the
+                    western lands &amp; that the Unted<lb></lb> States would give them yearly 45000
+                    Dollars yearly<lb></lb><unclear>[?]</unclear> while they were peaceable &amp; if
+                    they agreed<lb></lb> to the Conditions he had Ten Thousand Dollars worth of<lb></lb>
+                    goods he would Give them to Cloth there wives<lb></lb>
+<gap></gap> Children</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-29"></date>29</dateline>
+<p> no business we dinned at <a href="http://127.0.0.1:8000/people/cpic">Coll Pickerings<persname key="cpic"></persname></a><lb></lb>
+                    with a young lawyer <a href="http://127.0.0.1:8000/people/smars1">Silas Marsh<persname key="smars1"></persname></a> who
+                    Boarded<lb></lb> with us &amp; lives on the <a href="http://127.0.0.1:8000/places/nrive">North
+                        River<placename key="nrive"></placename></a> near <a href="http://127.0.0.1:8000/places/pough">Pokipsy<placename key="pough"></placename></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-30">30</date></dateline>
+<p> no Business we went to the Indian Camp it is<lb></lb> admirable to see how soon
+                    those Peopel can<lb></lb> Build a Town so as <unclear>[?]</unclear> them to <gap></gap>
+</p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_030" n="30"></pb>
+<dateline><date when="1794-10-26">26</date><placename key="canan"></placename></dateline>
+<p><gap></gap> of the week no meeting for worship <gap></gap><lb></lb> Done with the Treaty only
+                    Explaining a letter<lb></lb> which the Indians got Rote to <a href="http://127.0.0.1:8000/people/cbran1">Capt Brant<persname key="cbran1"></persname></a><lb></lb> a <a href="http://127.0.0.1:8000/organizations/mohawk">Mohawok<orgname key="mohawk"></orgname></a> Chief
+                    in answer to what he had<lb></lb> sent them in his message &amp; one <a href="http://127.0.0.1:8000/people/cpic">Pickoring<persname key="cpic"></persname></a><lb></lb> had Rote him, these Indians mentioned
+                    to <a href="http://127.0.0.1:8000/people/cbran1">Brant<persname key="cbran1"></persname></a><lb></lb> that they thought if man that
+                    brought it<lb></lb> could let him know what was said<lb></lb> as they thought he had his
+                    stomach full<lb></lb> This man brought a message from <a href="http://127.0.0.1:8000/people/cbran1">
+                        Brant<persname key="cbran1"></persname></a> to the <a href="http://127.0.0.1:8000/organizations/sxntns">Six nation<orgname key="sxntns"></orgname></a>
+                    Indian<lb></lb> mentioning he had been among the westren tribes<lb></lb> that they had
+                    of late a great Dele of Troubles<lb></lb> that the British stood by &amp; would not
+                    help the[m]<lb></lb> I wished they had taken their advice but i[t]<lb></lb> was not
+                    their fault they did not, that if [the]<lb></lb> United States would agree to the
+                    line they [had]<lb></lb> made when they were to gather there woul[d be]<lb></lb> peace
+                    &amp; desired there might be a Treaty next<lb></lb> Spring at <a href="http://127.0.0.1:8000/places/buffc1">Buffelon Crick<placename key="buffc1"></placename></a>, wish them to <gap></gap><lb></lb> as soon as
+                    they could, I expect they blamed the <lb></lb>British for not takeing the
+                    advice</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-27">27</date><placename key="canan"></placename></dateline>
+<p>Saguorecy or <a href="http://127.0.0.1:8000/people/sagua1">Saguorisey<persname key="sagua1"></persname></a> an Indian
+                        Chi<unclear>ef</unclear><lb></lb> of the <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscororah<orgname key="tuscarora"></orgname></a> Nation was to see us at <unclear>our</unclear><lb></lb>
+                    Lodging with whome we had some convers<unclear>ation</unclear><lb></lb> he expressed
+                    as other of the Indians did that the<lb></lb> White people wanted to <gap></gap>
+</p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_031" n="31"></pb>
+<dateline><date when="1794-11-07">7</date><placename key=""></placename></dateline>
+<p>today spent in Doing no Bussness <gap></gap><lb></lb> Indian Chiefs Being too Drunk the
+                        <a href="http://127.0.0.1:8000/people/cpic">Coll<persname key="cpic"></persname></a><lb></lb> called to see us this afternoon
+                    Drank Tea with<lb></lb> us had Conversation with him on the Dificulties<lb></lb> the
+                    Indians started yesterday &amp; the Day before<lb></lb> they were not willing to
+                    Confirm all the<lb></lb> Sails of Agreement they heretofore made<lb></lb> of Lands to
+                    the westward of the Lands which<lb></lb> was now Ceded Back to them which we
+                    thought<lb></lb> they had agreed to on <unclear>[4?]</unclear> Day last</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-08">8</date></dateline>
+<p> Rained, understand if <a href="http://127.0.0.1:8000/people/cpic">Coll<persname key="cpic"></persname></a> &amp; Indian Chiefs
+                    are in<lb></lb> Council Trying to Settle the Articles of the Trety &amp; we<lb></lb>
+                    waiting with Anctious Desires to Set of home<lb></lb> the Roade Being very Bad when
+                    we Came &amp; Expect<lb></lb> it to be much worse when we Return, But it
+                    appears<lb></lb> Best to Stay until the Business is finnished<lb></lb> we are informed
+                    to Day they have killed 160 Cattle<lb></lb> for the Indians Mostly larg oxen on an
+                    Average<lb></lb> 700 <unclear>[?]</unclear> this afternoon we had a conference
+                    with<lb></lb> Several of the Nations Chiefs &amp; waryers of Indians who<lb></lb> agreed
+                    that the <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscororas<orgname key="tuscarora"></orgname></a> were the original<lb></lb>
+                    owners of the land a bought <a href="http://127.0.0.1:8000/places/hopw">Hopewell<placename key="hopw"></placename></a> they are
+                    a<lb></lb> Trible of abought 300. Poses no land are mixed wi[th]<lb></lb> the <a href="http://127.0.0.1:8000/organizations/seneca">Senecas<orgname key="seneca"></orgname></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-09">9th</date></dateline>
+<p> first of the week had a meeting in the Schoolhouse<lb></lb> with several friendly
+                    people &amp; many Indians<lb></lb> to good Satisfaction in the afternoon had a
+                    Council<lb></lb> in order to have the Treaty finally Concluded<lb></lb> &amp; the
+                    articles Signed But <a href="http://127.0.0.1:8000/people/cornp2">Cornplant<persname key="cornp2"></persname></a> started
+                        <unclear>ab[out?] ons</unclear>
+<lb></lb>to the waryers signing of it <gap></gap>
+</p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_032" n="32"></pb>
+<dateline><date when="1794-10-30"></date><placename key="canan"></placename></dateline>
+<p>the Men were Mostly gone to Council and<lb></lb> other ways the women were Busey Some
+                    a Cooking<lb></lb> others Sewing &amp; Makeing Baskets &amp; Mogasons<lb></lb> &amp;
+                    Venson Plenty abought there Cabins &amp; Deer<lb></lb> Skins Stretched to
+                    Dry</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-10-31">31</date><placename key="canan"></placename></dateline>
+<p>no- Council <a href="http://127.0.0.1:8000/people/redja1">Read Jacket<persname key="redja1"></persname></a>
+<a href="http://127.0.0.1:8000/people/clear1">Clearsky<persname key="clear1"></persname></a>
+<a href="http://127.0.0.1:8000/people/cobea2">obeal<persname key="cobea2"></persname></a><lb></lb> and <a href="http://127.0.0.1:8000/people/saugua1">Saguersey<persname key="saugua1"></persname></a> Calld on us to Day for Some a advice<lb></lb> after
+                    Makeing an Apoligy for there not<lb></lb> Paying more Attention to us Sooned<lb></lb>
+                    which we took into Consideration let them<lb></lb> know we would Give them an
+                    Answer<lb></lb> they Introducd what they had to say By observeing<lb></lb> we were in
+                    the Presence of the Great Spirit<lb></lb> that they Believed we were honest men<lb></lb>
+                    &amp; there Friends, if they were now Deceived<lb></lb> they should never More Put
+                    Confidence<lb></lb> in Men, they wished what they had to Say<lb></lb> Might be kept
+                    Privet, <a href="http://127.0.0.1:8000/people/hjone1">horatio Jones<persname key="hjone1"></persname></a> was<lb></lb> there
+                    interpretor</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-01">11mo 1th</date><placename key="canan"></placename></dateline>
+<p>Rained we Staid at home <a href="http://127.0.0.1:8000/people/redja1">Read Jackett<persname key="redja1"></persname></a><lb></lb>
+<a href="http://127.0.0.1:8000/people/clear1">Clarsky<persname key="clear1"></persname></a> the name of one not none <a href="http://127.0.0.1:8000/organizations/seneca">Senecas<orgname key="seneca"></orgname></a> Chiefe and<lb></lb>
+<a href="http://127.0.0.1:8000/people/sagua1">Saguorsey<persname key="sagua1"></persname></a> or Sword Bearer Chiefs of the
+                        <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscororeus<orgname key="tuscarora"></orgname></a><lb></lb> Calld at our house for
+                    an answer to what they<lb></lb> said to us yesterday which we gave them in<lb></lb>
+                    Substance as follows</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-02">2 mo</date><placename key="canan"></placename></dateline>
+<p>&amp; 1th of the week had a Meeting in the Schoolhouse<lb></lb> after which was a
+                    Council with the Indians<lb></lb> they Informed <a href="http://127.0.0.1:8000/people/cpic">Pickring<persname key="cpic"></persname></a> they Desired to have<lb></lb> the land from <a href="http://127.0.0.1:8000/places/joland">Johnsons Landing<placename key="joland"></placename></a> to <a href="http://127.0.0.1:8000/places/buffc1">Buffalow Crick<placename key="buffc1"></placename></a><lb></lb> Being a bought 4 miles wide &amp; 22 long
+                    of lake<lb></lb> the <a href="http://127.0.0.1:8000/people/cpic">Coll<persname key="cpic"></persname></a> Purposed to give them
+                        <unclear>suprevliege</unclear> to fish<lb></lb> &amp; <gap></gap> the Land for of
+                    united states <lb></lb><unclear>Left</unclear> under the
+                        <unclear>Constitution</unclear>
+</p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_033" n="33"></pb>
+<dateline><date when="1794-11-02"></date></dateline>
+<p>Indian Tribes <lb></lb>
+<a href="http://127.0.0.1:8000/organizations/seneca">Senecas<orgname key="seneca"></orgname></a> 1900 the land they Posses 4000000 acers<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/cayugaind">Cayugas<orgname key="cayugaind"></orgname></a> Posses 400 ---- 64000<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/onondaga">Onandagas<orgname key="onondaga"></orgname></a> - 500 ---- 70400<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/oneida">Oneidas<orgname key="oneida"></orgname></a> 500 Posses ---- 256000 1600 at this Treaty<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscaroras<orgname key="tuscarora"></orgname></a> 300 Mixt with the <a href="http://127.0.0.1:8000/organizations/seneca">Senecas<orgname key="seneca"></orgname></a> hold no land<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/mohawk">Mowhawks<orgname key="mohawk"></orgname></a> Removed over the Lake abought the<lb></lb>
+                    grand River &amp; of <a href="http://127.0.0.1:8000/organizations/cantb">Bay of Kanty<orgname key="cantb"></orgname></a> abought
+                    300<lb></lb> the <a href="http://127.0.0.1:8000/organizations/stockbridge">Stockbridg Indians<orgname key="stockbridge"></orgname></a> are the
+                    Remain of the Tribes<lb></lb> Formerly liveing in New England now Settled near<lb></lb>
+                    the <a href="http://127.0.0.1:8000/organizations/oneida">Oneides<orgname key="oneida"></orgname></a> abought 250 of them or 300 acers 23040<lb></lb>
+<a href="http://127.0.0.1:8000/places/broth">Brother Town<placename key="broth"></placename></a> Indians 150 Poses land
+                    73940</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-03">3</date></dateline>
+<p> Rained this morning we Staid at home untill noon<lb></lb> Several Intians Calld to
+                    See us Beged hard for them<lb></lb>
+<a href="http://127.0.0.1:8000/people/cjohn1">Capt John<persname key="cjohn1"></persname></a>
+<a href="http://127.0.0.1:8000/people/redja1">Read Jacket<persname key="redja1"></persname></a> &amp; 2 other Chiefs &amp; Several Sober<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/oneida">Onides<orgname key="oneida"></orgname></a> a Bought half Past one there Came up<lb></lb>
+                    a viry heavy Storme of wind &amp; Rane after which<lb></lb> we went to <a href="http://127.0.0.1:8000/people/tmorr1">Thomas Morris<persname key="tmorr1"></persname></a>es &amp; Dineed Before<lb></lb> we Sat of
+                    we Read our letters from <a href="http://127.0.0.1:8000/places/phila">Phila<placename key="phila"></placename></a> which<lb></lb> was
+                    Very Pleasant to here from home not have<lb></lb>ing heard anything Before since we
+                    left them<lb></lb> no Business Done to Day so many Chiefs Being<lb></lb> Drunk which was
+                    Trying we Being Very Desirous<lb></lb> of Returning homewards, But the only
+                    Remedy<lb></lb> was Patience of to leave the Treaty undone<lb></lb> which we were not
+                    free to Do</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-04">4</date></dateline>
+<p> this Day had a Councel <a href="http://127.0.0.1:8000/people/redja1">Read Jacket<persname key="redja1"></persname></a><lb></lb> Spoke
+                    to what had Been Said to them on 12th Day<lb></lb> letting the Com know thy were
+                    Desirous<lb></lb> to keep the land a long the lake from<lb></lb>
+<a href="http://127.0.0.1:8000/places/buffc1">Buffolow Crick<placename key="buffc1"></placename></a> to <a href="http://127.0.0.1:8000/places/joland">Johnsons landing<placename key="joland"></placename></a>,<lb></lb> which the Com agreed to with only<lb></lb>
+                    the use of a Rode through </p>
+</div>
+<div type="draft">
+<pb facs="hv_bacond_account_1794_034" n="34"></pb>
+<dateline><date when="1794-11-04"></date></dateline>
+<p>So the Treaty was agreed too Except Some matters<lb></lb> Respecting Inguries Done on
+                    Either Side which<lb></lb> the Com Told them might be Done Better Between<lb></lb> him
+                    &amp; Some of there Chiefs at his lodging Before<lb></lb> they Come in open Councal
+                    &amp; also how the money<lb></lb> &amp; Goods Should Be Distributed</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-05">5</date></dateline>
+<p>no Councel to Day we had Several Indians Calld<lb></lb> to See us <a href="http://127.0.0.1:8000/people/jsken1">Seanidore<persname key="jsken1"></persname></a> &amp; others in the after noon we<lb></lb>
+                    Rode our to <a href="http://127.0.0.1:8000/people/cornp2">Cornplants<persname key="cornp2"></persname></a> Camp where we Saw<lb></lb>
+<a href="http://127.0.0.1:8000/people/gwagu1">Graney Wagus<persname key="gwagu1"></persname></a> an old woman it is Said
+                    above<lb></lb> 100 years old who live one hundred miles from<lb></lb> here <a href="http://127.0.0.1:8000/people/jsken1">Seanidore<persname key="jsken1"></persname></a> Daughter was here with a Child<lb></lb> 2
+                    years old or more which She Gives Suck to &amp; the<lb></lb> old man Informed us the
+                    Indian women Some<lb></lb> times Suckeled them untill they were 4 years<lb></lb> old
+                    this man saith he is 80 years old of years very <lb></lb>active &amp; hearty keeps a
+                    good Tavern in the<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/oneida">Onida<orgname key="oneida"></orgname></a> Settlement &amp; we were Informed by
+                    our<lb></lb> Landlord one may Get a Good Dish of Tea and<lb></lb> otherwise well
+                    Entertained there tho he can Speak<lb></lb> Scarce no English</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-06">6</date></dateline>
+<p>the Indian &amp; <a href="http://127.0.0.1:8000/people/cpic">Coll<persname key="cpic"></persname></a> in Dispute a bought
+                    some<lb></lb> Little Matters Respecting which we thought<lb></lb> had Been Settled which
+                    makes the time Appear<lb></lb> longer as we hoped to Set of home tomorrow<lb></lb> But
+                    now we may be Detaind Several Days<lb></lb> the weather Being Very Good makes it
+                    Trying<lb></lb> to loose such faverable Day </p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_035" n="35"></pb>
+<dateline><date when="1794-11-09"></date></dateline>
+<p>the Treaty being finnished this Day<lb></lb>
+<a href="http://127.0.0.1:8000/people/cornp2">Cornplant<persname key="cornp2"></persname></a> Complained that the united<lb></lb>
+                    states had Deceived the waryers &amp; if they<lb></lb> should Deceive the Sachims it
+                    would<lb></lb> Be Bad he had Repetance to the Treaty<lb></lb> at <a href="http://127.0.0.1:8000/places/fstan">forte Stanwise<placename key="fstan"></placename></a> when they held up to<lb></lb> the Indians that all
+                    there Lands were<lb></lb> Forfited to the United states &amp; a large
+                        <unclear>[pesel?]</unclear><lb></lb> of there land was ceded to them which
+                    was<lb></lb> he said the Ocation of much Blood<lb></lb> Being Spilt</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-10"></date></dateline>
+<p>10 no Council to Day <a href="http://127.0.0.1:8000/people/sagua1">Sagorey<persname key="sagua1"></persname></a>
+<a href="http://127.0.0.1:8000/people/cpran1">Capt Prantup<persname key="cpran1"></persname></a><lb></lb> Calld on us to know then it
+                    would be likely<lb></lb> they should Receive any thing for there lands<lb></lb> at
+                        <a href="http://127.0.0.1:8000/places/hopw">Hopewell<placename key="hopw"></placename></a> as they thought it now
+                    appears<lb></lb> they were the original owners we Informed<lb></lb> them we would
+                    Indeavour to Do what<lb></lb> we Could for them in that Buiseness<lb></lb> they are of
+                    the <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscorora<orgname key="tuscarora"></orgname></a> Tribe 3 or 400 of them<lb></lb> the
+                        <a href="http://127.0.0.1:8000/people/farme1">Farmers Brother<persname key="farme1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/redja1">Red Jacket<persname key="redja1"></persname></a> also calld to<lb></lb> See us, in of
+                    Afternoon WS &amp; my Self went to<lb></lb> see <a href="http://127.0.0.1:8000/people/cpic">Coll
+                        Pickring<persname key="cpic"></persname></a> Several of the Sachim Drunk<lb></lb> very Trying indeed to
+                    be Detained here by there<lb></lb> Sloathfull &amp; Slow way of Doing Buiseness
+                    But<lb></lb> they are not to be Hurried</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-11"></date></dateline>
+<p> 11 the Council meet &amp; agreed on the articles &amp; they were<lb></lb> SInced By
+                    the Indians after which the Indians Chiefs Calld<lb></lb> at our lodging we had a
+                    seasonable opportunity<lb></lb> with them &amp; Delivered the goods we Took for
+                    Them</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-12"></date></dateline>
+<p> 12 we had an other Conferrence with the Chiefs at<lb></lb> there Request last night
+                    after which we got<lb></lb> Ready &amp; Set of towards home Rose as fast as<lb></lb>
+<a href="http://127.0.0.1:8000/people/egilb2">Elias Gilbert<persname key="egilb2"></persname></a> 10 miles from <a href="http://127.0.0.1:8000/places/canan">Condarqua<placename key="canan"></placename></a></p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_036" n="36"></pb>
+<dateline><date when="1794-11-13"></date></dateline>
+<p>13 Left <a href="http://127.0.0.1:8000/people/egilb2">Elias Gilberts<persname key="egilb2"></persname></a> a Bought 5 oClock in the
+                    Morning<lb></lb> Came To <a href="http://127.0.0.1:8000/people/jmadc1">Metcalfe<persname key="jmadc1"></persname></a> 13 miles Got
+                    Breakfast Set <unclear>[?]</unclear> &amp;<lb></lb> Came to <a href="http://127.0.0.1:8000/people/jbeve1">/Joseph Bivins<persname key="jbeve1"></persname></a> 6 miles got there Before one oClock<lb></lb> Being 22
+                    miles &amp; 1/2 to Both &amp; no house we agreed to Stay <lb></lb>all night,
+                        <a href="http://127.0.0.1:8000/people/jparr1">John Parish<persname key="jparr1"></persname></a> &amp; my Self lodg at
+                        <a href="http://127.0.0.1:8000/people/rhook1">Rich Hookers<persname key="rhook1"></persname></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-14"></date></dateline>
+<p>14 Left <a href="http://127.0.0.1:8000/people/jbeve1">Bivins<persname key="jbeve1"></persname></a> Rode abought 10 miles to a
+                    Brush<lb></lb> Cabin in the woods Baited our Horses Eat a little<lb></lb> Breakfast it
+                    Began to Snow &amp; Some allready on<lb></lb> the Ground we Set of for <a href="http://127.0.0.1:8000/places/bath">Bath<placename key="bath"></placename></a> Being 13 miles<lb></lb> Got there abought 3 oClock
+                    Continued Snowing<lb></lb> are Concluded to Stay all night there <a href="http://127.0.0.1:8000/people/cwill1">Capt Williamson<persname key="cwill1"></persname></a> Kindly Invited us to Lodg<lb></lb>
+                    with him which we Imbraced.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-15"></date></dateline>
+<p>15th Left <a href="http://127.0.0.1:8000/places/bath">Bath<placename key="bath"></placename></a> Early in of Morning Rode to
+                        <a href="http://127.0.0.1:8000/people/corbi">Corbits<persname key="corbi"></persname></a><lb></lb> 6 miles, Got Brakefast Snowed
+                    all the way Being<lb></lb> abought 8 in Deep &amp; the horses Balded Badly
+                    continued<lb></lb> Snowing Set out for the <a href="http://127.0.0.1:8000/places/ppost">Painted
+                        Post<placename key="ppost"></placename></a> 11 miles<lb></lb> Stopt there &amp; Baited from thence we Rode
+                    to<lb></lb> the <a href="http://127.0.0.1:8000/people/wlind1">Mary Widow Lindleys<persname key="wlind1"></persname></a> 13 miles
+                    Lodged there left<lb></lb> our Horses at her Sons liveing near her house</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-16"></date></dateline>
+<p>&amp; Brakefasted with her set our again in the Snow<lb></lb> Rode to <a href="http://127.0.0.1:8000/people/rdani1">Rich Daniels<persname key="rdani1"></persname></a> 5 m Bated then Rode to<lb></lb>
+<a href="http://127.0.0.1:8000/people/probe2">Peter Roberts<persname key="probe2"></persname></a> 5 m there to <a href="http://127.0.0.1:8000/people/wcart1">William Carters<persname key="wcart1"></persname></a> 6 miles<lb></lb> Lodged there the
+                    Prospect of going to the <a href="http://127.0.0.1:8000/places/block">Block house<placename key="block"></placename></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-17">17</date></dateline>
+<p> next Day was very Trying however we had a poor old<lb></lb> Bed Laid on a Bark flore
+                    which served 3 of us <lb></lb>I took a blanket Spread it a Side the Bed<lb></lb> Laid
+                    Down Slept untill 12 o Clock then got<lb></lb> up Smoaked my Pipe &amp; lay Down a
+                    short time<lb></lb> slept but a little more that night Rose up<lb></lb> abought half
+                    past 2 set of for the <a href="http://127.0.0.1:8000/places/block">Block  house<placename key="block"></placename></a>
+                    between 3 &amp; 4 in the morning Cold &amp; the<lb></lb> Snow abought 6 or 7 inches
+                    Deep </p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_037" n="37"></pb>
+<dateline><date when="1794-11-16"></date></dateline>
+<p> were present when the Articles were agreed on &amp;<lb></lb> made no objection to
+                    them. - He says they will<lb></lb> agree to &amp; abide by what the Sachems do, if
+                    they do<lb></lb> right. - tomorrow they may think what the Sa-<lb></lb>chems done was
+                    wrong, will they then abide by it<lb></lb> no longer than they may think it right?
+                    If this<lb></lb> be their meaning we may as well let things re-<lb></lb>main where they
+                    are. Your Cheif Warrior says<lb></lb> the U- States &amp; the Sachems are now making
+                    a <lb></lb>firm peace, but I can not consider it so unless<lb></lb> the Sachems &amp;
+                    Warriors both sign the Articles, as it<lb></lb> may create divisions in your
+                    Councils &amp; dissention<lb></lb> among yourselves. this might be attended with
+                    <lb></lb> dangerous consequences.-<lb></lb> He speaks of the United<lb></lb> States
+                    deceiving the Sachems.- It is unnecessary<lb></lb> for me to repeat the
+                    protestations of sincerity. - As<lb></lb> I represent the U.- States, I have told
+                    you that I<lb></lb> will not deceive you.- I can not consent to close<lb></lb> the
+                    Business in this manner, after so much care<lb></lb> &amp; pains has been taking to
+                    make every thing agree-<lb></lb>able &amp; satisfactory, I wish you to consider of
+                    it<lb></lb> calmly &amp; deliberately and give me an answer <lb></lb>tomorrow.- If the
+                    Warriors wish to live in peace<lb></lb> with the U.- States, if they wish to make
+                    the Chain<lb></lb> of friendship bright they will sign the Articles of the
+                    Treaty.</p>
+<p>
+<a href="http://127.0.0.1:8000/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> then addressed the Warriors in a <lb></lb>
+<pb facs="hv_bacond_account_1794_038" n="38"></pb> short Speech desiring they would be firm &amp;<lb></lb> steady in their
+                    conclusion.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-17"></date></dateline>
+<p>Council fire 1 covered<lb></lb>
+<gap></gap> our horses Balld very Badly made it<lb></lb> Dangerous however we arived
+                    abought<lb></lb> 7 oClock at <a href="http://127.0.0.1:8000/places/tioga">Tyoge<placename key="tioga"></placename></a> 13 miles
+                    Struck fire<lb></lb> to warm our Selves Eat Brakefast on<lb></lb> on Beefs Tong &amp;
+                    Bread &amp; Chees Started<lb></lb> for the <a href="http://127.0.0.1:8000/places/block">Block
+                        house<placename key="block"></placename></a> Through the worst<lb></lb> Rode that Ever I Rode Being most
+                    of<lb></lb> the way to the horses knees in mud &amp;<lb></lb> Roots &amp; Stones 11
+                    miles which we Rode<lb></lb> By one oClock when I was very much<lb></lb> worn Down my
+                    Companions were for<lb></lb> Trying to Get to the next house But<lb></lb> I was too
+                    Tyred to Venter the Rode<lb></lb> for 4 or 5 miles not much Better &amp; it<lb></lb> was
+                    abought 20 m to the the Next house<lb></lb> So we Concluded to stay all night
+                    there<lb></lb> a most Dismal Plase &amp; the weather<lb></lb> Cold the house if it may
+                    Be Calld<lb></lb> one open for yards on the Roofe &amp; Plenty<lb></lb> of Cracks
+                    Between the logs no Stable<lb></lb> for our Tyred horses nor hay <lb></lb><pb facs="hv_bacond_account_1794_039" n="39"></pb> no
+                    Milk nor Butter nor Sugar we got some<lb></lb> &amp; we fryed Venson Laid Down on
+                    the flore<lb></lb> with something like a bed But I had the<lb></lb> Satisfaction of
+                    seeing the stars which<lb></lb> Shined Bright which was Pleasing as<lb></lb> we had Snow
+                    for 3 or 4 Days since we<lb></lb> Left <a href="http://127.0.0.1:8000/places/canan">Candooquague<placename key="canan"></placename></a> we Rose in the morning</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-18"></date></dateline>
+<p> 18 Set of Rode 10 miles fed our horses in the<lb></lb> woods Eat some Dryed Beef Set
+                    out for<lb></lb>
+<a href="http://127.0.0.1:8000/people/jkyle1">James Kiles<persname key="jkyle1"></persname></a> 10m more got Dinner then<lb></lb> Rode
+                    to <a href="http://127.0.0.1:8000/people/wharr1">Mary Harris<persname key="wharr1"></persname></a>es 15 miles where<lb></lb> It
+                    appeard like an other world Being<lb></lb> very Kindly Entertained with a
+                    Bounty<lb></lb> full Table &amp; a warm house where<lb></lb> we stayd all night</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-19"></date></dateline>
+<p> 19 Got our Brakefast Rode to <a href="http://127.0.0.1:8000/people/swall1">Samuel
+                        Wallis<persname key="swall1"></persname></a>es Spent the Remainder of the<lb></lb> Day there to Rest
+                    my mare Being lame<lb></lb> here <unclear>[JF &amp;JE?]</unclear> left <a href="http://127.0.0.1:8000/people/wsave1">William Savery<persname key="wsave1"></persname></a> &amp;<lb></lb> my self they Intending to
+                    Go by <a href="http://127.0.0.1:8000/places/catta">Catewising<placename key="catta"></placename></a>
+<a href="http://127.0.0.1:8000/people/wsave1">Wm<persname key="wsave1"></persname></a> &amp; J by <a href="http://127.0.0.1:8000/places/north1">Northomberland<placename key="north1"></placename></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-20"></date></dateline>
+<p> 20 Stayed all night this Day was very Rainey<lb></lb> we staid &amp; went to
+                        <a href="http://127.0.0.1:8000/organizations/muncym">Muncy Meeting<orgname key="muncym"></orgname></a> which<lb></lb> was [solled?] &amp;
+                    a good one Returned to <a href="http://127.0.0.1:8000/people/swall1">Sam'l Wallis<persname key="swall1"></persname></a>es
+                    continued Raining very fast<lb></lb> Stayed all night nex Day found Samuels</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-21"></date></dateline>
+<p> 21 Mill Dam Broke &amp; the waters so high that<lb></lb> we were Informed we could
+                    not cross <lb></lb><pb facs="hv_bacond_account_1794_040" n="40"></pb> them &amp; the <a href="http://127.0.0.1:8000/places/susqueh">Suscohannah<placename key="susqueh"></placename></a> Rose this<lb></lb> Day &amp; last night abought a foot
+                    it was<lb></lb> Trying to Stay But there was nothing<lb></lb> to Be Done But to Exercise
+                    Patience<lb></lb> &amp; we thought it a favour we got to<lb></lb> such good Quarters the
+                    family Being very<lb></lb> Kind Stayed all night</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-22"></date></dateline>
+<p> 22 Set of for <a href="http://127.0.0.1:8000/places/north1">Northomberland<placename key="north1"></placename></a>
+<a href="http://127.0.0.1:8000/people/swall1">Samuel  Wallis<persname key="swall1"></persname></a> &amp; his son John with us
+                    Got there <lb></lb>abought Dark after some Deficulty<lb></lb> getting over the waters
+                    Stayed all<lb></lb> night at a Tavern 30 miles</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-23"></date></dateline>
+<p> 23 set of next morning Crossed the<lb></lb> West Branch of <a href="http://127.0.0.1:8000/places/susqueh">Suscohannah<placename key="susqueh"></placename></a> went<lb></lb> to <a href="http://127.0.0.1:8000/people/jwall1">Joseph
+                        Wallis<persname key="jwall1"></persname></a>es in <a href="http://127.0.0.1:8000/places/sunb">Sunberry<placename key="sunb"></placename></a> Got<lb></lb>
+                    our Brakefast there Left there and<lb></lb> Rode to <a href="http://127.0.0.1:8000/people/jyarn2">Jesse
+                        Yarnall<persname key="jyarn2"></persname></a>s 27 miles 17 people there</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-24"></date></dateline>
+<p> 24 Left there as soon as we could<lb></lb> See to Travel Crossed <a href="http://127.0.0.1:8000/places/shamo">Theomokin Creek<placename key="shamo"></placename></a> a Deep water Rode to <a href="http://127.0.0.1:8000/places/carte">Carters Tavern<placename key="carte"></placename></a><lb></lb> 33 miles </p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-25"></date></dateline>
+<p> 25 Rose Early in the Morning Rode to<lb></lb>
+<a href="http://127.0.0.1:8000/places/mlee1">Mordica Lees<placename key="mlee1"></placename></a> 9 miles Got Brakefast <lb></lb> then
+                    to <a href="http://127.0.0.1:8000/places/readi">Reding<placename key="readi"></placename></a> 9 miles got Dinner at<lb></lb>
+<a href="http://127.0.0.1:8000/people/sjack1">Samuel Jacsons<persname key="sjack1"></persname></a> then to <a href="http://127.0.0.1:8000/people/shugh1">Samuel Hewes<persname key="shugh1"></persname></a> 8m<lb></lb> Stayed all Night there set out
+                    Early</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-26"></date></dateline>
+<p> 26 in the Morning Rode to <a href="http://127.0.0.1:8000/people/trutt1">Tho. Rutters<persname key="trutt1"></persname></a><lb></lb>
+                    got Brakefast then to <a href="http://127.0.0.1:8000/places/perki">Perkeomen<placename key="perki"></placename></a> 10
+                    miles</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-27"></date></dateline>
+<p> 27 got Dinner then to <a href="http://127.0.0.1:8000/people/jpott2">Joseph Potts<persname key="jpott2"></persname></a>es 14
+                    miles<lb></lb> stayed all night came home in morning </p>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_041" n="41"></pb>
+<dateline><date when="1794-10-31"></date></dateline>
+<p>The time allowed to consider &amp; digest an answer being too short, &amp; the
+                    Indians return<lb></lb>ing rather earlier than the time appointed, they chearfully
+                    proposed to leave it under<lb></lb> our Consideration till tomorrow, earnestly
+                    desiring we should be serious in deliber<lb></lb>ating on it.</p>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-01"></date></dateline>
+<p> 11th Month 1st This Morning the same Chiefs with the Inter<lb></lb>preter attending
+                    according to our agreement of yesterday, the following answer as<lb></lb> agreed on
+                    was communicated to them </p>
+<floatingtext type="speech">
+<p> Brothers, We have considered what you said to us yesterday &amp; shall
+                            answer you<lb></lb> in a few words; We are thankful to the great Spirit that
+                            he has preserved us in<lb></lb> health to see each others faces at this
+                            Council fire; we &amp; our Brethren at home have<lb></lb> the same good will
+                            towards you as our forefathers had, &amp; are desirous to afford you
+                            any<lb></lb> service in our power, &amp; that you may cherish peace with one
+                            another &amp; with all<lb></lb> Men, believing this will greatly contribute
+                            to your happiness; we sympathize<lb></lb> with you in your sufferings &amp;
+                            distress, &amp; wish strict justice to be done you respect<lb></lb>ing your
+                            Lands, you have been informed we can take no part in war, which is
+                            one<lb></lb> great reason why we cannot be active in civil Government &amp;
+                            therefore are not capable<lb></lb> of judging of all your grievances,
+                            especially as the transactions at Indian Treaties of<lb></lb> late years
+                            have not fully come to our knowledge; you have spoken to us respecting
+                            the<lb></lb> piece of Land between <a href="http://127.0.0.1:8000/places/cayuc">Caynga<placename key="cayuc"></placename></a>
+                            &amp; <a href="http://127.0.0.1:8000/places/buffc1">Buffaloe Creeks<placename key="buffc1"></placename></a>, as we are
+                            unacquainted with the<lb></lb> Commissioner's power we can give you no
+                            satisfactory answer on that subject, <unclear>[which?]</unclear><lb></lb>
+                            appears to be a matter of importance to you, it would be proper to lay
+                            it before him; the<lb></lb> Land you mention along <a href="http://127.0.0.1:8000/places/lakee">Lake Erie<placename key="lakee"></placename></a> you have been already acquainted that
+                            Congress<lb></lb> has sold it to <a href="http://127.0.0.1:8000/places/penns">Pennsylvania<placename key="penns"></placename></a>, &amp; we do not suppose the Commissioner
+                            has power to<lb></lb> relinquish it; It is true the President &amp; his
+                            Counsellors have impowered a Commis<lb></lb>sioner to treat with you, but we
+                            think the Government has no design to compel<lb></lb> you, you have Men
+                            amongst you of good Understanding &amp; sufficient penetration<lb></lb> to
+                            discover what your just rights are, &amp; if your minds are not easy
+                            with the proposals that<lb></lb> have been made, we make no doubt but the
+                            Ear of the President &amp; the great Council<lb></lb> of the United States
+                            will be open to hear you, &amp; to them we conceive you have a
+                            right<lb></lb> to appeal; we desire Wisdom may conduct your Councils that
+                            whatever is done may<lb></lb> tend to promote harmony &amp; peace. We then
+                            returned the Strings of Wampum.</p>
+</floatingtext>
+</div>
+<div type="entry">
+<dateline><date when="1794-11-12"></date>11th Mo: 12th 1794</dateline>
+<p> According to the agreement of last evening about thirty or<lb></lb> forty of the
+                    Sachems &amp; Chief Warriors met at our Lodgings &amp; delivered the
+                    follow<lb></lb>ing Speech by <a href="http://127.0.0.1:8000/people/farme1">Farmer's Brother<persname key="farme1"></persname></a> the
+                    Chief Sachem.</p>
+<floatingtext type="speech">
+<p> Brothers of he people call'd Quakers, I wish you would attend to
+                            what<lb></lb> we who are now present are about to say, we speak as one.
+                            yesterday after<lb></lb> receiving your invitation to come and partake of
+                            your presents, we agreed to meet<lb></lb> here this Morning, to communicate
+                            a few words, which we will now do. </p>
+</floatingtext>
+</div>
+<div type="entry">
+<pb facs="hv_bacond_account_1794_042" n="42"></pb>
+<dateline><date when="1794-10-31"></date>10th Month 31st 1794:</dateline>
+<p> Four of the Sachems viz <a href="http://127.0.0.1:8000/people/clear1">Clear Sky<persname key="clear1"></persname></a>, <a href="http://127.0.0.1:8000/people/redja1">Red Jacket<persname key="redja1"></persname></a>,<lb></lb>
+<a href="http://127.0.0.1:8000/people/sagua1">Sagnaresy<persname key="sagua1"></persname></a> and another (whose name we were not
+                    acquainted with) being a<lb></lb> deputation from the general Counsil for Indians
+                    who for several Days past<lb></lb> have been deliberating on the proposals made to
+                    them by <a href="http://127.0.0.1:8000/people/cpic">Col: Pickering<persname key="cpic"></persname></a>, waited<lb></lb> on us at our
+                    Lodgings with <a href="http://127.0.0.1:8000/people/hjone1">Horatio Jones<persname key="hjone1"></persname></a> Interpreter, they
+                    desired that as they<lb></lb> had something of a secret nature to communicate we
+                    would retire with them<lb></lb> to some private place, which being complyed with,
+                        <a href="http://127.0.0.1:8000/people/redja1">Red Jacket<persname key="redja1"></persname></a> addressed us<lb></lb> nearly as
+                    follows.</p>
+<floatingtext type="speech">
+<p> Brothers, you see here four of us of the <a href="http://127.0.0.1:8000/organizations/sxntns">six
+                                Nations<orgname key="sxntns"></orgname></a>, who are assembled at this<lb></lb> place in the will
+                            of the great Spirit to transact the Business of the Treaty, you<lb></lb>
+                            have been waiting here a long time &amp; visited by our Chiefs &amp; as
+                            yet no marks of res<lb></lb>pect have been shown you. We understand you told
+                                <a href="http://127.0.0.1:8000/people/sagua1">Sagnaresy<persname key="sagua1"></persname></a> that you should<lb></lb> not
+                            have come but at our request &amp; that you stood ready to afford us any
+                            assistance<lb></lb> which lay in your power. Brothers we hope you will make
+                            you minds easy,<lb></lb> as we who are now here are but Children, the
+                            Antients being deceased; we know<lb></lb> that your &amp; our forefathers
+                            transacted business together, that you look to the great Spirit<lb></lb> for
+                            his direction &amp; assistance, &amp; take no part in war. Brothers you
+                            all know the<lb></lb> proposals made by us to <a href="http://127.0.0.1:8000/people/cpic">Col:
+                                Pickering<persname key="cpic"></persname></a> as well as the offers made by him to us, we
+                            are<lb></lb> now all in the presence of the great Spirit &amp; we place more
+                            confidence in you than<lb></lb> heretofore, as you expressed you desire for
+                            peace we now desire your help &amp; assistance,<lb></lb> we hope you will
+                            not deceive us, if you should do so, we shall no more place any
+                            con<lb></lb>fidence in Mankind; we wish that if you know the will of
+                            Congress or the extent<lb></lb> of the Commissioner's powers that you will
+                            candidly inform us. Brothers, we<lb></lb> wish that what we are now
+                            communicating may be kept secret; we are willing to<lb></lb> give up the
+                            four Mile path from <a href="http://127.0.0.1:8000/places/joland">Johnson's
+                                Landing<placename key="joland"></placename></a> place to <a href="http://127.0.0.1:8000/places/cayuc">Caynga
+                                Creek<placename key="cayuc"></placename></a>, the <lb></lb>other part of it from thence to
+                                <a href="http://127.0.0.1:8000/places/buffc1">Buffaloe Creek<placename key="buffc1"></placename></a> we wish to
+                            reserve on account of the<lb></lb> Fisheries &amp;c, which would correspond
+                            with the Treaty held with Sir <a href="http://127.0.0.1:8000/people/wjohn1">Wm.
+                                Johnson<persname key="wjohn1"></persname></a>.</p>
+<p> We desire to know if you can inform us why the Triangles on <a href="http://127.0.0.1:8000/places/lakee">Lake Erie<placename key="lakee"></placename></a> cannot be given<lb></lb> up. <a href="http://127.0.0.1:8000/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/cbran1">Captain Brant<persname key="cbran1"></persname></a> who were only Warrior Chiefs were the
+                            persons<lb></lb> who attended the Treaty at <a href="http://127.0.0.1:8000/places/fstan">Fort
+                                Stanwix<placename key="fstan"></placename></a>, &amp; they were to have sent forward the
+                            proposals<lb></lb> for our more general consideration, at that time Old
+                            Sonoke was alive who was a<lb></lb> Man of great Understanding; but they
+                            were threatned into a compliance in con<lb></lb>sequence of which <a href="http://127.0.0.1:8000/people/cbran1">Capt. Brant<persname key="cbran1"></persname></a> went of to <a href="http://127.0.0.1:8000/places/canad">Canada<placename key="canad"></placename></a>, desiring <a href="http://127.0.0.1:8000/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> to<lb></lb> do the best he could. They then
+                            presented seven strings of wampum &amp;<lb></lb> withdrew, &amp; agreed to
+                            return to hear our answer at the 3rd hour this afternoon </p>
+</floatingtext>
+</div>
+<div type="draft">
+<pb facs="hv_bacond_account_1794_043" n="43"></pb>
+<floatingtext type="speech">
+<p>Brothers, I am very glad you have lengthened out your patience to see the
+                            end of<lb></lb> the business which is now brought to a close: I thank the
+                            great Spirit that he pre<lb></lb>served you in Health from the time you left
+                            your seats till you arrived here, &amp; has<lb></lb> continued to preserve
+                            you to this time; we put you under the protection of the<lb></lb> same great
+                            Spirit on your return, hoping he may conduct your home in safety<lb></lb>
+                            &amp; that you may find you Friends &amp; Families well. On you return
+                            we should<lb></lb> be very happy to hear that you got safe home, &amp; it
+                            would be very acceptable to the <lb></lb> Chiefs now present to be informed
+                            of it by Letter. We give hearty thanks to<lb></lb> the descendants of
+                                <a href="http://127.0.0.1:8000/places/onas">Onas<placename key="onas"></placename></a>, that you so willingly rose
+                            from your seats to attind this<lb></lb> Council fire according to our
+                            request. Here are the Articles of the Treaty for<lb></lb> you to look over
+                            in order to impress your Minds that you may tell them to your<lb></lb>
+                            Brethren who are sitting on their seats at home. Brothers, you have<lb></lb>
+                            attended this Treaty a long time the Articles which we have now signed,
+                            I hope<lb></lb> you fully understand now as we have shown them to you we
+                            would with to know your<lb></lb> opinion whether we have made a good peace
+                            or not; as we cannot read we are liable<lb></lb> to be deceived, as you have
+                            no doubt considered them we wish to know your minds<lb></lb> whether there
+                            being any flaw or catch in them which might hereafter occasion<lb></lb>
+                            uneasiness. If you think that peace is now established on a good
+                            foundation,<lb></lb> we wish you would come forward &amp; sign the Articles,
+                            as you are a people who are<lb></lb> desirous of promoting peace &amp; these
+                            writings are for that purpose, we hope you<lb></lb> will have no objection
+                            but all come forward &amp; put your Names to them, &amp; this<lb></lb> would
+                            be great satisfaction to us.</p>
+</floatingtext>
+<p> Our answer to the Indians was in substance as follows</p>
+<floatingtext type="speech">
+<p>Brothers, We left our homes at your request &amp; have freely come to see
+                            you &amp; sat<lb></lb> patiently with you during the transactions of the
+                            Treaty, we are glad to see the Treaty<lb></lb> Business brought to a close,
+                            we hope the chain is brightened &amp; that the peace will<lb></lb> be
+                            lasting; we have compared the Articles of the Treaty given to the
+                            Indians<lb></lb> with those retained by the United States &amp; find them to
+                            be true Copies of<lb></lb> each other, with respect to our signing we hope
+                            you will excuse us, for altho'<lb></lb> we believe no deception is intended
+                            by the Commissioner, yet there was a num<lb></lb>ber of other people
+                            present, &amp; we wish not to be held up to public view, as we<lb></lb>
+                            informed you before that we do not interfere with Government as we can
+                            take no<lb></lb> part in war; neither do we apprehend ourselves competent
+                            judges, as the transac<lb></lb>tions at Treaties held since the war have not
+                            fully been made public.</p>
+<p> We hope you will abide by the agreement which you have signed &amp; be
+                            at peace, &amp;<lb></lb> it is our earnest desire that you might more &amp;
+                            more be redeemed from the Spirit<lb></lb> of war &amp; cherish the number of
+                            your Friends: We wish that when you apprehend<lb></lb> yourselves agrieved
+                            you would make your Grievances know &amp; not seek to revenge<lb></lb> them,
+                            as a Society we have had experience of the benifits arising from these
+                            <lb></lb><pb facs="hv_bacond_account_1794_044" n="44"></pb> peaceable principles for the space of near 150
+                            years, &amp; find we can do better with<lb></lb>out fighting then with it.
+                            We still continue to feel the same good will towards<lb></lb> our Brothers
+                            the Indians as formerly &amp; are willing in every strait &amp;
+                            difficulty to<lb></lb> afford you any assistance in our power. We fervently
+                            wish you may live<lb></lb> in Love one with another.</p>
+</floatingtext>
+<p> The <a href="http://127.0.0.1:8000/people/farme1">Farmer's Brother<persname key="farme1"></persname></a> then made the following
+                    conclusive speech</p>
+<floatingtext>
+<p>Brothers, We are very glad to see you; when we sent for you, our desire
+                            was that<lb></lb> you might sit by our sides &amp; afford your assistance to
+                            make a good peace.<lb></lb> Last year we invited you to come to <a href="http://127.0.0.1:8000/places/sand">Sandusky<placename key="sand"></placename></a>, you willingly rose from your
+                            seats<lb></lb> &amp; came forward, you know how things turned out, it was
+                            not the will of the great<lb></lb> Spirit that a Treaty should take place,
+                            yet we thank you because you came<lb></lb> so readily; we have many times
+                            heard the voice of <a href="http://127.0.0.1:8000/places/onas">Onas<placename key="onas"></placename></a>, it as always
+                            good to us<lb></lb> we have now heard it again &amp; what you have said is
+                            good, you have seen the writ<lb></lb>ings by which we are bound, you say you
+                            are not concerned in public affairs, and<lb></lb> no hard thoughts
+                            concerning you, on account of your not putting your names<lb></lb> to it.
+                            Brothers, the great Spirit give this Island to us the White People have
+                            in<lb></lb>creased greatly, there is no difference between the Red People
+                            &amp; the White they are all<lb></lb> one &amp; ought to be Brothers &amp;
+                            live in Peace one with another. </p>
+</floatingtext>
+</div>
+<div type="letter">
+<pb facs="hv_bacond_account_1794_045" n="45"></pb>
+<dateline><date when="1798-02-23">2 mo 23th 1798</date>
+<a href="http://127.0.0.1:8000/places/phila">Philad.<placename key="phila"></placename></a></dateline>
+<p> At a conferrence held with 5 of the <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscaroras<orgname key="tuscarora"></orgname></a> Nation<lb></lb> who were authorised by there Nation to
+                    Inquire Respecting<lb></lb> there Right to the lands at <a href="http://127.0.0.1:8000/places/hopw">Hopewell<placename key="hopw"></placename></a> &amp; on Inquiring<lb></lb> Into the Matter it Doth not
+                    appear that they were<lb></lb> Ever the owners of that Part of <a href="http://127.0.0.1:8000/places/virgi">Vergeina<placename key="virgi"></placename></a> But we find<lb></lb> By a Treaty held with the
+                        <a href="http://127.0.0.1:8000/organizations/sxntns">Six Nations<orgname key="sxntns"></orgname></a> of Indians in<lb></lb> the year 1744
+                    and the <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscarorars<orgname key="tuscarora"></orgname></a> were Part of those<lb></lb>
+                    Nations that they sold all those Lands to the government<lb></lb> of <a href="http://127.0.0.1:8000/places/virgi">Verginna<placename key="virgi"></placename></a> &amp; Recd pay for the same<lb></lb> But as we
+                    love our Read Brothers &amp; Desire to make<lb></lb> there Minds Easey we have
+                    agreed to give them<lb></lb> 1000 Dollars which was done<lb></lb> There Names are<lb></lb>
+<a href="http://127.0.0.1:8000/people/sagua1">Sagoresey<persname key="sagua1"></persname></a><lb></lb>
+<a href="http://127.0.0.1:8000/people/ncusi1">Nicholas Cusick<persname key="ncusi1"></persname></a>
+</p>
+</div>
+<div type="undetermined">
+<pb facs="hv_bacond_account_1794_046" n="46"></pb>
+<pb facs="hv_bacond_account_1794_047" n="47"></pb>
+<pb facs="hv_bacond_account_1794_048" n="48"></pb>
+<pb facs="hv_bacond_account_1794_049" n="49"></pb>
+<pb facs="hv_bacond_account_1794_050" n="50"></pb>
+<pb facs="hv_bacond_account_1794_051" n="51"></pb>
+<pb facs="hv_bacond_account_1794_052" n="52"></pb>
+</div>
+</back>
+</text>
+</tei>
+</body></html>

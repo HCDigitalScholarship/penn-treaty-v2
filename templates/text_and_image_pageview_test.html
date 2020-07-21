@@ -41,8 +41,6 @@ for (j = 0; j < b_next; j++) {
 
 new_prev_url = zeros_prev+a_prev;
 new_next_url = zeros_next+a_next;
-console.log('PREV:' + zeros_prev+a_prev);
-console.log('NEXT:' + zeros_next+a_next);
 
 var new_prev_end;
 var new_next_end;
@@ -51,15 +49,9 @@ new_next_end = zeros_next+a_next;
 
 new_prev_url = 'http://127.0.0.1:8000/full_manuscript/{{manuscript_name}}/';
 new_prev_url = new_prev_url + new_id_base + new_prev_end;
-console.log("NEW " + new_prev_url);
 
 new_next_url = 'http://127.0.0.1:8000/full_manuscript/{{manuscript_name}}/';
 new_next_url = new_next_url + new_id_base + new_next_end;
-console.log("NEW " + new_next_url);
-
-<!--NEED TO FIX EDGE CASES FOR NEW URLS-->
-<!--NEED TO DELETE OLD FUNCTIONS-->
-<!--NEED TO CLEAN UP CODE-->
 
 
 var zeros_to_check = new String();
@@ -76,9 +68,7 @@ if (new_prev_url.slice(-1*num_page_digits,) == zeros_to_check) {
 var final_page = new String();
 final_page = "{{final_page}}";
 
-console.log("FINAL:" + final_page);
-console.log(new_next_url.split("/")[4])
-console.log(new_next_url.slice(-1*num_page_digits,))
+
 if (new_next_url.slice(-1*num_page_digits,) > final_page.slice(-1*num_page_digits,)) {
     new_next_url = window.location.href;
 }
@@ -93,9 +83,6 @@ if (new_next_url.slice(-1*num_page_digits,) > final_page.slice(-1*num_page_digit
 <h4>{{page_name}}</h4>
 <p>{{text|safe}}</p>
 
-
-<!--<button id="previous" onclick="getPrevious(currentItemIndex, myItemObjectArray)">Previous</button>-->
-<!--<button id="next" onclick="getNext(currentItemIndex, myItemObjectArray)">Next</button>-->
 
 
 <input type="button" onclick="location.href=new_prev_url;" value="Previous" />

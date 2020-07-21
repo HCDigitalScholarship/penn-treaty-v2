@@ -1,0 +1,738 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?><?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?><?xml-stylesheet type="text/css" href="global.css"?><html><body><tei xmlns="http://www.tei-c.org/ns/1.0">
+<teiheader>
+<filedesc>
+<titlestmt>
+<title>William Allinson Diary, Volume 3: Electronic Version</title>
+<editor>Haverford College Quaker Collection</editor>
+<respstmt>
+<resp>TEI Markup done by</resp>
+<name>FHL staff</name>
+</respstmt>
+<respstmt>
+<resp>Journal transcribed by</resp>
+<name>Crowd-sourced</name>
+</respstmt>
+</titlestmt>
+<extent>ca. 63 KB</extent>
+<publicationstmt>
+<publisher>Haverford College</publisher>
+<address>
+<street></street>
+<addrline>Haverford, Pennsylvania</addrline>
+<postcode></postcode>
+<country>United States of America</country>
+</address>
+<availability status="free">
+<p>This work is the property of Haverford College Special COlleciotn. It may be
+                        copied freely by individuals for personal use, research, and teaching
+                        (including distribution to classes) as long as this statement of
+                        availability is included in the text. It may be linked to freely in Internet
+                        editions of all kinds, including for—profit works.</p>
+<p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Haverford College for licensing and cost
+                        information.</p>
+<p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so only with the permission of
+                        Haverford College. This is the case whether the new publication will be made
+                        available at a cost or free of charge.</p>
+</availability>
+<date when="2015">2015</date>
+<idno type="local">hv_allinsonw_diary_1809_v3</idno>
+</publicationstmt>
+<seriesstmt>
+<title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+</seriesstmt>
+<sourcedesc>
+<msdesc>
+<msidentifier>
+<institution>Haverford College Quaker &amp; Special Collections</institution>
+<collection>Allinson family papers</collection>
+<idno>Call number: MC 968, Box 11, Folder 4</idno>
+</msidentifier>
+<physdesc>
+<p>34 pp. (1 volume)</p>
+</physdesc>
+</msdesc>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<projectdesc>
+<p>The William Allinson Diary manuscript is housed in the Quaker &amp; Special
+                    Collections, Haverford College</p>
+</projectdesc>
+<editorialdecl>
+<p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases. </p>
+<p>The author of the original journal does not include page numbers on his
+                    manuscript; the page numbers have been interpolated by the transcribers to
+                    correspond with the manuscript sheets.</p>
+</editorialdecl>
+</encodingdesc>
+<profiledesc>
+<creation>Original written in <date when="1809">1809</date></creation>
+<langusage>
+<language ident="en">English</language>
+</langusage>
+<textclass>
+<keywords scheme="#lcsh">
+<list>
+<item>Society of Friends</item>
+</list>
+</keywords>
+</textclass>
+</profiledesc>
+<revisiondesc>
+<list>
+<item>
+<date when="2016"></date></item>
+</list>
+</revisiondesc>
+</teiheader>
+<text>
+<div type="undetermined">
+<pb facs="hv_allinsonw_diary_1809_v3_001" n="1"></pb>
+<pb facs="hv_allinsonw_diary_1809_v3_002" n="2"></pb>
+</div>
+<div type="entry">
+<pb facs="hv_allinsonw_diary_1809_v3_003" n="3"></pb>
+<dateline><date when="1809-09-28"></date><placename key="checkPlace"></placename></dateline>
+<p>about 3 Quarters of an Acre being encompassd by <unclear>which</unclear><lb></lb>
+                    entrenchment apparently intended for Pikes and having a <lb></lb> level Gateway on
+                    the back side. It occupies a consider<lb></lb>able Entrance or open up the
+                    mountains, laying behind which<lb></lb> puts down to the main creek, and is now
+                    overgrown w/<lb></lb> heavy Timber of at least an Hundred Years growth.<lb></lb> On our
+                    way to the saw mill we passd thro' some very good<lb></lb> corn, where the large
+                    Walnut Trees, killd by Girdling, are<lb></lb> standing. As we returnd home stopd at
+                    the Village of the<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/munseeind">Muncy Indians<orgname key="munseeind"></orgname></a> &amp; talkd with several,
+                    particularly the Chief<lb></lb> Warrior who was informed that we intended a Council
+                    to<lb></lb>morrow with the <a href="http://127.0.0.1:8000/organizations/seneca">Cattaraugus Indians<orgname key="seneca"></orgname></a> &amp;
+                    if they had any<lb></lb> thing to communicate to us, they might do it as we
+                    passd<lb></lb> thro' their settlement. when we got into the Woods on<lb></lb> the Indian
+                    Reservation, curiosity induced us to measure<lb></lb> of the Walnut Trees there
+                    growing. One of them appeared by<lb></lb> our Measurement to be 15 Feet 8 Inches in
+                    Circumference<lb></lb> another 16 ft 2 Inches &amp; a third 16 ft 5 Inches. at 2 ft
+                    6 In<lb></lb> from the level of the Ground. They were also very straight<lb></lb> &amp;
+                    tall, we unitedly concluded 60 feet without a [?]<lb></lb> &amp; held their
+                    thickness remarkably well. there is little<lb></lb> Doubt but we could have found
+                    larger had we gone to<lb></lb> hunt them but these all stood close by our Road.
+                    On<lb></lb> getting to the House we also measured several<lb></lb> Poplar stumps all
+                    within about 60 yards of it--on<lb></lb> being 5 Feet 4 1/2 Inches in Diameter at
+                    the heighth of<lb></lb> 4 ft 4 Inches over, at the same heighth <lb></lb>4 Feet, 4 &amp;
+                    5 Inches over, at near the same heighth.</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-09-29">9 mo. 29th</date><placename key="catta1"></placename></dateline>
+<p> Met the Indians in Council at the <a href="http://127.0.0.1:8000/places/catta1">Cataraugus<placename key="catta1"></placename></a><lb></lb> Village, about 30 being present. It was Announced
+                    <gap></gap><lb></lb> at <a href="http://127.0.0.1:8000/places/colds">Cold Spring<placename key="colds"></placename></a> by the Blowing of
+                    a Trumpet &amp; when they <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_004" n="4"></pb>were Convened a Messenger was sent to
+                    inform us that<lb></lb> they were ready, &amp; we accordingly went, <a href="http://127.0.0.1:8000/people/egran1">Erasmus Granger<persname key="egran1"></persname></a>, the Agent of the United States
+                    for the <a href="http://127.0.0.1:8000/organizations/sxntns">Six Nations<orgname key="sxntns"></orgname></a> of Indians bearing us
+                    Company--he had<lb></lb> unexpectedly met us here being on a Visit to the<lb></lb>
+                    several settlements of Indians for the purpose of<lb></lb> enquiring into their
+                    Improvements &amp; wants, so as to be<lb></lb> enabled to make Report of their
+                    situation to the Pre<lb></lb>sident of the U.S. He is a sensible, well informed<lb></lb>
+                    &amp; discreet Man, his Person tall &amp; handsome &amp; Eye<lb></lb> penetrating
+                    but his Countenance wearing the marks<lb></lb> of Care &amp; poor Health.</p>
+<p> About noon the Council opend &amp; after sitting a while<lb></lb> in respectful
+                    silence, a Conversation, in a low voice<lb></lb> took place among the Chiefs--when
+                    the Business was<lb></lb> introduced to the following import by of them named
+                        <a href="http://127.0.0.1:8000/people/thomp1">Thomson<persname key="thomp1"></persname></a></p>
+<floatingtext type="speech">
+<dateline><date when="1809-09-29"></date><placename key="catta1"></placename></dateline>
+<p>Brothers We heard you were coming to see us. we are<lb></lb> happy you have
+                            now arrivd, and thank the Great<lb></lb> Spirit that He has preserved you
+                            thro' a Long Journey<lb></lb> Brothers--We think it is Consistent with His
+                            Will<lb></lb> that we should be favoured all to meet here this day<lb></lb> in
+                            Council. We are also pleased that <a href="http://127.0.0.1:8000/people/egran1">Mr.
+                                Granger<persname key="egran1"></persname></a><lb></lb> the Agent of the US for the <a href="http://127.0.0.1:8000/organizations/sxntns">Six Nations<orgname key="sxntns"></orgname></a> is present<lb></lb> with us, and we
+                            are now ready to hear what you<lb></lb> have to say.</p>
+</floatingtext>
+<p>Our Addresses being being read &amp; interpretted to them<lb></lb> by Henry York were
+                    well rec'd. The Indians again<lb></lb> sat for a few minutes entirely silent
+                    smokeing their<lb></lb> Pipes, which was succeeded by a Whisper among the <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_005" n="5"></pb> Chiefs <del>for some minutes</del> when the same speaker<lb></lb>
+                    (sitting) addressd the Agent, inform'g that they understood<lb></lb> he was going to
+                        <a href="http://127.0.0.1:8000/places/alleg1">Allegany<placename key="alleg1"></placename></a> &amp; were desirous to know his
+                    par<lb></lb>ticular business. <a href="http://127.0.0.1:8000/people/egran1">Granger<persname key="egran1"></persname></a> informd him
+                    that he would<lb></lb> do it when they had answerd our Communication.<lb></lb> Another
+                    silence &amp; whisper ensued. The Chief<lb></lb> Warrior <a href="http://127.0.0.1:8000/people/wyund1">Wyundegohta<persname key="wyund1"></persname></a> then rose &amp; holding our<lb></lb> Addresses in his
+                    Hand folded as delivered to him, some<lb></lb> times looking on them attentively
+                    &amp; then casting his<lb></lb> Eyes round over us &amp; the Council, replied nearly
+                    as<lb></lb> follows </p>
+<floatingtext type="speech">
+<dateline><date when="1809-09-29"></date><placename key="catta1"></placename></dateline>
+<p>Brothers attend. We have heard the<lb></lb> speech of our Friends at Phila.
+                            by which we un<lb></lb>derstand that you still continue to speak the<lb></lb>
+                            same Language to our Nation &amp; we believe your<lb></lb> views towards us
+                            are the effect of Pure Friendship<lb></lb> &amp; a desire for our
+                            Welfare--and altho' we have<lb></lb> fallen short of your former advices we
+                            are<lb></lb> still encouraged to follow your Council &amp; pursue<lb></lb> the
+                            Path you have set before us. You remain<lb></lb> anxious we should improve
+                            in Habits of Industry<lb></lb> by which we might render our Lives more
+                            com<lb></lb>fortable. Brothers we hope you will continue to have<lb></lb>
+                            Patience towards us, as Indians cannot adopt<lb></lb> all those Habits at
+                            once but we are fully Con<lb></lb>vinced that Industry in Cultivating our
+                            Lands is<lb></lb> the only method by which we can receive lasting<lb></lb>
+                            Benefits, and we are determined to pursue it <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_006" n="6"></pb> and hope
+                            we will still continue to make<lb></lb> a gradual Advancement.<lb></lb> Brothers
+                            We understand you wish us to be bene<lb></lb>fitted by the Example of our
+                            Friends who are setled<lb></lb> beside us, and wish our Firnds in
+                            Philad.<lb></lb> to know we have rec'd considerable satisfac<lb></lb>tion &amp;
+                            advantage from them. We all re<lb></lb>joice that they are setled so near,
+                            and it<lb></lb> is our intention to treat them with Kindness<lb></lb> &amp;
+                            consider them as our Friends.</p>
+</floatingtext>
+<p>The Day before the council we had prepared our<lb></lb> Address to them, touching on
+                    various subjects<lb></lb> in which we thought it needful they should
+                    im<lb></lb>prove--to which <a href="http://127.0.0.1:8000/people/wyund1">Wyundegohta<persname key="wyund1"></persname></a>
+                    replied,</p>
+<floatingtext type="speech">
+<dateline><date when="1809-09-29"></date><placename key="catta1"></placename></dateline>
+<p>Brothers, <lb></lb>you that are now here have<lb></lb> also told us that on
+                            looking over our Corn<lb></lb>fields you find we have not made as much<lb></lb>
+                            use of the Plow as you could wish. We<lb></lb> find that your Eye sight is
+                            straight. We<lb></lb> acknowledge we have been deficient in<lb></lb> this
+                            respect, &amp; the fault is our own.<lb></lb> Brothers--A long time ago we
+                            requested<lb></lb> you to send us a sett of Mill Irons, you ac<lb></lb>cordingly
+                            sent them as you promised--you <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_007" n="7"></pb>also sent us a sett of
+                            Smiths Tools--you<lb></lb> have fulfilld all your Engagements with<lb></lb> us.
+                            We have not received the advantage<lb></lb> from the saw mill we
+                            expected--one rea<lb></lb>son is our People are Deficient in knowing<lb></lb>
+                            how to work it--another Reason--the Water<lb></lb> is not sufficient to saw
+                            more than one<lb></lb> Quarter of the Year. We have not re<lb></lb>ceived the
+                            advantage from the Smith<lb></lb> Tools that we might have done, yet we<lb></lb>
+                            have used them more than the Saw Mill-<lb></lb> Some of our people have
+                            learned to do<lb></lb> a number of small matters, yet we<lb></lb> acknowledge we
+                            have been too neg<lb></lb>lectful of both.<lb></lb> Brothers--You say if our
+                            Minds were<lb></lb> more strong to Labour--it would give our<lb></lb> Women more
+                            time to learn to spin.<lb></lb> We think this would be a great
+                            ad<lb></lb>vantage to us, for if our Women would<lb></lb> learn to spin &amp;
+                            make their own Cloth,<lb></lb> the Money which they now use to buy<lb></lb>
+                            Cloathes would be saved for other <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_008" n="8"></pb>purposes. We think
+                            this would make us<lb></lb> more Independent &amp; Happy, and when we<lb></lb>
+                            are Dead our Children will have reason<lb></lb> to rejoice that we have
+                            followed your<lb></lb> Instructions.<lb></lb> Brothers--The Reason we have not
+                            made more<lb></lb> use of the Plow Irons you sent us is--we have<lb></lb> not
+                            had a sufficient number of Oxen, but we<lb></lb> are thankful you have sent
+                            them, as we<lb></lb> have now got a number of young oxen<lb></lb> growing up,
+                            &amp; hope we shall be able<lb></lb> to use them more.<lb></lb> You observe we
+                            have got a great many<lb></lb> Horses &amp; you think it will be better
+                            to<lb></lb> have more Cattle &amp; Oxen. Your Remarks<lb></lb> on this subject
+                            are just, we have found<lb></lb> inconvenience from so many Horses, for<lb></lb>
+                            all the use they seem to be to us is to ride<lb></lb> about home, but when
+                            we have occasion<lb></lb> to go amongst White People, we find them<lb></lb> only
+                            a Bill of Expence.<lb></lb> Brothers--We are thankful for your<lb></lb> friendly
+                            advice. Our Hearts rejoice <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_009" n="9"></pb> for the Good Council you
+                            have given<lb></lb> us, and we wish you to keep your Minds<lb></lb> strong
+                            towards us.</p>
+</floatingtext>
+<p>Thos Stewardson made a short verbal reply &amp;<lb></lb> when he had done, Old
+                        <a href="http://127.0.0.1:8000/people/halft1">Half Town<persname key="halft1"></persname></a> told<lb></lb> us that they had done
+                    with the use of Spi<lb></lb>rituous Liquors, every Man, but there were<lb></lb> yet
+                    three Women who would sometimes<lb></lb> become Intoxicated, yet they did not<lb></lb>
+                    intend to cease Labouring with them till<lb></lb> they became reformd. This old
+                        <a href="http://127.0.0.1:8000/people/halft1">Half Town<persname key="halft1"></persname></a><lb></lb> some years back was much in
+                    the Practice of<lb></lb> getting Drunk &amp; when the <a href="http://127.0.0.1:8000/organizations/allegany">Allegany Indians<orgname key="allegany"></orgname></a><lb></lb> Banishd the Poison, he said there was
+                    no<lb></lb> get Drunk at <a href="http://127.0.0.1:8000/organizations/allegany">Allegany <orgname key="allegany"></orgname></a>--he would
+                    not<lb></lb> stay there but would go to <a href="http://127.0.0.1:8000/places/buffa">Buffaloe<placename key="buffa"></placename></a>--he<lb></lb> accordingly went, but did not stay long<lb></lb>
+                    before he came to <a href="http://127.0.0.1:8000/places/catta1">Cattaraugus<placename key="catta1"></placename></a> where he<lb></lb>
+                    now lives &amp; is so far reformd that Friends<lb></lb> dont know of his having one
+                    frolic this sea<lb></lb>son, yet they suspected him once. He<lb></lb> is a very stout
+                    Indian &amp; has been a Chief<lb></lb> of great Influence. <a href="http://127.0.0.1:8000/people/wyund1">Wyundegohta<persname key="wyund1"></persname></a> (which<lb></lb> signifies, he has gone by) is a very
+                    respectable <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_010" n="10"></pb> serious &amp; Worthy Character--his Person<lb></lb>
+                    tall--Countenance modest &amp; appearance<lb></lb> Plain--he is industrious &amp;
+                    very hospitable<lb></lb> which character he has sustaind for ma<lb></lb>ny years. His
+                    Wife is also a Worthy Wo<lb></lb>man but not very nice. <a href="http://127.0.0.1:8000/people/halft1">Half
+                        Town<persname key="halft1"></persname></a>s<lb></lb> Indian Name is Codjeyate --or to put a<lb></lb> cork in a
+                    Bottle. <a href="http://127.0.0.1:8000/people/thomp1">Thomsons<persname key="thomp1"></persname></a> Name is<lb></lb> Kys wyd twa--or
+                    the whole side of a Hog<lb></lb> There were also several other Chiefs of low<lb></lb>er
+                    Grade present at Council.<lb></lb> After our Business with them was gone thro'<lb></lb>
+<a href="http://127.0.0.1:8000/people/egran2">Granger<persname key="egran2"></persname></a> informd them of the Object of his
+                    Visit<lb></lb> &amp; concluded with some very suitable advice,<lb></lb> all
+                    correspondent with ours &amp; tending to enforce<lb></lb> it. On breaking up, our
+                    Comp't with <a href="http://127.0.0.1:8000/people/egran2">E Granger<persname key="egran2"></persname></a><lb></lb> went to the House
+                    of <a href="http://127.0.0.1:8000/people/wyund1">Wyundegohta<persname key="wyund1"></persname></a> where we found<lb></lb> his Wife
+                    had been preparing us a Repast &amp;<lb></lb> was just bringing it into the Store
+                    House where<lb></lb> we had been received--it consisted of a Bowl<lb></lb> of Soup made
+                    of Wild Pidgeons &amp;c--the Pidge<lb></lb>ons being left in--and some Indian
+                    [Cakes?]<lb></lb> one kind made of Old Corn Pounded &amp; baked<lb></lb> in the
+                    Ashes--the other of new shelld off corn which<lb></lb> it was said had been tied up
+                    in a Corn Husk<lb></lb> and Boild--but I think it had also been <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_011" n="11"></pb>
+                    baked a little in the Ashes--the Cakes I<lb></lb> tasted with some reluctance but
+                    was afraid<lb></lb> of giving offence if I did not--&amp; the kind made<lb></lb> of the
+                    New Corn I should have thought re<lb></lb>ally good had some of my White Friends
+                    been<lb></lb> the Cooks--the other Cakes tasted of the<lb></lb> smoke with which their
+                    old Corn is ge<lb></lb>nerally seasoned. The Pidgeons were taken<lb></lb> in the Fingers
+                    &amp; eaten with little ceremony<lb></lb> &amp; the soup was obtaind by the aid of
+                    an Old<lb></lb> black Wooden Ladle which each person inclining<lb></lb> to partake took
+                    hold of and supd till he was satis<lb></lb>fied &amp; then left it in the Dish for
+                    his successor<lb></lb> &amp; so it went round to many of the Company<lb></lb> who
+                    pronounced it very good--I however felt<lb></lb> satisfied to take their Word for it
+                    &amp; therefore it<lb></lb> will not be safe to contradict them.<lb></lb> On Our Way
+                    home stopd at the <a href="http://127.0.0.1:8000/places/muncy">Muncy<placename key="muncy"></placename></a> Village<lb></lb> but they
+                    had nothing material to say to us--they<lb></lb> appear more Dirty &amp; Idolent
+                    than the <a href="http://127.0.0.1:8000/organizations/seneca">Seneca<orgname key="seneca"></orgname></a> In<lb></lb>dians &amp; are
+                    considered by them as their Inferiors<lb></lb> yet they permit them to live on their
+                    Land on suf<lb></lb>ferance as they the <a href="http://127.0.0.1:8000/organizations/munseeind">Munceys<orgname key="munseeind"></orgname></a>
+                    have no Land of their own,<lb></lb> &amp; this may in part account for their
+                    degraded<lb></lb> state--they have little stimilus to exert them<lb></lb>selves in
+                    Improving Lands while only Tenants<lb></lb> at Will of the <a href="http://127.0.0.1:8000/organizations/seneca">Senecas<orgname key="seneca"></orgname></a>, who do not respect<lb></lb><pb facs="hv_allinsonw_diary_1809_v3_012" n="12"></pb> &amp; Esteem them.
+                    They are a part of the<lb></lb>
+<a href="http://127.0.0.1:8000/organizations/delaware">Delaware Nation<orgname key="delaware"></orgname></a>.</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-09-30">9 mo. 30th</date><placename key="tunes"></placename></dateline>
+<p>30th. Some of our Co. spent part of the Day<lb></lb> in Walking over the Farm &amp;
+                    Viewing the Land<lb></lb> situation for a Grist Mill &amp;c. It is a beauti<gap></gap>ful
+                    kindly<lb></lb> soil the greater part of it high land &amp; well<lb></lb> Timberd--as is
+                    also the Valley or Bottom Land,<lb></lb> of which there is about 100 Acres.
+                    This<lb></lb> Valley or bottom, which runs from here to<lb></lb>
+<a href="http://127.0.0.1:8000/places/lakee">Lake Erie<placename key="lakee"></placename></a> (about 9 or 10 miles distant North
+                    West)<lb></lb> it looks very probable was once a part of the<lb></lb> Lake &amp; is very
+                    rich. Our Friends have near<lb></lb> 30 Acres Cleard &amp; Clearing &amp; the Oats,
+                    Wheat,<lb></lb> &amp; Vegetables grow very fine--to the West of<lb></lb> the House about
+                    60 yards is a beautiful spring on the Edge of<lb></lb> the Hill about 110 feet from
+                    the surface<lb></lb> of the Valley, <del>which</del> this spring is con<lb></lb>ducted
+                    into a bark Spring House--into a<lb></lb> Water Trough &amp;c. in a very convenient
+                    &amp;<lb></lb> simple manner. Part of the Dwelling<lb></lb> House is made of logs--about
+                    13 feet square<lb></lb> a second addition is constructed of the<lb></lb> Bark of the
+                    Black Ash, sewed with the<lb></lb> inside Bark of the <gap></gap> Wood<lb></lb> The Frame or
+                    skeleton of the Building <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_013" n="13"></pb> is first made with small poles set in
+                    the<lb></lb> Ground &amp; Rafters of the same lyed on them--<lb></lb> the Bark is then
+                    placed edge ways by way<lb></lb> of Weather boarding &amp; Roofd of the same<lb></lb>
+                    Material--each piece of Bark being well<lb></lb> tyed to the Poles with the [B?]
+                    wood Bark<lb></lb> before mentioned--the Doors are each made of<lb></lb> a single Bark
+                    Board &amp; the floor is composd<lb></lb> of about 4 or 5 some of them being<lb></lb>
+                    between 5 &amp; 6 feet in Width--about 9<lb></lb> or 10 in length &amp; an inch in
+                    thickness. The<lb></lb> cost of this Fabric was $1.75 cents, and was<lb></lb> built by
+                    the Indians by agreement for that<lb></lb> sum. It was our Lodging &amp; Eating Room
+                    while<lb></lb> there--containd two Beds--a Large Table--two<lb></lb> Benches--several
+                    Chairs--Chest--Corn Mill--<lb></lb> &amp; sundry other Furniture too tedious to
+                    enu<lb></lb>merate. <a href="http://127.0.0.1:8000/people/egran2">Erastus Granger<persname key="egran2"></persname></a> came home with
+                    us from<lb></lb> the Treaty last Evening &amp; was my Bedfellow<lb></lb> we had
+                    considerable conversation relative to<lb></lb> the Indians &amp; among other things
+                    got on the sub<lb></lb>ject of their Qualifications for Orratory--he<lb></lb> said one
+                    of the most pathetic communications<lb></lb> he had ever heard was from a Young
+                    Warrior<lb></lb> of the <a href="http://127.0.0.1:8000/organizations/tuscarora">Tuscarora<orgname key="tuscarora"></orgname></a> Nation about
+                    four years <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_014" n="14"></pb> ago. The Indians had taken up a couple<lb></lb> of
+                    Women for the supposed crime of Witch<lb></lb> Craft--one of these Women they had
+                    put to<lb></lb> Death, &amp; the other to extreme Torture to extort<lb></lb> from her a
+                    Confession of her Guilt. The<lb></lb> young Warrior was the son of this Woman.<lb></lb>
+<a href="http://127.0.0.1:8000/people/egran2">Granger<persname key="egran2"></persname></a> having by some means heard what<lb></lb>
+                    was going forward among them went to the Wo<lb></lb>mans Relief and remonstrated
+                    with them on the<lb></lb> evil &amp; impropriety of such acts--they however<lb></lb>
+                    plead with him on the Necessity of taking<lb></lb> the Womans Life &amp; when the
+                    found he<lb></lb> continued firm in his Objection, her own<lb></lb> son stepd forth,
+                    first lookd to the Ground &amp; then<lb></lb> raising his Eyes in a moving manner a'
+                    said<lb></lb> My Friend I hope you will listen to<lb></lb> what I have to say. I am the
+                    son of that<lb></lb> Woman--she is my Mother!--She<lb></lb> nursed me when I was a
+                    Child, and I<lb></lb> love my Mother!--Her Arms were ex<lb></lb>tended for my
+                    protection--she laboured<lb></lb> for my support &amp; Comfort!--how can I<lb></lb> help
+                    but love my Mother? She<lb></lb> clothed me &amp; kept me from all harm<lb></lb> both in
+                    sickness &amp; in Health, and you<lb></lb> cannot doubt that I still love my
+                        Mo<lb></lb><pb facs="hv_allinsonw_diary_1809_v3_015" n="15"></pb>Mother, yet notwithstanding my strong<lb></lb> attachment to
+                    her, I am convinced that<lb></lb> she is a bad Woman &amp; has been the<lb></lb> means
+                    of taking the Lives of some of our<lb></lb> People by Witchcraft. I think
+                    there<lb></lb>fore she ought to Die, and desire <a href="http://127.0.0.1:8000/people/egran2">Mr.
+                        Granger<persname key="egran2"></persname></a> that you will not oppose<lb></lb> her being put to Death. As
+                    to my<lb></lb>self &amp; my Brothers we have given<lb></lb> her up for the Good of the Nation.<lb></lb>
+<a href="http://127.0.0.1:8000/people/egran2">Granger<persname key="egran2"></persname></a> said that the young man (who<lb></lb> was
+                    unaccustomed to speaking in public) deli<lb></lb>vered this Expostulatory
+                    address<lb></lb> with much emotion, appearing greatly af<lb></lb>fected--&amp; with
+                    respect to himself he<lb></lb> said, as nearly as I remember his own lan<lb></lb>guage,
+                    that if he was to have had the World<lb></lb> he could not have avoided shedding
+                    Tears--<lb></lb> the Life of the Woman however was pre<lb></lb>served &amp; said to be
+                    still living <gap></gap><lb></lb> &amp; supported by that Son, but much<lb></lb> deformed by
+                    the Tortures they used upon<lb></lb> her. The Chief Warriors Wife paid us a Visit
+                    to<lb></lb>day &amp; spent a considerable part of the Time in Spinning<lb></lb> with
+                    which she seems much pleasd &amp; performs cleverly.</p>
+</div>
+<div type="entry"> <pb facs="hv_allinsonw_diary_1809_v3_016" n="16"></pb>
+<dateline><date when="1809-10-01">1st of 10 month.</date><placename key="tunes"></placename></dateline>
+<p>1st Day. A shower in the<lb></lb> Night from which our Bark Habitation en<lb></lb>tirely
+                    sheltered us. Intending to prosecute our<lb></lb> Journey after an Early Dinner, we
+                    prepard<lb></lb> ourselves soon after Breakfast &amp; sat down<lb></lb> together with
+                    the Family (consisting of <a href="http://127.0.0.1:8000/people/bcoop1">Benjn.
+                        Cope<persname key="bcoop1"></persname></a>--<a href="http://127.0.0.1:8000/people/jtayl1">Jacob Taylor<persname key="jtayl1"></persname></a>--<a href="http://127.0.0.1:8000/people/stwin1">Stephen Twining<persname key="stwin1"></persname></a> &amp; Hank<lb></lb> Jackson) about 9
+                    oClock. Our Minds, I trust<lb></lb> being disposed to offer an Acknowledgment<lb></lb>
+                    of Gratitude to Him Who hath thus far<lb></lb> preserved us &amp; Comfortably shed
+                    the Light<lb></lb> of his Countenance on our present Under<lb></lb>taking &amp;
+                    Embassy--with Denies also that<lb></lb> He may continue His protecting Care,<lb></lb>
+                    both to us on our Return, and to our<lb></lb> Friends here stationed--that He
+                    may<lb></lb> Dispence to them a portion of His Wisdom<lb></lb> to go in and out &amp;
+                    hold intercourse with<lb></lb> the Natives promotive of their Improve<lb></lb>ment and
+                    of His Praise. With<lb></lb> respect to the Concern of Friends in this<lb></lb>
+                    Important Work, the Pious Poets Petition<lb></lb> occurd to me (and I hope, with
+                    propriety<lb></lb> it may here be prefer'd) <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_017" n="17"></pb><quote type="poem">Prosper,
+                        We press Thee with a powerful Plea<lb></lb> A Task we've Venturd on, impelld by
+                        Thee.</quote><lb></lb> Our Opportunity together was a favourd<lb></lb> one--the
+                    Overshadowing Wing of Antient<lb></lb> Kindness accompanying our Minds,<lb></lb> under
+                    which a renewed Confirmation of<lb></lb> the Promise was afforded, That<lb></lb> where
+                    two or three are met &amp; gathered<lb></lb> in the Almighty Name--there He
+                    would<lb></lb> be in the midst of them. <a href="http://127.0.0.1:8000/people/alea1">Amos
+                    Lea<persname key="alea1"></persname></a><lb></lb> had a comfortable yet solemn Com<lb></lb>munication, reviving
+                    the scripture that<lb></lb> here we have no continuing City &amp; there<lb></lb>fore
+                    should seek one to come &amp;c--but<lb></lb> that if we were in our proper places
+                    it<lb></lb> matterd not where our Exit as to sub<lb></lb>limary Things took place. The
+                    Text<lb></lb> which had several times run<lb></lb> thro' my own Mind, he also
+                    repeated.<lb></lb> Where Two or Three &amp;ca. I can ac<lb></lb>knowledge that in this
+                    Opportunity<lb></lb> I felt abundantly satisfied--it seemd<lb></lb> like a seal of our
+                    being rightly put <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_018" n="18"></pb> forth &amp; evidence that we are still<lb></lb>
+                    cared for.<lb></lb> After rising from an Early Dinner, mounted<lb></lb> our Horses for
+                    Home, <a href="http://127.0.0.1:8000/people/jtayl1">Jacob Taylor<persname key="jtayl1"></persname></a><lb></lb> accompanying us,
+                    having Business as <a href="http://127.0.0.1:8000/places/batav">Batavia<placename key="batav"></placename></a><lb></lb> our Road was
+                    across the Wilderness for about<lb></lb> 12 or 14 Miles a single Horse Path. In<lb></lb>
+                    this afternoons Ride I met with several Dis<lb></lb>asters--but the Last &amp; Worst
+                    was from a<lb></lb> Hemlock Knot sharp at one End &amp; laying<lb></lb> in the
+                    Road--which my Horse stuck into his<lb></lb> Near Hind Foot an Inch &amp; 1/8th in
+                    Depth the<lb></lb> effect of which was to lame him so much<lb></lb> as almost to Disable
+                    him from travelling--<lb></lb> in this situation I travelld ab. 5 or 6 miles<lb></lb>
+                    thro' an Extremely bad Road--perhaps<lb></lb> the worst, some part of it, that I
+                    ever saw<lb></lb> my Comp'y leavg me behind I had some very<lb></lb> unpleasant
+                    sensations, principally arising<lb></lb> from the Pain which my Horse evidently<lb></lb>
+                    traveld in--they at length came to <a href="http://127.0.0.1:8000/places/lakee">Lake
+                        Erie<placename key="lakee"></placename></a> &amp; there stopd for me after which<lb></lb> about one mile
+                    along Its Shore brought<lb></lb> us to a poor forlorn House kept by one <lb></lb>Enos
+                        <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_019" n="19"></pb> Enos (a new Comer there)--have rode this af<lb></lb>ternoon
+                    about 21 miles--&amp; it now being night<lb></lb> we with considerable Difficulty
+                    extracted the Snag<lb></lb> from my poor Horses Foot &amp; without any other<lb></lb>
+                    application than a little Black Alder Spirit which<lb></lb> I had with me turnd him
+                    out with the rest in<lb></lb> a bare field, with a priveledge to go to a Hay<lb></lb>
+                    stack if they inclind, which stood a good way<lb></lb> off. The land lady provided
+                    us a supper of Tea<lb></lb> &amp;c. as good as she was able &amp; we were then
+                    told<lb></lb> that they would leave us the Two Beds &amp; the<lb></lb> Room were we eat,
+                    to lodge in--being 5 in num<lb></lb>ber, I told my Co. that I intended to be
+                    the<lb></lb> one who should take the Floor against this<lb></lb> several of them
+                    objected, but I told them I<lb></lb> did not intend returning home without once<lb></lb>
+                    making trial of such a mode of Lodging. I<lb></lb> accordingly inverted a
+                    Chair--placed my<lb></lb> Saddle &amp; Bags upon it for a Pillow, &amp;<lb></lb> spread
+                        <a href="http://127.0.0.1:8000/people/tstew1">T Stewardson<persname key="tstew1"></persname></a>s Blanket on the floor<lb></lb>
+                    for a Bed--then puting on my Great Coat<lb></lb> &amp; wrapg myself in my own
+                    Blanket I<lb></lb> lay down, Boots &amp; all, with my feet to the<lb></lb> fire &amp;
+                    had a very comfortable Sleep &amp; some<lb></lb> pleasant Dreams. Towards Day
+                        <a href="http://127.0.0.1:8000/people/jbrow1">Jn. Brown<persname key="jbrow1"></persname></a>
+<lb></lb><pb facs="hv_allinsonw_diary_1809_v3_020" n="20"></pb> getting up to look after our Horses, awoke<lb></lb> me &amp; several
+                    Poetical extracts presenting<lb></lb> as appropriate to my situation, I had
+                    some<lb></lb> very Instructive Reflections relative to the<lb></lb> protecting care
+                    &amp; paternal Regard of an Al<lb></lb>mighty Father, whose Dispensations whether
+                    plea<lb></lb>sant or Afflictive, are all in Mercy &amp; unerving Wisdom. I then had
+                    another<lb></lb> sweet sleep. </p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-02"></date><placename key="buffa"></placename></dateline>
+<p>In the Morning rose<lb></lb> early--fed our Horses &amp; rode about 9 Miles<lb></lb>
+                    along the Lake Shore to Breakfast at<lb></lb>
+<a href="http://127.0.0.1:8000/places/buffa">Buffaloe<placename key="buffa"></placename></a>--calld now <a href="http://127.0.0.1:8000/places/amst">Amsterdam<placename key="amst"></placename></a>--my<lb></lb> Horse very Lame, travelling
+                    consequently<lb></lb> painful both to him &amp; myself yet it did<lb></lb> not entirely
+                    prevent me from enjoying the<lb></lb> Grandeiur of the Scenes presented by the<lb></lb>
+                    foaming Billows which lashd the shore,<lb></lb> expressing in Accents Rude, yet
+                    awful<lb></lb> &amp; Sublime, the Omnipotence of Him who <lb></lb>marks their
+                    Boundaries.<lb></lb> The Lake appears to be supplied, not only<lb></lb> by the larger
+                    Waters which empty into it.<lb></lb> The Mouths of several of which we crossd,<lb></lb>
+                    viz. Smoke &amp; <a href="http://127.0.0.1:8000/places/buffc1">Buffaloe Creek<placename key="buffc1"></placename></a>s, but
+                        <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_021" n="21"></pb>innumerable springs weep from its Banks<lb></lb> &amp; loose
+                    themselves in its hungry Sands<lb></lb> which are so calculated to absorb small<lb></lb>
+                    supplies that the returning Billow<lb></lb> is lost to the View, before the Welling
+                    is<lb></lb> renewed by its speedy Successor.<lb></lb> The Shore for the most part is
+                    coverd with a<lb></lb> Beautiful fine Gravel &amp; small Shells--but in<lb></lb> some
+                    places Sand &amp; others mud--in some<lb></lb> places it is receeding &amp; in
+                    others forming<lb></lb> &amp; we were told that when there is much<lb></lb> Wind the
+                    Breakers exceed their Banks &amp;<lb></lb> dash over the adjacent Country,
+                    covering<lb></lb> many Acres like a sea.<lb></lb> Now Amsterdam is situate near the
+                    Mouth<lb></lb> of <a href="http://127.0.0.1:8000/places/buffc1">Buffaloe Creek<placename key="buffc1"></placename></a> about a Quarter
+                    of a<lb></lb> Mile from the Lake and commands a<lb></lb> View <a href="http://127.0.0.1:8000/places/point">Point Abineau<placename key="point"></placename></a>, about 14 Miles<lb></lb> distant, and a considerable
+                    extent of the<lb></lb>
+<a href="http://127.0.0.1:8000/places/canad">upper Canada<placename key="canad"></placename></a> Shore about the Mouth<lb></lb>
+                    of <a href="http://127.0.0.1:8000/places/blacc">Black Creek<placename key="blacc"></placename></a>, where a number of
+                    Friends<lb></lb> are setled. <a href="http://127.0.0.1:8000/places/ferie">Fort Erie<placename key="ferie"></placename></a>, where
+                    there is<lb></lb> a British Garrison, stands opposite, yet<lb></lb> the View is
+                    obstructed from the Town by <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_022" n="22"></pb> a skirt of Woods on this Bank,
+                    but<lb></lb> when we cast our Eyes up this Lake<lb></lb> it looks like a mighty sea, and
+                    Vission is<lb></lb> too short to scan its extent. The Town<lb></lb> contains about 40 or
+                    50 Houses &amp; is in<lb></lb>creasing in Population &amp; handsome Buildings<lb></lb>
+                    it seems to be a place of much intercourse<lb></lb> &amp; is about 22 Miles from
+                        <a href="http://127.0.0.1:8000/places/niagf">Niagara Falls<placename key="niagf"></placename></a>. There are several
+                    Indian Towns<lb></lb> within a few miles &amp; the Indians are too<lb></lb> often here
+                    to give hope, on national Ground,<lb></lb> of their general reformation from
+                    their<lb></lb> use of Spirituous Liquors, &amp; yet we were<lb></lb> told that many of
+                    them have abandoned<lb></lb> this Destroyer &amp; stand firm against
+                    Temp<lb></lb>tation. <a href="http://127.0.0.1:8000/places/buffc1">Buffaloe Creek<placename key="buffc1"></placename></a> is
+                    navigable<lb></lb> for shallops several miles up yet<lb></lb> subject to a Changeing Bar
+                    at its<lb></lb> mouth, in which we forded it about 2<lb></lb> feet Deep &amp; 10 Yards
+                    wide.<lb></lb> The Lake where we first struck it is<lb></lb> calld 12 Miles wide--at
+                        <a href="http://127.0.0.1:8000/places/buffa">Buffaloe<placename key="buffa"></placename></a> 3 Miles<lb></lb> &amp; 3 miles lower
+                    down, at <a href="http://127.0.0.1:8000/places/blacr">black Rock<placename key="blacr"></placename></a>--One <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_023" n="23"></pb>Mile &amp; here there is a Ferry kept over<lb></lb> into Canada.<lb></lb> At
+                        <a href="http://127.0.0.1:8000/places/buffa">Buffaloe<placename key="buffa"></placename></a> we saw a great many Indians<lb></lb>
+                    among which were <a href="http://127.0.0.1:8000/places/redja1">Red Jacket<placename key="redja1"></placename></a> &amp; the
+                    Farmers<lb></lb> Brother, but all appeard to be sober.<lb></lb> After Dining &amp;
+                    getting our Horses shod we<lb></lb> mounted them &amp; proceeded over the <a href="http://127.0.0.1:8000/places/woakp">White Oak Plains<placename key="woakp"></placename></a>, which appear to be composd of
+                    a large<lb></lb> proportion of small Lime Stone &amp; an intermix<lb></lb>ture of pretty
+                    good soil--there are very few<lb></lb> Trees, but fern &amp; some scrubby Bushes
+                    &amp; abun<lb></lb>dance of strawberry Vines. <a href="http://127.0.0.1:8000/people/egran2">Erastus
+                        Grangers<persname key="egran2"></persname></a><lb></lb> House--a Neat Building, lay to our Left hand<lb></lb>
+                    &amp; 14 Miles from <a href="http://127.0.0.1:8000/places/buffa">Buffaloe<placename key="buffa"></placename></a> we stopd for
+                    the<lb></lb> Night at <a href="http://127.0.0.1:8000/people/aharr1">Asa Harris<persname key="aharr1"></persname></a>'s Tavern--my
+                    Horse<lb></lb> had traveld in much pain &amp; </p> </div>
+<div type="entry">
+<dateline><date when="1809-10-03"></date><placename key="batav"></placename></dateline>
+<p>next morning the<lb></lb> 3d. I with Difficulty got him to move, he<lb></lb> had also
+                    left his oats (for the first time since<lb></lb> leaving home). Our Comp'y intending
+                    Breakfast<lb></lb> at <a href="http://127.0.0.1:8000/places/vande">Vandeventers Tavern<placename key="vande"></placename></a> 8 Miles
+                    distant, I<lb></lb> got along with them, but neither myself<lb></lb> or Horse being in
+                    Eating Mood we passd on<lb></lb> over a Rough Road much of it being log
+                    causeway<lb></lb> 18 Miles to <a href="http://127.0.0.1:8000/places/batav">Batavia<placename key="batav"></placename></a>. I had
+                    drove him before<lb></lb> me a Considerable part of this Distance &amp; felt<lb></lb>
+                    spent &amp; unwell on reach'g there--when my Co.<lb></lb> came up a pretty good
+                    Dinner &amp; Glass of Wine <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_024" n="24"></pb>refreshd me but did not relieve my mind
+                    [?]<lb></lb> felt in a great straight what was best to be<lb></lb> done--my Co. were
+                    intent on proceeding home<lb></lb>ward &amp; could not bear to a
+                    Detention--they<lb></lb> therefore advised me to change my Horse<lb></lb> for another,
+                    or sell him &amp; take the stage<lb></lb> via <a href="http://127.0.0.1:8000/places/alban">Albany<placename key="alban"></placename></a> &amp; New York, but to neither plan<lb></lb> could I feel
+                    reconcild--&amp; to be left behind among<lb></lb> strangers at such a Distance
+                    looked very gloomy,<lb></lb> yet seemd the most satisfactory provided I could<lb></lb>
+                    not keep along. <a href="http://127.0.0.1:8000/places/batav">Batavia<placename key="batav"></placename></a> is in <a href="http://127.0.0.1:8000/places/genec">Gennessee County<placename key="genec"></placename></a> &amp; the County Town has a
+                    fine Court<lb></lb> House &amp; prhps 30 Houses -- is situate on<lb></lb> the <a href="http://127.0.0.1:8000/places/toncr">Tonawanda<placename key="toncr"></placename></a> which we crossd<lb></lb> some miles before
+                    getting here, and a<lb></lb> little before <a href="http://127.0.0.1:8000/places/murder">Murder
+                        Creek<placename key="murder"></placename></a>.<lb></lb> having Dind I went on with my Co. 12 Miles<lb></lb> to
+                        <a href="http://127.0.0.1:8000/places/ganson">Gansons Tavern<placename key="ganson"></placename></a>, where I nursd poor
+                    Snip<lb></lb> as well as I could, &amp; </p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-04">next Morn'g the 4th</date><placename key="danv"></placename></dateline>
+<p>Rose before Day &amp; rode over a poor Dry<lb></lb> Country till we came to the
+                    Indian Reser<lb></lb>vation on the <a href="http://127.0.0.1:8000/places/genes2">Gennessee
+                        River<placename key="genes2"></placename></a>, which we<lb></lb> Crossd, perhaps a mile thro' the
+                    enclosd<lb></lb> Flats, a very excellent soil coverd with<lb></lb> rich Pasture, with
+                    Horses, Cattle &amp; Swine <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_025" n="25"></pb> belonging to the Indians, feeding on
+                    it.<lb></lb> there are two settlements of Indians<lb></lb> near here, one of which we
+                    passd thro.<lb></lb> We passd also by a very large spring,<lb></lb> which of itself was
+                    a mill but in<lb></lb> general this <a href="http://127.0.0.1:8000/places/genec">Gennessee
+                        County<placename key="genec"></placename></a> is badly<lb></lb> Waterd &amp; Water is bad--much of the<lb></lb>
+                    soil is coverd with poor scattering scrubbly<lb></lb> Oaks &amp; full of Lime Stone.
+                    At a little<lb></lb> place calld <a href="http://127.0.0.1:8000/places/hartf2">Hartford<placename key="hartf2"></placename></a> we
+                    crossd the<lb></lb>
+<a href="http://127.0.0.1:8000/places/genes2">Gennessee River<placename key="genes2"></placename></a> 13 Miles from <a href="http://127.0.0.1:8000/places/ganson">Gansons<placename key="ganson"></placename></a> &amp; breakfasted at<lb></lb> a Good Inn kept
+                    by Maria Berry--<lb></lb> after Breakfast submitted to my Friends<lb></lb> whether they
+                    would advise me to go on<lb></lb> with them or take my route alone<lb></lb> Via
+                        <a href="http://127.0.0.1:8000/places/alban">Albany<placename key="alban"></placename></a> (the Road to which they<lb></lb> were
+                    now going to leave)--they encouraged<lb></lb> me to proceed with them as my
+                    Horse<lb></lb> seemd rather better, so passing over a barren<lb></lb> country for some
+                    miles, coverd principally with<lb></lb> scattering Oaks, we came to a better soil
+                    &amp; a<lb></lb> number of Settlements--also passd thro' the<lb></lb> noted Farm on
+                    which live two Brothers by<lb></lb> the Name of<a href="http://127.0.0.1:8000/people/wwads1">Wadsworth,
+                        Wm<persname key="wwads1"></persname></a> &amp; <a href="http://127.0.0.1:8000/people/jwads1">James<persname key="jwads1"></persname></a><lb></lb>
+<pb facs="hv_allinsonw_diary_1809_v3_026" n="26"></pb> and is a part of the Big-Tree Reservation,<lb></lb> principally Flats,
+                    very fine &amp; bounding on the<lb></lb>
+<a href="http://127.0.0.1:8000/places/genes2">Gennessee River<placename key="genes2"></placename></a>--they here keep a very
+                    lrg<lb></lb> stock &amp; we were told 1200 head of sheep.<lb></lb> At <a href="http://127.0.0.1:8000/places/willi">Williamsburg<placename key="willi"></placename></a> (a Wretched place, formerly<lb></lb> noted
+                    for Horseracing &amp;c, now only three In<lb></lb>habited Houses) we fed our
+                    Horses--eat a<lb></lb> few poor red Plumbs &amp; piece of Gingerbread<lb></lb> &amp;
+                    then mounted again coming pretty soon<lb></lb> to a Stream of Water calld <a href="http://127.0.0.1:8000/places/canas">Canneseraga<placename key="canas"></placename></a><lb></lb> being a Fork of the <a href="http://127.0.0.1:8000/places/genes2">Gennessee River<placename key="genes2"></placename></a><lb></lb> which here is about 8 Miles
+                    from us--<lb></lb> along this Stream is a body of valuable<lb></lb> Flatts which lay to
+                    our Right &amp; a Moun<lb></lb>tain to our left--this is a rich soil if rightly<lb></lb>
+                    managed but the Farms are in poor Culture<lb></lb> &amp; many of the Houses are
+                    deserted--partly<lb></lb> owing (we were told) to the badness of the<lb></lb> Water
+                    &amp; partly, I suspect, from the use<lb></lb> of Whisky which is sadly common
+                    here<lb></lb> --a little before Night reachd <a href="http://127.0.0.1:8000/places/danv">Danville<placename key="danv"></placename></a><lb></lb> which makes our Days ride 40 Miles--<lb></lb> stopd
+                    at a Tavern kept by a <a href="http://127.0.0.1:8000/places/jrowl1">Jonathan Rowley<placename key="jrowl1"></placename></a>--<lb></lb>
+                    here we met with Colonel Troop &amp; a young man<lb></lb> from <a href="http://127.0.0.1:8000/places/alban">Albany<placename key="alban"></placename></a> &amp; <a href="http://127.0.0.1:8000/places/jwads1">James
+                        Wadsworth<placename key="jwads1"></placename></a>, one of the <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_027" n="27"></pb> Brothers before mentioned--he
+                    told us, on our<lb></lb> enquiry, that they had about 1600 sheep &amp; be<lb></lb>tween
+                    1 &amp; 200 Cattle--this <a href="http://127.0.0.1:8000/places/danv">Daville<placename key="danv"></placename></a> is a
+                    poor<lb></lb> little place, but the Landlady seemd disposd<lb></lb> to entertain us
+                    according t the best of her abi<lb></lb>lity.</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-05"> Next Morning the 5th.</date><placename key="danv"></placename></dateline>
+<p>rose about Day Break &amp; rode 12 1/2 miles<lb></lb> to Breakfast at <a href="http://127.0.0.1:8000/people/churl1">Christian Hurlburts<persname key="churl1"></persname></a> Tavern<lb></lb> a Good House near
+                    the <a href="http://127.0.0.1:8000/places/canis">Canisteo<placename key="canis"></placename></a> Creek--our<lb></lb> ride this
+                    Morning chiefly over a spur of the<lb></lb>
+<a href="http://127.0.0.1:8000/places/allmo">Allegany Mountains<placename key="allmo"></placename></a>--then passing a
+                    large<lb></lb> Body of uninclosd Marshy Ground--then<lb></lb> after Breakfast about 11
+                    o'Clock took our<lb></lb> Way up the <a href="http://127.0.0.1:8000/places/canis">Canisteo<placename key="canis"></placename></a>
+                    Creek, pretty much<lb></lb> following its courses in the Valley which<lb></lb> is rich
+                    &amp; affords many fine Farms--the<lb></lb> Hills on either hand appeared like<lb></lb>
+                    Chains of Mountains, yet we were told<lb></lb> that the Country on the Top is
+                    pretty<lb></lb> level &amp; well Timberd--after making<lb></lb> our Days ride 32 Miles
+                    put in at the<lb></lb> House of <a href="http://127.0.0.1:8000/people/jlough1">Joseph Loughrey<persname key="jlough1"></persname></a>,
+                    a poor place<lb></lb> but the only one then attainable--here</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-06">6</date> <placename key="checkPlace"></placename></dateline>
+<p>they gave us our Breakfast about Day<lb></lb> Break and keeping down the Valley 18<lb></lb>
+<pb facs="hv_allinsonw_diary_1809_v3_028" n="28"></pb> Miles we fed at Jones's Tavern &amp; in 5<lb></lb> more came to the
+                        <a href="http://127.0.0.1:8000/places/tioga">Tioga River<placename key="tioga"></placename></a> where<lb></lb> the <a href="http://127.0.0.1:8000/places/canis">Canisteo<placename key="canis"></placename></a> emptied into it--we were all<lb></lb> told that
+                    the <a href="http://127.0.0.1:8000/places/tioga">Tiogo<placename key="tioga"></placename></a> empties into the North<lb></lb> Branch
+                    of <a href="http://127.0.0.1:8000/places/susqueh">Susquehanna<placename key="susqueh"></placename></a> about 50 Miles<lb></lb> from
+                    here--after fording the <a href="http://127.0.0.1:8000/places/canis">Canisteo<placename key="canis"></placename></a> &amp;<lb></lb>
+<a href="http://127.0.0.1:8000/places/tioga">Teoga<placename key="tioga"></placename></a> stopd &amp; Dind at <a href="http://127.0.0.1:8000/places/fords">Fords Tavern<placename key="fords"></placename></a> just as<lb></lb> it began to Rain, which
+                    Continuing we<lb></lb> unbent on Great Coats for he first time<lb></lb> that Rain had
+                    made them necessary, &amp;<lb></lb> in about 3/4 of a mile riding cross'd<lb></lb> the
+                        <a href="http://127.0.0.1:8000/places/cowan">Cowawneskee<placename key="cowan"></placename></a> &amp; tak'g the left<lb></lb>
+                    hand road of three forded the <a href="http://127.0.0.1:8000/places/tioga">Tioga<placename key="tioga"></placename></a><lb></lb>
+                    twice got in to a Tavern kept by another<lb></lb> Widow Berry, being a little West.
+                    Our<lb></lb> Days ride computed 41 Miles--my Horse thi<lb></lb>s afternoon much better
+                    of his Lameness &amp;<lb></lb> in good spirits. We are now in the State<lb></lb> of
+                        <a href="http://127.0.0.1:8000/places/penns">Pennsylvania<placename key="penns"></placename></a> hav'g crossd the Line
+                    of<lb></lb> Pens'a &amp; N York this afternoon between the<lb></lb>
+<a href="http://127.0.0.1:8000/places/cowan">Cowawneskee<placename key="cowan"></placename></a> &amp; <a href="http://127.0.0.1:8000/places/tioga">Tioga<placename key="tioga"></placename></a>.</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-07">7th</date> <placename key="checkPlace"></placename></dateline>
+<p>Took an Early start again &amp; rode Eleven<lb></lb> Miles to Breakfast at a
+                    poor Tavern kept<lb></lb> by one Greno. Our Road worse than we <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_029" n="29"></pb> have
+                    lately had it, the mud being<lb></lb> increasd by last nights Rain. The Land<lb></lb>
+                    here is Good--well Timberd &amp; many setlers<lb></lb> our Course is up the
+                        <a href="http://127.0.0.1:8000/places/tioga">Tioga<placename key="tioga"></placename></a>--here has been<lb></lb> no Frost of
+                    Consequence, nor have we seen<lb></lb> any since crossing the <a href="http://127.0.0.1:8000/places/genes2">Gennessee River<placename key="genes2"></placename></a><lb></lb> --after Breakfast pursued our
+                    route up<lb></lb> the <a href="http://127.0.0.1:8000/places/tioga">Tioga<placename key="tioga"></placename></a> about 7 Miles further
+                    when its<lb></lb> increasing Murmers &amp; Rapidity reminded us<lb></lb> of a greater
+                    Elevation ahead--we accordingly<lb></lb> soon began to ascend the savage
+                    Mountain<lb></lb> being calld 10 Miles across &amp; the Worst<lb></lb> Travelling we
+                    have had since leaving <a href="http://127.0.0.1:8000/places/lakee">Lake Erie<placename key="lakee"></placename></a>--yet
+                    even on this Wild &amp; Stony Height<lb></lb> I was not destitute of Enjoyment. The
+                    falling<lb></lb> Beech &amp; Sugar Maple Leaves mingling their<lb></lb> sweets with the
+                    Mountain Air, after the Noc<lb></lb>turnal shower, emitted a fragrance regaling<lb></lb>
+                    to the senses &amp; cheering to the Mind--at the<lb></lb> foot of this Mountain
+                    (sometimes calld Briar<lb></lb> Hill) we put in at the <a href="http://127.0.0.1:8000/places/block">Block
+                        House<placename key="block"></placename></a>, now<lb></lb> kept by S Hisley. We are now said to be<lb></lb>
+                    opposite <a href="http://127.0.0.1:8000/people/rmoor1">Richard Moore<persname key="rmoor1"></persname></a>s where we lodgd in<lb></lb>
+                    our Route up--being about 8 Miles off on a<lb></lb> North Course. </p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-08">8th</date><placename key="newbe1"></placename></dateline>
+<p>Rose before Day &amp; crossd the <a href="http://127.0.0.1:8000/places/allegany">Allegany<placename key="allegany"></placename></a>
+<pb facs="hv_allinsonw_diary_1809_v3_030" n="30"></pb> Mountain, <lb></lb>9 Miles over--then Descended into<lb></lb> a Valley, the Bed
+                    of <a href="http://127.0.0.1:8000/places/trout">Trout River<placename key="trout"></placename></a>, which in<lb></lb> about 3 Miles
+                    we forded 30 times &amp; put in<lb></lb> about 10 o'Clock at <a href="http://127.0.0.1:8000/people/dreyn1">David Reynolds<persname key="dreyn1"></persname></a> Tavern,<lb></lb> having rode 15 Miles over a very
+                    rough,<lb></lb> Muddy &amp; bad Road, being considerably wet by<lb></lb> a heavy
+                    Drizzle, amounting to a fine Rain--<lb></lb> here we found Peaches in abundance
+                    &amp;<lb></lb> for the first time since leaving home, I feas<lb></lb>ted luxuriously
+                    upon them, both before &amp;<lb></lb> after Breakfast--we are here again on<lb></lb> the
+                        <a href="http://127.0.0.1:8000/places/lycom3">Lycoming Creek<placename key="lycom3"></placename></a> which runs before
+                    the<lb></lb> Door--about 1/2 past Eleven following its<lb></lb> courses &amp; fording it
+                    many times, with Moun<lb></lb>tains high on either hand we reachd<lb></lb>
+<a href="http://127.0.0.1:8000/places/newbe1">Newberry<placename key="newbe1"></placename></a> in about 11 Miles riding--and<lb></lb>
+<a href="http://127.0.0.1:8000/people/melli2">Mercy Ellis<persname key="melli2"></persname></a>'s before Dark having rode<lb></lb> 41
+                    Miles.</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-09">9th</date><placename key="catta"></placename></dateline>
+<p>Breakfasted at <a href="http://127.0.0.1:8000/people/melli2">Mercy Ellis<persname key="melli2"></persname></a>'s &amp;
+                    then<lb></lb> proceeded--from the Top of Muncy Hill the<lb></lb>
+<a href="http://127.0.0.1:8000/places/catta">Cattawissa<placename key="catta"></placename></a> &amp; other Mountains before
+                    us<lb></lb> with the intervening Vale, thro which<lb></lb> the <a href="http://127.0.0.1:8000/places/susqu">Susquehanna<placename key="susqu"></placename></a> runs, our Prospect was<lb></lb> very fine--then passing
+                    Hard Scrabble Town <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_031" n="31"></pb> we fed again at <a href="http://127.0.0.1:8000/places/jtown2">Jersey
+                        Town<placename key="jtown2"></placename></a> &amp; Dind on our<lb></lb> own Provision--the appearance of
+                    Things being<lb></lb> no temptation to call for Dinner. In a few<lb></lb> Miles riding
+                    we got another feast of Peaches<lb></lb> which are here very plenty--when we<lb></lb>
+                    came to the <a href="http://127.0.0.1:8000/places/susqu">Susquehanna<placename key="susqu"></placename></a>, no ferryman<lb></lb>
+                    appearing at our call &amp; the Water being<lb></lb> lower than when we went up, we
+                    ven<lb></lb>tured to ford it &amp; got to <a href="http://127.0.0.1:8000/places/catta">Cattawessa<placename key="catta"></placename></a> before<lb></lb> Dark. <a href="http://127.0.0.1:8000/people/tamos1">Tho.
+                        Amos<persname key="tamos1"></persname></a> &amp; myself put up<lb></lb> our Horses &amp; supd at <a href="http://127.0.0.1:8000/people/bshar1">Benj. Sharplesses<persname key="bshar1"></persname></a><lb></lb> but lodged at <a href="http://127.0.0.1:8000/people/telli1">Tho. Ellis<persname key="telli1"></persname></a>'s very comfort<lb></lb>ably, &amp;</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-10">before 5
+                    o'Clock next morn'g the 10th, </date> <placename key="benst"></placename></dateline>
+<p>they gave us Breakfast so as to en<lb></lb>able us to set out with the first
+                    appear<lb></lb>ance of Day--as we left the Town<lb></lb> &amp; for a Considerable
+                    Distance up the<lb></lb> Mountain the Fog was so great as to<lb></lb> make it very Damp
+                    riding--but when<lb></lb> we had nearly reachd the Mountains<lb></lb> top we found
+                    ourselves entirely above<lb></lb> it--on getting to the Top of the Little<lb></lb>
+                    Mountain 10 Miles off we saw the Fog <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_032" n="32"></pb> still hanging over the
+                        <a href="http://127.0.0.1:8000/places/susqu">Susquehanna<placename key="susqu"></placename></a><lb></lb> very heavy for along
+                    Distance--after<lb></lb> Xg this &amp; the <a href="http://127.0.0.1:8000/places/mahan">Moehanoy
+                        Mountains<placename key="mahan"></placename></a><lb></lb> fed our Horses about noon at <a href="http://127.0.0.1:8000/people/mkett1">Michael Ketteras<persname key="mkett1"></persname></a> 23 miles from <a href="http://127.0.0.1:8000/places/catta">Cattawessey<placename key="catta"></placename></a>--<lb></lb> the Weather very Warm, as it has
+                    been<lb></lb> nearly ever since we have been on our<lb></lb> return. Our next stage was at<lb></lb>
+<a href="http://127.0.0.1:8000/places/benst">Bensingers<placename key="benst"></placename></a> which we reachd about sun<lb></lb>
+                    set--tird--&amp;</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-11"> next morng the 11th</date> <placename key="checkPlace"></placename></dateline>
+<p>rose before Day &amp; rode to Breakfast<lb></lb> 16 long Miles over a stony
+                    mountainous<lb></lb> Road, at <a href="http://127.0.0.1:8000/people/mlee1">Mordicai Lea's<persname key="mlee1"></persname></a>--and
+                    went with<lb></lb> them to <a href="http://127.0.0.1:8000/organizations/maidem">Maiden Creek Meeting<orgname key="maidem"></orgname></a>
+                    about one<lb></lb> mile from there--after Meetg Dind at <a href="http://127.0.0.1:8000/people/tligh1">Tho. Lightfoots<persname key="tligh1"></persname></a> where we Draughted a Report<lb></lb> to the
+                    Indian Coun. and <a href="http://127.0.0.1:8000/people/tstew1">T. Stewardson<persname key="tstew1"></persname></a> havg<lb></lb> sold
+                    his Mare to <a href="http://127.0.0.1:8000/people/alea1">A Lea<persname key="alea1"></persname></a> we here parted<lb></lb> with him
+                    &amp; went home with Amos 10<lb></lb> Miles, part of the Way in the Rain.</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-12">12th</date> <a href="http://127.0.0.1:8000/places/byber">byber<placename key="byber"></placename></a></dateline>
+<p>Rose again before Day--took Break<lb></lb>fast by Candle Light &amp; makg a
+                    small <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_033" n="33"></pb> stop at <a href="http://127.0.0.1:8000/people/bwrig1">Benjamin Wrights<persname key="bwrig1"></persname></a>
+                    passd thro <a href="http://127.0.0.1:8000/places/potts">PottsGrove<placename key="potts"></placename></a> &amp; over
+                        <a href="http://127.0.0.1:8000/places/perki">Perkioming<placename key="perki"></placename></a> &amp; Skippack Bridges<lb></lb>
+                    &amp; stopd to Dine at a Tavern on the Turnpike<lb></lb> Road, near the 18 Mile
+                    stone &amp; the 2d.<lb></lb> Gate having rode since Breakfast &amp; feedg<lb></lb> 33
+                    miles--soon after getting in here<lb></lb> it began to Raise. Dinner over we<lb></lb>
+                    left the Turnpike &amp; passing by <a href="http://127.0.0.1:8000/people/jfoul1">Jesse
+                        Foulkes<persname key="jfoul1"></persname></a> House &amp; Mill--thro North Wals<lb></lb>and by <a href="http://127.0.0.1:8000/organizations/meethorsh">Horseham Meetg House<orgname key="meethorsh"></orgname></a> &amp; the<lb></lb> Billet I
+                    parted with <a href="http://127.0.0.1:8000/people/jbrow1">Jn. Brown<persname key="jbrow1"></persname></a> near<lb></lb> Byberry just
+                    at Dark &amp; got in to <a href="http://127.0.0.1:8000/people/hyarn1">Han Yarnall<persname key="hyarn1"></persname></a>s soon
+                    after. <a href="http://127.0.0.1:8000/people/jbrow1">John<persname key="jbrow1"></persname></a> intending home <lb></lb>that
+                    night--found that HY had gone<lb></lb> to Baltimore YM &amp; Jas <unclear>Suter</unclear> to
+                    Phila.<lb></lb> but I spent a pleasant Eveng with<lb></lb> the Caretakers left at
+                    home -- my<lb></lb> ride this Day is computed 54 Miles.</p>
+</div>
+<div type="entry">
+<dateline><date when="1809-10-13">13th</date><placename key="burli"></placename></dateline>
+<p> 13th My Desire to reach home induced<lb></lb> me to rise early before the Family
+                    but<lb></lb> found the stable Lockd which produced a<lb></lb> little Detention--on
+                    getting to Dunks <lb></lb><pb facs="hv_allinsonw_diary_1809_v3_034" n="34"></pb>Ferry, the Hands had gone a <gap></gap> &amp;<lb></lb> I was
+                    again Detaind near an Hour--but<lb></lb> reachd <a href="http://127.0.0.1:8000/places/burli">Burlington<placename key="burli"></placename></a> at latish Break<lb></lb>fast time--having been absent
+                    about<lb></lb> three Days short of Six Weeks &amp;<lb></lb> rode, or traveld, 816 Miles.
+                </p>
+</div>
+<div type="undetermined">
+<pb facs="hv_allinsonw_diary_1809_v3_035" n="35"></pb>
+</div>
+<div type="accounts">
+<pb facs="hv_allinsonw_diary_1809_v3_036" n="36"></pb>
+<p>9 mo 26 2 [Fish?] presented to us [?] .50cts <lb></lb>Lodgd at Stephen [Hazeltines?] 20
+                    Miles  <lb></lb>27 Lodgdg Feed &amp;c. for 4 Persons $2.91 1/2  <lb></lb>rode to <a href="http://127.0.0.1:8000/places/catta1">Cataraugus<placename key="catta1"></placename></a> Clear Creek 25 Ms.  <lb></lb>28th Went to view
+                    the Ind. Town &amp; Impr.  <lb></lb>bing 8 miles out &amp;  <lb></lb>8 in  <lb></lb>16 10 mo 1st. rode to
+                    Enos's on <a href="http://127.0.0.1:8000/places/lakee">Lake Erie<placename key="lakee"></placename></a> Lodgd  <lb></lb>21 M 21st-- 23 2d.
+                    SUp. &amp; Horses a Enos's $2.94 "  <lb></lb>Breakfast Dinner &amp; Horses at <a href="http://127.0.0.1:8000/places/buffa">Buffaloe<placename key="buffa"></placename></a>, called New Amsterdam 9 M $4. <lb></lb>-- shoeing
+                    Horses--my own $2.  <lb></lb>Lodgd at [name?] Harris's 14. $4.69 8 3d.  <lb></lb>Breakfast at
+                    Vanderslice Td pd.8.  <lb></lb>-- <a href="http://127.0.0.1:8000/places/batav">Batavia<placename key="batav"></placename></a> Keyes Tavern
+                    18  <lb></lb>[D?] &amp; fed $1.88  <lb></lb>Garrisons Tavern Supd &amp; Lodgd 12. 2.25  <lb></lb>40  <lb></lb>4
+                    Breakfast at McBerrys (Hartford) 13.-- 2.--  <lb></lb>" fed at <a href="http://127.0.0.1:8000/places/willi">Williamsburg<placename key="willi"></placename></a> 12.-- .37 1/2  <lb></lb>" Lodgd at Dansville Inn a <gap></gap>
+                    Rowley 15. 2.87 1/2 32  <lb></lb>5. Breakfast at Chris Hulberts Tavn. Canisted 2 1/2 1.25
+                    Creek  <lb></lb>" Lodgd at Joseph Lugtneys &amp; Breakfastd 19 1/2 2.75 41  <lb></lb>6th Fed at
+                    Jones Tavern 18 --.50  <lb></lb>" Dind &amp; fed at Forks Tavn. formerly <a href="http://127.0.0.1:8000/places/linds">Linsleys<placename key="linds"></placename></a> 13. 1.87 1/2  <lb></lb>" Lodgd &amp; supd at a Q
+                    Widow Berrys 10. 3.--  <lb></lb>28  <lb></lb>7th. Breakfasted &amp; fed at Greno's Tavern 11.
+                    1.12 1/2  <lb></lb>" Supd &amp; Lodgd at the <a href="http://127.0.0.1:8000/places/block">Block
+                        House<placename key="block"></placename></a> 17. 3.12 1/2  <lb></lb>41  <lb></lb>8th. 1st. Day Breakfasted &amp; fed at
+                    <a href="http://127.0.0.1:8000/people/dreyn1">David Reynolds<persname key="dreyn1"></persname></a> Tavern 15. 1.50  <lb></lb>" To
+                        <a href="http://127.0.0.1:8000/places/newbe1">Newberry<placename key="newbe1"></placename></a> 11 Miles &amp; to <a href="http://127.0.0.1:8000/people/melli2">Mercy Ellis<persname key="melli2"></persname></a>'s 15 in  <lb></lb>26. <lb></lb> --.50 28 9th. Breakfasted
+                    [Millers?]-- <lb></lb>Fed at <a href="http://127.0.0.1:8000/places/jtown2">Jersey Town<placename key="jtown2"></placename></a> X Keys 16.
+                    --.46  <lb></lb>Lodgd at <a href="http://127.0.0.1:8000/people/telli1">Thomas Ellis<persname key="telli1"></persname></a>'s--<a href="http://127.0.0.1:8000/places/catta1">Cattawassey<placename key="catta1"></placename></a> 12. $40.51 </p>
+<pb facs="hv_allinsonw_diary_1809_v3_037" n="37"></pb>
+<p>10 mo. 9th. Amo. of Exp. bro. over $40.57 41 10th.  <lb></lb>Breakfast at <a href="http://127.0.0.1:8000/people/telli1">Tho. Ellis<persname key="telli1"></persname></a>'s  <lb></lb>" Fed ab. 12 at Michael [name?] 23
+                    Miles $--.59  <lb></lb>" Lodgd at <a href="http://127.0.0.1:8000/places/benst">Bensingers<placename key="benst"></placename></a> supd feed
+                    &amp;c. 18 2.87 1/2 27</p>
+<p> 11th. Breakfasted at <a href="http://127.0.0.1:8000/people/mlee1">Mordicai Lees<persname key="mlee1"></persname></a> 16.  <lb></lb>Dind at
+                    <a href="http://127.0.0.1:8000/people/tligh1">T Lightfoots<persname key="tligh1"></persname></a> 1 Mile  <lb></lb>Lodgd at <a href="http://127.0.0.1:8000/people/alea1">Amos Leas<persname key="alea1"></persname></a> 10m 11 Miles 4 $43.97 1/2 &amp;  <lb></lb>Breakfast
+                    next morng. each 10.99 1/2  <lb></lb>Rec'd of TS 7.87 1/2 3.12 $10.99  <lb></lb>rec'd of TS 11.--
+                    <lb></lb>rec'd of <a href="http://127.0.0.1:8000/people/alea1">A Lea<persname key="alea1"></persname></a> 11  <lb></lb>rec'd of <a href="http://127.0.0.1:8000/people/jbrow1">Jn. Brown<persname key="jbrow1"></persname></a> <lb></lb>12th Toll at <a href="http://127.0.0.1:8000/places/potts">Potts
+                            Grove<placename key="potts"></placename></a>--12 1/2--2d Gate 9cts--3d. D. 8. --.29 1/2  <lb></lb>Dind &amp; fed
+                    at Thomas's Tavern near the 18 miles 54 stone on the Road S Road from <a href="http://127.0.0.1:8000/people/alea1">A Leas<persname key="alea1"></persname></a> 33 Ms. .87 1/2 2 117 X Rec'd 58 1/2 cts of
+                        <a href="http://127.0.0.1:8000/people/jbrow1">Jn. Brown<persname key="jbrow1"></persname></a> each . 58 1/2 after Dinner rode
+                    to <a href="http://127.0.0.1:8000/people/hyarn1">H Yarnells<persname key="hyarn1"></persname></a> [?] 21 Ms.  <lb></lb>13th Reachd home to
+                    Breakfast 8 Ms. [?] 37 1/2 122 291 </p>
+</div>
+<div type="undetermined">
+<pb facs="hv_allinsonw_diary_1809_v3_038" n="38"></pb>
+</div>
+</text>
+</tei>
+</body></html>
