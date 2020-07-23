@@ -29,17 +29,74 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 # links are by a for loop in the homepage.html template
 @app.get("/")
 async def root(request: Request):
-    hc_manuscript_list = []
 
-    for filename in os.listdir('Text_Files/Haverford_Text_Files'):
-        hc_manuscript_list.append(filename)
+    # sw_data and hc_data lists created using get_manuscript_data.py in scripts folder
 
-    sw_manuscript_list = []
+    sw_data = [['Halliday Jackson 1800 Journal (continued)', 'swarthmore/SW_HJ1800.xml/SW_HJ1800_001', 'sw_manuscript/53'],
+               ['The Committee Appointed to Confer With the Friends who Attended the Indian Treaty', 'swarthmore/SW_Letters_179-_MM_DD.xml/SW_Letters_179-_MM_DD_Page_1', 'sw_manuscript/47'],
+               ['A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives', 'swarthmore/SW_BYM1806.xml/SW_BYM1806_001', 'sw_manuscript/22'],
+               ["Jacob Lindley's Account, 1793", 'swarthmore/SW_JL1793.xml/SW_JL1793_Page_049', 'sw_manuscript/46'],
+               ['Jonathan Thomas His Book 1798', 'swarthmore/SW_JT1798.xml/SW_JT1798_001', 'sw_manuscript/23'],
+               ['Account of Canandaigua Treaty Negotiations', 'swarthmore/SW_Letters_1794_12_20.xml/SW_Letters_1794_12_20_Page_1', 'sw_manuscript/51'],
+               ['Subscriptions from Shrewsbury Monthly Meeting for Promoting the Civilization and Well-Being of the Indian Natives', 'swarthmore/SW_NYYM_Subscriptions.xml/SW_NYYMsubscriptions_Page_001', 'sw_manuscript/27'],
+               ["Halliday Jackson's Journal, 1806", 'swarthmore/SW_HJ1806.xml/SW_HJ1806_Page_001', 'sw_manuscript/20'],
+               ['Letter to the Cherokee Nation from Philadelphia Yearly Meeting', 'swarthmore/SW_Letters_1792_02_19.xml/SW_Letters_1792_02_19_Page_1', 'sw_manuscript/1'],
+               ['John Peirce Notes, on a visit to Several Tribes of Indians, 1796', 'swarthmore/SW_JP1796.xml/SW_JP1796_001', 'sw_manuscript/29'],
+               ['Account of the Exercise and Experience of an Indian Man', 'swarthmore/SW_NYYM_Man.xml/SW_NYYM_Man_Page_001', 'sw_manuscript/44'],
+               ['Letter from Cornplanter to Quakers', 'swarthmore/SW_Letters_1791_02_10.xml/SW_Letters_1791_02_10_Page_1', 'sw_manuscript/33'], ['Letter to John Parrish & others from Gen. McKee', 'swarthmore/SW_Letters_1793_08_26.xml/SW_Letters_1793_08_26_001', 'sw_manuscript/6'],
+               ['Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815', 'swarthmore/SW_BYM_minutes.xml/BYM_Page_001', 'sw_manuscript/38'], ['Letter to John Drinker from John Parrish et. al.', 'swarthmore/SW_Letters_1793_08_24.xml/SW_Letters_1793_08_24_Page_1', 'sw_manuscript/12'],
+               ['Reports of the Indian Committee to New York Yearly Meeting, 1795-1806', 'swarthmore/SW_NYYM_reports.xml/SW_NYYM_reports_Page_001', 'sw_manuscript/2'],
+               ['Letter to Western Indians from the Meeting for Sufferings', 'swarthmore/SW_Letters_1793_04_19.xml/SW_Letters_1793_04_19_Page_1', 'sw_manuscript/24'],
+               ["Joseph Moore's Journal", None, 'sw_manuscript/18'],
+               ['Notes of a Journey taken by Elisha Tyson & James Gillingham on a Visit to some Indians in the neighbourhood of Fort Wayne', 'swarthmore/SW_JG_1808.xml/SW_JG_1808_001', 'sw_manuscript/0'],
+               ['The Committee appointed in the 5 mo 1795', 'swarthmore/SW_1796_12_15.xml/SW_1796_12_15_001', 'sw_manuscript/48'],
+               ['Letter from Henry Simmons to Israel Chapin', 'swarthmore/SW_SH1799.xml/SW_SH1799_Page_01', 'sw_manuscript/30'],
+               ["Wm. Hartshorne's Journal of Journey to Detroit 1793", 'swarthmore/SW_WH1793.xml/SW_WH1793_Page_01', 'sw_manuscript/43'],
+               ['Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff', 'swarthmore/SW_Sutcliff.xml/SW_Sutcliff_Page_iii', 'sw_manuscript/28'],
+               ["Missionary's address to the chiefs of the six nation Indian & Their answers", 'swarthmore/SW_1805_00_00.xml/SW_1805_00_00_Page_1', 'sw_manuscript/31'],
+               ['Copy of a manuscript respecting the American Indians (A)', 'swarthmore/SW_Letters_1801_10a.xml/SW_Letters_1801_10a_Page_01', 'sw_manuscript/16'],
+               ['Letter from Quakers to Cornplanter', 'swarthmore/SW_1791_06_02.xml/SW_1791_06_02_001', 'sw_manuscript/42'],
+               ['Some Account of Rachel Coope (Journal B)', 'swarthmore/SW_RC1805b.xml/SW_RC1805b_Page_01', 'sw_manuscript/15'],
+               ["Joshua Sharpless' Journal [Visit to Upper Canada and Parts Adjacent], 1797", 'swarthmore/SW_JS1797.xml/SW_JS1797_Page_01', 'sw_manuscript/50'],
+               ['Letter to the Indians Assembled at the Rapids of the Miami', 'swarthmore/SW_Letters_1793_07_17.xml/SW_Letters_1793_07_17_Page_1', 'sw_manuscript/45'],
+               ['Some Account of Rachel Coope (Journal A)', 'swarthmore/SW_RC1805a.xml/SW_RC1805a_Page_01', 'sw_manuscript/40'],
+               ['Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.', 'swarthmore/SW_JC1796.xml/SW_JC1796_001', 'sw_manuscript/49'],
+               ['Letter from Quakers to General Wayne, 1795', 'swarthmore/SW_Letters_1795_05_25.xml/SW_Letters_1795_05_25_Page_1', 'sw_manuscript/21'],
+               ["Joseph Clark's Account of a Journey to the Indian Country, 1797", 'swarthmore/SW_JC1797.xml/SW_JC1797_Page_01', 'sw_manuscript/4'],
+               ["Joshua Sharpless's Journal Into Indian Country, 1798", 'swarthmore/SW_JS1798.xml/SW_JS1798_001', 'sw_manuscript/35'],
+               ['A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804', 'swarthmore/SW_GH1804.xml/SW_GH1804_001', 'sw_manuscript/39'],
+               ['Letter to the Shawanese, Delawares & others from Quakers of Pennsylvania and New Jersey, 1795', 'swarthmore/SW_Letters_1795_05_22.xml/SW_Letters_1795_05_22_Page_1', 'sw_manuscript/54'],
+               ['Treasury Account of Goods to be sent to the Indians, 1795', 'swarthmore/SW_Letters_1795_05_23.xml/SW_Letters_1795_05_23_Page_1', 'sw_manuscript/26'],
+               ["Joseph Clark's Of a second Visit to the Indian Country, 1801", 'swarthmore/SW_JC1801.xml/SW_JC1801_Page_1', 'sw_manuscript/14'],
+               ['Letters to Elizabeth Townsend', 'swarthmore/SW_Letters_1801_10_15.xml/SW_Letters_1801_10_15_Page_01', 'sw_manuscript/11'],
+               ['Letter to the Quarterly Meeting of Friends at Hopewell', 'swarthmore/SW_Letters_1794_00_00.xml/Misc_mss_1794_00_00001', 'sw_manuscript/37'],
+               ['Letter to Friends from David Fowler', 'swarthmore/SW_Letters_1793_03_20.xml/SW_Letters_1793_03_20_Page_1', 'sw_manuscript/8'],
+               ["Halliday Jackson's Book [of Corrrespondence], Genesinguhta, 1798-1800", 'swarthmore/SW_HJ1798.xml/SW_HJ1798_001', 'sw_manuscript/5'],
+               ['New York Yearly Meeting Committee on Indian Concerns Scrapbook', 'swarthmore/SW_NYYM_scrapbook.xml/NYYM_scrapbook_003', 'sw_manuscript/7'],
+               ['The United States to Joseph Johnston', 'swarthmore/SW_1798_06_15.xml/SW_1798_06_15_Page_1', 'sw_manuscript/17'],
+               ['Some Account of Rachel Coope [edited by Joshua Sharpless]', 'swarthmore/SW_RC1805.xml/SW_RC1805_Page_05', 'sw_manuscript/13'],
+               ['Minutes of the Committee on Indian Concern No 1', 'swarthmore/SW_NYYM_minutes.xml/NYYM_minutes_Page_001', 'sw_manuscript/41'],
+               ['Extract The Speech of John Skenando principal Chief of the Oneida Nation', 'swarthmore/SW_NYYM_Skenando.xml/SW_NYYM_Skenando_Page_001', 'sw_manuscript/9'],
+               ['Isaac Coates Journal of Journeys to the Indian Country', 'swarthmore/SW_IC1799.xml/SW_IC1799_Page_01', 'sw_manuscript/34'],
+               ['Invoice of Gifts, 1795', 'swarthmore/SW_Letters_1795_05_25invoice.xml/SW_Letters_1795_05_25invoice_001', 'sw_manuscript/25'],
+               ['Letter from Tobias Lear to Quakers', 'swarthmore/SW_Letters_1792_02_11.xml/SW_Letters_1792_02_11_Page_1', 'sw_manuscript/10'],
+               ['Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800', 'swarthmore/SW_HJ1830.xml/SW_HJ1830_001', 'sw_manuscript/3'],
+               ['Address to the Six Nations', 'swarthmore/SW_Letters_1794_09_09.xml/SW_Letters_1794_09_09_001', 'sw_manuscript/36'],
+               ['Journal of Joshua Evans 1795-1796 (E)', 'swarthmore/SW_JE1796E.xml/SW_JE1796E_Page_01', 'sw_manuscript/52'],
+               ['The Bank of Faith and Works United', 'swarthmore/SW_Ripley.xml/Ripley074', 'sw_manuscript/19'],
+               ['Life of Thomas Eddy', None, 'sw_manuscript/32']]
 
-    for filename in os.listdir('Text_Files/Swarthmore_Text_Files'):
-        sw_manuscript_list.append(filename)
+    hc_data = [['A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom', 'haverford/hv_sansomj_letters_1796.xml/hv_sansomj_letters_1796_001', 'hc_manuscript/0'],
+               ['Joel Swayne Diary', 'haverford/hv_swaynej_diary_1798.xml/hv_swaynej_diary_1798_001', 'hc_manuscript/5'],
+               ['William Allinson Diary, Volume 1', 'haverford/hv_allinsonw_diary_1809_v1.xml/hv_allinsonw_diary_1809_v1_001', 'hc_manuscript/3'],
+               ['William Allinson Diary, Volume 2', 'haverford/hv_allinsonw_diary_1809_v2.xml/hv_allinsonw_diary_1809_v2_001', 'hc_manuscript/2'],
+               ['William Allinson Diary, Volume 3', 'haverford/hv_allinsonw_diary_1809_v3.xml/hv_allinsonw_diary_1809_v3_001', 'hc_manuscript/1'],
+               ['Some Account of our Journey to Cannandaigue', 'haverford/hv_bacond_account_1794.xml/hv_bacond_account_1794_001', 'hc_manuscript/6'],
+               ['Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY', 'haverford/hv_coatesi_account_1798.xml/hv_coatesi_account_1798_001', 'hc_manuscript/4']]
 
-    return templates.TemplateResponse('homepage.html',{"request": request, "hc_manuscript_list": hc_manuscript_list, "sw_manuscript_list": sw_manuscript_list})
+
+
+    return templates.TemplateResponse('homepage.html',{"request": request, "hc_data": hc_data, "sw_data": sw_data})
 
 
 # displays the text file of a Haverford manuscript
@@ -323,7 +380,7 @@ def paginated_manuscripts(request: Request):
     return templates.TemplateResponse('paginated_manuscripts_home.html',{'request': request, 'first_page_dict': first_page_dict})
 
 # same as above function but doesn't use templates, generates the text for each URL
-# creates paginated manuscrips with linked data
+# creates paginated manuscripts with linked data
 @app.get('/full_manuscript/{hc_or_swat}/{manuscript_name}/{page_name_input}')
 def full_manuscript(request: Request, manuscript_name: str, page_name_input: str, hc_or_swat: str):
 
@@ -450,6 +507,10 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
         text = (pages_dict[page_name_input])
     except:
         return 'Page not found' #TODO IMPROVE THIS
+
+    # tells user if the page is blank
+    if text == ' ':
+        text = 'Page intentionally left blank'
 
     # gets the title of the page
     title = page_name_input

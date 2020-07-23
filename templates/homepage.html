@@ -3,21 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Penn's Treaty</title>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
+    <script>
+        $(document).ready( function () {
+    $('#table_id').DataTable();
+} );
+    </script>
 </head>
 <body>
-    <h4>Haverford Manuscripts</h4>
-    <ul>
-        {% for filename in hc_manuscript_list %}
-        <li><a href="http://127.0.0.1:8000/hc_manuscript/{{loop.index0}}">{{filename}} </a> </li>
-        {% endfor %}
-    </ul>
 
-    <h4>Swarthmore Manuscripts</h4>
-    <ul>
-        {% for filename in sw_manuscript_list %}
-        <li><a href="http://127.0.0.1:8000/sw_manuscript/{{loop.index0}}">{{filename}} </a> </li>
+<table id="table_id" class="display">
+
+    <thead>
+        <tr>
+            <th>Manuscript</th>
+            <th>Page View</th>
+            <th>Raw Text</th>
+        </tr>
+    </thead>
+
+
+
+        {% for list in hc_data %}
+        <tr>
+            {% for item in list %}
+                {% if loop.index0 == 0 %}
+                    <td>{{list[loop.index0]}}</td>
+                {% elif loop.index0 == 1 %}
+                    <td><a href="http://127.0.0.1:8000/full_manuscript/{{list[loop.index0]}}">Page View </a></td>
+                {% elif loop.index0 == 2 %}
+                    <td><a href="http://127.0.0.1:8000/{{list[loop.index0]}}">Raw Text </a></td>
+                {% endif %}
+            {% endfor %}
+        </tr>
         {% endfor %}
-    </ul>
+
+        {% for list in sw_data %}
+        <tr>
+            {% for item in list %}
+                {% if loop.index0 == 0 %}
+                    <td>{{list[loop.index0]}}</td>
+                {% elif loop.index0 == 1 %}
+                    <td><a href="http://127.0.0.1:8000/full_manuscript/{{list[loop.index0]}}">Page View </a></td>
+                {% elif loop.index0 == 2 %}
+                    <td><a href="http://127.0.0.1:8000/{{list[loop.index0]}}">Raw Text </a></td>
+                {% endif %}
+            {% endfor %}
+        </tr>
+        {% endfor %}
+</table>
 
 
 
