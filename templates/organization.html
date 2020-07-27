@@ -12,4 +12,19 @@
    {% endfor %}
 {% endfor %}
 </body>
+
+<table id="table_id" class="display">
+    <tbody>
+{% for dict_item in list_of_dict %}
+   {% for key, value in dict_item.items() %}
+    <tr>
+      <td>{{key}}</td>
+      <td>{{value|safe}}</td>
+    </tr>
+   {% endfor %}
+{% endfor %}
+    </tbody>
+</table>
+
+
 </html>

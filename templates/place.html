@@ -5,13 +5,18 @@
     <title>Title</title>
 </head>
 <body>
+<table id="table_id" class="display">
+    <tbody>
 {% for dict_item in list_of_dict %}
    {% for key, value in dict_item.items() %}
-      <h1>Key: {{key}}</h1>
-      <h2>Value: {{value}}</h2>
+    <tr>
+      <td>{{key}}</td>
+      <td>{{value|safe}}</td>
+    </tr>
    {% endfor %}
 {% endfor %}
-<p>test</p>
+    </tbody>
+</table>
 
 </body>
 </html>

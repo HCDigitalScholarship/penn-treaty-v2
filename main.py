@@ -143,11 +143,43 @@ def person_info(request: Request, unique_key: str):
     data = pd.read_csv('TEI CSV Files/TEI people, places, orgs - People.csv',nrows=1)
     headers = list(data.columns)
 
+    # removes underscores from the headers of the csv
+    headers = [header.replace('_',' ') for header in headers]
+
     for row in csv_file:
         if row[1] == unique_key:
             dict = {}
             for i in range(len(headers)):
-                dict[headers[i]] = row[i]
+                if row[i]:
+                    dict[headers[i]] = row[i]
+
+    csv_file = csv.reader(open('TEI CSV Files/TEI people, places, orgs - Organizations.csv', "r"),
+                          delimiter=",")  # resets the csv file iterator
+
+    try:
+        item = 'affiliations'
+        affiliations_list = dict[item].split(';')
+        # affiliations_list = ['''<a href="http://127.0.0.1:8000/organizations/''' + name + '">' + name + '</a>' for name in affiliations_list]
+        for i in range(len(affiliations_list)):
+            id = affiliations_list[i]
+            name = id
+            for row in csv_file:
+                if row[1] == id:
+                    name = row[3]
+            affiliations_list[i] = f'<a href="http://127.0.0.1:8000/organizations/{id}">{name}</a>'
+        print(affiliations_list)
+
+        dict[item] = ','.join(affiliations_list)
+    except:
+        pass
+
+    try:
+        temp = dict['lcnaf uri']
+        dict['lcnaf uri'] = f'<a href="{temp}">{temp}</a>'
+    except:
+        pass
+
+    del dict['done or not'] # removes unnecessary field
     list_of_dict = [dict] # TODO add exception?
     return templates.TemplateResponse('person.html', {'request': request, 'list_of_dict': list_of_dict})
 # TODO jpeir1 results in internal server error, seen in tei_xml_files/swarthmore/SW_JC1796.xml, probably misspelled jpier1?
@@ -165,7 +197,11 @@ def place_info(request: Request, unique_key: str):
         if row[0] == unique_key:
             dict = {}
             for i in range(len(headers)-3):
-                dict[headers[i]] = row[i]
+                if row[i]:
+                    dict[headers[i]] = row[i]
+    # remove unnecessary fields
+    del dict['x']
+    del dict['Type']
     list_of_dict = [dict] # TODO add exception?
     return templates.TemplateResponse('place.html', {'request': request, 'list_of_dict': list_of_dict})
 
@@ -178,11 +214,35 @@ def organization_info(request: Request, unique_key: str):
     data = pd.read_csv('TEI CSV Files/TEI people, places, orgs - Organizations.csv', nrows=1)
     headers = list(data.columns)
 
+    # removes underscores from the headers of the csv
+    headers = [header.replace('_', ' ') for header in headers]
+
     for row in csv_file:
         if row[1] == unique_key:
             dict = {}
             for i in range(len(headers)):
-                dict[headers[i]] = row[i]
+                if row[i]:
+                    dict[headers[i]] = row[i]
+
+    csv_file = csv.reader(open('TEI CSV Files/TEI people, places, orgs - Organizations.csv', "r"), delimiter=",") # resets the csv file iterator
+
+    try:
+        item = 'see also'
+        affiliations_list = dict[item].split(';')
+        # affiliations_list = ['''<a href="http://127.0.0.1:8000/organizations/''' + name + '">' + name + '</a>' for name in affiliations_list]
+        for i in range(len(affiliations_list)):
+            id = affiliations_list[i]
+            name = id
+            for row in csv_file:
+                if row[1] == id:
+                    name = row[3]
+            affiliations_list[i] = f'<a href="http://127.0.0.1:8000/organizations/{id}">{name}</a>'
+        print(affiliations_list)
+
+        dict[item] = ','.join(affiliations_list)
+    except:
+        pass
+
     list_of_dict = [dict]  # TODO add exception?
     return templates.TemplateResponse('organization.html', {'request': request, 'list_of_dict': list_of_dict})
 
