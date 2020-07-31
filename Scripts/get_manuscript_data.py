@@ -19,7 +19,7 @@ for filename in os.listdir('../tei_xml_files/swarthmore'):
     for tag in soup.find_all('pb'):
         page_name = tag.get('facs')
         if page_name:
-            # page_url = ('http://127.0.0.1:8000/full_manuscript/' + filename + '/' + page_name)
+            # page_url = ('/full_manuscript/' + filename + '/' + page_name)
             page_url = (filename + '/' + page_name)
         else:
             print("FAILED " + filename)
@@ -33,7 +33,7 @@ for filename in os.listdir('../tei_xml_files/swarthmore'):
 
     for i in range(len(sw_manuscript_list)):
         if title == sw_manuscript_list[i]:
-            # raw_text_url = 'http://127.0.0.1:8000/sw_manuscript/' + str(i)
+            # raw_text_url = '/sw_manuscript/' + str(i)
             raw_text_url = 'sw_manuscript/' + str(i)
     entry.append(title)
     entry.append(page_url)
@@ -63,7 +63,7 @@ for filename in os.listdir('../tei_xml_files/haverford'):
     for tag in soup.find_all('pb'):
         page_name = tag.get('facs')
         if page_name:
-            # page_url = ('http://127.0.0.1:8000/full_manuscript/' + filename + '/' + page_name)
+            # page_url = ('/full_manuscript/' + filename + '/' + page_name)
             page_url = (filename + '/' + page_name)
         else:
             print("FAILED " + filename)
@@ -77,7 +77,7 @@ for filename in os.listdir('../tei_xml_files/haverford'):
 
     for i in range(len(hc_manuscript_list)):
         if title == hc_manuscript_list[i]:
-            # raw_text_url = 'http://127.0.0.1:8000/hc_manuscript/' + str(i)
+            # raw_text_url = '/hc_manuscript/' + str(i)
             raw_text_url = 'hc_manuscript/' + str(i)
     entry.append(title)
     entry.append(page_url)

@@ -8,7 +8,7 @@ import os
 #     key = persName.get('key')
 #     old_contents = persName.contents
 #     s = (old_contents[0])
-#     url = 'http://127.0.0.1:8000/people/' + key
+#     url = '/people/' + key
 #     a = soup.new_tag("a", href=url)
 #     a.string = s
 #     persName.wrap(a)
@@ -32,7 +32,7 @@ def create_linked_xml(source):
                     s = old_contents[0] + old_contents[2]
                 else:
                     s = old_contents[0]
-                url = 'http://127.0.0.1:8000/people/' + key
+                url = '/people/' + key
                 a = soup.new_tag("a", href=url)
                 a.string = s
                 tag.wrap(a)
@@ -47,7 +47,7 @@ def create_linked_xml(source):
                         s = old_contents[0] + old_contents[2]
                     else:
                         s = old_contents[0]
-                    url = 'http://127.0.0.1:8000/places/' + key
+                    url = '/places/' + key
                     a = soup.new_tag("a", href=url)
                     a.string = s
                     tag.wrap(a)
@@ -59,7 +59,7 @@ def create_linked_xml(source):
                     s = old_contents[0] + old_contents[2]
                 else:
                     s = old_contents[0]
-                url = 'http://127.0.0.1:8000/organizations/' + key
+                url = '/organizations/' + key
                 a = soup.new_tag("a", href=url)
                 a.string = s
                 tag.wrap(a)

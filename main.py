@@ -162,14 +162,14 @@ def person_info(request: Request, unique_key: str):
     try:
         item = 'affiliations'
         affiliations_list = dict[item].split(';')
-        # affiliations_list = ['''<a href="http://127.0.0.1:8000/organizations/''' + name + '">' + name + '</a>' for name in affiliations_list]
+        # affiliations_list = ['''<a href="/organizations/''' + name + '">' + name + '</a>' for name in affiliations_list]
         for i in range(len(affiliations_list)):
             id = affiliations_list[i]
             name = id
             for row in csv_file:
                 if row[1] == id:
                     name = row[3]
-            affiliations_list[i] = f'<a href="http://127.0.0.1:8000/organizations/{id}">{name}</a>'
+            affiliations_list[i] = f'<a href="/organizations/{id}">{name}</a>'
 
         dict[item] = ','.join(affiliations_list)
     except:
@@ -245,14 +245,14 @@ def organization_info(request: Request, unique_key: str):
     try:
         item = 'see also'
         affiliations_list = dict[item].split(';')
-        # affiliations_list = ['''<a href="http://127.0.0.1:8000/organizations/''' + name + '">' + name + '</a>' for name in affiliations_list]
+        # affiliations_list = ['''<a href="/organizations/''' + name + '">' + name + '</a>' for name in affiliations_list]
         for i in range(len(affiliations_list)):
             id = affiliations_list[i]
             name = id
             for row in csv_file:
                 if row[1] == id:
                     name = row[3]
-            affiliations_list[i] = f'<a href="http://127.0.0.1:8000/organizations/{id}">{name}</a>'
+            affiliations_list[i] = f'<a href="/organizations/{id}">{name}</a>'
 
         dict[item] = ','.join(affiliations_list)
     except:
@@ -395,7 +395,7 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
                     temp_tag_contents = tag.string
                     if temp_tag_contents == None:
                         tag.string = tag.contents.join('')
-                    tag.string = f'<a href="http://127.0.0.1:8000/people/{id}">{temp_tag_contents}</a>'
+                    tag.string = f'<a href="/people/{id}">{temp_tag_contents}</a>'
                 tag.unwrap()
             except:
                 print(tag)
@@ -412,7 +412,7 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
                         temp_tag_contents = tag.string
                         if temp_tag_contents == None:
                             tag.string = tag.contents.join('')
-                        tag.string = f'<a href="http://127.0.0.1:8000/places/{id}">{temp_tag_contents}</a>'
+                        tag.string = f'<a href="/places/{id}">{temp_tag_contents}</a>'
                     tag.unwrap()
                 except:
                     print(tag)
@@ -425,7 +425,7 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
                     temp_tag_contents = tag.string
                     if temp_tag_contents == None:
                         tag.string = tag.contents.join('')
-                    tag.string = f'<a href="http://127.0.0.1:8000/organizations/{id}">{temp_tag_contents}</a>'
+                    tag.string = f'<a href="/organizations/{id}">{temp_tag_contents}</a>'
                 tag.unwrap()
             except:
                 print(tag)

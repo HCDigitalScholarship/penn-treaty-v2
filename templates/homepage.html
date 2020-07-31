@@ -36,9 +36,9 @@
                 {% if loop.index0 == 0 %}
                     <td>{{list[loop.index0]}}</td>
                 {% elif loop.index0 == 1 %}
-                    <td><a href="http://127.0.0.1:8000/full_manuscript/{{list[loop.index0]}}">Page View </a></td>
+                    <td><a href="/full_manuscript/{{list[loop.index0]}}">Page View </a></td>
                 {% elif loop.index0 == 2 %}
-                    <td><a href="http://127.0.0.1:8000/linked_{{list[loop.index0]}}">Raw Text </a></td>
+                    <td><a href="/linked_{{list[loop.index0]}}">Raw Text </a></td>
                 {% endif %}
             {% endfor %}
         </tr>
@@ -50,9 +50,9 @@
                 {% if loop.index0 == 0 %}
                     <td>{{list[loop.index0]}}</td>
                 {% elif loop.index0 == 1 %}
-                    <td><a href="http://127.0.0.1:8000/full_manuscript/{{list[loop.index0]}}">Page View </a></td>
+                    <td><a href="/full_manuscript/{{list[loop.index0]}}">Page View </a></td>
                 {% elif loop.index0 == 2 %}
-                    <td><a href="http://127.0.0.1:8000/linked_{{list[loop.index0]}}">Raw Text </a></td>
+                    <td><a href="/linked_{{list[loop.index0]}}">Raw Text </a></td>
                 {% endif %}
             {% endfor %}
         </tr>

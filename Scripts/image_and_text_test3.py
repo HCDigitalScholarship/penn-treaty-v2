@@ -26,7 +26,7 @@ for tag in soup.find_all():
                     print(tag)
                     print(tag.contents)
                     tag.string = tag.contents.join('')
-                tag.string = f'<a href="http://127.0.0.1:8000/people/{id}>{temp_tag_contents}</a>'
+                tag.string = f'<a href="/people/{id}>{temp_tag_contents}</a>'
             tag.unwrap()
         except:
             print(tag)
@@ -46,7 +46,7 @@ for tag in soup.find_all():
                         print(tag)
                         print(tag.contents)
                         tag.string = tag.contents.join('')
-                    tag.string = f'<a href="http://127.0.0.1:8000/places/{id}>{temp_tag_contents}</a>'
+                    tag.string = f'<a href="/places/{id}>{temp_tag_contents}</a>'
                 tag.unwrap()
             except:
                 print(tag)
@@ -62,7 +62,7 @@ for tag in soup.find_all():
                     print(tag)
                     print(tag.contents)
                     tag.string = tag.contents.join('')
-                tag.string = f'<a href="http://127.0.0.1:8000/organizations/{id}>{temp_tag_contents}</a>'
+                tag.string = f'<a href="/organizations/{id}>{temp_tag_contents}</a>'
             tag.unwrap()
         except:
             print(tag)
