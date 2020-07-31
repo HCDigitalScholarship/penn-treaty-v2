@@ -3,63 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <title>Penn's Treaty</title>
+    <style>
+        /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 20px 10px;
+}
 
-    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+/* Style the header links */
+.header a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
 
-    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
 
-    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
 
-    <script>
-        $(document).ready( function () {
-    $('#table_id').DataTable();
-} );
-    </script>
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+/* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
+@media screen and (max-width: 500px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+  .header-right {
+    float: none;
+  }
+}
+    </style>
 </head>
 <body>
 
-<table id="table_id" class="display">
-
-    <thead>
-        <tr>
-            <th>Manuscript</th>
-            <th>Page View</th>
-            <th>Raw Text</th>
-        </tr>
-    </thead>
-
+<div class="header">
+  <a href="#default" class="logo">Beyond Penn's Treaty</a>
+  <div class="header-right">
+    <a href="/about">About</a>
+    <a href="/manuscripts">Manuscripts</a>
+    <a href="/credits">Credits</a>
+  </div>
+</div>
 
 
-        {% for list in hc_data %}
-        <tr>
-            {% for item in list %}
-                {% if loop.index0 == 0 %}
-                    <td>{{list[loop.index0]}}</td>
-                {% elif loop.index0 == 1 %}
-                    <td><a href="/full_manuscript/{{list[loop.index0]}}">Page View </a></td>
-                {% elif loop.index0 == 2 %}
-                    <td><a href="/linked_{{list[loop.index0]}}">Raw Text </a></td>
-                {% endif %}
-            {% endfor %}
-        </tr>
-        {% endfor %}
 
-        {% for list in sw_data %}
-        <tr>
-            {% for item in list %}
-                {% if loop.index0 == 0 %}
-                    <td>{{list[loop.index0]}}</td>
-                {% elif loop.index0 == 1 %}
-                    <td><a href="/full_manuscript/{{list[loop.index0]}}">Page View </a></td>
-                {% elif loop.index0 == 2 %}
-                    <td><a href="/linked_{{list[loop.index0]}}">Raw Text </a></td>
-                {% endif %}
-            {% endfor %}
-        </tr>
-        {% endfor %}
-</table>
+<div id = "row2">
+  <div class = "row">
+    <br />
+    <h1> Beyond Penn's Treaty: Quaker and American Indian Relations</h1>
+    <p><font size="3">William Penn’s original intention to treat American Indians fairly in land “sharing” was soon overridden by the land hunger of Europeans. Different notions of land “use” and “ownership” became ever more critical as the two groups struggled to find ways to co-exist. Nevertheless, part of Penn’s vision lived on in the memory and policies of a community of Quakers who maintained—and continuously updated—a commitment to American Indians.</p>
+    <p><font size="3"><i>Beyond Penn's Treaty</i>: Quakers and American Indian Relations provides access to linked and annotated versions of Quaker diaries, letters, and meeting records which record contact with American Indians, particularly the Seneca, beginning in the 1740s. These documents, held in Quaker &amp; Special Collections at Haverford College and Friends Historical Library at Swarthmore College, are all from the Quaker perspective, and document their view of this unfolding relationship. </p>
+    <p><font size="3">This site allows users to search for people, organizations, and places within a variety of documents; view maps of travel routes and common locations; and transcribe documents. The transcribed text versions of these documents and the metadata spreadsheets are available for download and reuse.</p>
+    <p><font size="3">Funding for the inclusion of some items on this site was provided by the <a href="https://oieahc.wm.edu/fellowships/digital-collections-fellowships/">Lapidus Initiative Fellowship For Digital Collections</a> from the <a href="https://oieahc.wm.edu">Omohundro Institute of Early American History and Culture.</a></p>
+    <br />
 
+   </div>
 
+</div>
 
 </body>
 </html>

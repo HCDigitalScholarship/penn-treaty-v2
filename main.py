@@ -25,10 +25,27 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # run using: uvicorn main:app --reload
 
-# creates the main page of the app, which shows a list of all the manuscripts
-# links are by a for loop in the homepage.html template
+@app.get("/about")
+async def about(request: Request):
+    return templates.TemplateResponse('about.html', {'request': request})
+
+@app.get("/bibliography")
+async def about(request: Request):
+    return templates.TemplateResponse('bibliography.html', {'request': request})
+
+@app.get("/credits")
+async def about(request: Request):
+    return templates.TemplateResponse('credits.html', {'request': request})
+
 @app.get("/")
 async def root(request: Request):
+    return templates.TemplateResponse('homepage.html', {'request': request})
+
+
+# creates the main page of the app, which shows a list of all the manuscripts
+# links are by a for loop in the homepage.html template
+@app.get("/manuscripts")
+async def manuscripts(request: Request):
 
     # sw_data and hc_data lists created using get_manuscript_data.py in scripts folder
 
@@ -96,7 +113,7 @@ async def root(request: Request):
 
 
 
-    return templates.TemplateResponse('homepage.html',{"request": request, "hc_data": hc_data, "sw_data": sw_data})
+    return templates.TemplateResponse('manuscripts.html',{"request": request, "hc_data": hc_data, "sw_data": sw_data})
 
 
 # displays the text file of a Haverford manuscript
