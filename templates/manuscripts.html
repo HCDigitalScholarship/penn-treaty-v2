@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head >
     <meta charset="UTF-8">
     <title>Penn's Treaty</title>
 
@@ -10,17 +10,17 @@
 
     <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
 
-    <script>
+    <script >
         $(document).ready( function () {
     $('#table_id').DataTable();
 } );
     </script>
 </head>
-<body>
+<body style="background-color: #97d2f0"></body>
 
-<table id="table_id" class="display">
+<table id="table_id" class="display" >
 
-    <thead>
+    <thead style="background-color: #073a52; color: white">
         <tr>
             <th>Manuscript</th>
             <th>Page View</th>
@@ -31,7 +31,7 @@
 
 
         {% for list in hc_data %}
-        <tr>
+        <tr >
             {% for item in list %}
                 {% if loop.index0 == 0 %}
                     <td>{{list[loop.index0]}}</td>
