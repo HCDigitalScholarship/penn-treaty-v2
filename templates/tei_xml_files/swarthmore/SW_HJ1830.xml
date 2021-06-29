@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Sketch of the Customs, Religion and Government of the Seneca Indians, in
+                    1800: Electronic Version</title>
+
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>Encoded by</resp>
+                    <persName>Cara Ehlenfeldt</persName>
+                </respStmt>
+            </titleStmt>
+            <extent>ca. 102 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2014</date>
+                <idno type="local">SW_HJ1830</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct type="book">
+
+                    <monogr>
+                        <author>Jackson, Halliday, 1771-1835</author>
+                        <title level="m">Sketch of the Customs, Religion and Government of the
+                            Seneca Indians, in 1800</title>
+                        <imprint>
+                            <pubPlace>Philadelphia</pubPlace>
+                            <publisher>Marcus T. C. Gould</publisher>
+                            <pubPlace>New York</pubPlace>
+                            <publisher>Isaac T. Hopper</publisher>
+                            <date when="1830">1830</date>
+
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <projectDesc>
+                <p> The Halliday Jackson book is housed at Friends Historical Library, on the campus
+                    of Swarthmore College. Beginning in the fall semester of 2010, Swarthmore
+                    students have transcribed a number of Quaker journals that document contact
+                    interaction between Quakers and Native Americans, mostly in the area of upstate
+                    New York and northern Ohio.</p>
+            </projectDesc>
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in <date when="1830">1830</date></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Society of Friends -- Indian Affairs</item>
+
+                        <item>Cornplanter, Seneca chief, 1732?-1836</item>
+                        <item>Indian reservations</item>
+                        <item>Indians of North America--Missions</item>
+                        <item>New York (State)--Description and travel</item>
+                        <item>Pennsylvania--Description and travel</item>
+
+                        <item>Philadelphia Yearly Meeting of the Religious Society of Friends</item>
+                        <item>Quakers--Pennsylvania--Diaries</item>
+                        <item>Quakers--Political activity</item>
+                        <item>Seneca Indians</item>
+                        <item>Society of Friends--Missions</item>
+                        <item>Voyages and Travels</item>
+
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            
+            <div type="undetermined">
+                <pb n="Title page" facs="SW_HJ1830_001"/>
+            </div>   
+            
+            <div type="preface">
+                <pb n="Preface" facs="SW_HJ1830_002"/>
+                <head>PREFACE.</head>
+                <p>The following account of the <orgName key="seneca">Seneca Indians</orgName>, was
+                    published some<lb/> months since, in the columns of The Friend, or Advocate of
+                    Truth;<lb/> but is now presented to the public, on a larger type, to be sold
+                    sepa-<lb/>rately, or bound up with an original work upon the <q>Civilization
+                        of<lb/> the Indian Natives,</q> recently published from the pen of the
+                    same<lb/> author.</p>
+                <p>A number of corrections have been made in the original essays, and<lb/> some
+                    interesting extracts added, from the speeches of the celebrated<lb/> Chief,
+                        <persName key="cornp2">Cornplanter</persName>, during an interview with
+                    President <persName key="gwash1">Washington</persName>.</p>
+                <p>Those who feel an interest in the welfare of these Aborigines of our<lb/>
+                    country, have now an opportunity to rescue from oblivion this sketch<lb/> of
+                    their history, at a very cheap rate, and in a form much more satis-<lb/>factory
+                    than that of detached fragments, interspersed with various<lb/> other matter,
+                    and scattered through several numbers of a periodical in<lb/> fine type.</p>
+                <p>It may not be out of place to insert the following explanatory note,<lb/> from
+                    the proprietor of the Friend or Advocate of Truth, formerly an<lb/> inhabitant
+                    of the state of New York:-</p>
+                <note>When the interior of the state of New York was first explored by Europeans, it
+                    was found in the posses-<lb/> ion of five distinct and powerful Indian nations,
+                    viz.-the <orgName key="mohawk">Mohawks</orgName>, <orgName key="oneida"
+                        >Oneidas</orgName>, <orgName key="onondaga">Onondagas</orgName>, <orgName
+                        key="cayugaind">Cayugas</orgName>, and<lb/>
+                    <orgName key="seneca">Senecas</orgName>. These five nations, though independent,
+                    like the individual states of the present American union,<lb/> had formed
+                    themselves into a confederated government, for the purpose of general defence,
+                    and held their<lb/> grand national councils at <placeName key="onond"
+                        >Onondaga</placeName>, the centre point of the five separate sovereignties.
+                    <lb/>In the early part of the last century, the <orgName key="tuscarora"
+                        >Tuscaroras</orgName> removed from the south to the western part of the<lb/>
+                    state of New York, and were received into the confederacy, from which time the
+                    term 'Six Nations' has<lb/> been used for general distinction.</note>
+
+            </div>
+        </front>
+        <body>
+            <div type="narrative">
+
+                <pb n="5" facs="SW_HJ1830_003"/>
+                <head>An Account of the Seneca Indians</head>
+                <p>As the present seems to be an interesting crisis respecting the abori-<lb/>gines
+                    of our country, and particularly some of the southern tribes,<lb/> whose
+                    precarious situation has awakened the feeling, and excited the<lb/> sympathies
+                    of an enlightened public; and as memorials have been pre-<lb/>sented to
+                    congress, with a view of protecting this much injured race of<lb/> mankind in
+                    their rightful possessions, it may, perhaps, be a means of<lb/> increasing our
+                    sympathies for the Indian tribes, to bring into view the<lb/> situation of those
+                    more contiguous to our borders. For if the faith of<lb/> the United States is
+                    once broken, to favour the claim of any individual<lb/> state, and the solemn
+                    pledges, made by President <persName key="gwash1">Washington</persName>, to
+                    pro-<lb/>tect the Indians in the possession of their land, are violated, to the
+                    ex-<lb/>pulsion of one nation or tribe, then the fate of the Indian is sealed.
+                    He<lb/> is no longer secure within the boundaries of this great republic.
+                    As<lb/> he becomes obnoxious to those of a fairer skin, and the little land
+                    he<lb/> posesses, like Naboth's vineyard, is convenient for his master's use,
+                    he<lb/> is then to be extirpated from the inheritance of his fathers, and
+                    dri-<lb/>ven from valley to mountain, and from mountain to hill, until his
+                    feeble<lb/> voice is scarcely heard even among the western wilds.</p>
+                <p>Although we hope better things of the legislators of our country, and<lb/>
+                    indulge a glimmering hope, that they will still continue their protection<lb/>
+                    to the aboriginal lords of the soil who kindly received and made room<lb/> for
+                    our forefathers when they first landed on their shores; and minis-<lb/>tered to
+                    their necessities, when they were strangers in a strange land;<lb/> yet, from
+                    the measures in operation by some of the southern and west-<lb/>ern states, with
+                    regard to the Indian tribes within their limits, we can-<lb/>not but entertain
+                    fears for their safety. It is therefore desirable, at<lb/> least, to retain a
+                    history of those sons of the forest, who have made<lb/> some progress in the
+                    civilized arts, and with a view of developing their<lb/> native character, as
+                    well as their progress in civilization, the writer of<lb/> this article designs
+                    to offer, through the medium of the Friend, or Ad-<lb/>vocate of Truth, some
+                    account of the <orgName key="seneca">Seneca Nation</orgName>, whose
+                    situation,<lb/> perhaps, above all others, would entitle them to the strongest
+                    claims of<lb/> protection from the general government.</p>
+                <p>At a treaty held at <placeName key="canan">Canandaigua</placeName>, under the
+                    authority of the United <lb/>States, with the <orgName key="Six Nations">Six
+                        Nations</orgName>, dated the <date when="1794-11-11">eleventh of November,
+                        1794</date>, 
+                    <lb/>after describing the boundaries of the lands belonging to the <orgName
+                        key="seneca">Seneca <lb/> Nation</orgName>, the treaty further states- Now
+                    the United States acknowledge <lb/>
+                    <pb n="6" facs="SW_HJ1830_004"/> all land within the afore-mentioned
+                    boundaries to be the property of<lb/> the <orgName key="seneca">Seneca
+                        nation</orgName>; and the United States will never claim the same,<lb/> nor
+                    disturb the <orgName key="seneca">Seneca nation</orgName>, nor any of the
+                        <orgName key="Six Nations">Six Nations</orgName>, or any of<lb/> their
+                    Indian friends residing thereon, and united with them in the free<lb/> use and
+                    enjoyment thereof; but it shall remain their's until they choose<lb/> to sell
+                    the same to the people of the United States, who have the right<lb/> to
+                    purchase.</p>
+                <p>The <orgName key="seneca">Seneca nation</orgName> of Indians, previous to a sale
+                    they made in the<lb/> year 1797, were the proprietors of the greater part of the
+                    land west<lb/> of the <geogName key="genes2">Genesee river</geogName>, in the
+                    state of New York. </p>
+                <p>By an indenture, bearing date the <date when="1797-09-15">fifteenth of
+                        Ninth-month, 1797</date>,<lb/> they sold to <persName key="rmorr1">Robert
+                        Morris</persName>, in consideration of one hundred thousand<lb/> dollars, to
+                    be by the said Robert Morris vested in the stock of the<lb/> bank of the United
+                    States, and held in the name of the president of<lb/> the United States, for the
+                    use and behoof of the <orgName key="seneca">Seneca nation</orgName> of<lb/>
+                    Indians, they bargained and sold a large tract of cuintry mentioned in<lb/> said
+                    indenture, to the said Robert Morris, excepting, nevertheless, and<lb/> always
+                    reserving out of this grant and conveyance, all such pieces<lb/> and parcels of
+                    the aforesaid tract, and such privileges thereunto be-<lb/>longing, as is
+                    therein afterwards particularly mentioned, which said<lb/> pieces or parcels of
+                    land so excepted, are, by the parties to the presents<lb/> clearly understood to
+                    remain the property of the said <orgName key="seneca">Seneca
+                    nation</orgName><lb/> of Indians, in as full and ample a manner as if the said
+                    presents<lb/> had not been executed.</p>
+                <p>Agreeably to the provisions made by the treaty, these reservations<lb/> were
+                    located to the Indians in such places and manner as were desired<lb/> by the
+                    sachems and chiefs. The principal reservations were, the <placeName key="alleg1"
+                        >Alle-<lb/>ghany</placeName>, the <placeName key="catta1"
+                        >Cattaraugus</placeName>, the <placeName key="buffa">Buffalo</placeName>,
+                    and the <placeName key="tonne">Tonnewonta</placeName>, with several<lb/> smaller
+                    reservations near the <geogName key="genes2">Genesee river</geogName>,
+                    containing in all three<lb/> hundred and twelve square miles, or nearly two
+                    hundred thousand<lb/> acres.</p>
+                <p>The noted Chief <persName key="cornp2">Cornplanter</persName>, and his family or
+                    tribe, resided in<lb/> Pennsylvania, a little south of the state of New York, on
+                    a tract of<lb/> land secured to him and his heirs forever, by a special act of
+                    the state.</p>
+                <p>This Chief (whose Indian name is Ki-on-twogh-ky,) was much<lb/> esteemed for his
+                    wisdom and superior skill, in directing the great coun-<lb/>cils of the nation;
+                    and finer specimens of pathetic eloquence are scarcely<lb/> to be met with in
+                    the annals of history, either amongst savage or civil-<lb/>ized nations, than
+                    are displayed in his speeches to President <persName key="gwash1"
+                        >Washing-<lb/>ton</persName>, in the year 1790, when he, with several other
+                    noted chiefs, visited<lb/>
+                    <placeName key="phila">Philadelphia</placeName>. These speeches, with the
+                    President's answers, the famous<lb/> Chief had recorded in a book, of which the
+                    writer obtained a copy in<lb/> the year 1800. They were printed some years since
+                    by the committee<lb/>
+                    <pb n="7" facs="SW_HJ1830_005"/> who had the charge of promoting civilized
+                    habits among the Indians-<lb/> but are rarely to be met with at present. Our
+                    limits will not admit<lb/> their republication here, but to give the reader some
+                    specimens of the<lb/> superior powers of mind with which this native son of the
+                    forest was<lb/> endowed, we will here give a few extracts from them, as also of
+                    the<lb/> President's replies.</p>
+                <floatingText type="speech">
+                    <body><dateline><date when="1790"/><placeName key="phila"/></dateline>
+                        <opener>To the Great Counsellor of the Thirteen Fires, the Speech of
+                                <persName key="cornp2">Corn-<lb/>planter</persName>, <persName
+                                key="halft1">Halftown</persName> and <persName key="great1">Great
+                                Tree</persName>, Chiefs and Counsellors of the <orgName key="seneca"
+                                >Seneca Nation</orgName>.</opener>
+                        <p>Father, The voice of the <orgName key="seneca">Seneca Nation</orgName>
+                            speaks to you, the Great<lb/> Counsellor in whose heart the wise men of
+                            all the Thirteen Fires have<lb/> placed their wisdom. It may be very
+                            small in your ears, and we,<lb/> therefore, entreat you to hearken with
+                            attention, for we are about to<lb/> speak of things which are to us very
+                            great.</p>
+                        <p>When you gave us peace, we called you Father, because you pro-<lb/>mised
+                            to secure us in the possession of our land; do this, and so long<lb/> as
+                            our land shall remain, that beloved name will live in the heart of<lb/>
+                            every Seneca.</p>
+                        <p>Father, when you kindled your Thirteen Fires separately, the<lb/> wise
+                            men who assembled at them, told us that you were all brothers -<lb/> the
+                            children of one great Father, who regards also the red people as<lb/>
+                            his children. They called us brothers, and invited us to his
+                            protection.<lb/> They told us that he resided beyond the great waters,
+                            where the sun<lb/> first rises - that he was a king, whose power no
+                            people could resist - <lb/> and that his goodness was as bright as that
+                            sun. What they said went<lb/> to our hearts. We accepted the invitation,
+                            and promised to obey him.<lb/> What the <orgName key="seneca">Seneca
+                                nation</orgName> promise, they faithfully perform - and when<lb/>
+                            you refused obedience to that king, he commanded us to assist his
+                            be-<lb/>loved men in making you sober. We obeyed him - we did no
+                            more<lb/> than yourselves had led us to promise. The men who claimed
+                            this pro-<lb/>mise, told us that you were children, and had no guns,
+                            that when they<lb/> had shaken you, you would submit - we hearkened to
+                            them, and were<lb/> deceived, until your army approached our towns. We
+                            were deceived;<lb/> but your people, in teaching us to confide in that
+                            king, had helped to<lb/> deceive us, and now we appeal to your heart -
+                            is all the blame ours?</p>
+                        <p>Father, When we saw that we had been deceived, and heard the<lb/>
+                            invitation you gave us to draw nigh to the fire which you had
+                            kindled,<lb/> and talk with you concerning peace, we made haste towards
+                            it. You<lb/> then told us that we were in your hand, and that by closing
+                            it, you<lb/> could crush us to nothing-and you demanded from us a great
+                            country<lb/> as the price of that peace you had offered to us, as if our
+                            want of <lb/>
+                            <pb n="8" facs="SW_HJ1830_006"/> strength had destroyed our rights.
+                            Our chiefs had felt your power, and<lb/> were unable to contend against
+                            you, and they, therefore, gave up that<lb/> country. What they agreed
+                            to, has bound our nation; but by this time<lb/> your anger against u
+                            must be cooled, and although our strength has<lb/> not increased, nor
+                            your power become less, we ask you to consider<lb/> calmly - were the
+                            terms dictated to us by your commissioners reasona-<lb/>ble and
+                                just?<note resp="author">[After setting forth, in a plaintive
+                                strain, the many wrongs they had<lb/> suffered, and the difficulties
+                                they had been led into by subsequent<lb/> treaties with individuals,
+                                they go on, and say,]</note> Father, We could<lb/> bear this
+                            confusion no longer, and determined to lift up our voice, so<lb/> that
+                            you might hear us, and to claim that security in possession of our<lb/>
+                            lands, which your commissioners so solemnly promised us, and we now<lb/>
+                            entreat you to inquire into our complaints, and redress our wrongs.<lb/>
+                            We have already said how we came to join against you: - we saw that<lb/>
+                            we were wrong - we wished for peace - you demanded a great country<lb/>
+                            to be given up to you as the price of peace; and we ought to have<lb/>
+                            peace, and possession of the little land you then left us.</p>
+                        <p>Father, We will not conceal from you that the great God, and not<lb/>
+                            man, has preserved the <persName key="cornp2">Cornplanter</persName>
+                            from the hands of his own nation,<lb/> for they ask continually, 'where
+                            is the land on which our children, and<lb/> their children after them,
+                            are to lay down upon?' 'You told us,' say<lb/> they, 'that the line
+                            drawn from Pennsylvania to <geogName key="lakeo">Lake
+                            Ontario</geogName>, would<lb/> mark it forever on the east, and the line
+                            running from <geogName key="beave">Beaver Creek</geogName><lb/> to
+                            Pennsylvania would mark it on the west; and we see that it has not<lb/>
+                            been so - for first one, and then another, comes and takes it away,
+                            by<lb/> order of that people who you tell us promised it to us.' He is
+                            silent,<lb/> for he has nothing to say. When the sun goes down, he opens
+                            his heart<lb/> before God, and earlier than the sun appears again upon
+                            the hill , he<lb/> gives thanks for his protection during the night
+                            season - for he feels that<lb/> when men become desperate by their
+                            danger, it is God only that can<lb/> preserve him. He loves peace, and
+                            all that he had in store he has<lb/> given to those who have been robbed
+                            by your people, lest they should<lb/> plunder the innocent to repay
+                            themselves. The whole season which<lb/> others have employed in
+                            providing for their families, he has spent in en-<lb/>deavouring to
+                            preserve peace, and at this moment his wife and children<lb/> are lying
+                            on the ground in want of food - his heart is in pain for them<lb/> - but
+                            he perceives that the Great Spirit will try his firmness in doing<lb/>
+                            what is right. </p>
+                        <p>Father, All the land we have been speaking of, belonged to the<lb/>
+                            <orgName key="Six Nations">Six Nations</orgName>. No part of it ever
+                            belonged to the King of England, and<lb/> he could not give it to you.
+                            The land we live on, our fathers received<lb/>
+                            <pb n="9" facs="SW_HJ1830_007"/> from God, and they transmitted it
+                            to us for our children, and we cannot<lb/> part with it.</p>
+                        <p>Father, These are to us very great things - we know that you are<lb/>
+                            very strong - and we have heard that you are wise - and we shall
+                            now<lb/> wait to hear your answer to what we have said, that we may
+                            know<lb/> that you are just.</p>
+                    </body>
+                </floatingText>
+
+                <p>The foregoing speech was signed by <persName key="cornp2">Cornplanter</persName>,
+                        <persName key="halft1">Half-town</persName>, and<lb/>
+                    <persName key="great1">Great Tree</persName>, in the presence of <persName
+                        key="jnich1">Joseph Nicholson</persName>, interpreter, and <persName
+                        key="tmatl1">Timo-<lb/>thy Matlack</persName>.</p>
+                <p>President <persName key="gwash1">Washington</persName> answered them in a style
+                    adapted to the<lb/> Indian mode of speech. In reply to their embarrassments
+                    respecting<lb/> the sale of their lands, he says, </p>
+                <floatingText type="speech">
+                    <body><dateline><date when="1790"/><placeName key="phila"/></dateline>
+                        <p>I am not uninformed that the <orgName key="Six Nations">Six<lb/>
+                                Nations</orgName> have been led into some difficulty with respect to
+                            the sale of<lb/> their lands, since the peace - but I must inform you
+                            that these evils<lb/> arose before the present government of the United
+                            States was esta-<lb/>blished, when the separate states and individuals
+                            under their authority<lb/> undertook to treat with the Indian tribes
+                            respecting the sale of their<lb/> lands. But the case is now entirely
+                            altered - the general government,<lb/> only, has the power to treat with
+                            the Indian nations, and any treaty<lb/> formed and held without its
+                            authority, will not be binding.</p>
+                        <p>Here, then, is the security for the remainder of your lands - no<lb/>
+                            state or person can purchase your lands, unless at some public
+                            treaty<lb/> held under the authority of the United States. The general
+                            govern-<lb/>ment will never consent to your being defrauded, but will
+                            protect<lb/> you in all your rights.</p>
+                        <p>Hear well, and let it be heard by every person in your nation, that<lb/>
+                            the President of the United States declares that the general
+                            govern-<lb/>ment considers itself bound to protect you in all the land
+                            secured to<lb/> you by the treaty at <placeName key="fstan">Fort
+                                Stanwix</placeName>, <date when="1784-10-22">the twenty-second of
+                                October,<lb/> 1784</date>, except such parts as you may since have
+                            fairly sold to persons<lb/> properly authorized to purchase of you.</p>
+                        <p>Your great object seems to be the security of your remaining lands,<lb/>
+                            and I have, therefore, upon this point, meant to be sufficiently
+                            strong<lb/> and clear, that in future you cannot be defrauded of your
+                            lands - that<lb/> you possess the right to sell, and the right of
+                            refusing to sell your lands<lb/> - that, therefore, the sale of your
+                            lands in future, will depend entirely<lb/> upon yourselves.</p>
+
+                    </body>
+                </floatingText>
+                <p>In the conclusion of his speech, the President assures them the<lb/> United
+                    States will be true and faithful to their agreement.</p>
+
+            </div>
+            <div type="narrative">
+                <pb n="10" facs="SW_HJ1830_008"/>
+                <p>The Second Speech of <persName key="cornp2">Cornplanter</persName>, <persName
+                        key="halft1">Half-town</persName>, and <persName key="great1">Big
+                        Tree</persName>.</p>
+                <floatingText type="speech">
+                    <body><dateline><date when="1790"/><placeName key="phila"/></dateline>
+                        <p>Father, Your speech, written on the great paper, is to us like the<lb/>
+                            first light of the morning to a sick man, whose pulse beats too
+                            strongly<lb/> in his temples - he sees it, and rejoices, but is not
+                            cured.</p>
+                        <p>You have spoken plainly on the great point, that you will protect<lb/> us
+                            in the land secured to us at <placeName key="fstan">Fort
+                                Stanwix</placeName>, and that we have a right<lb/> to sell, or
+                            refuse to sell-this is very good. But our nation complain<lb/> that you
+                            compelled us at that treaty to give up too much of our lands<lb/> - we
+                            confess that our nation is bound by what was there done, and<lb/>
+                            acknowledge your power - we have now appealed to yourselves against<lb/>
+                            that treaty, as made while you were too angry at us - and,
+                            therefore,<lb/> unreasonable and unjust - to this you have given us no
+                            answer.</p>
+                        <p>Father, That treaty was not with a single state - it was the
+                            thir-<lb/>teen states. We should never have given all that land to one
+                            state -<lb/> we know that it was before you had the great authority -
+                            and as you<lb/> have more wisdom than the commissioners who forced us
+                            into that treaty,<lb/> we expect you have more regard to justice, and
+                            will now, at our re-<lb/>quest, reconsider the treaty, and restore to us
+                            part of that land.</p>
+                        <p>Father, The land which lies between the line running south from<lb/>
+                            <geogName key="lakee">Lake Erie</geogName> to the boundary of
+                            Pennsylvania, as mentioned in the treaty<lb/> of <placeName key="fstan"
+                                >Fort Stanwix</placeName>, and the eastern boundary of that land
+                            which you sold<lb/> and the <orgName key="seneca">Senecas</orgName>
+                            confirmed to Pennsylvania, is the land on which <persName key="halft1"
+                                >Half-<lb/>town</persName> and all his people live, with other
+                            chiefs, who always were, and<lb/> still are, dissatisfied with the
+                            treaty of <placeName key="fstan">Fort Stanwix</placeName>. They grew
+                            out<lb/> of this land, and their fathers grew out of it, and they cannot
+                            be per-<lb/>suaded to part with it. We therefore entreat you to restore
+                            us this<lb/> little piece.</p>
+                        <p>Father, Look at the land which we gave to you at that treaty, and<lb/>
+                            then cast your eyes upon what we now ask you to restore us, and you<lb/>
+                            will see that what we now ask is a very little piece. By giving it
+                            back<lb/> again you will satisfy the whole of our nation. The chiefs who
+                            signed<lb/> that treaty will be in safety - and peace between your
+                            children and<lb/> our children will continue so long as your land shall
+                            continue to join<lb/> our's.</p>
+                        <p>Every man in our nation will then turn his eyes away from all the<lb/>
+                            other land that we then gave up to you, and forget that our fathers<lb/>
+                            ever said that it belonged to them.</p>
+                        <p>Father, We see that you ought to have the path at the carrying-<lb/>place
+                            from <geogName key="lakee">Lake Erie</geogName> to <geogName key="niaga"
+                                >Niagara</geogName>, as it was marked down at <placeName key="fstan"
+                                >Fort Stan-<lb/>wix</placeName>, and we are willing it should remain
+                            to be yours. And if you de-<lb/>sire to reserve a passage through the
+                                <geogName key="conew">Conewango</geogName>, and through the <lb/>
+                            <pb n="11" facs="SW_HJ1830_009"/>
+                            <geogName key="chaut"> Chautauque Lake</geogName>, and land for a path
+                            from that Lake to <geogName key="lakee">Lake Erie</geogName>,<lb/> take
+                            it where you like best. Our nation will rejoice to see it an open<lb/>
+                            path for you and your children, while the land and water remain:
+                            But<lb/> let us pass along the same way, and continue to take the fish
+                            of these<lb/> waters in common with you.</p>
+                        <p>Father, You say that you will appoint an agent to take care of<lb/> us -
+                            let him come and take care of our trade, but we desire he may<lb/> have
+                            nothing to do with our land; for the agents who have come among<lb/> us,
+                            and pretended to take care of us, have always deceived us when-<lb/>ever
+                            we sold lands: both when the King and when the separate states<lb/> have
+                            bargained with us: They have, by this means, occasioned many<lb/> wars,
+                            and we are, therefore, unwilling to trust them again.</p>
+                        <p>Father, When we return home, we will call a great council, and<lb/>
+                            consider well how lands may be hereafter sold by our nation, and
+                            when<lb/> we have agreed upon it, we will send you notice thereof-but we
+                            de-<lb/> sire that you will not depend upon your agent for information
+                            concern-<lb/>ing lands; for after the abuses which we have received from
+                            such men,<lb/> we will not trust them with anything concerning
+                            lands.</p>
+                        <p>Father, We will not hear lies concerning you, and we desire you<lb/> will
+                            not hear lies concerning us, and then we shall certainly live in<lb/>
+                            peace with you.</p>
+                        <p>Father, Our nation has long looked round for a father, but they<lb/>
+                            found none that would own them for his children, until you now tell
+                            us<lb/> that your courts are open for us as to your own people. The joy
+                            that<lb/> we feel on this great news so mixes with the sorrows that are
+                            past, that<lb/> we cannot express our gladness, nor conceal the
+                            remembrance of our<lb/> affliction - we will speak of it at another
+                            time.</p>
+                        <p>Father, We are ashamed that we have listened to L-----n's lies,<lb/> or
+                            been influenced by threats of war from P-----s, and would hide that<lb/>
+                            whole transaction from the world and from ourselves, by quietly
+                            re-<lb/>ceiving what P-----s promised to give us for the land he cheated
+                            us of.<lb/> But as P-----s will not pay us according to that fraudulent
+                            bargain, we<lb/> must lay the whole proceeding before your court. When
+                            the evidence<lb/> which we can produce is heard, we think it will appear
+                            that the whole<lb/> bargain was founded upon lies which he placed one
+                            upon another - that<lb/> the goods which he had charged to us, as part
+                            payment, were plunder-<lb/>ed from us - and that if P-----s was not
+                            directly concerned in the theft,<lb/> he knew of it at the time, and
+                            concealed it from us, and that the per-<lb/>sons we confided in were
+                            bribed by him to deceive us in the bargain -<lb/> and if these facts
+                            appear, your courts will not say that such bargains<lb/> are just, but
+                            set the whole aside.</p>
+                        <p>Father, the blood that was spilt near <geogName key="pinec">Pine
+                                Creek</geogName>, is covered, and<lb/> we shall never look where it
+                            lies. We know that Pennsylvania will<lb/>
+                            <pb n="12" facs="SW_HJ1830_010"/> satisfy us for that which we speak
+                            to them, wherefore we speak to you.<lb/> The chain of friendship will
+                            now, we hope, be made strong, as you desire<lb/> it to be - we will hold
+                            it fast - our end of it shall never rust in our hands.</p>
+                        <p>Father, we told you what advice we gave to the people you are<lb/> now at
+                            war with, and we now tell you that they have promised to come<lb/> again
+                            next spring to our towns. We shall not wait for their coming,<lb/> but
+                            set out very early in the season, and how them what you have<lb/> done
+                            for us, which must convince them that you will do for them every<lb/>
+                            thing that they ought to ask. We think they will hear us and
+                            forward<lb/> our advice.</p>
+                        <p>Father, you gave us leave to speak our minds concerning the till-<lb/>ing
+                            of the ground - we ask you to teach us to plough and to grind corn,<lb/>
+                            and supply us with broad axes, saws, augers, and other tools to assist
+                            us<lb/> in building a saw mill, that we may make our houses more
+                            comfortable<lb/> and more durable. That you will send smiths among us,
+                            and above all<lb/> that you will teach our children to read and write,
+                            and our women to<lb/> spin and weave. The manner of doing these things
+                            for us we leave to<lb/> you who understand them, but we assure you that
+                            we will follow your<lb/> advice as far as we are able.</p>
+                    </body>
+                </floatingText>
+
+                <p>To this second speech the President made them a written reply, stat-<lb/>ing,
+                    among other things, that he could not disannul treaties made with<lb/> the
+                    United States before his administration, and that, therefore, the<lb/>
+                    boundaries marked by the treaty of <placeName key="fstan">Fort
+                        Stanwix</placeName> must remain esta-<lb/>blished. He assured them an agent
+                    should be appointed who would not<lb/> be suffered to defraud them, or assist in
+                    defrauding them of their land;<lb/> and concluded, by saying -</p>
+                <p><said who="gwash">You may, when you return from this city to your own
+                        country,<lb/> mention to your nation my desire for their prosperity by
+                        teaching them<lb/> the use of domestic animals, and the manner that the
+                        white people<lb/> plough and raise so much corn, and if, upon consideration,
+                        it would be<lb/> agreeable to the nation at large to learn these valuable
+                        arts, I will find<lb/> such means of teaching them, at such a place within
+                        their country as<lb/> shall be agreed upon.</said></p>
+
+                <floatingText type="speech">
+                    <body>
+                        <opener>To the great counsellor of the Thirteen Fires. The speech of
+                                <persName key="cornp2">Corn-<lb/>planter</persName>, <persName
+                                key="halft1">Half-town</persName>, and <persName key="great1">Big
+                                Tree</persName>.</opener>
+                        <p>Father, no Seneca ever goes from the fire of his friend until he has<lb/>
+                            said to him I am going. We therefore tell you that we are now
+                            set-<lb/>ting out for our own country.</p>
+                        <p>Father, we thank you from our hearts that we now know there is<lb/> a
+                            country we may call our own, and on which we may lay down in<lb/> peace.
+                            We see that there will be peace between your children and<lb/> our
+                            children, and our hearts are very glad. We will persuade the<lb/>
+                            <orgName key="wyandot">Wyandots</orgName> and other western nations to
+                            open their eyes, and look to-<lb/>
+                            <pb n="13" facs="SW_HJ1830_011"/> wards the bed which you have made
+                            for us, and to ask of you a bed for<lb/> themselves and their children,
+                            that will not slide from under them.</p>
+                        <p>Father, we thank you for your presents to us, and rely on your
+                            pro-<lb/>mise to instruct us in raising corn as the white people do. The
+                            sooner<lb/> you do this the better for us, and we thank you for the care
+                            which you<lb/> have taken to prevent bad people from coming to trade
+                            among us. If<lb/> any come without your license, we will turn them back,
+                            and we hope<lb/> our nation will determine to spill all the rum that
+                            shall hereafter be<lb/> brought to our towns.</p>
+                        <p>Father, you have not asked of us any surety for peace on our part,<lb/>
+                            but we have agreed to send nine <orgName key="seneca">Seneca</orgName>
+                            boys to be under your care for<lb/> education - tell us at what time you
+                            will receive them, and they shall<lb/> be sent at that time. This will
+                            assure you that we are indeed at peace<lb/> with you, and determined to
+                            continue so. If you can teach them to be<lb/> wise and good men, we will
+                            take care that our nation shall be willing<lb/> to be instructed by
+                            them.</p>
+                        <closer>Signed in the presence of <persName key="jnich1">Joseph
+                                Nicholson</persName>, interpreter.<lb/> Attest, <signed><list>
+                                    <item><persName key="tproc1">Thomas Proctor</persName>,</item>
+                                    <item><persName key="tmatl1">Timothy Matlack</persName>.</item>
+                                </list></signed>
+                            <dateline><placeName key="phila">Philadelphia</placeName>,<emph/><date
+                                    when="1791-02-07">February 7th, 1791</date>.</dateline></closer>
+                    </body>
+                </floatingText>
+
+
+                <p>The foregoing extracts may serve to show the strong point of view<lb/> in which
+                    the faith of the United States was pledged to protect the In-<lb/>dians in their
+                    rightful possessions. And this interview with the Presi-<lb/>dent opened the way
+                    for the introduction of civilized habits among the<lb/>
+                    <orgName key="seneca">Seneca nation</orgName> of Indians, subsequently commenced
+                    and prosecuted by<lb/> the society of Friends. Some account of their proceedings
+                    may here-<lb/>after be given, in which the writer of this was for many years
+                    actively<lb/> engaged. It is, in the first place, his design to give a sketch of
+                    their<lb/> manners and customs, at the time these operations were commenced
+                    -<lb/> being the result of observation, during his residence and frequent
+                    visits<lb/> among the <orgName key="seneca">Seneca nation</orgName>, as well as
+                    from the most authentic infor-<lb/>mation collected from other well acquainted
+                    with their habits and<lb/> manners.</p>
+                <p>This sketch, written many years ago, will consist in a brief view of<lb/> their
+                    persons, dress, houses, provisions - hardships imposed upon the fe-<lb/>males,
+                    economy, intercourse with one another, treatment of their chil-<lb/>dren,
+                    employment of the men - hunting, their belief in the Great Spirit,<lb/> opinion
+                    of the evil spirit, place of happiness after death, place of punish-<lb/>ment,
+                    religious ceremonies, sacrifices, mourning for the dead, supersti-<lb/>tious
+                    notions, banquets, marriages, government, mode of appointing<lb/> chiefs,
+                    punishments, hyeroglyphics, idea of the globe, &amp;c.</p>
+
+            </div>
+            <div type="narrative">
+                <pb n="14" facs="SW_HJ1830_012"/>
+                <head>Manners and Customs of the <orgName key="seneca">Seneca Nation</orgName> of
+                    Indians, in the year 1800.</head>
+                <p>In their persons, the <orgName key="seneca">Senecas</orgName> are generally of a
+                    moderate stature<lb/> and well proportioned, though instances of dwarfishness
+                    and deformity<lb/> are sometimes to be seen among them. Their complexion is of a
+                    cop-<lb/>per colour, and the hair black - that of the men being generally
+                    cut<lb/> close, excepting a small tuft on the crown of the head, which is
+                    suf-<lb/>fered to grow long, and is tied in a small roll on the top, on which
+                    they<lb/> frequently wear a silver tube, about three inches in length.
+                    Some,<lb/> also, let small locks grow obliquely projecting over their
+                    shoulders.<lb/> They very generally extract their beards by means of a spiral
+                    spring<lb/> ring made of wire, about the common knitting needle size, and
+                    about<lb/> two inches in length; this being applied to the face, and pressed
+                    be-<lb/>tween the thumb and finger, forms a kind of pincers, and takes so
+                    fast<lb/> hold of the beard as readily to extract it. This is also frequently
+                    made<lb/> use of to extract the hair from the head instead of cutting, and
+                    some-<lb/>times the operation is performed between their thumb and the
+                    blunt<lb/> edge of a knife.</p>
+                <p>Their eyes are black, keen, and penetrating - their countenance open<lb/> and
+                    engaging in general, and a great object of their vanity is, to give<lb/> every
+                    possible decoration to their persons, by painting their faces a <lb/> variety of
+                    colours, among which vermilion and charcoal are their<lb/> favourites.</p>
+                <p>They most generally use the red, but streaks of black are occasion-<lb/>ally
+                    intermixed. Black mostly denotes trouble; but the red, though it<lb/> makes them
+                    look fierce, as in time of disturbance, is expressive of war – <lb/> so it is
+                    also used to denote cheerfulness, and sometimes to hide the true<lb/> expression
+                    of the countenance - and in this way, when rubbed round<lb/> the eyes, it has a
+                    wonderful effect.</p>
+                <p>Their dress is simple and commodious. It consists of tight leggings<lb/> reaching
+                    above the knee, made of cloth or flannel - a strip of cloth<lb/> about a foot
+                    wide and three or four feet long, according to the size of<lb/> the person, is
+                    drawn inwards at each end, and hangs down behind and<lb/> before, over a belt
+                    tied round the waist for that purpose - the outward<lb/> ends of this are
+                    frequently ornamented with silver brooches. A close<lb/> vest or shirt reaching
+                    somewhat below the waist, made of linen or<lb/> calico, and in some instances a
+                    short waistcoat, with an overcoat of cloth,<lb/> or blanketing, (which they call
+                    match-coat,) clumsily made, and the<lb/>
+                    <pb n="15" facs="SW_HJ1830_013"/> addition of moccasins on their feet, and a
+                    cap on their head, mostly<lb/>/ complete their apparel. The materials of their
+                    dress, however, vary<lb/> according to the season. In warm weather they are very
+                    thinly<lb/> clad, and in the winter they generally wrap their blanket round
+                    them,<lb/> in addition to their other clothing. At times, their head dress is
+                    cu-<lb/>riously ornamented with large feathers, and the tails of wild
+                    animals,<lb/> projecting from their ears sideways, some erect, and others
+                    flowing be-<lb/>hind them. These habiliments are put on, however, as their
+                    caprice<lb/> suggests, and are generally worn at their feasts and sacrifices, or
+                    on ex-<lb/>peditions to distant parts, when they make the most antic
+                    appearance.</p>
+                <p>The female dress is formed of much the same material as that of<lb/> the other
+                    sex, but of somewhat different make and arrangement. They<lb/> wear moccasins on
+                    their feet, and their leggings are fastened<lb/> below the knee. An open garment
+                    descending about half down the leg, is fastened<lb/> round them by a belt at the
+                    waist, and the upper part turned down-<lb/>wards, reaching near to the knee,
+                    which part is often covered with ri-<lb/>bands or embellished with silver
+                    brooches, with a considerable degree<lb/> of skill and taste.</p>
+                <p>They wear a short frock or vest, reaching to the waist, flowing<lb/> loose about
+                    them, and when their business will admit, their blanket is<lb/> spread over the
+                    whole, and serves them both night and day. Divers<lb/> of their garments are
+                    fancifully fringed and ornamented with needle<lb/> work, set in with beads and
+                    porcupine quills, variegated and disposed<lb/> with much skill and ingenuity.
+                    Their hair is left to grow at full length,<lb/> generally falls back, and is
+                    tied up in a knot behind, care being taken<lb/> to apply to it plentifully of
+                    the fat of the bear. Their head-dress con-<lb/>sists principally of a simple
+                    cap, or hood, made of cloth, or old blanket-<lb/>ing, secured together, at one
+                    end, and flowing round their neck and<lb/> shoulders; but these are seldom worn
+                    by the females, except in cold<lb/> weather.</p>
+                <p>Their houses are of different dimensions, from ten to thirty feet<lb/> in length,
+                    but narrow in proportion. They are built of poles, or small<lb/> logs, being
+                    about six feet to the square of the eve, and covered with a<lb/> very steep roof
+                    of bark, which they take off the tree in very broad<lb/> pieces, five or six
+                    feet long, mostly chestnut, hemlock, or cucumber.<lb/> They generally take it
+                    from the tree, shave the outside off, and lay it in<lb/> a horizontal pile to
+                    press, some time before they use it.</p>
+                <p>The rafters are made of round poles, the lower end dovetailed in the<lb/> top log
+                    - tied together at the top, and crossed again at smaller dis-<lb/>tances by
+                    other poles, on which are laid the bark, which is tied to the<lb/> poles with
+                    the inside rind of hickory or other strong bark.</p>
+                <p>Two courses thus laid on, generally cover one side of the house, and<lb/> the
+                    ridge of the roof is made tight by laying broad pieces lengthways,<lb/>
+                    <pb n="16" facs="SW_HJ1830_014"/> and tying them down as aforesaid. A roof
+                    of good bark, thus put on,<lb/> will stand water proof for several years, and
+                    the labour of renewing it<lb/> is not very considerable in a country where
+                    timber abounds. In a long<lb/> house, the logs are joined together at the ends
+                    by means of a gutter<lb/> post, which stands perpendicular about midway on each
+                    side of the<lb/> building, and are neatly notched down at the corners. Some<lb/>
+                    who wish to live more secure from the cold winds, stop the interme-<lb/>diate
+                    spaces with moss. The door is almost invariably at one end of<lb/> the house,
+                    the logs being all cut off except the top and bottom ones,<lb/> and fitted into
+                    gutter posts, which serve for door cheeks. Two births<lb/> or shelvings are made
+                    on each side of the house, the lower one about<lb/> one foot from the ground, on
+                    which they lodge, and the other about five<lb/> feet high, on which they throw
+                    their household furniture, provisions,<lb/> &amp;c. The fire is built in the
+                    centre of the house, and a hole left in the<lb/> roof directly over it to vent
+                    the smoke. There are girders supported by<lb/> upright timbers, on which they
+                    hang up their corn to dry; a cross-<lb/>piece of timber again rests on these,
+                    from which withs and wooden<lb/> hooks are suspended to hang their kettles on,
+                    over the fire, wherein they<lb/> cook their provisions.</p>
+                <p>Some had wigwams,* the walls as well as roofs of which were con-<lb/>structed of
+                    bark, supported by small poles stuck in the ground, to which<lb/> the bark was
+                    fastened - the inside of the house much on the same con-<lb/>struction as the
+                    former. These were not very common in their villages,<lb/> but more generally
+                    occupied as a temporary residence, when in the<lb/> woods making sugar, or as a
+                    hunting encampment.</p>
+                <p>The third month, is generally their season for making sugar, when<lb/> whole
+                    families retire into the woods contiguous to a grove of sugar<lb/> maple, the
+                    sap of which they extract, by making an incision into the<lb/> trunk near the
+                    ground, and convey it, by means of a small tube, into<lb/> troughs set for the
+                    purpose. This is collected and taken to the camp,<lb/> where it is boiled in
+                    large kettles till reduced to sugar, and when clean-<lb/>liness is observed in
+                    the operation, they will make this valuable article<lb/> of an excellent flavour
+                    and quality. The sap runs most plentifully in<lb/> a clear sunshine, after a
+                    cold frosty night - but a damp wind from the<lb/> southward checks the flowing
+                    of the sap immediately.</p>
+                <p>At this season the Indians remain several weeks in the woods, and<lb/> the men
+                    assist the women in the labour of making sugar, besides at-<lb/>tending to their
+                    hunting, to procure supplies of meat. They also trap<lb/> those amphibious and
+                    other animals, which furnish furs, and especially<lb/> the beaver, the meat of
+                    which they esteem a luxury.</p>
+                <note resp="author">*The Delaware word for house.</note>
+                <pb n="17" facs="SW_HJ1830_015"/>
+                <p>The females, who are subject, (as amongst other uncivilized nation)<lb/> to
+                    almost every kind of domestic drudgery, are industrious in the culture<lb/> of
+                    Indian corn, beans, squashes, melons, potatoes, and many other vege-<lb/>tables.
+                    And although each family have their separate piece of ground<lb/> to cultivate
+                    with the hoe, and hold the fruit of their industry as distinct<lb/> property,
+                    yet they frequently join in large companies to assist each<lb/> other, on which
+                    occasions they are remarkably loquacious and lively,<lb/> as also expert in
+                    using the hoe, each patiently assisting her neighbour,<lb/> till her own turn
+                    comes in rotation. Thus they enjoy a kind of con-<lb/>vivial intercourse, which
+                    greatly tends to ameliorate the weight of la-<lb/>bour assigned them, and in
+                    many instances no doubt, affords them a<lb/> satisfaction equal to, if not
+                    surpaaaing that enjoyed by many of the white<lb/> female in their most social
+                    entertainments.</p>
+                <p>The vegetables which they raise with the hoe, with some fish caught<lb/> in the
+                    river, generally compose a great part of their provision in the<lb/> summer
+                    season. Venison was not at all time to be procured plentifully,<lb/> and even
+                    when obtained, by hunting, they had no way of preserving it,<lb/> in the warm
+                    weather, except by drying it over the fire, into what they<lb/> call jerk. This
+                    is sometimes done in the woods, at their hunting camps<lb/> - by means of a kind
+                    of rack made of small sticks, over the fire, or by<lb/> sharpening the sticks at
+                    both ends and setting them in the ground, near<lb/> the fire, with the meat
+                    stuck on the upper end. Salt at this time was<lb/> a scarce article among them,
+                    and not to be procured but at an ex-<lb/>travagant price, yet it is an article
+                    of which they are very fond, and<lb/> what little they were enabled to obtain
+                    was frequently carried with<lb/> them, carefully tied up in one corner of their
+                    clothes, and used sparing-<lb/>ly. Their venison was often eaten without salt,
+                    bread, or vegetables;<lb/> and as they are not delicate in their palate, they
+                    often feast, apparently<lb/> with a relish, on meat highly tainted. They were
+                    not observed to be<lb/> early risers in the morning; they seldom eat more than
+                    two meals a<lb/> day, and those morning and evening. Their meals principally
+                    consist<lb/> of soups, made of squashes, beans, hominy, and other vegetables;
+                    also<lb/> of meat cut in small pieces, when it can be procured. This dish is
+                    then<lb/> served up in wooden bowls, and supped with wooden ladles; the
+                    eldest<lb/> of the male part of the family being generally served first, and
+                    thus in<lb/> rotation, to the youngest - afterwards the females partake in a
+                    similar<lb/> manner. On some extraordinary occasions, they sweeten their
+                    soups<lb/> with sugar. This article they are very fond of; and as they make
+                    it<lb/> in cakes of near a pound weight, they frequently carry it with
+                    them,<lb/> and eat it like cheese, with bread, or sweeten water to drink. </p>
+                <p>When their new corn becomes fit for use, which is generally in the<lb/>
+                    ninth-month, they feast plentifully on it, sometimes boiling it, as usual<lb/>
+                    among white people, and also make soup or dumplings of it, while in a<lb/>
+                    <pb n="18" facs="SW_HJ1830_016"/> milky state. The process of the latter is,
+                    to cut it off the cob and tie<lb/> it up in small cakes, in the corn husks,
+                    mixed with whortleberries or<lb/> dried blackberries, and boiled like a pudding.
+                    This when seasoned<lb/> with a little salt, makes a palatable food, and with the
+                    addition of some<lb/> bear's fat, is to them a luxury.</p>
+                <p>Their bread is made of corn meal, into which they put bean, mix<lb/> it up with
+                    hot water, and bake it in the embers. They also parch<lb/> their corn, pound it
+                    fine, and mix sugar with it. This is a delicacy<lb/> even with white people, and
+                    frequently forms a part of the Indian's<lb/> travelling provisions; wanting no
+                    other preparation for eating, than<lb/> wetting it with water. They raise a kind
+                    of small round squash, which<lb/> they boil or roast in the embers, and which,
+                    in taste, resembles a sweet<lb/> potato; and these they not only use in the
+                    autumn, but preserve nearly<lb/> through the winter. In times of scarcity, they
+                    are often reduced to the<lb/> necessity of gathering wild roots and herbs, on
+                    which they subsist. In<lb/> short, a great variety, prepared in the most simple
+                    manner, composed<lb/> their provisions. Almost every kind of fowl, fish, and
+                    flesh are eaten<lb/> by them; even some amphibious animals - and the beaver,
+                    especially<lb/> - as before stated, was esteemed a luxury.</p>
+                <p>Having no mills in their country, the women reduced their corn to<lb/> meal, by
+                    pounding it in wooden mortars, and sifting it in a sieve made<lb/> of wooden
+                    splints. The pounders were made of hard wood, and of dif-<lb/>ferent weights,
+                    according to the size and strength of the woman; and<lb/> frequently three of
+                    them would be engaged in one block at the same<lb/> time, and regulate their
+                    strokes in alternation.</p>
+                <p>The females also cut their firewood and carry it home on their<lb/> backs; and
+                    about some of their ancient villages, oftentimes from a quar-<lb/>ter to a half
+                    mile distance. This being an arduous part of the task as-<lb/>signed them, they
+                    frequently join in large companies to assist each other;<lb/> and to those who
+                    have not been eye-witnesses, it might appear incredi-<lb/>ble to relate the size
+                    and weight of the burthens they carry tied up in<lb/> a belt, which bears on the
+                    forehead; the wood being suspended across<lb/> the back, as the females incline
+                    forward. The young girls are not ex-<lb/>empted from this service, but carry
+                    small burthens in proportion to<lb/> their strength; and these female labourers
+                    knowing the task assigned<lb/> them, are economical in procuring their wood in
+                    the summer, or early<lb/> in the fall; having it split up small, carried home,
+                    and piled round the<lb/> house, or often under a shed made for the purpose. This
+                    would be<lb/> thought insupportable, by the females of some, if not all
+                    civilized na-<lb/>tions; but custom and necessity have made it quite familiar to
+                    these<lb/> sprightly inhabitants of the wilderness.</p>
+                <p>The economy of the women in procuring sustenance, far exceeds that<lb/> of the
+                    men, as they carefully collect almost every natural or sponta-<lb/>
+                    <pb n="19" facs="SW_HJ1830_017"/> neous production of their country,
+                    suitable for the support of human<lb/> life, and lay up against times of
+                    scarcity, which sometimes occur, and<lb/> more frequently in the fore part of
+                    summer. For though many of them<lb/> raise a competence of corn, to serve, with
+                    frugality, the year round, yet<lb/> others fall short - using their supply so
+                    liberally, it is exhausted before<lb/> the new corn is fit for use; still
+                    trusting to the hazard of procuring food<lb/> from their native forests.</p>
+                <p>When an Indian entered the house of his friend, it was common to<lb/> set before
+                    him such provisions as were cooked, and if while he was<lb/> eating, several of
+                    his associates came in, he divided it in equal parts<lb/> amongst them;
+                    reserving his own proportion. When he is about to<lb/> leave his friend, he
+                    tells him he is going, which amounts to farewell;<lb/> but if any circumstance
+                    takes place which has given umbrage, he with-<lb/>draws, and says nothing. This
+                    is clear evidence that he is offended.</p>
+                <p>They appear to be naturally as well calculated for social and rational<lb/>
+                    enjoyment, as any people. --They frequently visit each other in their<lb/>
+                    houses, and spend much of their time in friendly intercourse.</p>
+                <p>They are also mild and hospitable, not only among themselves, but<lb/> to
+                    strangers, and good natured in the extreme, except when their na-<lb/>ture are
+                    perverted by the inflammatory influence of spirituous liquors.<lb/> In their
+                    social interviews, as well as public council, they are careful<lb/> not to
+                    interrupt one another in conversation, and generally make short<lb/> speeches.
+                    This truly laudable mark of good manners, enables them to<lb/> transact all
+                    their public business with decorum and regularity, and more<lb/> strongly
+                    impresses on their mind and memory, the result of their delibe-<lb/>rations.
+                    Probably it is from this circumstance that they are enabled,<lb/> without the
+                    aid of literature, to retain in their memory, and transmit<lb/> their
+                    transactions from one generation to another; thus one of their<lb/> chiefs,
+                    speaking in public council , will relate with precision, circum-<lb/>stances
+                    that have taken place among their ancestors for several gene-<lb/>rations
+                    past.</p>
+                <p>Although they appear to possess tender feelings for their children,<lb/> they
+                    inure them to hardships, while in an infant state, by frequently<lb/> immersing
+                    them in cold water. Being indulged in most of their wishes,<lb/> as they grow
+                    up, liberty, in its fullest extent, becomes their ruling pas-<lb/>sion. They are
+                    seldom chastened with blows, or treated with restraint<lb/> or correction. Their
+                    faults are mostly left for their own reason to cor-<lb/>rect when they are grown
+                    up - which faults, they say, cannot be very<lb/> great, before reason arrives at
+                    some degree of maturity. If, however,<lb/> they prove too obstinate, they
+                    sometimes plunge them in the river; and<lb/> if one dip is not sufficient to
+                    conquer or quiet them, it is repeated, till<lb/> the end is effected. As the
+                    child gets a little older, they will sometimes<lb/> talk to it a long while,
+                    endeavouring to impress on its mind what it<lb/>
+                    <pb n="20" facs="SW_HJ1830_018"/> ought to do, and what to leave undone. At
+                    other times, they ridicule<lb/> their children for doing wrong, and tell them
+                    they are not wise in doing<lb/> so.</p>
+                <p>And one remarkable trait in the character of the children, is, that<lb/> they are
+                    generally good humoured among themselves, and children of<lb/> the same family
+                    show strong attachments to each other, and are less<lb/> liable to quarrel in
+                    their youthful days than is generally the case with<lb/> white children.</p>
+                <p>The father, although he assumes little command over his sons, is<lb/>
+                    nevertheless anxious to instruct them in the necessary qualifications for<lb/>
+                    hunting, &amp;c. while the mothers are equally attentive to their
+                    daugh-<lb/>ters, in teaching them every thing that is considered necessary to
+                    their<lb/> character and mode of living.</p>
+                <p>On taking a view of their situation, one would naturally suppose the<lb/> life of
+                    these women was an uninterrupted scene of toil and pain, which,<lb/> indeed, in
+                    a great measure, it really is; for, besides attending to the<lb/> usual labours
+                    of the field, and every culinary service, the duties of ma-<lb/>ternal care are
+                    added, and require a considerable part of their atten-<lb/>tion - the men
+                    assuming very little of the parental trust.</p>
+                <p>Providence seems, in a remarkable manner, to have furnished these<lb/> females
+                    with strength and fortitude adequate to their situation; for, at<lb/> those
+                    times when the females of civilized nations require the most ten-<lb/>der care
+                    and solicitude, these hardy daughters of the forest have little<lb/> or no
+                    respite from their usual labours.</p>
+                <p>Their children are frequently born in the woods, where the woman,<lb/>
+                    accompanied by an elderly female, retires on the occasion, and if in<lb/> cold
+                    weather a fire is made. The babe is immediately wrapt in a blan-<lb/>ket, and
+                    generally, in a few hours, the mother returns with it to her<lb/> own
+                    habitation, and engages in her usual employment, without any ap-<lb/>parent
+                    injury to her health, or constitution.</p>
+                <p>In the nursing of their children, a very considerable degree of inge-<lb/>nuity
+                    is manifested; and for convenience of carrying, as also to keep<lb/> the limbs
+                    of the young child straight, they confine it with it back to a<lb/> board, made
+                    for the purpose; and often fancifully decorated with va-<lb/>rious trinkets, and
+                    embroidery. This board is about two feet and a<lb/> half in length, and one in
+                    breadth, with a little hoop in front, to protect<lb/> the head and face of the
+                    child, from which also they suspend a curtain<lb/> to cover it from flies or
+                    cold. At the bottom is a small foot-board, on<lb/> which the child is placed in
+                    an erect posture, with its hand down its<lb/> sides. It is then swathed with a
+                    bandage of cloth, from the feet to the<lb/> chin, so tight as to be unable to
+                    disengage itself. If the weather is cold,<lb/> the skin of some animal, with
+                    soft fur on it, is put next to it; and if a<lb/> female, a small block is placed
+                    between the heels to give the toes an<lb/>
+                    <pb n="21" facs="SW_HJ1830_019"/> inclination inwards, but if a male, they
+                    endeavour to keep the feet in<lb/> a direction straight forward. One consequence
+                    of this is, that the<lb/> track of the different sexes may easily be
+                    distinguished. In this vehi-<lb/>cle, their children are carried about at
+                    pleasure, suspended down the<lb/> back by a belt, which comes round the forehead
+                    of the mother. When<lb/> taken to the woods, or fields, they are occasionally
+                    set up against trees<lb/> or stumps, while the mother is employed in her
+                    customary labours.<lb/> Sometimes they are suspended by the four corners to
+                    poles laid hori-<lb/>zontally on forks stuck in the ground. In this position
+                    they are drawn<lb/> backwards and forward, a little similar to rocking in a
+                    cradle, and on<lb/> all occasions they are careful to prevent their children, as
+                    much as may<lb/> be, from crying. They are loosened from the board a few times
+                    in the<lb/> day; but being so accustomed to this confinement, and so perfectly
+                    at<lb/> ease in it, they become uneasy when taken out, and their
+                    tranquillity<lb/> is restored when replaced. This mode of confinement is
+                    continued<lb/> about nine months, and is not only advantageous in the nursery,
+                    but<lb/> also in carrying them with more ease and security.</p>
+                <p>The chief employment of the men was hunting and fishing, making<lb/> canoes,
+                    building their houses, dressing deer skin, making bowl, &amp;c.<lb/> in all
+                    which they were ingenious, considering the tools they had to work<lb/> with. In
+                    their hunting excursions, they generally take their wives and<lb/> families with
+                    them, and remain several weeks in the woods, sometimes<lb/> twenty, forty, or
+                    even one hundred miles from their villages, and gene-<lb/>rally up or down a
+                    river, or some large stream of water, where they<lb/> can go in canoes. And
+                    their household furniture being mostly porta-<lb/>ble, they carry as much with
+                    them as answers their purpose during<lb/> their hunting tour. On getting to the
+                    place they have chosen for a<lb/> hunting ground, they erect a temporary shed,
+                    generally so situated as<lb/> to command an extensive view of the river, or some
+                    smaller stream,<lb/> where they may have a favourable opportunity of seeing the
+                    deer, or<lb/> other wild animals pass and repass, and thus it frequently
+                    happens, that<lb/> they have an opportunity of shooting them from the door of
+                    their cabin.</p>
+                <p>The man sets out in the morning, generally taking his course along<lb/> some
+                    stream of water, making, as he travels on, a kind of a way mark,<lb/> by once in
+                    a while breaking down a bush; and in this way traverses<lb/> the country for
+                    many miles in the course of the day, exploring the<lb/> haunts of the deer or
+                    elk, as these animals resort to certain places called<lb/> deer licks, with
+                    which the country abounds, where the water issuing<lb/> from them is somewhat
+                    impregnated with salt. When the huntsman<lb/> kills a deer, or other animal, he
+                    takes off the skin, which he generally<lb/> carries with him; and, dividing the
+                    carcass in quarters, he hangs it<lb/> up in a tree, and then makes his way to
+                    the path along the water<lb/> course, breaking down the bushes from the deer,
+                    till he reaches it,<lb/>
+                    <pb n="22" facs="SW_HJ1830_020"/> where he scrapes with his feet in the
+                    leaves or snow, or otherwise in<lb/> case of snow falling to cover his marks on
+                    the ground; he cuts down a<lb/> bush, and sharpening a stick, sets it in a
+                    position pointing in a direct<lb/> line to the deer he has killed; this
+                    furnishes a mark for his wife to find<lb/> the game he has killed, whose
+                    business it is to carry it home to their<lb/> camp. He then pursues his hunting
+                    again, and if he kills several deer<lb/> in the course of the day, he marks the
+                    way from each in the same man-<lb/>ner to the main path by the water; and in the
+                    evening returns to his<lb/> cabin tired with his day's toil, where his wife
+                    furnishes him with a sup-<lb/>per of such as she has to prepare. He then relates
+                    the success that<lb/> has attended him through the day, regales himself with the
+                    fumes of<lb/> tobacco, and retires to rest on a deer skin, in his native
+                    dignity, as abo-<lb/>riginal lord of the soil. If too late in the evening when
+                    he returns, his<lb/> wife goes off next morning, directed by his marks where to
+                    find the<lb/> deer he has killed, and brings them home on her back, one at a
+                    time,<lb/> often from a great distance; but in the winter time, when they
+                    have<lb/> great success in hunting, they leave much of the flesh in the
+                    woods,<lb/> which is devoured by wolves, or other animals of prey.</p>
+                <p>They sometimes watch the deer licks in the night season, where those<lb/> animals
+                    more frequently resort than they do in the day time, and some-<lb/>times in
+                    great numbers.</p>
+                <p>The huntsman take his station in the evening at a proper distance,<lb/> and
+                    kindles a small fire, which he is careful to conceal, until he hears<lb/> some
+                    deer in the lick, and then having some torches, or dry wood, pre-<lb/>sently
+                    makes the light shine round about, by which he can discover his<lb/> prey, and
+                    the poor animals will stand gazing at the light, while he dis-<lb/>charges his
+                    gun at them. In this manner, they frequently kill several<lb/> deer in a
+                    night.</p>
+                <p>As the snow falls deep in their country, frequently from one to three<lb/> feet,
+                    it renders travelling difficult in the winter. The Indians, there-<lb/>fore,
+                    have recourse to snow shoes, on which they can travel with much<lb/> facility,
+                    and sometimes catch the deer by running them down, without<lb/> either dog or
+                    gun.</p>
+                <p>These snow shoes are made of a tough piece of wood curved before,<lb/> and
+                    somewhat of an oval form, making a span of about two feet long,<lb/> and perhaps
+                    one foot wide, in the middle. Two straight braces cross<lb/> this again at
+                    proper distances to support the foot, and the intermediate<lb/> spaces are laced
+                    with great neatness, with thongs of deer or elk skin.<lb/> They vary in size
+                    according to the person wearing them. On these,<lb/> the huntsman wanders over
+                    mountain, hill, and dale, in pursuit of the<lb/> wild animals of the wood, and
+                    should he get benighted at too great a<lb/> distance to reach his cabin, and has
+                    killed any deer, he strikes up a fire<lb/> in the woods, and roasts a ham or
+                    shoulder of venison on a sharp stick<lb/>
+                    <pb n="23" facs="SW_HJ1830_021"/> stuck in the ground before it; beginning
+                    to eat as soon as one side is<lb/> done, and sometimes continuing to eat, as his
+                    venison cooks, until he is<lb/> satisfied or the whole is consumed. It is said
+                    that some of the hunters<lb/> when very hungry, will eat a ham of venison
+                    without much difficulty.<lb/> This, in part, may be accounted for, from their
+                    sometimes starving a<lb/> long time - for in general they are moderate
+                    eaters.</p>
+                
+            </div>
+            <div type="narrative">
+                <head>Religious Ceremonies, Government, &amp;c. </head>
+                
+                <p>THE Indians believe in one all-wise, Supreme Being, who governs<lb/> the
+                    universe; and that they will be made happy or miserable in a fu-<lb/>ture state,
+                    according as their conduct pleases or displeases him, in this<lb/> state of
+                    existence. This all-wise being they call How-wa-neeo, or<lb/> Great Spirit, and
+                    believe him to be the creator of all good things, the<lb/> author of happiness,
+                    and the rewarder of all good actions, both in this<lb/> world and in the
+                    next.</p>
+                <p>They believe, also, that there is an evil spirit, which they call
+                    Nish-<lb/>shee-o-nee, who influences to bad actions, and who is the creator of
+                    all<lb/> that is bad - such as venomous serpents, wolves, and all warlike
+                    beasts,<lb/> poisonous weeds, bad thoughts and deeds, and every thing that is
+                    pro-<lb/>ductive of unhappiness, both in man and on the earth.</p>
+                <p>They believe there is a place of happiness called in their language<lb/>
+                    Hight-ca-a-nongay, and that, when they die, if their conduct has been<lb/>
+                    orderly, and pleasing to the Great Spirit in this world, they are ad-<lb/>mitted
+                    into this happy region, among the spirits of good men and wo-<lb/>men, where the
+                    Great Spirit is their comforter and chief ruler - and<lb/> that he there hangs
+                    about their necks a string of implements for hunt-<lb/>ing, and for providing
+                    themselves a comfortable living, and that they<lb/> are sent to hunt in a warm
+                    country, where game is plenty, and the<lb/> land fertile for corn, beans, and
+                    other vegetables.</p>
+                <p>Twice in the year, arrayed in their best clothing, and decked with<lb/>
+                    ornaments, they assemble at the town where their Chief lives, in order<lb/> to
+                    render thanks to the Great Spirit for the favours which he hath con-<lb/>ferred
+                    upon them. Their stated period for these ceremonies are in<lb/> the beginning of
+                    autumn, when their new corn, beans, squashes, pota-<lb/>toes, &amp;c. are fit
+                    for use, and again about the middle of winter, when<lb/> they generally return
+                    to their villages with the produce of their hunt-<lb/>ing expeditions.</p>
+                <p>After they are generally collected, both men and women, with the<lb/> children,
+                    an examination takes place, whether any uneasiness or dis-<lb/>satisfaction
+                    exist among them, and whether any have committed offences<lb/> or evil acts. Of
+                    these it is often the case that the offender makes con-<lb/>fession, the design
+                    of which is, that all wrong things may be done away,<lb/>
+                    <pb n="24" facs="SW_HJ1830_022"/> and reconciliation take place, where any
+                    differences have occurred,<lb/> and a promise on the part of the aggressor or to
+                    try to do better for the<lb/> future; which done, the council then assembled
+                    forgive them.</p>
+                <p>They then institute a dance round or near a wooden image, which<lb/> stands a
+                    little distance from the Chief's door, being formed of a huge<lb/> block of wood
+                    into the similitude of a man, and artfully painted; em-<lb/>bellished with skin,
+                    handkerchiefs, fine ribands, and feathers of a va-<lb/>riety of colours. Both
+                    sexes join promiscuously in the dance - two<lb/> men being seated near the feet
+                    of the image, make music by pounding<lb/> on a skin drawn over the mouth of a
+                    kettle, or some other vessel, the<lb/> sound of which has some resemblance to
+                    that of a drum. As they<lb/> move round in a circle, each one has a spoon,
+                    ladle, or some other in-<lb/>strument in the left hand, and frequently give a
+                    frightful halloo or<lb/> scream. The men are all naked from the waist up, and
+                    their bodies<lb/> painted a variety of hues. They have also various kind of
+                    trinkets<lb/> suspended from their ears and noses, and abundance of ornaments,
+                    such<lb/> as belt and deer's hoofs strung like beads, fastened about their
+                    legs,<lb/> which make a great rattle during the process of the dance.</p>
+                <p>After a day pent at this general rendezvous, they divide into smaller<lb/>
+                    companies, men and women apart, and keep up the dance in each<lb/> house in the
+                    town. These dancing companies are preceded by two<lb/> men appointed for the
+                    purpose, who are dressed in the most frightful<lb/> manner imaginable, being
+                    covered with bear skins, and a bag of ashes<lb/> tied round their middle, behind
+                    them, with a hole to suffer the ashes to<lb/> fly about as they move. Their
+                    faces are covered with a large painted<lb/> mask, having a high mane on the
+                    crown, made of long coarse horse<lb/> hair standing almost erect, and large eyes
+                    encircled with a flame-co-<lb/>loured ring. The mouth is open, and shows their
+                    own teeth, with<lb/> which they grin in a terrific manner, and their hands are
+                    blackened so<lb/> as to leave the marks on every person they lay them on. They
+                    carry<lb/> the shell of a mud tortoise, which has been dried for the purpose,
+                    with<lb/> a stick thrust through it, which stretches the neck and large head
+                    to<lb/> their full extent, and inside of the shell are a quantity of pebbles,
+                    with<lb/> which they make a wonderful rattle.</p>
+                <p>These men go from house to house, and rub this shell on the sides<lb/> and up and
+                    down the door posts. They also frequently enter into the<lb/> house, but say
+                    nothing, nor do any injury. As they travel about, if<lb/> they meet with any
+                    person, male or female, in their way, they pursue<lb/> them - those who turn and
+                    receive them in a friendly way, they shake<lb/> hands with, but say nothing -
+                    but it is rather expected that many<lb/> should run as if terrified; these are
+                    pursued, and if overtaken before<lb/> they get into a house, are laid hold of,
+                    and blackened with their hands,<lb/>
+                    <pb n="25" facs="SW_HJ1830_023"/> but no other injury is offered, and,
+                    except a frightful yelling noise, no-<lb/>thing is spoken.</p>
+                <p>The design of these frightful representations is, to personify and imi-<lb/> tate
+                    the bad spirit, and to remind the Indians of the necessity to amend<lb/> their
+                    ways, and avoid all wrong things.</p>
+                <p>After this concert of heathenish superstition has continued for seve-<lb/>ral
+                    days, they assemble again round the wooden image* near the coun-<lb/> cil house,
+                    and sacrifice a dog, first decorating him with strings of wam-<lb/> pum, fine
+                    ribands, and some paintings; and after hanging him on the<lb/> image, burn him
+                    to ashes, on a fire kindled near him for the purpose.<lb/> On some extraordinary
+                    occasions, they eat the flesh of the dog, and a<lb/> white dog is always
+                    preferred, as being deemed a more acceptable of-<lb/> fering.</p>
+                <p>While the dog is consuming, they dance round the fire, making a<lb/> dreadful
+                    yelling and whooping, and during the process of the dance,<lb/> about one pound
+                    of tobacco, of a particular kind, rubbed fine, which<lb/> they consider as
+                    peculiarly agreeable to the Great Spirit, is thrown on<lb/> the fire, in the
+                    smoke whereof, their aspirations, as they suppose, as-<lb/> cending, they
+                    believe are heard by the Great Spirit, and are offered,<lb/> together with their
+                    dancing, under a profession of pleasing him.</p>
+                <p>During this ascension of the smoke, a Chief whom they call their<lb/> minister,
+                    and who appears to have the command and superintendence<lb/> of this ceremony,
+                    addresses the Great Spirit in a speech, the purport<lb/> of which is an
+                    acknowledgment for favours received, thanks for pre-<lb/> servation in times
+                    past, and imploring his continued care and protection.</p>
+                <note resp="author">
+                    <p>*About the year 1802 this image, decaying at the ground, fell down. This
+                        circum-<lb/>stance occasioned very considerable agitation among them, to
+                        know in what manner to<lb/> dispose of it, without giving offence to the
+                        Great Spirit; as they considered it to be his<lb/> representative. Some were
+                        for taking it into the woods, and leaving plenty of provi-<lb/>sions beside
+                        it. Others were for erecting another in its stead, and some were for
+                        dis-<lb/>carding such a representation entirely. </p>
+                    <p>A <persName key="habee1">son</persName> of <persName key="cornp2"
+                            >Cornplanter</persName>, the Chief, who had got his ideas a little
+                        expanded by an edu-<lb/>cation among white people, reasoned with them on the
+                        subject, and told them that it<lb/> had grown up in the woods like other
+                        trees of the forest; that they had cut it down,<lb/> and made it into the
+                        form of a man, but it was still nothing but a block of wood, and<lb/> had no
+                        power or sense, and, therefore, could not represent the Great Spirit, as
+                        they<lb/> imagined; and if they would give it up to him, he would dispose of
+                        it. To this they<lb/> reluctantly consented, and on conditions only, that he
+                        would take all the responsibility<lb/> of any harm happening the nation in
+                        consequence thereof. Accordingly he tumbled<lb/> it into the river, and let
+                        it swim down, the Indians carefully viewing the process, to see<lb/> whether
+                        any evil would befall him.</p>
+                    <p>Some time after, several of them passing along the river, discovered it
+                        lodged on an<lb/> island, about eleven miles below its former station, at
+                        which they appeared struck with<lb/> astonishment, and considerably alarmed,
+                        but let it remain as they found it.</p>
+                </note>
+                <pb n="26" facs="SW_HJ1830_024"/>
+                <p>He then addresses the people, advising them how they ought to con-<lb/>duct, and
+                    pointing out some of the prominent evils which they ought to<lb/> avoid; one of
+                    the greatest of these is stealing, and another is, for the<lb/> husband to
+                    desert and separate himself from his wife during pregnancy;<lb/> but taking the
+                    life of another is not considered a crime so capital, as<lb/> they are left at
+                    liberty to revenge it, by taking the life of the murder-<lb/>er. This may be
+                    done with impunity by the nearest relative of the<lb/> deceased, and they then
+                    consider the cries of blood to be done away.<lb/> Preparatory to these
+                    sacrifices they are careful to procure a sufficien-<lb/>cy of provisions.</p>
+                <p>This is done by deputing a certain number of their warriors to hunt,<lb/> who
+                    encircle a large space of hunting ground, and all the game taken<lb/> thereon is
+                    devoted to this feast. Previously to that which was held in<lb/> the summer of
+                    1799, thirty men were sent out, who returned the day<lb/> following with
+                    seventeen deer. Great attention is paid to the cooking,<lb/> and certain places
+                    are appointed where the entertainment shall be<lb/> given. Spirituous liquors
+                    are not allowed on these occasions, although<lb/> near the conclusion there are
+                    instances, at times, of some of them get-<lb/>ting intoxicated.</p>
+                <p>Their stated time, according to ancient custom, for holding these
+                    sa-<lb/>crifices, is four days at a time, twice in the year; but they
+                    frequently<lb/> continue their feasting and dancing at intervals and by
+                    companies, for<lb/> eight or ten days; and, after the last day being spent in
+                    playing at<lb/> games of chance, they generally conclude by the firing of
+                    guns.</p>
+                <p>Their reason for performing these ceremonious rites, at these two<lb/> seasons of
+                    the year, they say, is to return thanks to the Great Spirit,<lb/> for sending
+                    them plenty of bread and meat - that it was the way their<lb/> forefathers had
+                    taught them, and they knew of no better; and although<lb/> the feast is
+                    conducted with considerable noise, and apparent confusion,<lb/> it is also
+                    attended at intervals with much solemnity, and on the part of<lb/> many of them,
+                    purely on a religious ground, and from sincere and good<lb/> motives. But, at
+                    the same time, they are willing to acknowledge that<lb/> their worship was not
+                    performed with so much solemnity as their fore-<lb/>fathers practised.</p>
+                <p>Besides their public devotional feasts and sacrifices, the Indians ex-<lb/>ercise
+                    a kind of family worship, at times, when they are sitting together,<lb/>
+                    particularly in the evening. If one of the heads of the family feels an<lb/>
+                    impulse to address the Great Spirit, he, or she, yields to it with an
+                    au-<lb/>dible voice, and this, among the more serious class, is frequently
+                    per-<lb/>formed, though not on any stated days or times. They are sometimes<lb/>
+                    exercised in this way when their friends are with them, and the subject<lb/> of
+                    aspiration is a thanksgiving for the preservation of their particular<lb/>
+                    family or tribe, and for supplying the varied necessaries and comforts<lb/>
+                    <pb n="27" facs="SW_HJ1830_025"/> of life, desiring their continuance; an
+                    evidence, this, that among all<lb/> their superstition and ignorance, they are
+                    not destitute of the divine<lb/> principle operating within them, and raising in
+                    their minds a sense of<lb/> their dependent state, the obligations they are
+                    under to their great pre-<lb/> server and benefactor, and the necessity of
+                    prayer for the continua-<lb/> tion of his blessings and favours.</p>
+                <p>Though much reserved in expression, with regard to abstruse subjects,<lb/> they
+                    nevertheless at times manifest an inquisitive disposition respecting<lb/> the
+                    creation of the world, the formation of man, and whether Indians<lb/> and white
+                    people go to the same place after death, or whether they<lb/> will be all of one
+                    language in a future state.</p>
+                <p>Their funeral rites are observed with great solemnity, and succeeded<lb/> by deep
+                    mourning. Whatever might have been their ancient custom,<lb/> as stated by some
+                    writers with respect to a place of general deposit of<lb/> the bones of their
+                    dead, I find no such tradition among them at the pre-<lb/>sent day. A spot of
+                    ground contiguous to each village is occupied as a<lb/> place of interment, and
+                    each grave has a separate covering of boards,<lb/> or clefts of wood. The corpse
+                    dressed in the best apparel is put into a<lb/> coffin made of boards, when they
+                    can be procured, or otherwise bark<lb/> laid beneath and over it in the grave,
+                    and sometimes a new blanket<lb/> and small kettle is enclosed with it, and
+                    frequently other articles, to<lb/> which the deceased was attached while
+                    living.</p>
+                <p> As they believe in the resurrection of the spirit, and that for some<lb/> time
+                    after death it is common for it to ascend and descend, in order,<lb/> therefore,
+                    to afford it more easy access to its former tabernacle, a hole<lb/> is cut in
+                    both the head of the coffin and the covering of the tomb, the<lb/> ground not
+                    being considered as any obstruction to its entrance or egress.</p>
+                <p>At these mourning processions, the women, who more generally at-<lb/>tend than
+                    the men, and have the task of burial assigned them, give<lb/> every possible
+                    vent to their passions, as also when they return to the<lb/> house of the
+                    deceased, where they indulge in feasting, and extremity of<lb/> grief; and this
+                    is renewed by the female relatives, and neighbours meet-<lb/>ing at the same
+                    house every morning, for nine days, and kept up by<lb/> doleful noises and
+                    lamentable cries, for about the space of half an hour.<lb/> When the days of
+                    mourning are thus ended, they meet together, and<lb/> are consoled to dry up
+                    their tears, from which time they endeavour to<lb/> discard all marks of
+                    lamentation.</p>
+                <p>They relate circumstances that happened formerly, of ancient In-<lb/>dians, who
+                    were disabled from hunting, by infirmity, and becoming tired<lb/> of life, would
+                    request to be buried alive. A grave or hole was then<lb/> dug, in which a seat
+                    was formed in digging, the ancient Indian was then<lb/> let down, and taking his
+                    last seat, the other Indians began to fill in the<lb/> earth, doing it very
+                    gently and tenderly till it had risen to his chin. A<lb/>
+                    <pb n="28" facs="SW_HJ1830_026"/> pause was then made, and some ceremony
+                    used, after which the young<lb/> warriors threw in the dirt very hastily, so as
+                    to prevent their being<lb/> witnesses to his struggles, and to terminate his
+                    sufferings as speedily as<lb/> possible. Happily there exists no such barbarous
+                    custom among them<lb/> at the present day. They are superstitious in the
+                    extreme, with re-<lb/> spect to dreams, and witchcraft, and councils are often
+                    called, on the<lb/> most trifling occurrences of this nature. To elucidate this
+                    - in the win-<lb/>ter of 1799, while one of the Friends was engaged in
+                    instructing the<lb/> children in school learning, a message carne from a
+                    confederate tribe,<lb/> eighty miles distant, stating that one of their little
+                    girls had dreamed<lb/> that “the devil was in all white people alike, and that
+                    they ought not<lb/> to receive instruction from the Quakers, neither was it
+                    right for their<lb/> children to learn to read and write.” In consequence of
+                    this circum-<lb/>stance, a council was called, the matter was deliberated on,
+                    and divers<lb/> of them became so much alarmed, as to prevent their children
+                    from<lb/> attending the school for some time.</p>
+                <p>They are also in the practice of collecting together and making feasts<lb/> in
+                    remembrance of their dead, some months after the interment, under<lb/> an
+                    apprehension that the deceased will receive some benefit thereby.<lb/> And if an
+                    Indian of any particular tribe dreams a remarkable dream,<lb/> respecting a
+                    deceased relative being hungry, or in need of sympathy,<lb/> or assistance in
+                    any way, the Indians of the deceased's particular tribe<lb/> are informed of it,
+                    and a deputation is sent out to hunt. The game<lb/> thus taken, is prepared and
+                    cooked, and a feast and dance in a religious<lb/> way is instituted, which
+                    continues for a day or more, whereby they ap-<lb/>prehend the wants of the
+                    deceased are satisfied.</p>
+                <p>Exclusive of these, they have frequent banquets, in which they re-<lb/>gale
+                    themselves with strong liquors, and pass whole nights in singing,<lb/> dancing,
+                    and music - performing every whimsical and antic manœuvre<lb/> which their wild
+                    imaginations can invent, and which in some instances<lb/> baffles
+                    description.</p>
+                <p>Their marriages are as singularly conducted as their worship, and<lb/> funerals.
+                    They generally marry young, the males frequently between<lb/> fourteen and
+                    eighteen, and the females from twelve to sixteen. The<lb/> match is frequently
+                    agreed upon by the parents, while the children<lb/> are quite young, in which
+                    case they are betrothed without consulting<lb/> each other's choice, or
+                    inclination. When they arrive at maturer age<lb/> before the choice is made, and
+                    a young man has fixed on the female<lb/> he wishes to make his companion, he
+                    acquaints his mother or eldest<lb/> sister, if he has either living, or
+                    otherwise some female relative, of his<lb/> intentions, who imparts his desires
+                    to the mother or sister, or other fe-<lb/>male relative of her with whom he is
+                    enamoured, and this proposal they<lb/> communicate to the young woman.</p>
+                <pb n="29" facs="SW_HJ1830_027"/>
+                <p>It is also common to present her or her father with some kind of<lb/> trinkets or
+                    merchandise to the value of several dollars. If his proposal<lb/> of marriage is
+                    not accepted, a negative is put upon it by returning the<lb/> present, but if,
+                    after some days consideration, it is satisfactory to the<lb/> young woman and
+                    parties concerned, her mother or sister accompanies<lb/> her to the young man's
+                    home, and presents her to him. The mother<lb/> or sister then withdraws, and she
+                    stays with her proposed husband.<lb/> They appear apparently shy of each other,
+                    and now perhaps their in-<lb/>timacy and knowledge of each other's
+                    qualifications are only commenc-<lb/>ing. No ideas of state and grandeur - no
+                    homage of wealth - no pride<lb/> of house or furniture are sought for, on these
+                    occasions. The man<lb/> having signalized himself by feats of hunting, and the
+                    woman by her<lb/> industry in the culture of corn and vegetables, are the
+                    criteria and<lb/> summit to which their wishes aspire. As the season for
+                    planting, tend-<lb/>ing, and gathering corn, procuring firewood, &amp;c. come
+                    on, the female<lb/> connexions of the young woman assist her in the different
+                    operations<lb/> during the first year, at the end of which, without any other
+                    ceremony,<lb/> the nuptial tie is consummated and considered valid and
+                    honourable.<lb/> They sometimes, however, take a shorter way for it, and too
+                    commonly<lb/> part again on small disagreements. Although they appear to be
+                    natu-<lb/>rally lively in their dispositions, and well calculated for social
+                    inter-<lb/>course, yet the different sexes are very jealous, and apparently shy
+                    of<lb/> each other, so that it is rare to see a man and woman, even of the
+                    same<lb/> tribe, conversing together without witnesses. And when a woman
+                    has<lb/> occasion to go from home, it is accounted honourable to take with
+                    her<lb/> one or more children to testify, if needful, that she has been
+                    orderly.<lb/> There are too many proofs, however, that this is only a pretended
+                    shy-<lb/>ness, yet being sanctioned, and established by custom, it is
+                    productive<lb/> of serious evils, by putting a negative on an open, friendly
+                    acquaint-<lb/>ance of the sexes, with each other, the natural tendency whereof
+                    would<lb/> be, the mutual improvement of their minds, and furnish a
+                    knowledge<lb/> of each other's qualifications, which in many instances would
+                    produce<lb/> undesigned and permanent attachments. Whereas they frequently<lb/>
+                    marry without real affection, without a knowledge of each other's
+                    dis-<lb/>positions, and before the judgment is ripe for such a choice; the
+                    con-<lb/>sequence of which is that separations often take place - so that
+                    there<lb/> are many instances among them, of men who have turned off
+                    several<lb/> wives, and of women who have discarded as many husbands. These<lb/>
+                    on both sides marry again (in a clandestine way) to others, and in some<lb/>
+                    instances change back again, and thus what ought to be esteemed the<lb/> most
+                    important connexion in life, is lightly formed and dissolved, and<lb/> shifted
+                    about in a manner unknown among any people rightly civilized.</p>
+                <p>When such separations take place, the mother generally takes the<lb/>
+                    <pb n="30" facs="SW_HJ1830_028"/> children, and I believe their property
+                    also descends by inheritance, in<lb/> the female line of succession.</p>
+                <p>It is said that, formerly, when an Indian of distinction died, his gun,<lb/>
+                    blanket, knife, and other property, not buried with him, were preserved<lb/>
+                    about twelve, and sometimes eighteen months. This delay was occa-<lb/>sioned, in
+                    consequence of an opinion which they entertained, that it was<lb/> not decent or
+                    respectful to bring them into use sooner; they were then<lb/> sent into council,
+                    and held up to public view, the Indians present being<lb/> informed that they
+                    were the goods of such a deceased chief. On the<lb/> articles being thus
+                    severally held up, any of the young men who inclined,<lb/> were at liberty to
+                    advance and snatch them away, till the whole were<lb/> thus distributed, the
+                    relatives of the deceased making no claim in con-<lb/>sequence of connexion.
+                    This custom though grown out of use among<lb/> the <orgName key="seneca"
+                        >Senecas</orgName>, is said still to prevail among some Indian nations, in
+                    the<lb/> southern states.</p>
+                <p>Although they have no regular system of laws by which they are<lb/> governed, and
+                    every man is master in his own family, yet they are more<lb/> or less influenced
+                    by certain principles which conduce to their general<lb/> benefit. They possess
+                    their land in common, and no individual has any<lb/> further security for the
+                    improvement he makes on the land, than what<lb/> custom has established. This,
+                    however, is held inviolable, and no in-<lb/>stance occurred in the course of my
+                    observation, of their encroaching<lb/> on each other's property, without consent
+                    of parties; and if disputes<lb/> at any time happen with respect to the
+                    boundaries of the land they<lb/> wish to cultivate, the interference of the
+                    chiefs settles the difference.</p>
+                <p>The <orgName key="seneca">Seneca nation</orgName> is composed of eight great
+                    families or tribes.<lb/> These are designated by the names of Bear, Wolf, Deer,
+                    Crane, Snipe,<lb/> Beaver, Turtle, and Hawk tribes. Each tribe proposes its own
+                    chiefs,<lb/> and brings forward all other matters in council that particularly
+                    relate<lb/> to their own people. The different tribes have each at least one
+                    Chief<lb/> to represent them in council. The office of chief is not in all cases
+                    in-<lb/>herited in a lineal succession, but they are promoted by the will of
+                    the<lb/> people, and appointed by the united content of the chiefs in
+                    council.<lb/> They have no power further than what their weight of
+                    influence<lb/> gives them. Activity in hunting, wisdom in council, and exploits
+                    in<lb/> war, are high traits in their character, to raise them to this
+                    station;<lb/> and while they continue to hold the good opinion and respect of
+                    the<lb/> nation, they are advised with, and looked up to, in all matters of
+                    diffi-<lb/>culty; but when the good opinion ceases, they lose their influence
+                    in<lb/> council, and are discarded from being actors in public affairs.</p>
+                <p>Excepting some who have private grants and specific annuities from<lb/>
+                    government, their chiefs have no pecuniary advantage above other In-<lb/>dians,
+                    nor in their private capacity are they treated with any dis-<lb/>tinguished mark
+                    of respect.</p>
+                <pb n="31" facs="SW_HJ1830_029"/>
+                <p>The genealogy of each particular tribe is traced, according to their<lb/> degrees
+                    of consanguinity, by the side of the mother. They do not live<lb/> in separate
+                    villages, but are settled promiscuously throughout the <orgName key="seneca"
+                        >Sene-<lb/>ca nation</orgName>. There are also a number of inferior chiefs
+                    appointed at<lb/> each village, who are called upon as counsellors, when
+                    occasions re-<lb/>quire, and no business of importance is transacted without
+                    their privity<lb/> and concurrence.</p>
+                <p>These chiefs are empowered to inculcate good precepts, and encour-<lb/>age the
+                    youth and warriors to sobriety and good actions. And although<lb/> their women
+                    are degraded below the rank they maintain in more civil-<lb/>ized societies, yet
+                    even here they possess considerable influence, in re-<lb/>gulating the conduct
+                    of the men, in various respects. Some of the more<lb/> wise and knowing among
+                    them are frequently admitted into their coun-<lb/>cils, and give their
+                    sentiments publicly on matters of importance.</p>
+                <p>They are very jealous of encroachments on what they esteem their<lb/> rights and
+                    privileges; and offences of this nature have often given rise to<lb/> war
+                    between nations. Such of the captives taken in war as are pre-<lb/>served alive,
+                    are sometimes adopted into families, in the place of rela-<lb/>tives who have
+                    been killed in the war. In such cases they are treated<lb/> kindly: and several
+                    of this description remain among the <orgName key="seneca">Senecas</orgName>,
+                    who<lb/> have intermarried with them, and become so habituated to their
+                    man-<lb/>ners and mode of life, that they show no inclination to leave them.</p>
+                <p>It is said many of the devoted number of captives were formerly<lb/> roasted and
+                    eaten. There was living, since Friends settled among the<lb/>
+                    <orgName key="seneca">Senecas</orgName>, one or two Indians residing on the
+                        <geogName key="alleg">Alleghany river</geogName>, who had<lb/> partaken of
+                    this inhuman feasting; but the custom has long since been<lb/> exploded by this
+                    nation.</p>
+                <p>Though honesty, in a general way, may be reckoned one of their<lb/> signal
+                    virtues, yet instances of stealing sometimes occur.</p>
+                <p>When any discovery is made that would lead to detection of the<lb/> person
+                    committing a theft, complaint is made to the chiefs, who despatch<lb/> a
+                    messenger commanding his appearance forthwith before the council;<lb/> this
+                    mandate he instantly obeys; the charge is then opened to him, and<lb/> if he is
+                    guilty, and confession is made, the property taken is restored,<lb/> if in
+                    being. Every Chief or warrior in council is then at liberty to ex-<lb/>press
+                    what they think, or wish to say, one by one, on the occasion,<lb/> which the
+                    offender is obliged to hear. This is considered a severe pu-<lb/>nishment, but
+                    no other is inflicted. Should the person charged deny<lb/> that he is guilty, he
+                    is considered innocent - for it is remarkable that<lb/> they generally confess
+                    when justly charged, and also that their eyes<lb/> and countenances immediately
+                    betray them. There is no corporeal<lb/> punishment practised among them, except
+                    where the crime is consider-<lb/>ed worthy of death.</p>
+                <pb n="32" facs="SW_HJ1830_030"/>
+                <p>The Indian names are often significant of something in nature, as<lb/>
+                    <persName key="cornp2">Cornplanter</persName>'s name in the Seneca language is
+                    Ky-on-twa-ky; Connu-<lb/>dia signifies a handsome lake, Ogis-quah-tah is dry
+                    musk, Oenda<lb/> means the first ripe corn, Yeang-qwa-haunt, chew-tobacco,
+                    &amp;c. They<lb/> are also frequently named from occurrences that happen near
+                    the time<lb/> of their birth, and their names are occasionally changed in
+                    consequence<lb/> of remarkable circumstances taking place, or of particular
+                    employ-<lb/>ments, or acts of individuals.</p>
+                <p>It is supposed that in a general way the Indians rather exceed white<lb/> people
+                    in longevity, often living, as they imagine, to the age of ninety<lb/> and one
+                    hundred years; but as they keep no written records of births<lb/> or other
+                    occurrences, nor have any regular method of computing time,<lb/> other than by
+                    moons and winters, or the remembrance of remarkable<lb/> events, very few of
+                    their elderly people can give a correct account<lb/> how old they are. There is
+                    now living on the <geogName key="alleg">Alleghany river</geogName> an old<lb/>
+                    woman, who can call her descendants round her to the sixth generation.</p>
+                <p>There was also an Indian living at <placeName key="catta1"
+                        >Cattaraugus</placeName>, in the year 1800,<lb/> who said he was one hundred
+                    and twenty-one years of age. He said<lb/> he had been in <placeName key="phila"
+                        >Philadelphia</placeName> when it was a very small town, and gave<lb/> such
+                    a circumstantial and regular account of his life, as (together with<lb/> his
+                    aged brow and furrowed cheeks,) induced me to credit his relation.</p>
+                <p>The Indians are frequently skilful in the application of simples, as<lb/> also in
+                    the knowledge of the medicinal qualities of divers herbs and<lb/> plants.</p>
+                <p>They, however, practice bleeding on trivial occasions, and when a<lb/> person has
+                    been a considerable time sick, in a lingering condition, and<lb/> the foregoing
+                    applications prove ineffectual to restore him to health, it<lb/> is common for
+                    the friends of the diseased person to collect, and, dressing<lb/> two or more
+                    men with masks and other accoutrements, as in times of<lb/> public worship, they
+                    repair to the habitation of the sick, which they<lb/> go round, rattling and
+                    rubbing the tortoise shell, and whooping in a<lb/> frightful manner.</p>
+                <p>Although this is a known custom, and in time of health gives no<lb/> alarm, yet
+                    on the debilitated Indian, whose fears are awakened by<lb/> knowing what is to
+                    be endured, it has considerable effect. The men<lb/> then enter the house,
+                    continuing the noise and acting every wild con-<lb/>tortion and manœuvre which
+                    their imaginations devise. Sometimes<lb/> they pull the sick person (male or
+                    female,) about the house, dirtying<lb/> them with their black hands, rubbing
+                    their heads and bodies over with<lb/> ashes, and handling the patient in so
+                    rough a manner, that a person<lb/> unacquainted with their custom, might suppose
+                    they were going to kill<lb/> him. After this wild treatment, and having
+                    thoroughly dirtied the<lb/> house with ashes, they withdraw, and leave the nurse
+                    to clean after<lb/> them.</p>
+                <pb n="33" facs="SW_HJ1830_031"/>
+                <p>Absurd as this practice appears, in many cases it is said to have had<lb/> a
+                    beneficial effect, by restoring perspiration, working on the imagina-<lb/>tion,
+                    and rousing the indisposed person to a salutary exertion.</p>
+                <p>Their idea is, that they drive away the evil spirit by this procedure.</p>
+                <p>Their skill in painting and hieroglyphics is somewhat extraordinary.</p>
+                <p>In their travelling excursions, they frequently describe on the bark<lb/> of
+                    trees, by certain emblems or characters which they understand, the<lb/> time
+                    they have been from home, the number of persons in company,<lb/> the ensign of
+                    the tribe they belong to, the course they are going, and<lb/> the number of deer
+                    or other animals they have killed.</p>
+                <p>They are also very ingenious in their idea of the geography of the<lb/> country
+                    with which they are acquainted, and readily trace on a map<lb/> the particular
+                    waters they have traversed, pointing out their bearings<lb/> and courses.</p>
+                <p>Their reckoning of time is by moons and winters, and the length of<lb/> their
+                    journey is computed by the number of days it takes to travel it.</p>
+                <p>They also divide the day into certain parts, such as morning, noon,<lb/> and
+                    evening; and in speaking of the time of day, point to the sun's<lb/> place in
+                    the firmament. In speaking of sun-set, they say, Onah Gagh-<lb/>qua, (the sun is
+                    gone.)</p>
+                <p>Their ideas are very confused with regard to astronomy, and they<lb/> have mean
+                    conceptions of the rotundity of the earth.</p>
+                <p>They cannot conceive that a person travelling in a direct line could<lb/> ever
+                    come back to the same place again, or that men can walk on the<lb/> opposite
+                    side of the globe to them. They, like some of the ancients,<lb/> rather favour
+                    the idea of the earth being an extended plain, and not<lb/> understanding the
+                    principles of gravitation and attraction, they believe<lb/> that if the world
+                    turned round, the water would unquestionably fall<lb/> off from it.</p>
+                <p>Their ancient notion respecting thunder was, and still has considera-<lb/>ble
+                    place among them, that a being whom they call Eno, sent from the<lb/> Great
+                    Spirit, and inhabiting the southern mountains, was in the prac-<lb/>tice of
+                    discharging a short gun which he employed in that way, and<lb/> sometimes
+                    striking the trees to show his great strength and power.<lb/> They supposed him
+                    to live on large snakes and wild beasts, and that he<lb/> was always a friend to
+                    the Indians, though he sometimes killed white<lb/> people.</p>
+                <p>They believe that Eno sends down a stone bolt about one inch in<lb/> diameter,
+                    and seven or eight in length, with which he splits trees, &amp;c.<lb/> and when
+                    they are so fortunate as to procure this bolt, they entertain<lb/> an opinion
+                    that constant success will attend all their undertakings while<lb/> they possess
+                    it. They also believe that fire taken from a tree burning<lb/> by lightning and
+                    kindled in their houses, is an antidote against fatal <lb/>5 <pb n="34"
+                        facs="SW_HJ1830_032"/> disorders. This they keep burning for a certain
+                    time, and then ex-<lb/>tinguish it, and kindle another fire in it, stead. In
+                    times of drought,<lb/> they frequently go to a tree that has been lately struck
+                    with lightning,<lb/> and kindle a fire at the root, in the smoke whereof
+                    ascending, they of-<lb/>fer up a petition to Eno, praying him to send rain; and
+                    circumstances<lb/> of this ort frequently occur a little previous to rain
+                    coming, which<lb/> greatly tends to keep up this superstitious idea among them.
+                    These<lb/> notions, however, are rather declining among the <orgName
+                        key="seneca">Senecas</orgName>.</p>
+                <p>These Indians, in general, (their young people excepted,) were un-<lb/>happily
+                    the victims of great intemperance, when they could obtain<lb/> strong liquors;
+                    and most of the evils that afflict them might be traced<lb/> to that source.
+                    This article of strong drink was sometimes carried<lb/> among them by white
+                    traders, who also furnished them with abundance<lb/> of silver trinkets, beads,
+                    and the like ornaments adapted to their taste.</p>
+                <p>The Indian themselves were also in the practice of trading to the<lb/> frontier
+                    settlements of white people, and exchanging their skins, furs,<lb/> and other
+                    merchandise, for liquor, which they often brought home to<lb/> their villages,
+                    and sold out by retail. This kept many of them conti-<lb/>nually in a state of
+                    intoxication, while they could obtain the liquor,<lb/> and many scenes of human
+                    wretchedness were the fatal consequences<lb/> thus produced. Their aged women,
+                    in particular, were conspicuous<lb/> sufferers by this evil, and were often seen
+                    lying beside the paths, over-<lb/>come by it.</p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

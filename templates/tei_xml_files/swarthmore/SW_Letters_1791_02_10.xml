@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Cornplanter to Quakers: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Mary Olesnavich</name>
+                </respStmt>
+            </titleStmt>
+            <extent>ca.8 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2015</date>
+                <idno type="local">SW_Leters_1791_02_10</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Miscellaneous Manuscripts</collection>
+                        <idno>Misc Mss 1791_02_10</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>1 p.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This letter is part of a larger collection of miscellaneous correspondence and is
+                    housed at Friends Historical Library, on the campus of Swarthmore College. </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in 1791<date/></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Cornplanter, Seneca chief (1732?-1836)</item>
+                        <item>Seneca Indians</item>
+                        <item>Society of Friends - New York (State)</item>
+                        <item>Society of Friends -- Missions</item>
+                        <item>Indians of North America -- Missions</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>PCO edits,<date>2015</date></item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter">
+            
+                <pb n="1" facs="SW_Letters_1791_02_10_Page_1"/>
+                <opener><salute> To the children of the Friends of <persName key="wpenn1"> Onas
+                        </persName> who first set- <lb/>led in Pennsylvania -- The request of the
+                            <persName key="cornp2">Cornplanter</persName> a <lb/> chief of the
+                            <orgName key="seneca">Seneca</orgName> nation <lb/>
+                    Brothers,</salute></opener>
+                <p> The <orgName key="seneca"> Seneca </orgName> nation see that the Great spirit
+                    <lb/> intends that they shall not continue to live by hunting, <lb/> and they
+                    look round on every side, and enquire who it <lb/> is that shall teach them what
+                    is best for them to do. <lb/> Your Fathers have dealt fairly and honestly with
+                    <lb/> our Fathers, and they have charged us to remember <lb/> it, and we think
+                    it right to tell you, that we <lb/> wish our children to be taught the same
+                    principes <lb/> by which your fathers were guided in their councils. </p>
+                <p> Brothers, <lb/> We have too little wisdom among us: <lb/> We cannot teach our
+                    children what we perceive their <lb/> situation requires them to know, and we
+                    therefore <lb/> ask you to instruct some of them We wish them to be <lb/>
+                    instructed to read and to write, and such other things <lb/> as you teach your
+                    children; and especially, to teach <lb/> them to love peace. </p>
+                <p> Brothers, <lb/> We desire of you to take under your <lb/> care two <orgName
+                        key="seneca"> Seneca </orgName> boys and teach them as your own; <lb/> and,
+                    in order that they may be satisfied to remain with <lb/> you and be easy in
+                    their minds, that you will take <lb/> with them the son of our Interpreter and
+                    teach him <lb/> also according to his desire.</p>
+                <p>Brothers, <lb/> You know that it is not in our power to <lb/> pay<lb/> <pb n="2" facs="SW_Letters_1791_02_10_Page_2"/>pay you
+                    for the education of these three boys -- and therefore you <lb/>must, if you do this
+                    thing, look up to God for your reward.</p>
+                <p>Brothers,<lb/>You will consider of
+                    this request, and let us <lb/>know what you determine to do. If your hearts <lb/>are
+                    enclined toward us, and you will afford our nation <lb/>this great advantage, I will
+                    send my son as one of the <lb/>boys to receive your instruction, and at the time
+                    which <lb/>you shall appoint.</p>
+                <closer>His <signed>Corn Planter</signed> mark <lb/>
+                    Signed <dateline><date when="1791-02-10">February 10, 1791</date><placeName
+                            key="cornp" type="unattested"/></dateline><lb/>in the presence of
+                    us<lb/><persName key="jnich1">Jos. Nicholson</persName></closer>
+
+            </div>
+        </body>
+    </text>
+</TEI>

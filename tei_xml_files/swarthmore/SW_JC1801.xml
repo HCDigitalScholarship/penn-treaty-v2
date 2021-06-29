@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model hkey="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model hkey="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" hkey="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" hkey="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?> 
+<?xml-stylesheet type="text/css" hkey="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Joseph Clark's Of a second Visit to the Indian Country, 1801: Electronic
+                    Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Conor Heins</name>
+                </respStmt>
+
+
+            </titleStmt>
+            <extent>ca. 17 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2014</date>
+                <idno type="local">SW_JC1801</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: Electronic
+                    Version</title>
+            </seriesStmt>
+            <sourceDesc>
+                <biblStruct>
+                    <analytic>
+                        <author>Joseph Clark </author>
+                        <title> Of a second Visit to the Indian Country</title>
+                    </analytic>
+                    <monogr>
+                        <title level="j">Friends Miscellany</title>
+                        <imprint>
+                            <biblScope unit="volume">3</biblScope>
+                            <biblScope unit="issue">1</biblScope>
+                            <date when="1832">1832:</date>
+                            <biblScope unit="page" from="83" to="89">83-89</biblScope>
+                        </imprint>
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <projectDesc>
+                <p>In the fall semester of 2010, Swarthmore students enrolled in English 50A
+                    (“Reading Red, White, and In-Between in Early American Literature”) transcribed
+                    a number of journals, both published and in manuscript form, which document the
+                    interaction of Quakers and Native Americans. In 2014 a decision was made to
+                    encode these and other journals as part of a larger project to make the
+                    library’s rich store of Quaker Indian mission writings more accessible. The
+                    project was designed by Christopher Densmore, Curator of Friends Historical
+                    Library.</p>
+            </projectDesc>
+
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in <date when="1801">1801</date></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="lcsh">
+                    <list>
+                        <item>Quakers</item>
+
+
+                        <item>Indian reservations</item>
+                        <item>Indians of North America--Missions</item>
+                        <item>New York (State)--Description and travel</item>
+                        <item>Pennsylvania--Description and travel</item>
+
+                        <item>Philadelphia Yearly Meeting of the Religious Society of Friends</item>
+                        <item>Quakers--Pennsylvania--Diaries</item>
+                        <item>Quakers--Political activity</item>
+                        <item>Seneca Indians</item>
+                        <item>Society of Friends--Missions</item>
+                        <item>Voyages and Travels</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <change><date/></change>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+
+            <pb n="83" facs="SW_JC1801_Page_1"/>
+            <div type="preface">
+                <p> In the first volume of Friends' Miscellany, was<lb/> published an Account of a
+                    Journey to the Indian<lb/> settlements, for the purpose of bringing some of
+                    the<lb/> young female natives to receive an education among<lb/> Friends, near
+                        <placeName key="phila">Philadelphia</placeName>. It will be
+                    recollected,<lb/> that six Indian girls were committed to the care of<lb/>
+                    <persName key="jclar1">Joseph Clark</persName> for this purpose, and that they
+                    were<lb/> placed with divers friends in Chester county and<lb/> parts adjacent,
+                    where they remained for some length<lb/> of time, in learning the arts of
+                    domestic economy,<lb/> and acquiring the habits of civilized life. At
+                    suit-<lb/>able opportunities, and with persons from their own<lb/>
+                    neighbourhoods in the Indian country, three of them<lb/> were conveyed home; the
+                    other three remained with<lb/> Friends till the year 1801, being about four
+                    years.<lb/> It was then proposed that <persName key="jclar1">Joseph
+                        Clark</persName> should re-<lb/>turn with them, in order that they might be
+                    safely<lb/> conducted to their respective habitations, parents,<lb/> relatives
+                    and friends. Joseph cordially acceded to<lb/> this proposal, and cheerfully
+                    undertook the journey,<lb/> as feeling not only a warm interest in the
+                    Indian<lb/> natives, but under some obligation, on account of<lb/> the
+                    confidence reposed in him by the parents when<lb/>
+                    <pb n="84" facs="SW_JC1801_Page_2"/> they committed their daughters to his care.
+                    Of this<lb/> journey, he gives the following narrative. </p>
+            </div>
+        </front>
+
+        <body>
+            <div type="narrative">
+                <dateline><date when="1801"/><placeName key="stock"></placeName></dateline>
+
+                <p> Upon our arrival at New York, we received<lb/> every mark of attention that was
+                    necessary. As I<lb/> was alone with the Indian girls, Friends expressed<lb/>
+                    great concern for me; and we were conducted to a<lb/> friend's house which
+                    proved <quote type="biblical">as a brook by the<lb/> way</quote>, both temporally
+                    and spiritually. It being<lb/> first-day, we attended meetings both forenoon
+                    and<lb/> afternoon.</p>
+                <p> Next morning, our beloved friends here furnish-<lb/>ed us with a carriage and
+                    horses, to carry us as far<lb/> as <placeName key="alban">Albany</placeName>;
+                    with a letter of recommendation to a<lb/> particular friend there, who, on our
+                    arrival, received<lb/> us with open arms, and procured a carriage with a<lb/>
+                    sober driver, that conveyed us safely to the Indian<lb/> country.</p>
+                <p> On my arrival at <placeName key="stock">Stockbridge</placeName> and
+                    delivering up<lb/> the girls, I could discover no less joy manifested by<lb/>
+                    the whole <orgName key="stockbridge">nation</orgName>, than by their parents. In
+                    a day<lb/> or two, a council was called. It was held in a large<lb/> room, at
+                    the house of one of the chiefs. Three<lb/> great trunks of trees were brought
+                    in, and laid on<lb/> the floor apart for the women to sit on. On one<lb/> side
+                    was a two armed chair, constructed by the na-<lb/>tives, in which sat the
+                    sachem; the interpreter sat<lb/> next, and myself was seated next him; while
+                    the<lb/> chiefs occupied a seat opposite the women, the latter<lb/> sitting in a
+                    leaning posture, with their eyes fixed on<lb/> the ground, the lids of which
+                    appeared not to move.<lb/> A solemn silence ensued;—when He who <quote
+                        type="biblical">meted<lb/> out the heavens with a span</quote>, seemed to
+                    preside<lb/> over the whole assembly: and I can safely say, the<lb/>
+                    <pb n="85" facs="SW_JC1801_Page_3"/> impressions of that solemnity have never
+                    departed<lb/> from me.</p>
+                <p> After some time, I arose in much humility, and<lb/> informed them that it was
+                    neither curiosity, ease,<lb/> nor interest, that induced me to leave my
+                    habita-<lb/>tion; but that their children whom they delivered<lb/> to me four
+                    years ago, might be safely returned to<lb/> them, with their qualifications and
+                    improvements.<lb/> And as the great and good Spirit had preserved<lb/> them from
+                    various evils, so I hoped they would con-<lb/>tinue to do well; with more to
+                    that import.</p>
+                <p> A solemn pause ensued: then some low words<lb/> were spoken by the chiefs, and
+                    lower whispers<lb/> among the women. A pause then followed; after<lb/> which the
+                    interpreter stood up, and turning towards<lb/> me, spoke to this import;—<said
+                        who="undetermined">Brother, attend. We<lb/> rejoice to see you come by the
+                        side of our fire-place;<lb/> and that our girls have been preserved from
+                        various<lb/> dangers; also, that you have been preserved while<lb/> walking
+                        all along the long path;—and we know that<lb/> all you do is out of love to
+                        us poor Indians.</said></p>
+                <p> It is proper to remark, that each girl had a Bible<lb/> and other religious
+                    books, in which they could read;<lb/> also, a spinning wheel, with abundance of
+                    clothes of<lb/> their own making.</p>
+                <p> Our friend <persName key="jdean1">John Dean</persName>, his wife and son,
+                    reside<lb/> at this place, under patronage of the Indian com-<lb/>mittee of New
+                    York Yearly Meeting. On first-day,<lb/> I sat with this family in a meeting
+                    capacity, which,<lb/> is their usual practice. When our meeting ended,<lb/> I
+                    went with <persName key="jdean1">J. Dean</persName> to the Indians' place of
+                    worship;<lb/> where the ceremonies of a funeral were about to be<lb/>
+                    solemnized. The coffin was placed about twenty<lb/> yards from the house, while
+                    the congregation re-<lb/><pb n="86" facs="SW_JC1801_Page_4"/> mained within. One
+                    of the Indians named <persName key="dfowl1">David<lb/> Fowler</persName>
+                    appeared in supplication: after which, the<lb/> whole assembly sung an hymn in
+                    the English lan-<lb/>guage, two lines of which were,</p>
+                <p>
+                    <quote type="hymn">Lord, make our souls ascend on high,<lb/> Where neither gold
+                        nor pearls can fly.</quote></p>
+                <p> Next day I paid a visit to <persName key="dfowl1">David Fowler</persName>.
+                    Upon<lb/> entering the house, my attention was first attracted<lb/> to a shelf,
+                    containing Cruden's Concordance and a<lb/> large folio Bible; the latter was in
+                    the Indian lan-<lb/>guage. This person is a man of exemplary
+                    life,—<lb/>interested for the progress of knowledge among his<lb/> brethren, and
+                    has devoted some time to the instruc-<lb/>tion of their children. He also
+                    possesses an exten-<lb/>sive acquaintance with plants, as to their
+                    qualities<lb/> and medicinal virtues.</p>
+                <p> I also visited <persName key="jcros1">John Crossly</persName>'s family, where
+                    were<lb/> a number of children; and notwithstanding I was so<lb/> great a
+                    stranger, they manifested no surprise or cu-<lb/>riosity, but appeared to be
+                    entirely engaged at their<lb/> books. This I considered an example to those
+                    in<lb/> civilized life, and what is called refined education.</p>
+                <p> I now took leave of my Indian brethren at <placeName key="stock"
+                        >Stock-<lb/>bridge</placeName>, informing them that I was going among
+                    my<lb/> friends;—and were it a thousand miles off, their<lb/> house was my
+                    house,—their table, my table,—and<lb/> their bed, my bed. At which they gave a
+                    loud sigh.</p>
+                <p> Set out with <persName key="jdean1">John Dean</persName>, and passed through the<lb/>
+                    <orgName key="tuscarora">Tuscarora nation</orgName> to <orgName key="oneida"
+                        >Oneida</orgName>; where I was conducted<lb/> to the house of <persName
+                            key="jsken1">John Scanacloe</persName>, the chief of that na-<lb/>tion.
+                    Immediately on my entering, the old man<lb/> shook his ears,—indicating that we
+                    could not under-<lb/>stand each other's language. My mind was cover-<lb/>
+                    <pb n="87" facs="SW_JC1801_Page_5"/> ed with awe, in considering what manner of
+                    persons<lb/> those ought to be who come among this people.</p>
+                <p> In this room were six or seven women, and a<lb/> little babe fixed upon a
+                        <foreign>kelah</foreign> of exquisite workman-<lb/>ship, covered with two
+                    silk handkerchiefs. They<lb/> informed me by their fingers that the age of the
+                    child<lb/> was four weeks and four days. After some time,<lb/> the wife of the
+                    chief spoke a few words; at which,<lb/> all present assumed an air of
+                    seriousness. Then,<lb/> going across the room, the others followed her, and<lb/>
+                    placed themselves three on each side of her. She<lb/> then took down from the
+                    wall, a curious, twisted<lb/> string, of considerable length, containing a
+                    number<lb/> of knots; and to every seventh knot, a piece of red<lb/> wool was
+                    attached. This was her calendar. One<lb/> of the women informed me that every
+                    knot was a<lb/> day, and every red mark was a week; constituting<lb/> the time
+                    since the chiefess had buried a valuable<lb/> daughter. This circumstance was
+                    attended with<lb/> more solemnity than some of our funerals.</p>
+                <p> After recommending the distribution of the pre-<lb/>sents I had in charge; and
+                    through favour, all things<lb/> appearing to harmonize,—a proposition was
+                    made<lb/> to smoke,—a practice in high esteem among the<lb/> Indians: but I not
+                    being accustomed to it, did not<lb/> accept the offer. Whereupon <persName
+                        key="jsken1">John Scanadoe</persName> gave<lb/> me two curious pipes as
+                    presents.</p>
+                <p> I now took leave of my Indian friends and set<lb/> out for <placeName
+                        key="utica">Utica</placeName>, accompanied by <persName key="jdean1">John
+                        Dean</persName>. On our<lb/> arrival there, we called at the house of a
+                    lawyer,<lb/> where <persName key="gcros2">Grace</persName>, the daughter of John
+                    Crossly, resi-<lb/>ded. I requested of my companion, that he would<lb/> make
+                    choice of some retired house for a lodging;<lb/> my mind being disposed for
+                    silence and meditation,<lb/>
+                    <pb n="88" facs="SW_JC1801_Page_6"/> in reflecting on the favourable
+                    opportunities we had<lb/> had among the Indians. But, contrary to my
+                    re-<lb/>quest, at least in appearance,—he rode up to the<lb/> greatest house in
+                    the place, occupied by a person<lb/> whose name was Walker, and who highly
+                    approba-<lb/>ted the labours of Friends among the Indians.</p>
+                <p> Being introduced to the family, we sat in a splen-<lb/>did hall, where tea was
+                    served. In the course of<lb/> conversation, I happened to mention some
+                    events<lb/> of my labours among the poor people in New Jer-<lb/>sey, in the
+                    neighbourhood of a furnace, where I had<lb/> distributed some books; and had
+                    been accompanied<lb/> from cottage to cottage by the superintendent's<lb/> wife,
+                    who had an amiable daughter that was married<lb/> to a magistrate of that place,
+                    and had lately been<lb/> received into membership with the Society of<lb/>
+                    Friends.</p>
+                <p> As I was relating this circumstance, Walker's<lb/> wife broke forth into tears;
+                    and, raising her hand-<lb/>kerchief to her face, wept aloud. Her husband
+                    in-<lb/>quired the cause of her emotion; when she patheti-<lb/>cally informed
+                    us, that the persons I had spoken of<lb/> were her mother and sister. It was a
+                    very affecting<lb/> season. A comfortable night's lodging, and an early<lb/>
+                    breakfast prepared us for pursuing our journey; and<lb/> in secret my heart
+                    ejaculated, <quote type="biblical">Return unto thy<lb/> rest, O my soul, for the
+                        Lord hath dealt bountifully<lb/> with thee.</quote></p>
+                <p> The morning was mild and serene, and we pro-<lb/>ceeded down the <geogName
+                        key="mohaw">Mohawk river</geogName> to <placeName key="schen"
+                        >Schenectady</placeName>.<lb/> On the way, stopped to visit some Germans,
+                    and<lb/> distributed some books among them in their own<lb/> language; which
+                    they received with tears of grati-<lb/>tude. Went by the way of <placeName
+                        key="9part1">Nine Partners</placeName>, and at-<lb/><pb n="89"
+                        facs="SW_JC1801_Page_7"/> tended <orgName key="9partqm">Quarterly
+                        meeting</orgName> there. Thence to New<lb/> York, where the <orgName
+                        key="nyymindian">Indian committee</orgName> being assembled,<lb/> I gave
+                    them such information as they required.—<lb/> Then directed my course toward
+                    home, where,<lb/> through continued favour, I arrived and found all<lb/> well.
+                    JOSEPH CLARK </p>
+            </div>
+        </body>
+    </text>
+</TEI>

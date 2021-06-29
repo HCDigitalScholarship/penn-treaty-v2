@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Some Account of Rachel Coope (Journal A): Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Emma Remsberg</name>
+                </respStmt>
+
+                <sponsor>Tri-Co Digital Humanities Initiative</sponsor>
+                <funder>Andrew W. Mellon Foundation</funder>
+            </titleStmt>
+            <extent>ca. KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2014</date>
+                <idno type="local">SW_RC1805a</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Journals (Ms.) Coope</collection>
+                        <idno>MSS003/043</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>35 pp. (1 volume)</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The Rachel Coope manuscript is housed at Friends Historical Library, on the
+                    campus of Swarthmore College. In the fall semester of 2010, Swarthmore students
+                    enrolled in English 50A (“Reading Red, White, and In-Between in Early American
+                    Literature”) transcribed this manuscript as part of a larger project to make the
+                    library’s rich store of Quaker Indian mission writings more accessible. The
+                    project was designed by Christopher Densmore, Curator of Friends Historical
+                    Library, and Keat Murray, Visiting Assistant Professor of English. Student
+                    transcribers included: Miriam Lise Hauser. Transcriptions were compiled and
+                    edited in the present form by Professor Murray. </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases. </p>
+                <p>Journals "a" and "b" represent transcriptions of Rachel Coope’s actual diaries.
+                    Journal "a" her “esteemed parents”; however, her mother died before the letter
+                    was written, and so it may have been meant for her parents­in­law, to whom she
+                    was deeply attached) copied over twice. No version of this letter is included in
+                    journal four. Except for this, the differences were small, such as variance in
+                    phrasing and spelling, and not in content. It seems as though journal "a"
+                    preceded journal "b"; it is less polished. The handwriting seems more rushed and
+                    the paper size varies, while in journal "b", the handwriting is neater, and the
+                    paper used is consistent. It is possible that these, especially journal three,
+                    could have been handwritten by Coope.</p>
+                <p>The author of the original journal does not include page numbers on his
+                    manuscript; the page numbers have been interpolated by the transcribers to
+                    correspond with the manuscript sheets.</p>
+            </editorialDecl>
+
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in <date when="1805">1805</date></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Society of Friends -- Missions</item>
+                        <item>Indians of North America -- Missions</item>
+                        <item>Quakers -- Pennsylvania -- Diaries</item>
+                        <item>Seneca Indians</item>
+                        <item>Philadelphia Yearly Meeting of the Relgious Society of Friends</item>
+                        <item>Voyages and Travels</item>
+                    </list>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="letter">
+                <pb n="1" facs="SW_RC1805a_Page_01"/>
+                <opener>
+                    <dateline><placeName key="tunes">Tunesassah</placeName>
+                        <date when="1804-06">6 mo</date></dateline>
+                    <salute>My dear Parents,</salute></opener>
+                <p>About two weeks<lb/> ago I wrote to you and sent it by an Indi-<lb/>an that was
+                    going to <placeName key="pitts">Pittsburgh</placeName> for<lb/>the things they
+                    Committee has sent<lb/>for us, in which I promised to give a<lb/>more full
+                    account of our Journey by<lb/><persName key="jembr1">Jm. Embree</persName> when
+                    he returned, and<lb/>I feel myself so indebted to Father, as<lb/>renders it
+                    requesite for me to com-<lb/>ply with his request, but on looking<lb/>over the
+                    notes which I have kept,<lb/>seeing how unperfectly they are, it has
+                    al-<lb/>most discouraged my attempting, for<lb/>I cannot concieve they will be
+                    any way<lb/>entertaing, excepting a little bare infor-<lb/>mation, I often feel
+                    myself very defecti[ve]<lb/>in literary knowledge, and my Ideas<lb/>in matters
+                    of Consequence, much con-<lb/>tained, let those whose genius are<lb/>more
+                    bright, have Charity, and ac-<lb/>cept, dear Father, my
+                    communication<lb/>flowing from the Sincerity of the heart<lb/>
+                    <gap/> Mind has felt very much wear<lb/><pb n="2" facs="SW_RC1805a_Page_02"
+                    /><gap/>the Worlds applause, knowing<lb/>
+                    <unclear>that</unclear> it is not human literature, or<lb/>the acquirements of
+                    Man, we are<lb/>to be enriched with, but with the<lb/> blessings of the Poor in
+                    Spirit. I frequent-<lb/>ly look towards my native home, with<lb/>longing desires
+                    to hear from you, not<lb/>having heard a Word from Chester County<lb/>Since we
+                    left there. My dear <persName key="bcoop1">B.</persName> has not<lb/>been very
+                    well since we came here, tho<lb/>mostly keeps about, <persName key="jtayl1"
+                        >Jacob Taylor</persName> often<lb/>charges him to take care of
+                    himself<lb/>until he becomes accustomed to the<lb/>Climate and Water, Cousin and
+                    my-<lb/>self have been bravely. -- The young<lb/>Men had moved into their new
+                    House<lb/>about two weeks before we came, which<lb/>when finished will be a very
+                    comfortable<lb/>one, and a pleasant situation, those<lb/>lately cleared, that it
+                    looks fough about<lb/>here yet, and the Garden &amp;c will not be<lb/> very
+                    productive this season, They have<lb/>two Men hired, one a Carpenter
+                    finish-<lb/>ing the Mill, the other diging or <unclear>mond</unclear><lb/>
+                    <gap/>are kept very busy <unclear>at</unclear><lb/><pb n="3"
+                        facs="SW_RC1805a_Page_03"/>home so far, together with
+                    housewo<gap/><lb/>and sewing for the young Men, indeed <gap/><lb/> was time
+                    for them to have some fema<unclear>les</unclear><lb/>among them, their Situation
+                    was trying<lb/>let those who are favored with all<lb/>convenienceies, and
+                    necessaries of Life<lb/>calmly reflect on the many advantages<lb/>they enjoy,
+                    and the Obligations they are<lb/>under to their gracious benefactors.
+                    I<lb/>Salute you all in near affection, hoping<lb/>to hear from you before long,
+                    and I wish<lb/>to be affectionately remembred to all en<lb/>quiring fnds. &amp;
+                    relations, not forgetting<lb/>GrandMother, in which my husband<lb/>and Cousin
+                    joins. I mentioned it was<lb/>thought letters would come this summer<lb/>on the
+                    state Road, but that communicat<gap/><lb/> will be entirely Stoped in the
+                    Winter<lb/>Season, <persName key="jbark1">Jesse</persName> or <persName
+                        key="abark1">Abner Barker</persName> at <placeName key="pitts"
+                        >Pitts-<lb/>burgh</placeName> will take care to forward letters<lb/>to us. I
+                    hope thou wilt not expose my<lb/>notes, tho have no Objection to some<lb/>of my
+                    near relations seeing them, if<lb/>I get time, I propose makeing out a<lb/>short
+                    draught for Brother Ezra, as<lb/>I intend writing to him. I had
+                        intend<unclear>ed</unclear><lb/><pb n="4" facs="SW_RC1805a_Page_04"/>to have
+                    written to my Brothers and<lb/>Sisters, but could not to all except
+                    com-<lb/>prized in one letter, therefore must post-<lb/>pone it at present, and
+                    perhaps may<lb/>send an answer when they Write to me.<lb/><date
+                        when="1804-06-30">
+                        <emph rend="underline">6 mo</emph> 30</date> when I wrote to the foregoing
+                    I<lb/> expected <persName key="jthom2">J Thomas,</persName> and <persName
+                        key="wembr1">Wm Embree</persName><lb/> would have set off sometime last
+                    week<lb/>but <persName key="jthom2">Jonathan</persName> was desirous to see
+                    the<lb/>Indian return from <placeName key="pitts">Pittsburgh</placeName>,
+                    and<lb/>it is probable he may come to day<lb/>or tomorrow, but <persName
+                        key="wembr1">Wm</persName> being uneasy<lb/><del>being uneasy</del> I expect
+                    they will set<lb/>of early tomorrow Morning whether<lb/>the Indian returns or
+                    not, and I hope<lb/>when he comes, I shall not be disap-<lb/>pointed of hearing
+                    from Chester Coun-<lb/>ty, we are enjoying a pretty good state<lb/>of Health </p>
+                <closer> in near Affection, I remain<lb/> Your Daugher <signed><persName
+                            key="rcoop1">Rachel Coope</persName></signed></closer>
+            </div>
+            <div type="letter">
+                <pb n="5" facs="SW_RC1805a_Page_05"/>
+                <opener><placeName key="tunes">Tenusassa</placeName>
+                    <date when="1804-06-23">6th m 23rd 1804</date><salute>Estemed
+                    Parents</salute></opener>
+
+                <p>About two weeks ago I wrote and sent by an Indi<lb/>an that was going to
+                        <placeName key="pitts">Pittsburg</placeName> for the things that the
+                    com-<lb/>mittee sent for us, in which I promis'd to give a more full<lb/>account
+                    of our journey by <persName key="wembr1">Wm Embree</persName>, and I felt myself
+                    so in<lb/>-debted to father as rendered it requisite for me to comply
+                    with<lb/>his request, but looking over, and seeing how imperfect<del>ly</del>
+                    it<lb/>was, almost discouraged me attempting, for I cannot con<lb/>-cieve it
+                    will be any way entertaining excepting a lit<lb/>-tle bare information. I often
+                    feel myself very defective<lb/>in literary knowledge and my Ideas in matters of
+                    conse<lb/>quence much confined, let those whose genius are more<lb/>brightened
+                    have charity, and accept dear father my com<lb/>munications flowing from the
+                    sincerity of the heart, my <lb/>mind has felt very much wean'd from the worlds applause<lb/>
+                    <pb n="6" facs="SW_RC1805a_Page_06"/>knowing it is not human literature or the
+                    invention of<lb/>man we are to be enriched with but the blessings of the
+                    poor<lb/>in spirit. - I frequently look toward my native home with<lb/>longing
+                    desires to hear from you, having not heard a word<lb/>from chester C since we
+                    left there, my dear <persName key="bcoop1">B</persName> has not<lb/>been very
+                    well since we came here tho mostly keeps<lb/> about <persName key="jtayl1">J
+                        Taylor</persName> often charges him to take care of himself<lb/>till he
+                    becomes a little accostumed to the climate and<lb/> water, I have been bravely,
+                    cousin also. They had moved<lb/>into their new house about two weeks before we
+                    came which<lb/>will be a very comfortable one when it is finished and<lb/>a
+                    pleasant situation tho so lately clear'd that the gardens<lb/> &amp;c will not
+                    be very productive this season. they have<lb/>two men hired one a carpenter
+                    finishing the mill <del>wright</del> and another digging <del>in</del><lb/><pb
+                        n="7" facs="SW_RC1805a_Page_07"/>or mending. The <gap/> that we are kept
+                    very busy at home<lb/>so far, together with housework and sewing for the young
+                    men<lb/>indeed it was time for them to have females among<lb/>them, their
+                    situation was trying, let those who are favourd<lb/> >with all the necessaries
+                    of life calmly reflect on the advantages<lb/> they possess, and the necessity of
+                    rendering thanks to their<lb/>gracious benefactor. I salute you all in near
+                    affection<lb/>hoping to hear from you before long, and wish to be
+                    rem<lb/>embered to all enquiring friends and relations, not<lb/>forgeting dear
+                    Grandmother, in which my husband and<lb/> cousin joins. I mention'd it was that
+                    letter would come<lb/> this summer on the state road that communication
+                    will<lb/>be entirely stoped in the winter <persName key="jbark1"
+                        >Jesse</persName> or <persName key="abark1">Abner Barker</persName>
+                        at<lb/><placeName key="pitts">Pittsburg</placeName> will take care to
+                    forward letters to us I hope thou<lb/>wilt not expose<lb/><pb n="8"
+                        facs="SW_RC1805a_Page_08"/>my history have no objection to some of my near
+                    relations<lb/>seeing it, if I get time shall draw a short draught for B<lb/>Ezra
+                    as I intend writing to him, I had some thoughts of<lb/>writing to my own
+                    brothers and sisters but could not write<lb/>to all excepting compris'd in one,
+                    therefore must post<lb/>pone it at the present and perhaps will send an
+                    answer<lb/>when they write to me. <date when="1804-06-30">6th <emph
+                            rend="underline">mo</emph> 30th</date> When I wrote the foregoing
+                    I<lb/>expected <persName key="jthom2">J Thomas</persName> and <persName
+                        key="wembr1">Wm E</persName> would have set off sometime<lb/>last week but
+                        <persName key="jthom2">Jn.</persName> was desirous waiting till the Indian
+                    returnd<lb/> from <placeName key="pitts">Pittsburg</placeName> it's probable he
+                    may get here today or to<lb/>morrow but <persName key="wembr1">Wm</persName>
+                    being uneasy I believe they will set off<lb/>early tomorrow whether he comes or
+                    no I hope I shall not be<lb/> disappointed when <del>he</del> the Indian comes
+                    of hearing from C. County<lb/>we are enjoying a reasonable state of health </p>
+                <closer>I am in near affection.<lb/>your <del>dutiful</del> daughter
+                            <signed><persName key="rcoop1">R Coope</persName></signed></closer>
+            </div>
+        </front>
+        <body>
+
+
+            <div type="narrative">
+                <pb n="9" facs="SW_RC1805a_Page_09"/>
+                <p>In the fall of the year <date when="1804">1804</date> my dear<lb/>husband and I
+                    inform'd friends of <orgName key="meetbrad">brad-<lb/>ford mo. meeting</orgName>
+                    of a concern that had attend<lb/>ed our minds to go and reside some
+                    time<lb/>with the Indian natives near the <geogName key="alleg">
+                        Alleghany<lb/>River</geogName>, to endeavour to instruct them in<lb/>
+                    agriculture, spinning, dairies, &amp;c; &amp; Obtaining<lb/>the unity and
+                    sympathy of our friends<lb/>at home, also the concurrence of the yearly<lb/>
+                    meeting's <orgName key="pymindian">committee on Indian affairs</orgName>,
+                        <persName key="hjack1">H.<lb/>Jackson</persName> likewise having a minute
+                        from<lb/><orgName key="meetngard">Newgarden mo meeting</orgName> to
+                    accompany us</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-20">5th mo 20th<lb/> 1805</date> 2nd day. <placeName
+                        key="bradf"/></dateline>
+                <p>After a time of comfortable<lb/>quiet, wherein we were in some degree
+                    favour<lb/>ed to feel the overshadowing of divine regard<lb/>to be near a
+                    considerable number of our<lb/>near relations and friends being present,
+                    we<lb/>took leave of them in feeling embraces of<lb/>endearing love, <persName
+                        key="ncoop1">Father Coope</persName> and Brother<lb/>Ezra bearing in company
+                    to M. Embree's<lb/>there bid farewell to dear
+                    <persName key="jembr1">James</persName> and Wife<lb/>and parted with father, a close trial, tears<lb/> flowed in
+                    abundance under a feeling sym'<lb/>pathy for him, and ardent desires
+                    were<lb/>raised in my heart that he might par<lb/>-ticipate of that peace which
+                    is the preci<lb/>ous enjoyment of all the sincere heart<lb/>ed, now in his
+                    lonesome and advanced<lb/>
+                    <pb n="10" facs="SW_RC1805a_Page_10"/>stage of life, Brother continuing with
+                    us<lb/>to <persName key="wtrum1">Wm. Truman's</persName> 11<emph
+                        rend="underline">m</emph>, where we lodged.<lb/>my dear husband and B took
+                    their repose<lb/>in the waggon, Cousin and I more comfort<lb/> ably accommodated
+                    with a good bed, I <del>soon</del><lb/>soon fell asleep, near 3 Oclock
+                        awaking<del>ed</del><lb/>the recollection of the parting season<lb/>
+                    presented and no focibly revived that tears<lb/>flowed from my eyes, &amp; sleep
+                    departed. --<lb/>Thou O my God has at seasons been<lb/>pleased in thy unmerited
+                    goodness to<lb/>make bare thy arm, and in times of trial<lb/>afford sweet
+                    consolation, as patience<lb/> was abode in, under a humble sense<lb/>Thereof may
+                    I a little intercede for a<lb/> renewed continuation of thy love.</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-21">21st.</date> 3rd day . <placeName
+                        key="checkPlace"/></dateline>
+                <p>A fine morning, after a<lb/>smart
+                    shower, taking <del>tooking</del> breakfast parted<lb/>with our brother, and set
+                    of ab. 6, went<lb/>11m to the rising sun tavern, fed our horses<lb/>&amp; took
+                    some refreshment in the waggon,<lb/>then pursuing on travelled 8<emph
+                        rend="underline">m</emph> &amp; stoped<lb/>at <persName key="wbrin1">Wm
+                        Brinton</persName> door <gap/> him nor<lb/>wife not at home, we were
+                    willing<lb/>to go on. but the daughter and <del>gran</del><lb/> grandmother
+                    insisted on our <del>our</del> going in,<lb/> &amp; an excellent dish of coffee
+                    was soon<lb/>prepared, which was grateful to the pa-<lb/> late, then proceeding
+                    on, got to our<lb/><pb n="11" facs="SW_RC1805a_Page_11"/>Brother, G John 4m
+                    about 4 oclock, and<lb/> lodged here <persName key="wembr1">Wm Embree</persName>
+                    met us agree<lb/>ably to appointment.</p>
+            </div>
+
+            <div type="entry">
+                <dateline><date when="1805-05-22">22nd</date> 4th day  <placeName
+                        key="eliza"/></dateline>
+                <p>Breakfasted and set off half<lb/>past
+                    5, Brother and sister going with us<lb/>stop'd at the door of <persName
+                        key="jgibb1">J Gibbons</persName> and bid<lb/>farewell, proceeded to
+                        <placeName key="lanca">Lancaster</placeName> 7<emph rend="underline"
+                        >m</emph><lb/>gave the horses a little feed while we got<lb/>some
+                    necessaries for our journey, set<lb/>off brother going a piece to put us in
+                    the<lb/>right road, 3<emph rend="underline">m</emph> from L crossed <geogName
+                        key="lcone">little con<lb/> nostoga,</geogName> proceeded along being
+                    entire<lb/>strangers. the roads exceedingly badly <del>&amp;</del><lb/>cut in
+                    ugly holes, and very muddy,<lb/>the country beautiful, fine grain
+                    and<lb/>clover, crossed <geogName key="chiqu">big chaques creek,</geogName> a
+                    large<lb/>stream 9<emph rend="underline">m</emph> from L. got some
+                    refresh-<lb/>ment for our selves and horses at<lb/><persName key="cshel1"
+                        >Christian Shellers</persName> Inn keeper 1/4 past 2<lb/>proceeded on our
+                    journey <del>and pursuing</del><lb/> to <placeName key="eliza"
+                        >Elizabethtown</placeName> where we arrived a while<lb/> before sunset
+                        9<emph rend="underline">m</emph>, Lodged at the blackbear<lb/>tavern, the
+                    road continuing bad the land<lb/><emph rend="underline">good</emph> tho more
+                    hilly than nearner L., My atten<lb/>-tion has been so employed in viewing
+                    the<lb/> roads and country that I have scarcely<lb/>had any time for serious
+                    reflection, tho<lb/>have not felt much anxious unpleasant<lb/><pb n="12"
+                        facs="SW_RC1805a_Page_12"/>sensations, nor enjoyed a large portion<lb/>of
+                    that precious consolation that is so<lb/>desirable. O that I may abide in the
+                    pa<lb/>-tience with an eye <unclear>riagle</unclear> to him whose<lb/>fatherly
+                    protection is as a wall around<lb/>those who are sincerely devoted to
+                    serve<lb/>him wherever their lot may be cast</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-23">23rd</date><lb/>5th day. <placeName
+                        key="checkPlace"/></dateline>
+                <p>A fine morn. rose early,
+                    set<lb/> out about 4, crossed <geogName key="conmo">connowaga
+                        moun-<lb/>tains</geogName> and <geogName key="concr">creek,</geogName> the
+                    hills exceedingly<lb/>rocky, the roads rather better near <placeName key="middl"
+                        >Mid<lb/>-dletown,</placeName> some of the land good, forded<lb/>over
+                        <geogName key="sweet">sweet arrow Creek</geogName> a very large<lb/>water,
+                    it ran into the bed of the waggon<lb/>>it was of a considerable wealth, got to
+                        <placeName key="middl">Middle-<lb/>town</placeName> in dauphin County to
+                        breakfast<lb/>8<emph rend="underline">m</emph>, met with <persName
+                        key="rtune1">Richard Tunes</persName> send a few<lb/>lines home. 9 oclock
+                    proceeded on our<lb/>journey Thus a beautiful valley and<lb/>very fertile soil
+                    for several <emph rend="underline">m</emph>, came<lb/>in sight of the river
+                    about 11 oclock, the<lb/>prospect of the country on the right<lb/>hand was soon
+                    after obstructed by a<lb/>large ridge of limestone mountains<lb/>some places the
+                    Rocks were 30 or 40 feet high from the<lb/>surface of the ground and
+                    continued<lb/>till we came near on the bank of the<lb/>river. got in sight of
+                        <placeName key="harrisb">Harrisburg</placeName>about<lb/>1 oclock. 9<emph
+                        rend="underline">m</emph>, stoped under the shade of a tree<lb/><pb n="13"
+                        facs="SW_RC1805a_Page_13"/>bought grass for our horses and took
+                    some<lb/>refreshment in the waggon. 1/2 past 2 on<lb/>proceeded on, crossed a
+                    small creek calld<lb/><persName key="paxto">paxton</persName> over an elegant
+                    stone bridge,<lb/>then pass'd thru <placeName key="harrisb"
+                        >Harrisburg</placeName> a very consi<lb/>derable Town, &amp; beautiful
+                    situation having<lb/>a fine prospect of the river, travelled<lb/>7<emph
+                        rend="underline">m</emph> close on the bank thereof, a distance<lb/>of fine
+                    cultivated land on the right hand<lb/>the river on the left, a great
+                    many<lb/>Locust trees in full bloom on each side<lb/>together with the prospect
+                    of the water<lb/>made it delightful, but after a calm comes<lb/>a storm, crossed
+                    a large stream called <geogName key="fishi">fish<lb/>ing creek</geogName> and
+                    for 3<emph rend="underline">m</emph> it is astonishing, to be<lb/>hold just one
+                    path along the bank of the river and<lb/>great rocks hanging from 400 to 600
+                    feet<lb/>high almost over our head<del>s</del> the roads exceed<lb/>ingly stony
+                    but not dangerous, we crossed <geogName key="stonc">stony<lb/>creek</geogName>
+                    &amp; put in at <persName key="delde1">David Elder's</persName> tavern 10<emph
+                        rend="underline">m</emph><lb/>here we were just at the foot of <geogName
+                        key="bluem">cattatinna<lb/>or blue mountain</geogName>, came round it,
+                    by<lb/>the side of <geogName key="susqu">Susquehanna</geogName> it is computed
+                        <del>by some</del><lb/>to be 600 feet high, I could scarce keep my<lb/>eyes
+                    off it, <del>it looked</del> the prospect was so wonderful </p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-24">24th</date><lb/>6th day  <placeName
+                        key="checkPlace"/></dateline>
+                <p>Set out this morn 20m past<lb/>4,
+                    had a very good road a little up hill and<lb/>down with some spots of cultivated
+                    land<lb/>for about 2<emph rend="underline">m</emph>, then cross'd
+                        <del><gap/></del>
+                    <geogName key="clark">Clarks creek</geogName> and pre<lb/> pared to ascend
+                        <geogName key="petem">peters' mountain,</geogName> the<lb/><pb n="14"
+                        facs="SW_RC1805a_Page_14"/> road good, we were one hour and quarter
+                    going<lb/>over it about a mile up, remarkable to see<lb/>several lively springs
+                    so near the top, after<lb/> we left this mountain we cross'd a large
+                    stream<lb/>of water call>ed <geogName key="powel">powells Creek,</geogName> and
+                    had an ex<lb/>-cellent road to <placeName key="halif">Hallifax</placeName> a
+                    small town 10<emph rend="underline">m</emph>,<lb/>some parts cultivated, the
+                    grain chiefly rye<lb/>some fields of a changeable red, with some clover<lb/>the
+                    soil rather gravelly, and of a reddish co-<lb/>lour. got breakfast at <persName
+                        key="jewig1">John Ewigs</persName> Tavern,<lb/>here we came on the river
+                    again, proceeded<lb/>from H. about 9 &amp; crossed <geogName key="armst"
+                        >armstrong Creek,</geogName><lb/><del>it begining to</del> with some rain we
+                    pass'd along a very<lb/>rough road close on the river at the foot
+                        of<lb/><geogName key="berry">Berry's mountain</geogName>, cross'd
+                        <unclear>wishinisky</unclear><lb/> creek considerably larger than <geogName
+                        key="brand">Brandywine</geogName><lb/>now we began to get among <del>come
+                        upon</del> the pines, a few<lb/> places here and there cultivated, the soil
+                    not<lb/>very productive, poor looking houses, stoped<lb/>by the road side to
+                    regale ourselves and horses<lb/>10<emph rend="underline">m</emph>, set out again
+                    at 2, had a good Road 3<emph rend="underline">m</emph> to<lb/><geogName
+                        key="mahmo">Magantango mountains</geogName>, 1/2 an hour going<lb/>over,
+                    cross'd <geogName key="mahat">Magantango creek</geogName> over a high<lb/>frame
+                    bridge, a large stream. The road<lb/>turning so much east seemed to
+                    surprise<lb/>us, but found it was to go thro a gap <del>between</del><lb/>in
+                    several places between great mountains,<lb/>indeed for many miles there is
+                    very<lb/>little but mountains, got to a dutch<lb/>man's a while before sunset
+                        10<emph rend="underline">m</emph>, and<lb/>lodged. but every thing looked so
+                    dirty<lb/>I knew not what to do. however we<lb/><pb n="15"
+                        facs="SW_RC1805a_Page_15"/>prepared of our own <del>ourselves</del> a
+                    supper, and went to<lb/> bed, but the greatest mortification of all<lb/>was,the
+                    landlady sent two men who were<lb/>travellers to the other bed in our room,<lb/>
+                    our men as usual in the waggon, we<lb/>were very quiet, &amp; rose before
+                    day</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-25">25th</date><lb/>4th day <placeName
+                        key="milto"/></dateline>
+                <p>Set off at 4 had a very
+                    rough<lb/> road between mountains 4<emph rend="underline">m</emph>, came to
+                    the<lb/> reading road at Hioustons tavern, where we<lb/> wished to have gotten
+                    last night, cross'd <unclear>GreenBoror</unclear>
+                    <del><unclear>revals</unclear></del><lb/>&amp; pass'd along thro the woods,
+                    except a<lb/>small cultivated spot where we saw some<lb/>fine wheat growing for
+                    a rarity, came<lb/>on the bank of <geogName key="mahac">Mahaney</geogName> &amp;
+                    went up.<lb/> The ride of it a considerable distance<lb/>between wonderful
+                    mountains, cross'd<lb/>over it, being a very large stream, pro<lb/>ceeded and
+                    came to the <geogName key="mahan">Mahanoy moun<lb/>tain</geogName> 52m going
+                    over. rather different from the others, we<lb/> ascended all so far with leaving
+                    the ridge<lb/>on the left hand, &amp; when on the top made<lb/>a short turn and
+                    went down with the<lb/>ridge on same ride, but this we travelled<lb/> a
+                    considerable distance on the top a<lb/>fence on one side and went down in<lb/>
+                    the form of an X it was amazing to<lb/>see the steepness on the north side<lb/>
+                    stoped 11<emph rend="underline">m</emph> and fed our horses made
+                    some<lb/>chocolate for breakfast, proceeded on 1/2 past 9<lb/><pb n="16"
+                        facs="SW_RC1805a_Page_16"/>had a rough road, cross'd <geogName key="shamo"
+                        >Shamokin C.</geogName> past thro<lb/><placeName key="sunb"
+                        >Sunbury</placeName> the capital of <placeName key="north"
+                        >Northumberland<lb/>County</placeName>. ferryed over the river in 1/2
+                    an<lb/>hour a mile across, fed our horses in <placeName key="north1">North<lb/>
+                        umberland</placeName> town 8<emph rend="underline">m</emph> proceeded along
+                    thro<lb/>rather a barren soil, tho considerably culti<lb/>-vated, cross'd
+                        <geogName key="chill">Chilasquaky C.</geogName> came on the<lb/>bank of the
+                    west branch of <geogName key="susqu">Susquehanna</geogName>,<lb/>the land good,
+                    as also the road, got to<lb/>
+                    <placeName key="milto">Milton</placeName> about 6 a small town 12<emph
+                        rend="underline">m</emph> put up<lb/> at <placeName key="jbrad1">John
+                        Brady's</placeName> tavern, I being very un-<lb/> well took a little
+                    medicine, soaked my<lb/>feet and went to bed before sunset with<lb/>out supper.
+                    cousin being very kind in<lb/>waiting on me, they call'd for their sup<lb/>per.
+                    it being a time of frolicing a great<lb/>many men were there drinking
+                    and<lb/>fighting most of the night, that we<lb/>could not take our usual rest,
+                    indeed<lb/>it did so impress my mind with sorrow<lb/>that I could not refrain
+                    from weeping</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-26">26th</date><lb/>1st day <placeName
+                        key="checkPlace"/></dateline>
+                <p>Set out at 4 travelled
+                    seve<lb/>ral <emph rend="underline">m</emph> on the bank of the river,
+                    good<lb/>road, cool morn. considerable white<lb/>frost, stoped at David Shannon
+                        8<emph rend="underline">m</emph> got a very<lb/>good breakfast and grain for
+                    the horses,<lb/>as soon as I went into the house I dis<lb/>cover'd somthing
+                    ailed the landlord, he<lb/>he made such heavy moans, and query'd<lb/>
+                    <pb n="17" facs="SW_RC1805a_Page_17"/>what was the matter, he said he had got
+                    about<lb/>building, and thought so much, that he had got<lb/>low in his mind. I
+                    told him he had a fine barn<lb/>a good looking place and materials ready<lb/>for
+                    building his house, and had no cause<lb/>to be discouraged, he said he had been
+                    a hard<lb/>working industrious man and <del>had been help</del> helped
+                    thro<lb/>many difficulties by the hand of providen<lb/>ce but all was nothing to
+                    him now, we told<lb/>him that hand that had helped would yet, if<lb/>we did but
+                    trust. he said he had strived all he<lb/> could but could not help it. if he was
+                    as he<lb/>once was and saw one of us so, he would have<lb/>thought we might help
+                    it, but we knew not<lb/>till we were tried. he seemed very sensible<lb/>of his
+                    situation and possess'd of tender feelings</p>
+                <p>Indeed I felt a near sympathy for him<lb/>and it revived a stronger impression on
+                    my Mind of our<lb/>own weakness than I almost ever felt before<lb/>unless aided
+                    by a power superior to our own.<lb/>half past 8 proceeded, passed thro a
+                    small<lb/>village, crossed <geogName key="muncr">muncey C.,</geogName> &amp; got
+                    to <persName key="welli1">Wm Ellis's</persName><lb/> half past 12. 10<emph
+                        rend="underline">m</emph> they were gone to meeting<lb/>it seemed pleasant
+                    to get amongst friends<lb/>having scarcely now the sight of one since
+                    we<lb/>left <placeName key="lanca">Lancaster.</placeName> This afternoon wrote
+                    home, in<lb/>the evening the family was collected <unclear>Mrs</unclear><lb/>
+                    Ellis just read several chapters in the testamen<lb/><pb n="18"
+                        facs="SW_RC1805a_Page_18"/> wherein a comfortable time of silence
+                    was<lb/>witnessed to prevail.</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-27">27th</date><lb/>2nd day <placeName
+                        key="willi1"/></dateline>
+                <p>This morning washed some
+                    clothes<lb/> 3 oclock PM set out on our journey, had<lb/>a good road chiefly
+                    thro the woods, crossd<lb/><geogName key="loyac">Loyalsock C.</geogName> a very
+                    large water, got to<lb/>
+                    <placeName key="willi1">Williamsport</placeName> the capital of <placeName
+                        key="lycom1">Lycoming C.</placeName><lb/>7<unclear>h</unclear> 12<emph
+                        rend="underline">m</emph> put up at <persName key="jwint1">James
+                        Winter</persName> (<persName key="welli1">Wm<lb/> Ellis</persName> being
+                    there on business) <del>where</del> we were<lb/>comfortably accommodated,</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-28">28th</date><lb/>3rd day <placeName
+                        key="checkPlace"/></dateline>
+                <p>Started this morn a little
+                    after<lb/>4 went about 1m 1/2 stoped at a house to buy<lb/>grain for the horses,
+                    hearing that we could<lb/>not get any further on. while the men<lb/> were
+                    employ'd cousin and I stoped in<lb/> to a little house by the road side where we
+                    met<lb/>with some who formerly lived in C. County<lb/>Baileys by name, who
+                    invited us to eat<lb/>breakfast we accepting of their kindness,<lb/> proceeded
+                    on, cross'd <geogName key="lycom">Lycoming C.</geogName>very large<lb/> pass'd
+                    thro a small village, called <placeName key="newb1">newberry.</placeName>
+                    then<lb/> ascended the hill, and went thro a
+                        <del>moun</del><lb/><del>tainous</del> wilderness country very mountainous
+                        5<emph rend="underline">m</emph> to one Brooke,<lb/> fed the horses, the men
+                    took their breakfast<lb/>of a cup of milk and some rye bread, half<lb/>past 9.
+                    set out again, a very rough road,<lb/>6<emph rend="underline">m</emph> to the
+                    foot of the <geogName key="allmo">Alleghany Mountain,</geogName><lb/><pb n="19"
+                        facs="SW_RC1805a_Page_19"/>fed the horses, and had a rock for a table,
+                    some<lb/>of the waggon store together with excellent water<lb/>that issued from
+                    toward the top of the <emph rend="underline">m</emph>
+                    <del>servd</del><lb/>served to refresh the weary travellers, but mo
+                    peace<lb/>for them nor the horses because of the little knats.<lb/> half past 1
+                    pursuing on, the road being excessive<lb/>stony computed to be 6<emph
+                        rend="underline">m</emph> 1/2 over, 3 hour 3/4 going,<lb/>put up at
+                        <persName key="jkook1">Kookens</persName> just at the foot, where<lb/>were
+                    some of the tallest hemlocks pines, &amp;c that<lb/>I ever saw.</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-29">29th</date><lb/>4th day <placeName key="checkPlace"/></dateline>
+                <p>Set out this morn 1/4 past 4
+                    af-<lb/> ter passing a hill, had a very rough swampy<lb/>road along a valley
+                    between great mountains<lb/>Thro <del><unclear>wash</unclear></del> a thicket of
+                    amazeing tall trees of<lb/>different kinds, it being cloudy seemed at<lb/>most
+                    dark. cousin and I preparing our<lb/>selves with staffs set out on foot, while
+                    we<lb/>were traveling <del>pursuing</del> along before the waggon we heard<lb/>a
+                        <del>&amp;</del> noise, &amp; looking round to see what was the<lb/>matter,
+                    beheld, as the waggon was going down<lb/>a very steep &amp; excessive muddy
+                    place a Feather <del>the</del> bed<lb/>pitched out before, and was conveyed
+                    under<lb/>the waggon in the mud, and a bottle of milk,<lb/> which we had
+                    purchased for breakfast, &amp; was<lb/> pushed in the blanket that tied it, got
+                    out<lb/>without any damage. however we took of<lb/>the blanket, got a sheet and
+                    tied it up<lb/>again, &amp; proceeding along crossed a lively<lb/>stream of
+                    water which followed the<lb/><pb n="20" facs="SW_RC1805a_Page_20"/> the road
+                        <del>backward and forward</del> for several<lb/><emph rend="underline"
+                        >m</emph> after crossing it a great many times, and<lb/>coming to it again I
+                        percieved<del>g</del> a tree<lb/>across a little down, which appeared
+                    about<lb/>two yards high from the water &amp; attempting it<lb/>for a bridge.
+                    when near the middle it swagging my<lb/> foot slipping, in I went not much
+                    over<lb/>shoe tops and was forced to wade thro. altho we had not travelled a
+                    great<lb/> distance this morn. but it was difficult<lb/> geting along and my
+                    feet being wet, con<lb/> cluded to make a fire <del>and</del> get
+                    breakfast<lb/>and feed the horses, we then proceeded, continuing<lb/>thro the
+                    wilderness, we came to <geogName key="pinec">pine C.</geogName> cross'd<lb/> it
+                    13. times in about 5 or 6<emph rend="underline">m</emph> got to
+                    Morris's<lb/>Mills about 12 oclock 12 1/2<emph rend="underline">m</emph> from
+                    where we<lb/>lodged, we met with <persName key="fking1">Francis Kings</persName>
+                    daughter when <del>was</del> at <persName key="welli1">Wm Ellis</persName>
+                    <lb/>and she told us we could not get thro the wil<lb/>derness with the waggon,
+                    and also the man<lb/>that lives here said the name which
+                    seemed<lb/>discourageing, got dinner, set off half past<lb/>2, cousin and I
+                    travelling on foot having a moun<lb/>tain to ascend got a great distance.
+                    before<lb/>the waggon, we stoped at one Jackson's till<lb/>the men come <del>who
+                        were</del> the people seemed glad<lb/>to see us tho no acquaintance,
+                        <del>the</del> woman said she<lb/>was pleased to see us so chearful, but
+                    her<lb/>husband, said it would take us six weeks<lb/> to get there with the
+                    waggon, but told<lb/><pb n="21" facs="SW_RC1805a_Page_21"/>us to call at
+                        <persName key="mwils1">Moses Wilson's</persName> and get his Sons<lb/>to
+                    assist, we proceeded along &amp; crossd <geogName key="pinec">pine C</geogName>
+                    at<lb/>the second fork, stoped a few minutes to see<lb/><persName key="sbabs1"
+                        >Sampson Babs</persName>. got to <persName key="jyarn1">James
+                        Yarnall's</persName> 6<emph rend="underline">m</emph>,<lb/>I suppose a
+                    relation, his father's name was<lb/> Daniel, from toward Midn, a while
+                    before<lb/>sunset and lodged- </p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-30">30th</date><lb/>5th day <placeName key="checkPlace"/></dateline>
+                <p>Set out at 5 oclock
+                    purposing<lb/> to breakfast at <persName key="mwils1">Moses Wilson</persName>,
+                    being informd<lb/> it was 5<emph rend="underline">m</emph> and the first house,
+                    but <del>beheld</del>, when<lb/>we came to it the house was empty, and
+                    nobody<lb/>to enquire of, however we being a great way<lb/>before the waggon,
+                    and cold, made bold to<lb/>open the door and go in, where we found<lb/>fire, put
+                    it <del>up</del> together and sat half an<lb/>hour warming ourselves till the
+                    waggon<lb/>came; after conferring together a while conclud<lb/>-ed to go on at a
+                    venture, <del>as</del> we having expected to<lb/>get some information of the
+                    road at <persName key="mwils1">M Wilson</persName>, but<lb/>by a draught <del>of
+                        the road</del> which our kind<lb/>friend <persName key="tstew1">T
+                        Stewardson</persName> had given us, knew we<lb/>left the state road, shortly
+                    after pursuing 1/2<lb/>
+                    <emph rend="underline">m</emph> came to a fork, takeing the left hand<lb/>road
+                    went on a piece (looking every way<lb/>for a house) thro the woods,
+                        <del>over</del> being excessive<lb/><pb n="22" facs="SW_RC1805a_Page_22"
+                    />swampy we came to another fork, then stoped<lb/>being quite at a loss; after
+                    going along<lb/>on foot both roads a considerable distance found<lb/><persName
+                        key="mwils1">M Wilsons,</persName> but it was out of the way to<lb/>go to
+                    his house and a very bad road; thought <del>thot</del><lb/>best to go 1m further
+                    on to <persName key="jidin1">James Idings</persName><lb/>to breakfast it being
+                    near the road, M and<lb/>his wife coming over there, I thought it strange to
+                    see<lb/> such good looking friends settled in the<lb/>wilderness, and no remote
+                    from meeting<lb/>and surprising to see M Idings in such<lb/>a little cabbin,
+                    however we spent an <del>the</del><lb/><del>time</del> hour or two very
+                    agreeably, excepting the<lb/>bad accounts of the road<del>s</del> M Wilson
+                    telling<lb/>we might with difficulty get the waggon<lb/>10 or 15<emph
+                        rend="underline">m</emph> further and one of his Sons<lb/>might go with us
+                    to the next house <del>whi</del><lb/>which was 80<emph rend="underline"
+                    >m</emph>, 11 o clock we set off, cousin<lb/>and I going before giving warning
+                    of<lb/>the bad places, <persName key="mwils2">M Wilson Jr</persName> and
+                        <persName key="bcoop1">Ben<lb/>-jamin</persName> holding the hindpart of
+                    the<lb/>waggon, the banks so steep and
+                    <del><unclear>sidling</unclear></del><lb/>that one would think it impossible
+                    to<lb/>get along without oversetting; <del>cossing</del><lb/>
+                    <del>as</del>
+                    <del>crossing</del> we crossed an <del>the pine</del> another another large
+                    branch of the <geogName key="pinec">pine<lb/>C,</geogName> &amp; after
+                    travelling a piece got stoped<lb/> by the trees that were across the<lb/><pb
+                        n="23" facs="SW_RC1805a_Page_23"/>road, our 3 men with the assistance
+                    of<lb/> two more got the axes to work it being<lb/>about 1/4m to Boatmans which
+                    took near two<lb/>hours to get the waggon up where we must<lb/>leave it, we
+                    endeavoured to persuade<lb/>some of them to go with us and help to open
+                    the<lb/>road, but there being but two families and no <del>neig</del><lb/>
+                    neighbours near, &amp; they very busy planting<lb/>corn and out of provision, no
+                    mill with<lb/>in 20<emph rend="underline">m</emph>, the woman said she could
+                    let<lb/>us have plenty of milk and butter but<lb/>had nothing else excepting a
+                    little fresh<lb/>venison which was <del>being</del> a very good relish with
+                    out<lb/>coffee; having <del>just</del> got our dinner, we then set to
+                    unload<lb/>-ing our waggon and packing having two mens<lb/>saddles along welaped
+                    one bed up in the wag<lb/>gon cover and tied on one horse sewed<lb/>up a sheet
+                    for a sack filled it and a <lb/>bag we had along with clothing a load
+                    for<lb/>another, allowing the provision for selves<lb/> and horses for the
+                    other, night coming on<lb/>we got supper put some bread to rise and<lb/>went to
+                    bed </p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-05-31">31st</date><lb/>6th day <placeName key="checkPlace"/></dateline>
+                <p>A clear cold morning very<lb/>
+                    white frost some clothes I washed last<lb/>night being froze stiff, baked bread,
+                    got<lb/>breakfast, <del>and</del> our horses Loaded, &amp; set<lb/>out on our
+                    journey pretty chearful<lb/><pb n="24" facs="SW_RC1805a_Page_24"/>9 oclock
+                    having left one bed, our trunks, &amp;c<lb/> behind, hoping to get them some
+                    time<lb/>this summer, after crossing <geogName key="pinec">pine
+                    C,</geogName><lb/> the land lady pushed cousin and I over in a canoe<lb/>
+                    travelled till near 1 thro the wilderness<lb/>up the <geogName key="pinec">pine
+                        C</geogName>being fine grass for the<lb/>horses where we let them partake
+                    while<lb/>we got dinner, 2 journeyed on till 1/2<lb/>past 6 then prepared to
+                    take our rest<lb/>in the woods, put up some forks and<lb/>spread the waggon
+                    cover over, after mak<lb/>ing some chocolate went to bed but I<lb/>could not
+                    sleep much, we came by the<lb/>marks on the trees 15<emph rend="underline"
+                        >m</emph></p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-01">6th <emph rend="underline">m</emph> 1st</date><lb/>7th
+                    day <placeName key="checkPlace"/></dateline>
+                <p>A clear cool morn. 5 oclock<lb/>set out again, travelled till 8 then
+                    stopd<lb/> and got breakfast, almost impossible<lb/>to tell how often we crossed
+                        <geogName key="pinec">pine C</geogName> 1/2<lb/>past 9 proceeded, I mounted
+                    one of the<lb/>horses having the bed for a saddle, a very<lb/>boggy rough road
+                    till after leaving <geogName key="pinec">pine<lb/>C,</geogName> then pass'd thro
+                    some good land<lb/>near the head waters of the <geogName key="alleg"
+                        >Alleghey</geogName><lb/>and came down to the foot of a moun<lb/> tain
+                    concluding it time to prepare<lb/>for lodging, had a good nights rest af<lb/>ter
+                    a fatiguing days journey of 26<emph rend="underline">m</emph><lb/>cousin walking
+                    all the way, I the<lb/>most part, she did it of choice.</p>
+            </div>
+            <div type="entry"><pb n="25" facs="SW_RC1805a_Page_25"/>
+                <dateline><date when="1805-06-02">2nd</date><lb/>1st day <placeName key="checkPlace"/></dateline>
+                
+                <p>Cloudy morn 5 o clock set
+                    out,<lb/> travelling till 8 cross'd the <geogName key="owego">Oswago
+                        C</geogName> it begin<lb/> -ing to rain thot best to get breakfast
+                    9.<lb/>proceeded again, got to <persName key="jbell1">John Bell's</persName> 12
+                        oclock<lb/>12<emph rend="underline">m</emph> his wife seeing us coming ran
+                    out to<lb/>meet us with tears running, we were<lb/> glad to see her, having been
+                    better than<lb/>two days and two nights in the wilderness,<lb/>altho the journey
+                    has been a little trying<lb/>yet I felt <emph rend="underline">som</emph>thing
+                    animating and en<lb/> -courageing 6 revive<del>d</del>, and my heart was<lb/>
+                    filled with a precious sweetness which was<lb/>a sufficient consolation for the
+                    most<lb/>trying seasons, O may I ever abide in the<lb/>patience with my eye
+                    single to him<lb/>who knoweth <del>best</del> what is best for us,<lb/>after
+                    dinner <persName key="bcoop1">Benjamin</persName> and <persName key="welli1"
+                        >Wm</persName> went 3 miles<lb/>to <persName key="fking1">Francis
+                        King's</persName> to see about a canoe<lb/> and staid all night, we staying
+                    with M.<lb/>Bell her husband not at home</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-03">3rd</date><lb/>2nd day <placeName key="checkPlace"/></dateline>
+                <p>Cloudy about 10 o clock they<lb/>
+                    came &amp; <persName key="fking1">F King</persName> with them, and fetched<lb/>
+                    some horses for cousin and I, we went to<lb/> F. to dinner it looking like for
+                    rain<lb/>they &amp; wished us to stay all night, but<lb/>we thot to get 12<emph
+                        rend="underline">m</emph> down the river to<lb/><persName key="rhoop1"
+                        >Robert Hoops's.</persName>
+                    <del>could get thro</del> hoping next day<lb/>
+                    <pb n="26" facs="SW_RC1805a_Page_26"/>to reach <placeName key="tunes"
+                        >Tunesassah</placeName>
+                    <del>and were</del> where we were anxious to get<lb/><del>home</del> set off
+                    about 3 F, his son and daug<lb/>-hter with us, before we had gone far
+                    it<lb/>began to thunder and the Gust increased till there<lb/>was a very heavy
+                    shower, we stoped at a<lb/>little house a while till the heaviest<lb/>was over,
+                    but the loads being on the<lb/> horses I was afraid our clothes would<lb/>be
+                    very wet. and having nothing but<lb/>a foot path, and the bushes very
+                    wet<lb/>made it disagreeable travelling. but<lb/>we got <persName key="rhoop1">R
+                        Hoopss</persName>
+                    <del>there</del> 7 o clock and were kindly reli<lb/>-eved, but <del>t</del>he
+                        <del>man</del> was not at home, be<lb/>-ing gone to seek provision, several
+                    places<lb/>we have been at latterly it has been<lb/> the case, scarce of
+                    provision, which is<lb/>the case here, none for us, no canoe to<lb/>take us
+                    down, haveing some with us<lb/>got our supper and went to bed </p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-05">5th</date><lb/>4th day <placeName key="checkPlace"/></dateline>
+                <p>Cloudy and like for rain
+                        <persName key="bcoop1">Ben</persName><lb/>&amp; <persName key="welli1"
+                        >Wm</persName>, and <persName key="fking1">Frances</persName> with them set
+                    off for<lb/><placeName key="tunes">Tunesassah</placeName> on horse back, leaving
+                    us be<lb/>-hind, purposing sending a canoe<lb/>for us</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-05">5th</date><lb/>4th day <placeName key="checkPlace"/></dateline>
+                <p>This day has been spent<lb/>with
+                    anxious desires to see a canoe,<lb/>we feel very dull and lonesome, two<lb/>
+                    <pb n="27" facs="SW_RC1805a_Page_27"/>days waiting</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-06">6th</date> 5th day <placeName key="tunes"/></dateline>
+                <p>Rose early got breakfast set<lb/>of
+                    with a man that was going down<lb/>the river got 11<emph rend="underline"
+                        >m</emph>, met <persName key="jswai1">Joel Swain</persName> and<lb/>an
+                    Indian with a canoe <del>going</del> coming for us we got<lb/>in with them and
+                    proceeded, about<lb/>12 oclock stoped at <persName key="psnid1">Peter
+                        Sniders</persName> a white<lb/>man his wife was taken captive when
+                    about<lb/> 3 years old, has lived with the Indians<lb/>ever since, and cannot
+                    talk any en<lb/> glish, got some milk of them to eat with<lb/>our bread, set off
+                    again got to <placeName key="tunes">Tune<lb/>sassah</placeName> 5 o clock
+                        40<emph rend="underline">m</emph> my dear <persName key="bcoop1"
+                        >B</persName> was<lb/><unclear>borning</unclear> brush <persName
+                        key="welli1">Wm</persName> at work with the<lb/>planes they all glad to see
+                    us and we<lb/>to get home</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-07">7th</date><lb/>6th day <placeName key="tunes"/></dateline>
+                <p>got to washing some of our<lb/>
+                    dirty clothes, a great many of the na-<lb/>tives coming to see us thro the
+                    course<lb/>of the day, <persName key="cornp2">Cornplanters</persName> sister
+                    said<lb/>she was glad the good spirit had<lb/>brought us safe on our long
+                    journey,<lb/>which revived somthing endearing toge<lb/>ther with comfortable
+                    impressions and<lb/>caused the grateful returns of grati-<lb/>tude so to
+                    enforce; that in the secret<lb/><pb n="28" facs="SW_RC1805a_Page_28"/>effusions
+                    of my spirit I was ready to<lb/> utter the Language, "great and
+                    marvell-<lb/>lous are thy works."</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-10">10th of the <emph rend="underline"
+                    >m</emph></date><lb/>2nd day<placeName key="tunes"/></dateline>
+                <p> <persName key="jtayl1">Jacob Taylor</persName> went
+                    to in-<lb/>form the Indians of our coming and<lb/>our brothers had sent an
+                    address to them<lb/> they told him they would confer toge<lb/>ther and let us
+                    know</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-11">11th</date><lb/>3rd day <placeName key="tunes"/></dateline>
+                <p>recieved word from the Indi<lb/>
+                    ans. they had concluded to meet in<lb/>counsil in three days at a
+                    place<lb/>called <placeName key="colds">cold spring</placeName> 3 1/2<emph
+                        rend="underline">m</emph> from our house</p>
+            </div>
+            <div type="entry">
+                <dateline><date when="1805-06-14">14th</date><lb/>6th day <placeName key="tunes"/></dateline>
+                <p>Agreeably to the
+                    conclusion<lb/>of the Indians, we went to the counsil. <persName key="jtayl1"
+                        >J<lb/>Taylor</persName> having been very unwell several<lb/>days, tho'
+                    better this morning and we<lb/>desirous of having him with us, all<lb/>set off
+                    at 9 o clock, taking a little provi<lb/>-sion in the saddlebags; while
+                    the<lb/>Indians were collecting, we took some<lb/>refreshment under a
+                        <unclear>shed</unclear> in the town<lb/> 11 clock went into the counsil
+                    house<lb/>where were a large number of Indians<lb/><pb n="29"
+                        facs="SW_RC1805a_Page_29"/>10 chiefs, and a good many women;
+                        old<lb/><persName key="conud1">Connidiu</persName> after sitting a while
+                    opened<lb/>the counsil with expressing thanks<lb/>to the great spirit in
+                    bringing us safe<lb/>thro our long journey, also that so ma<lb/>ny of them were
+                    collected there to day<lb/>desiring the warriors to pay attention<lb/> to what
+                    should be communicated to<lb/>them, then informed the were ready<lb/> to hear
+                    what we had to say, <persName key="habee1">Henry O<lb/>Bail</persName>
+                    <persName key="cornp2">Cornplanter's</persName> son being our<lb/>interpreter. -
+                    The address from the com<lb/>mittee on our behalfs was read, part of<lb/>an
+                    epistle from <persName key="hjack1">Halliday Jacksons</persName> to<lb/>the
+                    Indian women, likewise a speech<lb/>from the young men residing here<lb/>
+                    concerning <del>temporary affairs</del> saving<lb/>grinding &amp;c, they were
+                    also inform'd<lb/>notwithstanding our journey had been<lb/>long and trying we
+                    felt peace of<lb/>mind in being with them and hoped<lb/>our sisters the Indian
+                    women would<lb/>be willing to be instructed; after we<lb/>became a little
+                    acquainted, then tel-<lb/>ling them we had no more to say at<lb/>
+                    <pb n="30" facs="SW_RC1805a_Page_30"/>present. After a considerable time<lb/>of
+                    conferrence between themselves<lb/>the following is part of the substance<lb/>of
+                    a speech delivered by one of the<lb/>Chiefs</p>
+                <floatingText type="speech">
+                    <body>
+                        <p>Brothers Deweista (meaning Quakers)</p>
+                        <p>We return thanks to the great<lb/>spirit to see you all well, and
+                            that<lb/>the great spirit has preserved your<lb/>women on so long a
+                            journey, and<lb/>that they arrived safe in our country<lb/>we are all
+                            glad to see them, and are<lb/>
+                            <del>pleased</del> much pleased to find they are go-<lb/>-ing to stay
+                            amongst us to instruct<lb/>our women. we return thanks to<lb/>the great
+                            spirit that he has put<lb/>this into their minds, we wish
+                            you<lb/>therefore to make your minds<lb/>easy; they also seemed pleased
+                                at<lb/><persName key="hjack1">Hallidays</persName> epistle,
+                            signifying they<lb/>were at a loss for an answer, for<lb/>as two of the
+                            heads of their women<lb/>were not there. After sitting near<lb/>3 hours
+                            in counsil (exceedingly<lb/><pb n="31" facs="SW_RC1805a_Page_31"/>warm
+                            and close) we were dismissed<lb/>they continuing their conferrence
+                                <del>on</del><lb/> 2 hours longer on the business the young Men laid
+                            before them<lb/><del>those temporary affairs</del>. broke up
+                                in<lb/><del>2 hours after</del>, and appeard much<lb/>pleased with
+                            their proposals <del>of our</del><lb/><del>young men</del>, which were
+                            as follows</p>
+                        <p>Brothers Attend -<lb/>You know we have of-<lb/>-ten talked to you about
+                            opening a<lb/>good road from this town to <placeName key="tunes"
+                                >Tunesas-<lb/>sah</placeName> in order to make it more easy
+                            for<lb/>your people to come to mill, if you<lb/>will now join together,
+                            and open this<lb/>road, we have concluded to give you<lb/> 7000 thousand
+                            feet of boards; This will<lb/>enable you to finish your houses, to<lb/>
+                            have them warm against next<lb/>winter</p>
+                        <p>Brothers you know we began to<lb/>grind for you about the time
+                            you<lb/>were making sugar. we will continue<lb/>to grind for you untill
+                            the next sea-<lb/>son for sugar,making, without<lb/>taking toll which
+                            will make one<lb/><pb n="32" facs="SW_RC1805a_Page_32"/>year. And if any
+                            of you want<lb/>boards we will sell them to you<lb/>for four shillings
+                            per hundred but<lb/>we dont intend to trust any,<lb/>because we want to
+                            keep the chain of<lb/>friendship bright. And if you<lb/> want any of
+                            your own logs saw<lb/>ed into boards or scan thing, <del>if</del> to
+                            do<lb/>your own buildings. if you cut<lb/>and haul the logs to the
+                            mill<lb/> we will saw them for one half</p>
+                        <p>Brothers <gap/> These advantages which<lb/>we now propose to you, are
+                            in-<lb/> tended to encourage you to pursue ha<lb/>bits of industry and
+                            sobriety - We<lb/>wish you to keep your minds strong<lb/>to pursue this
+                            path, then we think<lb/>your substance will increase, and<lb/>the great
+                            spirit will bless your<lb/>labours.</p>
+                        <p>Brothers We don't want to tire<lb/>your ears with many words but<lb/>it
+                            affords us much satisfaction<lb/><pb n="33" facs="SW_RC1805a_Page_33"
+                            />to see your industry This spring in<lb/> enclosing so many fields to
+                            plant<lb/>in, and that you continue your good<lb/> resolution against
+                            spiritous liquors,<lb/>we repeat it again be strong in<lb/> your minds
+                            against this great<lb/>enemy and never let him rise up<lb/>again. We
+                            have all united our <del>mind</del><lb/>minds <del>in</del> together in
+                            this speech<lb/>and shall deliver you a copy <del>that</del><lb/>in
+                            order that our memories may<lb/>be kept bright</p>
+                    </body>
+                </floatingText>
+          
+                <p>I felt satisfaction in being there<lb/><persName key="jtayl1">Jacob
+                        Taylor</persName> says he has felt<lb/>more peace in attending some<lb/>of
+                    their counsils than any<lb/> quarterly meeting; but it will<lb/>take us some
+                    time to get a little<lb/> acquainted with their language.</p>
+                <p>About 30 of the Indians has since join<lb/>ed together and opened the road
+                    which<lb/>will be an advantage to us as well<lb/><pb n="34"
+                        facs="SW_RC1805a_Page_34"/> them, a grand piece of work for<lb/>Indians, it
+                    being done completely</p>
+                <p><persName key="cornp2">Cornplanter</persName> did not attend<lb/>the counsil but
+                    has been here since<lb/>I did not deliver thy message for<lb/>want of an
+                    interpreter <persName key="jtayl1">J Taylor</persName><lb/>said he thought he
+                    could not make<lb/>him understand which was thee.<lb/>there was a paragraft in
+                    the addres<lb/>from the committee sent by us<lb/>refering that when any of
+                    them<lb/>has done any thing another does not<lb/>like, they should not differ
+                    but<lb/>forgive him that does wrong<lb/>for the good spirit forgives<lb/> as
+                    when we <del>are</del> do wrong if we are horror for it</p>
+                <p>I know not but <del>whether it had not</del><lb/>it had a good effect for about
+                    two<lb/>days after they calld a counsil, sent<lb/>for <persName key="cornp2"
+                        >Cornplanter</persName> and made up<lb/>all the uneasiness, and
+                    restord<lb/>him to his former power, he<lb/>has since<lb/><pb n="35"
+                        facs="SW_RC1805a_Page_35"/> been here and he said he told them when<lb/>any
+                    thing happened among them<lb/>in future they had better try to<lb/>make it up
+                    among themselvs, and<lb/>not go and tell it abroad over<lb/>the country for that
+                    made it worse<lb/>he also told us some more advise he<lb/>gave them, which I
+                    thought very just<lb/><del>in regard to such trifals</del> and said<lb/>the old
+                    friends down the country<lb/>might be inform'd that the differ<lb/>ence was all
+                    done away and there<lb/>was nothing between us the quakers and them.</p>
+                <p>It was very agreeable news to hear<lb/><persName key="cornp2"
+                        >Cornplanter</persName> was restored, for his<lb/>judgment in matters, was
+                    of <del>some</del><lb/> consequence, he wanted to <del>see</del> see some<lb/>of
+                    our linen or manufacturing,<lb/>and said <del>he tho</del> if one or two of<lb/>
+                    their women could get in the way<lb/>they could learn the other</p>
+                <pb n="36" facs="SW_RC1805a_Page_36"/>
+
+
+
+
+            </div>
+        </body>
+
+
+    </text>
+</TEI>

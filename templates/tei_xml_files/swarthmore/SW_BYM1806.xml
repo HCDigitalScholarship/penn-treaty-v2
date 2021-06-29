@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>A Brief Account of the Proceedings of the Committee Appointed by the Yearly
+                    Meeting of Friends, Held in Baltimore for Promoting the Improvement and
+                    Civilization of the Indian Natives: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>NAME</name>
+                </respStmt>
+
+
+            </titleStmt>
+            <extent>ca. 5 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2015">2015</date>
+                <idno type="local">SW_BYM1806</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+
+            <sourceDesc>
+                <biblStruct type="book">
+
+                    <monogr>
+                        <title>A Brief Account of the Proceedings of the Committee Appointed by the
+                            Yearly Meeting of Friends, Held in Baltimore for Promoting the
+                            Improvement and Civilization of the Indian Natives</title>
+
+                        <idno>BX7747.3.A1B1 c.2</idno>
+                        <imprint>
+                            <pubPlace>London</pubPlace>
+                            <publisher>Phillips and Fardon</publisher>
+                            <date when="1862">1806</date>
+
+                        </imprint>
+
+                    </monogr>
+                </biblStruct>
+            </sourceDesc>
+        </fileDesc>
+
+
+        <encodingDesc>
+            <projectDesc>
+                <p> Native Americans and Quakers </p>
+            </projectDesc>
+
+        </encodingDesc>
+        <profileDesc>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="lcsh">
+                    <list>
+                        <item>Wyandot Indians</item>
+                        <item>Indians of North America -- Indiana</item>
+                        <item>Baltimore Yearly Meeting of the Religious Society of Friends</item>
+                        <item>Indians of North America -- Ohio</item>
+                        <item>Society of Friends - Indian Affairs</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2015"/>POD edit</item>
+
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            
+            <div type="undetermined">
+                <pb n="1" facs="SW_BYM1806_001"/> 
+                <pb n="2" facs="SW_BYM1806_002"/> 
+            </div>
+            
+            <div type="preface">
+                 <pb n="3" facs="SW_BYM1806_003"/>
+                <head>ADVERTISEMENT.</head>
+                <p>Since putting to press a London Edition of<lb/>"A brief Account of the
+                    Proceedings of the<lb/>"Committee appointed in the Year <date when="1795"
+                        >1795</date>, by<lb/>"the Yearly Meeting of Friends of Pennsyl-<lb/>"vania,
+                    New Jersey, &amp;c. for promoting the<lb/>"Improvement and gradual Civilization
+                    of the<lb/>"Indian Natives," an account of the proceed-<lb/>ings of a committee,
+                    appointed by another<lb/>Yearly Meeting in North America, has been<lb/>received.
+                    In presenting it to the English reader,<lb/>a few remarks may be useful.</p>
+
+                <p>The <orgName key="bym">Yearly Meeting held at <placeName key="balti1"
+                            >Baltimore</placeName></orgName>, in<lb/><placeName key="maryl"
+                        >Maryland</placeName>, is quite distinct from <orgName key="pym">that held
+                            at<lb/><placeName key="phila">Philadelphia</placeName></orgName>; yet it
+                    represents a considerable<lb/>part of the body of Friends in the western
+                    part<lb/>of <placeName key="penns">Pennsylvania</placeName>. The objects of the
+                    concern of<lb/>the two Yearly Meetings are equally distinct.<lb/>The Indian
+                    nations to which the Maryland com-<lb/>mittee has directed its attention, lie in
+                    general<lb/>farther west, than those under the notice of the<lb/>Pennsylvanians.
+                    They are situated in that vast<lb/>district which is comprehended between
+                    the<lb/>rivers <geogName key="ohior">Ohio</geogName> and <geogName key="missi"
+                        >Mississippi</geogName>, and bounded to<lb/>the north by the lakes <geogName
+                        key="lakes">Superior</geogName>, <geogName key="lakeh">Huron</geogName>,
+                        and<lb/><geogName key="lakee">Erie</geogName>. <geogName key="lakem">Lake
+                        Michigan</geogName> penetrates this district,<lb/>and may be said to be
+                    wholly within it. It has<lb/><pb n="4" facs="SW_BYM1806_004"/>been called the North-Western
+                    Territory; and<lb/>was not long ago the scene of an Indian war; but<lb/>peace
+                    was established by a treaty at <placeName key="greenv"
+                    >Greeneville</placeName><lb/>in <date when="1795">1795</date>; when a part of
+                    the territory was ceded<lb/>to the United States, together with some
+                    posts,<lb/>or trading stations, within the Indian part. Of<lb/>these <placeName
+                        key="fwayn">Fort-Wayne</placeName> is one. It is in the unceded<lb/>parts
+                    that the experiments have been made,<lb/>which are recorded in the following
+                    pages.</p>
+                <p>Both the Yearly Meetings seem to have lost<lb/>no time in beginning their work of
+                    brotherly<lb/>kindness to the Indians. The war had been<lb/>an obstruction; but
+                    we find the date of the<lb/>peace, and of the appointment of their
+                    com-<lb/>mittens, to be in the same year, <date when="1795">1795</date>.</p>
+                <p>In the letter which forms the Appendix to<lb/>the Pennsylvanian account, an
+                    Indian chief, named<lb/><persName key="lturt1">Little Turtle</persName>, is
+                    spoken of in terms of great ap-<lb/>probation. It may therefore be particularly
+                    ac-<lb/>ceptable to see a speech of his in this narrative.</p>
+                <p>In the advertisement prefixed to the Penn-<lb/>sylvanian account, an apology is
+                    made for the<lb/>apparent absence of religious instruction as a<lb/>part of the
+                    plan. The concluding paragraph<lb/>of this account confirms the apology; but
+                    fu-<lb/>pressed the necessity of repeating it.</p>
+                <p>Probably, a slight geographical description,<lb/>may render the narrative more
+                    interesting to<lb/>some readers; and though maps are not always<lb/><pb n="5" facs="SW_BYM1806_005"/>
+                    />to be depended on, especially with respect to a<lb/>country so uncivilized,
+                    the following sketch,<lb/>taken from maps, may convey no bad notion of<lb/>the
+                    locality of the committee’s labours.</p>
+                <p><geogName key="muskr">Muskingum river</geogName> runs from N. to S. and
+                    falls<lb/>into the Ohio in about 81.40 West longitude.</p>
+                <p><geogName key="tuscr">Tuskarawas</geogName> (supposing it to be the
+                    Tuscaroras<lb/>of the maps), is a small stream in the limits
+                    of<lb/>Pennsylvania, which falls into the <geogName key="junia"
+                        >Junietta</geogName>, a<lb/>branch of the <geogName key="susqu"
+                        >Susquehannah</geogName>.</p>
+                <p><placeName key="sand">Sandusky</placeName> is an Indian settlement, on a
+                        <geogName key="sandr">river</geogName><lb/>of the same name that has a N.E.
+                    course, and<lb/>empties itself into a small arm of <geogName key="lakee">lake
+                        Erie</geogName>, near<lb/>its western end, about 82.50 W. lon.</p>
+                <p><geogName key="miamr">Miami</geogName> is the name of three rivers in
+                    this<lb/>country. That which concerns the account is<lb/><geogName key="miamr"
+                        >Miami</geogName> of the lakes, which running nearly from S.<lb/>to N. a
+                    course of apparently 150 miles, falls into<lb/><geogName key="lakee">lake
+                        Erie</geogName>, about 50 miles W. of <placeName key="sand"
+                        >Sandusky</placeName>.<lb/>On this river, where, as the term is, it
+                    forks,<lb/>is <placeName key="fwayn">Fort-Wayne</placeName>.</p>
+                <p>The <geogName key="wabas">Wabash</geogName> seems a long and crooked
+                    river.<lb/>One of its sources is S. of <placeName key="fwayn"
+                        >Fort-Wayne</placeName>; the<lb/>stream from which is doubtless the Wabash,
+                    near<lb/>which the agricultural examples have been felt,<lb/>as related in the
+                    account. The Ohio receives<lb/>the waters the <geogName key="wabas"
+                        >Wabash</geogName>, not far from the 88th<lb/>degree of W. longitude.</p>
+                <pb n="6" facs="SW_BYM1806_006"/>
+                <p>The <geogName key="eelr">Eel-River</geogName> appears to be one of the
+                    streams<lb/>which run into the <geogName key="wabas">Wabash</geogName>. It seems
+                    to rise<lb/>in the neighbourhood of <placeName key="fwayn"
+                        >Fort-Wayne</placeName>.</p>
+                <p>The <orgName key="miami">Miami</orgName> nation, is no doubt connected
+                    with<lb/>the <geogName key="miamr">river</geogName>, or rivers of that name. The
+                    place of<lb/>the <orgName key="wyandot">Wyandots</orgName> is given in the
+                    account. The <orgName key="shawnee">Sha-<lb/>wanees</orgName> and <orgName
+                        key="delaware">Delawares</orgName> are marked in one map<lb/>as occupying
+                    the neighborhood of the Ohio.<lb/>The <orgName key="wea">Weas</orgName> are
+                    mentioned in the account as con-<lb/>nested with <geogName key="eelr"
+                        >Eel-River</geogName>.</p>
+                <p><placeName key="fwayn">Fort-Wayne</placeName> in a strait line seems not less
+                    than <lb/>350 miles from <placeName key="balti1">Baltimore</placeName>; but
+                    probably a great<lb/>deal more by any practicable road.</p>
+                <p>Humanity may venture to rejoice at these at-<lb/>tempts. Though, as was observed
+                    in the former<lb/>account, not on a grand scale, they are attended<lb/>with
+                    considerable expence; and a labour, not<lb/>easily appreciated by the
+                    inhabitants of highly<lb/>cultivated and civilized countries. But, to
+                    adopt<lb/>a metaphor from the work, they are attempts<lb/>to cultivate the
+                    large, and inexhaustible field<lb/>of Christian benevolence: for no less is
+                    every<lb/>extension of brotherly kindness to our fellow-<lb/>men, which springs
+                    from Christian principles.</p>
+                <pb n="7" facs="SW_BYM1806_007"/>
+                <p>THE Editor regrets that, in the letter<lb/>from the American General, printed at
+                    the close<lb/>of the Account from <placeName key="penns"
+                        >Pennsylvania</placeName>, a few lines<lb/>were suffered to remain, which
+                    convey a cen-<lb/>sure on some former American missionaries. It<lb/>may have not
+                    been perfectly easy for a person in<lb/>a very different walk of life to feel
+                    exactly the<lb/>difficulties of their situation. Whoever duly<lb/>weighs the
+                    state of the Indians, may account for<lb/>their want of success without thinking
+                    them<lb/>much to blame. At any rate the Editor is dis-<lb/>posed to call it an
+                    oversight, that in a work<lb/>intended to show the successful diligence of
+                    one<lb/>set of men, there should have slipped in a need-<lb/>less censure of
+                    another.</p>
+                <pb n="8" facs="SW_BYM1806_008"/>
+                <p>Extract from the Minutes of the <orgName key="bym">Yearly Meeting<lb/>held in
+                        Baltimore</orgName>, <date when="1805-10">10th Mo. 1805</date>.</p>
+                <p>A Report from our <orgName key="bymindian">Committee on
+                        Indian<lb/>concerns</orgName> was produced, which being read
+                    and<lb/>considered, much satisfaction with their pro-<lb/>ceding was expressed:
+                    inasmuch as it very<lb/>evidently appears that considerable benefits to<lb/>our
+                    Red Brethren have already resulted, since<lb/>the care of the <orgName key="bym"
+                        >Yearly Meeting</orgName> towards them.<lb/>The <orgName key="bymindian"
+                        >Committee</orgName> were encouraged to continue<lb/>such exertions, in the
+                    prosecution of this im-<lb/>portent concern, as may be in their power
+                    to<lb/>extend: they were also left at liberty to have<lb/>printed, for the more
+                    general information of<lb/>Friends, as many copies of their report,
+                    con-<lb/>nected with a narrative of their previous pro-<lb/>ceedings, as they
+                    apprehend may be usefully<lb/>distributed amongst our members.</p>
+            </div>
+        </front>
+        <body>
+
+
+            <div type="narrative">
+                <pb n="9" facs="SW_BYM1806_009"/>
+                <head>A BRIEF ACCOUNT<lb/>OF THE<lb/>PROCEEDINGS OF THE <orgName key="bymindian"
+                        >COMMITTEE</orgName><lb/>APPOINTED BY THE<lb/><orgName key="bym">YEARLY
+                        MEEITNG OF FRIENDS<lb/>HELD IN BALTIMORE</orgName>,<lb/>For Promoting the
+                    Improvement and Civilization<lb/>of Indian Natives.</head>
+                <p>A weighty concern having been opened in<lb/>the year <date when="1795"
+                        >1795</date> in our <orgName key="bym">Yearly Meeting</orgName>,
+                    re-<lb/>specting the difficulties and distresses to which<lb/>the Indian natives
+                    of this land were subject, it<lb/>obtained the serious attention of Friends;
+                    and<lb/>many observations were made, relative to the<lb/>kindness of their
+                    ancestors to ours in the early<lb/>settlement of this country; exciting a deep
+                    con-<lb/>sideration and enquiry, whether, under the in-<lb/>fluence of that
+                    exalted benevolence and good<lb/><pb n="10" facs="SW_BYM1806_010"/>will to men, which our holy
+                    profession incul-<lb/>cates, there was not something for us, as a<lb/>Society,
+                    to do for them; towards their promoting their<lb/>religious instruction, and
+                    knowledge of agricul-<lb/>ture, and useful mechanic arts.</p>
+                <p>A solemnity prevailing, the sentiments of<lb/>many were expressed, evidencing a
+                    near sym-<lb/>pathy with them. The meeting therefore united<lb/>in recommending
+                    to our Quarterly and Monthly<lb/>Meetings, to open subscriptions amongst
+                    our<lb/>members for their relief; and appointed a <orgName key="bymindian"
+                        >com-<lb/>mittee</orgName>, to pay such attention to the
+                    interesting<lb/>concern, as they might be enabled to render.</p>
+                <p>The <orgName key="bymindian">committee</orgName>, after having fully
+                    considered<lb/>the subject of their appointment, concluded, as<lb/>the most
+                    effectual way of obtaining correct in-<lb/>formation of the situation and
+                    disposition of the<lb/>Indians, to appoint a deputation from
+                    amongst<lb/>themselves, to visit the <orgName key="shawnee">Shawnees</orgName>,
+                        <orgName key="delaware">Delawares</orgName>,<lb/><orgName key="wyandot"
+                        >Wyandots</orgName>, or other such nations, north-west of<lb/>the <geogName
+                        key="ohior">river Ohio</geogName>, as they might find practicable.<lb/>The
+                    friends who were nominated to this service,<lb/>having first obtained the
+                    approbation of Govern-<lb/>ment, proceeded in the summer of <date when="1796"
+                        >1796</date>, as far<lb/>as the forks of the <geogName key="muski">Muskingum
+                        river</geogName>, at which<lb/>place, they had been informed that a
+                    consider-<lb/>able number of Indians were collected; but<lb/><pb n="11" facs="SW_BYM1806_011"/>upon
+                    their arrival there, they found that all the<lb/>chiefs, and most of the
+                    hunters, had dispersed.<lb/>And, it not appearing practicable to
+                    convene<lb/>them in a suitable manner for a conference at<lb/>that time, they
+                    returned without accomplishing<lb/>the object of their visit. They however
+                    saw<lb/>divers hunters and others, who appeared to be<lb/>well disposed to
+                    receive the instruction and<lb/>assistance, with which Friends proposed to
+                    fur-<lb/>nish them.</p>
+                <p>The <orgName key="bymindian">committee</orgName> being still deficient in
+                    the<lb/>information necessary to enable them to pro-<lb/>ceed with safety, in so
+                    important an undertaking,<lb/>one of their number offered, in the fall of
+                    this<lb/>year, to undertake a visit to the Indians, for the<lb/>purpose of
+                    obtaining a more satisfactory know-<lb/>ledge respecting them; and his proposal
+                    being<lb/>approved, he was encouraged to proceed as<lb/>soon as might be
+                    practicable. Accordingly, in<lb/>the spring of <date when="1797">1797</date>,
+                    he, with two others of the<lb/>committee, who became concerned to unite<lb/>with
+                    him, made them a visit; in the course of<lb/>which, having passed by a number of
+                    their<lb/>hunting camps, and several of their towns, they<lb/>had large
+                    opportunity of discovering their situ-<lb/>ation. Often exposed to the
+                    inclemency of the<lb/>seasons, with a very precarious, and often a<lb/>very
+                    scanty supply of food and clothing, they<lb/><pb n="12" facs="SW_BYM1806_012"/>suffered all the
+                    miseries of extreme poverty; in a<lb/>country, which, from its great fertility,
+                    would,<lb/>with but little cultivation, abundantly supply<lb/>them with all the
+                    necessaries of life.</p>
+                <p>These friends had an opportunity with some<lb/>of they chiefs and hunters of the
+                        <orgName key="wyandot">Wyandot</orgName>, and<lb/><orgName key="delaware"
+                        >Delaware</orgName> nations, in which they informed them<lb/>of the concern
+                    of Friends relative to them; and<lb/>endeavoured to impress on their minds, the
+                    ad-<lb/>vantages they would derive, from permitting a<lb/>knowledge of
+                    agriculture, and some of the most<lb/>useful mechanic arts, to be introduced
+                    amongst<lb/>their people. The Indians appeared to give close<lb/>attention to
+                    the communication, and promised<lb/>to lay the matter before their grand
+                    council, and<lb/>inform us of their conclusion upon the subject.</p>
+                <p>No way opened during the year <date when="1798">1798</date>, to<lb/>proceed in
+                    carrying the concern of the <orgName key="bym">Yearly<lb/>Meeting</orgName> into
+                    effect; except that the committee<lb/>furnished a few implements of husbandry,
+                    and<lb/>other assistance to some Indian families, which<lb/>were situated upon
+                    the branches of the <geogName key="tuscr">Tus-<lb/>karawas</geogName> river.</p>
+                <p>In the <date when="1799-02">Second Month, 1799</date>, the <orgName
+                        key="bymindian">committee</orgName><lb/>received a speech, and a belt of the
+                    Wampum, from<lb/><persName key="tarh1">Tarhie</persName>, the principal chief of
+                    the <orgName key="wyandot">Wyandot</orgName> nation,<lb/><pb n="13" facs="SW_BYM1806_013"/>delivered
+                    at <placeName key="detro">Detroit</placeName>, in the <date when="1798-09">Ninth
+                        Month</date> pre-<lb/>ceding; of which the following is an extract:</p>
+                <floatingText type="speech">
+                    <body><dateline><date when="1798-09"/></dateline>
+                        <p>Brethren Quakers,<lb/>You remember that we once met a cer-<lb/>tain
+                            place. When we had there met, a great<lb/>many good things were said,
+                            and much friend-<lb/>ship was professed between us.</p>
+                        <p>Brothers,<lb/>You told us that at the time, that you not only<lb/>took us
+                            by the hand, but that you held us fast<lb/>by the arm: that you then
+                            formed a chain of<lb/>friendship. You said, that it was not a chain
+                            of<lb/>iron; but that it was a chain of precious metal,<lb/>a chain of
+                            silver, that would never get rusty; and<lb/>that this chain, would bind
+                            us in brotherly affec-<lb/>tion for ever.</p>
+                        <p>Brethren, listen:<lb/>We have often heard that you were a good<lb/>and a
+                            faithful people, ever ready to do justice,<lb/>and good to all men,
+                            without distinction of co-<lb/>lour; therefore we love you the more
+                            sincerely,<lb/>because of the goodness of your hearts, which<lb/>has
+                            been talked of amongst our nations, long<lb/>since.</p>
+                        <p>Brethren, listen:<lb/>You have informed us, that you intend to<lb/><pb n="14" facs="SW_BYM1806_014"/>
+                            visit us; yes, that, even in our tents and cabins,<lb/>you
+                            will take us by the hand. You, brethren,<lb/>cannot admit a doubt that
+                            we should be very<lb/>happy to see you.</p>
+                        <p>Brethren, listen:<lb/>It is but proper to inform you at this
+                            time,<lb/>that when you do come forward to see us, you<lb/>will, no
+                            doubt, pass by my place of residence<lb/>at <placeName key="sand"
+                                >Sandusky</placeName>. I will then take you, not only<lb/>by the
+                            hand, but by the arm, and will conduct<lb/>you safely to the grand
+                            council-fire of our great<lb/>Sasteretsey; where all good things are
+                            trans-<lb/>acted, and where nothing bad is permitted to<lb/>appear. When
+                            in the grand council of our<lb/>Sasteretsey, we will then sit down
+                            together, in<lb/>peace and friendship, as brethren are accus-<lb/>tomed
+                            to do, after a long absence; and remind<lb/>each other, and talk of
+                            those things that were<lb/>done between our Good Grand-Fathers,
+                            when<lb/>they first met upon our lands, upon this great<lb/>island.</p>
+                        <p>Brethren,<lb/>May the Great Spirit, the master of light<lb/>and life, so
+                            dispose the hearts and minds of all<lb/>our nations and people, that the
+                            calamities of<lb/>war may never more be felt, or known by any<lb/><pb n="15" facs="SW_BYM1806_015"/>
+                               of them; that our roads and paths may never<lb/>more be
+                            stained with the blood of our young<lb/>warriors; and that our helpless
+                            women and chil-<lb/>dren may live in peace and happiness.</p>
+                    </body>
+                </floatingText>
+                <p>After a consideration of the foregoing com-<lb/>munication, from the <orgName
+                        key="wyandot">Wyandot</orgName> Nation of Indians,<lb/>the <orgName
+                        key="bymindian">committee</orgName> concluded to appoint a few<lb/>friends
+                    to make them a visit, agreeably to their<lb/>request. These were directed to
+                    cultivate a<lb/>friendly correspondence with them, and afford<lb/>them such
+                    assistance as they might be enabled<lb/>to render. They accordingly proceeded in
+                    the<lb/>visit; with an intention of being at the General<lb/>Council; and after
+                    passing through several of<lb/>their towns, arrived on the <date
+                        when="1799-06-03">Third of the Sixth<lb/>Month</date> at <placeName
+                        key="usand">Upper Sandusky</placeName>, the principal vil-<lb/>lage of the
+                        <orgName key="wyandot">Wyandots</orgName>, where they were received<lb/>in a
+                    friendly manner, by <persName key="tarh1">Tarhie (the Crane)</persName>,<lb/>and
+                    others of that nation.</p>
+                <p> Upon conferring with these Indians, it was<lb/>found, that a mistake had been
+                    made in the<lb/>translation of the speech, which they had sent<lb/>to friends,
+                    respecting the time of opening their<lb/>great Council, to which Friends had
+                    been invited:<lb/>who were now informed, that it began annually<lb/>at the full
+                    moon, in the Sixth Month. Finding<lb/><pb n="16" facs="SW_BYM1806_016"/>it would be difficult to
+                    procure food for them-<lb/>selves and horses there, until that time, the
+                        <orgName key="bymindian">com-<lb/>mittee</orgName> concluded it was best,
+                    under their present<lb/>circumstances, to propose to <persName key="tarh1"
+                        >Tarhie</persName>, a con-<lb/>terence with him and the other chiefs,
+                    who<lb/>were then at, and in the neighborhood of, <placeName key="sand"
+                        >San-<lb/>dusky</placeName>: which was accordingly agreed to; and<lb/>at the
+                    time appointed, they met him and several<lb/>other chiefs, together with a
+                    number of their<lb/>hunters, at his own house; when they had a<lb/>full
+                    opportunity with them on the subject of<lb/>their visit.</p>
+                <p>Their communication appeared to be received<lb/>with great satisfaction by the
+                    Indians; who<lb/>in their answer, delivered on some strings of<lb/>Wampum,
+                    expressed the gratitude they felt, for<lb/>the care and friendship which their
+                    beloved<lb/>brethren, the Quakers, had always manifested<lb/>for the Indians;
+                    and promised, as soon as the<lb/>grand Council met, that they would
+                    communi-<lb/>cate fully to it, the concern which our Society<lb/>felt for their
+                    improvement, and inform us by a<lb/>written speech of their conclusion
+                    thereon.</p>
+                <p>Whilst these friends were at <placeName key="sand">Sandusky</placeName>
+                    and<lb/>other villages, their minds were often deeply<lb/>affected, under the
+                    sorrowful consideration of<lb/>the baneful effects of spirituous liquor
+                    upon<lb/><pb n="17" facs="SW_BYM1806_017"/>the Indians, at that time supplied with it, in
+                    al-<lb/><lb/>most every village, by Canadian traders residing<lb/>amongst them:
+                    and they were confirmed in the<lb/>opinion, that unless these traders could be
+                    res-<lb/>trained from furnishing them with this destruc-<lb/>tive article, in
+                    exchange for their skins and furs,<lb/>they would not easily be persuade to turn
+                    their<lb/>minds towards agriculture and the useful arts.</p>
+                <p>Notwithstanding which discouragement, the<lb/>great affection they have for our
+                    Society, mani-<lb/>fested on all occasions whilst the <orgName key="bymindian"
+                        >committee</orgName> were<lb/> amongst them, induced a hope, that
+                    Friends<lb/> would endeavour to keep under the weight of<lb/>the concern; and be
+                    prepared to proceed in the<lb/>benevolent work, whenever way might open
+                    for<lb/>further service amongst them.</p>
+                <p>There was not any communication between<lb/>the <orgName key="bymindian"
+                        >committee</orgName> and the Indians during the year<lb/><date when="1800"
+                        >1800</date>. In the spring of <date when="1801">1801</date>, they addressed
+                    a<lb/>letter to them, which was forwarded to <placeName key="sand"
+                        >San-<lb/>dusky</placeName>; but the person to whose care it
+                    was<lb/>directed, and who was requested to communi-<lb/>cate it to their council
+                    in the Sixth Month, not<lb/>being at home, it was returned to the <orgName
+                        key="bymindian">committee</orgName>.</p>
+                <p>In the <date when="1802-06">Sixth Month, 1802</date>, the <persName key="lturt1"
+                        >Little Turtle</persName>,<lb/><persName key="fmeda1">Five
+                            Medals</persName>, and several other principal chiefs,<lb/><pb n="18" facs="SW_BYM1806_018"/>of the
+                        <orgName key="miami">Miami</orgName> and <orgName key="potaw"
+                        >Pottowattomi</orgName> nations of Indians,<lb/>passed through <placeName
+                        key="balt1">Baltimore</placeName>, on their way to visit<lb/>the President
+                    of the United States; at which<lb/>time the <orgName key="bymindian"
+                        >committee</orgName> took the opportunity of<lb/>holding a conference with
+                    them; in which the<lb/>concern of Friends was fully opened; when<lb/>they
+                    informed them, of the great discouragement<lb/>Friends had met with, in carrying
+                    their views<lb/>into effect, from the intemperate and destructive<lb/>use of
+                    spirituous liquors amongst the Indians:<lb/>which was found to be the greatest
+                    obstacle in<lb/>the way of their profiting by the aid which<lb/>Friends had been
+                    desirous of giving them.</p>
+                <p>This opened the way for free communica-<lb/>tion, on the subject of the
+                    introduction of ardent<lb/>spirits into their country; in which its
+                    baneful<lb/>and pernicious effects were strongly pointed out.<lb/>The <persName
+                        key="lturt1">Little Turtle</persName>, in reply, made a very
+                    pathe-<lb/>ticand impressive speech upon this subject, from<lb/>which the
+                    following in extracted.</p>
+                <floatingText type="speech">
+                    <body><dateline><date when="1802-06"/></dateline>
+                        <p>Brothers and Friends,<lb/>When our forefathers first met on
+                            this<lb/>island, your Red Brethren were very numerous.<lb/>But since the
+                            introduction amongst us, of what<lb/>you call spirituous liquors, and
+                            what we think<lb/>may justly be called Poison, our numbers
+                            are<lb/>greatly diminished. It has destroyed a great<lb/>part of your
+                            Red Brethren.</p>
+                        <pb n="19" facs="SW_BYM1806_019"/>
+                        <p>My Brothers and Friends,<lb/>We plainly perceive, that you see the
+                            very<lb/>evil which destroys your Red Brethren. It is<lb/>not an evil of
+                            our own making. We have not<lb/>placed it amongst ourselves. It is an
+                            evil placed<lb/>amongst us by the white people. We look to<lb/>them to
+                            remove it out of our country. We tell<lb/>them, Brethren, fetch us
+                            useful things; bring<lb/>goods that will clothe us, our women, and
+                            our<lb/>children; and not this evil liquor, that destroys<lb/>our
+                            reason, that destroys our health, that de-<lb/>stroys our lives. But all
+                            we can say on this<lb/>subject, is of no service, nor gives relief to
+                            your<lb/>Red Brethren.</p>
+                        <p>My Brothers and Friends,<lb/>I rejoice to find, that you agree in
+                            opinion<lb/>with us, and express an anxiety to be, if pos-<lb/>sible, of
+                            service to us, in removing this great<lb/>evil out of our country: an
+                            evil which has had<lb/>so much room in it, and has destroyed so
+                            many<lb/>of our lives, that it causes our young men to<lb/>say, <said>We
+                                had better be at war with the white<lb/>people. This liquor, which
+                                they introduce into<lb/>our country, is more to be feared than the
+                                gun<lb/>and the tomahawk. There are more of us dead<lb/>since the
+                                treaty of <placeName key="greenv">Greenville</placeName>, than we
+                                lost by<lb/>the six years of war before. It is all owing to
+                                the<lb/>introduction of this liquor amongst us.</said></p>
+                        <pb n="20" facs="SW_BYM1806_020"/>
+                        <p>Brothers,<lb/>When our young men have been out hunt-<lb/>ing, and are
+                            returning home loaded with skins<lb/>and furs; on their way, if it
+                            happens that they<lb/>come where some of this whiskey is
+                            deposited,<lb/>the white man who sells it, tells them to take
+                            a<lb/>little drink. Some of them will say No, I do<lb/>not want it. They
+                            go on till they come to ano-<lb/>ther house, where they find more of the
+                            same<lb/>kind of drink. It is there offered again; they<lb/>refuse; and
+                            again the third time; but finally,<lb/>the fourth or fifth time, one
+                            accepts of it, and<lb/>takes a drink; and getting one, he wants
+                            ano-<lb/>ther; and then a third, and fourth, till his senses<lb/>have
+                            left him. After his reason comes back<lb/>again to him; when he gets up,
+                            and finds where<lb/>he is, he asks for his peltry. The answer
+                                is,<lb/><said>You have drunk them.</said>
+                            <said>Where is my gun?</said><lb/><said>It is gone.</said>
+                            <said>Where is my blanket?</said>
+                            <said>It is<lb/>gone.</said>
+                            <said>Where is my shirt?</said>
+                            <said>You have sold<lb/>it for whiskey!!</said> Now, Brothers, figure to
+                            your-<lb/>selves what condition this man must be in. He<lb/>has a family
+                            at home; a wife and children, who<lb/>stand in need of the profits of
+                            his hunting. What<lb/>must be their wants, when he himself is
+                            even<lb/>without a shirt!</p>
+                    </body>
+                </floatingText>
+                <pb n="21" facs="SW_BYM1806_021"/>
+                <p>These chiefs appeared to be much rejoiced at<lb/>the assistance, Friends proposed
+                    to render them;<lb/>and, in reply to that part of our
+                    communication,<lb/>observed, <said>That it was their anxious wish, to<lb/>engage
+                        in the culture of their lands; for although<lb/>the game was not so scarce,
+                        but that they could<lb/>get enough to eat; yet they were sensible it
+                        was<lb/>daily diminishing, and that the time was not far<lb/>distant, when
+                        they should be compelled to take<lb/>hold of such tools, as they saw in the
+                        hands<lb/>of the white people.</said></p>
+                <p>The <orgName key="bymindian">committee</orgName>, on a weighty consideration
+                    of<lb/>the subject, being from their former experience<lb/>united in judgment,
+                    that no great progress could<lb/>be made in the civilization of the Indians,
+                    while<lb/>they were so abundantly supplied with distilled<lb/>spirits, concluded
+                    to address Congress on the<lb/>subject. Their memorial was favourably
+                    re-<lb/>ceived, and a law passed, which in some mea-<lb/>sure provided a remedy
+                    for the evil.</p>
+                <p>As it now appeared to the <orgName key="bymindian">committee</orgName>, that
+                    the<lb/>principal obstruction to the introduction of agri-<lb/>culture amongst
+                    the Indians was removed, they<lb/>felt themselves encouraged to proceed in
+                    their<lb/>undertaking; and accordingly provided a con-<lb/>siderable number of
+                    implements of husbandry;<lb/>such as ploughs, hoes, axes &amp;c. which were
+                    for-<lb/><pb n="22" facs="SW_BYM1806_022"/>warded to <placeName key="fwayn"
+                    >Fort-Wayne</placeName>, where they were imme-<lb/>diately distributed, as a
+                    present from the society<lb/>of Friends, and thankfully received by
+                    the<lb/>Indians.</p>
+                <p>A letter was received in the summer of <date when="1803">1803</date>,<lb/>from
+                    the agent for Indian affairs at <placeName key="fwayn"
+                    >Fort-Wayne</placeName>,<lb/>in which he says:—</p>
+                <p><said>Since there have been no spirituous liquors<lb/>in the Indian country, they
+                        appear very indus-<lb/>trious, and are fond of raising stock.</said> He
+                    also<lb/>expressed, as his opinion, that <said>the suppression<lb/>of spirituous
+                        liquors in that country is the most<lb/>beneficial thing which has ever been
+                        done for<lb/>them by the United States; that there had not<lb/>been one
+                        Indian killed in that neighbourhood for<lb/>a year; and that in no preceding
+                        year, since the<lb/>treaty of <placeName key="greenv"
+                        >Greenville</placeName>, had there been less than<lb/>ten, and in some
+                        years, as many as thirty, killed.</said><lb/>The agent further added, that
+                        <said>the Indians<lb/>appeared to be very desirous of procuring
+                        for<lb/>themselves the necessaries of life, in our way;<lb/>but say they do
+                        not know how to begin. Some<lb/>of their old men say, <q>The white people
+                            want<lb/>for nothing. We wish them to shew us how<lb/>to provide the
+                            many good things we see amongst<lb/>them. If it is their wish to
+                            instruct us in their<lb/>way of living, as they tell us it is, we
+                            wish<lb/><pb n="23" facs="SW_BYM1806_023"/>them to make haste and do it, for we are
+                            old,<lb/>and must die soon; but we wish to see our<lb/>women and
+                            children in that path, that will lead<lb/>them to happiness, before we
+                            die.</q></said></p>
+                <p>At the same time a letter was received from<lb/>the <persName key="lturt1">Little
+                        Turtle</persName> and <persName key="fmeda1">Five Medals</persName>, in
+                    which<lb/>they expressed a wish, that some of the <orgName key="bymindian"
+                        >com-<lb/>mittee</orgName> would visit their country; which
+                    being<lb/>considered, the <orgName key="bymindian">committee</orgName> appointed
+                    a depu-<lb/>tation for that purpose; who were authorized<lb/>to take one or more
+                    suitable persons with them,<lb/>to reside amongst the Indians, for the
+                    purpose<lb/>of teaching them agriculture, and other useful<lb/>knowledge; as far
+                    as such an establishment<lb/>should appear practicable.</p>
+                <p>In the <date when="1804-02">Second Month, 1804</date>, two of the<lb/>deputation
+                    proceeded to <placeName key="fwayn">Fort-Wayne</placeName>, accom-<lb/>panied by
+                        <persName key="pdeni1">Philip Dennis</persName>; who had offered
+                    his<lb/>services to go with them, to remain with the<lb/>Indians during the
+                    summer; for the purpose of<lb/>instructing them in husbandry; taking with
+                    him<lb/>two horses to be employed in ploughing, &amp;c.</p>
+                <p>They arrived at <placeName key="fwayn">Fort-Wayne</placeName> the <date
+                        when="1804-03-31">last day<lb/>of the Third Month</date>, and soon after
+                    convened<lb/>several of the principal chiefs; in a council with<lb/><pb n="24" facs="SW_BYM1806_024"/>whom, a future day was fixed upon for the<lb/><orgName key="bymindian"
+                        >committee</orgName> to meet them, together with as many<lb/>of their old
+                    men, their young men, and their<lb/>women and children, as could be assembled.
+                    The<lb/>attendance of the latter was particularly re-<lb/>quested by our
+                    deputation; and these chiefs<lb/>having previously requested, that whatever
+                    mat-<lb/>ter Friends might have to communicate to the<lb/>Indians should be
+                    written, in order that they<lb/>might lay it before the Grand Council,
+                    in<lb/>the <date when="1804-06">Sixth Month</date> following (to the
+                    attendance<lb/>of which they very pressingly invited the com-<lb/>mittee), on
+                    the day appointed, the committee<lb/>being met by a considerable number of the
+                    na-<lb/>tives, the following written address was read<lb/>and interpreted to
+                    them.</p>
+                <floatingText type="speech">
+                    <body><dateline><date when="1804-06"/></dateline>
+                        <p>Brothers and Friends,<lb/>When we were together, eight days ago,<lb/>with
+                            the <persName key="lturt1">Little Turtle</persName> and the <persName
+                                key="fmeda1">Five Medals</persName>, the<lb/>letter was read to them
+                            which has just been<lb/>read. That letter, you observe, says, that
+                            we<lb/>were appointed by the people called <orgName key="bym"
+                                >Quakers<lb/>of Baltimore</orgName>, to visit you, and to take you
+                            by<lb/>the hand on their behalf, desiring that you<lb/>would receive any
+                            communications from us, as<lb/>coming immediately from them.</p>
+                        <pb n="25" facs="SW_BYM1806_025"/>
+                        <p>Brothers,<lb/>After that letter was read, our hearts were<lb/>filled with
+                            so much love for our Red Brethren,<lb/>that, on looking over and
+                            considering the busi-<lb/>ness upon which we had come, we felt a
+                            desire<lb/>to see as many of you together as could be<lb/>convened: and
+                            this day was then agreed upon,<lb/>for us to meet you.</p>
+                        <p>Brothers,<lb/>We believed, that the things we had to<lb/>say, were of
+                            great importance to our Red Bre-<lb/>thren; and therefore it was that we
+                            requested to<lb/>see you together; that you all might have
+                            an<lb/>opportunity of hearing what we have to say.</p>
+                        <p>Brothers,<lb/>Our hearts are filled with thankfulness to<lb/>the Great
+                            Spirit, that he has brought us safely<lb/>to the country of our Red
+                            Brethren, and pro-<lb/>tected us through our journey. We also
+                            rejoice<lb/>that he has given us this opportunity of seeing<lb/>you, and
+                            of taking you by the hand.</p>
+                        <p>Brothers,<lb/>It is now a little more than two years since<lb/>your
+                            brothers of <placeName key="balt1">Baltimore</placeName> had an
+                            opportunity<lb/>of becoming acquainted with the <persName key="fmeda1"
+                                >Five Medals</persName>, the<lb/><persName key="lturt1">Little
+                                Turtle</persName>, <persName key="topin1">Tuthinipee</persName>, and
+                            some other chiefs.<lb/><pb n="26" facs="SW_BYM1806_026"/>They were glad of that opportunity of
+                            having a<lb/>talking with them, and of enquiring after the<lb/>situation
+                            of their Red Brethren.</p>
+                        <p>Brothers,<lb/>We had for some time entertained appre-<lb/>hensions, that
+                            the many changes, which were<lb/>taking place in circumstances, must
+                            greatly<lb/>change the situation of our Red Brethren; and<lb/>that the
+                            time was fast approaching, in which it<lb/>would be necessary for them
+                            to alter their mode<lb/>of living.</p>
+                        <p>Brothers,<lb/>After our talk with the chiefs whom we<lb/>have just
+                            mentioned, we are fully convinced<lb/>that the time was come, in which
+                            our Red Bre-<lb/>thren ought to begin to cultivate their lands.<lb/>That
+                            they ought to raise corn, and other grain,<lb/>also horses, cows, sheep,
+                            hogs, and other ani-<lb/>mal. We then proposed to afford them
+                            some<lb/>assistance. They appeared to be glad of the<lb/>proposal, and
+                            informed us that many of their<lb/>people were disposed to turn their
+                            attention to<lb/>the cultivation of the earth. They also ex-<lb/>pressed
+                            a desire to be assisted by their brothers<lb/>of <placeName key="balt1"
+                                >Baltimore</placeName>.</p>
+                        <pb n="27" facs="SW_BYM1806_027"/>
+                        <p>Brothers,<lb/>Having been encouraged by the opportu-<lb/>nity which we
+                            then had, we sent to the care of<lb/>the agent for Indian affairs, some
+                            ploughs, har-<lb/>ness for horses, axes, hoes, and other
+                            imple-<lb/>ments of husbandry, which were made for the<lb/>use of our
+                            Red Brethren; and desired that they<lb/>might be distributed amongst
+                            them, as tokens<lb/>of our friendship.</p>
+                        <p>Brothers,<lb/>We received last fall, through the hands<lb/>of the agent
+                            for Indian affairs, a talk from the<lb/><persName key="lturt1">Little
+                                Turtle</persName>, the <persName key="fmeda1">Five
+                            Medals</persName>, and others, in-<lb/>forming us that they had received
+                            the imple-<lb/>ments of husbandry; and requesting that
+                            their<lb/>brothers of <placeName key="balt1">Baltimore</placeName> would
+                            send some of their<lb/>people into the country of their Red
+                            Brethren;<lb/>for the purpose of seeing their situation, and<lb/>shewing
+                            them how to make use of the tools:<lb/>saying, they did not know how to
+                            begin.</p>
+                        <p>Brothers,<lb/>It is for these purposes, that we have now<lb/>come; and we
+                            again repeat, that we rejoice we<lb/>have this opportunity of seeing
+                            you, and of<lb/>taking you by the hand.</p>
+                        <pb n="28" facs="SW_BYM1806_028"/>
+                        <p>Brothers,<lb/>In coming into the country of our Red<lb/>Brethren, we have
+                            come with our eyes open.<lb/>And although we are affected with sorrow,
+                            in<lb/>believing, that many of the red people suffer<lb/>much, for the
+                            want of food, and for the want<lb/>of clothing; yet our hearts have been
+                            made<lb/>glad, in seeing, that it has pleased the Great<lb/>Spirit, to
+                            give you a rich and valuable country.<lb/>Because we know, that it is
+                            out of the earth, that<lb/>food and clothing come. We are sure,
+                            bro-<lb/>thers, that, with but little labour and attention,<lb/>you may
+                            raise much more corn, and other grain,<lb/>than will be necessary for
+                            yourselves, your wo-<lb/>men, and children; and may also, with
+                            great<lb/>ease, raise many more horses, cows, sheep,<lb/>hogs, and other
+                            valuable animals, than will be<lb/>necessary for your own use. We are
+                            also con-<lb/>fident, that if you will pursue our method, in<lb/>the
+                            cultivation of your land, you will live in<lb/>much greater ease and
+                            plenty, and with much<lb/>less fatigue and toil, than attend hunting for
+                            a<lb/>subsistence.</p>
+                        <p>Brothers,<lb/>We are fully convinced, that if you will<lb/>adopt our mode
+                            of cultivating the earth, and of<lb/>raising useful animals, you will
+                            find it to be a<lb/>mode of living not only far more plentiful
+                            and<lb/><pb n="29" facs="SW_BYM1806_029"/>much less fatiguing; but also much more
+                            cer-<lb/>tain, and which will expose your bodies less, to<lb/>the
+                            inclemencies of the weather, than hunting.<lb/>It will lead you,
+                            brothers, to have fixed homes.<lb/>You will build comfortable
+                            dwelling-houses for<lb/>yourselves, you women, and children,
+                            where<lb/>you may be sheltered from the rain, from the<lb/>frost, and
+                            from the snow; and where you may<lb/>enjoy in plenty the rewards of your
+                            labours.</p>
+                        <p>Brothers,<lb/>In laying these things before you, we have<lb/>no other
+                            motive, than a desire of heart for the<lb/>improvement, the benefit, and
+                            the welfare of<lb/>our Red Brethren; and therefore it is, that
+                            we<lb/>speak with freedom; and we hope that what we<lb/>have to say,
+                            will go in at one ear, and not come<lb/>out at the other; but that it
+                            will be remembered<lb/>by our Red Brethren. For we know,
+                            brothers,<lb/>that we shall not be ashamed of what we say,<lb/>when in
+                            time to come, you compare the things<lb/>we are saying to you, with your
+                            experience in<lb/>practising them.</p>
+                        <p>Brothers,<lb/>We will here mention, that the time was,<lb/>when the
+                            forefathers of your brothers, the white<lb/>people, lived beyond the
+                            great water, in the<lb/>same manner that our Red Brethren now
+                            live.<lb/><pb n="30" facs="SW_BYM1806_030"/>The winters can yet be counted, when they
+                            went<lb/>almost naked, when they procured their living<lb/>by fishing,
+                            and by the bow and arrow in hunt-<lb/>ing; and when they lived in houses
+                            no better<lb/>than yours. They were encouraged by some,<lb/>who came
+                            from towards the sun-rising, and<lb/>lived amongst them, to change their
+                            mode<lb/>of living. They did change; they cultivated the<lb/>earth; and
+                            we are sure the change was a happy<lb/>one.</p>
+                        <p>Brothers and Friends,<lb/>We are not ashamed to acknowledge, that<lb/>the
+                            time was, when our forefathers rejoiced at<lb/>finding a wild plum-tree,
+                            or at killing a little<lb/>game, and that they wandered up and
+                            down,<lb/>living on the uncertain supplies of fishing and<lb/>hunting.
+                            But, brothers, for your encourage-<lb/>ment, we now mention, that by
+                            turning their<lb/>attention to the cultivation of the earth,
+                            instead<lb/>of the plum-tree, they soon had orchards, of<lb/>many kinds
+                            of good fruit; instead of the wild<lb/>game, they soon had large numbers
+                            of cattle,<lb/>horses, sheep, hogs, and other valuable ani-<lb/>mal; an
+                            in many places, instead of their fo-<lb/>rests, they had large fields of
+                            corn and of other<lb/>grain, as also of many other valuable
+                            produc-<lb/>tions of the earth.</p>
+                        <pb n="31" facs="SW_BYM1806_031"/>
+                        <p>Brothers,<lb/>We hope your eyes will be open, to see<lb/>clearly the
+                            things which are best for you; and<lb/>that you will desire to pursue
+                            them. We be-<lb/>lieve, brothers, that it is in the heart of
+                            your<lb/>father, the President of the United States, to<lb/>assist his
+                            Red children, in the cultivation of the<lb/>earth; and to render them
+                            services, which will<lb/>be greatly for their benefit and welfare.
+                            We<lb/>hope that your exertions to change your present<lb/>mode of
+                            living, will be so plain to him, that he<lb/>will see them. This will
+                            encourage him to con-<lb/>tinue to aid you, in your endeavours.</p>
+                        <p>Brothers,<lb/>We have spoken plainly; we desire to<lb/>speak plain. We
+                            will now tell you, that we<lb/>have not come merely to talk with you.
+                            We<lb/>have come prepared to render you a little assist-<lb/>ance. Our
+                            believed brother, <persName key="pdeni1">Philip Dennis</persName>,
+                            <lb/>who is now present, has come along with us.<lb/>His desire to
+                            cultivate for you, a field of corn;<lb/>also to show you how to raise
+                            some of the other<lb/>productions of the earth. He knows how to<lb/>use
+                            the plough, the hoe, the axe, and other<lb/>implements of husbandry.</p>
+                        <p>Brothers,<lb/>We will here ask you, Are you still desi-<lb/><pb n="32" facs="SW_BYM1806_032"/>rous to be instructed by us, in the cultivation of<lb/>your lands? If
+                            you say, you are; our brother,<lb/>whom we have just mentioned, will
+                            continue<lb/>with you, during the summer. We shall leave<lb/>it to you,
+                            to shew him the spot where to begin<lb/>to work.</p>
+                        <p>Brothers,<lb/>He has left a farm; he has left a wife, and<lb/>five small
+                            children, who are very dear to him;<lb/>he has come from a sincere
+                            desire to be useful<lb/>to our Red Brethren. His motives are pure;
+                            he<lb/>will ask no reward from you, for his services;<lb/>his greatest
+                            reward will be, in the satisfaction he<lb/>will feel, in finding you
+                            inclined to take hold of<lb/>the same tools which he takes hold of; to
+                            re-<lb/>chive from him instruction in the cultivation of<lb/>your lands,
+                            and to pursue the example he will<lb/>set you.</p>
+                        <p>Brothers,<lb/>We hope, you will make the situation of<lb/>our brother as
+                            comfortable as circumstances<lb/>will admit. We hope, also, that many of
+                            your<lb/>young men will be willing to be taught by him,<lb/>to use the
+                            plough, the hoe, and other imple-<lb/>mets of husbandry. For we are
+                            sure, brothers,<lb/>that as you take hold of such tools, as are
+                            in<lb/>the hands of the white people, you will find<lb/><pb n="33" facs="SW_BYM1806_033"/>them
+                            to be to you, like having additional hands.<lb/>You will also find, that
+                            by using them, they<lb/>will enable you to do many things, which,
+                            with-<lb/>out them, cannot be performed.</p>
+                        <p>Brothers,<lb/>There is one thing more, which we wish to<lb/>add. The
+                            white people, in order to get their<lb/>land cultivated, find it
+                            necessary, that their<lb/>young men should be employed in it, and
+                            not<lb/>their women. Women are less than men. They<lb/>are not as strong
+                            as men. They are not as<lb/>able to endure fatigue and toil as men. It
+                            is<lb/>the business of our women, to be employed in<lb/>our houses, to
+                            keep them clean, to sew, knit,<lb/>spin, and weave; to dress food for
+                            themselves<lb/>and families; to make clothes for the men and<lb/>the
+                            rest of their families, to keep the clothing<lb/>of their families
+                            clean, and to take care of their<lb/>children.</p>
+                        <p>Brothers,<lb/>We desire not to mention too many things<lb/>to you; but we
+                            must add a little further. We<lb/>are fully convinced, that if you will
+                            turn your<lb/>attention to the cultivation of the earth, to<lb/>raising
+                            the different kinds of grain, to erecting<lb/>mills for grinding grain,
+                            to building comfortable<lb/>dwelling-houses for your families, to
+                            raising<lb/><pb n="34" facs="SW_BYM1806_034"/>useful animals; amongst others, sheep, for
+                            the<lb/>advantage of the wool, in making clothing; and to<lb/>raising
+                            flax and hemp, for your linen; and if<lb/>your young women learn to
+                            spin, and weave;<lb/>that your lives will be much easier, and
+                            hap-<lb/>pier, than at present; and that your numbers<lb/>will increase,
+                            and not continue to diminish. As<lb/>we before observed, brothers, your
+                            land is<lb/>good. It is far better than the land, the white<lb/>people
+                            near the great water cultivate. We are<lb/>persuaded, that your land
+                            will produce double<lb/>the quantity of any kind of grain, or of flax,
+                            or<lb/>hemp, with the same labour necessary near<lb/>the great
+                            water.</p>
+                        <p>Brothers and Friends,<lb/>We shall now end what we have to say,
+                            with<lb/>informing you, that all the corn, and other pro-<lb/>ductions
+                            of the earth, which <persName key="pdeni1">Philip
+                            Dennis</persName>,<lb/>may raise, we wish our Red Brethren to
+                            accept<lb/>of, as a token of our friendship. And it is our<lb/>desire
+                            that the chiefs of the <orgName key="potaw">Pottowattomi</orgName>
+                                and<lb/><orgName key="miami">Miami</orgName> nations, who are now
+                            present, added to<lb/>our brothers, the <persName key="fmeda1">Five
+                                Medals</persName>, <persName key="topin1"
+                            >Tuthinipee</persName>,<lb/>and <persName key="pdeni1">Philip
+                                Dennis</persName>, make such a distribution<lb/>thereof, as they may
+                            think proper.</p>
+                    </body>
+                </floatingText>
+                <p>The Indians observed great decorum, and<lb/>gave close attention during the
+                    delivery of this<lb/><pb n="35" facs="SW_BYM1806_035"/>address. They respectfully manifested their
+                    ap-<lb/>probation of the sentiments it contained, by re-<lb/>iterated
+                    exclamations of applause, and the most<lb/>evident demonstrations of
+                    satisfaction. In re-<lb/>ply, the <persName key="lturt1">Little
+                        Turtle</persName> delivered a speech on be-<lb/>half of the council, from
+                    which the following<lb/>is extracted.</p>
+                <floatingText type="speech">
+                    <body><dateline><date when="1804-06"/></dateline>
+                        <p>Brothers and Friends,<lb/>We rejoice, that the Great Spirit has
+                            ap-<lb/>pointed that we should meet this day; for we<lb/>believe, this
+                            meeting will be of the utmost con-<lb/>sequence to your Red
+                            Brethren.</p>
+                        <p>Brothres,<lb/>The things you have said to us, require our<lb/>greatest
+                            attention: it is really necessary, that we<lb/> should deliberate upon
+                            them. In order to do<lb/> so, we must beg you to leave the paper,
+                            upon<lb/>which they are written, that we may communi- <lb/>cate them to
+                            our chiefs, when they assemble in<lb/>Grand Council.</p>
+                        <p>Brothers,<lb/>You have been very particular in pointing<lb/>out to us,
+                            the duties of our women; and you<lb/>have told us, that in adoptting
+                            your mode of<lb/>living, our numbers would increase, and not<lb/><pb n="36" facs="SW_BYM1806_036"/>continue to diminish. In all this, I certainly<lb/>agree
+                            with you, and I hope my brother chiefs<lb/>will also agree with you.</p>
+                        <p>Brothers,<lb/>Assure your people who sent you here,<lb/>tell your old
+                            chiefs, that we are obliged to<lb/>them, for their friendly offers to
+                            assist us, in<lb/>changing our present mode of living. Tell them,<lb/>it
+                            is a great work, that cannot be done immedi-<lb/>ately; but that we are
+                            the way disposed, and<lb/>hope it will take place gradually.</p>
+                    </body>
+                </floatingText>
+                <p>The <orgName key="bymindian">committee</orgName> remained several weeks
+                    a-<lb/>mongst the Indians, during which time, they<lb/>visited a number of their
+                    towns and villages, at<lb/>all of which they were received in the
+                    most<lb/>friendly and hospitable manner.</p>
+                <p>In the course of their journey, they passed<lb/>by a settlement of the <orgName
+                        key="wyandot">Wyandots</orgName>, at <placeName key="browt"
+                        >Brown’s<lb/>Town</placeName>, or the Rock. They found that the
+                    In-<lb/>dians at this place, had, since the visit made by<lb/>Friends to their
+                    nation, in the year <date when="1799">1799</date>, ad-<lb/>vanced considerably
+                    in agriculture: many of<lb/>them having built comfortable houses, and
+                    ac-<lb/>queried a considerable number of cattle, hogs,<lb/>and other domestic
+                    animals. And they were in-<lb/>formed from good authority, that the <orgName
+                        key="wyandot">Wyandots</orgName>,<lb/>residing at <placeName key="sand"
+                        >Sandusky</placeName>, as well as the <orgName key="shawnee"
+                            >Shawanees</orgName>,<lb/><pb n="37" facs="SW_BYM1806_037"/>on the <geogName key="augl"
+                        >Auglaize</geogName> river, and also since the visit,<lb/>turned their
+                    attention very much towards the<lb/>cultivation of their lands. They had
+                    therefore<lb/>the satisfaction to remark, that the communi-<lb/>cations from the
+                        <orgName key="bymindian">committee</orgName> to these nations;<lb/>and the
+                    exertions which had been made, to<lb/>turn their minds to agriculture; although
+                    we<lb/>had not been in a situation to extend much<lb/>assistance to them, had
+                    not been altogether<lb/>unavailing.</p>
+                <p>They also visited the place fixed upon for the<lb/>settlement of <persName
+                        key="pdeni1">Philip Dennis</persName>, on the <geogName key="wabas"
+                        >Wabash<lb/>river</geogName>, about forty miles south-west of <placeName
+                        key="fwayn">Fort-<lb/>Wayne</placeName>; and found its situation to be very
+                    ad-<lb/>vantages for farming; the soil appearing to<lb/>be equal in fertility,
+                    to any land in the western<lb/>country. To this place there are also two
+                    good<lb/>mill-seats adjacent; one on the <geogName key="wabas"
+                    >Wabash</geogName>, which<lb/>may be improved without injuring its
+                    navigation,<lb/>and the other on a stream which falls into that<lb/>river, about
+                    half a mile below</p>
+                <p>Soon after their return home, a letter was re-<lb/>ceived by the committee, from
+                    the Indian agent<lb/>at <placeName key="fwayn">Fort-Wayne</placeName>, informing
+                    them that the Indians<lb/>had held their council in the Sixth
+                    Month,<lb/>agreeably to expectation; at which 874 of<lb/>them attended;
+                    <said>when the written address of<lb/><pb n="38" facs="SW_BYM1806_038"/><persName key="gelli1"
+                            >George Ellicott</persName> and <persName key="ghopk1">Gerard T.
+                            Hopkins</persName>, (who<lb/>it appeared had been appointed to visit the
+                        In-<lb/>dians on behalf of the Society of Friends,) was<lb/>produced, read,
+                        and interpreted to all the diffe-<lb/>rent nations present.</said> In reply
+                    to which, divers<lb/>of their chiefs expressed great satisfaction;
+                    and<lb/>amongst others <persName key="toeth1">Toethteboxie</persName>, on behalf
+                    of the<lb/><orgName key="delaware">Delawares</orgName>, said, <said>For many
+                        years before I<lb/>came into the world, the white people have<lb/>been
+                        offering to do for us, what is now men-<lb/>tioned; and it appears, that our
+                        eyes were never<lb/>opened, until this time. We will now take hold<lb/>of
+                        it, and receive it. I am an old man, and<lb/>want to see it before I die. If
+                        I once see it,<lb/>I shall die in peace, to think I have left my<lb/>women
+                        and children in comfort.</said></p>
+                <p>On the return of the friend*, <note resp="author" rend="asterisk">[* <persName key="pdeni1">P.
+                            Dennis</persName>, probably.]</note> who went out<lb/>with the <orgName
+                        key="bymindian">committee</orgName>, and remained in the Indian<lb/>country,
+                    during most of the year <date when="1804">1804</date>, he re-<lb/>ported that he
+                    spent the time agreeably with<lb/>them; and was favoured to enjoy a good
+                    portion<lb/>of health whilst there. He raised about 400<lb/>bushels of corn,
+                    besides a quantity of turnips,<lb/>potatoes, cucumbers, water-melons,
+                    pumpkins,<lb/>beans, parsnips, and other garden-vegetables;<lb/>which he
+                    directed to be divided amongst the <lb/><pb n="39" facs="SW_BYM1806_039"/> Indians on their return
+                    from their hunting<lb/>camps;and left with the family of Indians,<lb/>with whom
+                    he resided, upon the farm he had<lb/>cultivated, 23 hogs and pigs, seven of
+                    which<lb/>were in good order to kill, and he expected<lb/>would weigh 1500 lb.
+                    These he engaged the<lb/>agent to attend to the killing and salting of.<lb/>They
+                    were small when brought to the farm in<lb/>the spring, and had no other food
+                    than what they<lb/>gathered in the woods.</p>
+                <p>With some assistance, which he obtained<lb/>from <placeName key="fwayn"
+                        >Fort-Wayne</placeName>, he cleared and enclosed un-<lb/>der a substantial
+                    fence twenty acres of ground,<lb/>and built a house, thirty-two feet long and
+                    se-<lb/>venteen feet wide, a story and a half high, with<lb/>floors and
+                    partition.</p>
+                <p>He further reported that the Indians, who<lb/>remained with him, were very
+                    industrious, and<lb/>attended to his directions. The young women<lb/>wished to
+                    work in preparing the ground and<lb/>attending the corn. From this he dissuaded
+                    them;<lb/>and as some spinning-wheels had just arrived at<lb/><placeName
+                        key="fwayn">Fort-Wayne</placeName>, which had been sent by Govern-<lb/>ment,
+                    he encouraged them to go there, and<lb/>learn to spin and knit, of a white woman
+                    who<lb/>happened to be at that place. This they did,<lb/>and soon learned both
+                    to spin and knit ; and he<lb/><pb n="40" facs="SW_BYM1806_040"/>left them knitting yarn of their own
+                    spinning, when<lb/>he came away.</p>
+                <p>He also reported, that a considerable number<lb/>of <orgName key="eel"
+                        >Eel-River</orgName> and <orgName key="wea">Weas</orgName> Indians were
+                    about to<lb/>settle near the place he cultivated; and that<lb/>previously to his
+                    departure, he was with several<lb/>of their principal chiefs; who requested him
+                    to<lb/>tell Friends, that they, and the Indians gene-<lb/>rally, were much
+                    obliged to them for the assis-<lb/>tance they had given them; and hoped
+                    we<lb/>would continue our friendship towards them,<lb/>and that nothing might
+                    happen to discourage<lb/>us.</p>
+                <p>All the Indians he was amongst, were very<lb/>friendly; as was also the agent and
+                    other officers<lb/>of the Government.</p>
+                <p>As it appeared that the Indians were very<lb/>desirous of Friends continuing
+                    their care to-<lb/>wards them; and sending a person to take the<lb/>place of
+                        <persName key="pdeni1">Philip Dennis</persName>. After weightily
+                    consider-<lb/>ing the subject, it was concluded to endeavour<lb/>to procure a
+                    suitable friend for that purpose;<lb/>but none offering to engage in service,
+                    and<lb/>the committee taking into consideration the low<lb/>state of their
+                    funds, and the advanced season of<lb/><pb n="41" facs="SW_BYM1806_041"/>the year; together with the
+                    dissatisfied and unset-<lb/>tled situation of the Indians at the time, on
+                    ac-<lb/>count of a sale of land made by some of the tribes<lb/>to the United
+                    States*; <note rend="asterix">*The uneasiness, which this circumstance
+                        occasioned<lb/>amongst the Indians has since been entirely removed.</note>
+                    thought it might, for the<lb/>present season, be best to write to the
+                    agent,<lb/>and request him, to procure for us, the most<lb/>suitable character
+                    in his power; who, under his<lb/>direction, should plough the land which
+                        <persName key="pdeni1">Philip<lb/>Dennis</persName> cultivated the last
+                    season, and plant it<lb/>with corn: in the performance of which it was<lb/>hoped
+                    he would be assisted by the Indians.<lb/>We also observed, that after their corn
+                    was<lb/>planted, we were willing to believe they would<lb/>be able to manage it
+                    themselves. Should a<lb/>second ploughing however be necessary, we<lb/>directed
+                    this also to be done. This person was<lb/>also desired to prepare for them a
+                    garden of the<lb/>most useful vegetables, which they might after-<lb/>wards
+                    easily manage.</p>
+                <p>The <orgName key="bymindian">committee</orgName> have since received his
+                    answer<lb/>to this letter, in which he says, he will lose no<lb/>time in
+                    complying with their request, and that<lb/>he will at all times be ready to put
+                    the benevo-<lb/>lent concern of Friends, towards the Indians, in<lb/>execution.
+                    He also says, that at this time, a<lb/>spirit of industry exists among the
+                    Indians<lb/>generally; and that, as several of the tribes,<lb/>had requested of
+                    Government, to have a part<lb/><pb n="42" facs="SW_BYM1806_042"/> of their annuities expended in the
+                    employment<lb/>of men, to split rails, and make fences for them,<lb/>the
+                        <orgName key="delaware">Delawares</orgName> had twenty-three
+                    thousand<lb/>rails put up into fences, the last winter; and<lb/>that forty
+                    thousand more would be made into<lb/>fences for the <orgName key="miami"
+                        >Miami</orgName> and <orgName key="eel">Eel-River Indians</orgName>,
+                    by<lb/>the first of the Sixth Month. He adds, that ten<lb/>families of the
+                        <orgName key="miami">Miami</orgName> have settled adjoining the<lb/>place
+                    cultivated by <persName key="pdeni1">Philip Dennis</persName>; and that<lb/>four
+                    men were employed in making rails to<lb/>fence forty acres for them; also, that
+                    three<lb/>persons more were at work for the <orgName key="eel"
+                        >Eel-River</orgName><lb/>Indians, half a mile below <persName key="pdeni1"
+                        >Dennis’s</persName> station;<lb/>that they had twenty-five acres cleared
+                    and<lb/>ready for the plough, and he expected would<lb/>have fifty or sixty
+                    acres fenced in by the first<lb/>of the Sixth Month. He further adds,
+                    that<lb/>he expects at least twenty five families of In-<lb/>dians will remove
+                    to reside at that place the<lb/>present season, and he is confident the
+                    settlement<lb/>will increase very fast. The Indian who worked<lb/>during the
+                    last season with <persName key="pdeni1">Philip Dennis</persName> was<lb/>about
+                    building himself a comfortable house, had<lb/>cleared two acres more of ground,
+                    and was<lb/>ploughing the field previously cleared by <persName key="pdeni1"
+                        >Philip<lb/>Dennis</persName>. The hogs which were left there with<lb/>him,
+                    had increased to one hundred in number.</p>
+                <p>The agent further says, that there would be<lb/><pb n="43" facs="SW_BYM1806_043"/>one hundred acres of
+                    land under good fence, at<lb/>the <placeName key="lturtown">Little Turtle’s
+                        Town</placeName> (eighteen miles north<lb/>of <persName key="pdeni1"
+                        >Dennis</persName>’s station), by the first of the Sixth<lb/>Month; where
+                    they had also obtained a large<lb/>number of hogs, and some cows; and he
+                    doubts<lb/>not, but that the Indians will soon see, that it is<lb/>easier to
+                    raise food, than to procure it by hunt-<lb/>ing; and adds, Friends may see, from
+                    the great<lb/>progress they have made in civilization, since<lb/><persName
+                        key="pdeni1">Philip Dennis</persName> was with them, that they only<lb/>want
+                    good and suitable men to reside amongst<lb/>them, and teach them how to
+                    work.</p>
+                <p>Notwithstanding there are several other na-<lb/>tons, who appear desirous of the
+                    assistance and<lb/>care of Friends; yet from the limited state of<lb/>our funds,
+                    we have heretofore been under the<lb/>necessity of confining our aid,
+                    principally, to<lb/>the <orgName key="miami">Miami</orgName>, <orgName key="eel"
+                        >Eel-River</orgName>, and <orgName key="wea">Weas</orgName> Indians.</p>
+                <p>It will be perceived, that during several years<lb/>of the first labours of the
+                        <orgName key="bymindian">committee</orgName>, but little<lb/>progress was
+                    made. This may be attributed, in<lb/>a great measure, to the pernicious effects
+                    of<lb/>ardent spirits amongst them. As soon as the<lb/>introduction of this
+                    great evil into their country<lb/>was restrained, there was an immediate
+                    im-<lb/>provement discoverable; and an almost univer-<lb/>sal disposition seemed
+                    to pervade them, to aban-<lb/><pb n="44" facs="SW_BYM1806_044"/>don their former habits of living, and
+                    turn to<lb/>the cultivation of their lands. Their progress<lb/>in civilization
+                    has, since then, been much more<lb/>rapid, than the most sanguine could have
+                    ex<lb/>pected; and on comparing the condition of these<lb/>Indian tribes, at the
+                    time the last deputation from<lb/>our committee visited them, with their
+                    present<lb/>situation, we are of opinion, that there is great<lb/>cause of
+                    encouragement for Friends to persevere<lb/>in the benevolent work they have
+                    undertaken;<lb/>and strong ground to hope, that our labours<lb/>will, in the
+                    end, be crowned with the desired<lb/>success.</p>
+                <p>When we reflect on the gradual, but con-<lb/>tinued decrease of these people,
+                    from the time<lb/>the Europeans first visited this continent, until<lb/>the
+                    present; and the many whole tribes, of<lb/>which not any trace now remains,
+                    except their<lb/>names; there is every reason to believe, that<lb/>should the
+                    Indians continue to pursue their<lb/>former mode of life, a few centuries
+                    more,<lb/>many other whole nations of them will become<lb/>entirely extinct.</p>
+                <p>Impressed with this melancholy consideration,<lb/>it must be a prospect truly
+                    gladdening to the en-<lb/>lightened Christian mind, to survey the
+                    hasten-<lb/>ing of that day, when this part of the human fa-<lb/><pb n="45" facs="SW_BYM1806_045"/>mily, weaned from savage habits, and allured by<lb/>the superior advantages of
+                    civil life, shall ex-<lb/>change the tomahawk and scalping knife for
+                    the<lb/>plough and the hoe; and instead of ranging the<lb/>forests in seeming
+                    affinity to the wild beasts of desert,<lb/>shall peacefully and rationally
+                    enjoy<lb/>the productions of the fruitful field!—Nor is<lb/>this all. Added to
+                    the cultivation of the earth,<lb/>the first step in the view of the
+                    committee,<lb/>the first step in the view of the committee,<lb/>towards many
+                    other important temporal advan-<lb/>tages, to be derived o this people from
+                    civil<lb/>life; may not the promotion of this concern,<lb/>which has thus far
+                    evidently prospered, prepare<lb/>for, and prove the means under the DIVINE
+                    BLES-<lb/>SING, through which, may finally spread and<lb/>prevail amongst these,
+                    our fellow-men, that<lb/>LIGHT and KNOWLEDGE, which so eminently<lb/>distinguish
+                    the true CHRISTIAN?</p>
+                <closer><dateline><placeName key="balt1">Baltimore</placeName>, <date when="1805-11"
+                            >Eleventh Mo. 1805</date></dateline>.</closer>
+            </div>
+            <div type="epilogue">
+                <pb n="46" facs="SW_BYM1806_046"/>
+                <head>POSTSCRIPT.</head>
+                <opener>SINCE this narrative was prepared for<lb/>publication, a letter has been
+                    received from the<lb/>agent at <dateline><placeName key="fwayn"
+                            >Fort-Wayne</placeName>, dated the <date when="1805-10-05">5th of
+                            the<lb/>Tenth Month, 1805</date></dateline>, in which he says,</opener>
+                <floatingText type="letter">
+                    <body><dateline><date when="1805-10-05"/></dateline>
+                        <p>Agreeably to the directions of the commit-<lb/>tee, I have employed a man
+                            to assist the Indians<lb/>in cultivating the field on the <geogName
+                                key="wabas">Wabash</geogName>, which<lb/>was cleared and cultivated
+                            by <persName key="pdeni1">Philip Dennis</persName>
+                            <date when="1804">last<lb/>year</date>. The Indians with the man’s
+                            assistance<lb/>have raised, it is supposed, at least six
+                            hundred<lb/>bushels of good corn from this one field, ex-<lb/>clusive of
+                            what they have raised from ground<lb/>of their own clearing.</p>
+                        <p>Many of the oldest of the <orgName key="eel">Eel-River</orgName>
+                                and<lb/><orgName key="wea">Weas</orgName> Indians have removed and
+                            settled at that<lb/>place, where they will be followed by
+                            the<lb/>younger branches of their tribes in the ensuing<lb/>spring.</p>
+                    </body>
+                </floatingText>
+                <p>He adds, <floatingText type="letter">
+                        <body>
+                            <p>Believing as I do, that the Society<lb/>of Friends are desirous of a
+                                meliorating the situa-<lb/>tion of their Red Brethren in this
+                                country, I will<lb/><pb n="47" facs="SW_BYM1806_047"/>take the liberty to observe, that
+                                the present is<lb/>a very favourable time, to put in execution
+                                their<lb/>benevolent views, towards the distressed natives<lb/>of
+                                this land; and that much good may be done<lb/>on the <geogName
+                                    key="wabas">Wabash</geogName>, by sending one or two
+                                suit-<lb/>able men to reside amongst the Indians, and<lb/>teach them
+                                how to raise stock, and cultivate the<lb/>earth. Witness what
+                                    <persName key="pdeni1">Philip Dennis</persName>
+                                effected<lb/>amongst them the last year. At a station where<lb/>he
+                                had every thing to begin, there are now at<lb/>least four hundred
+                                hogs and twenty cows; and<lb/>the Indians at no village in this
+                                country live so<lb/>comfortably, as those at that place. If this
+                                spirit<lb/>of industry is kept alive for a few years, it
+                                will<lb/>certainly have a powerful influence upon the<lb/>minds of
+                                the Indians at many of the neighbour-<lb/>ing villages. The Indians
+                                have lately concluded<lb/>a treaty with the United States, which
+                                has<lb/>settled all their jarring interests.</p>
+                        </body>
+                    </floatingText></p>
+
+                <p>Printed by Phillips &amp; Fardon, George Yard, Lombard Street, London.</p>
+            </div>
+
+
+        </body>
+
+
+    </text>
+</TEI>

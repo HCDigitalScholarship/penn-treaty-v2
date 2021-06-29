@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body style="background-color: #97d2f0">
+
+<table id="table_id" class="display">
+    <tbody>
+{% for dict_item in list_of_dict %}
+   {% for key, value in dict_item.items() %}
+    <tr>
+      <td><b>{{key}}</b></td>
+      <td>{{value|safe}}</td>
+    </tr>
+   {% endfor %}
+{% endfor %}
+    </tbody>
+</table>
+
+</body>
+</html>

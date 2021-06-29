@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>People, Places, and Groups</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/r/zf-5.5.2/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.9,b-1.0.3,b-colvis-1.0.3,b-flash-1.0.3,b-html5-1.0.3,b-print-1.0.3,r-1.0.7,se-1.0.1/datatables.min.css"/>
+    <script type="text/javascript" charset="utf8" src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.datatables.net/r/zf-5.5.2/jq-2.1.4,jszip-2.5.0,pdfmake-0.1.18,dt-1.10.9,b-1.0.3,b-colvis-1.0.3,b-flash-1.0.3,b-html5-1.0.3,b-print-1.0.3,r-1.0.7,se-1.0.1/datatables.min.js"></script>        
+</head>
+
+<style>
+                /* Style the header with a grey background and some padding */
+    .header {
+    overflow: hidden;
+    background-color: #073a52;
+    padding: 20px 10px;
+
+    }
+
+    /* Style the header links */
+    .header a {
+    float: left;
+    color: rgb(253, 253, 253);
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+    }
+
+    /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+    .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    }
+
+    /* Change the background color on mouse-over */
+    .header a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+
+    /* Style the active/current link*/
+    .header a.active {
+    background-color: dodgerblue;
+    color: white;
+    }
+
+    /* Float the link section to the right */
+    .header-right {
+    float: right;
+    }
+
+        /* Style the tab */
+    .tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    }
+
+    /* Style the buttons that are used to open the tab content */
+    .tab button {
+    font-family: 'Poppins', sans-serif;
+    color: midnightblue;
+    background-color: inherit;
+    float: left;
+    border: none;
+    margin:0px;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    }
+
+    /* Change background color of buttons on hover */
+    .tab button:hover {
+    background-color: #ddd;
+    }
+
+    /* Create an active/current tablink class */
+    .tab button.active {
+    background-color: #ccc;
+    }
+
+    /* Style the tab content */
+    .tabcontent {
+        padding:10px; 
+        width:70%; 
+        margin:0 auto;
+    }
+
+        /* Add media queries for responsiveness - when the screen is 650px wide or less, stack the links on top of each other */
+    @media screen and (max-width: 650px) {
+        .header a {
+            float: none;
+            display: block;
+            text-align: left;
+        }
+        .tabcontent {
+            width: 100%;
+            margin: 0 0;
+        }
+        .header-right {
+            float: none;
+        }
+    }
+</style>
+<body style="margin: 0px; font-family: 'Poppins', sans-serif;">
+
+    <div class="header">
+      <a href="/" class="logo">Beyond Penn's Treaty</a>
+      <div class="header-right">
+        <a href="/about">About</a>
+        <a href="/manuscripts">Manuscripts</a>
+        <a href="#default">Profiles</a>
+        <a href="/credits">Credits</a>
+      </div>
+    </div>
+    <!-- Tab links -->
+    <div class="tab">
+        <button class="tablinks" onclick="openTable(event, 'people-div')" id="defaultOpen">People</button>
+        <button class="tablinks" onclick="openTable(event, 'places-div')">Places</button>
+        <button class="tablinks" onclick="openTable(event, 'organizations-div')">Organizations</button>
+    </div>
+
+    <div id="people-div" class="tabcontent">
+        <table id="people" class="display" cellspacing="0">
+            <thead>
+                    <tr>
+                            <th>Name</th>
+                            <th>Other Names</th>
+                            <th> Affiliation </th>
+                            <th> Birth Date</th>
+                            <th> Death Date </th>
+                            <th> URI LCNAF  </th>
+                    </tr>
+            </thead>
+            <tbody>
+                {% for person in people_data %}              
+                                    
+                    <tr>
+
+                        <td>
+                            <a href="/people/{{person[1]}}">  {{person[6]}} </a>
+                        </td>
+                        <td> {{person[7]}} </td>
+
+                        <td> </td>
+                        <td> {{person[8]}} </td>
+                        <td>{{person[9]}} </td>
+                        <td><a href = "{{person[2]}}"> {{person[2]}} </a></td>
+
+                    </tr>
+                                                        
+                {% endfor %}           
+            </tbody>
+        </table>
+    </div>
+
+    <div id="places-div" class="tabcontent">
+        <table id="places" class="display" cellspacing="0" width="100%">
+            <thead>
+                    <tr>
+                            <th>Name</th>
+                            <th>Alternate Names</th>
+                            <th>State</th>
+                            <th>Latitude</th>
+                            <th>Longitude</th>
+
+                    </tr>
+            </thead>
+            <tbody>
+                {% for place in places_data %}              
+                                    
+                    <tr>
+
+                        <td>
+                            <a href="/places/{{place[0]}}">  {{place[1]}} </a>
+                        </td>
+                        <td> {{place[6]}} </td>
+                        <td> {{place[3]}} </td>
+                        <td> {{place[8]}} </td>
+                        <td> {{place[9]}} </td>
+                    
+
+                    </tr>
+                                                        
+                {% endfor %}           
+            </tbody>
+        </table>
+    </div>
+    
+    <div id="organizations-div" class="tabcontent">
+        <table id="organizations" class="display" cellspacing="0" width="100%">
+            <thead>
+                    <tr>
+                            <th>Name</th>
+                            <th>Associated Places</th>
+                            <th>Notes</th>
+                            
+
+                    </tr>
+            </thead>
+            <tbody>
+                {% for org in org_data %}              
+                                    
+                    <tr>
+
+                        <td>
+                            <a href="/organizations/{{org[1]}}">  {{org[3]}} </a>
+                        </td>
+                        <td> {{org[7]}} </td>
+                        <td> {{org[13]}} </td>                 
+
+                    </tr>
+                                                        
+                {% endfor %}           
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+          $('#people').DataTable( {
+            "aLengthMenu": [[20, 50, 100, -1], [20, 50, 100]]
+            } );
+        } );
+
+        $(document).ready(function() {
+          $('#places').DataTable( {
+            "aLengthMenu": [[20, 50, 100, -1], [20, 50, 100]]
+            } );
+        } );
+
+        $(document).ready(function() {
+          $('#organizations').DataTable( {
+            "aLengthMenu": [[20, 50, 100, -1], [20, 50, 100]]
+            } );
+        } );
+        
+        document.getElementById("defaultOpen").click();
+        function openTable(evt, profileName) {
+            // Declare all variables
+            var i, tabcontent, tablinks;
+
+            // Get all elements with class="tabcontent" and hide them
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+
+            // Get all elements with class="tablinks" and remove the class "active"
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+
+            // Show the current tab, and add an "active" class to the button that opened the tab
+            document.getElementById(profileName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+        </script>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Quakers to General Wayne, 1795: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Mary Olesnavich</name>
+                </respStmt>
+            </titleStmt>
+            <extent>ca.9 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2015</date>
+                <idno type="local">SW_1795_05_25</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Miscellaneous Manuscripts</collection>
+                        <idno>Misc Mss 1795_05_25</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>2 pp.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This letter is part of a collection of miscellaneous correspondence and is housed
+                    at Friends Historical Library, on the campus of Swarthmore College. </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in 1795<date/></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list>
+                        <item>Society of Friends - New York (State)</item>
+                        <item>Society of Friends -- Missions</item>
+                        <item>Indians of North America -- Missions</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>PCO edits<date>2015</date></item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="letter"><pb n="1" facs="SW_Letters_1795_05_25_Page_1"/>
+             
+                <opener><dateline><placeName key="phila">Philadelphia</placeName>
+                        <date when="1795-05-25">25th 5th Mo 1795</date></dateline><salute> Respected
+                        Friend </salute></opener>
+                <p> It has been considered as <lb/> a Duty by our Religious Society from the first
+                    <lb/> Settlement of <placeName key="penns"/>Pennsylvania to labour and use <lb/>
+                    Endeavours to promote peace with the Indians <lb/> solely with a View to prevent
+                    the Calamities <lb/> of War, and being informed that a Treaty is <lb/> like to
+                    take Place with that people under thy Superintendance and
+                    <lb/> Direction, the Subject engaged the Attention <lb/> of our <orgName key="pym">Meeting for
+                    Suffering</orgName>, with other <lb/> Friends from the different Quarters of our <lb/>
+                    Yearly Meeting, who on Deliberation <lb/> felt a Desire to unite any
+                        Influence they <lb/> may have <del>with</del> on the Indians
+                    with the general <lb/> Government to promote so good a Work -- </p>
+                <p> An Address to the Indians was prepared <lb/> in the Year 1793 which was
+                    forwarded by <lb/> some of our Brethren to the care of <persName key="amcke1"
+                        >Alexr <lb/> McKee</persName>, a copy of which with something <lb/>
+                    additional has with the Consent of the <lb/> President &amp; of <persName
+                        key="cpic">Col Pickering</persName> been concluded <lb/> upon to be sent to
+                    thy care with a small <lb/> Present of Goods as pr Invoice. We
+                    request <lb/> the favour of thee to <del>present</del> deliver those Addresses <lb/>
+                    <del>in the usual way</del> with our particular present <lb/><pb n="2" facs="SW_Letters_1795_05_25_Page_2"/> of Goods in
+                    the usual Way in the Name of our Religious Society. With sincere Desires <lb/>
+                    for thy Welfare and that thou may be favoured <lb/> with that wisdom which is
+                        profitable to direct <lb/> in conducting the
+                        Business in such way as may <lb/> tend to the Glory of
+                    God, thy own substantial Peace <lb/> and the Benefit of
+                        <gap/> all concerned</p>
+                <closer><salute>We remain with due Respect <lb/> My <gap/>real
+                        Friends<lb/> To <persName key="gwayn1">General <del>Anthy</del> Wayne
+                            <del>Esq.</del><lb/></persName> Signed on behalf of the Religious Society <lb/>
+                        of people called Quakers by <lb/>
+                    </salute>
+                    <signed>
+                        <list>
+                            <item>
+                                <persName key="jparr1">John Parrish</persName></item>
+                            <item>
+                                <persName key="dbaco1">David Bacon</persName></item>
+                            <item>
+                                <persName key="nwaln1">Nicholas Waln</persName></item>
+                            <item>
+                                <persName key="hdrin1">Henry Drinker</persName></item>
+                        </list></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

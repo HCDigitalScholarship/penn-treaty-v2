@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+
+        <fileDesc>
+
+            <titleStmt>
+                <title>Subscriptions from Shrewsbury Monthly Meeting for Promoting the Civilization and Well-Being of the Indian
+                    Natives: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>NAME</name>
+                </respStmt>
+                
+                <sponsor>Tri-Co Digital Humanities Initiative</sponsor>
+                <funder>Andrew W. Mellon Foundation</funder>
+            </titleStmt>
+            <extent>ca. 36 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so only with the permission of Friends
+                        Historical Library of Swarthmore College. This is the case whether the new
+                        publication will be made available at a cost or free of charge.</p>
+                </availability>
+                <date when="2015">2015</date>
+                <idno type="local">SW_NYYM_Subscriptions</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>NYYM Records</collection>
+                        <idno>RG2/NYy/700</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>6 pp. (1 folder)</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This collection of Subscriptions is housed at Friends Historical Library, on the
+                    campus of Swarthmore College. </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases. </p>
+
+            </editorialDecl>
+
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in <date from="1805" to="1824">1805-1824</date></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list><item>Onondaga Indians</item>
+                        <item>Quakers -- New York (State)</item>
+                        <item>Indians of North America</item>
+                        <item>New York Yearly Meeting of the Relgiious Society of Friends</item>
+                        <item>Accounts</item>
+                    </list>
+                </keywords>
+            </textClass>
+
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>
+                    <date when="2015"/>POD edit</item>
+
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+
+        <body>
+
+            <div type="accounts"><pb n="1" facs="SW_NYYMsubscriptions_Page_001"/>
+                <dateline><date when="1805-10"/><placeName key="shrew"/></dateline>
+                <p>We, the Subscribers, do hereby agree, and promise to pay<lb/> on, or before the
+                    first day of the second Month next, unto the<lb/> person, or persons appointed
+                    by the Monthly Meeting of Friends<lb/> in <placeName key="shrew"
+                        >Shrewsbury</placeName> to collect the same, the sum of Money here
+                    under<lb/> written against our names, to be applied to the benevolent<lb/>
+                    purposes of promoting the Civilization and well being of the<lb/> Indian Natives
+                        <date when="1805-10">10th Month 1805</date></p>
+                <table>
+                    <row>
+                        <cell>Subscribers names</cell>
+                        <cell>sum (in words)</cell>
+                        <cell>if paid</cell>
+                        <cell>£</cell>
+                        <cell>S.</cell>
+                        <cell>D</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="wpark1">William Parker Junr</persName></cell>
+                        <cell>Two Dollers </cell>
+                        <cell>X</cell>
+                        <cell>0</cell>
+                        <cell>16</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jalle3">Jediah Allen</persName></cell>
+                        <cell>half a Doller</cell>
+                        <cell>X</cell>
+                        <cell>0</cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="accounts">
+                <pb n="2" facs="SW_NYYMsubscriptions_Page_002"/>
+                <dateline><date when="1805-10"/><placeName key="shrew"/></dateline>
+                <p>We the Subscribers Do hereby agree and promis to pay<lb/> on or before the <date
+                        when="1806-02-01">first Day of the Second Month Next</date><lb/> unto the
+                    person or persons appointed by the Monthly Meeting<lb/> of Friends in <placeName
+                        key="shrew">Shrewsbury</placeName> to collect the Same the Sum of<lb/> money
+                    heare under Written against our Names to be applied<lb/> to the benevolent
+                    purpose of promoting the civilization<lb/> &amp; Well being of the Indian
+                    Natives </p>
+                <table>
+                    <row>
+                        <cell>Subscribers names</cell>
+                        <cell>Sum Linewords-</cell>
+                        <cell>if paid</cell>
+                        <cell>£</cell>
+                        <cell>S.</cell>
+                        <cell>D</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jmorr2">James Morris----X</persName></cell>
+                        <cell>one dollors---</cell>
+                        <cell>paid</cell>
+                        <cell>0</cell>
+                        <cell>8</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jlawr1">James Lawrence---X</persName></cell>
+                        <cell>fifty cents---</cell>
+                        <cell>paid</cell>
+                        <cell>0</cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="tcook1">Thomas Cook---X</persName></cell>
+                        <cell>one dollor and 25 cents</cell>
+                        <cell>paid</cell>
+                        <cell>0</cell>
+                        <cell>10</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="ecurt1">Ebenezor Curtis X</persName></cell>
+                        <cell>one dollor</cell>
+                        <cell>paid</cell>
+                        <cell>0</cell>
+                        <cell>8</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="bjack1">Benjamine Jackson X</persName></cell>
+                        <cell>one dollor and 25 cents</cell>
+                        <cell>paid</cell>
+                        <cell>-</cell>
+                        <cell>10</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="elafe1">Edmond Lafetra X</persName></cell>
+                        <cell>fifty cents</cell>
+                        <cell>paid</cell>
+                        <cell>-</cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="ttilt1">thomas tilton X</persName></cell>
+                        <cell>one dollor</cell>
+                        <cell>paid</cell>
+                        <cell> </cell>
+                        <cell>8</cell>
+                        <cell> </cell>
+                    </row>
+                </table>
+            </div>
+            <div type="accounts">
+                <pb n="3" facs="SW_NYYMsubscriptions_Page_003"/>
+                <dateline><date when="1805-10"/><placeName key="shrew"/></dateline>
+                <p>We the Subscribers do hereby agree and promise<lb/> to pay on or before the <date
+                        when="1806-02-01">first Day of the Second Month<lb/> next</date>, unto the
+                    Person or Persons appointed by the Monthly<lb/> Meeting of Friends in <placeName
+                        key="shrew">Shrewsbury</placeName> to collect the same,<lb/> the sums of
+                    Money here under written against our names,<lb/> to be applied to the benevolent
+                    purposes of promoting<lb/> the civilization and wellbeing of the Indian natives
+                        <date when="1805-10">10th Mo 1805</date><lb/>
+                </p>
+                <table>
+                    <row>
+                        <cell>Subscribers Names</cell>
+                        <cell>Sum in words</cell>
+                        <cell>if pd</cell>
+                        <cell>£</cell>
+                        <cell>S.</cell>
+                        <cell>D</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jhart1">John Hartshorne--</persName></cell>
+                        <cell>Eight Dollars---</cell>
+                        <cell>pd</cell>
+                        <cell>JH.3</cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jhart2">John Hartshorne Jr.</persName></cell>
+                        <cell>Five Dollars---</cell>
+                        <cell>pd</cell>
+                        <cell>2</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jsalt1">Joseph Salter</persName></cell>
+                        <cell>Five Dollars</cell>
+                        <cell>pd</cell>
+                        <cell>JH2</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="tbord1">Thomas</persName> &amp; <persName key="bbord1"
+                                >Benjamin Borden</persName></cell>
+                        <cell>Six Dollars---</cell>
+                        <cell>pd</cell>
+                        <cell>JH2</cell>
+                        <cell>8</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="bcovl1">Benjamin Covlies X</persName></cell>
+                        <cell>four Dollars</cell>
+                        <cell>pd J.H.</cell>
+                        <cell>1</cell>
+                        <cell>12</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="whanc1">William Hance</persName></cell>
+                        <cell>Three Dollars</cell>
+                        <cell>pd</cell>
+                        <cell>1</cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jbord11">John Borden x</persName></cell>
+                        <cell>one Doller</cell>
+                        <cell>paid B White</cell>
+                        <cell>0</cell>
+                        <cell>8</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jwhit11">Joseph White x</persName></cell>
+                        <cell>one Doller</cell>
+                        <cell>pd J.H</cell>
+                        <cell>-</cell>
+                        <cell>8</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><unclear>H</unclear> Park</cell>
+                        <cell>fifteen Dolers</cell>
+                        <cell>BW</cell>
+                        <cell>6</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="rwhit1">Rob</persName> &amp; <persName key="bwhit1"
+                                >Benj White</persName></cell>
+                        <cell>Eight Doller x</cell>
+                        <cell>BW</cell>
+                        <cell>3</cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jcorl1">Jacob Corlis Jn x</persName></cell>
+                        <cell>too Dollars</cell>
+                        <cell>pd J.H.</cell>
+                        <cell>0</cell>
+                        <cell>16</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="gwhit2">George A White</persName></cell>
+                        <cell>one dollar</cell>
+                        <cell>pd BW</cell>
+                        <cell> </cell>
+                        <cell>8</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell>Brittain White</cell>
+                        <cell>Five Dollars</cell>
+                        <cell>BW</cell>
+                        <cell>2</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell>£2512</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                </table>
+            </div>
+            <div type="accounts">
+                <pb n="4" facs="SW_NYYMsubscriptions_Page_004"/>
+                <dateline><date when="1824"/><placeName key="shrew"/></dateline>
+                <p>Dr Indian Com. -- In Trust With
+                    <persName key="jbarr1">John Barrow Treasurer</persName>
+                </p>
+                <table>
+                    <row>
+                        <cell>1821<lb/>1mo 24</cell>
+                        <cell>To Cash remitted M Doxeter p order Com</cell>
+                        <cell>$20</cell>
+                        <cell>1820<lb/> 12mo</cell>
+                        <cell>Br Amt of <unclear>Bol o Aut selled</unclear></cell>
+                        <cell>132 65</cell>
+                    </row>
+                    <row>
+                        <cell>4m 26</cell>
+                        <cell>Cash pd <unclear>Voler</unclear> Hicks p order Acos
+                            Ruthbone</cell>
+                        <cell>52</cell>
+                        <cell>1822<lb/> 6m 6</cell>
+                        <cell>Cash of Treasurer Mo Meet NY prin or Bond</cell>
+                        <cell>500</cell>
+                    </row>
+                    <row>
+                        <cell>6 mo 9</cell>
+                        <cell>Cash pd <unclear>J Evernis</unclear> name p order
+                            Jas Mott</cell>
+                        <cell>60</cell>
+                        <cell> </cell>
+                        <cell><unclear>Interest in Bond to M Mott</unclear></cell>
+                        <cell>150</cell>
+                    </row>
+                    <row>
+                        <cell>10m 3</cell>
+                        <cell>Cash pd <persName key="teddy1">Tho Eddy</persName> p oder Com </cell>
+                        <cell>2297</cell>
+                        <cell>1823</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>12m 12</cell>
+                        <cell>Cash pd <unclear>James Mott for LP Mott</unclear></cell>
+                        <cell>5550</cell>
+                        <cell>523</cell>
+                        <cell>Cash of Treasurer to Mo Meet Bond</cell>
+                        <cell>500</cell>
+                    </row>
+                    <row>
+                        <cell> </cell>
+                        <cell>Cash pd <persName key="cwill2">Chas Willis</persName></cell>
+                        <cell>1423</cell>
+                        <cell> </cell>
+                        <cell>Interest on Do</cell>
+                        <cell>120</cell>
+                    </row>
+                    <row>
+                        <cell>1822<lb/> 5mo 29</cell>
+                        <cell>Cash pd <persName key="cwill2">Chas Willis</persName></cell>
+                        <cell>1312</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>6mo 1</cell>
+                        <cell>Cash pd <persName key="teddy1">Tho Eddy</persName></cell>
+                        <cell>2867</cell>
+                        <cell>1824<lb/> 6m 3</cell>
+                        <cell>Cash of Treasurer Mo Meet NY</cell>
+                        <cell>500</cell>
+                    </row>
+                    <row>
+                        <cell>6m 28</cell>
+                        <cell>Cash pd Wm J Burling (A Cany)</cell>
+                        <cell>100</cell>
+                        <cell> </cell>
+                        <cell>Interest on Do</cell>
+                        <cell>90</cell>
+                    </row>
+                    <row>
+                        <cell>12- 6</cell>
+                        <cell>Cash pd <persName key="teddy1">Tho Eddy</persName></cell>
+                        <cell>24</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>1823</cell>
+                        <cell>Cash pd Adam Cony Dft</cell>
+                        <cell>180</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>5m 23</cell>
+                        <cell>Cash pd Adam Cony</cell>
+                        <cell>300</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>7m 12</cell>
+                        <cell>Cash p <persName key="whick1">Willet Hicks</persName> (A Civz</cell>
+                        <cell>100</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>10 14</cell>
+                        <cell>Cash p Adam Cony</cell>
+                        <cell>220</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>1824<lb/> 1mo 20</cell>
+                        <cell>Cash pd <persName key="teddy1">Tho Eddy</persName></cell>
+                        <cell>5</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>5 mo 6</cell>
+                        <cell>Cash pd Adam Cony Dft</cell>
+                        <cell>130 85</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>6 mo 3</cell>
+                        <cell>Cash pd Tho Willes p order Co</cell>
+                        <cell>31 47</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell>10-20</cell>
+                        <cell>Cash pd A Cony Dft</cell>
+                        <cell>400</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                </table>
+            </div>
+            <div type="accounts">
+                <pb n="5" facs="SW_NYYMsubscriptions_Page_005"/>
+                <dateline><date when="1805-10"/><placeName key="shrew"/></dateline>
+                <p>We the Subscribers, do hereby agree and promise to pay on<lb/> or before the
+                        <date when="1806-02-01">first day of the Second Month next</date>, unto
+                    the<lb/> person, or persons appointed by the Monthly Meeting of<lb/> Friends in
+                        <placeName key="shrew">Shrewsbury</placeName>, to collect the same the sum
+                    of money<lb/> hereunder written against our names, to be applied <del>to
+                        the</del><lb/> to the benevolent purposes of promoting the civilization
+                    and<lb/> well being of the Indian Natives<lb/>
+                    <date when="1805-10">10th Mo 1805</date></p>
+                <table>
+                    <row>
+                        <cell>Subscribers Names</cell>
+                        <cell>Sum in (words)</cell>
+                        <cell>if paid</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="bpark1">Benjamin Parker</persName></cell>
+                        <cell>Three Dollars X Paid</cell>
+                        <cell> </cell>
+                        <cell>1</cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jwolc1">Joseph Wolcott</persName></cell>
+                        <cell>Two Dollars X Paid</cell>
+                        <cell> </cell>
+                        <cell>0</cell>
+                        <cell>16</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="pwolc1">Peter Wolcott</persName></cell>
+                        <cell>one Dollar X</cell>
+                        <cell> </cell>
+                        <cell>0</cell>
+                        <cell>8</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jalle4">Joseph Allen</persName></cell>
+                        <cell>Two Dollars X</cell>
+                        <cell> </cell>
+                        <cell>0</cell>
+                        <cell>16</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="gcorl1">George Corlies</persName></cell>
+                        <cell>Two Dollars X</cell>
+                        <cell> </cell>
+                        <cell>0</cell>
+                        <cell>16</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jlafe1">James Lafetra</persName></cell>
+                        <cell>Two Dollars X Paid</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell>16</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="rpark1">Robert Parker</persName></cell>
+                        <cell>Three Dollars X Paid</cell>
+                        <cell> </cell>
+                        <cell>1</cell>
+                        <cell>4</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="jwool1">Jacob Woolley</persName></cell>
+                        <cell>Six Dollar X Paid</cell>
+                        <cell>0</cell>
+                        <cell>2</cell>
+                        <cell>8</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="spark2">Samuel Parker</persName></cell>
+                        <cell>one &amp; half Dollars X Paid</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                        <cell>12</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell> </cell>
+                        <cell> </cell>
+                        <cell>£</cell>
+                        <cell>9</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                </table>
+            </div>
+            <div type="accounts">
+                <pb n="6" facs="SW_NYYMsubscriptions_Page_006"/><dateline><date when="1805-10"/><placeName key="shrew"/></dateline>
+                <p>Subscriptions for<lb/> raising Money<lb/> On Indian affairs<lb/> rcd $149<lb/>
+                    all the within Sub-<lb/>scriptions</p>
+                <pb n="7" facs="SW_NYYMsubscriptions_Page_007"/>
+                <p>We the Subscribers do hereby agree and promise to pay<lb/> on or before the <date
+                        when="1806-02-01">first day of the second Month next</date> unto the<lb/>
+                    person, or persons appointed by the Monthly Meeting of<lb/> Friends in
+                        <placeName key="shrew">Shrewsbury</placeName> to collect the same, the sum
+                    of Money<lb/> hereunder written against our names, to be applied to the<lb/>
+                    benevolent purposes of promoting the civilization and<lb/> well being of the
+                    Indian Natives <date when="1805-10">10th mo 1805</date></p>
+                <table>
+                    <row>
+                        <cell>Subscribers Names</cell>
+                        <cell>Sum, in words</cell>
+                        <cell>if paid</cell>
+                        <cell>£</cell>
+                        <cell>S.</cell>
+                        <cell>D</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="ewill2">Edmund Williams</persName></cell>
+                        <cell>Twenty five Dollers</cell>
+                        <cell>paid</cell>
+                        <cell>10</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="ntilt1">Nathan Tilton</persName></cell>
+                        <cell>Twet Dollors</cell>
+                        <cell>paid</cell>
+                        <cell>...</cell>
+                        <cell>16</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="ttilt1">Thomas</persName> &amp; <persName key="atilt1"
+                                >Amos Tilton</persName></cell>
+                        <cell>Five Dollars</cell>
+                        <cell>paid</cell>
+                        <cell>2</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="otilt1">Obadiah Tilton</persName></cell>
+                        <cell>three Dollers</cell>
+                        <cell>paid</cell>
+                        <cell>1</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="rtilt1">Robert Tilton</persName></cell>
+                        <cell>Two Dollars &amp; 50 Cents</cell>
+                        <cell>paid</cell>
+                        <cell>..1</cell>
+                        <cell> </cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="dtilt1">David Tilton</persName></cell>
+                        <cell>Two Dollars</cell>
+                        <cell>paid</cell>
+                        <cell>...</cell>
+                        <cell>16</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="twill2">Tylee Williams</persName></cell>
+                        <cell>Five Dollars</cell>
+                        <cell>paid</cell>
+                        <cell>2</cell>
+                        <cell>0</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell> </cell>
+                        <cell><persName key="eblac1">Ezma Black</persName><lb/> One Dollar</cell>
+                        <cell>...</cell>
+                        <cell> </cell>
+                        <cell>8</cell>
+                        <cell>0</cell>
+                    </row>
+                    <row>
+                        <cell><persName key="rshre1">Rueben Shreeve</persName></cell>
+                        <cell>One Dollar</cell>
+                        <cell>paid</cell>
+                        <cell> </cell>
+                        <cell>8</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="htilt1">Hester Tilton</persName></cell>
+                        <cell>One Dollar</cell>
+                        <cell>paid</cell>
+                        <cell> </cell>
+                        <cell>8</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="rlawr2">Richd Lawrence</persName></cell>
+                        <cell>One Dollar</cell>
+                        <cell>paid</cell>
+                        <cell> </cell>
+                        <cell>8</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell><persName key="whart1">Willm Hartshorne</persName></cell>
+                        <cell>Three Dollars</cell>
+                        <cell>paid</cell>
+                        <cell>1</cell>
+                        <cell>4</cell>
+                        <cell> </cell>
+                    </row>
+                    <row>
+                        <cell> </cell>
+                        <cell>Fifty One Dollars &amp; 50 Cents</cell>
+                        <cell>...</cell>
+                        <cell>20</cell>
+                        <cell>12</cell>
+                        <cell> </cell>
+                    </row>
+                </table>
+                <p>Red $147. Total</p>
+            </div>
+            <div type="accounts">
+                <pb n="8" facs="SW_NYYMsubscriptions_Page_008"/><dateline><date when="1818-12-31"/><placeName key="nycit"/></dateline>
+                <p><persName key="ewebs1">Ephraim Webster</persName> Bought of
+                        <gap/><lb/> For the Use the <orgName key="onondaga"
+                        >Onondaga</orgName> Indians<lb/> ....1 Flax Wheel.....$4.50<lb/>....1
+                        Hetchell.....2.50<lb/>.....1 Reel.....2mo<lb/>....13a
+                    Wool...6.50<lb/> And $15.50<lb/>
+                    <unclear>Mr Barrus</unclear> Treasurer of the Friends
+                    Society<lb/> of <placeName key="nycit">N York City</placeName> pay the Above
+                    fifteen dolls<lb/> and fifty Cts To
+                    <persName><unclear>Mr. John Mowatt Jr.</unclear></persName><lb/> of the
+                        <placeName key="nycit">City of N York</placeName><lb/>
+                    <persName key="ewebs1">Ephm Webster</persName><lb/>
+                    <orgName key="onondaga">Onondaga</orgName>
+                    <gap/> Dec 31 1818<lb/> Recd the above for
+                            <persName><unclear>John Mowatt</unclear><lb/>
+                        <persName>Henry <gap/></persName></persName></p>
+            </div>
+        </body>
+
+
+    </text>
+</TEI>

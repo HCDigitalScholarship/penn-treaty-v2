@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <title>Manuscripts</title>
+
+    <script src="https://code.jquery.com/jquery-latest.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Poppins&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+
+    <script >
+        $(document).ready( function () {
+    $('#table_id').DataTable(
+            {
+                "lengthMenu": [[12, 24, 32, -1], [12, 24, 32, "All"]]
+            }
+        );
+    } );
+    </script>
+
+
+<style>
+      
+        /* Style the header with a grey background and some padding */
+.header {
+  overflow: hidden;
+  background-color: #073a52;
+  padding: 20px 10px;
+
+}
+
+/* Style the header links */
+.header a {
+  float: left;
+  color: rgb(253, 253, 253);
+  text-align: center;
+  padding: 12px;
+  text-decoration: none;
+  font-size: 18px;
+  line-height: 25px;
+  border-radius: 4px;
+}
+
+/* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
+.header a.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+/* Change the background color on mouse-over */
+.header a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active/current link*/
+.header a.active {
+  background-color: dodgerblue;
+  color: white;
+}
+
+/* Float the link section to the right */
+.header-right {
+  float: right;
+}
+
+#table_id_wrapper {
+  padding:10px; 
+  width: 70%; 
+  margin:0 auto;
+}
+
+#table_id {
+    border: 1px solid  #073a52;
+}
+
+#table_id_length {
+    margin-bottom: 10px;
+}
+
+#table_id_filter {
+    margin-bottom:10px;
+}
+
+/* Add media queries for responsiveness - when the screen is 650px wide or less, stack the links on top of each other */
+@media screen and (max-width: 650px) {
+  .header a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .header-right {
+    float: none;
+  }
+
+  #table_id_wrapper {
+    width: 80%;
+  }
+}
+    </style>
+</head>
+<body style="margin: 0px; font-family: 'Poppins', sans-serif;">
+    <div class="header">
+      <a href="/" class="logo">Beyond Penn's Treaty</a>
+      <div class="header-right">
+        <a href="/about">About</a>
+        <a href="#default">Manuscripts</a>
+        <a href="/profiles">Profiles</a>
+        <a href="/credits">Credits</a>
+      </div>
+    </div>
+
+<table id="table_id" class="display" >
+
+    <thead style="background-color: white; color: #073a52">
+        <tr>
+            <th>Manuscript</th>
+            <th>Type</th>
+            <th>Page View</th>
+            <th>Raw Text</th>
+        </tr>
+    </thead>
+
+
+
+        {% for list in hc_data %}
+        <tr >
+            {% for item in list %}
+                {% if loop.index0 == 0 %}
+                    <td>{{list[loop.index0]}}</td>
+                {% elif loop.index0 == 1 %}
+                    <td>{{list[3]}}</td>
+                {% elif loop.index0 == 2 %}
+                    <td><a href="/full_manuscript/{{list[1]}}">Page View </a></td>
+                {% elif loop.index0 == 3 %}
+                    <td><a href="/linked_{{list[2]}}">Raw Text </a></td>                
+                {% endif %}
+            {% endfor %}
+        </tr>
+        {% endfor %}
+
+        {% for list in sw_data %}
+        <tr>
+            {% for item in list %}
+                {% if loop.index0 == 0 %}
+                    <td>{{list[loop.index0]}}</td>
+                {% elif loop.index0 == 1 %}
+                    <td>{{list[3]}}</td>
+                {% elif loop.index0 == 2 %}
+                    <td><a href="/full_manuscript/{{list[1]}}">Page View </a></td>
+                {% elif loop.index0 == 3 %}
+                    <td><a href="/linked_{{list[2]}}">Raw Text </a></td>                
+            {% endif %}
+            {% endfor %}
+        </tr>
+        {% endfor %}
+</table>
+
+
+
+</body>
+</html>

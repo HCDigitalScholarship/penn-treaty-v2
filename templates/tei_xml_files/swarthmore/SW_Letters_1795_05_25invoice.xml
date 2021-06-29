@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?>
+<?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?>
+<?xml-stylesheet type="text/css" href="global.css"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Invoice of Gifts, 1795: Electronic Version</title>
+                <editor>Friends Historical Library of Swarthmore College</editor>
+                <respStmt>
+                    <resp>TEI Markup done by</resp>
+                    <name>Mary Olesnavich</name>
+                </respStmt>
+            </titleStmt>
+            <extent>ca.9 KB</extent>
+            <publicationStmt>
+                <publisher>Friends Historical Library of Swarthmore College</publisher>
+                <address>
+                    <street>500 College Avenue</street>
+                    <addrLine>Swarthmore, Pennsylvania</addrLine>
+                    <postCode>19081</postCode>
+                    <country>United States of America</country>
+                </address>
+                <availability status="free">
+                    <p>This work is the property of the Friends Historical Library of Swarthmore
+                        College. It may be copied freely by individuals for personal use, research,
+                        and teaching (including distribution to classes) as long as this statement
+                        of availability is included in the text. It may be linked to freely in
+                        Internet editions of all kinds, including for—profit works.</p>
+                    <p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Swarthmore College for licensing and cost
+                        information.</p>
+                    <p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so with the permission of Swarthmore
+                        College. This is the case whether the new publication will be made available
+                        at a cost or free of charge.</p>
+                </availability>
+                <date when="2014">2015</date>
+                <idno type="local">SW_1795_05_25invoice</idno>
+            </publicationStmt>
+            <seriesStmt>
+                <title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+            </seriesStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <institution>Friends Historical Library of Swarthmore College</institution>
+                        <collection>Miscellaneous Manuscripts</collection>
+                        <idno>Misc Mss 1795_05_25</idno>
+                    </msIdentifier>
+                    <physDesc>
+                        <p>2 pp.</p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>This invoice is part of a collection of miscellaneous manuscripts and is housed at Friends Historical
+                    Library, on the campus of Swarthmore College. </p>
+            </projectDesc>
+            <editorialDecl>
+                <p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases.
+                </p>
+            </editorialDecl>
+        </encodingDesc>
+        <profileDesc>
+            <creation>Original written in 1795<date/></creation>
+            <langUsage>
+                <language ident="en">English</language>
+            </langUsage>
+            <textClass>
+                <keywords scheme="#lcsh">
+                    <list><item>Wayne, Anthony, 1745-1796</item>
+                        <item>Treaty of Greenville</item>
+                        <item>Philadelphia Yearly Meeting of the Religious Society of Friends</item>
+                        <item>Society of Friends - Ohio</item>
+                        <item>Society of Friends -- Missions</item>
+                        <item>Indians of North America -- Missions</item>
+                    </list>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc>
+            <list>
+                <item>PCO edits<date>2015</date></item>
+            </list>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="accounts"><pb n="1" facs="SW_Letters_1795_05_25invoice_001"/>
+                
+                <p> Invoice of sundry articles provided by Friends of
+                    Pennsylvania &amp;c. and <lb/> sent to the Treaty expected to be
+                    held with the Indian Nations by <persName key="gwayn1">General Wayne</persName> <lb/> to be by him presented to
+                    them, at such time as he may see most convenient and <lb/> proper, as a token of
+                    good will and to revive in the remembrance of the Indian <lb/> Nations of this
+                    Land the ancient Friendship which subsisted between them &amp; the
+                    <lb/> people called Quakers </p>
+                   
+                <list> <dateline><placeName key="phila">Philadelphia</placeName>
+                    <date when="1795-05-25">5 mo. 25. 1795</date></dateline>
+                    <note resp="author"> Packed in a Trunk, Matted &amp; Corded and mark'd <lb/> H.D Indian Treaty.</note>
+                    <item>1600 Fish Hooks different sizes</item>
+                    <item>1000 large sewing Needles</item>
+                    <item>1000 Darning Needles</item>
+                    <item>12 doz. Awl Blades</item>
+                    <item>6 doz. Steel Thimbles</item>
+                    <item>12 doz. brass Thimbles</item>
+                    <item>36 pair Temple Spectacles</item>
+                    <item>5 pair better</item>
+                    <item>24 pair better</item>
+                    <item>36 pair silver'd Locket Sleeve Buttons</item>
+                    <item>6 burning Glasses</item>
+                    <item>17 Tobacco Boxes with burning Glasses</item>
+                    <item>12 Tobacco Pipes</item>
+                    <item>24 Iron Spoons tin'd</item>
+                    <item>18 pair large Seessars</item>
+                    <item>18 pair better</item>
+                    <item>24 pair better</item>
+                    <item>72 pocket Looking Glasses</item>
+                    <item>5 doz. horn combs</item>
+                    <item>36 small Ivory combs</item>
+                    <item>12 larger ditto</item>
+                    <item>12 larger ditto</item>
+                    <item>12 larger ditto</item>
+                    <item>4 pounds of colour'd thread</item>
+                    <item>1 pound of white thread</item>
+                    <item>1 pound finer</item>
+                    <item>1 pound finer</item>
+                    <item>10 pieces of worsted Binding</item>
+                    <item>10 pieces of silk Firrett</item>
+                    <item>35 Shawls or cotton Handkerchiefs</item>
+                    <item>24 black silk Handkerchiefs</item>
+                    <item>24 larger ditto</item>
+                    <item>24 larger ditto</item>
+                    <item>8 pieces of flag Handkerchiefs <gap></gap> in each piece</item>
+                    <item>3 pieces of cotton &amp; silk stripes</item>
+                    <item>14 yards light printed callico</item>
+                    <item>14 yards of dark fine ditto</item>
+                    <item>1 Match Coat Blanket to fill
+                        up</item>
+                </list>
+             </div>
+            
+            <div type="undetermined">
+                <pb n="2" facs="SW_Letters_1795_05_25invoice_002"/>
+            </div>
+        </body>
+    </text>
+</TEI>

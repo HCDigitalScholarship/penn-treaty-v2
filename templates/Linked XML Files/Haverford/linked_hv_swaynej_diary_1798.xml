@@ -1,0 +1,1834 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?><?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei-print.css"?><?xml-stylesheet type="text/css" href="http://www.tei-c.org/release/xml/tei/stylesheet/tei.css"?><?xml-stylesheet type="text/css" href="global.css"?><html><body><tei xmlns="http://www.tei-c.org/ns/1.0">
+<teiheader>
+<filedesc>
+<titlestmt>
+<title>Joel Swayne Diary: Electronic Version</title>
+<editor>Haverford College Quaker Collection</editor>
+<respstmt>
+<resp>TEI Markup done by</resp>
+<name>FHL staff</name>
+</respstmt>
+<respstmt>
+<resp>Journal transcribed by</resp>
+<name>Crowd-sourced</name>
+</respstmt>
+</titlestmt>
+<extent>ca. 152 KB</extent>
+<publicationstmt>
+<publisher>Haverford College</publisher>
+<address>
+<street></street>
+<addrline>Haverford, Pennsylvania</addrline>
+<postcode></postcode>
+<country>United States of America</country>
+</address>
+<availability status="free">
+<p>This work is the property of Haverford College Special Collections. It may be
+                        copied freely by individuals for personal use, research, and teaching
+                        (including distribution to classes) as long as this statement of
+                        availability is included in the text. It may be linked to freely in Internet
+                        editions of all kinds, including for—profit works.</p>
+<p>Publishers, libraries, and other information providers interested in
+                        providing this text in a commercial or non—profit product or from an
+                        information server must contact Haverford College for licensing and cost
+                        information.</p>
+<p> Scholars interested in changing or adding to these texts by, for example,
+                        creating a new edition of the text (electronically or in print) with
+                        substantive editorial changes, may do so only with the permission of
+                        Haverford College. This is the case whether the new publication will be made
+                        available at a cost or free of charge.</p>
+</availability>
+<date when="2015">2015</date>
+<idno type="local">hv_swaynej_diary_1798</idno>
+</publicationstmt>
+<seriesstmt>
+<title level="s" type="project">Native Americans and Quakers: An Electronic
+                    Collection</title>
+</seriesstmt>
+<sourcedesc>
+<msdesc>
+<msidentifier>
+<institution>Haverford College Quaker and Special Collections</institution>
+<collection></collection>
+<idno></idno>
+</msidentifier>
+<physdesc>
+<p>86 pp. (1 volume)</p>
+</physdesc>
+</msdesc>
+</sourcedesc>
+</filedesc>
+<encodingdesc>
+<projectdesc>
+<p>The Joel Swayne Diary manuscript is housed in the Haverford College Quaker and
+                    Special Collections</p>
+</projectdesc>
+<editorialdecl>
+<p> The transcribers and editor attempted to render the author’s orthography and
+                    grammar as they appear on the page of his journal, even when the author’s own
+                    spelling and usage are inconsistent. Additionally, many questions remain about
+                    spelling the names of his Quaker acquaintances, individual Native Americans who
+                    populate his journal, and Indian villages and towns. The transcribers and editor
+                    attempted to remain faithful to the author’s Anglicized spellings in all cases. </p>
+<p>The author of the original journal does not include page numbers on his
+                    manuscript; the page numbers have been interpolated by the transcribers to
+                    correspond with the manuscript sheets.</p>
+</editorialdecl>
+</encodingdesc>
+<profiledesc>
+<creation>Original written in <date when="1809">1809</date></creation>
+<langusage>
+<language ident="en">English</language>
+</langusage>
+<textclass>
+<keywords scheme="#lcsh">
+<list>
+<item>Society of Friends</item>
+</list>
+</keywords>
+</textclass>
+</profiledesc>
+<revisiondesc>
+<list>
+<item>
+<date when="2016"></date></item>
+</list>
+</revisiondesc>
+</teiheader>
+<text>
+<div type="undetermined">
+<pb facs="hv_swaynej_diary_1798_001" n="1"></pb>
+<pb facs="hv_swaynej_diary_1798_002" n="2"></pb>
+<pb facs="hv_swaynej_diary_1798_003" n="3"></pb>
+<pb facs="hv_swaynej_diary_1798_004" n="4"></pb>
+</div>
+<div type="narrative">
+<pb facs="hv_swaynej_diary_1798_005" n="5"></pb>
+                Some account of my journey to<lb></lb> the <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a>
+                    Nation of Indians and<lb></lb> residence amongst that People
+                <p>After passing through various exercises on this<lb></lb> occasion and witnessing a
+                    full submision to the Divine<lb></lb> will in regard to giving up all to follow
+                    him<lb></lb> where ever he might be pleased to lead me; and<lb></lb> obtaining the
+                    aprobation of our Monthly Meet<lb></lb>ing at <a href="/organizations/meetlondon">Londongrove<orgname key="meetlondon"></orgname></a> and a Certificate from<lb></lb> thence to the Committee
+                    on Indian affairs at<lb></lb> Philadelphia which was accepted and, I left at<lb></lb>
+                    liberty to proceed in company with <a href="/people/hsimm1">Henry
+                        Simmons<persname key="hsimm1"></persname></a><lb></lb> and <a href="/people/hjack1">Halliday
+                        Jackson<persname key="hjack1"></persname></a> who also had prospects of<lb></lb> going to reside sometime
+                    amongst the <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a> In<lb></lb>dians;</p>
+</div>
+<div type="entry">
+<dateline>Accordingly on the <date when="1798-04-30">30th of 4 mo.
+                        1798</date><placename key="lanca"></placename></dateline>
+<p>I left the place of my abode in East Marlborough<lb></lb> and rode about three miles
+                    to a friends house<lb></lb> where according to appointment I met with<lb></lb>
+<a href="/people/hjack1">Halliday Jackson<persname key="hjack1"></persname></a>, and the night following we <lb></lb>
+<pb facs="hv_swaynej_diary_1798_006" n="6"></pb> reached and lodged at the House of
+                        <a href="/people/agibb1">Abraham Gibbons<persname key="agibb1"></persname></a> in <a href="/places/lanca">Lancaster<placename key="lanca"></placename></a> County where <a href="/people/hsimm1">Henry Simmons<persname key="hsimm1"></persname></a> met us, also <a href="/people/jpier1">John
+                        Pierce<persname key="jpier1"></persname></a> and <a href="/people/jshar1">Joshua
+                        Sharpless<persname key="jshar1"></persname></a> who had given up to accompany us<lb></lb> to the <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a> Country.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-01">1st of 5 mo.</date><placename key="wrigh"></placename></dateline>
+<p> being five in company we all set<lb></lb> forward on our journey and lodged the
+                    night<lb></lb> following at <a href="/people/wwrig1">William Wrights<persname key="wwrig1"></persname></a> at
+                    Wrights<lb></lb> ferry on <a href="/places/susqu">Susquehannah<placename key="susqu"></placename></a>.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-02">2nd of the month </date><placename key="checkPlace"></placename></dateline>
+<p>crossed the River and rode to<lb></lb>
+<a href="/places/york3">York<placename key="york3"></placename></a>, thence piloted by <a href="/people/wkirk1">W.Kirk<persname key="wkirk1"></persname></a> (a promising<lb></lb> your Man) to <a href="/people/jgarr1">John Garritsons<persname key="jgarr1"></persname></a> and <a href="/people/iever1">Isaac Everots<persname key="iever1"></persname></a> where we lodged that night and believe<lb></lb>
+                    were heartily welcome.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-03"> 3rd of the month </date><placename key="redst1"></placename></dateline>
+<p>being now out of the neighbour<lb></lb>hood of Friends I shall not be particular
+                    noteing<lb></lb> the stages till we crops the Mountains, we<lb></lb> trailed about 35
+                    miles a Day along very rough<lb></lb> and Mountainous roads still we got to
+                        <a href="/places/conne">ConnellVille<placename key="conne"></placename></a> on the banks of the
+                        <a href="/places/yough">Yoxhioyany River<placename key="yough"></placename></a> in<lb></lb> the settlement
+                    of <a href="/places/redst1">Readstone<placename key="redst1"></placename></a>, some of those high<lb></lb>
+                    mountains whose summits seemed to<lb></lb> mingle with the Clouds afforded a
+                    prospect truly<lb></lb> gratifying to me and displayed the wonderful world<lb></lb> of
+                    Omnipotence <del>more <gap></gap></del><lb></lb>
+<pb facs="hv_swaynej_diary_1798_007" n="7"></pb><del><gap></gap></del> the next<lb></lb> night
+                    we lodged at the House of a worthy friend<lb></lb>
+<a href="/people/tgibs1">Thomas Gibson<persname key="tgibs1"></persname></a>, and were respectfully
+                    entertained,<lb></lb> having been from home eight Days and traversed<lb></lb> upwards of
+                    250 miles by way of <a href="/places/shipp">Shippensburg<placename key="shipp"></placename></a><lb></lb>
+<a href="/places/stras">Strausburg<placename key="stras"></placename></a> and <a href="/places/bedfo">Bedford<placename key="bedfo"></placename></a>.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-07"> 7th of the month </date><placename key="checkPlace"></placename></dateline>
+<p>three of our company went to<lb></lb>
+<a href="/people/rcadw1">Reece Cadwalders<persname key="rcadw1"></persname></a>, <a href="/people/hjack1">halliday jackson<persname key="hjack1"></persname></a> and myself to<lb></lb>
+<a href="/places/uniont">Union Town<placename key="uniont"></placename></a> to see some of our old
+                    acquaintance<lb></lb> that lived thereabouts, <a href="/people/hjack1">Halliday<persname key="hjack1"></persname></a> and I parted at<lb></lb>
+<a href="/people/wdix1">William Dixons<persname key="wdix1"></persname></a> and I went to see my
+                    brothers<lb></lb> and Sisters that lived near that place, we<lb></lb> were much rejoiced
+                    to see each other and I had a good<lb></lb> degree of satisfaction in my visit, yet
+                    my stay was<lb></lb> not as long as would have been desirable, in the course<lb></lb> of
+                    my journey through Readstone I observed that the<lb></lb> land is of a supervisor
+                    quality, abounding with a great<lb></lb> quantity of excellent timber such as Black
+                    Walnut<lb></lb> Hickory Wild Cherry and Sugar Maple from<lb></lb> the latter many of the
+                    inhabitants supply themselves<lb></lb> with sugar and molasses of an excellent
+                    quality which<lb></lb> is a great advantage to a new settled county.<lb></lb> Stone Coal
+                    and Iron Ore of an excellent quality<lb></lb> abounds plentifully in this settlement
+                    and<lb></lb> appears to afford encouraging prospects for Iron <lb></lb>
+<pb facs="hv_swaynej_diary_1798_008" n="8"></pb> works and Blacksmithing. Limestone
+                    is also<lb></lb> plenty here and the whole<lb></lb> is encouragement for settlers, yet
+                    alas, there is one<lb></lb> abominable practice which the inhabitants<lb></lb> has got
+                    into which I think has been a great hurt<lb></lb> to them and their Country, that is
+                    destroying<lb></lb> the grain that was given them for the support<lb></lb> of Life to
+                    make an article which tends very<lb></lb> much to destroy both the lives and Souls
+                    of men,<lb></lb> and set up the Kingdom of Antichrist, I have<lb></lb> often thought
+                    that Spirituous liquors is one of the<lb></lb> strongest weapons the Adversary has
+                    to make<lb></lb> use of in order for the upholding of his Kingdom,<lb></lb> for when
+                    people are enticed to drink large draughts<lb></lb> of it, how easy they are lead in
+                    to an innumer<lb></lb>able catalogue of evils such as gambling, lying,
+                    swear<lb></lb>ing, fighting, and sometimes to murder.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-09"> 9th of the month </date><placename key="checkPlace"></placename></dateline>
+<p>set forward again accompanyed<lb></lb> by my brother and two brothers in law to<lb></lb>
+<a href="/people/rcadw1">Reece Cadwaldies<persname key="rcadw1"></persname></a> near <a href="/places/brown">Browns Ville<placename key="brown"></placename></a> where ac<lb></lb>cording to appointment I met with my
+                    travelling<lb></lb> companions it being friends Meeting Day we<lb></lb> attended their
+                    meeting after which dined at<lb></lb> our kind friends who heartily approbated
+                    us<lb></lb> in our present undertaking and was very <lb></lb>
+<pb facs="hv_swaynej_diary_1798_009" n="9"></pb> kind and was friendly as was his
+                    Wife and Family, after<lb></lb> Dinner crossed the <a href="/places/monon">Monongahela River<placename key="monon"></placename></a> and<lb></lb> rode about 13 miles to an Inn where
+                    we lodged that<lb></lb> nigh and had but poor accomodations, tho<lb></lb> perhaps the
+                    best the House could afford.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-10"> 10th of the month </date><placename key="pitts"></placename></dateline>
+<p>traveled about 24 miles down<lb></lb> the aforesaid <a href="/places/monon">
+                        River<placename key="monon"></placename></a> and crossed again at <a href="/places/pitts">Pittsburg<placename key="pitts"></placename></a><lb></lb> and took up our quarters at <a href="/people/wmorr1">Wm Morrows<persname key="wmorr1"></persname></a><lb></lb> Tavern where we met with good
+                    entertainment<lb></lb> 11th of the month we spent out time in<lb></lb> procuring some
+                    Goods to send by Water<lb></lb> to the Indian Country, some of our com<lb></lb>pany went
+                    to the Garrison respecting our<lb></lb> Goods that was sent from Philadelphia
+                    and<lb></lb> upon inquiry found they had arrived a few<lb></lb> days before and
+                        <a href="/people/gwilk2">General Wilkinson<persname key="gwilk2"></persname></a> employed<lb></lb> a wagon at
+                    the States expense to haul them <lb></lb>to the River and a Boat to <del></del> to
+                    carry<lb></lb> them from thence to our intended settlement.<lb></lb> 12th of the month
+                    went again to the Garrison to<lb></lb> see <a href="/people/gwilk2">General
+                        Wilkinson<persname key="gwilk2"></persname></a> who appeared to have<lb></lb> much good will for us, and
+                    the cause in<lb></lb> which we were engaged, he gave us consider<lb></lb>able
+                    information respecting the Indians <lb></lb>
+<pb facs="hv_swaynej_diary_1798_010" n="10"></pb> and an order on <a href="/people/cfowl1">George Fowler<persname key="cfowl1"></persname></a>, deputy<lb></lb> Quarter master at
+                        <a href="/places/ffran">Ft. Franklin<placename key="ffran"></placename></a> requesting<lb></lb> him to
+                    furnish us with provisions or any<lb></lb>thing else we stood in need of at that
+                    place, he<lb></lb> also gave us a written speech addressed to <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> and other <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a> Chiefs which is as<lb></lb> follows</p>
+<floatingtext type="letter">
+<dateline><date when="1798-05-10"></date><placename key="pitts"></placename></dateline>
+<opener>To the <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> and the
+                            Village<lb></lb>Chiefs of the <a href="/organizations/seneca">Seneca Nation<orgname key="seneca"></orgname></a>
+<salute>Friends and Brothers </salute></opener>
+<p>the bearer one of<lb></lb> our beloved men from among the People<lb></lb> called
+                            Quakers, Visits you with several good<lb></lb> Men from the same soceity,
+                            who intend to<lb></lb> set down amongst you, in order to instruct<lb></lb> our
+                            red Brethren in words of usefulness<lb></lb> and to point out to them the
+                            path of<lb></lb>Virtue which leads to the Blissful mansions<lb></lb>of the Great
+                            Spirit the Father of Light<lb></lb> and Life-</p>
+<p>Brothers I charge you to take our beloved man<lb></lb> and his companions by
+                            the hand and treat<lb></lb> them with kindness and sincerity, open<lb></lb> your
+                            ears and listen to what they say<lb></lb> open your eyes and follow their footsteps<lb></lb>
+<pb facs="hv_swaynej_diary_1798_011" n="11"></pb> then will your Old Men, your
+                            Wives, your<lb></lb> Children and Childrens Children live in<lb></lb> security
+                            and enjoy the comforts of life</p>
+<p>Brethren and Children let this admoni<lb></lb>tion sink deep into your Hearts
+                            and may<lb></lb> you be Blessed with a clear Sky, smooth<lb></lb> Roads and
+                            plentiful harvests to the end<lb></lb> of your days </p>
+<closer>I commend you to the care of the Great<lb></lb> Spirit and am in heart
+                            your friend <lb></lb><signed><a href="/people/gwilk2">Jas
+                                Wilkinson<persname key="gwilk2"></persname></a>. <lb></lb>Commander in Chief of the Troops<lb></lb> of
+                                the United States </signed></closer>
+</floatingtext>
+<p>After spending a short time in conversation with<lb></lb>
+<a href="/people/gwilk2">James Wilkinson<persname key="gwilk2"></persname></a> we departed (he
+                    accompanying<lb></lb> us through his Guard) and set forward on<lb></lb> or journey,
+                    crossed the <a href="/places/alleg">Allegany<placename key="alleg"></placename></a> and tra<lb></lb>velled about
+                    33 Miles to a poor little hut<lb></lb> where we were obliged to put up for
+                    quarters<lb></lb> or Lodge in the woods, we however tied our<lb></lb> Horses to Stumps
+                    &amp; and fed them with feed<lb></lb> we carryed with us, our lodging in the
+                    House<lb></lb> being on an earthen floor and very disagree<lb></lb>able it being the
+                    first time we had lodged <lb></lb>
+<pb facs="hv_swaynej_diary_1798_012" n="12"></pb> on the Ground </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-13">13th of the Month </date><placename key="ffran"></placename></dateline>
+<p>rode about 35 miles to<lb></lb>
+<a href="/places/ffran">Ft. Franklin<placename key="ffran"></placename></a> having a difficult Road and<lb></lb>
+                    horse feed very dear, oats being about two<lb></lb> Dollars per Bushel; we put up
+                    and lodged at<lb></lb> John Andrews Tavern where we got pretty<lb></lb> good
+                    accomodations tho very dear </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-14">14th of the Month </date><placename key="oilcr"></placename></dateline>
+<p>went to the Garrison to see<lb></lb>
+<a href="/people/cfowl1">George Fowler<persname key="cfowl1"></persname></a> who appeared very oblidging,
+                    and<lb></lb> furnished us with what provender we want<lb></lb>ed for ourselves and
+                    Horses, and expressed a<lb></lb> willingness to take care of all our Letters
+                    and<lb></lb> Goods that came to his hands, and forward them<lb></lb> to us if
+                    convenient, he also provided us a pilot<lb></lb> to go to <a href="/places/conew">Conewango<placename key="conew"></placename></a>, through an uninhabited<lb></lb> wood except by a few
+                    families, in the<lb></lb> afternoon we set forward with our pilot<lb></lb> and reached
+                    the House of James Tite[a?]s on the fertile<lb></lb> banks of <a href="/places/oilcr">Oil Creek<placename key="oilcr"></placename></a> where we were kindly en<lb></lb>tertained without money
+                    or price, here we<lb></lb> put bells on our Horses and let them run<lb></lb> loose in
+                    the woods, the Man of the Hous informed<lb></lb> us that he had gathered three
+                    Barrells of Oil<lb></lb> in one year off the Waters of <a href="/places/oilcr">Oil
+                        Creek<placename key="oilcr"></placename></a>, and <lb></lb>
+<pb facs="hv_swaynej_diary_1798_013" n="13"></pb> sold it at the rate of four Dollars
+                    per Gallon it<lb></lb> being an excellent medicine, a few rods from<lb></lb> the House
+                    was a stream of water which ap<lb></lb>peared large enough to turn a Saw-mill<lb></lb>
+                    the Man of the House informed us that it<lb></lb> proceeded from one Spring about
+                    20<lb></lb> rods above </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-15">15th of the Month </date><placename key="checkPlace"></placename></dateline>
+<p>set forward through the<lb></lb> Woods, and followed the course by marked<lb></lb> trees,
+                    which our pilot had done the Summer<lb></lb> before, we found the way worse this Day
+                    than<lb></lb> any we had hitherto met with, some places<lb></lb> very hilly and a
+                    multitude of trees and old<lb></lb> Logs lying in the way, which made it very<lb></lb>
+                    difficult getting along, other places the Ground<lb></lb> being pared with the roots
+                    of large trees with<lb></lb> many cavities between them, and overgrown<lb></lb> with
+                    moss which made it very dangerous<lb></lb> crossing, in the evening we arived at the
+                    House of<lb></lb> James Justice on the Waters of Brokenstraw<lb></lb> where we lodged
+                    that night on the floor<lb></lb> by the fire as we did the night before </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-16">16th of the Month </date><placename key="conew"></placename></dateline>
+<p>about noon reached the the<lb></lb> mouth of <a href="/places/concr">Conewango
+                        Creek<placename key="concr"></placename></a> where a<lb></lb>
+<pb facs="hv_swaynej_diary_1798_014" n="14"></pb> Town is laid out on a piece of Land
+                    belonging<lb></lb> to the State of Pennsylvania at this place<lb></lb> we met with a
+                    company of Indians some<lb></lb> of whom were much intoxicated and appeared<lb></lb>
+                    miserably dirty and frightfull, having large loops<lb></lb> cut in their Ears and
+                    chunks of lead hanging to them<lb></lb> to stretch them down, here we stayed all
+                    night<lb></lb> it being the end of our pilots journey and<lb></lb> about 60 Miles from
+                        <a href="/places/ffran">Ft. Franklin<placename key="ffran"></placename></a>, </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-17">17 of the Month </date><placename key="cornp"></placename></dateline>
+<p>employed one of the aforsaid<lb></lb> Indians to pilot us to <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a>s Village<lb></lb> about 15 Miles, found the road
+                    extremely difficult<lb></lb> on account of old longs and trees lying down,<lb></lb>
+                    about 2 o clock in the afternoon we arrived<lb></lb> at <a href="/places/cornp">Genusshadega<placename key="cornp"></placename></a> where we were surrounded<lb></lb> by a company of
+                    Indians who in a friendly man<lb></lb>ner came and shook hands and appeared to<lb></lb>
+                    give us a hearty welcome, amongst whom<lb></lb> was <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> the principal Chief, who<lb></lb> in a friendly manner
+                    conducted us to his House<lb></lb> where we informed him that we were Quakers<lb></lb>
+                    and had come a great distance to see the In<lb></lb>dians, he made answer and said
+                    he had heard<lb></lb> of our coming and that he was glad and<lb></lb> thankful to the
+                    Great Spirit for our safe <lb></lb>
+<pb facs="hv_swaynej_diary_1798_015" n="15"></pb> arrival and preservation on the way </p>
+<p>After we had unsadled our horses &amp; sat down<lb></lb> in the House <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> asked us if we could<lb></lb> eat in his way
+                    (being pretty hungry) one of<lb></lb> our company answered he thought we could<lb></lb>
+                    the old Man then ordered some Victuals to be<lb></lb> brought which I suppose was
+                    the best the House<lb></lb> could afford, but not being accustomed to their<lb></lb>
+                    sort of diet and cooking, we made a small por<lb></lb>tion serve at that time, after
+                    we had done eat<lb></lb>ing we informed him something of our business<lb></lb> and that
+                    we desired to have his<lb></lb> People collected together in Council, to which<lb></lb>
+                    he replyed he was willing and left it to ourselves<lb></lb> to propose a time,
+                    accordingly the next Day<lb></lb> was agreed on at ten o clock, and runners
+                    dis<lb></lb>patched to notify the Indians under <a href="/people/cornp2">Cornplanters<persname key="cornp2"></persname></a> superintendance, in the evening<lb></lb> the Old
+                    Man brought his Wife and Children<lb></lb> into the apartment where we were and
+                    in<lb></lb>troduced them to us in a becoming manner,<lb></lb> after conversing a short
+                    time his Wife got<lb></lb> up in a friendly manner and shook hands<lb></lb> with us
+                    &amp; quitty departed into the other<lb></lb> end of the House where the family <lb></lb>
+<pb facs="hv_swaynej_diary_1798_016" n="16"></pb> mostly lived; in the evening they
+                    brought<lb></lb> us some milk which with the addition of our small<lb></lb> stock of
+                    provision made us a good supper, our lodging<lb></lb> was on births on each side of
+                    the House raised about<lb></lb> a foot above the Ground, and overspread with
+                    Deer<lb></lb> Skins on which we spread our Blankets and rested<lb></lb> pretty
+                    comfortably for the first Night in an<lb></lb> Indian Cabin </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-18">18 of the Month </date><placename key="cornp"></placename></dateline>
+<p>took a more extensive view of the<lb></lb> Village and the land about it, the Land
+                    appears<lb></lb> to be very fertile, being a large flat on the West<lb></lb> side of the
+                    River of about 300 Acres inclosed<lb></lb> with a fence, the most of which has been
+                    clear<lb></lb>ed (I suppose by the Women) about midway<lb></lb> of this enclosure stands
+                    the body of the Village<lb></lb> which contains about 30 or 40 Houses being<lb></lb>
+                    from ten to thirty feet in length mostly built<lb></lb> about six feet high and
+                    covered with bark,<lb></lb> along each side are generally two births the up<lb></lb>per
+                    one about five feet high on which they<lb></lb> throw their lumber and houshold
+                    furniture<lb></lb> the lower one is their place of lodging which<lb></lb> also answers
+                    the purpose of seats to sit on be<lb></lb>ing about one foot from the Ground.
+                    the<lb></lb> fire they have in the center of the House <lb></lb>
+<pb facs="hv_swaynej_diary_1798_017" n="17"></pb> and a hole in the top of the roof
+                    for the<lb></lb> ascension of the Smoke their Houses, are gene<lb></lb>rally very open
+                    and cold in the Winter season<lb></lb> and I believe they seldom use more than two
+                    Deer skins<lb></lb> and two or three Blankets to bed and often<lb></lb> not so much </p>
+<p>This morning <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> and his son <a href="/people/habee1">Henry<persname key="habee1"></persname></a><lb></lb> came into our apartment and desired to
+                    hear<lb></lb> what we had to communicate to the Coun<lb></lb>cil: one of our company
+                    informed them that<lb></lb> we were not ready to tell all that we expected<lb></lb> to
+                    say when the Council met and that we<lb></lb> believed it right to wait for the Good
+                    Spirit to<lb></lb> influence our Hearts before we spoke in Council<lb></lb> but that we
+                    were willing to read them a<lb></lb> Letter that we had from our friends in<lb></lb>
+                    Philadelphia and another from General<lb></lb>
+<a href="/people/gwilk2">James Wilkinson<persname key="gwilk2"></persname></a> in <a href="/places/pitts">Pittsburg<placename key="pitts"></placename></a> which was<lb></lb> accordingly done and interpreted by
+                        <a href="/people/habee1">Henry<persname key="habee1"></persname></a><lb></lb> to his Father; About eleven o
+                    clock they<lb></lb> blew a horn and the people came in about about<lb></lb> 40 in number
+                    among whom was their<lb></lb> principal Men and Chief Warriors many of<lb></lb> them
+                    were frightfully painted Black &amp; Red<lb></lb> their Ears cut in great loops with
+                    silver or <lb></lb>
+<pb facs="hv_swaynej_diary_1798_018" n="18"></pb> chunks of led hanging to them to
+                    stretch them<lb></lb> down, They had a multitude of broaches, jewels and<lb></lb>
+                    Breastplates of Silver about their bodies which<lb></lb> with their belts and straps
+                    curiously interwoven<lb></lb> with beads and their fine Mocasons<lb></lb> made a
+                    splendid appearance to one not acquaint<lb></lb>ed with Indians; we sat down at one
+                    end<lb></lb> of the House I trust with our minds humblingly<lb></lb> exercised under the
+                    weight of the concern in which<lb></lb> we were engaged and some of the Indians
+                    sat<lb></lb> pretty quiet, yet the greatest number of them<lb></lb> manifested much
+                    lightness by talking and<lb></lb> laughing, after siting a short time <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> got up (<a href="/people/habee1">Henry<persname key="habee1"></persname></a> being interpreter) and spoke<lb></lb> nearly as follows </p>
+<floatingtext type="speech" xml:id="cornp2">
+<dateline><date when="1798-05-18"></date><placename key="cornp"></placename></dateline>
+<p>Brothers when I saw you come out of the<lb></lb> bushes yesterday I was
+                            rejoiced that you were<lb></lb> come to see your Indian Brothers, I
+                            thank<lb></lb> the Great Spirit for your safe arrival and<lb></lb> that you were
+                            preserved on the way --<lb></lb> yesterday you told us that you had some
+                            talk<lb></lb> for us and desired that your Indian Brothers<lb></lb> might be
+                            collected to hear you speak, some<lb></lb> of our Men are hear but our Women
+                            could<lb></lb> not come but we will tell them your <lb></lb>
+<pb facs="hv_swaynej_diary_1798_019" n="19"></pb> talk when we go home,
+                            Brothers you see we<lb></lb> are poor and have bad Houses covered<lb></lb> with
+                            bark and we cant build them better<lb></lb> We are now ready to hear your
+                            talk</p>
+</floatingtext>
+<p>after<lb></lb> a short time of silence we informed them<lb></lb> of the motives of our
+                    coming amongst them<lb></lb> and a little explained the nature of our<lb></lb> business,
+                    then read our Certificate which<lb></lb> is as follows </p>
+<floatingtext type="letter">
+<opener>To <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> with the chief
+                            Men<lb></lb> and others of the <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a> Tribe
+                            of Indians</opener>
+<p> Brothers <lb></lb>It has pleased the Great<lb></lb> Spirit above to dispose the
+                            Hearts of the<lb></lb> Rulers in the United States and of your<lb></lb> people,
+                            to live in Peace and Friendship<lb></lb> and no longer to hurt and destroy
+                            each<lb></lb> other -- this hath long been the earnest<lb></lb> desire of the
+                            Children of Onas your Breth<lb></lb>ren the people called Quakers -- The
+                            path<lb></lb> between you and them is now plain and<lb></lb> open, so that the
+                            good will and friendship<lb></lb> which subsisted between your fathers
+                            &amp;<lb></lb> ours may be renewed and strengthened </p>
+<pb facs="hv_swaynej_diary_1798_020" n="20"></pb>
+<p> Brothers <lb></lb> Your Friends the Quakers have<lb></lb> fro many years been
+                            desirous you should<lb></lb> be taught in the ways of hood and honest<lb></lb>
+                            white, that you. your Wives and<lb></lb> Children might learn to live more
+                            com<lb></lb>fortably, and be relieved from the distresses<lb></lb> and
+                            difficulties to which you have be subjected<lb></lb> by your old habit and
+                            manner of living </p>
+<p> Brothers <lb></lb>some of your Counsellors and<lb></lb> chief Men have told us
+                            that you desired<lb></lb> to follow our advice, and requested our<lb></lb>
+                            assistance in those good ways we should<lb></lb> recommend to you for your
+                            present &amp;<lb></lb> lasting benefit- now Brothers we have<lb></lb> been very
+                            thoughtfull on your account<lb></lb> desering to counsel you wisely in all
+                            things<lb></lb> and that you &amp; your children might hear<lb></lb>ken
+                            diligenly to our lasts and lock it up in<lb></lb> your hearts so that you
+                            may often remember</p>
+<p> Brothers <lb></lb>We have waited to feel how the<lb></lb> Good Spirit might lead
+                            and direct our mind<lb></lb> in those things in which we may be helpful<lb></lb>
+<pb facs="hv_swaynej_diary_1798_021" n="21"></pb> to you , and in waiting for
+                            right counsel we<lb></lb> have found much good will toward you, and<lb></lb>
+                            desires for your wellfare to prevail in the<lb></lb> hearts of many amongst
+                            us, and some of<lb></lb> our young Men from an earnest desire to<lb></lb> be
+                            useful to you, have concluded to leave<lb></lb> their usual business here
+                            and their comfort<lb></lb>able dwellings and go into your country<lb></lb> for
+                            the purpose of instructing you in the<lb></lb> cultivation of your land,
+                            raisin &amp; managing<lb></lb> of cattle and to escample you in sobriety
+                            and<lb></lb> industry, for which purpose they expect to re<lb></lb>main for a
+                            time amongst you </p>
+<p> Brothers <lb></lb> The names of these three young men<lb></lb> are <a href="/people/hsimm1">Henry Simmons<persname key="hsimm1"></persname></a>, <a href="/people/jswai1">Joel
+                                Swaiyne<persname key="jswai1"></persname></a>, &amp; <a href="/people/hjack1">Holliday
+                                Jackson<persname key="hjack1"></persname></a>,<lb></lb> they are true Men and we desire you will
+                            re<lb></lb>ceive them as Brothers, and accept of their<lb></lb> kind endeavors
+                            for your instruction and<lb></lb> help, and with readings do what they
+                            may<lb></lb> show you to be proper for your improve<lb></lb>ment </p>
+<p> Brothers We exhort you to follow the example<lb></lb> of these sober young
+                            Men, that you may learn<lb></lb>
+<pb facs="hv_swaynej_diary_1798_022" n="22"></pb> Industry and to live
+                            soberly &amp; peacefully and<lb></lb> to avoid all evil speaking and in a
+                            particular<lb></lb> manner we entreat you to keep from the<lb></lb> use of Rum
+                            and Strong drink, you know<lb></lb> it has been the cause of many evils
+                            and<lb></lb> much wickedness amongst you. If you<lb></lb> follow this counsel we
+                            believe the great &amp;<lb></lb> good Spirit will bless you with many
+                            bless<lb></lb>ings, and fill your Hearts with peace &amp; comfort</p>
+<p> Brothers <lb></lb>With these young Men we shall send<lb></lb> into your country
+                            some ploughs and<lb></lb> other useful articles to assist in
+                            cultivating<lb></lb> your land, which we commit to their<lb></lb> care in order
+                            that they may shew you<lb></lb> the use and benefit of them, that you<lb></lb>
+                            may be encouraged to procure for your<lb></lb>selves like necessary tools,
+                            and by diligent<lb></lb> use of them come to reap the plentiful fruits<lb></lb>
+                            of Industy, enjoy with your Families com<lb></lb>fortable Dwellings, and
+                            look on your fields<lb></lb> your cattle, your fruit trees &amp; woods
+                            with<lb></lb> contentment and pleasure, to enable and<lb></lb> assist you yo
+                            accomplish this is the sole end<lb></lb> and purpose of our present endeavours.<lb></lb>
+<pb facs="hv_swaynej_diary_1798_023" n="23"></pb> having no desire for any of
+                            your lands,<lb></lb> your skins, your furs, or anything that<lb></lb> is yours </p>
+<p> Brothers <lb></lb>The hearty desire we feel for your<lb></lb> happy improvements
+                            in pursuing a quiet<lb></lb> peaceful and sober course of life has made<lb></lb>
+                            us very thoughtful about the serious<lb></lb> undertaking of the
+                            aforementioned young<lb></lb> Men, so that our minds have been
+                            ear<lb></lb>nestly turned to look towards some others<lb></lb> of our Brethren
+                            to accompany them<lb></lb> on their being introduced among you,<lb></lb> and to
+                            join in endeavours to promote<lb></lb> their proceeding in a way most likely
+                            to be<lb></lb> helpful to you and satisfactory to themselves.<lb></lb> and it
+                            affords us pleasure to find two friends<lb></lb> whom we esteem and love
+                            have expressed<lb></lb> a willingness to give themselves up to<lb></lb> the
+                            service; their Names are <a href="/people/jshar2">Joshua
+                                Sharpless<persname key="jshar2"></persname></a> and <a href="/people/jpier1">John
+                                Peirce<persname key="jpier1"></persname></a>, Men well<lb></lb> worthy of the love and regard of
+                            our In<lb></lb>dian Brothers </p>
+<p>Above all things Brothers forget not that<lb></lb> when you are still and
+                            thoughtful there is <lb></lb>
+<pb facs="hv_swaynej_diary_1798_024" n="24"></pb> something within you which
+                            shows you<lb></lb> what is good and what is bad, for this is<lb></lb> the Voice
+                            of God. Spirit with which you<lb></lb> as well as all other people in the
+                            work may<lb></lb> be blessed and made to be glad and rejoice if it<lb></lb>
+                            language be sincerely hearkened to and obeyed -<lb></lb> this will make you
+                            a happy people: and with<lb></lb> out this all the help that Man can
+                            afford<lb></lb> you will be of little service, this it is that can<lb></lb>
+                            preserve you from every thing that is hurtful<lb></lb> and unkind, and make
+                            you rich in the midst<lb></lb> of Poverty </p>
+<closer><dateline>We are your friends &amp; Brethren<lb></lb>
+<a href="/places/phila">Philad. <placename key="phila"></placename></a><date when="1798-06-28">June 28 1798</date></dateline>
+<signed>
+<a href="/people/dbaco1">David Bacon<persname key="dbaco1"></persname></a>
+<a href="/people/eyarn1">Ellis Yarnall<persname key="eyarn1"></persname></a>
+<a href="/people/jparr1">John Parish<persname key="jparr1"></persname></a>
+<a href="/people/nharp1">Nathan Harper<persname key="nharp1"></persname></a>
+<a href="/people/hdrin1">Henry Drinker<persname key="hdrin1"></persname></a>
+<a href="/people/jbidd1">John Biddle<persname key="jbidd1"></persname></a>
+<a href="/people/jdrin1">John Drinker<persname key="jdrin1"></persname></a>
+<a href="/people/pbark1">Peter Barker<persname key="pbark1"></persname></a>
+<a href="/people/jelli1">John Elliott<persname key="jelli1"></persname></a>
+<a href="/people/wgreg1">Wm Gregory<persname key="wgreg1"></persname></a>
+<a href="/people/tfish1">Thomas Fisher<persname key="tfish1"></persname></a>
+<a href="/people/twist1">Thomas Wister<persname key="twist1"></persname></a>
+<a href="/people/tstew1">Thomas
+                            Stewwardson<persname key="tstew1"></persname></a></signed></closer>
+</floatingtext>
+<p>After the foregoing and <a href="/people/gwilk2">Jas Wilkinsons<persname key="gwilk2"></persname></a><lb></lb>
+                    address was read and interpreted to them they<lb></lb> retired into another
+                    appartment to con<lb></lb>sult on the proposials we had made to them <lb></lb>
+<pb facs="hv_swaynej_diary_1798_025" n="25"></pb> and said they would reply to what
+                    we had said<lb></lb> next day; In the evening <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a><lb></lb> came and asked us divers questions relative
+                    to<lb></lb> our qualifications for work if any of us<lb></lb> were carpenters, to which
+                    we gave them such in<lb></lb>formation as they wanted and told them we had<lb></lb> a
+                    set of carpenter tools and a number of far<lb></lb>ming utencils coming in a Boat
+                    which was<lb></lb> intended for the use of the Indians </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-19">19 of the month </date><placename key="cornp"></placename></dateline>
+<p> they spent the most of this<lb></lb> day in Council among themselves, frequently
+                    sending<lb></lb> one to ask us questions relative to our business<lb></lb> in the
+                    evening about 30 of them came into<lb></lb> the appartment where we were in order to
+                    reply<lb></lb> to what we had said to them yesterday and <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> got up and spoke on behalf of the people<lb></lb>
+                    nearly as follows- </p>
+<floatingtext type="speech">
+<dateline><date when="1798-05-19"></date><placename key="cornp"></placename></dateline>
+<p>Brothers the Quakers<lb></lb> listen now to what I am going to say to
+                            you.</p>
+<p>you know Brothers the Red people are poor<lb></lb> they are not like the
+                            White People, the<lb></lb> great, Spirit has made them of another
+                            lan<lb></lb>guage so that it is very hard for us to un<lb></lb>derstand one
+                            another plainly, as there is no<lb></lb> person here that can interpret very
+                            well-</p>
+<p>Brothers we take great pains to settle the <lb></lb>
+<pb facs="hv_swaynej_diary_1798_026" n="26"></pb> proposials you made to us
+                            but we differ in<lb></lb> opinions and we must take great pains to<lb></lb> have
+                            every thing complete.</p>
+<p>Brothers we suppose the reason you came<lb></lb> here was to help poor
+                            Indians, some way<lb></lb> or other, and you wish the Chiefs to tell<lb></lb>
+                            their warriors not to go on as bad as they<lb></lb> have done; and you wish
+                            us to take up<lb></lb> work like the White People. Now</p>
+<p>Brothers some of our sober Men will take<lb></lb> up work and do as you say,
+                            and if they do<lb></lb> well then will your young Men stay lon<lb></lb>ger, but
+                            some others will not mind what you<lb></lb> say. </p>
+<p>Brothers we cant say a word against<lb></lb> you it is the best way to call
+                            Quaker Brothers<lb></lb> you never wished our lands therefore we are<lb></lb>
+                            determined to try to learn your ways; and<lb></lb> there young Men may stay
+                            here two years<lb></lb> to try, by that line we shall know if Morris<lb></lb>
+                            will leave us any land and whether he will<lb></lb> pay us our Money; for
+                            last summer we<lb></lb> sold our Land and we dont know yet<lb></lb> whether he
+                            shall get our money, but by<lb></lb> that time we shall know, and then if <lb></lb>
+<pb facs="hv_swaynej_diary_1798_027" n="27"></pb> the young Men likes it and
+                            we like it they<lb></lb> may stay longer. </p>
+<p>Brothers if your<lb></lb> young men stay here we want them to<lb></lb> learn our
+                            young men to read and write</p>
+<p>Brothers two of you are a going home again<lb></lb> if they hear any thing
+                            about our land or<lb></lb> our money they must write to these young<lb></lb> men
+                            have and they must tell us if we are<lb></lb> like to cheated</p>
+</floatingtext>
+<p> After <a href="/people/cornp2">Complanter<persname key="cornp2"></persname></a> had closed the foregoing<lb></lb>
+                    speech we informed them that we were satisfied<lb></lb> with what they had said; and
+                    proposed to them<lb></lb> that they should let us have a good piece of<lb></lb> land to
+                    work in order to set them an exam<lb></lb>ple and to raise bread for ourselves to
+                    eat<lb></lb> but that the land should still be theirs, and<lb></lb> all the improvements
+                    we had on it would<lb></lb> also be theirs when we left it; and in order<lb></lb> to
+                    know where would be best for us to settle<lb></lb> we told them we must look about
+                    their Land<lb></lb> and go to the other village and see the Land<lb></lb> there, and
+                    desired that some of their Chiefs<lb></lb> would go with us and show us their
+                    land<lb></lb> all which they readily agreed to; we also<lb></lb> informed them that the
+                    carpenters tools <lb></lb>
+<pb facs="hv_swaynej_diary_1798_028" n="28"></pb> and farming utensils that were
+                    coming<lb></lb> forward were intended to lend to our<lb></lb> Indian Brothers and that
+                    they should be<lb></lb> under the care and notice of our young friends<lb></lb> while
+                    they staid here, for they knew<lb></lb> that some of their young Men were<lb></lb> not
+                    quite as good as they should be and<lb></lb> if these things were divided amongst
+                    them<lb></lb> some of them might pawn them away<lb></lb> for Whisky, and then they would
+                    be as<lb></lb> bad off as they were before they go there<lb></lb> to this information
+                    some of the old Men<lb></lb> expression their way a hearty approba<lb></lb>tion, and
+                    some of the young Men mani<lb></lb>fested a sensibility of its perinanaby a<lb></lb>
+                    shamefaced good humoured laugh<lb></lb> After the above observations had taken<lb></lb>
+                    plave <a href="/people/cornp2">cornplanter<persname key="cornp2"></persname></a> expressed that as
+                    matters<lb></lb> ware now settled we wouold shake hands as<lb></lb> Brothers, and
+                    directed his people to come to<lb></lb> us himself first setting them an
+                    example<lb></lb> thus the councel ended late in the evening.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-20"> 20 of the Month and first of the weeks
+                        above</date><placename key="cornp"></placename></dateline>
+<p>nine O clock <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> came into our
+                    ap<lb></lb>artment and said we must not think <lb></lb>
+<pb facs="hv_swaynej_diary_1798_029" n="29"></pb> hard of theirs for not keeping that
+                    days we<lb></lb> told them we did not think hard of it,<lb></lb> but we mostly kepy that
+                    day to wait upon the<lb></lb> good Spirit, and about ten o clock that day<lb></lb> we
+                    expected to sit down in silence for that<lb></lb> service, and if any of them had a
+                    mind to<lb></lb> come and sit with us we would be well<lb></lb> satisfied and desired
+                    that we might not be<lb></lb> interrupted, at the hour appoined we sat<lb></lb> down in
+                    our appartment and were accompa<lb></lb>nied by <a href="/people/cornp2">cornplanter<persname key="cornp2"></persname></a> and several other Indians<lb></lb> who sat pretty still
+                    and quiet a part of the time<lb></lb> and then all withdrew except <a href="/people/cornp2">cornplanter<persname key="cornp2"></persname></a><lb></lb> who conducted himself is a becoming
+                    manner<lb></lb> throughout the opportunity.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-21"> 21 of the month </date><placename key="genes1"></placename></dateline>
+<p>made preperations to go<lb></lb> about nine miles up the river to see where<lb></lb>
+                    would be the most eligible place to settle<lb></lb> that we might be of the most
+                    advantage to the Nation<lb></lb> in general this land being <a href="/people/cornp2">cornplanters<persname key="cornp2"></persname></a><lb></lb> private property of about 600 acres which<lb></lb>
+                    was given to him by the state of Pennsylva<lb></lb>nia, and we thought it not best
+                    to settle on<lb></lb> his land, accordngly <a href="/people/cornp2">cornplanter<persname key="cornp2"></persname></a>, his son<lb></lb>
+<a href="/people/habee1">Henry<persname key="habee1"></persname></a>, and there other Indians went with <lb></lb>
+<pb facs="hv_swaynej_diary_1798_030" n="30"></pb> us in a Canoe to <a href="/places/genes1">Genesinguhta<placename key="genes1"></placename></a> an old Indian<lb></lb> Village in the
+                    State of Newyork about 4<lb></lb> miles above the Pennsylvania line where we<lb></lb>
+                    explored the Land and found a place<lb></lb> which we thought most eligible to make
+                    the<lb></lb> settlement near a young Chiefs House<lb></lb> whose name is John, this man
+                        <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> said was like ourselves
+                    for he would<lb></lb> drink no whisky, and that he was glad<lb></lb> we were going to
+                    settle so near him,<lb></lb> after spending some time at the House of<lb></lb> our
+                    intended Neighbour we returned<lb></lb> again in a canoe to <a href="/places/genes1">Genisatego<placename key="genes1"></placename></a> where we at<lb></lb> that time made our home</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-22"> 22 of the Month </date><placename key="cornp"></placename></dateline>
+<p><a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> presented<lb></lb> us with some Corn,
+                    Potatoes, Beans and a<lb></lb> variety of Vine seed which he said was a<lb></lb>
+                    collection brought in by his People as a blessing<lb></lb> to us in our undertaking,
+                    which we thank<lb></lb>fully accepted, believing they had Hearts of<lb></lb> good will
+                    towards us and our present under<lb></lb>taking </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-23">23rd </date><placename key="genes1"></placename></dateline>
+<p>went again to <a href="/places/genes1">Genesinguhta<placename key="genes1"></placename></a> with<lb></lb> all our
+                    affects and bought a House of an<lb></lb> Indian woman for 20 Dollars which was <lb></lb>
+<pb facs="hv_swaynej_diary_1798_031" n="31"></pb> on the spot of Land that we
+                    intended to im<lb></lb>prove, after we had paid the Woman for the house<lb></lb> we
+                    assisted her in carrying her goods to another<lb></lb> so we took possession after
+                    clearing<lb></lb> the Cabbin of some of the filth that is<lb></lb> mostly to be seen in
+                    Indians Houses</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-24"> 24th </date><placename key="genes1"></placename></dateline>
+<p>made a begining at grubbing which<lb></lb> business I had never done before
+                    there<lb></lb> appears to be a great deal of it to do before<lb></lb> the Ground will be
+                    ready for the Plough<lb></lb> and a multitude of old Logs to remove out of<lb></lb> the
+                    way</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-27"> 27th of the month and first of the
+                        week</date><placename key="genes1"></placename></dateline>
+<p>had a meeting in our little Cabin which was<lb></lb> a very satisfactory one to me,
+                    and elderly friends<lb></lb> being favoured to drop some suitable hints<lb></lb> of
+                    caution and admonition before us which<lb></lb> I believe was well adapted to the
+                    state of our<lb></lb> minds</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-05-28"> 28 </date><placename key="cornp"></placename></dateline>
+<p>we attended another council with the<lb></lb> Indians, after setting a short time in silence<lb></lb>
+<a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> got up to open the Council<lb></lb>
+                    and said, -<lb></lb><said who="cornp2">Brothers I am very<lb></lb> glad to see you all
+                        well, any People are<lb></lb> also well, many of them are here but <lb></lb><pb facs="hv_swaynej_diary_1798_032" n="32"></pb> some of them are gone a
+                        hunting, We are<lb></lb> now ready to hear you speak:</said></p>
+<p>One of our<lb></lb> company then informed them that we<lb></lb> had some further
+                    proposals to make them<lb></lb> which we had commited to writing in<lb></lb> order to
+                    help our memories which was<lb></lb> read and interpreted to them as follows-</p>
+<floatingtext type="letter">
+<opener>To <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> and all our Indian
+                            Bro-<lb></lb> thers of the <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a> Nation now
+                            living on<lb></lb> the <a href="/places/alleg">Allegany
+                            River<placename key="alleg"></placename></a>-</opener>
+<p>Brothers we have now been several<lb></lb> Days among you, and have had
+                            Coun<lb></lb>cils with your Chiefs and wise men,<lb></lb> and we have looked
+                            about your Coun<lb></lb>try and agreed upon a place for our young<lb></lb> Men
+                            to begin on, and we are glad and<lb></lb> thankful to the Great Spirit that
+                            every<lb></lb> thing we have proposed for your good has<lb></lb> been so
+                            agreeable to your minds, that we<lb></lb> seem to agree together like
+                            Brothers<lb></lb> having but one mind in every thing<lb></lb> we do; and we hope
+                            Brothers we shall<lb></lb> continue to be of one mind about all<lb></lb> the
+                            things which we have been speaking<lb></lb> to you of </p>
+<pb facs="hv_swaynej_diary_1798_033" n="33"></pb>
+<p>Brothers you know the place we have chosen<lb></lb> for our young Men to
+                            settle on up at<lb></lb>
+<a href="/places/genes1">Genesinguhta<placename key="genes1"></placename></a> and we hope some of
+                            your<lb></lb> sober young Men will settle by ours and<lb></lb> fence off lots
+                            for themselves as they see our<lb></lb> young Men fence of theirs, and our
+                            young<lb></lb> Men will be willing to instruct and assist<lb></lb> them a little
+                            about working their lots, now<lb></lb> Brothers we think our young Friends
+                            will<lb></lb> not be able to reuse anymore grain this<lb></lb> year on their lot
+                            than what they will<lb></lb> want to live upon; but we are in hopes<lb></lb>
+                            another year they will have a little to<lb></lb> spare and we are willing
+                            they should give<lb></lb> to your old People that cannot work for<lb></lb>
+                            themselves one Bushall out of four of<lb></lb> all the grain &amp;c. they have
+                            to spare, the<lb></lb> rest they must have to buy Salt and<lb></lb> other things
+                            which they cannot raise<lb></lb> off the ground-<lb></lb> Brothers, In order to
+                            encourage you still<lb></lb> more to take up work and follow those good<lb></lb>
+                            ways which we pointed out to you; we will<lb></lb> agree to help you a
+                            little more-</p>
+<p> Brothers We will send you a Smiths <lb></lb>
+<pb facs="hv_swaynej_diary_1798_034" n="34"></pb> tools when our young men
+                            shall write us word<lb></lb> and you stand in need of them</p>
+<p>Brothers If you are industrious this Summer<lb></lb> and raise a good deal of
+                            Corn and some Wheat<lb></lb> we will help you build a Grist mill next<lb></lb>
+                            Summer if a suitable place can be found for<lb></lb> it, you must find half
+                            the Money to build<lb></lb> this Mill and we will find the other half,<lb></lb>
+                            and we hope Brothers you will save some of the Money you get from the
+                            white<lb></lb> people between now and that time so<lb></lb> that you may have
+                            your share ready again<lb></lb> at next summer, and we think you had<lb></lb>
+                            better choose one of your Chiefs to keep this<lb></lb> Money for you till
+                            the time is is wanted<lb></lb> or perhaps it will be all gone for
+                            whisky<lb></lb> or something that won't do you so much<lb></lb> good as a Mill
+                            would-</p>
+<p>Brothers We are also willing to encourage<lb></lb> you to take up work, and
+                            learn farming<lb></lb> by agreeing to give some small premi-<lb></lb>ums to such
+                            of our Indian brothers who<lb></lb> are industrious and raise a good deal
+                            of<lb></lb> Grain </p>
+<pb facs="hv_swaynej_diary_1798_035" n="35"></pb>
+<p>Brothers we will give to every Indian Man<lb></lb> living on this River who
+                            shall raise 25 Bushalls<lb></lb> of wheat or rye in one year on his own
+                            Land<lb></lb> not worked by white people the sum of two<lb></lb> Dollars</p>
+<p> 2 For every 50 Bushalls of Indian Corn rai-<lb></lb> sed by any one Indian
+                            Man in like manner<lb></lb> affor said the sum of two Dollars</p>
+<p> 3 For every 50 Bushalls of Potatoes raised<lb></lb> by any one Indian Man in
+                            like manner<lb></lb> affor said the sum of two Dollars</p>
+<p> 4 For every two tons of hay raised as affor said<lb></lb> and put into a
+                            Stack or Barn not being<lb></lb> mawed or drawn in by white People the<lb></lb>
+                            sum of two Dollars</p>
+<p> 5 For every 12 yards of linnen Cloth made<lb></lb> by any Indian Woman out
+                            of flx raised on<lb></lb> her own or her husbands Land andspun in her<lb></lb>
+                            own House the sum of two Dollars to be<lb></lb> paid to the Woman</p>
+<p>6 For every 12 yards of woolen Cloth or lincey<lb></lb> made by any any
+                            Indian Woman out of wool of<lb></lb> her own or her husbands Sheep and spun
+                            in<lb></lb> her own House the sum of two Dollars to be<lb></lb> paid to the
+                            Woman </p>
+<pb facs="hv_swaynej_diary_1798_036" n="36"></pb>
+<p>Brothers We will give you these premiums<lb></lb> for Four years from this
+                            time if our young Men<lb></lb> should stay so long, and upon these
+                            conditions,<lb></lb> that the person who applies for the premium<lb></lb> must
+                            produce a Certificate from two of the Chiefs<lb></lb> certifying the
+                            quantity of Grains, Cloth &amp;c. for which<lb></lb> the premium is demanded and
+                            that it was<lb></lb> raised or made in the manner above mentioned,<lb></lb> and
+                            that the person so applying has not<lb></lb> been intoxicated with strong
+                            Drinks at least<lb></lb> for the term of six Months before such
+                            ap-<lb></lb>plication; And our Friends <a href="/people/hsimm1">Henry
+                                Simmons<persname key="hsimm1"></persname></a><lb></lb>
+<a href="/people/jswai1">Joel Swayne<persname key="jswai1"></persname></a> &amp; <a href="/people/hjack1">Halliday Jackson<persname key="hjack1"></persname></a> are hereby au-<lb></lb>thorized
+                            and desired to pay the above mentioned<lb></lb> premiums agreeable to what
+                            is herein before<lb></lb> expressed-</p>
+<closer><dateline><date when="1798-05-22">5 mo 22nd 1798</date><placename key="genes1"></placename></dateline>
+<signed><a href="/people/jshar2">Joshua Sharpless<persname key="jshar2"></persname></a><lb></lb>
+<a href="/people/jpier1">John Pierce<persname key="jpier1"></persname></a><lb></lb>
+<a href="/people/hsimm1">Henry Simmons<persname key="hsimm1"></persname></a><lb></lb>
+<a href="/people/jswai1">Joel Swayne<persname key="jswai1"></persname></a><lb></lb>
+<a href="/people/hjack1">Halliday Jackson<persname key="hjack1"></persname></a></signed>
+</closer>
+</floatingtext>
+<p>After the foregoing was read the Indians re-<lb></lb>tired into a private apartment
+                    in order to con-<lb></lb>sult each others minds that they might <lb></lb>
+<pb facs="hv_swaynej_diary_1798_037" n="37"></pb> reply to what we had said, and
+                    returned<lb></lb> again in about half and hour and made<lb></lb> the following reply</p>
+<floatingtext type="speech">
+<dateline><date when="1798-05-22"></date><placename key="cornp"></placename></dateline>
+<p>Brothers We now hear all what you wish<lb></lb> to do among us, you are come
+                            here to see<lb></lb> us brothers, you wish us well, you wish us<lb></lb> to
+                            become as the White People, the White are rich<lb></lb> and have every
+                            thing, the Indians are poor and<lb></lb> have nothing,</p>
+<p>Brothers you told us one thing, it would be good for<lb></lb> us to build a
+                            Mill, we will consult <a href="/people/ichap1">Cap-tain
+                                Chapen<persname key="ichap1"></persname></a>, if he thinks we will get our<lb></lb> Money, and we
+                            are able to raise the money<lb></lb> you propose then we will do it</p>
+<p>Brothers We know how far you have come to<lb></lb> see us, it is a great ways
+                            to the Sea shore where<lb></lb> our fore Fathers once lived, the White
+                            People<lb></lb> have cheated us and got our Land from us, and<lb></lb> now we
+                            have but little left, and we will try<lb></lb> to learn your way-</p>
+<p>Brothers you know there is some bad People<lb></lb> among us, and you know we
+                            have been cheated<lb></lb> and that makes us bad, and our minds uneasy,<lb></lb>
+                            if we had not been cheated we should have<lb></lb> been very rich People,
+                            and had plenty of every <lb></lb><pb facs="hv_swaynej_diary_1798_038" n="38"></pb> thing, and then our minds would have been<lb></lb> easy and we could
+                            think on the Great Spirit</p>
+<p>Brothers the reason I mention to you about<lb></lb> being cheated, some of my
+                            Warriors won't<lb></lb> mind what I say to them, but will have<lb></lb> their
+                            own way, because they know I have often<lb></lb> been cheated by the White
+                            People, if I had never<lb></lb> been cheated then my warriors would
+                            believe<lb></lb> me and mind what I say to them, but<lb></lb> now they won't
+                            mind</p>
+<p>Brothers we can't all go to work at once<lb></lb> some of my warriors will go
+                            a hunting to<lb></lb> get provisions and sometimes they broke a<lb></lb> Gun and
+                            then it takes a great deal of Money<lb></lb> to buy another, and we have
+                            very few Hoes &amp;<lb></lb> Axes and such things among us and we are
+                            not<lb></lb> able to get them</p>
+<p>Brothers I will go along with you to <a href="/places/canan">Canadar-que<placename key="canan"></placename></a> and then we will get matters settled
+                            about<lb></lb> the Mill and bring it back to your young men<lb></lb> in
+                            Writing</p>
+<p>Brothers this is all I have to say we will<lb></lb> now shake hands</p>
+</floatingtext>
+<p>At the close of the foregoing speech our friends<lb></lb> exprest a few words,
+                    representing among <lb></lb>
+<pb facs="hv_swaynej_diary_1798_039" n="39"></pb> after things the unreasonableness
+                    of their present<lb></lb> practice in suffering their Women to work all Day<lb></lb> in
+                    the fields &amp; Woods with their Hoes &amp; Axes<lb></lb> whilst they themselves
+                    were at the same time<lb></lb> playing with their Bows &amp; Arrows</p>
+<p> In order for their advancement into the good ways<lb></lb> and methods of White
+                    People, they were recom-<lb></lb> mended to take their boys to work with their
+                    mo-<lb></lb>thers and Sisters whilst they were young, and<lb></lb> when they grew older
+                    they would not think so<lb></lb> hard of it, Endeavours were also used seriously
+                    to<lb></lb> impress on their minds the remembrance<lb></lb> that it was from the Good
+                    Spirit they<lb></lb> received every good thing, and that he could<lb></lb> hear every
+                    thing they said, and see every<lb></lb> thing they did; and if they were good and
+                    in<lb></lb>dustrious he would love them and bless them<lb></lb> with many good
+                    things-<lb></lb> After we had one speaking and informed them<lb></lb> we had said all
+                    that we had to say at that<lb></lb> time, <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> observed that as all thing are<lb></lb> done and settled
+                    we will cover the Council<lb></lb> fire, the Council ended to pretty good
+                    satisfac-<lb></lb>tion both to us and the Indians tho' a loss was<lb></lb> sensibly felt
+                    by us for want of a good Interpreter </p>
+</div>
+<div type="entry">
+<pb facs="hv_swaynej_diary_1798_40" n="40"></pb>
+<dateline><date when="1798-05-30">30 of 5th Mo </date><placename key="genes1"></placename></dateline>
+<p>While we were sitting in religious re<lb></lb>tirement (which we continued to do
+                    twice a week)<lb></lb> we were interrupted by our Boatman who had<lb></lb> arrived at
+                    the landing with our goods<lb></lb> which relieved us of some anxiety of mind as
+                    the<lb></lb> River was geting low and we were doubtful<lb></lb> of the Boat geting this
+                    far at all, the Boat was<lb></lb> 16 Days coming from <a href="/places/pitts">Pittsburgh<placename key="pitts"></placename></a> to this place which after<lb></lb> a stay of about 2
+                    hours returned homewards, the<lb></lb> arrival of our Boat afforded us a plentiful
+                    stock of<lb></lb> provisions Beding and utensils of various kinds<lb></lb> to work and
+                    instruct the natives with, I now feel<lb></lb> myself in a good degree happy and
+                    contented</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-06-07">7th of 6th mo.</date><placename key="genes1"></placename></dateline>
+<p> This morning being the time appoint-<lb></lb>ed for our friends departure toward
+                    their native Land having<lb></lb> a wilderness journey before them and but
+                    little<lb></lb> prospect of reaching home in less than 5 or 6 weeks<lb></lb> intending
+                    to go a few days journey over <a href="/places/niagr">Niagara
+                        River<placename key="niagr"></placename></a> in <a href="/places/canad">upper Canada<placename key="canad"></placename></a> thence
+                    by way of <a href="/places/oneid">Oneida<placename key="oneid"></placename></a> and<lb></lb> New York which
+                    would make their route near<lb></lb> 1200 miles, our neighbour <a href="/people/ijohn1">Indian John<persname key="ijohn1"></persname></a> came<lb></lb> this morning according to
+                    appointment to<lb></lb> pilot our friends to <a href="/places/catta1">Cataraugus<placename key="catta1"></placename></a> about 45 miles<lb></lb> from this place, our friends
+                    being in readiness<lb></lb> solemnly took leave of us and set forward <lb></lb>
+<pb facs="hv_swaynej_diary_1798_041" n="41"></pb> on their Journey having a very
+                    rough and<lb></lb> disagreeable road as far as <a href="/places/catta1">Cataraugus<placename key="catta1"></placename></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1798-06-11"> 11th of the month </date><placename key="genes1"></placename></dateline>
+<p>we were visited by <a href="/people/cornp2">Cornplan-ter<persname key="cornp2"></persname></a> and
+                    several other Indians being on their<lb></lb> way to <a href="/places/canan">Canadarque<placename key="canan"></placename></a> in order to settle mat-<lb></lb>ters about the Land they
+                    sold last fall, by<lb></lb> whom we wrote to our former companions<lb></lb> which they
+                    expected to meet at <a href="/places/canan">Canadarque<placename key="canan"></placename></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1798-06-20"> 20th of the Month </date><placename key="genes1"></placename></dateline>
+<p>received a letter from <a href="/people/jpier1">John Pierce<persname key="jpier1"></persname></a><lb></lb> and
+                        <a href="/people/jshar1">Joshua Sharpless<persname key="jshar1"></persname></a> by the return of our
+                    neighbour<lb></lb> John, informing that they had an affectionate<lb></lb> parting with
+                        <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> at <a href="/places/buffc1">Buffalo Creek<placename key="buffc1"></placename></a> who<lb></lb> was pressingly solicitous that they
+                    should stay un-<lb></lb>til the Council met but at length gave it up<lb></lb> and in
+                    their parting conference <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a><lb></lb>
+                    feelingly expressed that he hoped they would<lb></lb> make their mind perfectly easy
+                    about their young<lb></lb> Men, for altho he could not answer for sickness<lb></lb> or
+                    Death on such things, but as for anything else<lb></lb> he would look upon it his
+                    duty always to be<lb></lb> their friend and that they might depend upon him<lb></lb> as
+                    such, and that no harm should happen to them<lb></lb> from his People, he concluded
+                    his spech with desi-<lb></lb>ring the Great Spirit might preserve them on<lb></lb> their
+                    journey, and that he might so order <lb></lb>
+<pb facs="hv_swaynej_diary_1798_042" n="42"></pb> things that they might find their
+                    families<lb></lb> and people well when they got home</p>
+<p>We are now settled and got to work at the old and<lb></lb> almost deserted Village
+                        <a href="/places/genes1">Genesinguhta<placename key="genes1"></placename></a> which is<lb></lb> so overgrown
+                    with rubbish &amp; bushes as to cause<lb></lb> a great deal of labour to prepare it
+                    for the Plaugh<lb></lb> which we started a few Days ago and have plan-<lb></lb>ted a
+                    small piece of Corn and also some Vine and<lb></lb> garden Seeds, The Indians are
+                    dayly flocking<lb></lb> about us and manifest much kindness and respect<lb></lb> after
+                    bringing us Vennison &amp; fish of an excelent<lb></lb> quality, to the Women we
+                    often impart small<lb></lb> presents which came for that purpose from<lb></lb> friends
+                    in <a href="/places/phila">Philadelphia<placename key="phila"></placename></a> for which they returned<lb></lb>
+                    many thanks</p>
+<p> The dress of the Indian men in warm wea-<lb></lb> ther consists of a short Calico
+                    shirt or frock which<lb></lb> comes a little below the waist over which<lb></lb> the
+                    ware a fine broad Cloth coat of a lively<lb></lb> coulor mostly Blue or green
+                    instead of pantaloons<lb></lb> they wear a piece of fine cloth, their leggens<lb></lb>
+                    are mostly blue or green, and some times<lb></lb> superfluously decorated with small
+                    beads<lb></lb> and curious straps about their legs, their<lb></lb> moccasons are
+                    curiously wrought with ribbands <lb></lb><pb facs="hv_swaynej_diary_1798_043" n="43"></pb> porcupine quills, and small beads, they are<lb></lb> latterly getting much in the
+                    practice of wearing<lb></lb> hats, The dress of the Woman is much like<lb></lb> that of
+                    the Men save a short woollen petticoat<lb></lb> and a broadcloth wrapper instead of
+                    a coat.<lb></lb> The Women about us have a number of<lb></lb> corn patches interspreed
+                    through the bushes<lb></lb> which they tend with their hoes, they<lb></lb> plant the
+                    hills about 3 feet apart with<lb></lb> 8 or 10 stalks in a hill, their activity
+                    in<lb></lb> hilling and weeding it is somewhat<lb></lb> extraordinary</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-06-27">27th of Sixth month</date><placename key="genes1"></placename></dateline>
+<p><a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> being at our<lb></lb> House we enquired
+                    of him if he would sell us<lb></lb> some boards to build a House he replyed
+                    that<lb></lb> we might have as many as we wanted at two<lb></lb> Dollars per hundred and
+                    he would deliver them<lb></lb> at at our landing, a few days after he<lb></lb> sent for
+                    us to come to the Saw mill and<lb></lb> see the boards measured out, we
+                    immediate-<lb></lb>ly went and found <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a>
+                    and several<lb></lb> other Indians at the Mill. here we had a<lb></lb> pretty stricking
+                    instance of the generosity<lb></lb> of <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a>, for as we had told the<lb></lb> Indians in council at our
+                    first coming <lb></lb>
+<pb facs="hv_swaynej_diary_1798_044" n="44"></pb> amongst them, that we came not to
+                    trade<lb></lb> with them, nor to use any endeavours to<lb></lb> to get their land or
+                    skins, therefore he<lb></lb> said he would take no pay of us for<lb></lb> any thing we
+                    got from him, but that we<lb></lb> might have as many boards as we wanted<lb></lb>
+                    without pay, we got 1000 feet and acknowleged<lb></lb> the old Mans kindness and
+                    offered him the<lb></lb> Money which he refused taking as pay for<lb></lb> the boards
+                    but as he was in need said he<lb></lb> would borrow it until he received his<lb></lb>
+                    annuity from government, and then he would<lb></lb> return it again, which he did
+                    accordingly </p>
+</div>
+<div type="entry">
+<dateline><date when="1798-07-07">7th of seventh month</date><placename key="genes1"></placename></dateline>
+<p><a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> and one of our<lb></lb> neighbour being
+                    at our house, the latter<lb></lb> having a short time before erected a sign on
+                    the<lb></lb> bank of the river at his new house with<lb></lb> an intention of keeping a
+                    tavern, which was<lb></lb> a verry disagreeable circumstance to us, yet
+                    cau-<lb></lb>tion was requisite least we should give offence<lb></lb> We however
+                    manifested our disaprobation to<lb></lb> to such a practice, in the presence of
+                    neighbors<lb></lb> John and <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a>, the old
+                    chief then infor-<lb></lb>med us that we must not be frightened at it and he<lb></lb>
+                    would try to have matters so ordered that <lb></lb>
+<pb facs="hv_swaynej_diary_1798_045" n="45"></pb> no liquor should be kept for sale
+                    near us but still they<lb></lb> must keep a little to use at times of hard<lb></lb>
+                    labour for some times they worked very hard<lb></lb> and then a little was
+                    necessary, Neighbour<lb></lb> John said that he could not loose what liquor<lb></lb> he
+                    had on hands for it cost him a great deal<lb></lb> of money, but when that was all
+                    sold he<lb></lb> gave expectations of declining the practice,<lb></lb> a few Days after
+                    he cut down his new<lb></lb> sign and told us it was <foreign xml:lang="iro">tooscoss</foreign>, which in their<lb></lb> language is, not good</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-07-09">9th of the month</date><placename key="genes1"></placename></dateline>
+<p> After quiting work in the even-<lb></lb>ing I and one of my companions went to
+                    one<lb></lb> of our near neighbours who had several<lb></lb> hand engaged in building a
+                    House some<lb></lb> were a little intoxicated, my companions said<lb></lb> to one of
+                    them who seemed awkward at his words<lb></lb> that he drunk too much Whisky which
+                    the<lb></lb> Indian understood and immediately his coun-<lb></lb>tenance changed and
+                    looked horrible he<lb></lb> muttered somthing to himself we did not under-<lb></lb>stand
+                    we then withdrew from the place, when<lb></lb> we had got a few steps from the House
+                    he<lb></lb> he took up his axe as tho he had a mind to<lb></lb> follow us, but did not,
+                    we expected to <lb></lb>
+<pb facs="hv_swaynej_diary_1798_046" n="46"></pb> have been troubled with drunken
+                    Indians<lb></lb> that night but they came no nearer than<lb></lb> than their Cabins
+                    which were a few rods<lb></lb> from ours. This was almost the first stri-<lb></lb>king
+                    instance of the bad effects of Spirituous<lb></lb> liquors that we had seen in our
+                    neigh-<lb></lb>bourhood. A few weeks after the Indian<lb></lb> brought a large fish and
+                    gave to my<lb></lb> companion and shook hands with him<lb></lb> as a token of
+                    friendship, and appeared<lb></lb> convicted for his misconduct</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-09-02">2nd of 9th month</date><placename key="genes1"></placename></dateline>
+<p> A young Man named<lb></lb><a href="/people/bshaw1">Benjamin Shaw<persname key="bshaw1"></persname></a> who had
+                    been employ-<lb></lb>ed in clearing Land near the waters of <a href="/people/osway">Oswaya Creek<persname key="osway"></persname></a> about 60 miles from this place<lb></lb> having
+                    occasion to return home which was in<lb></lb> the <a href="/places/genes2">Genesee<placename key="genes2"></placename></a> near <a href="/places/bath">Bath<placename key="bath"></placename></a>, about 50
+                    miles from<lb></lb> his employment, and on his way thro,<lb></lb> the woods crossed his
+                    path and bewildered<lb></lb> and after traviling six Days arrived at our house<lb></lb>
+                    and enquired if we could tell him where he<lb></lb> was said he had lain in the
+                    woods 6 nights<lb></lb> by himself, and 4 of them without fire<lb></lb> and the last
+                    night the wolves killed a deer<lb></lb> a few rods from him as he was laying without <lb></lb>
+<pb facs="hv_swaynej_diary_1798_047" n="47"></pb> fire, he fortunately had with him a
+                    little sugar<lb></lb> and Cheese on which he subsisted, we let him<lb></lb> have some
+                    provisions and informed him his<lb></lb> right course homeward</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-09-08">8th of the month</date><placename key="genes1"></placename></dateline>
+<p> Arrived at our House <a href="/people/jelic1">Joseph Ellicott<persname key="jelic1"></persname></a> head
+                    surveyor for the Holland company,<lb></lb>
+<a href="/people/jparr2">Jasper Parrish<persname key="jparr2"></persname></a> States interpreter,
+                    Farmers<lb></lb> Brother the chief Sachom of the <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a><lb></lb> Indians, and a large company of Surveyors<lb></lb> being
+                    on their way to <a href="/people/cornp2">Cornplanters<persname key="cornp2"></persname></a> in<lb></lb> order to
+                    have matters agreed on repecting the<lb></lb> Indians reservation on this River, the
+                    evening<lb></lb> being wet they stayed with us all<lb></lb> night which gave us an
+                    opportunity of a<lb></lb> short conference with the <a href="/people/farme1">Farmers
+                        Brother<persname key="farme1"></persname></a><lb></lb> in which we informed him of our motives<lb></lb> in
+                    coming amongst these Indians, and<lb></lb> had our Certificate explained to him<lb></lb>
+                    by <a href="/people/jparr2">Jasper Parrish<persname key="jparr2"></persname></a>, the old Chief appeared<lb></lb>
+                    to be pretty well satisfied with our proceed-<lb></lb>ings and said "he was glad to
+                    hear of our<lb></lb> coming among these Indians, and was in hopes<lb></lb> we would be
+                    of use to them, and was<lb></lb> glad at this time to see us and have<lb></lb> the
+                    opportunity of conversing with us, <lb></lb>
+<pb facs="hv_swaynej_diary_1798_048" n="48"></pb> and said he had somthing to tell
+                    us,<lb></lb> which was, that we had an arduous task<lb></lb> before us and must have
+                    many hardships<lb></lb> to pass through in the undertaking, he<lb></lb> also thought
+                    that the Indians could not easily<lb></lb> be brought off from their old habits and
+                    cus-<lb></lb>toms of living, and that the natural disposi-<lb></lb>tion in them would be
+                    hard to change-<lb></lb> and altho' he observed that many of<lb></lb> them were very
+                    active and with a little<lb></lb> instruction might learn to work well<lb></lb> yet they
+                    wanted tools to work with-<lb></lb> And as to teaching their Children to read<lb></lb>
+                    and write it was almost impossible unless<lb></lb> they understood the English
+                    language yet<lb></lb> he hoped we would be useful to them<lb></lb> and the tools we
+                    brought would be a great<lb></lb> help toward geting them to work And<lb></lb> that him
+                    and his people would wait to see<lb></lb> what progress these Indians would make
+                    in<lb></lb> the way of farming, and would be glad to<lb></lb> hear of our success in the
+                    business, and hoped<lb></lb> we would faithfully discharge our duty and<lb></lb> often
+                    caution the young Men to sobriety <lb></lb>
+<pb facs="hv_swaynej_diary_1798_049" n="49"></pb> and against the use of strong
+                    Drink-<lb></lb> We informed him that we were glad to see<lb></lb> him and that he used
+                    so much freedom<lb></lb> in telling us his mind, that we expected<lb></lb> bfore we came
+                    to have many hardships to pass through &amp;<lb></lb> therefore were prepared for
+                    them, but we had<lb></lb> found things much easier than we expected.<lb></lb> That the
+                    Indians were very kind to us and<lb></lb> as to their learning to work we
+                    thought<lb></lb> there was encouragement and were of the mind that their Children
+                    might be learned to<lb></lb> read and write; but we did not expect a<lb></lb> great
+                    change would take place very soon but<lb></lb> were willing to wait until the
+                    Indians saw<lb></lb> the advantage of a civilized life-<lb></lb> Next day they proceeded
+                    on to <a href="/people/cornp2">Cornplanters<persname key="cornp2"></persname></a><lb></lb> Village where a large
+                    council was held &amp;<lb></lb> all matters agreed on respecting the In-<lb></lb>dians
+                    reservation- A statement of which<lb></lb> out of <a href="/people/rmorr1">R
+                        Morris<persname key="rmorr1"></persname></a>'s purchases as follows</p>
+<floatingtext type="account">
+<p><a href="/places/conew">Conewangus<placename key="conew"></placename></a> - 2 square miles </p>
+<p><a href="/places/bigtr">Big Tree<placename key="bigtr"></placename></a> - 2 square miles </p>
+<p><placename>Little birds town</placename> - 2 square miles </p>
+<p><a href="/places/squaw">Squawky hill<placename key="squaw"></placename></a> - 2 square miles </p>
+<p><placename>Gardo</placename> - 4 square miles </p>
+<p><placename>Canideer</placename> - 16 square miles </p>
+<p><a href="/places/alleg1">Allegany<placename key="alleg1"></placename></a> - 42 square miles </p>
+<p><a href="/places/catta1">Cataraugus<placename key="catta1"></placename></a> 42 square miles </p>
+<p><a href="/places/buffa">Buffalo<placename key="buffa"></placename></a> and </p>
+<p><a href="/places/tonne">Tonewante<placename key="tonne"></placename></a> - 200 square miles</p>
+</floatingtext>
+</div>
+<div type="entry">
+<pb facs="hv_swaynej_diary_1798_050" n="50"></pb>
+<dateline><date when="1798-09-24"> 24th of the month </date><placename key="genes1"></placename></dateline>
+<p><a href="/people/habee1">Henry Obeal<persname key="habee1"></persname></a> and<lb></lb> several Indians called at
+                    our house with<lb></lb> whom we had some conversation, respect<lb></lb>ing their going
+                    to work and geting a living<lb></lb> by their industry, one of them said that<lb></lb>
+                    some birds had lately come about and<lb></lb> told them that we intended to go
+                    home<lb></lb> next Summer and some others were<lb></lb> coming to take our place. We
+                    told them<lb></lb> we had not yet concluded how long we would<lb></lb> stay amongst
+                    them, but when we went<lb></lb> away we would let them know our rea<lb></lb>sons for
+                    going, and that it was likely<lb></lb> some others would come that would be<lb></lb> of
+                    as much benefit to them as ourselves -<lb></lb> and that they must not believe all
+                    that<lb></lb> these fires told them. -- But still they<lb></lb> seemed uneasy with their
+                    information<lb></lb> and said <said>you have told us what to do and<lb></lb> if you go
+                        away and some others comes they<lb></lb> will tell us another story, then
+                        how<lb></lb> shall we know which is right</said>: we reply<lb></lb> that the Quakers
+                    would all tell them<lb></lb> the same story and that they need<lb></lb> not be uneasy in
+                    that respect. <lb></lb>
+<pb facs="hv_swaynej_diary_1798_051" n="51"></pb> after the foregoing information
+                    they<lb></lb> seemed pretty well reconciled and began<lb></lb> to enquire if we had
+                    wives and children &amp;c.</p>
+</div>
+<div type="entry">
+<dateline><date when="1798-11-21">1798 21 of 11th mo.</date><placename key="genes1"></placename></dateline>
+<p> About this time <a href="/people/hsimm1">Henry Simmons<persname key="hsimm1"></persname></a><lb></lb> opened a
+                    School at <a href="/places/genes1">Genisshadego<placename key="genes1"></placename></a> which was<lb></lb>
+                    atended by several little boys who seemed very<lb></lb> anxious to learn the letter
+                    and very inquisitive<lb></lb> for knowing the english names of<lb></lb> things.
+                        <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> bought 50lb. of flower<lb></lb>
+                    and 100lb. of Pork and some Vennison to acco<lb></lb>midate the School-master --</p>
+</div>
+<div type="entry">
+<dateline><date when="1799-01-20">1799 20 of 1st month</date><placename key="cornp"></placename></dateline>
+<p> had a visit from H Simmons<lb></lb> who informed us of the Death of <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a>'s<lb></lb> Daughter who had been a long time
+                    under a<lb></lb> consumption, the day of burial a few men and<lb></lb> a great number of
+                    Women collected to the house<lb></lb> of <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a>, the Men assisted in carrying the<lb></lb> corps to the
+                    grave, after the internment the<lb></lb> men withdrew and the Women returned<lb></lb>
+                    again to the House where they exhibited<lb></lb> a melancholy scene of mourning
+                    which lasted<lb></lb> several days, all kinds of the best provisions<lb></lb> that they
+                    could procure was brought to<lb></lb> entertain the mourners </p>
+</div>
+<div type="entry">
+<pb facs="hv_swaynej_diary_1798_052" n="52"></pb>
+<dateline><date when="1799-02-01">2nd month, first 1799</date><placename key="genes1"></placename></dateline>
+<p>We received a letter<lb></lb> from <a href="/people/twist1">T.W.<persname key="twist1"></persname></a> of
+                    Philadelphia expressive of a dis-<lb></lb>pensation of more general health in the
+                    City<lb></lb> than was experienced a few weeks past, but<lb></lb> that in the course of
+                    about three Months<lb></lb> 3500 of his fellow Citizens were removed<lb></lb> from works
+                    to rewards, and many had<lb></lb> ended their lives in the adjacent Country<lb></lb> We
+                    also received one from <a href="/people/jshar1">J. Sharpless<persname key="jshar1"></persname></a> our<lb></lb>
+                    fellow traveler in the commencement of this<lb></lb> work, in which he expressed
+                    much love and<lb></lb> sympathy with us in our undertaking also<lb></lb> some pertinent
+                    communication concern-<lb></lb>ing the weighty business in which we<lb></lb> were
+                    ingaged, a circumstantial account of<lb></lb> the Yearly Meeting and the recent
+                    visita-<lb></lb>tion of sickness in <a href="/places/phila">Philadelphia<placename key="phila"></placename></a>
+                    and<lb></lb> parts adjacent-</p>
+</div>
+<div type="entry">
+<dateline><date when="1799-02-19">19th of the month</date><placename key="genes1"></placename></dateline>
+<p>Some Indian traders<lb></lb> called upon us for lodging, amongst whom<lb></lb> was the
+                    young War Chief of <a href="/places/catta1">Catarugus<placename key="catta1"></placename></a><lb></lb> Village,
+                    one of the company being a good<lb></lb> interpreter we informed the Chief that
+                    one<lb></lb> of us had lately passed thro their Village<lb></lb> and taken a view of the
+                    situation of some of <lb></lb>
+<pb facs="hv_swaynej_diary_1798_053" n="53"></pb> of their Land and thought it very
+                    good, and<lb></lb> well situated for cultivating, to which the chief<lb></lb> replyed,
+                    that him and his people<lb></lb> had it in contemplation for some time<lb></lb> past and
+                    was very desirous of being instructed<lb></lb> therein, that they had a prospect of
+                    building a Sawmill<lb></lb> and had come to a conclusion, that every young<lb></lb> man
+                    should advance a part of his annuity from<lb></lb> Government into the hands of a
+                    treasurer until<lb></lb> they had enough to build the Mill, that<lb></lb> they were very
+                    desirous of having some per-<lb></lb>son amongst them to instruct their
+                    children<lb></lb> but knew not where to apply, for when the<lb></lb> Quakers came
+                    amongst the Indians to settle<lb></lb>
+<a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> kept us among his people, and<lb></lb>
+                    now they saw and heard what we had done<lb></lb> here and that made them anxious to
+                    go<lb></lb> to work, but they wanted some tools to<lb></lb> go on with but ware not able
+                    to purchase<lb></lb> them; and if they should succeed in build-<lb></lb>ing the Saw Mill
+                    they would want some<lb></lb> instruction how to go on with it</p>
+<p> We then<lb></lb> informed him of the motives of our society in<lb></lb> settling amongst
+                    Indians, that our prospect<lb></lb> was not from any lucrative views but from <lb></lb>
+<pb facs="hv_swaynej_diary_1798_054" n="54"></pb> a desire to be useful to them, and
+                    instruct them<lb></lb> in the cultivation of their Land, and wanted<lb></lb> nothing
+                    from them for our trouble. And<lb></lb> that our prospect was not confined to
+                    any<lb></lb> particular tribe of Indians, but were willing<lb></lb> (as much as lay in
+                    our power) to assist any that made<lb></lb> application to us, and that we did not
+                    wish to<lb></lb> go amongst them where the Chiefs and<lb></lb> leading Men were not
+                    willing to receive us, and<lb></lb> the reason we came to <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a>'s people was<lb></lb> that a general circulatory Letter
+                    had been<lb></lb> addressed and sent to these Nations of Indians<lb></lb> to know if any
+                    of them were desirous of having friends<lb></lb> to instruct their Children in the
+                    useful habits of<lb></lb> good and honest White people, <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a><lb></lb> was the only Chief that consented to
+                    receive<lb></lb> us and therefore we came amongst his people<lb></lb> but that the way
+                    was still open for others to<lb></lb> make application, and if the Chiefs and<lb></lb>
+                    warriors of <a href="/places/catta1">Cataraugus<placename key="catta1"></placename></a> Village were
+                    desirous<lb></lb> of having any assistance from our society<lb></lb> and would send
+                    their minds to us in<lb></lb> writing we would forward it to our friends<lb></lb> in
+                        <a href="/places/phila">Philadelphia<placename key="phila"></placename></a>, and perhaps some
+                    assistance<lb></lb> would be given them- <lb></lb><pb facs="hv_swaynej_diary_1798_055" n="55"></pb> we then asked him if they were
+                    desirous<lb></lb> of aplying to our society or to the United States<lb></lb> To all
+                    which he replyed <said>I am very<lb></lb> thankfull of an opportunity of such
+                        information<lb></lb> there is no people affords such encouragement<lb></lb> as you
+                        do. We have often heard from <a href="/people/cornp2">Corn-planters<persname key="cornp2"></persname></a> that they had found you punc-<lb></lb>tual to
+                        your words in every thing you<lb></lb> told them in the begining, and that
+                        they<lb></lb> could not find the least fault with you<lb></lb> in any one thing. And
+                        now I hear<lb></lb> you with my own ears and believe what<lb></lb> you say, and am
+                        determined to apply<lb></lb> to you before any other People in the World<lb></lb>
+                        and as soon as I return home we will<lb></lb> hold a council and send our
+                        minds<lb></lb> to you in Writing for you to forward<lb></lb> to your Friends, And if
+                        any of your<lb></lb> People should come amongst us, they<lb></lb> shall have Land to
+                        settle on where ever<lb></lb> they want it, or anything that is ours that<lb></lb>
+                        they stand in need of.</said>
+</p>
+</div>
+<div type="entry">
+<dateline><date when="1799-04-16">16th of 4th month</date><placename key="genes1"></placename></dateline>
+<p> we received the follow<lb></lb>ing Letter from the <a href="/organizations/seneca">Cataraugus
+                        Indians<orgname key="seneca"></orgname></a><lb></lb> near <a href="/places/lakee">Lake Erie<placename key="lakee"></placename></a>- </p>
+<pb facs="hv_swaynej_diary_1798_056" n="56"></pb>
+<floatingtext type="letter">
+<opener><dateline><date when="1799-04-11">April 11th</date>
+<a href="/places/catta1">Cataraugus,<placename key="catta1"></placename></a></dateline>
+<salute>To the Allegany Quakers</salute></opener>
+<p>This Day we<lb></lb> have met with our brothers as opportu-<lb></lb>nity to
+                            return thanks to our Maker for<lb></lb> opportunity to proceed, Our business
+                            is to<lb></lb> desire our friends to take into consideration<lb></lb> we desire
+                            to get the knowledge of farming<lb></lb> from our friends as one God made
+                            us<lb></lb> both, we have advanced ourselves but<lb></lb> still think fit to
+                            imbrace opportunity, this offer'd<lb></lb> us by our friends if we have any
+                            gift<lb></lb> that we may have our Eyes opened-<lb></lb> We first lay our matter
+                            before you our<lb></lb> friends, as you have come forward and off-<lb></lb>ered
+                            to assist in our undertaking, as there<lb></lb> is three Hundred and sixty
+                            one souls in this<lb></lb> Village that have agreed to receive
+                            instruc-<lb></lb>tion from you, as we desire to be instruced<lb></lb> in all the
+                            various branches of learning<lb></lb> letters, pen, and tilling the field;
+                            as we have<lb></lb> seen great benefit by <a href="/people/cornp2">Captain Obeals<persname key="cornp2"></persname></a>, We desire to be instructed in
+                            the<lb></lb> same rules </p>
+<pb facs="hv_swaynej_diary_1798_057" n="57"></pb>
+<p>Brothers, If you will take into consi-<lb></lb>deration to favour us
+                            according to our desire<lb></lb> and send such Men as you think fit to<lb></lb>
+                            instruct us they shall have House and<lb></lb> Land to make themselves
+                            comfortable,<lb></lb> and shall not be molested by friend nor foe,<lb></lb> but
+                            be protected according to the best of<lb></lb> our abilities- and Brothers
+                            If you<lb></lb> conclude to assist us in this time of need<lb></lb> and
+                            necessity we desire you would help<lb></lb> to a set of Saw mill Irons- </p>
+<closer>We are your friends<lb></lb>
+<signed><a href="/people/tacono1">Ta con on gee<persname key="tacono1"></persname></a>
+<a href="/people/waintaug1">Wain tau guh taugh<persname key="waintaug1"></persname></a>
+<a href="/people/tenian1">Tenianore<persname key="tenian1"></persname></a> &amp; others</signed>
+                            In this Year of our Lord 1799</closer>
+</floatingtext>
+</div>
+<div type="entry">
+<dateline><date when="1799-10-05">10th of 5th month</date><placename key="genes1"></placename></dateline>
+<p> About this time a number<lb></lb> of Indians arrived from <a href="/places/pitts">Pittsburgh<placename key="pitts"></placename></a> where they<lb></lb> had been to dispose of their Skins
+                    furs<lb></lb> &amp;c. and brought in return a great quantity of<lb></lb> Whisky which they
+                    sold to other Indians<lb></lb> at home which soon caused much confusion<lb></lb> and
+                    intoxication amongst the Indians at <lb></lb>
+<pb facs="hv_swaynej_diary_1798_058" n="58"></pb>
+<a href="/places/cornp">Cornplanters<placename key="cornp"></placename></a> Village insomuch that we<lb></lb>
+                    felt a disposition (or rather a freedom) to have<lb></lb> the Indians generally
+                    collected that we<lb></lb> might endeavour to make them sensible<lb></lb> of their
+                    misconduct and press upon them<lb></lb> the bad affects of that pernicious and
+                    destruct-<lb></lb>ive article, accordingly a time was agreed<lb></lb> on and about 20 of
+                    those that were sober<lb></lb> attended, where we communicated to<lb></lb> them our
+                    concern for their wellfare and<lb></lb> happiness and also the many bad
+                    affects<lb></lb>that the use of strong drink produced and<lb></lb> solicited them to lay
+                    out their Money<lb></lb> in future for clothing, farming utensils,<lb></lb> domestic
+                    animals, and such like ne-<lb></lb>cessary things: and in a short time they<lb></lb>
+                    might become farmers and have<lb></lb> Milk, meat, and Clothing plenty, instead<lb></lb>
+                    of the Elk they might knock down<lb></lb> the Cow and instead of the Deer they
+                    might<lb></lb> kill the Sheep, and Swine, which would<lb></lb> supply them plentifully
+                    with good meat<lb></lb> without exposing themselves to so <lb></lb><pb facs="hv_swaynej_diary_1798_059" n="59"></pb> much toil and hardships wandering<lb></lb>
+                    thro' the Snow when it is 2 or 3 feet<lb></lb> deep, The Indians sat pretty quiet
+                    and some<lb></lb> of them appeared somewhat convicted, they in-<lb></lb>formed us that
+                    they would consult each other<lb></lb> and others of their people when they get
+                    sober<lb></lb> and give us an answer another time. A few<lb></lb> Days after the Indians
+                    assembled again and<lb></lb> made reply to what we had said to them the<lb></lb>
+                    substance is nearly as follows <said>We have made<lb></lb> enquiry and conversed
+                        with each other concern-<lb></lb>ing you, but can find no faith in all your<lb></lb>
+                        proceedings, but find you just and upright in<lb></lb> all your ways amongst us,
+                        and that the<lb></lb> fault and bad conduct lies on our own side<lb></lb> We wish
+                        you to make your minds easy<lb></lb> concerning us, for we intend to take
+                        your<lb></lb> advice and try to do better. And we are<lb></lb> determined not to let
+                        any more Whisky<lb></lb> be exposed for sale amongst us. We have<lb></lb> appointed
+                        the young Chiefs to have the over-<lb></lb>sight of those that misconduct in
+                        future.<lb></lb> We will now take up work and assist our<lb></lb> Women in the labor
+                        of the field- </said></p>
+<pb facs="hv_swaynej_diary_1798_060" n="60"></pb>
+<p>About this time we received a Letter from<lb></lb> our friends in <a href="/places/phila">Philadelphia<placename key="phila"></placename></a> desiring one<lb></lb> of us to go to
+                        <a href="/people/gwilk1">John Wilkins<persname key="gwilk1"></persname></a> farm at<lb></lb>
+<a href="/places/hicko">Hickory Town<placename key="hicko"></placename></a> about 50 miles down this<lb></lb>
+                    River for a yoke of Oxen which journey<lb></lb> fell upon myself, and I employed
+                    an<lb></lb> Indian lad and embarked in a Canoe<lb></lb> with several others Indians
+                    bound for<lb></lb>
+<a href="/places/frank">Franklin<placename key="frank"></placename></a>, and arrived at <a href="/places/hicko">Hickory Town<placename key="hicko"></placename></a> in<lb></lb> about one Day and having had
+                    a<lb></lb> prospect before I left home of geting a<lb></lb> Milch Cow at this place and
+                    not find-<lb></lb> ing any here for sale, I concluded to ex-<lb></lb>tend my enquiries
+                    farther and according-<lb></lb>ly went on foot as far as <a href="/places/hicko">Hickory Town<placename key="hicko"></placename></a><lb></lb> but found none for sale. I then returned
+                    again<lb></lb> to <a href="/places/hicko">Hickory Town<placename key="hicko"></placename></a> got a yoke of Oxen
+                    and<lb></lb> proceeded homewards, the first days travel<lb></lb> found the road very
+                    rough and Mountain-<lb></lb>ous and in some places no path to be seen<lb></lb> at all.
+                    The second day about dark got within<lb></lb> 3 or 4 miles of <a href="/people/cornp2">Cornplanters<persname key="cornp2"></persname></a> Town where we<lb></lb> were oblidged to lodge in the
+                    woods without any<lb></lb> provisions or go home in the dark which <lb></lb>
+<pb facs="hv_swaynej_diary_1798_061" n="61"></pb> would be a very disagreeable
+                    journey, however<lb></lb> we concluded to leave the Oxen in the woods<lb></lb> and try
+                    if we could get to the town, which<lb></lb> we did with some difficulty being
+                    pretty<lb></lb> tired and hungry, next day the cattle were<lb></lb> brought home by some
+                    Indians</p>
+<p> After my return I was for several days engag<lb></lb> in the Carpenter-works of a
+                    School House about<lb></lb> half a mile from <a href="/places/genes1">Genisshadego<placename key="genes1"></placename></a> where the Indians<lb></lb> propose building a new
+                    Town, while I was thus<lb></lb> engaged I received information that agreeable to<lb></lb>
+<a href="/people/cornp2">Cornplanters<persname key="cornp2"></persname></a> orders three of his men had
+                    ta-<lb></lb>ken the life of an Indian Woman, who had<lb></lb> been for some time past
+                    strongly suspected<lb></lb> by the natives for having the art of witchcraft<lb></lb> and
+                    was so despised that her husband put her away<lb></lb> and took another woman for
+                    his wife, (which<lb></lb> as the story goes) so enraged her, that she<lb></lb>
+                    threatened to take the life of a young child a<lb></lb> relation to her former
+                    husband. This circumstance<lb></lb> very much agitated the minds of some of the
+                    Indians<lb></lb> insomuch that <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> ordered
+                    three of<lb></lb> his men immediately to take her life, she<lb></lb> being at that time
+                    at work in the cornfield<lb></lb><pb facs="hv_swaynej_diary_1798_062" n="62"></pb> with a
+                    number of other Women who were<lb></lb> much alarmed to behold their companion<lb></lb>
+                    stabed with knives</p>
+</div>
+<div type="entry">
+<dateline><date when="1799-09-12">12 of 9th month</date><placename key="genes1"></placename></dateline>
+<p>arrived our beloved Friends<lb></lb>
+<a href="/people/jshar1">Joshua Sharpless<persname key="jshar1"></persname></a>, <a href="/people/icoat1">Isaac
+                        Coates<persname key="icoat1"></persname></a>, <a href="/people/tstew1">Thomas Stewardson<persname key="tstew1"></persname></a>,
+                    and <a href="/people/jcoop1">James Cooper<persname key="jcoop1"></persname></a>, the sight<lb></lb> of which was
+                    truly pleasing to me as I<lb></lb> had not seen any friends since<lb></lb>
+<a href="/people/jpier1">John Pierce<persname key="jpier1"></persname></a> and <a href="/people/jshar1">Joshua
+                        Sharpless<persname key="jshar1"></persname></a> left us<lb></lb> in the sixth month 1798 they brought
+                    with<lb></lb> them a number of satisfactory letters<lb></lb> from our friends, and
+                    relations, during<lb></lb> their stay with us they had a council with<lb></lb> the
+                    Indians, admonishing them to useful habits<lb></lb> of industry, and read to them
+                    the following<lb></lb> address which they committed to paper at<lb></lb> our House</p>
+<floatingtext type="speech">
+<dateline><date when="1799-09-12"></date><placename key="cornp"></placename></dateline>
+<p> Brothers You have now heard that our<lb></lb> coming here was to see how you
+                            and our<lb></lb> young men who are living among you<lb></lb> are getting along.
+                            We are glad that the Good<lb></lb> Spirit has favoured us to meet you in
+                            health<lb></lb> and given us this opportunity of taking<lb></lb> you by the hand
+                            and brighening the <lb></lb>
+<pb facs="hv_swaynej_diary_1798_063" n="63"></pb> Chain of friendship. Now
+                            Brothers we should<lb></lb> like to hear from your own mouths if you are
+                            quite satis-<lb></lb>fied with our young men living amongst you<lb></lb> they
+                            came here with an hope of being useful<lb></lb> by instructing you in a
+                            better way of managing<lb></lb> your Land and providing for yourselves
+                            and<lb></lb> Cattle, we desire you to speak freely</p>
+<p>Brothers it has been some satisfaction to us<lb></lb> in riding thro' your
+                            Town to see marks of indu-<lb></lb>stry taking place, that you are building
+                            better<lb></lb> and warmer Houses to live in and that so much<lb></lb> of your
+                            cleared Land is planted with Corn,<lb></lb> Potatoes &amp;c. and to see those
+                            articles kept in<lb></lb> good order</p>
+<p>Brothers We observe where your new houses<lb></lb> are building that the
+                            timber is very much<lb></lb> cut off a rich flat which we wish you
+                            encou-<lb></lb>raged to clear and make it fit for plow-<lb></lb>ing we believe
+                            it to be very good Land for<lb></lb> Wheat as well as Corn and as the
+                            White<lb></lb> People are setting around you the Deer and<lb></lb> other game
+                            will grow scarcer and more difficult<lb></lb> to be taken. We therefore hope
+                            that more of your<lb></lb> Men will assist in clearly Land, fencing it,
+                                <lb></lb><pb facs="hv_swaynej_diary_1798_064" n="64"></pb> planting it with
+                            corn and sowing it with Wheat.<lb></lb> you will then have a supply of
+                            provisions more<lb></lb> certain to depend upon than hunting</p>
+<p>Brothers we were pleased to see your stock<lb></lb> of cattle increased. The
+                            rich bottom on the<lb></lb> river will yield plenty for them to live on<lb></lb>
+                            in the Summer Season, but as your win-<lb></lb>ters are long and cold it
+                            will require some<lb></lb> thing for them to live on in Winter.<lb></lb> Now the
+                            white people keep thin cattle<lb></lb> on hay, straw and cornfodder,
+                            straw<lb></lb> you cannot get until you raise wheat or<lb></lb> other grain, the
+                            rich bottoms if they ware<lb></lb> put in order would produce a great deal
+                            of<lb></lb> hay, but for an immediate supply, we<lb></lb> think as soon as you
+                            gather your corn<lb></lb> you should cut the stalks close at the<lb></lb> ground
+                            bind them in small bundles<lb></lb> and put them in stacks as our<lb></lb> young
+                            men do they would keep the<lb></lb> cattle part of the cold weather</p>
+<p> Brothers We are pleased to see a<lb></lb> a quantity of new fence made this
+                            sum-<lb></lb>mer near where our young men live <lb></lb>
+<pb facs="hv_swaynej_diary_1798_065" n="65"></pb> and we would not have you
+                            get discouraged<lb></lb> at the labour it takes for if you will<lb></lb> clear a
+                            little more land every year and<lb></lb> fence it you will soon get enough
+                            to raise<lb></lb> what Bread you want as well as some<lb></lb> for grass to make
+                            hay for winter</p>
+<p>Brothers we understand you are desirous to<lb></lb> discourage whisky from
+                            being brought among<lb></lb> you with which we are much pleased<lb></lb> and
+                            should be glad if you would entirely<lb></lb> keep it away, for to get it
+                            you give your<lb></lb> money which you should have to buy clothes<lb></lb> with
+                            and to buy Oxen and ploughs with<lb></lb> to work your land, and it does not
+                            do<lb></lb> you any good</p>
+</floatingtext>
+<p>After the foregoing writings wore<lb></lb> read one of our friends was favoured
+                    in<lb></lb> a lively manner to communicate<lb></lb> some suitable hints of advice to the
+                    Na-<lb></lb>tives well adapted to their present<lb></lb> state</p>
+<p>Before the council ended <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a><lb></lb> told
+                    our friends that he had made inquiry<lb></lb> concerning us, but could not find any
+                    fault <lb></lb>
+<pb facs="hv_swaynej_diary_1798_066" n="66"></pb> fraud or deception in us at all,
+                    but were<lb></lb> perfectly satisfied with our being am-<lb></lb>ongst them </p>
+</div>
+<div type="narrative">
+<p>On the first day following<lb></lb> we had a very satisfactory meeting in our<lb></lb>
+                    house at <a href="/places/genes1">Genesinguhta<placename key="genes1"></placename></a> which was a<lb></lb>
+                    tendering time to me and I believe our<lb></lb> little assembly was livingly owned
+                    by<lb></lb> the true sheperd of Israel the silent</p>
+<p> The next day <a href="/people/jshar1">Joshua Sharpless<persname key="jshar1"></persname></a> fell
+                    through<lb></lb> a trap door in a cellar which stunned<lb></lb> him, so that he lay for
+                    a considerable time<lb></lb> before he came again to his senses, after he<lb></lb> had a
+                    little recovered we found that he<lb></lb> was not very badly wounded, tho we<lb></lb>
+                    were doubtful of his being able to tra-<lb></lb>vel next day which was the time
+                    appo-<lb></lb> inted for their departure, but they got<lb></lb> themselves in readyness
+                        (<a href="/people/jshar1">Joshua<persname key="jshar1"></persname></a> being anxious<lb></lb> for going) and
+                    took an affectionate farewell<lb></lb> opportunity with us and set off about
+                    noon<lb></lb> intending to go about 100 miles to the north into<lb></lb>
+<a href="/places/canad">upper Canada<placename key="canad"></placename></a> in order to pay a visit to<lb></lb>
+                    some of the scattering friends in that<lb></lb> quarter, they being on a committee
+                    appointed<lb></lb> by the <a href="/organizations/pym">Yearly meeting<orgname key="pym"></orgname></a> for that
+                    purpose </p>
+</div>
+<div type="entry">
+<pb facs="hv_swaynej_diary_1798_067" n="67"></pb>
+<dateline><date when="1799-10-07">7th of 10 mo</date><placename key="genes1"></placename></dateline>
+<p><a href="/people/hsimm1">Henry Simmons<persname key="hsimm1"></persname></a> took his depar-<lb></lb>ture from
+                        <a href="/places/genes1">Genesinguhta<placename key="genes1"></placename></a> and set out for<lb></lb> his
+                    native land <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> and one of<lb></lb> his
+                    men accompanying him as far as<lb></lb><a href="/people/canan">Canadarque<persname key="canan"></persname></a>
+                    now were are left but two in<lb></lb> number about this time we killed<lb></lb> a fat
+                    hog and a very fat beef we have a<lb></lb> pretty plentiful supply of Corn and<lb></lb>
+                    Potatoes and some buckwheat have this<lb></lb> fall erected a small log barn and a
+                    smith<lb></lb> shop and seem to have things pretty plen-<lb></lb>tiful about us and we
+                    now begin to enjoy<lb></lb> the fruits of our labour from the field</p>
+</div>
+<div type="entry">
+<dateline><date when="1799-12-28">28th of 12 mo</date><placename key="genes1"></placename></dateline>
+<p> About this time two chiefs<lb></lb> came from <a href="/places/catta1">Cataraughus<placename key="catta1"></placename></a> being on their way<lb></lb> to <a href="/places/cornp">Cornplanter<placename key="cornp"></placename></a>, Village who delivered us<lb></lb> a letter wrote on
+                    behalf of the Chiefs of that<lb></lb> Village informing that they had received
+                    letter<lb></lb> that was wrote and left at <a href="/places/buffc1">Buffalo
+                        Creek<placename key="buffc1"></placename></a> last<lb></lb> fall by <a href="/people/jshar1">Joshua
+                            Sharpless<persname key="jshar1"></persname></a> &amp;c. which pleased them<lb></lb> generally, and that they
+                    intended to follow<lb></lb> the advice contained in it for they had<lb></lb> already
+                    swallowed it in their breath and Hearts<lb></lb> that they were going to lay up
+                    several hundred <lb></lb>
+<pb facs="hv_swaynej_diary_1798_068" n="68"></pb> Dollars of their annuity to buy
+                    cattle and other<lb></lb> usefull articles, that they ware very anxious to<lb></lb> have
+                    their friends the Quakers to instruct and<lb></lb> assist them in building a Saw
+                    Mill, that they<lb></lb> were determined to throw up drinking whisky<lb></lb> and if any
+                    traders brought it amongst them they would<lb></lb> order them off the ground. We
+                    returned them<lb></lb> the following answer by the aforesaid Chiefs.</p>
+<floatingtext>
+<opener>To the Chiefs and others of <a href="/people/seneca">Cataraugus<persname key="seneca"></persname></a><lb></lb>
+<salute>Friends and Brothers</salute></opener>
+<p>We received your<lb></lb> letter in company with one to <a href="/people/cornp2">Captain Obeal<persname key="cornp2"></persname></a> and are glad to find that
+                            you got a<lb></lb> good understanding of what our friends<lb></lb> wrote to you
+                            at <a href="/places/buffc1">Buffalo Creek<placename key="buffc1"></placename></a> and that the<lb></lb>
+                            instruction they gave pleased you generally,<lb></lb> Now Brothers we did
+                            not see that speech<lb></lb> that our friends left at <a href="/places/buffc1">Buffalo Creek<placename key="buffc1"></placename></a> for you<lb></lb> but as you are
+                            determined to take their advice<lb></lb> and have already swallowed it down
+                            in your<lb></lb> breasts we hope you often remember and con-<lb></lb>sider
+                            it</p>
+<p> Brothers we are glad to hear that you have <lb></lb><pb facs="hv_swaynej_diary_1798_069" n="69"></pb>come to a resolution to lay up so
+                            much of your<lb></lb> money in order to buy Cattle and other useful<lb></lb>
+                            articles, and that you are determined to quit<lb></lb> drinking whisky and
+                            not to allow any traders to<lb></lb> sell it on the ground- Now Brothers
+                            this<lb></lb> is a very wise resolution in you and we hope<lb></lb> you will be
+                            sincere and keep to it, we heartily<lb></lb> wish all the Indian tribes
+                            would join you in<lb></lb> driving Whisky and Rum out of the Land.<lb></lb> We
+                            hope some of you have got you Eyes opened<lb></lb> to see that Whisky and
+                            strong drink has been<lb></lb> the cause of much evil and wickedness
+                            amon-<lb></lb>gst you, and that it has taken away much of<lb></lb> your money,
+                            your skins, and your furs which<lb></lb> the Great Spirit has given you to
+                            buy blankets,<lb></lb> clothing, axes, hoes, and other useful articles<lb></lb>
+                            to assist you in tilling the field. And we fear<lb></lb> in time past it has
+                            taken away some of<lb></lb> the corn your poor Women has worked<lb></lb> hard at
+                            raising with their hoes-<lb></lb> Brothers you must know that there are
+                            many<lb></lb> white people that love money and they<lb></lb> know that you love
+                            Whisky and this is <lb></lb>
+<pb facs="hv_swaynej_diary_1798_070" n="70"></pb> the way they take to get
+                            your money and<lb></lb> property from you, But if you keep to your<lb></lb>
+                            resolution not to drink it then there will<lb></lb> be no danger, You will
+                            then have money<lb></lb> to buy Oxen and ploughs to plow your ground<lb></lb>
+                            and raise a great deal of corn, and to buy Axes,<lb></lb> and hoes, and
+                            other useful articles to go to<lb></lb> farming with; And then when
+                            your<lb></lb> Brothers the Quakers hear that you are<lb></lb> trying to do good
+                            for yourselves and making<lb></lb> good use of your money it will
+                            encourage<lb></lb> them to help you more</p>
+<p> Brothers we want you often to think on<lb></lb> the Great Spirit and to pray
+                            to him in your<lb></lb> Hearts and then he will show you what is<lb></lb> good
+                            and what is evil. And we desire<lb></lb> you to take up work like the
+                            white<lb></lb> people, for your land we believe is very<lb></lb> good and will
+                            produce a great deal of grain<lb></lb> if you are industrious; And when you
+                            get<lb></lb> plenty of cattle, Swine and Sheep they will<lb></lb> afford you
+                            plenty of meat and be much<lb></lb> easier taken than the Elk the Deer and <lb></lb>
+<pb facs="hv_swaynej_diary_1798_071" n="71"></pb> Bear, then will your old
+                            men, your wives,<lb></lb> and your children, be happy and enjoy<lb></lb> the
+                            comforts of life, and you will look<lb></lb> on your flocks your fields and
+                            your fruit<lb></lb> trees with contentment and pleasure-<lb></lb> Brothers and
+                            Sisters we are young men<lb></lb> and can't say a grat deal to you but
+                            we<lb></lb> intend to send an account how you<lb></lb> are coming on to our
+                            elder brethren in<lb></lb> Philadelphia and we can assure you that they<lb></lb>
+                            will be your friends and council you wisely<lb></lb> in every thing for your
+                            good, and we<lb></lb> hope your ears will always be open to<lb></lb> listen to
+                            their talk</p>
+<closer>We commend you to the care of the<lb></lb> Great Spirit and are your
+                            friends<lb></lb> and brothers<lb></lb>
+<signed>
+<a href="/people/jswai1">Joel Swayne<persname key="jswai1"></persname></a><lb></lb>
+<a href="/people/hjack1">Halliday
+                                    Jackson<persname key="hjack1"></persname></a></signed><dateline><date when="1799-12-28"></date><placename key="genes1"></placename></dateline></closer>
+</floatingtext>
+</div>
+<div type="entry">
+<dateline><date when="1800-01-08">8 of the 1st month 1800</date><placename key="genes1"></placename></dateline>
+<p><a href="/people/cornp2">Cornplanters<persname key="cornp2"></persname></a> sis-<lb></lb>ter brought one of her
+                    sons to place him<lb></lb> with us in order to have him educated in<lb></lb> school
+                    learning and brought up like <lb></lb>
+<pb facs="hv_swaynej_diary_1798_072" n="72"></pb> white children after some
+                    consideration we<lb></lb> complyed with her request and she left<lb></lb> her son with
+                    us-</p>
+</div>
+<div type="entry">
+<dateline><date when="1800-02-10">10th of second month</date><placename key="genes1"></placename></dateline>
+<p> About this time the<lb></lb> Indians collect'd together to perform their<lb></lb> half
+                    years devotion, at which times they<lb></lb> are mostly careful to collect all the
+                    Silver<lb></lb> tinkling ornaments, and fine apparel that<lb></lb> they are master of. I
+                    changed to see a broad-<lb></lb> cloth wrapper that belonged to one of our<lb></lb>
+                    neighbour women the lower end of which<lb></lb> contained 790 silver broaches which
+                    would<lb></lb> average at about one shilling a piece exclu-<lb></lb>sive of about 60
+                    dols worth of silver crosses, the<lb></lb> upper end was faced with broad
+                    ribones<lb></lb> which was computed at about 15 dols price<lb></lb> the whole amount of
+                    the wrapper was es-<lb></lb>timated at 180 Dollars. Yet altho she had<lb></lb> abundance
+                    of superfluous clothing she lived<lb></lb> in a poor little dirty House. I was
+                    afterwards<lb></lb> informed that she obtained this pro<lb></lb>perty by selling whisky
+                    to other Indians, <lb></lb>
+<pb facs="hv_swaynej_diary_1798_073" n="73"></pb> the Indians continued about 20 Days
+                    in their<lb></lb> usual mode of worship and dancing which<lb></lb> I shall probably
+                    describe at a future time<lb></lb> when I may have an opportunity of seeing<lb></lb>
+                    them</p>
+</div>
+<div type="entry">
+<dateline><date when="1800-03-25">25th of 3rd month</date><placename key="genes1"></placename></dateline>
+<p> By the arrival of T. King<lb></lb> from Philad. we this Day received several<lb></lb>
+                    Letters from our Relations and friends, amon-<lb></lb>gst which was one from the
+                        <a href="/organizations/pymind">Committee on Indian affairs<orgname key="pymind"></orgname></a> which
+                    amongst other things<lb></lb> contained the fllowing information viz<lb></lb>
+<said>Various consideration has induced us to believe it<lb></lb> right to withdraw
+                        our friends from the<lb></lb>
+<a href="/organizations/oneida">Oneida<orgname key="oneida"></orgname></a> Nation, several of the Indians
+                        have<lb></lb> been instructed in the best mode of tilling<lb></lb> this Land, and
+                        two or three young men<lb></lb> have acquired so much knowlage in the<lb></lb>
+                        Smiths Business as to be able to do what<lb></lb> may be wanted in that line for
+                        the use<lb></lb> of the Nation, so that by a proper applica-<lb></lb>tion on their
+                        part, they will be assenti<lb></lb>ally benefited by the Labours bestowed on
+                        them</said><lb></lb> and that <a href="/people/jthom2">Jonathan Thomas<persname key="jthom2"></persname></a>
+                    &amp; <a href="/people/jtayl1">Jacob Taylor<persname key="jtayl1"></persname></a><lb></lb> neither of them felt
+                    released from further service<lb></lb> amongst the Nations, and that the Committee <lb></lb>
+<pb facs="hv_swaynej_diary_1798_074" n="74"></pb> expected in a short time they would
+                    be<lb></lb> willing to come to this place with a pros-<lb></lb>pect of residing some
+                    time among the <a href="/organizations/allegany">Allegany Indians<orgname key="allegany"></orgname></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1800-05-25">25 of 5th month</date><placename key="genes1"></placename></dateline>
+<p> This morning arrived the<lb></lb> above named friends which seemed to<lb></lb> open the
+                    way with cleanness for <a href="/people/hjack1">Halliday Jackson<persname key="hjack1"></persname></a>
+                    to return home as he has for some<lb></lb> time had a prospect of being released
+                    from<lb></lb> his present engagement. They brought<lb></lb> with them several friendly
+                    and sympa-<lb></lb>thetic Letters from my Friends at home.</p>
+</div>
+<div type="entry">
+<dateline><date when="1800-06-08">6 mo 8th</date><placename key="genes1"></placename></dateline>
+<p> an express came from <a href="/places/seneca">Cattanaugus<placename key="seneca"></placename></a><lb></lb>
+                    requesting some of us to assist them in view-<lb></lb>ing a seat for a Saw Mill,
+                    accordingly <a href="/people/hjack1">H. Jackson<persname key="hjack1"></persname></a> &amp; <a href="/people/jtayl1">J. Taylor<persname key="jtayl1"></persname></a> went for the purpose<lb></lb> and returned
+                    again in six Days informing<lb></lb> that they had a satisfactory interview<lb></lb>
+                    with the Indians, fixed on a place<lb></lb> to build the Mill, and were of the
+                    mind<lb></lb> that there was a pretty favourable open-<lb></lb>ness for a settlement to
+                    be made at that<lb></lb> place. a few Days after their return we<lb></lb> met the
+                    Indians in council at <a href="/people/cornp2">Corn-planters<persname key="cornp2"></persname></a>
+                    Village after a certificate of <lb></lb>
+<pb facs="hv_swaynej_diary_1798_075" n="75"></pb> recomendation for <a href="/people/jtayl1">Jacob Taylor<persname key="jtayl1"></persname></a> &amp; <a href="/people/jthom2">Jonathan Thomas<persname key="jthom2"></persname></a> was read, the Indians expressed much<lb></lb>
+                    satisfaction with the Quakers being among<lb></lb> them and that they thought the
+                    Indians<lb></lb> and the White People would in a short<lb></lb> time be all alike, after
+                    the Indians had done<lb></lb> speaking we reminded them of 20 Dollars<lb></lb> that they
+                    had urged us to accept at the<lb></lb> time of the division of their yearly
+                    anuity<lb></lb> and that we thought it would be best<lb></lb> to add as much to it, as
+                    would buy a<lb></lb> yoke of oxen for the use of the Town<lb></lb> which some of them
+                    seemed to consent<lb></lb> too with some reluctance, <a href="/people/hjack1">H
+                        Jackson<persname key="hjack1"></persname></a> next<lb></lb> informed them of his intentions of
+                    re-<lb></lb>turning to his native Land and <a href="/people/cornp2">Corn-planter<persname key="cornp2"></persname></a> appointed two Indians to ac-<lb></lb>company him
+                    as far as <a href="/places/ceres">Cerestown<placename key="ceres"></placename></a>,<lb></lb> 55 miles up the
+                    River </p>
+</div>
+<div type="entry">
+<dateline>accordingly on <date when="1800-06-17">17th of this month</date><placename key="ceres"></placename></dateline>
+<p> he bid adieu to old<lb></lb><a href="/people/genes1">Genesinguhta<persname key="genes1"></persname></a> and
+                    departed I bore<lb></lb> him company to <a href="/places/ceres">Cerestown<placename key="ceres"></placename></a>
+                    as I had<lb></lb> some business there and returned home<lb></lb> in four Days having
+                    lodged comfortably two<lb></lb> nights in the woods, and partook of a plentiful <lb></lb>
+<pb facs="hv_swaynej_diary_1798_076" n="76"></pb> supply of venison and fish which
+                    the Indians<lb></lb> killed by the way</p>
+<p> An unfortunate circumstance happened among<lb></lb> a company of Indians that was
+                    lately hunting<lb></lb> on the waters of Beaver and had pitched this<lb></lb> tent near
+                    a white mans house who kept<lb></lb> Whisky to sell which occasioned some
+                    difference<lb></lb> between the White Man and one of the Indians<lb></lb> the White at
+                    length got other ruffians to assist<lb></lb> him in taking the lives of the Indians
+                    who<lb></lb> were not aprised of their intentions, in order to<lb></lb> prosecute their
+                    horrid plan they went to<lb></lb> the Indians camp with Guns and imediately<lb></lb>
+                    shot one of them dead on the spot another<lb></lb> seeing what was done immediately
+                    attem-<lb></lb>pted to make his escape with a child under<lb></lb> each arm but was
+                    followed by a ball which<lb></lb> wenet thro' his breast and thro' the
+                    shoul-<lb></lb>der of one of the Children and the wrist of<lb></lb> the other; one of
+                    the murderers is now<lb></lb> secured in <a href="/places/pitts">Pittsburgh<placename key="pitts"></placename></a> in order for tryal-</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-01-25">1801 1 mo 25th</date><placename key="genes1"></placename></dateline>
+<p> About this time considerable<lb></lb> uneasyness arose in the minds of some of
+                    the<lb></lb> Indians from being informed by a <lb></lb>
+<pb facs="hv_swaynej_diary_1798_077" n="77"></pb> malicious white Man that my motives
+                    in<lb></lb> coming here was to try to get a mile square<lb></lb> of Land from them as I
+                    had been here ever<lb></lb> since the settlement was first established<lb></lb> for the
+                    improvement of the Natives, two<lb></lb> Indians came to talk with us on the
+                    occasion<lb></lb> and we endeavoured to convince them<lb></lb> that the report was
+                    intirely groundless and<lb></lb> that we did not want any of their Land<lb></lb> nor
+                    other property for any of our service<lb></lb> amongst them</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-01-26">26th of the month</date><placename key="genes1"></placename></dateline>
+<p> we received informa-<lb></lb> of the Death of Hyute a young indian man<lb></lb> that had
+                    been lately married who after<lb></lb> about eight days illness died at his
+                    hunt-<lb></lb>ing camp in the woods about 17 miles<lb></lb> from home. The above
+                    information caused<lb></lb> me some serious reflections, as he was a<lb></lb> young man
+                    in the bloom of life and<lb></lb> flower of his Days, and in health just a few<lb></lb>
+                    days before, I was led to reflect on the un<lb></lb>certainty of our existance here
+                    in this<lb></lb> world and how very necessary it is for every<lb></lb> one to be
+                    prepared at any hour to<lb></lb> meet the messenger of Death</p>
+<pb facs="hv_swaynej_diary_1798_078" n="78"></pb>
+<p>The death of Hyute led me to enquire<lb></lb> of one of our neighbours how the
+                    Indians<lb></lb> divided the property of a deceased person.<lb></lb> I was informed that
+                    it is commonly divi-<lb></lb>ded amongst the brothers and sisters<lb></lb> of the
+                    deceased. the Wife or Children having<lb></lb> no claim thereto, but in former
+                    times<lb></lb> they buried the apparrel with the corps<lb></lb> and then burned the
+                    House with<lb></lb> all of its contents</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-01-30">30 of the month</date><placename key="genes1"></placename></dateline>
+<p> 20 or 30 Indians<lb></lb> called at our house being on their way<lb></lb> to <a href="/places/cornp">Genisatego<placename key="cornp"></placename></a> to perform their half<lb></lb> years worship
+                    and notwithstanding I<lb></lb> have never been to see them I will en-<lb></lb> deavour,
+                    to give a brief account of their<lb></lb> proceedings which I had by
+                    information.<lb></lb> In the first place they are very zealous<lb></lb> to have their
+                    people generally collected<lb></lb> some that are not able to walk are hauled<lb></lb>
+                    by two or three of their friends ten or twelve<lb></lb> miles on the ice or snow
+                    wrapped up in Blan-<lb></lb>kets, buck-skins, when the necessary prepa-<lb></lb>rations
+                    are made they place themselves<lb></lb> in a circle round a large image which is <lb></lb>
+<pb facs="hv_swaynej_diary_1798_079" n="79"></pb> erected on a pedestal about six
+                    feet high<lb></lb> and having a white Dog skined and dres-<lb></lb>ed they lay him on a
+                    hot fire which is<lb></lb> previously prepared for the purpose, and<lb></lb> while he is
+                    consuming one of the Chiefs<lb></lb> on behalf of the people addresses the
+                    Great<lb></lb> Spirit in thanksgivings for the game<lb></lb> they have been permited to
+                    take in their<lb></lb> hunting hours, after this is done another<lb></lb> Chief takes
+                    about half a pound of Tobacco<lb></lb> lays it on the fire and addresses the
+                    people<lb></lb> by way of admonition and exhortatin<lb></lb> During the rendevous they
+                    are dressed in their<lb></lb> best apparrel and many of them have their<lb></lb> faces
+                    painted in many frightful wild looking<lb></lb> figures and their heads decorated
+                    with feathers<lb></lb> painted different colours and beaded belts &amp;<lb></lb>
+                    Mockasons which altogether forms a very wild ro-<lb></lb> mantic appearances to one
+                    not acquain-<lb></lb>ted with Indians. They continue their<lb></lb> dancing and
+                    different manuevers about<lb></lb> six or seven Days with an abundance of
+                    rattling<lb></lb> and tinkling ornaments about their feet<lb></lb> and legs and their
+                    clothes decorated with<lb></lb> hundreds of silver broaches, breasplates &amp;c. <lb></lb>
+<pb facs="hv_swaynej_diary_1798_080" n="80"></pb> on their way home many of them<lb></lb>
+                    called at our House amongst them was<lb></lb> an elderly female Chief with whom<lb></lb>
+                    we had considerable conversation, amongst<lb></lb> other things she observed that
+                    the Indian<lb></lb> Women had too great a burden to labour under<lb></lb> for the Men
+                    would work but little, the Women<lb></lb> had to cut and carry home all the fire
+                    wood,<lb></lb> plant &amp; raise all the Corn pound it &amp;<lb></lb> prepare it for
+                    eating, and when it was<lb></lb> ready the Men must eat first, and when<lb></lb> the Men
+                    killed any Deer the Women had to<lb></lb> carry home the meat and what was
+                    worse<lb></lb> than all the Men often got Drunk and<lb></lb> then they would beat and
+                    abuse the<lb></lb> Woman and yet they had to bear it all.<lb></lb> I was a little
+                    pleased with the old Womans<lb></lb> remark as many of them do not seem<lb></lb> willing
+                    their husbands should work.</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-04-27">4 Mo 27th</date><placename key="french"></placename></dateline>
+<p> I set out in company with<lb></lb> two Indians in a Canoe loaded with wheat<lb></lb>
+                    intending to go to <a href="/places/oilcr">Oil Creek<placename key="oilcr"></placename></a> Mill about <lb></lb>
+<pb facs="hv_swaynej_diary_1798_081" n="81"></pb> eighty miles down the River. but
+                    being<lb></lb> informed on the way that the Mill was<lb></lb> out of repair, I concluded
+                    to go to a mill<lb></lb> about twenty miles further on the<lb></lb> waters of <a href="/places/french">French Creek<placename key="french"></placename></a>, after getting the<lb></lb> grinding done
+                    set out homeward<lb></lb> of the being very rainy and disagree-<lb></lb>able traveling:
+                    the most of the way the Indians had the fortune<lb></lb> to kill a very large Bear.
+                    As he<lb></lb> was crossing the River, which afforded<lb></lb> us plenty of good meat on
+                    the journey.</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-05-06">The 6th of 5 mo</date><placename key="cornp"></placename></dateline>
+<p> We arrived at <a href="/places/cornp">Cornplanters<placename key="cornp"></placename></a> Village<lb></lb>
+                    having travelled about 200 miles in the whole<lb></lb> rout and lodged five or six
+                    nights in the woods<lb></lb> on the banks of the River</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-07-18">7th Mo 18th</date><placename key="genes1"></placename></dateline>
+<p> Received two Letters from friends<lb></lb> in Philadelphia one directed to the
+                        <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a> Indi<lb></lb>ans of <a href="/places/alleg1">Allegany<placename key="alleg1"></placename></a>, the other to the <a href="/organizations/munseeind">Munceys<orgname key="munseeind"></orgname></a><lb></lb> at <a href="/places/catta1">Cattenaugus<placename key="catta1"></placename></a>
+                    respecting the late difficulty<lb></lb> that subsisted between them on account
+                    of<lb></lb> supposed witchcraft also two from the Go-<lb></lb>verner of Pennsylvania
+                    directed to the<lb></lb> above mentioned Indians on the same<lb></lb> subjuect. </p>
+</div>
+<div type="entry">
+<pb facs="hv_swaynej_diary_1798_082" n="82"></pb>
+<dateline><date when="1801-08-04">8 Mo 4</date><placename key="genes1"></placename></dateline>
+<p>78) Received letters from my<lb></lb> connections in <a href="/places/newga">New
+                        Garden<placename key="newga"></placename></a> informing of<lb></lb> a Prospect of a visit this summer of
+                    some<lb></lb> of the <a href="/organizations/pymind">Committee on Indian affairs<orgname key="pymind"></orgname></a>,
+                    also<lb></lb> that a young many by occupation a Black<lb></lb> smith had given up to
+                    come and spend<lb></lb> some time in this settlement which<lb></lb> was very
+                    satisfactory news to me,</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-08-17">8 mo 17</date><placename key="cornp"></placename></dateline>
+<p> This being the time agreed on<lb></lb> by some of the Indians to have the
+                    Govern<lb></lb>nors letter explained to them, two of us<lb></lb> went to <a href="/places/cornp">Gineshadago<placename key="cornp"></placename></a> for that purpose<lb></lb> where we found the
+                    most of the chiefs<lb></lb> and a number of others collected for<lb></lb> also an
+                    Ancient man who was<lb></lb> a very great Speaker belonging to the<lb></lb>
+<a href="/organizations/onondaga">Onondago<orgname key="onondaga"></orgname></a> Nation, and held in much<lb></lb> esteem
+                    by the <a href="/organizations/seneca">Senecas<orgname key="seneca"></orgname></a>, he having re-<lb></lb>ceived some
+                    previous information of<lb></lb> the contents of the Governors letter<lb></lb>
+<a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> having opened it and had<lb></lb> some
+                    parts of it explained before it<lb></lb> came to our and seemed somewhat<lb></lb>
+                    disaffected towards the Governor, and intimated<lb></lb> to some of his people that
+                    the letter should be burned<lb></lb> before the letters were read the <a href="/organizations/onondaga">Onondaga<orgname key="onondaga"></orgname></a> Chief<lb></lb> spoke a considerable time
+                    requesting them<lb></lb> to pay attention to the Governors advice said<lb></lb> he
+                    thought none of the letters should be destroyed </p>
+<pb facs="hv_swaynej_diary_1798_083" n="83"></pb>
+<p>After the aged chief had done speaking the<lb></lb> Governors letter and one from
+                    Friends in<lb></lb> Philadelphia was read and interpreted<lb></lb> to them which very
+                    much contradicted<lb></lb> their absurd belief in witchcraft which<lb></lb> seemed
+                    considerably to agitate the mind<lb></lb> of <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a>, yet some others appeared<lb></lb> to receive it pretty
+                    well and appeared to<lb></lb> be somewhat ashamed for having before<lb></lb> entertained
+                    such foolish notions-<lb></lb> After the letters directed to the <a href="/organizations/seneca">Senecas<orgname key="seneca"></orgname></a><lb></lb> were read <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> insisted on having<lb></lb> those read, which were
+                    directed to the <a href="/organizations/munseeind">Munceys<orgname key="munseeind"></orgname></a> we informed him
+                    that the Governors<lb></lb> Letter was sealed and that we did not wish<lb></lb> to break
+                    it open, but if he had a mind<lb></lb> to open it we would read it at the same<lb></lb>
+                    time cautioning him against it but the<lb></lb> Governor or the <a href="/organizations/munseeind">Muncys<orgname key="munseeind"></orgname></a> might be displeased<lb></lb> Still the old man
+                    insisted upon opening the<lb></lb> letter and having it read which was done<lb></lb> he
+                    afterward signified that it should be burnt<lb></lb> for said he, it will do the
+                        <a href="/organizations/munseeind">Muncys<orgname key="munseeind"></orgname></a> more harm<lb></lb> than good- another
+                    Chief said he was not<lb></lb> of the same mind and he thought it would<lb></lb> be best
+                    for all the Chiefs to shead their sinti<lb></lb>ments on the occasion, that it was
+                    his mind<lb></lb> that it would be best for the letter to be<lb></lb> forwarded to them-
+                    it was afterwards agreed<lb></lb> that all the letters to both parties should<lb></lb>
+                    be explained to all the <a href="/organizations/seneca">Seneca<orgname key="seneca"></orgname></a> Chiefs at<lb></lb>
+<a href="/places/catta1">Catterangus<placename key="catta1"></placename></a> and <a href="/places/buffa">Buffaloe<placename key="buffa"></placename></a>, and then the <a href="/organizations/munseeind">Munceys<orgname key="munseeind"></orgname></a> letter carefully conveyed to them<lb></lb> the writing
+                    were according by forward<lb></lb>ed by the <a href="/organizations/onondago">Onondago<orgname key="onondago"></orgname></a> Chief how the matter will<lb></lb> end is uncertain </p>
+<pb facs="hv_swaynej_diary_1798_084" n="84"></pb>
+<p>A few days after <a href="/people/cornp2">Cornplanters<persname key="cornp2"></persname></a> Brother <a href="/people/conud1">Connudiu<persname key="conud1"></persname></a> or Handsome Lake collected a num<lb></lb>
+                    ber of Indians and told them he had lately<lb></lb> needed instructions from Heaven
+                    by three<lb></lb> men whom he stated he had previously seen<lb></lb> these men had told
+                    him many things, that<lb></lb> the Indians shamed keep up their old prac<lb></lb>tice
+                    and manner of claiming for that was<lb></lb> right and if they did so the Great
+                    Spirit would<lb></lb> send into their woods great plenty of game<lb></lb> and cover
+                    their ground with a new and rich<lb></lb> soil whereby the Indians may live
+                    plen<lb></lb>tifully without much labor and that it was<lb></lb> not right for them to
+                    raise wheat and corn<lb></lb> to sell to one another but they were right<lb></lb> in
+                    wearing old and ragged clothes and in<lb></lb> painting their skins and tanning
+                    often which<lb></lb> was pleasing to the great spirit. These and<lb></lb> often such
+                    like foolish and supersitious doc<lb></lb>trines and nations tends very much to
+                    obstruct<lb></lb> the work of civilization being calculated to suit<lb></lb> the weak
+                    ideas of the natives, and retard our<lb></lb> endeavours for their good - About this
+                    time<lb></lb> while their minds were in much agitation<lb></lb> some of them gas a
+                    little displeased with<lb></lb> the Quakers being amazed then and as we<lb></lb> were
+                    informed came to a conclusion that<lb></lb> we should have the plan <a href="/people/habee1">Henry Obeal<persname key="habee1"></persname></a>, the<lb></lb> son of <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> being as far our with us<lb></lb> had a very warm debate
+                    with them<lb></lb> on the ocassion and told them what we had<lb></lb> done for them
+                    which served to put a<lb></lb>
+<pb facs="hv_swaynej_diary_1798_085" n="85"></pb> stop to their proceedings. </p>
+</div>
+<div type="entry">
+<dateline><date when="1801-09-15">9 mo 15</date><placename key="genes1"></placename></dateline>
+<p>This day <a href="/people/jpier1">John Pierce<persname key="jpier1"></persname></a>
+<a href="/people/tstew1">Tho Stewardson<persname key="tstew1"></persname></a> and Vincent Wiley arrived
+                    at<lb></lb> our house, the sight of whoom was truly<lb></lb> satisfactory to us
+                    particularly to my<lb></lb> self, I having for a considerable time<lb></lb> part had a
+                    prospect of being released<lb></lb> from my present engagement &amp; W<lb></lb> being a
+                    Blacksmith will now release<lb></lb> me I having had to act in that capa<lb></lb>city in
+                    many instances although pre<lb></lb>viously acquainted with the <gap></gap><lb></lb> look
+                    forward to a return my<lb></lb> nation land having been engaged in the<lb></lb> Indian
+                    concern upwards of three years </p>
+</div>
+<div type="entry">
+<dateline><date when="1801-09-18">18 of the month</date><placename key="genes1"></placename></dateline>
+<p> being the time apprai<lb></lb>sed to have an interview with the<lb></lb> Indians
+                        <a href="/people/cornp2">Cornplanter<persname key="cornp2"></persname></a> and several other<lb></lb> Chiefs
+                    attended and about 20 of their<lb></lb> young men and warriors attended also<lb></lb>
+                    with two of the principal men from <a href="/places/buffa">Buffaloe<placename key="buffa"></placename></a> and two from <a href="/places/tonne">Tonewanto<placename key="tonne"></placename></a>, our friends<lb></lb> read a certificate from the
+                    committee<lb></lb> on Indian affairs which was inter<lb></lb>preted to good satisfaction
+                    by <a href="/people/habee1">Henry Obeal<persname key="habee1"></persname></a> also one for V Wiley who
+                    intended<lb></lb> stay my someimte amongst them<lb></lb> after matters were treated or
+                    Friends i<lb></lb>nformed them of the great satisfaction is<lb></lb> afforded them to
+                    obey over the inform<lb></lb>
+<pb facs="hv_swaynej_diary_1798_086" n="86"></pb> many of them had made in clearing<lb></lb>
+<gap></gap> and farming this land, building<lb></lb> houses &amp; the unease of their
+                    cattle<lb></lb> since they were among them before, and<lb></lb> that they had taken up a
+                    resolution to grant<lb></lb> drinking whiskey and of her strong drinks<lb></lb> it was a
+                    very satisfactory conference</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-09-22">9 Mo 22</date><placename key="catta1"></placename></dateline>
+<p>Took my departure from <a href="/places/genes1">Geneshingutla<placename key="genes1"></placename></a> in
+                    company with the Cornplanter after a solemn leave of those we <lb></lb>left behind
+                    and a number of Indians<lb></lb> that collected to witness our departure<lb></lb>
+                    travelled about 20 miles through the woods<lb></lb> having a very rough road and
+                    some rain<lb></lb> encompassed about 4 oclock and rested pret<lb></lb>ty comfortable
+                    next morning set forward<lb></lb> and found the road find some places upstream<lb></lb>
+                    by bad until we came to <a href="/places/catta1">Cattaraugas<placename key="catta1"></placename></a>
+                    kind<lb></lb> man which there is abundance of land of<lb></lb> the best quality and the
+                    most beautiful tim<lb></lb>ber I ever saw chiefly Black Water and Pop<lb></lb>lar bar
+                    after passing about six miles down the<lb></lb> river we came to the <a href="/places/catta1">Cattaraugus<placename key="catta1"></placename></a> Village<lb></lb> and lodged in the house of
+                    the Chief Warrior<lb></lb> and was kindly entertained, his wife en<lb></lb>deavouring to
+                    make us as comfortable as<lb></lb> possible</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-09-24">24</date><placename key="buffa"></placename></dateline>
+<p> Left <a href="/places/catta1">Catteraugus<placename key="catta1"></placename></a> about one oclock,
+                    follow<lb></lb>ed a rough disagreeable path about 7 miles<lb></lb> to <a href="/places/lakee">Lake Erie<placename key="lakee"></placename></a> which opened to my view a<lb></lb> very
+                    gratifying and agreeable prospect<lb></lb> the beach afforded a very good road
+                        <lb></lb><pb facs="hv_swaynej_diary_1798_087" n="87"></pb> and abandoned with many
+                    curiousi<lb></lb>ties formed by nature and is very<lb></lb> instructing to a
+                    contemplative<lb></lb> mind we rode at the rate of about<lb></lb> five miles per hour,
+                    until we came<lb></lb> to a stream of water called Carigua<lb></lb>ga where we encamped
+                    by the side of<lb></lb> the lake and represented ourselves and<lb></lb> know with
+                    provisions we carried<lb></lb> with us, we pushed out tent and had<lb></lb> a pretty
+                    comfortable night lodging<lb></lb> although cattle<lb></lb> are frequent in these
+                    parts<lb></lb> &amp; fed our horses and took breakfast<lb></lb> and set forward on our
+                    journey about<lb></lb> six o'clock being pleasingly entertain<lb></lb>ed by the curious
+                    lands of the Lake<lb></lb> which in some places we thought<lb></lb> was 80 or 90 feet
+                    perpendicular and<lb></lb> interested with different kinds of<lb></lb> stone many of the
+                    rocks being over<lb></lb> and by wrong by the waves into coves<lb></lb> and curls in a
+                    fantastic manner<lb></lb> about 11 we arrived at <a href="/places/buffc1">Buffaloe
+                        Creek<placename key="buffc1"></placename></a><lb></lb> which we crossed in a small flat to<lb></lb><a href="/places/buffa">Buffaloe<placename key="buffa"></placename></a> Village on the opposite side<lb></lb> where we
+                    remained till next day hav<lb></lb>ing about 80 miles from <a href="/places/genes1">Genesingatta<placename key="genes1"></placename></a></p>
+</div>
+<div type="entry">
+<dateline><date when="1801-09-27">27</date><placename key="checkPlace"></placename></dateline>
+<p> crossed the <a href="/places/niagr">Niagara<placename key="niagr"></placename></a> at <a href="/places/ferie">Fort Erie<placename key="ferie"></placename></a><lb></lb> about one mile wide and the water<lb></lb>
+<pb facs="hv_swaynej_diary_1798_088" n="88"></pb> run my very rapidly although<lb></lb>
+                    it was thought to be a very favor<lb></lb>able time to cross on account of the<lb></lb>
+                    wind blowing up the oven which<lb></lb> prevented all high from the<lb></lb> lake, after
+                    landing in <a href="/places/canad">Canada<placename key="canad"></placename></a> we<lb></lb> travelled about 10
+                    miles up the Beach<lb></lb> thence one mile inland to<lb></lb> a friend from Jersey
+                    where we staid all<lb></lb> my were kindly entertained<lb></lb> &amp; went about 2 miles
+                    to <a href="/people/ascho1">Asa Schooleys<persname key="ascho1"></persname></a><lb></lb> where we met with
+                        <a href="/people/irowl1">Rowland<persname key="irowl1"></persname></a>, <a href="/people/iwils2">Isaac
+                        Wilson<persname key="iwils2"></persname></a> on <a href="/people/rhunt1">Rachel Hunt<persname key="rhunt1"></persname></a>
+<a href="/people/lshar2">Lydia Sharpless<persname key="lshar2"></persname></a> and <a href="/people/jcros2">Jane Crosson<persname key="jcros2"></persname></a> who were apart<lb></lb> of the committee
+                    appointed to visit<lb></lb> friends in <a href="/places/canad">Canada<placename key="canad"></placename></a>, a
+                    meeting was<lb></lb> held at <a href="/people/bscho1">B Schooleys<persname key="bscho1"></persname></a> house,
+                    where about<lb></lb> 40 people attended mostly friend<lb></lb> it appeared to be a
+                    satisfactory op<lb></lb>portunity in the afternoon by William<lb></lb> &amp; myself took
+                    leave of <a href="/people/jpier1">J Pierce<persname key="jpier1"></persname></a> <a href="/people/tstew1">T
+                        Stewardson<persname key="tstew1"></persname></a> and other friends present<lb></lb> and departed
+                    intending to neturn<lb></lb> immediately homewards, we lodged<lb></lb> that night
+                        <a href="/people/dpoun1">Danl Pound<persname key="dpoun1"></persname></a>s </p>
+</div>
+<div type="entry">
+<pb facs="hv_swaynej_diary_1798_089" n="89"></pb>
+<dateline><date when="1801-09-28">28</date><placename key="niagf"></placename></dateline>
+<p> set out for Ng early and rode<lb></lb> about 20 miles to the falls of <a href="/places/niaga">Niagara<placename key="niaga"></placename></a><lb></lb> the greatest Phenomenon and the
+                    most<lb></lb> gratifying sight I had ever beheld<lb></lb> the water beginning a very
+                    rapid de<lb></lb>scent about three quarters of a mile<lb></lb> above the cataract,
+                    there<lb></lb> is an Island of 10 or fifteen acres<lb></lb> just above the precipice
+                    which divides<lb></lb> the sheet of water in its fall at one<lb></lb> patch of 150 feet,
+                    a continual mist<lb></lb> arises which may be seen for many<lb></lb> miles and it is
+                    thought the roar<lb></lb>ing of the Cataract may be heard for<lb></lb> 20 or 30 miles on
+                    a still morning, a<lb></lb> short distance above there are erec<lb></lb>ted a Grist
+                    mill, Saw mill, and Forge<lb></lb> and excellent seats for that purpose<lb></lb> there
+                    are 17 saws in one frame<lb></lb> which cuts a log in to boards at<lb></lb> one through,
+                    and would I should sup<lb></lb>pose cut 10,000 feet of boards in a day,<lb></lb> several
+                    other miles are in contem<lb></lb>plation at the same place after<lb></lb> viewing the
+                    falls from the top we<lb></lb> went about half a mile down the<lb></lb> river, and
+                    descended about 35 feet<lb></lb> by an Indian Ladder that was crea<lb></lb>ted for the
+                    purpose thence down a <lb></lb>
+<pb facs="hv_swaynej_diary_1798_090" n="90"></pb> very steep hill to the water<lb></lb>
+                    and went up to the Cataract<lb></lb> when the mist is continually fal<lb></lb>ling, was
+                    passed on a little farther<lb></lb> until we got within the edge of the sheet<lb></lb>
+                    of water, at this time the wind vary<lb></lb>ing a little blew some of the
+                    water<lb></lb> on us, it was a beautiful yet awful<lb></lb> sight, we then ascended the
+                    bank and<lb></lb> went on foot to the <a href="/places/chipp1">Chippiway<placename key="chipp1"></placename></a>,
+                    where we<lb></lb> had left our horses, then rode 20 miles<lb></lb> to an inn near the
+                    outlet of the Lake.<lb></lb> heard the roaring of <a href="/places/niagf">Niagara<placename key="niagf"></placename></a> very plain</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-09-29">29</date><placename key="checkPlace"></placename></dateline>
+<p> Crossed the river and rode about 40 miles<lb></lb> the most of the way good roads
+                    across an<lb></lb> open Country called the <a href="/places/woakp">Whitecoke
+                        Plains<placename key="woakp"></placename></a><lb></lb> the two last miles being very muddy &amp;<lb></lb> deep
+                    which we traveled after dark but<lb></lb> kept the road without much difficulty</p>
+</div>
+<div type="entry">
+<dateline><date when="1801-09-30">9 mo 30</date><placename key="checkPlace"></placename></dateline>
+<p> Left Davison and travelled to the<lb></lb><geogname key="genes2">Genesee
+                        River</geogname> mostly by muddy River<lb></lb> the land pretty good, on the
+                    east side<lb></lb> of the River we found very good roads<lb></lb> and the country pretty
+                    <gap></gap> by in<lb></lb>habited many elegant dwelling house<lb></lb> mostly farm and some of
+                    these<lb></lb> painted white, the inhabitants<pb facs="hv_swaynej_diary_1798_091" n="91"></pb><lb></lb> living mostly from New England<lb></lb>
+                    and are generally remarked for bei<lb></lb> a very industrious and
+                    enterpri-<lb></lb>sing people, the land from <a href="/places/genes1">Geneseting<placename key="genes1"></placename></a>
+<a href="/places/canan">Canadarque<placename key="canan"></placename></a> is g </p>
+</div>
+<div type="undetermined">
+<pb facs="hv_swaynej_diary_1798_092" n="92"></pb>
+<pb facs="hv_swaynej_diary_1798_093" n="93"></pb>
+<pb facs="hv_swaynej_diary_1798_094" n="94"></pb>
+<pb facs="hv_swaynej_diary_1798_095" n="95"></pb>
+<pb facs="hv_swaynej_diary_1798_096" n="96"></pb>
+<pb facs="hv_swaynej_diary_1798_097" n="97"></pb>
+<pb facs="hv_swaynej_diary_1798_098" n="98"></pb>
+</div>
+</text>
+</tei>
+</body></html>
