@@ -162,26 +162,6 @@ if (new_next_url.slice(-1*num_page_digits,) > final_page.slice(-1*num_page_digit
                 <div class="col-md-10 offset-md-1">
                     <div class="intro">
                         <h3 class="text-center" style="margin-top: 40px;">{{title}}</h3>
-                        <!-- <div class="table-responsive">
-                            <table class="table">
-                                <thead>
-                                    <tr>
-                                        <th>Title: {{title}} </th>
-                                        <th>Call number:</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>Date: {{date}}</td>
-                                        <td>Type of manuscript:</td>
-                                    </tr>
-                                    <tr>
-                                        <td>Location:</td>
-                                        <td>Creator:</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                        </div> -->
                         
                         <nav class="navbar navbar-light navbar-expand-md navigation-clean-search" style="background-color: rgb(215,215,215);">
                             <div class="container">
@@ -206,9 +186,10 @@ if (new_next_url.slice(-1*num_page_digits,) > final_page.slice(-1*num_page_digit
                     </div> 
                 </div>
             </div>
+            <!-- <img class="img-fluid figure-img"> -->
             <div class="row" style="margin: 0px 65px 0px 65px;">
                 <div class="col" style="width: 399px;max-width: none;">
-                    <figure class="figure"><img class="img-fluid figure-img">
+                    <figure class="figure"><img src="/images/{{manuscript_name[0:-4]}}/{{page_name}}.jpg" width = "100%" style="overflow:scroll">
                         <figcaption class="figure-caption">Caption</figcaption>
                     </figure>
                 </div>
@@ -232,8 +213,11 @@ if (new_next_url.slice(-1*num_page_digits,) > final_page.slice(-1*num_page_digit
             if (num_page_digits == 3) {
             new_id = new_id+"00"+input;                
             }
-            else {
+            else if(num_page_digits == 2) {
             new_id = new_id+"0"+input;
+            }
+            else {
+                new_id = new_id + input;
             }
             window.location=new_id;
             

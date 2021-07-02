@@ -190,7 +190,7 @@ def person_info(request: Request, unique_key: str):
                     break
             affiliations_list[i] = f'<a href="/organizations/{id}">{name}</a>'
 
-        dict[item] = ','.join(affiliations_list)
+        dict[item] = ', '.join(affiliations_list)
     except:
         pass
 
@@ -228,6 +228,7 @@ def person_info(request: Request, unique_key: str):
     except:
         pass
     list_of_dict = [dict] # TODO add exception?
+
     return templates.TemplateResponse('person.html', {'request': request, 'list_of_dict': list_of_dict})
 # TODO jpeir1 results in internal server error, seen in tei_xml_files/swarthmore/SW_JC1796.xml, probably misspelled jpier1?
 
