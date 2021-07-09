@@ -77,18 +77,34 @@
       </div>
     </div>
 
-<table id="table_id" class="display" style="margin: 15px;">
-    <tbody>
-{% for dict_item in list_of_dict %}
-   {% for key, value in dict_item.items() %}
-    <tr>
-      <td><b>{{key}}</b></td>
-      <td>{{value|safe}}</td>
-    </tr>
+    <table id="table_id" class="display" style="margin: 15px;">
+      <tbody>
+  {% for dict_item in list_of_dict %}
+     {% for key, value in dict_item.items() %}
+      <tr>
+        <td><b>{{key}}</b></td>
+        <td>{{value|safe}}</td>
+      </tr>
+     {% endfor %}
+  {% endfor %}
+      </tbody>
+  </table>
+  
+  <div style="margin: 15px;">
+    <h3>Mentioned in:</h3>
+   {% for key, value in related_pages.items() %}
+    <p>{{value.get('title')}}<p>
+    <ul>
+      {% for item in value %}
+        {% if not loop.index == 1%}
+          <li><a href="/full_manuscript/{{key + "/" + item}}">{{item}}</a></li>
+        {% endif %}
+      {% endfor %}
+    </ul>
+  
+  
    {% endfor %}
-{% endfor %}
-    </tbody>
-</table>
-
-</body>
-</html>
+  
+  </div>
+  </body>
+  </html>

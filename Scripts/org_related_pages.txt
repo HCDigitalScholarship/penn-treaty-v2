@@ -1,0 +1,4917 @@
+{
+    "seneca": {
+        "swarthmore/SW_1791_06_02.xml": {
+            "title": "Letter from Quakers to Cornplanter",
+            "SW_1791_06_02_001": null
+        },
+        "swarthmore/SW_1798_06_15.xml": {
+            "title": "The United States to Joseph Johnston",
+            "SW_1798_06_15_Page_1": null
+        },
+        "swarthmore/SW_1805_00_00.xml": {
+            "title": "Missionary's address to the chiefs of the six nation Indian & Their answers",
+            "SW_1805_00_00_Page_1": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_088": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_113": null,
+            "SW_GH1804_128": null
+        },
+        "swarthmore/SW_HJ1798.xml": {
+            "title": "Halliday Jackson's Book [of Corrrespondence], Genesinguhta, 1798-1800",
+            "SW_HJ1798_020": null,
+            "SW_HJ1798_022": null,
+            "SW_HJ1798_036": null,
+            "SW_HJ1798_040": null,
+            "SW_HJ1798_048": null
+        },
+        "swarthmore/SW_HJ1800.xml": {
+            "title": "Halliday Jackson 1800 Journal (continued)",
+            "SW_HJ1800_005": null,
+            "SW_HJ1800_010": null,
+            "SW_HJ1800_032": null,
+            "SW_HJ1800_041": null
+        },
+        "swarthmore/SW_HJ1806.xml": {
+            "title": "Halliday Jackson's Journal, 1806",
+            "SW_HJ1806_Page_012": null,
+            "SW_HJ1806_Page_052": null,
+            "SW_HJ1806_Page_054": null,
+            "SW_HJ1806_Page_064": null,
+            "SW_HJ1806_Page_066": null,
+            "SW_HJ1806_Page_068": null
+        },
+        "swarthmore/SW_HJ1830.xml": {
+            "title": "Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800",
+            "SW_HJ1830_002": null,
+            "SW_HJ1830_003": null,
+            "SW_HJ1830_004": null,
+            "SW_HJ1830_005": null,
+            "SW_HJ1830_008": null,
+            "SW_HJ1830_011": null,
+            "SW_HJ1830_012": null,
+            "SW_HJ1830_028": null,
+            "SW_HJ1830_029": null,
+            "SW_HJ1830_032": null
+        },
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_07": null,
+            "SW_IC1799_Page_08": null,
+            "SW_IC1799_Page_19": null,
+            "SW_IC1799_Page_25": null,
+            "SW_IC1799_Page_27": null,
+            "SW_IC1799_Page_29": null,
+            "SW_IC1799_Page_31": null,
+            "SW_IC1799_Page_33": null
+        },
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_002": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_091": null,
+            "SW_JL1793_Page_138": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_208": null,
+            "SW_JP1796_234": null,
+            "SW_JP1796_235": null,
+            "SW_JP1796_236": null,
+            "SW_JP1796_237": null,
+            "SW_JP1796_241": null,
+            "SW_JP1796_242": null,
+            "SW_JP1796_243": null
+        },
+        "swarthmore/SW_JS1798.xml": {
+            "title": "Joshua Sharpless's Journal Into Indian Country, 1798",
+            "SW_JS1798_024": null,
+            "SW_JS1798_025": null,
+            "SW_JS1798_076": null,
+            "SW_JS1798_175": null
+        },
+        "swarthmore/SW_Letters_1791_02_10.xml": {
+            "title": "Letter from Cornplanter to Quakers",
+            "SW_Letters_1791_02_10_Page_1": null
+        },
+        "swarthmore/SW_Letters_1794_00_00.xml": {
+            "title": "Letter to the Quarterly Meeting of Friends at Hopewell",
+            "Misc_mss_1794_00_00002": null
+        },
+        "swarthmore/SW_Letters_1794_12_20.xml": {
+            "title": "Account of Canandaigua Treaty Negotiations",
+            "SW_Letters_1794_12_20_Page_2": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_019": null,
+            "NYYM_scrapbook_049": null,
+            "NYYM_scrapbook_057": null,
+            "NYYM_scrapbook_058": null,
+            "NYYM_scrapbook_059": null,
+            "NYYM_scrapbook_062": null,
+            "NYYM_scrapbook_068": null,
+            "NYYM_scrapbook_071": null,
+            "NYYM_scrapbook_087b": null,
+            "NYYM_scrapbook_090": null,
+            "NYYM_scrapbook_105": null,
+            "NYYM_scrapbook_106": null,
+            "NYYM_scrapbook_107": null,
+            "NYYM_scrapbook_109": null,
+            "NYYM_scrapbook_110": null,
+            "NYYM_scrapbook_112": null,
+            "NYYM_scrapbook_113": null,
+            "NYYM_scrapbook_123": null,
+            "NYYM_scrapbook_125": null,
+            "NYYM_scrapbook_128": null,
+            "NYYM_scrapbook_129": null,
+            "NYYM_scrapbook_166": null,
+            "NYYM_scrapbook_169": null,
+            "NYYM_scrapbook_173": null,
+            "NYYM_scrapbook_177": null,
+            "NYYM_scrapbook_206": null,
+            "NYYM_scrapbook_214": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_095": null,
+            "SW_WH1793_Page_104": null,
+            "SW_WH1793_Page_255": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_035": null,
+            "hv_allinsonw_diary_1809_v1_040": null,
+            "hv_allinsonw_diary_1809_v1_041": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v2.xml": {
+            "title": "William Allinson Diary, Volume 2",
+            "hv_allinsonw_diary_1809_v2_019": null,
+            "hv_allinsonw_diary_1809_v2_025": null,
+            "hv_allinsonw_diary_1809_v2_034": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v3.xml": {
+            "title": "William Allinson Diary, Volume 3",
+            "hv_allinsonw_diary_1809_v3_003": null,
+            "hv_allinsonw_diary_1809_v3_011": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_010": null,
+            "hv_bacond_account_1794_015": null,
+            "hv_bacond_account_1794_019": null,
+            "hv_bacond_account_1794_031": null,
+            "hv_bacond_account_1794_032": null,
+            "hv_bacond_account_1794_033": null
+        },
+        "haverford/hv_coatesi_account_1798.xml": {
+            "title": "Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY",
+            "hv_coatesi_account_1798_014": null,
+            "hv_coatesi_account_1798_038": null,
+            "hv_coatesi_account_1798_039": null,
+            "hv_coatesi_account_1798_058": null,
+            "hv_coatesi_account_1798_092": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_044": null
+        },
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_005": null,
+            "hv_swaynej_diary_1798_006": null,
+            "hv_swaynej_diary_1798_010": null,
+            "hv_swaynej_diary_1798_019": null,
+            "hv_swaynej_diary_1798_032": null,
+            "hv_swaynej_diary_1798_047": null,
+            "hv_swaynej_diary_1798_055": null,
+            "hv_swaynej_diary_1798_081": null,
+            "hv_swaynej_diary_1798_082": null,
+            "hv_swaynej_diary_1798_083": null
+        }
+    },
+    "shawnee": {
+        "swarthmore/SW_1796_12_15.xml": {
+            "title": "The Committee appointed in the 5 mo 1795",
+            "SW_1796_12_15_001": null
+        },
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_006": null,
+            "SW_BYM1806_010": null,
+            "SW_BYM1806_036": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_008": null,
+            "BYM_Page_010": null,
+            "BYM_Page_019": null,
+            "BYM_Page_021": null,
+            "BYM_Page_023": null,
+            "BYM_Page_030": null,
+            "BYM_Page_037": null,
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_087": null,
+            "BYM_Page_096": null,
+            "BYM_Page_221": null,
+            "BYM_Page_237": null,
+            "BYM_Page_240": null,
+            "BYM_Page_244": null,
+            "BYM_Page_245": null,
+            "BYM_Page_251": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_092": null,
+            "SW_GH1804_127": null,
+            "SW_GH1804_130": null,
+            "SW_GH1804_131": null,
+            "SW_GH1804_141": null,
+            "SW_GH1804_146": null,
+            "SW_GH1804_151": null,
+            "SW_GH1804_152": null,
+            "SW_GH1804_158": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_184": null,
+            "SW_GH1804_187": null,
+            "SW_GH1804_188": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null,
+            "SW_JL1793_Page_105": null,
+            "SW_JL1793_Page_110": null,
+            "SW_JL1793_Page_111": null,
+            "SW_JL1793_Page_112": null,
+            "SW_JL1793_Page_113": null,
+            "SW_JL1793_Page_115": null,
+            "SW_JL1793_Page_116": null,
+            "SW_JL1793_Page_135": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Letters_1795_05_22.xml": {
+            "title": "Letter to the Shawanese, Delawares & others from Quakers of Pennsylvania and New Jersey, 1795",
+            "SW_Letters_1795_05_22_Page_1": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_116": null,
+            "NYYM_scrapbook_119": null,
+            "NYYM_scrapbook_127": null,
+            "NYYM_scrapbook_130": null,
+            "NYYM_scrapbook_133": null,
+            "NYYM_scrapbook_136": null,
+            "NYYM_scrapbook_137": null,
+            "NYYM_scrapbook_143": null,
+            "NYYM_scrapbook_147": null,
+            "NYYM_scrapbook_190": null,
+            "NYYM_scrapbook_195": null,
+            "NYYM_scrapbook_196": null,
+            "NYYM_scrapbook_197": null,
+            "NYYM_scrapbook_199": null,
+            "NYYM_scrapbook_201": null,
+            "NYYM_scrapbook_202": null,
+            "NYYM_scrapbook_203": null,
+            "NYYM_scrapbook_205": null,
+            "NYYM_scrapbook_206": null,
+            "NYYM_scrapbook_214": null,
+            "NYYM_scrapbook_215": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_128": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null,
+            "SW_WH1793_Page_44": null,
+            "SW_WH1793_Page_45": null,
+            "SW_WH1793_Page_46": null,
+            "SW_WH1793_Page_49": null,
+            "SW_WH1793_Page_65": null,
+            "SW_WH1793_Page_81": null
+        }
+    },
+    "delaware": {
+        "swarthmore/SW_1796_12_15.xml": {
+            "title": "The Committee appointed in the 5 mo 1795",
+            "SW_1796_12_15_001": null
+        },
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_006": null,
+            "SW_BYM1806_010": null,
+            "SW_BYM1806_012": null,
+            "SW_BYM1806_038": null,
+            "SW_BYM1806_042": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_008": null,
+            "BYM_Page_010": null,
+            "BYM_Page_019": null,
+            "BYM_Page_021": null,
+            "BYM_Page_023": null,
+            "BYM_Page_024": null,
+            "BYM_Page_030": null,
+            "BYM_Page_031": null,
+            "BYM_Page_034": null,
+            "BYM_Page_037": null,
+            "BYM_Page_043": null,
+            "BYM_Page_047": null,
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_091": null,
+            "BYM_Page_101": null,
+            "BYM_Page_102": null,
+            "BYM_Page_112": null,
+            "BYM_Page_118": null,
+            "BYM_Page_119": null,
+            "BYM_Page_125": null,
+            "BYM_Page_127": null,
+            "BYM_Page_197": null,
+            "BYM_Page_202": null,
+            "BYM_Page_204": null,
+            "BYM_Page_214": null,
+            "BYM_Page_221": null,
+            "BYM_Page_222": null,
+            "BYM_Page_223": null,
+            "BYM_Page_224": null,
+            "BYM_Page_235": null,
+            "BYM_Page_240": null,
+            "BYM_Page_242": null,
+            "BYM_Page_243": null,
+            "BYM_Page_244": null,
+            "BYM_Page_245": null,
+            "BYM_Page_252": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_043": null,
+            "SW_GH1804_065": null,
+            "SW_GH1804_085": null,
+            "SW_GH1804_127": null,
+            "SW_GH1804_128": null,
+            "SW_GH1804_129": null,
+            "SW_GH1804_130": null,
+            "SW_GH1804_131": null,
+            "SW_GH1804_141": null,
+            "SW_GH1804_146": null,
+            "SW_GH1804_149": null,
+            "SW_GH1804_151": null,
+            "SW_GH1804_152": null,
+            "SW_GH1804_157": null,
+            "SW_GH1804_158": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_168": null,
+            "SW_GH1804_184": null,
+            "SW_GH1804_191": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_HJ1800.xml": {
+            "title": "Halliday Jackson 1800 Journal (continued)",
+            "SW_HJ1800_009": null,
+            "SW_HJ1800_016": null
+        },
+        "swarthmore/SW_HJ1806.xml": {
+            "title": "Halliday Jackson's Journal, 1806",
+            "SW_HJ1806_Page_052": null
+        },
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_29": null
+        },
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_021": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_050": null,
+            "SW_JL1793_Page_068": null,
+            "SW_JL1793_Page_083": null,
+            "SW_JL1793_Page_092": null,
+            "SW_JL1793_Page_114": null,
+            "SW_JL1793_Page_116": null,
+            "SW_JL1793_Page_127": null,
+            "SW_JL1793_Page_134": null,
+            "SW_JL1793_Page_135": null,
+            "SW_JL1793_Page_144": null,
+            "SW_JL1793_Page_150": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Letters_1794_12_20.xml": {
+            "title": "Account of Canandaigua Treaty Negotiations",
+            "SW_Letters_1794_12_20_Page_2": null
+        },
+        "swarthmore/SW_Letters_1795_05_22.xml": {
+            "title": "Letter to the Shawanese, Delawares & others from Quakers of Pennsylvania and New Jersey, 1795",
+            "SW_Letters_1795_05_22_Page_1": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_074": null,
+            "NYYM_scrapbook_136": null,
+            "NYYM_scrapbook_199": null,
+            "NYYM_scrapbook_200": null,
+            "NYYM_scrapbook_201": null,
+            "NYYM_scrapbook_202": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_235": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_112": null,
+            "SW_WH1793_Page_120": null,
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_128": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null,
+            "SW_WH1793_Page_81": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v2.xml": {
+            "title": "William Allinson Diary, Volume 2",
+            "hv_allinsonw_diary_1809_v2_052": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v3.xml": {
+            "title": "William Allinson Diary, Volume 3",
+            "hv_allinsonw_diary_1809_v3_012": null
+        }
+    },
+    "wyandot": {
+        "swarthmore/SW_1796_12_15.xml": {
+            "title": "The Committee appointed in the 5 mo 1795",
+            "SW_1796_12_15_001": null
+        },
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_006": null,
+            "SW_BYM1806_010": null,
+            "SW_BYM1806_012": null,
+            "SW_BYM1806_015": null,
+            "SW_BYM1806_036": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_008": null,
+            "BYM_Page_019": null,
+            "BYM_Page_021": null,
+            "BYM_Page_023": null,
+            "BYM_Page_024": null,
+            "BYM_Page_025": null,
+            "BYM_Page_030": null,
+            "BYM_Page_031": null,
+            "BYM_Page_032": null,
+            "BYM_Page_033": null,
+            "BYM_Page_034": null,
+            "BYM_Page_035": null,
+            "BYM_Page_037": null,
+            "BYM_Page_039": null,
+            "BYM_Page_040": null,
+            "BYM_Page_043": null,
+            "BYM_Page_047": null,
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_087": null,
+            "BYM_Page_102": null,
+            "BYM_Page_103": null,
+            "BYM_Page_104": null,
+            "BYM_Page_118": null,
+            "BYM_Page_119": null,
+            "BYM_Page_125": null,
+            "BYM_Page_127": null,
+            "BYM_Page_129": null,
+            "BYM_Page_134": null,
+            "BYM_Page_135": null,
+            "BYM_Page_136": null,
+            "BYM_Page_138": null,
+            "BYM_Page_221": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_014": null,
+            "SW_GH1804_101": null,
+            "SW_GH1804_130": null,
+            "SW_GH1804_131": null,
+            "SW_GH1804_141": null,
+            "SW_GH1804_146": null,
+            "SW_GH1804_148": null,
+            "SW_GH1804_150": null,
+            "SW_GH1804_151": null,
+            "SW_GH1804_152": null,
+            "SW_GH1804_154": null,
+            "SW_GH1804_156": null,
+            "SW_GH1804_157": null,
+            "SW_GH1804_161": null,
+            "SW_GH1804_168": null,
+            "SW_GH1804_180": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_HJ1830.xml": {
+            "title": "Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800",
+            "SW_HJ1830_010": null
+        },
+        "swarthmore/SW_JC1797.xml": {
+            "title": "Joseph Clark's Account of a Journey to the Indian Country, 1797",
+            "SW_JC1797_Page_05": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null,
+            "SW_JL1793_Page_089": null,
+            "SW_JL1793_Page_090": null,
+            "SW_JL1793_Page_092": null,
+            "SW_JL1793_Page_103": null,
+            "SW_JL1793_Page_104": null,
+            "SW_JL1793_Page_107": null,
+            "SW_JL1793_Page_124": null,
+            "SW_JL1793_Page_133": null,
+            "SW_JL1793_Page_135": null,
+            "SW_JL1793_Page_138": null,
+            "SW_JL1793_Page_147": null,
+            "SW_JL1793_Page_148": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Letters_1795_05_22.xml": {
+            "title": "Letter to the Shawanese, Delawares & others from Quakers of Pennsylvania and New Jersey, 1795",
+            "SW_Letters_1795_05_22_Page_1": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_136": null,
+            "NYYM_scrapbook_203": null,
+            "NYYM_scrapbook_214": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_120": null,
+            "SW_WH1793_Page_121": null,
+            "SW_WH1793_Page_128": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_25": null,
+            "SW_WH1793_Page_34": null,
+            "SW_WH1793_Page_36": null,
+            "SW_WH1793_Page_40": null,
+            "SW_WH1793_Page_81": null
+        }
+    },
+    "sxntns": {
+        "swarthmore/SW_1805_00_00.xml": {
+            "title": "Missionary's address to the chiefs of the six nation Indian & Their answers",
+            "SW_1805_00_00_Page_1": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_005": null,
+            "BYM_Page_010": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_111": null,
+            "SW_GH1804_113": null,
+            "SW_GH1804_114": null,
+            "SW_GH1804_124": null,
+            "SW_GH1804_128": null,
+            "SW_GH1804_140": null,
+            "SW_GH1804_141": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Letters_1794_00_00.xml": {
+            "title": "Letter to the Quarterly Meeting of Friends at Hopewell",
+            "Misc_mss_1794_00_00001": null,
+            "Misc_mss_1794_00_00002": null
+        },
+        "swarthmore/SW_Letters_1794_09_09.xml": {
+            "title": "Address to the Six Nations",
+            "SW_Letters_1794_09_09_005": null
+        },
+        "swarthmore/SW_Letters_1794_12_20.xml": {
+            "title": "Account of Canandaigua Treaty Negotiations",
+            "SW_Letters_1794_12_20_Page_1": null,
+            "SW_Letters_1794_12_20_Page_2": null
+        },
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_118": null,
+            "NYYM_minutes_Page_119": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_054": null,
+            "NYYM_scrapbook_060": null,
+            "NYYM_scrapbook_094": null,
+            "NYYM_scrapbook_098": null,
+            "NYYM_scrapbook_121": null,
+            "NYYM_scrapbook_122": null,
+            "NYYM_scrapbook_128": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_093": null,
+            "SW_WH1793_Page_094": null,
+            "SW_WH1793_Page_095": null,
+            "SW_WH1793_Page_100": null,
+            "SW_WH1793_Page_103": null,
+            "SW_WH1793_Page_112": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_041": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v2.xml": {
+            "title": "William Allinson Diary, Volume 2",
+            "hv_allinsonw_diary_1809_v2_034": null,
+            "hv_allinsonw_diary_1809_v2_035": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v3.xml": {
+            "title": "William Allinson Diary, Volume 3",
+            "hv_allinsonw_diary_1809_v3_004": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_003": null,
+            "hv_bacond_account_1794_015": null,
+            "hv_bacond_account_1794_021": null,
+            "hv_bacond_account_1794_029": null,
+            "hv_bacond_account_1794_030": null,
+            "hv_bacond_account_1794_042": null,
+            "hv_bacond_account_1794_045": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_003": null,
+            "hv_sansomj_letters_1796_023": null,
+            "hv_sansomj_letters_1796_044": null,
+            "hv_sansomj_letters_1796_045": null
+        }
+    },
+    "bosmiss": {
+        "swarthmore/SW_1805_00_00.xml": {
+            "title": "Missionary's address to the chiefs of the six nation Indian & Their answers",
+            "SW_1805_00_00_Page_1": null,
+            "SW_1805_00_00_Page_2": null
+        },
+        "swarthmore/SW_HJ1800.xml": {
+            "title": "Halliday Jackson 1800 Journal (continued)",
+            "SW_HJ1800_033": null
+        }
+    },
+    "bym": {
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_003": null,
+            "SW_BYM1806_008": null,
+            "SW_BYM1806_009": null,
+            "SW_BYM1806_012": null,
+            "SW_BYM1806_024": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "SW_BYM1806_047": null,
+            "BYM_Page_002": null,
+            "BYM_Page_003": null,
+            "BYM_Page_009": null,
+            "BYM_Page_014": null,
+            "BYM_Page_015": null,
+            "BYM_Page_016": null,
+            "BYM_Page_018": null,
+            "BYM_Page_022": null,
+            "BYM_Page_025": null,
+            "BYM_Page_026": null,
+            "BYM_Page_028": null,
+            "BYM_Page_030": null,
+            "BYM_Page_032": null,
+            "BYM_Page_038": null,
+            "BYM_Page_039": null,
+            "BYM_Page_045": null,
+            "BYM_Page_047": null,
+            "BYM_Page_057": null,
+            "BYM_Page_060": null,
+            "BYM_Page_061": null,
+            "BYM_Page_062": null,
+            "BYM_Page_069": null,
+            "BYM_Page_071": null,
+            "BYM_Page_098": null,
+            "BYM_Page_100": null,
+            "BYM_Page_113": null,
+            "BYM_Page_114": null,
+            "BYM_Page_115": null,
+            "BYM_Page_116": null,
+            "BYM_Page_117": null,
+            "BYM_Page_249": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_002": null,
+            "SW_GH1804_014": null,
+            "SW_GH1804_046": null,
+            "SW_GH1804_050": null,
+            "SW_GH1804_054": null,
+            "SW_GH1804_069": null,
+            "SW_GH1804_103": null,
+            "SW_GH1804_120": null,
+            "SW_GH1804_131": null,
+            "SW_GH1804_135": null,
+            "SW_GH1804_136": null,
+            "SW_GH1804_137": null,
+            "SW_GH1804_138": null,
+            "SW_GH1804_139": null,
+            "SW_GH1804_140": null,
+            "SW_GH1804_144": null,
+            "SW_GH1804_145": null,
+            "SW_GH1804_146": null,
+            "SW_GH1804_147": null,
+            "SW_GH1804_154": null,
+            "SW_GH1804_158": null,
+            "SW_GH1804_160": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_173": null,
+            "SW_GH1804_175": null,
+            "SW_GH1804_176": null,
+            "SW_GH1804_177": null,
+            "SW_GH1804_178": null,
+            "SW_GH1804_179": null,
+            "SW_GH1804_181": null,
+            "SW_GH1804_183": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_69": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_119": null,
+            "NYYM_scrapbook_130": null,
+            "NYYM_scrapbook_136": null,
+            "NYYM_scrapbook_137": null,
+            "NYYM_scrapbook_140": null,
+            "NYYM_scrapbook_145": null,
+            "NYYM_scrapbook_147": null,
+            "NYYM_scrapbook_162": null,
+            "NYYM_scrapbook_163": null,
+            "NYYM_scrapbook_196": null,
+            "NYYM_scrapbook_216": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_117": null,
+            "SW_WH1793_Page_119": null,
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_125": null,
+            "SW_WH1793_Page_136": null
+        }
+    },
+    "pym": {
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_003": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_036": null,
+            "BYM_Page_097": null,
+            "BYM_Page_099": null,
+            "BYM_Page_100": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_116": null,
+            "SW_GH1804_135": null,
+            "SW_GH1804_139": null,
+            "SW_GH1804_151": null,
+            "SW_GH1804_160": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_167": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_26": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_JT1798.xml": {
+            "title": "Jonathan Thomas His Book 1798",
+            "SW_JT1798_003": null
+        },
+        "swarthmore/SW_Letters_179-_MM_DD.xml": {
+            "title": "The Committee Appointed to Confer With the Friends who Attended the Indian Treaty",
+            "SW_Letters_179-_MM_DD_Page_1": null,
+            "SW_Letters_179-_MM_DD_Page_2": null
+        },
+        "swarthmore/SW_Letters_1794_00_00.xml": {
+            "title": "Letter to the Quarterly Meeting of Friends at Hopewell",
+            "Misc_mss_1794_00_00001": null
+        },
+        "swarthmore/SW_Letters_1795_05_23.xml": {
+            "title": "Treasury Account of Goods to be sent to the Indians, 1795",
+            "SW_Letters_1795_05_23_Page_1": null
+        },
+        "swarthmore/SW_Letters_1795_05_25.xml": {
+            "title": "Letter from Quakers to General Wayne, 1795",
+            "SW_Letters_1795_05_25_Page_1": null
+        },
+        "swarthmore/SW_NYYM_reports.xml": {
+            "title": "Reports of the Indian Committee to New York Yearly Meeting, 1795-1806",
+            "SW_NYYM_reports_Page_013": null,
+            "SW_NYYM_reports_Page_016": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_058": null,
+            "NYYM_scrapbook_169": null,
+            "NYYM_scrapbook_173": null
+        },
+        "swarthmore/SW_Ripley.xml": {
+            "title": "The Bank of Faith and Works United",
+            "Ripley119": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_081": null,
+            "SW_Sutcliff_Page_230": null,
+            "SW_Sutcliff_Page_237": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_125": null,
+            "SW_WH1793_Page_126": null,
+            "SW_WH1793_Page_127": null,
+            "SW_WH1793_Page_128": null,
+            "SW_WH1793_Page_135": null,
+            "SW_WH1793_Page_285": null,
+            "SW_WH1793_Page_286": null
+        },
+        "haverford/hv_coatesi_account_1798.xml": {
+            "title": "Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY",
+            "hv_coatesi_account_1798_006": null,
+            "hv_coatesi_account_1798_013": null
+        },
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_066": null
+        }
+    },
+    "miami": {
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_006": null,
+            "SW_BYM1806_018": null,
+            "SW_BYM1806_034": null,
+            "SW_BYM1806_042": null,
+            "SW_BYM1806_043": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_030": null,
+            "BYM_Page_031": null,
+            "BYM_Page_037": null,
+            "BYM_Page_047": null,
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_055": null,
+            "BYM_Page_066": null,
+            "BYM_Page_068": null,
+            "BYM_Page_069": null,
+            "BYM_Page_073": null,
+            "BYM_Page_081": null,
+            "BYM_Page_093": null,
+            "BYM_Page_095": null,
+            "BYM_Page_096": null,
+            "BYM_Page_098": null,
+            "BYM_Page_102": null,
+            "BYM_Page_112": null,
+            "BYM_Page_114": null,
+            "BYM_Page_128": null,
+            "BYM_Page_142": null,
+            "BYM_Page_147": null,
+            "BYM_Page_150": null,
+            "BYM_Page_164": null,
+            "BYM_Page_174": null,
+            "BYM_Page_180": null,
+            "BYM_Page_181": null,
+            "BYM_Page_183": null,
+            "BYM_Page_194": null,
+            "BYM_Page_197": null,
+            "BYM_Page_198": null,
+            "BYM_Page_199": null,
+            "BYM_Page_204": null,
+            "BYM_Page_211": null,
+            "BYM_Page_221": null,
+            "BYM_Page_222": null,
+            "BYM_Page_231": null,
+            "BYM_Page_247": null,
+            "BYM_Page_250": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_004": null,
+            "SW_GH1804_049": null,
+            "SW_GH1804_054": null,
+            "SW_GH1804_065": null,
+            "SW_GH1804_067": null,
+            "SW_GH1804_069": null,
+            "SW_GH1804_077": null,
+            "SW_GH1804_087": null,
+            "SW_GH1804_149": null,
+            "SW_GH1804_150": null,
+            "SW_GH1804_152": null,
+            "SW_GH1804_158": null,
+            "SW_GH1804_159": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_174": null,
+            "SW_GH1804_180": null,
+            "SW_GH1804_184": null,
+            "SW_GH1804_186": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null,
+            "SW_JL1793_Page_135": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Letters_1795_05_22.xml": {
+            "title": "Letter to the Shawanese, Delawares & others from Quakers of Pennsylvania and New Jersey, 1795",
+            "SW_Letters_1795_05_22_Page_1": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_119": null,
+            "NYYM_scrapbook_136": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_120": null,
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_128": null,
+            "SW_WH1793_Page_137": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null,
+            "SW_WH1793_Page_81": null
+        }
+    },
+    "wea": {
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_006": null,
+            "SW_BYM1806_040": null,
+            "SW_BYM1806_043": null,
+            "SW_BYM1806_046": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_123": null,
+            "BYM_Page_141": null,
+            "BYM_Page_142": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_084": null,
+            "SW_GH1804_158": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_203": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_124": null
+        }
+    },
+    "bymindian": {
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_008": null,
+            "SW_BYM1806_009": null,
+            "SW_BYM1806_010": null,
+            "SW_BYM1806_011": null,
+            "SW_BYM1806_012": null,
+            "SW_BYM1806_015": null,
+            "SW_BYM1806_016": null,
+            "SW_BYM1806_017": null,
+            "SW_BYM1806_018": null,
+            "SW_BYM1806_021": null,
+            "SW_BYM1806_023": null,
+            "SW_BYM1806_024": null,
+            "SW_BYM1806_036": null,
+            "SW_BYM1806_037": null,
+            "SW_BYM1806_038": null,
+            "SW_BYM1806_041": null,
+            "SW_BYM1806_043": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_249": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_002": null,
+            "SW_GH1804_004": null,
+            "SW_GH1804_014": null,
+            "SW_GH1804_016": null,
+            "SW_GH1804_053": null,
+            "SW_GH1804_054": null,
+            "SW_GH1804_077": null,
+            "SW_GH1804_120": null,
+            "SW_GH1804_135": null,
+            "SW_GH1804_136": null,
+            "SW_GH1804_137": null,
+            "SW_GH1804_138": null,
+            "SW_GH1804_140": null,
+            "SW_GH1804_144": null,
+            "SW_GH1804_145": null,
+            "SW_GH1804_147": null,
+            "SW_GH1804_148": null,
+            "SW_GH1804_149": null,
+            "SW_GH1804_150": null,
+            "SW_GH1804_152": null,
+            "SW_GH1804_154": null,
+            "SW_GH1804_157": null,
+            "SW_GH1804_158": null,
+            "SW_GH1804_159": null,
+            "SW_GH1804_168": null,
+            "SW_GH1804_173": null,
+            "SW_GH1804_175": null,
+            "SW_GH1804_176": null,
+            "SW_GH1804_177": null,
+            "SW_GH1804_178": null,
+            "SW_GH1804_179": null,
+            "SW_GH1804_180": null,
+            "SW_GH1804_181": null,
+            "SW_GH1804_182": null,
+            "SW_GH1804_183": null,
+            "SW_GH1804_184": null,
+            "SW_GH1804_185": null,
+            "SW_GH1804_191": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_128": null,
+            "NYYM_scrapbook_136": null,
+            "NYYM_scrapbook_137": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_117": null,
+            "SW_WH1793_Page_136": null,
+            "SW_WH1793_Page_137": null
+        }
+    },
+    "potaw": {
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_018": null,
+            "SW_BYM1806_034": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_066": null,
+            "BYM_Page_068": null,
+            "BYM_Page_069": null,
+            "BYM_Page_073": null,
+            "BYM_Page_081": null,
+            "BYM_Page_093": null,
+            "BYM_Page_096": null,
+            "BYM_Page_098": null,
+            "BYM_Page_174": null,
+            "BYM_Page_180": null,
+            "BYM_Page_181": null,
+            "BYM_Page_183": null,
+            "BYM_Page_194": null,
+            "BYM_Page_198": null,
+            "BYM_Page_204": null,
+            "BYM_Page_221": null,
+            "BYM_Page_231": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_004": null,
+            "SW_GH1804_050": null,
+            "SW_GH1804_054": null,
+            "SW_GH1804_063": null,
+            "SW_GH1804_067": null,
+            "SW_GH1804_069": null,
+            "SW_GH1804_077": null,
+            "SW_GH1804_158": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_184": null,
+            "SW_GH1804_187": null,
+            "SW_GH1804_190": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null,
+            "SW_JL1793_Page_113": null,
+            "SW_JL1793_Page_139": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_136": null,
+            "NYYM_scrapbook_204": null,
+            "NYYM_scrapbook_205": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_126": null,
+            "SW_WH1793_Page_128": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "eel": {
+        "swarthmore/SW_BYM1806.xml": {
+            "title": "A Brief Account of the Proceedings of the Committee Appointed by the Yearly Meeting of Friends, Held in Baltimore for Promoting the Improvement and Civilization of the Indian Natives",
+            "SW_BYM1806_040": null,
+            "SW_BYM1806_042": null,
+            "SW_BYM1806_043": null,
+            "SW_BYM1806_046": null
+        },
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_089": null,
+            "BYM_Page_095": null,
+            "BYM_Page_096": null,
+            "BYM_Page_102": null,
+            "BYM_Page_107": null,
+            "BYM_Page_112": null,
+            "BYM_Page_114": null,
+            "BYM_Page_123": null,
+            "BYM_Page_141": null,
+            "BYM_Page_142": null,
+            "BYM_Page_198": null,
+            "BYM_Page_231": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_158": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_128": null
+        }
+    },
+    "moravian": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_027": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_147": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_200": null,
+            "NYYM_scrapbook_201": null,
+            "NYYM_scrapbook_202": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_175": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_01": null
+        }
+    },
+    "moraind": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_027": null,
+            "BYM_Page_028": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_102": null,
+            "SW_JL1793_Page_105": null,
+            "SW_JL1793_Page_116": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_181": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_29": null,
+            "SW_WH1793_Page_31": null,
+            "SW_WH1793_Page_67": null
+        }
+    },
+    "ojibwe": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_030": null,
+            "BYM_Page_221": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null,
+            "SW_JL1793_Page_085": null,
+            "SW_JL1793_Page_089": null,
+            "SW_JL1793_Page_092": null,
+            "SW_JL1793_Page_096": null,
+            "SW_JL1793_Page_097": null,
+            "SW_JL1793_Page_100": null,
+            "SW_JL1793_Page_114": null,
+            "SW_JL1793_Page_119": null,
+            "SW_JL1793_Page_135": null,
+            "SW_JL1793_Page_144": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_203": null,
+            "NYYM_scrapbook_214": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_24": null,
+            "SW_WH1793_Page_25": null,
+            "SW_WH1793_Page_29": null,
+            "SW_WH1793_Page_31": null,
+            "SW_WH1793_Page_40": null,
+            "SW_WH1793_Page_51": null,
+            "SW_WH1793_Page_52": null,
+            "SW_WH1793_Page_77": null,
+            "SW_WH1793_Page_79": null
+        }
+    },
+    "odawa": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_030": null,
+            "BYM_Page_087": null,
+            "BYM_Page_221": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_092": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_203": null,
+            "NYYM_scrapbook_214": null
+        }
+    },
+    "piank": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_221": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_158": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_203": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_128": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null
+        }
+    },
+    "kicka": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_221": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_158": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_197": null,
+            "NYYM_scrapbook_202": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_128": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null
+        }
+    },
+    "kaska": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_048": null,
+            "BYM_Page_049": null,
+            "BYM_Page_221": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_159": null,
+            "SW_GH1804_165": null,
+            "SW_GH1804_196": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_203": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_124": null,
+            "SW_WH1793_Page_128": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null
+        }
+    },
+    "oneida": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_088": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_116": null,
+            "SW_GH1804_128": null
+        },
+        "swarthmore/SW_HJ1798.xml": {
+            "title": "Halliday Jackson's Book [of Corrrespondence], Genesinguhta, 1798-1800",
+            "SW_HJ1798_047": null
+        },
+        "swarthmore/SW_HJ1806.xml": {
+            "title": "Halliday Jackson's Journal, 1806",
+            "SW_HJ1806_Page_041": null
+        },
+        "swarthmore/SW_HJ1830.xml": {
+            "title": "Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800",
+            "SW_HJ1830_002": null
+        },
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_002": null,
+            "SW_JC1796_012": null,
+            "SW_JC1796_013": null,
+            "SW_JC1796_014": null,
+            "SW_JC1796_018.jpg": null,
+            "SW_JC1796_019": null,
+            "SW_JC1796_020": null,
+            "SW_JC1796_021": null,
+            "SW_JC1796_022": null,
+            "http://www.swarthmore.edu/library/friends/TEI/Cooper_James_1796/SW_JC1796/SW_JC1796_024.jpg": null,
+            "SW_JC1796_025": null,
+            "SW_JC1796_026": null,
+            "SW_JC1796_031": null,
+            "SW_JC1796_034": null,
+            "SW_JC1796_037": null
+        },
+        "swarthmore/SW_JC1797.xml": {
+            "title": "Joseph Clark's Account of a Journey to the Indian Country, 1797",
+            "SW_JC1797_Page_02": null,
+            "SW_JC1797_Page_04": null,
+            "SW_JC1797_Page_07": null
+        },
+        "swarthmore/SW_JC1801.xml": {
+            "title": "Joseph Clark's Of a second Visit to the Indian Country, 1801",
+            "SW_JC1801_Page_4": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_51": null,
+            "SW_JE1796E_Page_52": null,
+            "SW_JE1796E_Page_53": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_073": null,
+            "SW_JL1793_Page_109": null,
+            "SW_JL1793_Page_124": null,
+            "SW_JL1793_Page_127": null,
+            "SW_JL1793_Page_145": null,
+            "SW_JL1793_Page_146": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_014": null,
+            "SW_JP1796_029": null,
+            "SW_JP1796_040": null,
+            "SW_JP1796_043": null,
+            "SW_JP1796_046": null,
+            "SW_JP1796_047": null,
+            "SW_JP1796_048": null,
+            "SW_JP1796_055": null,
+            "SW_JP1796_060": null,
+            "SW_JP1796_062": null,
+            "SW_JP1796_067": null,
+            "SW_JP1796_068": null,
+            "SW_JP1796_085": null,
+            "SW_JP1796_086": null,
+            "SW_JP1796_095": null,
+            "SW_JP1796_098": null,
+            "SW_JP1796_107": null,
+            "SW_JP1796_120": null,
+            "SW_JP1796_121": null,
+            "SW_JP1796_137": null,
+            "SW_JP1796_146": null,
+            "SW_JP1796_148": null,
+            "SW_JP1796_149": null,
+            "SW_JP1796_154": null,
+            "SW_JP1796_157": null,
+            "SW_JP1796_164": null,
+            "SW_JP1796_189": null,
+            "SW_JP1796_195": null,
+            "SW_JP1796_196": null,
+            "SW_JP1796_198": null,
+            "SW_JP1796_223": null,
+            "SW_JP1796_224": null,
+            "SW_JP1796_229": null,
+            "SW_JP1796_244": null,
+            "SW_JP1796_245": null,
+            "SW_JP1796_247": null
+        },
+        "swarthmore/SW_JS1798.xml": {
+            "title": "Joshua Sharpless's Journal Into Indian Country, 1798",
+            "SW_JS1798_149": null,
+            "SW_JS1798_151": null,
+            "SW_JS1798_152": null
+        },
+        "swarthmore/SW_JT1798.xml": {
+            "title": "Jonathan Thomas His Book 1798",
+            "SW_JT1798_002": null,
+            "SW_JT1798_004": null,
+            "SW_JT1798_005": null,
+            "SW_JT1798_013": null,
+            "SW_JT1798_014": null,
+            "SW_JT1798_015": null,
+            "SW_JT1798_020": null,
+            "SW_JT1798_030": null
+        },
+        "swarthmore/SW_Letters_1794_12_20.xml": {
+            "title": "Account of Canandaigua Treaty Negotiations",
+            "SW_Letters_1794_12_20_Page_1": null
+        },
+        "swarthmore/SW_Letters_1801_10a.xml": {
+            "title": "Copy of a manuscript respecting the American Indians (A)",
+            "SW_Letters_1801_10a_Page_04": null,
+            "SW_Letters_1801_10a_Page_08": null
+        },
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_004": null,
+            "NYYM_minutes_Page_005": null,
+            "NYYM_minutes_Page_006": null,
+            "NYYM_minutes_Page_009": null,
+            "NYYM_minutes_Page_016": null,
+            "NYYM_minutes_Page_017": null,
+            "NYYM_minutes_Page_019": null,
+            "NYYM_minutes_Page_021": null,
+            "NYYM_minutes_Page_022": null,
+            "NYYM_minutes_Page_023": null,
+            "NYYM_minutes_Page_024": null,
+            "NYYM_minutes_Page_025": null,
+            "NYYM_minutes_Page_026": null,
+            "NYYM_minutes_Page_027": null,
+            "NYYM_minutes_Page_028": null,
+            "NYYM_minutes_Page_029": null,
+            "NYYM_minutes_Page_034": null,
+            "NYYM_minutes_Page_035": null,
+            "NYYM_minutes_Page_037": null,
+            "NYYM_minutes_Page_040": null,
+            "NYYM_minutes_Page_041": null,
+            "NYYM_minutes_Page_043": null,
+            "NYYM_minutes_Page_047": null,
+            "NYYM_minutes_Page_050": null,
+            "NYYM_minutes_Page_051": null,
+            "NYYM_minutes_Page_053": null,
+            "NYYM_minutes_Page_054": null,
+            "NYYM_minutes_Page_057": null,
+            "NYYM_minutes_Page_059": null,
+            "NYYM_minutes_Page_060": null,
+            "NYYM_minutes_Page_062": null,
+            "NYYM_minutes_Page_063": null,
+            "NYYM_minutes_Page_065": null,
+            "NYYM_minutes_Page_066": null,
+            "NYYM_minutes_Page_070": null,
+            "NYYM_minutes_Page_071": null,
+            "NYYM_minutes_Page_072": null,
+            "NYYM_minutes_Page_074": null,
+            "NYYM_minutes_Page_076": null,
+            "NYYM_minutes_Page_077": null,
+            "NYYM_minutes_Page_082": null,
+            "NYYM_minutes_Page_084": null,
+            "NYYM_minutes_Page_086": null,
+            "NYYM_minutes_Page_087": null,
+            "NYYM_minutes_Page_088": null,
+            "NYYM_minutes_Page_096": null,
+            "NYYM_minutes_Page_097": null,
+            "NYYM_minutes_Page_102": null,
+            "NYYM_minutes_Page_106": null,
+            "NYYM_minutes_Page_107": null,
+            "NYYM_minutes_Page_109": null,
+            "NYYM_minutes_Page_110": null,
+            "NYYM_minutes_Page_111": null,
+            "NYYM_minutes_Page_112": null,
+            "NYYM_minutes_Page_114": null,
+            "NYYM_minutes_Page_115": null,
+            "NYYM_minutes_Page_117": null,
+            "NYYM_minutes_Page_118": null,
+            "NYYM_minutes_Page_121": null,
+            "NYYM_minutes_Page_122": null,
+            "NYYM_minutes_Page_125": null,
+            "NYYM_minutes_Page_126": null,
+            "NYYM_minutes_Page_130": null,
+            "NYYM_minutes_Page_137": null,
+            "NYYM_minutes_Page_140": null,
+            "NYYM_minutes_Page_141": null,
+            "NYYM_minutes_Page_146": null,
+            "NYYM_minutes_Page_148": null,
+            "NYYM_minutes_Page_152": null,
+            "NYYM_minutes_Page_155": null,
+            "NYYM_minutes_Page_156": null,
+            "NYYM_minutes_Page_157": null,
+            "NYYM_minutes_Page_159": null,
+            "NYYM_minutes_Page_161": null,
+            "NYYM_minutes_Page_162": null,
+            "NYYM_minutes_Page_163": null,
+            "NYYM_minutes_Page_165": null,
+            "NYYM_minutes_Page_167": null,
+            "NYYM_minutes_Page_168": null,
+            "NYYM_minutes_Page_172": null
+        },
+        "swarthmore/SW_NYYM_reports.xml": {
+            "title": "Reports of the Indian Committee to New York Yearly Meeting, 1795-1806",
+            "SW_NYYM_reports_Page_005": null,
+            "SW_NYYM_reports_Page_020": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_005": null,
+            "NYYM_scrapbook_007": null,
+            "NYYM_scrapbook_009": null,
+            "NYYM_scrapbook_011": null,
+            "NYYM_scrapbook_014": null,
+            "NYYM_scrapbook_018": null,
+            "NYYM_scrapbook_021": null,
+            "NYYM_scrapbook_022": null,
+            "NYYM_scrapbook_034": null,
+            "NYYM_scrapbook_036": null,
+            "NYYM_scrapbook_037": null,
+            "NYYM_scrapbook_038": null,
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_056": null,
+            "NYYM_scrapbook_065": null,
+            "NYYM_scrapbook_068": null,
+            "NYYM_scrapbook_072": null,
+            "NYYM_scrapbook_082": null,
+            "NYYM_scrapbook_083": null,
+            "NYYM_scrapbook_084": null,
+            "NYYM_scrapbook_085": null,
+            "NYYM_scrapbook_086": null,
+            "NYYM_scrapbook_089": null,
+            "NYYM_scrapbook_093": null,
+            "NYYM_scrapbook_097": null,
+            "NYYM_scrapbook_098": null,
+            "NYYM_scrapbook_100": null,
+            "NYYM_scrapbook_103": null,
+            "NYYM_scrapbook_123": null,
+            "NYYM_scrapbook_125": null,
+            "NYYM_scrapbook_128": null,
+            "NYYM_scrapbook_164": null,
+            "NYYM_scrapbook_166": null,
+            "NYYM_scrapbook_168": null
+        },
+        "swarthmore/SW_NYYM_Skenando.xml": {
+            "title": "Extract The Speech of John Skenando principal Chief of the Oneida Nation",
+            "SW_NYYM_Skenando_Page_001": null,
+            "SW_NYYM_Skenando_Page_002": null
+        },
+        "swarthmore/SW_Ripley.xml": {
+            "title": "The Bank of Faith and Works United",
+            "Ripley081": null,
+            "Ripley083": null,
+            "Ripley103": null,
+            "Ripley104": null,
+            "Ripley105": null,
+            "Ripley112": null,
+            "Ripley114": null,
+            "Ripley120": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_139": null,
+            "SW_Sutcliff_Page_141": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_094": null,
+            "SW_WH1793_Page_096": null,
+            "SW_WH1793_Page_098": null,
+            "SW_WH1793_Page_106": null,
+            "SW_WH1793_Page_108": null,
+            "SW_WH1793_Page_259": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_05": null,
+            "SW_WH1793_Page_07": null,
+            "SW_WH1793_Page_37": null,
+            "SW_WH1793_Page_68": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_041": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v2.xml": {
+            "title": "William Allinson Diary, Volume 2",
+            "hv_allinsonw_diary_1809_v2_035": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_005": null,
+            "hv_bacond_account_1794_007": null,
+            "hv_bacond_account_1794_008": null,
+            "hv_bacond_account_1794_009": null,
+            "hv_bacond_account_1794_010": null,
+            "hv_bacond_account_1794_012": null,
+            "hv_bacond_account_1794_013": null,
+            "hv_bacond_account_1794_017": null,
+            "hv_bacond_account_1794_018": null,
+            "hv_bacond_account_1794_033": null,
+            "hv_bacond_account_1794_034": null
+        },
+        "haverford/hv_coatesi_account_1798.xml": {
+            "title": "Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY",
+            "hv_coatesi_account_1798_074": null,
+            "hv_coatesi_account_1798_096": null,
+            "hv_coatesi_account_1798_105": null,
+            "hv_coatesi_account_1798_107": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_003": null,
+            "hv_sansomj_letters_1796_020": null,
+            "hv_sansomj_letters_1796_023": null,
+            "hv_sansomj_letters_1796_027": null,
+            "hv_sansomj_letters_1796_028": null,
+            "hv_sansomj_letters_1796_031": null,
+            "hv_sansomj_letters_1796_035": null
+        },
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_073": null
+        }
+    },
+    "wyadot": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_129": null
+        }
+    },
+    "misscon": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_139": null
+        }
+    },
+    "unib": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_171": null,
+            "BYM_Page_227": null,
+            "BYM_Page_254": null
+        }
+    },
+    "massas": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_183": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_047": null,
+            "NYYM_scrapbook_060": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "mahican": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_219": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_127": null,
+            "SW_GH1804_129": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_105": null,
+            "SW_JL1793_Page_144": null
+        }
+    },
+    "nanti": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_219": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_129": null
+        }
+    },
+    "munseeind": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_221": null,
+            "BYM_Page_222": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_127": null
+        },
+        "swarthmore/SW_HJ1806.xml": {
+            "title": "Halliday Jackson's Journal, 1806",
+            "SW_HJ1806_Page_051": null,
+            "SW_HJ1806_Page_052": null,
+            "SW_HJ1806_Page_064": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_116": null,
+            "SW_JL1793_Page_135": null,
+            "SW_JL1793_Page_144": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_201": null,
+            "NYYM_scrapbook_202": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v2.xml": {
+            "title": "William Allinson Diary, Volume 2",
+            "hv_allinsonw_diary_1809_v2_052": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v3.xml": {
+            "title": "William Allinson Diary, Volume 3",
+            "hv_allinsonw_diary_1809_v3_003": null,
+            "hv_allinsonw_diary_1809_v3_011": null
+        },
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_081": null,
+            "hv_swaynej_diary_1798_083": null
+        }
+    },
+    "waupug": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_221": null
+        }
+    },
+    "sioux": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_221": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null,
+            "SW_JL1793_Page_114": null,
+            "SW_JL1793_Page_119": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_216": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "fox": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_221": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_194": null
+        }
+    },
+    "stockbridge": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_225": null
+        },
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_002": null,
+            "SW_JC1796_011": null,
+            "SW_JC1796_012": null,
+            "SW_JC1796_013": null,
+            "SW_JC1796_014": null,
+            "SW_JC1796_016": null,
+            "SW_JC1796_018.jpg": null,
+            "SW_JC1796_019": null,
+            "SW_JC1796_021": null,
+            "http://www.swarthmore.edu/library/friends/TEI/Cooper_James_1796/SW_JC1796/SW_JC1796_024.jpg": null,
+            "SW_JC1796_029": null,
+            "SW_JC1796_032": null,
+            "SW_JC1796_037": null
+        },
+        "swarthmore/SW_JC1797.xml": {
+            "title": "Joseph Clark's Account of a Journey to the Indian Country, 1797",
+            "SW_JC1797_Page_03": null,
+            "SW_JC1797_Page_05": null,
+            "SW_JC1797_Page_07": null
+        },
+        "swarthmore/SW_JC1801.xml": {
+            "title": "Joseph Clark's Of a second Visit to the Indian Country, 1801",
+            "SW_JC1801_Page_2": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_50": null,
+            "SW_JE1796E_Page_51": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_027": null,
+            "SW_JP1796_029": null,
+            "SW_JP1796_035": null,
+            "SW_JP1796_037": null,
+            "SW_JP1796_040": null,
+            "SW_JP1796_044": null,
+            "SW_JP1796_045": null,
+            "SW_JP1796_054": null,
+            "SW_JP1796_059": null,
+            "SW_JP1796_060": null,
+            "SW_JP1796_061": null,
+            "SW_JP1796_090": null,
+            "SW_JP1796_110": null,
+            "SW_JP1796_118": null,
+            "SW_JP1796_124": null,
+            "SW_JP1796_131": null,
+            "SW_JP1796_133": null,
+            "SW_JP1796_146": null,
+            "SW_JP1796_152": null,
+            "SW_JP1796_156": null,
+            "SW_JP1796_158": null,
+            "SW_JP1796_166": null,
+            "SW_JP1796_178": null,
+            "SW_JP1796_179": null,
+            "SW_JP1796_189": null,
+            "SW_JP1796_196": null,
+            "SW_JP1796_198": null,
+            "SW_JP1796_199": null
+        },
+        "swarthmore/SW_JS1798.xml": {
+            "title": "Joshua Sharpless's Journal Into Indian Country, 1798",
+            "SW_JS1798_145": null,
+            "SW_JS1798_152": null
+        },
+        "swarthmore/SW_JT1798.xml": {
+            "title": "Jonathan Thomas His Book 1798",
+            "SW_JT1798_004": null,
+            "SW_JT1798_005": null,
+            "SW_JT1798_010": null
+        },
+        "swarthmore/SW_Letters_1801_10a.xml": {
+            "title": "Copy of a manuscript respecting the American Indians (A)",
+            "SW_Letters_1801_10a_Page_07": null
+        },
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_004": null,
+            "NYYM_minutes_Page_009": null,
+            "NYYM_minutes_Page_023": null,
+            "NYYM_minutes_Page_025": null,
+            "NYYM_minutes_Page_028": null,
+            "NYYM_minutes_Page_036": null,
+            "NYYM_minutes_Page_040": null,
+            "NYYM_minutes_Page_043": null,
+            "NYYM_minutes_Page_051": null,
+            "NYYM_minutes_Page_066": null,
+            "NYYM_minutes_Page_072": null,
+            "NYYM_minutes_Page_082": null,
+            "NYYM_minutes_Page_088": null,
+            "NYYM_minutes_Page_092": null,
+            "NYYM_minutes_Page_099": null,
+            "NYYM_minutes_Page_102": null,
+            "NYYM_minutes_Page_106": null,
+            "NYYM_minutes_Page_107": null,
+            "NYYM_minutes_Page_108": null,
+            "NYYM_minutes_Page_109": null,
+            "NYYM_minutes_Page_111": null,
+            "NYYM_minutes_Page_114": null,
+            "NYYM_minutes_Page_117": null,
+            "NYYM_minutes_Page_121": null,
+            "NYYM_minutes_Page_124": null,
+            "NYYM_minutes_Page_140": null,
+            "NYYM_minutes_Page_141": null,
+            "NYYM_minutes_Page_148": null,
+            "NYYM_minutes_Page_152": null,
+            "NYYM_minutes_Page_155": null,
+            "NYYM_minutes_Page_156": null,
+            "NYYM_minutes_Page_161": null,
+            "NYYM_minutes_Page_162": null,
+            "NYYM_minutes_Page_163": null,
+            "NYYM_minutes_Page_168": null
+        },
+        "swarthmore/SW_NYYM_reports.xml": {
+            "title": "Reports of the Indian Committee to New York Yearly Meeting, 1795-1806",
+            "SW_NYYM_reports_Page_005": null,
+            "SW_NYYM_reports_Page_013": null,
+            "SW_NYYM_reports_Page_020": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_006": null,
+            "NYYM_scrapbook_020": null,
+            "NYYM_scrapbook_035": null,
+            "NYYM_scrapbook_036": null,
+            "NYYM_scrapbook_043": null,
+            "NYYM_scrapbook_044": null,
+            "NYYM_scrapbook_045": null,
+            "NYYM_scrapbook_068": null,
+            "NYYM_scrapbook_072": null,
+            "NYYM_scrapbook_085": null,
+            "NYYM_scrapbook_086": null,
+            "NYYM_scrapbook_091": null,
+            "NYYM_scrapbook_093": null,
+            "NYYM_scrapbook_097": null,
+            "NYYM_scrapbook_099": null,
+            "NYYM_scrapbook_133": null,
+            "NYYM_scrapbook_198": null,
+            "NYYM_scrapbook_199": null,
+            "NYYM_scrapbook_202": null,
+            "NYYM_scrapbook_214": null
+        },
+        "swarthmore/SW_Ripley.xml": {
+            "title": "The Bank of Faith and Works United",
+            "Ripley110": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_094": null,
+            "SW_WH1793_Page_108": null,
+            "SW_WH1793_Page_112": null,
+            "SW_WH1793_Page_115": null,
+            "SW_WH1793_Page_137": null,
+            "SW_WH1793_Page_242": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_16": null,
+            "SW_WH1793_Page_49": null,
+            "SW_WH1793_Page_78": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_033": null
+        },
+        "haverford/hv_coatesi_account_1798.xml": {
+            "title": "Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY",
+            "hv_coatesi_account_1798_091": null,
+            "hv_coatesi_account_1798_093": null,
+            "hv_coatesi_account_1798_105": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_003": null,
+            "hv_sansomj_letters_1796_019": null,
+            "hv_sansomj_letters_1796_025": null,
+            "hv_sansomj_letters_1796_028": null,
+            "hv_sansomj_letters_1796_032": null,
+            "hv_sansomj_letters_1796_041": null
+        }
+    },
+    "lym": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_249": null
+        },
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_137": null,
+            "SW_GH1804_138": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_238": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_185": null,
+            "SW_WH1793_Page_337": null
+        }
+    },
+    "nyym": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_249": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_010": null
+        }
+    },
+    "choctaw": {
+        "swarthmore/SW_BYM_minutes.xml": {
+            "title": "Baltimore Yearly Meeting Indian Committee Minutes, 1795-1815",
+            "BYM_Page_259": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_082": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_143": null,
+            "NYYM_scrapbook_195": null,
+            "NYYM_scrapbook_209": null,
+            "NYYM_scrapbook_210": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_292": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null
+        }
+    },
+    "ridge": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_007": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_17": null
+        }
+    },
+    "redst": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_013": null,
+            "SW_GH1804_014": null,
+            "SW_GH1804_021": null
+        }
+    },
+    "short": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_021": null
+        }
+    },
+    "miamm": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_035": null
+        }
+    },
+    "lowcan": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_106": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        }
+    },
+    "tuscarora": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_114": null,
+            "SW_GH1804_124": null,
+            "SW_GH1804_148": null
+        },
+        "swarthmore/SW_HJ1830.xml": {
+            "title": "Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800",
+            "SW_HJ1830_002": null
+        },
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_002": null,
+            "SW_JC1796_012": null,
+            "SW_JC1796_013": null,
+            "SW_JC1796_022": null,
+            "http://www.swarthmore.edu/library/friends/TEI/Cooper_James_1796/SW_JC1796/SW_JC1796_024.jpg": null
+        },
+        "swarthmore/SW_JC1797.xml": {
+            "title": "Joseph Clark's Account of a Journey to the Indian Country, 1797",
+            "SW_JC1797_Page_02": null,
+            "SW_JC1797_Page_03": null,
+            "SW_JC1797_Page_04": null,
+            "SW_JC1797_Page_07": null
+        },
+        "swarthmore/SW_JC1801.xml": {
+            "title": "Joseph Clark's Of a second Visit to the Indian Country, 1801",
+            "SW_JC1801_Page_4": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_51": null,
+            "SW_JE1796E_Page_53": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_046": null,
+            "SW_JP1796_060": null,
+            "SW_JP1796_067": null,
+            "SW_JP1796_068": null,
+            "SW_JP1796_075": null,
+            "SW_JP1796_085": null,
+            "SW_JP1796_110": null,
+            "SW_JP1796_119": null,
+            "SW_JP1796_130": null,
+            "SW_JP1796_131": null,
+            "SW_JP1796_146": null,
+            "SW_JP1796_156": null,
+            "SW_JP1796_166": null,
+            "SW_JP1796_189": null,
+            "SW_JP1796_196": null,
+            "SW_JP1796_198": null
+        },
+        "swarthmore/SW_JS1798.xml": {
+            "title": "Joshua Sharpless's Journal Into Indian Country, 1798",
+            "SW_JS1798_145": null
+        },
+        "swarthmore/SW_JT1798.xml": {
+            "title": "Jonathan Thomas His Book 1798",
+            "SW_JT1798_004": null,
+            "SW_JT1798_005": null,
+            "SW_JT1798_009": null,
+            "SW_JT1798_010": null,
+            "SW_JT1798_017": null
+        },
+        "swarthmore/SW_Letters_179-_MM_DD.xml": {
+            "title": "The Committee Appointed to Confer With the Friends who Attended the Indian Treaty",
+            "SW_Letters_179-_MM_DD_Page_1": null
+        },
+        "swarthmore/SW_Letters_1794_00_00.xml": {
+            "title": "Letter to the Quarterly Meeting of Friends at Hopewell",
+            "Misc_mss_1794_00_00002": null
+        },
+        "swarthmore/SW_Letters_1794_12_20.xml": {
+            "title": "Account of Canandaigua Treaty Negotiations",
+            "SW_Letters_1794_12_20_Page_2": null
+        },
+        "swarthmore/SW_Letters_1801_10a.xml": {
+            "title": "Copy of a manuscript respecting the American Indians (A)",
+            "SW_Letters_1801_10a_Page_08": null
+        },
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_038": null
+        },
+        "swarthmore/SW_NYYM_reports.xml": {
+            "title": "Reports of the Indian Committee to New York Yearly Meeting, 1795-1806",
+            "SW_NYYM_reports_Page_005": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_128": null,
+            "NYYM_scrapbook_169": null
+        },
+        "swarthmore/SW_Ripley.xml": {
+            "title": "The Bank of Faith and Works United",
+            "Ripley080": null,
+            "Ripley082": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_098": null,
+            "SW_WH1793_Page_108": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_14": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_027": null,
+            "hv_allinsonw_diary_1809_v1_041": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v3.xml": {
+            "title": "William Allinson Diary, Volume 3",
+            "hv_allinsonw_diary_1809_v3_013": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_015": null,
+            "hv_bacond_account_1794_019": null,
+            "hv_bacond_account_1794_030": null,
+            "hv_bacond_account_1794_031": null,
+            "hv_bacond_account_1794_032": null,
+            "hv_bacond_account_1794_033": null,
+            "hv_bacond_account_1794_035": null,
+            "hv_bacond_account_1794_045": null
+        },
+        "haverford/hv_coatesi_account_1798.xml": {
+            "title": "Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY",
+            "hv_coatesi_account_1798_091": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_003": null,
+            "hv_sansomj_letters_1796_023": null,
+            "hv_sansomj_letters_1796_025": null,
+            "hv_sansomj_letters_1796_032": null,
+            "hv_sansomj_letters_1796_036": null
+        }
+    },
+    "hollco": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_114": null
+        },
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_25": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_077": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_148": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_241": null,
+            "SW_WH1793_Page_255": null,
+            "SW_WH1793_Page_256": null
+        },
+        "haverford/hv_coatesi_account_1798.xml": {
+            "title": "Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY",
+            "hv_coatesi_account_1798_017": null,
+            "hv_coatesi_account_1798_019": null,
+            "hv_coatesi_account_1798_022": null,
+            "hv_coatesi_account_1798_042": null
+        }
+    },
+    "powh": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_121": null,
+            "SW_GH1804_122": null,
+            "SW_GH1804_124": null
+        }
+    },
+    "manah": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_121": null,
+            "SW_GH1804_124": null
+        }
+    },
+    "monac": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_121": null,
+            "SW_GH1804_124": null,
+            "SW_GH1804_129": null
+        }
+    },
+    "massaw": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_123": null,
+            "SW_GH1804_124": null,
+            "SW_GH1804_128": null
+        }
+    },
+    "chickah": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_124": null
+        }
+    },
+    "pamun": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_124": null
+        }
+    },
+    "matta": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_124": null
+        }
+    },
+    "erigas": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_124": null
+        }
+    },
+    "chili": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_127": null,
+            "SW_GH1804_129": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_203": null
+        }
+    },
+    "mingo": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_128": null,
+            "SW_GH1804_129": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_135": null
+        }
+    },
+    "onondaga": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_128": null
+        },
+        "swarthmore/SW_HJ1830.xml": {
+            "title": "Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800",
+            "SW_HJ1830_002": null
+        },
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_002": null,
+            "SW_JC1796_035": null,
+            "SW_JC1796_036": null,
+            "SW_JC1796_040": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_54": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_074": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_014": null,
+            "SW_JP1796_165": null,
+            "SW_JP1796_207": null,
+            "SW_JP1796_227": null,
+            "SW_JP1796_246": null
+        },
+        "swarthmore/SW_JS1798.xml": {
+            "title": "Joshua Sharpless's Journal Into Indian Country, 1798",
+            "SW_JS1798_142": null
+        },
+        "swarthmore/SW_JT1798.xml": {
+            "title": "Jonathan Thomas His Book 1798",
+            "SW_JT1798_017": null
+        },
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_049": null,
+            "NYYM_minutes_Page_051": null,
+            "NYYM_minutes_Page_052": null,
+            "NYYM_minutes_Page_067": null,
+            "NYYM_minutes_Page_078": null,
+            "NYYM_minutes_Page_082": null,
+            "NYYM_minutes_Page_083": null,
+            "NYYM_minutes_Page_087": null,
+            "NYYM_minutes_Page_088": null,
+            "NYYM_minutes_Page_090": null,
+            "NYYM_minutes_Page_093": null,
+            "NYYM_minutes_Page_097": null,
+            "NYYM_minutes_Page_101": null,
+            "NYYM_minutes_Page_105": null,
+            "NYYM_minutes_Page_106": null,
+            "NYYM_minutes_Page_107": null,
+            "NYYM_minutes_Page_110": null,
+            "NYYM_minutes_Page_111": null,
+            "NYYM_minutes_Page_114": null,
+            "NYYM_minutes_Page_119": null,
+            "NYYM_minutes_Page_122": null,
+            "NYYM_minutes_Page_123": null,
+            "NYYM_minutes_Page_125": null,
+            "NYYM_minutes_Page_126": null,
+            "NYYM_minutes_Page_127": null,
+            "NYYM_minutes_Page_130": null,
+            "NYYM_minutes_Page_138": null,
+            "NYYM_minutes_Page_140": null,
+            "NYYM_minutes_Page_142": null,
+            "NYYM_minutes_Page_147": null,
+            "NYYM_minutes_Page_156": null,
+            "NYYM_minutes_Page_162": null,
+            "NYYM_minutes_Page_163": null,
+            "NYYM_minutes_Page_169": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_007": null,
+            "NYYM_scrapbook_009": null,
+            "NYYM_scrapbook_010": null,
+            "NYYM_scrapbook_011": null,
+            "NYYM_scrapbook_012": null,
+            "NYYM_scrapbook_015": null,
+            "NYYM_scrapbook_017": null,
+            "NYYM_scrapbook_018": null,
+            "NYYM_scrapbook_019": null,
+            "NYYM_scrapbook_027": null,
+            "NYYM_scrapbook_036": null,
+            "NYYM_scrapbook_038": null,
+            "NYYM_scrapbook_048": null,
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_056": null,
+            "NYYM_scrapbook_062": null,
+            "NYYM_scrapbook_068": null,
+            "NYYM_scrapbook_072": null,
+            "NYYM_scrapbook_081": null,
+            "NYYM_scrapbook_082": null,
+            "NYYM_scrapbook_084": null,
+            "NYYM_scrapbook_093": null,
+            "NYYM_scrapbook_097": null,
+            "NYYM_scrapbook_101": null,
+            "NYYM_scrapbook_102": null,
+            "NYYM_scrapbook_123": null,
+            "NYYM_scrapbook_125": null,
+            "NYYM_scrapbook_128": null,
+            "NYYM_scrapbook_165": null,
+            "NYYM_scrapbook_166": null,
+            "NYYM_scrapbook_168": null,
+            "NYYM_scrapbook_179": null,
+            "NYYM_scrapbook_184": null
+        },
+        "swarthmore/SW_NYYM_Subscriptions.xml": {
+            "title": "Subscriptions from Shrewsbury Monthly Meeting for Promoting the Civilization and Well-Being of the Indian Natives",
+            "SW_NYYMsubscriptions_Page_008": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_094": null,
+            "SW_WH1793_Page_291": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_82": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_027": null,
+            "hv_allinsonw_diary_1809_v1_041": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_033": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_003": null,
+            "hv_sansomj_letters_1796_034": null
+        },
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_082": null
+        }
+    },
+    "cayugaind": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_128": null
+        },
+        "swarthmore/SW_HJ1830.xml": {
+            "title": "Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800",
+            "SW_HJ1830_002": null
+        },
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_036": null,
+            "SW_JC1796_037": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_091": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_014": null,
+            "SW_JP1796_165": null,
+            "SW_JP1796_189": null,
+            "SW_JP1796_220": null,
+            "SW_JP1796_221": null,
+            "SW_JP1796_246": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_123": null,
+            "NYYM_scrapbook_128": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_033": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_003": null,
+            "hv_sansomj_letters_1796_034": null,
+            "hv_sansomj_letters_1796_042": null
+        }
+    },
+    "piscaind": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_129": null
+        }
+    },
+    "mohawk": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_129": null
+        },
+        "swarthmore/SW_HJ1830.xml": {
+            "title": "Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800",
+            "SW_HJ1830_002": null
+        },
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_33": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null
+        },
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_165": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_047": null,
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_054": null,
+            "NYYM_scrapbook_060": null,
+            "NYYM_scrapbook_206": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_41": null,
+            "SW_WH1793_Page_48": null,
+            "SW_WH1793_Page_49": null,
+            "SW_WH1793_Page_82": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_041": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_030": null,
+            "hv_bacond_account_1794_033": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_019": null
+        }
+    },
+    "aberm": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_137": null
+        }
+    },
+    "wym": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_138": null
+        }
+    },
+    "bms": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_138": null,
+            "SW_GH1804_145": null,
+            "SW_GH1804_176": null,
+            "SW_GH1804_177": null
+        }
+    },
+    "pymind": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_139": null,
+            "SW_GH1804_140": null,
+            "SW_GH1804_149": null,
+            "SW_GH1804_151": null,
+            "SW_GH1804_182": null
+        },
+        "swarthmore/SW_HJ1798.xml": {
+            "title": "Halliday Jackson's Book [of Corrrespondence], Genesinguhta, 1798-1800",
+            "SW_HJ1798_016": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_26": null,
+            "SW_JE1796E_Page_32": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_234": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_094": null,
+            "SW_WH1793_Page_279": null
+        },
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_073": null,
+            "hv_swaynej_diary_1798_082": null
+        }
+    },
+    "oym": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_183": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_116": null,
+            "NYYM_scrapbook_119": null,
+            "NYYM_scrapbook_127": null,
+            "NYYM_scrapbook_134": null,
+            "NYYM_scrapbook_137": null,
+            "NYYM_scrapbook_143": null,
+            "NYYM_scrapbook_163": null,
+            "NYYM_scrapbook_190": null,
+            "NYYM_scrapbook_196": null,
+            "NYYM_scrapbook_216": null
+        }
+    },
+    "oymindian": {
+        "swarthmore/SW_GH1804.xml": {
+            "title": "A Mission to the Indians from the Indian Committee of Baltimore Yearly Meeting to Fort Wayne, in 1804",
+            "SW_GH1804_183": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_131": null,
+            "NYYM_scrapbook_133": null,
+            "NYYM_scrapbook_135": null
+        }
+    },
+    "allegany": {
+        "swarthmore/SW_HJ1806.xml": {
+            "title": "Halliday Jackson's Journal, 1806",
+            "SW_HJ1806_Page_047": null,
+            "SW_HJ1806_Page_054": null,
+            "SW_HJ1806_Page_062": null,
+            "SW_HJ1806_Page_063": null,
+            "SW_HJ1806_Page_068": null,
+            "SW_HJ1806_Page_069": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_169": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_291": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v2.xml": {
+            "title": "William Allinson Diary, Volume 2",
+            "hv_allinsonw_diary_1809_v2_050": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v3.xml": {
+            "title": "William Allinson Diary, Volume 3",
+            "hv_allinsonw_diary_1809_v3_009": null
+        },
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_074": null
+        }
+    },
+    "Six Nations": {
+        "swarthmore/SW_HJ1830.xml": {
+            "title": "Sketch of the Customs, Religion and Government of the Seneca Indians, in 1800",
+            "SW_HJ1830_003": null,
+            "SW_HJ1830_004": null,
+            "SW_HJ1830_006": null,
+            "SW_HJ1830_007": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_152": null,
+            "SW_JP1796_211": null,
+            "SW_JP1796_214": null,
+            "SW_JP1796_226": null,
+            "SW_JP1796_238": null,
+            "SW_JP1796_244": null,
+            "SW_JP1796_245": null,
+            "SW_JP1796_246": null
+        }
+    },
+    "warringqm": {
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_01": null
+        }
+    },
+    "meetreds": {
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_03": null
+        }
+    },
+    "meetshort": {
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_11": null
+        }
+    },
+    "meetpelh": {
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_13": null,
+            "SW_IC1799_Page_34": null
+        }
+    },
+    "muncym": {
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_18": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_56": null,
+            "SW_JE1796E_Page_57": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_156": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_171": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_012": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_028": null,
+            "hv_bacond_account_1794_039": null
+        }
+    },
+    "meetcat": {
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_18": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_57": null,
+            "SW_JE1796E_Page_58": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_173": null
+        }
+    },
+    "meetread": {
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_18": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_59": null
+        }
+    },
+    "meetfarmi": {
+        "swarthmore/SW_IC1799.xml": {
+            "title": "Isaac Coates Journal of Journeys to the Indian Country",
+            "SW_IC1799_Page_35": null
+        }
+    },
+    "brotherton": {
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_002": null,
+            "SW_JC1796_012": null,
+            "SW_JC1796_014": null,
+            "SW_JC1796_018.jpg": null,
+            "SW_JC1796_021": null
+        },
+        "swarthmore/SW_JC1797.xml": {
+            "title": "Joseph Clark's Account of a Journey to the Indian Country, 1797",
+            "SW_JC1797_Page_06": null
+        },
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_025": null,
+            "SW_JP1796_054": null,
+            "SW_JP1796_090": null,
+            "SW_JP1796_096": null,
+            "SW_JP1796_098": null,
+            "SW_JP1796_102": null,
+            "SW_JP1796_110": null,
+            "SW_JP1796_146": null,
+            "SW_JP1796_148": null,
+            "SW_JP1796_150": null,
+            "SW_JP1796_158": null
+        },
+        "swarthmore/SW_Letters_1801_10a.xml": {
+            "title": "Copy of a manuscript respecting the American Indians (A)",
+            "SW_Letters_1801_10a_Page_07": null
+        },
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_004": null,
+            "NYYM_minutes_Page_022": null,
+            "NYYM_minutes_Page_023": null,
+            "NYYM_minutes_Page_025": null,
+            "NYYM_minutes_Page_028": null,
+            "NYYM_minutes_Page_043": null,
+            "NYYM_minutes_Page_062": null,
+            "NYYM_minutes_Page_066": null,
+            "NYYM_minutes_Page_082": null,
+            "NYYM_minutes_Page_088": null,
+            "NYYM_minutes_Page_107": null,
+            "NYYM_minutes_Page_115": null,
+            "NYYM_minutes_Page_121": null,
+            "NYYM_minutes_Page_124": null,
+            "NYYM_minutes_Page_135": null
+        },
+        "swarthmore/SW_NYYM_reports.xml": {
+            "title": "Reports of the Indian Committee to New York Yearly Meeting, 1795-1806",
+            "SW_NYYM_reports_Page_005": null,
+            "SW_NYYM_reports_Page_020": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_020": null,
+            "NYYM_scrapbook_033": null,
+            "NYYM_scrapbook_036": null,
+            "NYYM_scrapbook_041": null,
+            "NYYM_scrapbook_043": null,
+            "NYYM_scrapbook_059": null,
+            "NYYM_scrapbook_086": null,
+            "NYYM_scrapbook_093": null,
+            "NYYM_scrapbook_097": null,
+            "NYYM_scrapbook_214": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_094": null,
+            "SW_WH1793_Page_105": null,
+            "SW_WH1793_Page_259": null,
+            "SW_WH1793_Page_260": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_003": null,
+            "hv_sansomj_letters_1796_017": null,
+            "hv_sansomj_letters_1796_025": null,
+            "hv_sansomj_letters_1796_032": null,
+            "hv_sansomj_letters_1796_036": null
+        }
+    },
+    "cayuga": {
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_002": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_54": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_116": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_041": null
+        }
+    },
+    "presby": {
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_019": null,
+            "SW_JC1796_022": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_16": null,
+            "SW_JE1796E_Page_42": null
+        },
+        "swarthmore/SW_Letters_1801_10a.xml": {
+            "title": "Copy of a manuscript respecting the American Indians (A)",
+            "SW_Letters_1801_10a_Page_01": null
+        },
+        "swarthmore/SW_NYYM_Man.xml": {
+            "title": "Account of the Exercise and Experience of an Indian Man",
+            "SW_NYYM_Man_Page_001": null
+        },
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_069": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_134": null,
+            "NYYM_scrapbook_167": null,
+            "NYYM_scrapbook_169": null,
+            "NYYM_scrapbook_170": null,
+            "NYYM_scrapbook_174": null,
+            "NYYM_scrapbook_205": null,
+            "NYYM_scrapbook_207": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_008": null
+        }
+    },
+    "bapt": {
+        "swarthmore/SW_JC1796.xml": {
+            "title": "Journal of a Visit to the Seneca Indians, 1796, by James Cooper of Woodbury, N.J.",
+            "SW_JC1796_021": null,
+            "SW_JC1796_022": null
+        },
+        "swarthmore/SW_JC1797.xml": {
+            "title": "Joseph Clark's Account of a Journey to the Indian Country, 1797",
+            "SW_JC1797_Page_07": null
+        },
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_01": null,
+            "SW_JE1796E_Page_06": null,
+            "SW_JE1796E_Page_07": null,
+            "SW_JE1796E_Page_19": null,
+            "SW_JE1796E_Page_46": null,
+            "SW_JE1796E_Page_77": null
+        },
+        "swarthmore/SW_Letters_1793_03_20.xml": {
+            "title": "Letter to Friends from David Fowler",
+            "SW_Letters_1793_03_20_Page_2": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_116": null,
+            "NYYM_scrapbook_171": null,
+            "NYYM_scrapbook_174": null,
+            "NYYM_scrapbook_196": null,
+            "NYYM_scrapbook_200": null,
+            "NYYM_scrapbook_201": null,
+            "NYYM_scrapbook_204": null,
+            "NYYM_scrapbook_207": null,
+            "NYYM_scrapbook_208": null
+        }
+    },
+    "congress": {
+        "swarthmore/SW_JC1797.xml": {
+            "title": "Joseph Clark's Account of a Journey to the Indian Country, 1797",
+            "SW_JC1797_Page_05": null
+        }
+    },
+    "creek": {
+        "swarthmore/SW_JC1797.xml": {
+            "title": "Joseph Clark's Account of a Journey to the Indian Country, 1797",
+            "SW_JC1797_Page_08": null
+        },
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null,
+            "SW_JL1793_Page_122": null,
+            "SW_JL1793_Page_127": null,
+            "SW_JL1793_Page_146": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Letters_1801_10a.xml": {
+            "title": "Copy of a manuscript respecting the American Indians (A)",
+            "SW_Letters_1801_10a_Page_01": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_209": null,
+            "NYYM_scrapbook_210": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null
+        }
+    },
+    "9partqm": {
+        "swarthmore/SW_JC1801.xml": {
+            "title": "Joseph Clark's Of a second Visit to the Indian Country, 1801",
+            "SW_JC1801_Page_7": null
+        }
+    },
+    "nyymindian": {
+        "swarthmore/SW_JC1801.xml": {
+            "title": "Joseph Clark's Of a second Visit to the Indian Country, 1801",
+            "SW_JC1801_Page_7": null
+        }
+    },
+    "meetrand": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_01": null
+        }
+    },
+    "meetnb": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_02": null
+        }
+    },
+    "meetbeav": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_03": null
+        }
+    },
+    "meetpenob": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_04": null
+        }
+    },
+    "meetduck": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_05": null
+        }
+    },
+    "cammeet": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_05": null
+        }
+    },
+    "meetfalm": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_05": null
+        }
+    },
+    "meetcoho": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_06": null
+        }
+    },
+    "meetsharo": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_06": null
+        }
+    },
+    "meetdanby": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_06": null,
+            "SW_JE1796E_Page_07": null,
+            "SW_JE1796E_Page_08": null
+        }
+    },
+    "meetsara": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_08": null
+        }
+    },
+    "sarat": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_08": null
+        }
+    },
+    "eastmeet": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_08": null
+        }
+    },
+    "meetwcree": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_08": null
+        }
+    },
+    "meetpitt": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_08": null
+        }
+    },
+    "meetcoey": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_09": null
+        }
+    },
+    "meetkline": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_09": null
+        }
+    },
+    "meetnewb": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_09": null
+        }
+    },
+    "meetsteph": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_09": null
+        }
+    },
+    "meethoosi": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_12": null,
+            "SW_JE1796E_Page_13": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_005": null
+        }
+    },
+    "meettyrin": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_13": null
+        }
+    },
+    "meetgosh": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_13": null,
+            "SW_JE1796E_Page_21": null
+        }
+    },
+    "meetwbran": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_13": null,
+            "SW_JE1796E_Page_21": null,
+            "SW_JE1796E_Page_70": null,
+            "SW_JE1796E_Page_73": null
+        }
+    },
+    "meetnewmi": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_13": null,
+            "SW_JE1796E_Page_14": null
+        }
+    },
+    "meetvall": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_14": null
+        }
+    },
+    "meetpeach": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_14": null
+        }
+    },
+    "meetoblon": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_14": null,
+            "SW_JE1796E_Page_17": null,
+            "SW_JE1796E_Page_21": null
+        }
+    },
+    "meetnp": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_14": null,
+            "SW_JE1796E_Page_15": null,
+            "SW_JE1796E_Page_17": null,
+            "SW_JE1796E_Page_18": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_123": null,
+            "SW_Sutcliff_Page_125": null
+        }
+    },
+    "meetcreek": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_15": null,
+            "SW_JE1796E_Page_16": null,
+            "SW_JE1796E_Page_42": null
+        }
+    },
+    "meetlnine": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_15": null
+        }
+    },
+    "meetosweg": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_16": null,
+            "SW_JE1796E_Page_41": null
+        }
+    },
+    "meetapoqu": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_16": null
+        }
+    },
+    "meetehart": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_19": null
+        }
+    },
+    "meethartf": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_20": null
+        }
+    },
+    "amamm": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_22": null
+        }
+    },
+    "meetcoleb": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_22": null
+        }
+    },
+    "meetcm": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_22": null
+        }
+    },
+    "meetny": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_22": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_090": null,
+            "SW_Sutcliff_Page_281": null
+        }
+    },
+    "haddoqm": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_23": null,
+            "SW_JE1796E_Page_24": null,
+            "SW_JE1796E_Page_29": null,
+            "SW_JE1796E_Page_32": null,
+            "SW_JE1796E_Page_68": null
+        }
+    },
+    "meetevesh": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_24": null,
+            "SW_JE1796E_Page_29": null,
+            "SW_JE1796E_Page_66": null
+        }
+    },
+    "meetpiles": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_25": null,
+            "SW_JE1796E_Page_32": null,
+            "SW_JE1796E_Page_34": null
+        }
+    },
+    "salempm": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_25": null,
+            "SW_JE1796E_Page_34": null
+        }
+    },
+    "meethaddo": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_26": null,
+            "SW_JE1796E_Page_27": null,
+            "SW_JE1796E_Page_29": null,
+            "SW_JE1796E_Page_30": null,
+            "SW_JE1796E_Page_31": null,
+            "SW_JE1796E_Page_33": null,
+            "SW_JE1796E_Page_35": null,
+            "SW_JE1796E_Page_64": null,
+            "SW_JE1796E_Page_67": null
+        }
+    },
+    "meetwoodb": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_27": null,
+            "SW_JE1796E_Page_35": null
+        }
+    },
+    "meetburl": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_28": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_038": null,
+            "SW_Sutcliff_Page_079": null
+        }
+    },
+    "meetchesf": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_28": null
+        }
+    },
+    "meetsprin": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_28": null
+        }
+    },
+    "mthomeet": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_28": null,
+            "SW_JE1796E_Page_66": null
+        }
+    },
+    "metho": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_29": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_116": null,
+            "NYYM_scrapbook_166": null,
+            "NYYM_scrapbook_174": null,
+            "NYYM_scrapbook_196": null,
+            "NYYM_scrapbook_197": null,
+            "NYYM_scrapbook_198": null,
+            "NYYM_scrapbook_200": null,
+            "NYYM_scrapbook_201": null,
+            "NYYM_scrapbook_202": null,
+            "NYYM_scrapbook_207": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_107": null
+        }
+    },
+    "meetnewto": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_29": null,
+            "SW_JE1796E_Page_33": null
+        }
+    },
+    "meetmoore": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_30": null
+        }
+    },
+    "meetueves": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_30": null
+        }
+    },
+    "checkPlace": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_32": null,
+            "SW_JE1796E_Page_61": null
+        }
+    },
+    "meetgreew": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_35": null
+        }
+    },
+    "meetbord": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_36": null
+        }
+    },
+    "meettrent": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_36": null
+        }
+    },
+    "meetrahwa": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_37": null
+        }
+    },
+    "nym": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_37": null,
+            "SW_JE1796E_Page_38": null,
+            "SW_JE1796E_Page_40": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_003": null,
+            "NYYM_scrapbook_005": null,
+            "NYYM_scrapbook_007": null,
+            "NYYM_scrapbook_011": null,
+            "NYYM_scrapbook_012": null,
+            "NYYM_scrapbook_020": null,
+            "NYYM_scrapbook_026": null,
+            "NYYM_scrapbook_060": null,
+            "NYYM_scrapbook_099": null,
+            "NYYM_scrapbook_104": null,
+            "NYYM_scrapbook_117": null,
+            "NYYM_scrapbook_120": null,
+            "NYYM_scrapbook_133": null,
+            "NYYM_scrapbook_135": null,
+            "NYYM_scrapbook_139": null,
+            "NYYM_scrapbook_140": null,
+            "NYYM_scrapbook_141": null,
+            "NYYM_scrapbook_146": null,
+            "NYYM_scrapbook_147": null,
+            "NYYM_scrapbook_148": null,
+            "NYYM_scrapbook_150": null,
+            "NYYM_scrapbook_151": null,
+            "NYYM_scrapbook_152": null,
+            "NYYM_scrapbook_155": null,
+            "NYYM_scrapbook_160": null,
+            "NYYM_scrapbook_163": null,
+            "NYYM_scrapbook_173": null,
+            "NYYM_scrapbook_180": null,
+            "NYYM_scrapbook_190": null,
+            "NYYM_scrapbook_213": null,
+            "NYYM_scrapbook_216": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_090": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_137": null,
+            "SW_WH1793_Page_170": null,
+            "SW_WH1793_Page_279": null,
+            "SW_WH1793_Page_336": null
+        }
+    },
+    "meetghall": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_43": null,
+            "SW_JE1796E_Page_44": null
+        }
+    },
+    "meetchena": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_44": null
+        }
+    },
+    "meetgenes": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_55": null
+        }
+    },
+    "meetbloom": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_56": null
+        }
+    },
+    "meetfishi": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_57": null
+        },
+        "swarthmore/SW_JS1797.xml": {
+            "title": "Joshua Sharpless' Journal [Visit to Upper Canada and Parts Adjacent], 1797",
+            "SW_JS1797_Page_69": null
+        }
+    },
+    "meetberwi": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_57": null
+        }
+    },
+    "meetroar": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_58": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_173": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_010": null
+        }
+    },
+    "maidem": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_59": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_007": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v3.xml": {
+            "title": "William Allinson Diary, Volume 3",
+            "hv_allinsonw_diary_1809_v3_032": null
+        }
+    },
+    "meetexete": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_59": null
+        }
+    },
+    "meetpottt": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_60": null
+        }
+    },
+    "meetplums": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_60": null
+        }
+    },
+    "meetbucki": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_60": null,
+            "SW_JE1796E_Page_61": null
+        }
+    },
+    "buckqm": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_61": null,
+            "SW_JE1796E_Page_63": null
+        }
+    },
+    "meetwrigt": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_62": null
+        }
+    },
+    "meetmakef": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_62": null
+        }
+    },
+    "meetmiddl": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_62": null
+        }
+    },
+    "fallmm": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_63": null
+        }
+    },
+    "meetelkri": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_69": null
+        }
+    },
+    "meetalex": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_69": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_045": null,
+            "SW_Sutcliff_Page_049": null,
+            "SW_Sutcliff_Page_098": null
+        }
+    },
+    "meetroano": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_69": null
+        }
+    },
+    "meetburle": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_70": null
+        }
+    },
+    "meetblack": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_70": null
+        }
+    },
+    "meetseaco": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_70": null
+        }
+    },
+    "meetlittle": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_70": null,
+            "SW_JE1796E_Page_76": null
+        }
+    },
+    "ncym": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_70": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_120": null
+        }
+    },
+    "meetnewbe": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_71": null
+        }
+    },
+    "meetnarro": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_71": null
+        }
+    },
+    "meetsymon": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_71": null
+        }
+    },
+    "meetsutto": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_72": null
+        }
+    },
+    "meetbeach": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_72": null
+        }
+    },
+    "meetpiney": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_72": null,
+            "SW_JE1796E_Page_76": null
+        }
+    },
+    "meetsomer": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_73": null
+        }
+    },
+    "meetbenne": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_74": null
+        }
+    },
+    "meetsbran": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_74": null
+        }
+    },
+    "meetoldn": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_77": null
+        }
+    },
+    "meetrichs": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_77": null
+        }
+    },
+    "meetjacks": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_77": null
+        }
+    },
+    "ncgen": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_77": null
+        }
+    },
+    "meetcores": {
+        "swarthmore/SW_JE1796E.xml": {
+            "title": "Journal of Joshua Evans 1795-1796 (E)",
+            "SW_JE1796E_Page_80": null
+        }
+    },
+    "mohegan": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_050": null
+        }
+    },
+    "chick": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_082": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_210": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null
+        }
+    },
+    "cherokee": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_082": null,
+            "SW_JL1793_Page_122": null,
+            "SW_JL1793_Page_127": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Letters_1792_02_11.xml": {
+            "title": "Letter from Tobias Lear to Quakers",
+            "SW_Letters_1792_02_11_Page_1": null
+        },
+        "swarthmore/SW_Letters_1792_02_19.xml": {
+            "title": "Letter to the Cherokee Nation from Philadelphia Yearly Meeting",
+            "SW_Letters_1792_02_19_Page_1": null,
+            "SW_Letters_1792_02_19_Page_2": null,
+            "SW_Letters_1792_02_19_Page_4": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_120": null,
+            "NYYM_scrapbook_138": null,
+            "NYYM_scrapbook_139": null,
+            "NYYM_scrapbook_143": null,
+            "NYYM_scrapbook_206": null,
+            "NYYM_scrapbook_207": null,
+            "NYYM_scrapbook_208": null,
+            "NYYM_scrapbook_209": null,
+            "NYYM_scrapbook_210": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_112": null,
+            "SW_WH1793_Page_290": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null
+        },
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_045": null
+        }
+    },
+    "pawnee": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null,
+            "SW_JL1793_Page_119": null,
+            "SW_JL1793_Page_143": null
+        },
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_39": null,
+            "SW_WH1793_Page_77": null
+        }
+    },
+    "kansas": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_202": null
+        }
+    },
+    "osage": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_205": null,
+            "NYYM_scrapbook_206": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "Moraind": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_083": null
+        }
+    },
+    "sacks": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_158": null,
+            "NYYM_scrapbook_194": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "folle": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null
+        }
+    },
+    "winne": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_156": null,
+            "NYYM_scrapbook_158": null,
+            "NYYM_scrapbook_191": null,
+            "NYYM_scrapbook_192": null,
+            "NYYM_scrapbook_194": null,
+            "NYYM_scrapbook_195": null,
+            "NYYM_scrapbook_206": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_112": null
+        }
+    },
+    "ottawa": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null,
+            "SW_JL1793_Page_135": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_37": null,
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "algonquin": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_084": null
+        },
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "Wyandot": {
+        "swarthmore/SW_JL1793.xml": {
+            "title": "Jacob Lindley's Account, 1793",
+            "SW_JL1793_Page_090": null
+        }
+    },
+    "pymsufferings": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "SW_JL1793_Page_156": null
+        },
+        "swarthmore/SW_Letters_1794_12_20.xml": {
+            "title": "Account of Canandaigua Treaty Negotiations",
+            "SW_Letters_1794_12_20_Page_1": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_286": null
+        }
+    },
+    "Mohawk": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        }
+    },
+    "chip": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        }
+    },
+    "catholic": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_047": null,
+            "NYYM_scrapbook_205": null
+        }
+    },
+    "dunkers": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_175": null,
+            "SW_Sutcliff_Page_245": null
+        }
+    },
+    "brit": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_076": null,
+            "NYYM_scrapbook_077": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_174": null
+        }
+    },
+    "chippewa": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        }
+    },
+    "usag": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_035": null,
+            "NYYM_scrapbook_047": null,
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_054": null,
+            "NYYM_scrapbook_055": null,
+            "NYYM_scrapbook_076": null,
+            "NYYM_scrapbook_078": null,
+            "NYYM_scrapbook_086": null,
+            "NYYM_scrapbook_087b": null,
+            "NYYM_scrapbook_100": null,
+            "NYYM_scrapbook_107": null,
+            "NYYM_scrapbook_109": null,
+            "NYYM_scrapbook_110": null,
+            "NYYM_scrapbook_116": null,
+            "NYYM_scrapbook_118": null,
+            "NYYM_scrapbook_119": null,
+            "NYYM_scrapbook_124": null,
+            "NYYM_scrapbook_128": null,
+            "NYYM_scrapbook_132": null,
+            "NYYM_scrapbook_137": null,
+            "NYYM_scrapbook_140": null,
+            "NYYM_scrapbook_143": null,
+            "NYYM_scrapbook_156": null,
+            "NYYM_scrapbook_161": null,
+            "NYYM_scrapbook_162": null,
+            "NYYM_scrapbook_163": null,
+            "NYYM_scrapbook_174": null,
+            "NYYM_scrapbook_192": null,
+            "NYYM_scrapbook_193": null,
+            "NYYM_scrapbook_194": null,
+            "NYYM_scrapbook_196": null,
+            "NYYM_scrapbook_199": null,
+            "NYYM_scrapbook_201": null,
+            "NYYM_scrapbook_202": null,
+            "NYYM_scrapbook_204": null,
+            "NYYM_scrapbook_205": null,
+            "NYYM_scrapbook_208": null,
+            "NYYM_scrapbook_209": null,
+            "NYYM_scrapbook_211": null,
+            "NYYM_scrapbook_214": null,
+            "NYYM_scrapbook_215": null,
+            "NYYM_scrapbook_217": null
+        },
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_042": null,
+            "SW_Sutcliff_Page_055": null,
+            "SW_Sutcliff_Page_141": null,
+            "SW_Sutcliff_Page_194": null,
+            "SW_Sutcliff_Page_198": null
+        }
+    },
+    "willif": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        }
+    },
+    "maide": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        }
+    },
+    "germpm": {
+        "swarthmore/SW_JM1793.xml": {
+            "title": "Joseph Moore's Journal",
+            "null": null
+        }
+    },
+    "Five Nations": {
+        "swarthmore/SW_JP1796.xml": {
+            "title": "John Peirce Notes, on a visit to Several Tribes of Indians, 1796",
+            "SW_JP1796_040": null
+        }
+    },
+    "meetmuncy": {
+        "swarthmore/SW_JS1797.xml": {
+            "title": "Joshua Sharpless' Journal [Visit to Upper Canada and Parts Adjacent], 1797",
+            "SW_JS1797_Page_68": null
+        }
+    },
+    "meetcatta": {
+        "swarthmore/SW_JS1797.xml": {
+            "title": "Joshua Sharpless' Journal [Visit to Upper Canada and Parts Adjacent], 1797",
+            "SW_JS1797_Page_69": null
+        }
+    },
+    "": {
+        "swarthmore/SW_JS1797.xml": {
+            "title": "Joshua Sharpless' Journal [Visit to Upper Canada and Parts Adjacent], 1797",
+            "SW_JS1797_Page_73": null
+        },
+        "swarthmore/SW_JS1798.xml": {
+            "title": "Joshua Sharpless's Journal Into Indian Country, 1798",
+            "SW_JS1798_018": null
+        }
+    },
+    "tusc": {
+        "swarthmore/SW_Letters_1794_00_00.xml": {
+            "title": "Letter to the Quarterly Meeting of Friends at Hopewell",
+            "Misc_mss_1794_00_00002": null
+        }
+    },
+    "prince": {
+        "swarthmore/SW_Letters_1801_10a.xml": {
+            "title": "Copy of a manuscript respecting the American Indians (A)",
+            "SW_Letters_1801_10a_Page_01": null
+        }
+    },
+    "uscong": {
+        "swarthmore/SW_Letters_1801_10a.xml": {
+            "title": "Copy of a manuscript respecting the American Indians (A)",
+            "SW_Letters_1801_10a_Page_01": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_074": null,
+            "NYYM_scrapbook_143": null,
+            "NYYM_scrapbook_161": null,
+            "NYYM_scrapbook_162": null,
+            "NYYM_scrapbook_163": null,
+            "NYYM_scrapbook_216": null,
+            "NYYM_scrapbook_217": null
+        }
+    },
+    "brothertown": {
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_009": null,
+            "NYYM_minutes_Page_040": null,
+            "NYYM_minutes_Page_147": null,
+            "NYYM_minutes_Page_164": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_005": null,
+            "NYYM_scrapbook_041": null,
+            "NYYM_scrapbook_042": null
+        }
+    },
+    "pagan": {
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_024": null,
+            "NYYM_minutes_Page_029": null,
+            "NYYM_minutes_Page_047": null,
+            "NYYM_minutes_Page_087": null,
+            "NYYM_minutes_Page_122": null
+        },
+        "swarthmore/SW_Ripley.xml": {
+            "title": "The Bank of Faith and Works United",
+            "Ripley090": null,
+            "Ripley095": null,
+            "Ripley114": null,
+            "Ripley119": null
+        }
+    },
+    "montaukind": {
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_031": null,
+            "NYYM_minutes_Page_032": null,
+            "NYYM_minutes_Page_034": null,
+            "NYYM_minutes_Page_035": null,
+            "NYYM_minutes_Page_036": null,
+            "NYYM_minutes_Page_042": null,
+            "NYYM_minutes_Page_044": null,
+            "NYYM_minutes_Page_068": null
+        }
+    },
+    "shin": {
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_032": null,
+            "NYYM_minutes_Page_044": null,
+            "NYYM_minutes_Page_068": null,
+            "NYYM_minutes_Page_094": null,
+            "NYYM_minutes_Page_095": null,
+            "NYYM_minutes_Page_100": null,
+            "NYYM_minutes_Page_105": null
+        }
+    },
+    "chris": {
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_122": null
+        }
+    },
+    "broth": {
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_161": null
+        }
+    },
+    "tonaw": {
+        "swarthmore/SW_NYYM_minutes.xml": {
+            "title": "Minutes of the Committee on Indian Concern No 1",
+            "NYYM_minutes_Page_170": null,
+            "NYYM_minutes_Page_171": null
+        },
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_104": null,
+            "NYYM_scrapbook_111": null,
+            "NYYM_scrapbook_129": null,
+            "NYYM_scrapbook_171": null
+        }
+    },
+    "normis": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_022": null,
+            "NYYM_scrapbook_023": null,
+            "NYYM_scrapbook_025": null
+        }
+    },
+    "nystate": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_035": null,
+            "NYYM_scrapbook_076": null,
+            "NYYM_scrapbook_077": null
+        }
+    },
+    "nymindian": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_048": null,
+            "NYYM_scrapbook_049": null,
+            "NYYM_scrapbook_089": null,
+            "NYYM_scrapbook_091": null,
+            "NYYM_scrapbook_094": null,
+            "NYYM_scrapbook_120": null,
+            "NYYM_scrapbook_127": null,
+            "NYYM_scrapbook_130": null,
+            "NYYM_scrapbook_135": null,
+            "NYYM_scrapbook_136": null,
+            "NYYM_scrapbook_138": null,
+            "NYYM_scrapbook_148": null,
+            "NYYM_scrapbook_152": null,
+            "NYYM_scrapbook_160": null,
+            "NYYM_scrapbook_184": null,
+            "NYYM_scrapbook_190": null
+        },
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_255": null
+        }
+    },
+    "canad": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_052": null,
+            "NYYM_scrapbook_053": null,
+            "NYYM_scrapbook_061": null
+        }
+    },
+    "dutch": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_076": null
+        }
+    },
+    "masscw": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_077": null,
+            "NYYM_scrapbook_111": null
+        }
+    },
+    "meetscipio": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_101": null
+        }
+    },
+    "shawanee": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_116": null
+        }
+    },
+    "iym": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_119": null,
+            "NYYM_scrapbook_127": null,
+            "NYYM_scrapbook_130": null,
+            "NYYM_scrapbook_137": null,
+            "NYYM_scrapbook_147": null,
+            "NYYM_scrapbook_163": null,
+            "NYYM_scrapbook_196": null,
+            "NYYM_scrapbook_214": null,
+            "NYYM_scrapbook_216": null
+        }
+    },
+    "ogden": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_124": null,
+            "NYYM_scrapbook_125": null,
+            "NYYM_scrapbook_128": null,
+            "NYYM_scrapbook_129": null
+        }
+    },
+    "neym": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_135": null,
+            "NYYM_scrapbook_141": null,
+            "NYYM_scrapbook_143": null,
+            "NYYM_scrapbook_146": null,
+            "NYYM_scrapbook_147": null,
+            "NYYM_scrapbook_148": null,
+            "NYYM_scrapbook_149": null,
+            "NYYM_scrapbook_150": null,
+            "NYYM_scrapbook_151": null,
+            "NYYM_scrapbook_152": null,
+            "NYYM_scrapbook_155": null,
+            "NYYM_scrapbook_156": null,
+            "NYYM_scrapbook_161": null,
+            "NYYM_scrapbook_163": null,
+            "NYYM_scrapbook_190": null,
+            "NYYM_scrapbook_213": null,
+            "NYYM_scrapbook_216": null
+        }
+    },
+    "neymindian": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_142": null,
+            "NYYM_scrapbook_153": null,
+            "NYYM_scrapbook_155": null,
+            "NYYM_scrapbook_160": null,
+            "NYYM_scrapbook_190": null
+        }
+    },
+    "episc": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_201": null
+        }
+    },
+    "episco": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_202": null
+        }
+    },
+    "munsee": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_202": null
+        },
+        "haverford/hv_coatesi_account_1798.xml": {
+            "title": "Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY",
+            "hv_coatesi_account_1798_078": null
+        }
+    },
+    "peoria": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_203": null,
+            "NYYM_scrapbook_204": null
+        }
+    },
+    "jesuit": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_205": null
+        }
+    },
+    "sseneca": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_206": null
+        }
+    },
+    "seminole": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_208": null,
+            "NYYM_scrapbook_209": null,
+            "NYYM_scrapbook_210": null
+        }
+    },
+    "cond7": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_216": null,
+            "NYYM_scrapbook_217": null
+        }
+    },
+    "west": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_216": null
+        }
+    },
+    "iowaym": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_216": null
+        }
+    },
+    "penngov": {
+        "swarthmore/SW_NYYM_scrapbook.xml": {
+            "title": "New York Yearly Meeting Committee on Indian Concerns Scrapbook",
+            "NYYM_scrapbook_217": null
+        }
+    },
+    "meetbrad": {
+        "swarthmore/SW_RC1805a.xml": {
+            "title": "Some Account of Rachel Coope (Journal A)",
+            "SW_RC1805a_Page_09": null
+        }
+    },
+    "pymindian": {
+        "swarthmore/SW_RC1805a.xml": {
+            "title": "Some Account of Rachel Coope (Journal A)",
+            "SW_RC1805a_Page_09": null
+        },
+        "haverford/hv_coatesi_account_1798.xml": {
+            "title": "Account of I. Coates, J. Sharpless, & J. Pierce, visits to Indian Reservation, NY",
+            "hv_coatesi_account_1798_004": null,
+            "hv_coatesi_account_1798_006": null,
+            "hv_coatesi_account_1798_007": null,
+            "hv_coatesi_account_1798_027": null,
+            "hv_coatesi_account_1798_028": null
+        }
+    },
+    "meetngard": {
+        "swarthmore/SW_RC1805a.xml": {
+            "title": "Some Account of Rachel Coope (Journal A)",
+            "SW_RC1805a_Page_09": null
+        }
+    },
+    "buffc2": {
+        "swarthmore/SW_SH1799.xml": {
+            "title": "Letter from Henry Simmons to Israel Chapin",
+            "SW_SH1799_Page_01": null
+        }
+    },
+    "nymm": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_026": null
+        }
+    },
+    "meetnord": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_027": null,
+            "SW_Sutcliff_Page_063": null,
+            "SW_Sutcliff_Page_065": null,
+            "SW_Sutcliff_Page_076": null
+        }
+    },
+    "pqm": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_027": null
+        }
+    },
+    "meetprov": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_032": null
+        },
+        "haverford/hv_allinsonw_diary_1809_v1.xml": {
+            "title": "William Allinson Diary, Volume 1",
+            "hv_allinsonw_diary_1809_v1_006": null
+        }
+    },
+    "meetfrank": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_037": null
+        }
+    },
+    "meetbalt": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_057": null,
+            "SW_Sutcliff_Page_187": null,
+            "SW_Sutcliff_Page_189": null,
+            "SW_Sutcliff_Page_198": null,
+            "SW_Sutcliff_Page_199": null
+        }
+    },
+    "meetmid": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_072": null,
+            "SW_Sutcliff_Page_073": null,
+            "SW_Sutcliff_Page_180": null
+        }
+    },
+    "freeq": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_073": null
+        }
+    },
+    "pinsm": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_083": null
+        }
+    },
+    "meetmer": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_109": null,
+            "SW_Sutcliff_Page_111": null,
+            "SW_Sutcliff_Page_179": null,
+            "SW_Sutcliff_Page_180": null,
+            "SW_Sutcliff_Page_217": null,
+            "SW_Sutcliff_Page_226": null,
+            "SW_Sutcliff_Page_238": null,
+            "SW_Sutcliff_Page_254": null,
+            "SW_Sutcliff_Page_259": null,
+            "SW_Sutcliff_Page_274": null
+        }
+    },
+    "meetrad": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_109": null
+        }
+    },
+    "meethav": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_111": null
+        }
+    },
+    "meethudson": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_122": null,
+            "SW_Sutcliff_Page_123": null,
+            "SW_Sutcliff_Page_127": null,
+            "SW_Sutcliff_Page_128": null
+        }
+    },
+    "stanfordqm": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_125": null,
+            "SW_Sutcliff_Page_127": null
+        }
+    },
+    "meettroy": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_129": null
+        }
+    },
+    "harvcoll": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_135": null
+        }
+    },
+    "blacm": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_157": null
+        }
+    },
+    "meetelk": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_170": null
+        }
+    },
+    "meethalf": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_171": null
+        }
+    },
+    "meetwdc": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_191": null
+        }
+    },
+    "meetwestq": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_201": null
+        }
+    },
+    "conestoga": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_240": null
+        }
+    },
+    "meetvall2": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_245": null
+        }
+    },
+    "abingqm": {
+        "swarthmore/SW_Sutcliff.xml": {
+            "title": "Travels in Some Parts of North America, in the Years 1804, 1805, & 1806, by Robert Sutcliff",
+            "SW_Sutcliff_Page_265": null
+        }
+    },
+    "nyman": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_009": null,
+            "SW_WH1793_Page_012": null,
+            "SW_WH1793_Page_015": null
+        }
+    },
+    "nyfss": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_009": null,
+            "SW_WH1793_Page_076": null,
+            "SW_WH1793_Page_077": null,
+            "SW_WH1793_Page_156": null,
+            "SW_WH1793_Page_226": null,
+            "SW_WH1793_Page_250": null,
+            "SW_WH1793_Page_270": null,
+            "SW_WH1793_Page_274": null
+        }
+    },
+    "ambib": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_009": null,
+            "SW_WH1793_Page_045": null,
+            "SW_WH1793_Page_152": null,
+            "SW_WH1793_Page_153": null,
+            "SW_WH1793_Page_264": null,
+            "SW_WH1793_Page_266": null,
+            "SW_WH1793_Page_279": null,
+            "SW_WH1793_Page_280": null,
+            "SW_WH1793_Page_283": null,
+            "SW_WH1793_Page_342": null,
+            "SW_WH1793_Page_343": null
+        }
+    },
+    "nysav": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_009": null,
+            "SW_WH1793_Page_018": null
+        }
+    },
+    "socref": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_009": null,
+            "SW_WH1793_Page_017": null,
+            "SW_WH1793_Page_018": null,
+            "SW_WH1793_Page_086": null
+        }
+    },
+    "humso": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_017": null
+        }
+    },
+    "spaup": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_017": null,
+            "SW_WH1793_Page_018": null,
+            "SW_WH1793_Page_280": null,
+            "SW_WH1793_Page_283": null,
+            "SW_WH1793_Page_296": null
+        }
+    },
+    "excop": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_040": null
+        }
+    },
+    "nysen": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_050": null,
+            "SW_WH1793_Page_051": null,
+            "SW_WH1793_Page_090": null,
+            "SW_WH1793_Page_147": null,
+            "SW_WH1793_Page_300": null,
+            "SW_WH1793_Page_301": null,
+            "SW_WH1793_Page_302": null,
+            "SW_WH1793_Page_316": null
+        }
+    },
+    "wee": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_128": null
+        }
+    },
+    "eskimo": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_151": null
+        }
+    },
+    "vym": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_274": null
+        }
+    },
+    "nyhis": {
+        "swarthmore/SW_TE1834.xml": {
+            "title": "Life of Thomas Eddy",
+            "SW_WH1793_Page_283": null,
+            "SW_WH1793_Page_324": null
+        }
+    },
+    "cree": {
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "iroquois": {
+        "swarthmore/SW_WH1793.xml": {
+            "title": "Wm. Hartshorne's Journal of Journey to Detroit 1793",
+            "SW_WH1793_Page_40": null
+        }
+    },
+    "meethorsh": {
+        "haverford/hv_allinsonw_diary_1809_v3.xml": {
+            "title": "William Allinson Diary, Volume 3",
+            "hv_allinsonw_diary_1809_v3_033": null
+        },
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_005": null
+        }
+    },
+    "cantb": {
+        "haverford/hv_bacond_account_1794.xml": {
+            "title": "Some Account of our Journey to Cannandaigue",
+            "hv_bacond_account_1794_033": null
+        }
+    },
+    "sspck": {
+        "haverford/hv_sansomj_letters_1796.xml": {
+            "title": "A series of letters written on a Journey to the Oneida, Onondago, and Cayuga Tribes of the Five Nations, by Joseph Sansom",
+            "hv_sansomj_letters_1796_020": null
+        }
+    },
+    "meetlondon": {
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_005": null
+        }
+    },
+    "onondago": {
+        "haverford/hv_swaynej_diary_1798.xml": {
+            "title": "Joel Swayne Diary",
+            "hv_swaynej_diary_1798_083": null
+        }
+    }
+}

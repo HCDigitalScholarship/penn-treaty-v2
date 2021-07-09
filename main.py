@@ -37,6 +37,10 @@ async def about(request: Request):
 async def about(request: Request):
     return templates.TemplateResponse('credits.html', {'request': request})
 
+@app.get("/map-gallery")
+async def map_gallery(request: Request):
+    return templates.TemplateResponse('map_gallery.html', {'request': request})
+
 @app.get("/")
 async def root(request: Request):
     return templates.TemplateResponse('homepage.html', {'request': request})
@@ -229,7 +233,15 @@ def person_info(request: Request, unique_key: str):
         pass
     list_of_dict = [dict] # TODO add exception?
 
-    return templates.TemplateResponse('person.html', {'request': request, 'list_of_dict': list_of_dict})
+    with open('Scripts/people_related_pages.txt') as json_file:
+        people_related_pages = json.load(json_file)
+
+    if unique_key in people_related_pages.keys():
+        related_pages = people_related_pages[unique_key]
+    else:
+        related_pages = {0: {'title': 'No related documents found'}}
+    
+    return templates.TemplateResponse('person.html', {'request': request, 'list_of_dict': list_of_dict, 'related_pages': related_pages})
 # TODO jpeir1 results in internal server error, seen in tei_xml_files/swarthmore/SW_JC1796.xml, probably misspelled jpier1?
 
 # displays data on a place based on their records from the TEI csv data
@@ -258,7 +270,14 @@ def place_info(request: Request, unique_key: str):
         pass
 
     list_of_dict = [dict] # TODO add exception?
-    return templates.TemplateResponse('place.html', {'request': request, 'list_of_dict': list_of_dict})
+
+    with open('Scripts/places_related_pages.txt') as json_file:
+        places_related_pages = json.load(json_file)  
+    if unique_key in places_related_pages.keys():
+        related_pages = places_related_pages[unique_key]
+    else:
+        related_pages = {0: {'title': 'No related documents found'}}
+    return templates.TemplateResponse('place.html', {'request': request, 'list_of_dict': list_of_dict, 'related_pages': related_pages})
 
 # displays data on a organization based on their records from the TEI csv data
 @app.get("/organizations/{unique_key}")
@@ -310,7 +329,15 @@ def organization_info(request: Request, unique_key: str):
         pass
 
     list_of_dict = [dict]  # TODO add exception?
-    return templates.TemplateResponse('organization.html', {'request': request, 'list_of_dict': list_of_dict})
+
+    
+    with open('Scripts/org_related_pages.txt') as json_file:
+        org_related_pages = json.load(json_file)
+    if unique_key in org_related_pages.keys():
+        related_pages = org_related_pages[unique_key]
+    else:
+        related_pages = {0: {'title': 'No related documents found'}}
+    return templates.TemplateResponse('organization.html', {'request': request, 'list_of_dict': list_of_dict, 'related_pages': related_pages})
 
 @app.get("/profiles")
 async def profiles(request: Request):
@@ -439,7 +466,11 @@ def full_manuscript(request: Request, manuscript_name: str, page_name_input: str
     soup = BeautifulSoup(open(path, encoding="utf8"), 'lxml')
 
     # gets the title of the page
-    title = soup.find('title').text
+    title = soup.find('title')
+    title = title.string.split(':')[0]
+    # contents = re.sub('  +', '', contents)
+    title = re.sub("\s+", ' ', title)
+
 
 
     # removes all the xml line break tags to make parsing easier
