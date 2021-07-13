@@ -45,6 +45,17 @@ async def map_gallery(request: Request):
 async def root(request: Request):
     return templates.TemplateResponse('homepage.html', {'request': request})
 
+@app.get("/overviewmap_traveler")
+async def map_traveler(request: Request):
+    return templates.TemplateResponse('overviewmap_traveler.html', {'request': request})
+
+@app.get("/overviewmap_date")
+async def map_date(request: Request):
+    return templates.TemplateResponse('overviewmap_date.html', {'request': request})
+
+@app.get("/overviewmap_popularlocations")
+async def map_popularlocations(request: Request):
+    return templates.TemplateResponse('overviewmap_popularlocations.html', {'request': request})
 
 # creates the main page of the app, which shows a list of all the manuscripts
 # links are by a for loop in the homepage.html template
