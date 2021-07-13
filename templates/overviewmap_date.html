@@ -28,6 +28,47 @@
    .leaflet-bottom.leaflet-right, .leaflet-bottom.leaflet-right a {
     z-index: 1 !important;
     }
+
+    
+    .dropdown-button { 
+    background-color: #0000b3; 
+    color: white; 
+    padding: 16px; 
+    font-size: 16px; 
+    border: none; 
+    } 
+    .dropdown { 
+        position: relative; 
+        display: inline-block; 
+    } 
+    /* Dropdown Content (Hidden by Default) */ 
+    .dropdown-list { 
+        display: none; 
+        position: absolute; 
+        background-color: #f1f1f1; 
+        min-width: 160px; 
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); 
+        z-index: 1; 
+    } 
+    /* Links inside the dropdown */ 
+    .dropdown-list a { 
+        color: black; 
+        padding: 12px 16px; 
+        text-decoration: none; 
+        display: block; 
+    } 
+    /* Change color of dropdown links on hover */ 
+    .dropdown-list a:hover { 
+        background-color: #ddd; 
+    } 
+    /* Show the dropdown list on hover */ 
+    .dropdown:hover .dropdown-list { 
+        display: block; 
+    } 
+    /* Change the background color of the dropdown button when the dropdown list is shown */ 
+    .dropdown:hover .dropdown-button { 
+        background-color: #6666ff; 
+    } 
    
    </style>
 
@@ -54,23 +95,21 @@
     {% include 'header.html' %}
 
 
-
-  <div id=row2>
-    <br>
-    <div class=container>
-  <h1 style="font-size:25px; font-family:Alegreya Sans SC"><b>View Map Organized By: </b>
-  <i>
-  <a href="/overviewmap_traveler"  style="color:#2d3135">Traveler</a>
-  <b>/</b>
-  <a href="/overviewmap_date" style="color:#4c5259"><b>Date</b></a>
-<!--  <b>/</b>
-   <a href="/overviewmap_residence" style="color:#2d3135">Residence</a>
-  -->  <b>/</b>
-  <a href="/overviewmap_popularlocations" style="color:#2d3135">Popular Locations</a>
-</i> </h1>
-    <br>
-  </div>
-</div>
+    <div id=row2>
+        <br>
+        <div class=container>
+      <h1 style="font-size:25px;"><b>View Map Organized By: </b> </h1>
+        <div class="dropdown"> 
+            <button class="dropdown-button">Date</button> 
+            <div class="dropdown-list"> 
+                <a href="/overviewmap_traveler">Traveler</a> 
+                <a href="/overviewmap_date">Date</a> 
+                <a href="/overviewmap_popularlocations">Popular Locations</a> 
+            </div> 
+        </div>
+        <br>
+      </div>
+    </div>
 
 
 <div id = "row3" style="padding-bottom: 0px">
